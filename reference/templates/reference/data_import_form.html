@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Import Form - TagPro League</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        h4 {
+            margin-top: 25px;
+            margin-bottom: 5px;
+        }
+        .progress {
+            background-color: #e9ecef;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            height: 20px;
+            position: relative;
+        }
+        .progress-bar {
+            background-color: #007cba;
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-section {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .form-col-wide {
+            flex: 1.4;
+        }
+        .form-col {
+            flex: 1;
+        }
+        .form-col-narrow {
+            flex: 0.6;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .readonly {
+            background-color: #f8f9fa;
+            color: #6c757d;
+        }
+        .player-row {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0 15px;
+            margin-bottom: 15px;
+            background-color: white;
+        }
+        .player-readonly {
+            background-color: #f8f9fa;
+        }
+        button {
+            background-color: #007cba;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #005a87;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+        .messages {
+            margin-bottom: 20px;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .message.error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .message.success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .eu-link {
+            color: #007cba;
+            text-decoration: none;
+        }
+        .eu-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Data Import &ndash; {{ current_index }} of {{ total_urls }}</h2>
+    
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+            <div class="message {{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <form method="post" id="dataForm">
+        {% csrf_token %}
+        
+        <!-- Hidden fields to maintain state -->
+        <input type="hidden" name="season_filter_string" value="{{ season_filter_string }}">
+        <input type="hidden" name="remaining_urls" value="{{ remaining_urls|join:'|||' }}">
+        <input type="hidden" name="current_index" value="{{ current_index }}">
+        <input type="hidden" name="total_urls" value="{{ total_urls }}">
+        
+        <!-- Game Information Section -->
+        <div class="form-section">
+            <div class="form-row">
+                <div class="form-col-wide">
+                    <label>tagpro.eu URL:</label>
+                    <a href="{{ form_data.eu_url }}" target="_blank" class="eu-link">{{ form_data.eu_url }}</a>
+                    <input type="hidden" name="eu_url" value="{{ form_data.eu_url }}">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="red_team">Red Team:</label>
+                    <select id="red_team" name="red_team">
+                        <option value="">-- No Team Found --</option>
+                        {% for team in team_seasons %}
+                            <option value="{{ team.id }}" {% if team.id == form_data.red_team.id %}selected{% endif %}>
+                                {{ team.franchise.name }} ({{ team.season.name }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-col">
+                    <label for="blue_team">Blue Team:</label>
+                    <select id="blue_team" name="blue_team">
+                        <option value="">-- No Team Found --</option>
+                        {% for team in team_seasons %}
+                            <option value="{{ team.id }}" {% if team.id == form_data.blue_team.id %}selected{% endif %}>
+                                {{ team.franchise.name }} ({{ team.season.name }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-col-wide">
+                    <label for="match">Match:</label>
+                    <select id="match" name="match">
+                        <option value="">-- New Match --</option>
+                        {% for match in matches %}
+                            <option value="{{ match.id }}" {% if match.id == form_data.match.id %}selected{% endif %}>
+                                {{ match.team1.franchise.name }} vs {{ match.team2.franchise.name }} - {{ match.week }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-col-narrow">
+                    <label for="week">Week:</label>
+                    <input type="text" id="week" name="week" value="{{ form_data.week }}">
+                </div>
+                <div class="form-col-narrow">
+                    <label for="game_in_match">Game:</label>
+                    <input type="text" id="game_in_match" name="game_in_match" value="{{ form_data.game_in_match }}">
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-col">
+                    <label>Red:</label> {{ form_data.red_team_raw_name }}
+                    <input type="hidden" name="red_team_raw_name" value="{{ form_data.red_team_raw_name }}">
+                </div>
+                <div class="form-col">
+                    <label>Blue:</label> {{ form_data.blue_team_raw_name }}
+                    <input type="hidden" name="blue_team_raw_name" value="{{ form_data.blue_team_raw_name }}">
+                </div>
+                <div class="form-col">
+                    <label>Red Score:</label> {{ form_data.red_team_score }}
+                    <input type="hidden" name="red_team_score" value="{{ form_data.red_team_score }}">
+                </div>
+                <div class="form-col">
+                    <label>Blue Score:</label> {{ form_data.blue_team_score }}
+                    <input type="hidden" name="blue_team_score" value="{{ form_data.blue_team_score }}">
+                </div>
+                <div class="form-col-wide">
+                    <label>Map:</label> {{ form_data.map_name }} ({{ form_data.map_id }})
+                    <input type="hidden" name="map_name" value="{{ form_data.map_name }}">
+                    <input type="hidden" name="map_id" value="{{ form_data.map_id }}">
+                </div>
+                <div class="form-col">
+                    <label>Date:</label> {{ form_data.date|date:"Y-m-d" }}
+                    <input type="hidden" name="date" value="{{ form_data.date|date:'Y-m-d' }}">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Players Section -->
+        <div class="form-section">
+            {% for player in form_data.players %}
+            <h4>{{ player.game_username }} ({{ player.game_team }})</h4>
+            
+            <div class="form-row" style="display: none;">
+                <div class="form-col player-readonly">
+                    <label>Game Username:</label>
+                    <input type="text" value="{{ player.game_username }}" class="readonly" readonly>
+                    <input type="hidden" name="game_username_{{ forloop.counter0 }}" value="{{ player.game_username }}">
+                </div>
+                <div class="form-col player-readonly">
+                    <label>Game Team:</label>
+                    <input type="text" name="game_team_{{ forloop.counter0 }}" value="{{ player.game_team }}" class="readonly" readonly>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-col">
+                    <label for="player_{{ forloop.counter0 }}">Player:</label>
+                    <select id="player_{{ forloop.counter0 }}" name="player_{{ forloop.counter0 }}">
+                        <option value="">-- New Player --</option>
+                        {% for p in all_players %}
+                            <option value="{{ p.id }}" {% if p.id == player.player.id %}selected{% endif %}>
+                                {{ p.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-col-wide">
+                    <label for="player_season_{{ forloop.counter0 }}">Player season:</label>
+                    <select id="player_season_{{ forloop.counter0 }}" name="player_season_{{ forloop.counter0 }}">
+                        <option value="">-- New Player Season --</option>
+                        {% for ps in player_seasons %}
+                            <option value="{{ ps.id }}" {% if ps.id == player.player_season.id %}selected{% endif %}>
+                                {{ ps.player.name }} ({{ ps.season.name }}) - {{ ps.team.franchise.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="form-col-narrow">
+                    <label for="player_username_{{ forloop.counter0 }}">Player name:</label>
+                    <input type="text" id="player_username_{{ forloop.counter0 }}" name="player_username_{{ forloop.counter0 }}" value="{{ player.player_username }}">
+                </div>
+                <div class="form-col-narrow">
+                    <label for="season_username_{{ forloop.counter0 }}">Season name:</label>
+                    <input type="text" id="season_username_{{ forloop.counter0 }}" name="season_username_{{ forloop.counter0 }}" value="{{ player.season_username }}">
+                </div>
+                <div class="form-col">
+                    <label for="season_team_{{ forloop.counter0 }}">Team:</label>
+                    <select id="season_team_{{ forloop.counter0 }}" name="season_team_{{ forloop.counter0 }}">
+                        <option value="">-- No Team --</option>
+                        {% for team in team_seasons %}
+                            <option value="{{ team.id }}" {% if team.id == player.season_team.id %}selected{% endif %}>
+                                {{ team.franchise.name }} ({{ team.season.name }})
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="form-row" style="justify-content: center;">
+            <button type="submit" name="submit_game_data">Save and Continue</button>
+            <a href="{% url 'import_data' %}" style="margin-top: 10px; display: inline-block; text-align: center;">Cancel</a>
+        </div>
+    </form>
+
+    <script>
+        // Auto-populate player dropdown based on player_season selection
+        document.addEventListener('DOMContentLoaded', function() {
+            const playerSeasonSelects = document.querySelectorAll('[name^="player_season_"]');
+            
+            playerSeasonSelects.forEach(function(select) {
+                select.addEventListener('change', function() {
+                    const index = this.name.split('_')[2];
+                    const playerSelect = document.querySelector(`[name="player_${index}"]`);
+                    const playerUsernameInput = document.querySelector(`[name="player_username_${index}"]`);
+                    const seasonUsernameInput = document.querySelector(`[name="season_username_${index}"]`);
+                    const seasonTeamSelect = document.querySelector(`[name="season_team_${index}"]`);
+                    
+                    if (this.value) {
+                        // Get the selected option text and extract player info
+                        const selectedOption = this.options[this.selectedIndex];
+                        const text = selectedOption.text;
+                        
+                        // Extract player name (before the first parenthesis)
+                        const playerName = text.split('(')[0].trim();
+                        
+                        // Find and select the matching player
+                        for (let option of playerSelect.options) {
+                            if (option.text === playerName) {
+                                playerSelect.value = option.value;
+                                break;
+                            }
+                        }
+                        
+                        // Update usernames if they're currently empty or match game username
+                        if (!playerUsernameInput.value || playerUsernameInput.value === document.querySelector(`[name="game_username_${index}"]`).value) {
+                            playerUsernameInput.value = playerName;
+                        }
+                        
+                        // Extract season username from player season option if available
+                        // This would need to be enhanced with actual data from the backend
+                    }
+                });
+            });
+            
+            // Auto-populate team dropdowns when red/blue team changes
+            const redTeamSelect = document.getElementById('red_team');
+            const blueTeamSelect = document.getElementById('blue_team');
+            
+            function updatePlayerTeamOptions() {
+                const redTeamId = redTeamSelect.value;
+                const blueTeamId = blueTeamSelect.value;
+                
+                // Update season_team dropdowns for players based on game team
+                const seasonTeamSelects = document.querySelectorAll('[name^="season_team_"]');
+                seasonTeamSelects.forEach(function(select) {
+                    const index = select.name.split('_')[2];
+                    const gameUsername = document.querySelector(`[name="game_username_${index}"]`).value;
+                    
+                    // You could enhance this to auto-select based on game team
+                    // For now, just ensure the options are available
+                });
+            }
+            
+            redTeamSelect.addEventListener('change', updatePlayerTeamOptions);
+            blueTeamSelect.addEventListener('change', updatePlayerTeamOptions);
+        });
+    </script>
+</body>
+</html>

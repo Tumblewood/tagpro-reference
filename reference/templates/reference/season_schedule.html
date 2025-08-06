@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ season.name }} Schedule - TagPro League</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .season-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .season-selector {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .season-selector select {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+        }
+        .season-nav {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+        .season-nav span {
+            margin: 0 5px;
+        }
+        .season-nav a {
+            margin: 0 5px;
+            color: #007cba;
+        }
+        .season-nav .current {
+            color: #333;
+            font-weight: bold;
+        }
+        
+        /* Schedule-specific styles */
+        .week-section {
+            margin-bottom: 40px;
+        }
+        .week-title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007cba;
+            padding-bottom: 5px;
+        }
+        .matches-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .match-box {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            flex: 0 1 auto;
+        }
+        .match-date {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .box-score {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        .box-score th {
+            background-color: #e9ecef;
+            padding: 8px 6px;
+            text-align: center;
+            border: 1px solid #ccc;
+            font-weight: bold;
+        }
+        .box-score td {
+            padding: 8px 6px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        .team-name-cell {
+            text-align: left !important;
+            padding-left: 10px;
+        }
+        .team-name-cell a,
+        .no-games-teams a {
+            color: #007cba;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .team-name-cell a:hover,
+        .no-games-teams a:hover {
+            text-decoration: underline;
+        }
+        .winning-score {
+            font-weight: bold;
+        }
+        .winning-total {
+            font-weight: bold;
+            background-color: #d4edda;
+        }
+        .overtime {
+            font-size: 0.6em;
+            vertical-align: super;
+        }
+        
+        /* No games match styling */
+        .no-games-match {
+            text-align: center;
+            padding: 15px;
+            color: #666;
+        }
+        .no-games-teams {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .season-title {
+                font-size: 2em;
+            }
+            .matches-container {
+                flex-direction: column;
+            }
+            .match-box {
+                min-width: unset;
+            }
+            .box-score {
+                font-size: 12px;
+            }
+            .box-score th,
+            .box-score td {
+                padding: 6px 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="season-title">{{ season.name }} Schedule</h1>
+        
+        <div class="season-selector">
+            <label for="season-dropdown">Switch Season: </label>
+            <select id="season-dropdown" onchange="changeSeason(this.value)">
+                {% for league_season in league_seasons %}
+                    <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                        {{ league_season.name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="season-nav">
+            <a href="{% url 'season_home' season.id %}">Home</a> |
+            <span class="current">Schedule</span> |
+            <a href="{% url 'season_stats' season.id %}">Stats</a> |
+            <a href="{% url 'season_rosters' season.id %}">Rosters</a>
+        </div>
+        
+        {% for week_data in schedule_data %}
+        <div class="week-section">
+            <h2 class="week-title">{{ week_data.week }}</h2>
+            
+            <div class="matches-container">
+                {% for match_data in week_data.matches %}
+                <div class="match-box">
+                    <div class="match-date">{{ match_data.match.date|date:"n/j" }}</div>
+                    
+                    {% if match_data.has_games %}
+                    <table class="box-score">
+                        <thead>
+                            <tr>
+                                <th>Team</th>
+                                {% for game in match_data.games %}
+                                <th>G{{ forloop.counter }}</th>
+                                {% endfor %}
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="team-name-cell">
+                                    <a href="{% url 'team_season' match_data.match.team1.id %}">
+                                        {{ match_data.match.team1.name }}
+                                    </a>
+                                </td>
+                                {% for game in match_data.games %}
+                                <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
+                                    {{ game.team1_score }}{% if game.is_overtime and game.winner == 'team1' %}<span class="overtime">O</span>{% endif %}
+                                </td>
+                                {% endfor %}
+                                <td class="{% if match_data.match_winner == 'team1' %}winning-total{% endif %}">
+                                    <strong>{{ match_data.team1_total }}</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="team-name-cell">
+                                    <a href="{% url 'team_season' match_data.match.team2.id %}">
+                                        {{ match_data.match.team2.name }}
+                                    </a>
+                                </td>
+                                {% for game in match_data.games %}
+                                <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
+                                    {{ game.team2_score }}{% if game.is_overtime and game.winner == 'team2' %}<span class="overtime">O</span>{% endif %}
+                                </td>
+                                {% endfor %}
+                                <td class="{% if match_data.match_winner == 'team2' %}winning-total{% endif %}">
+                                    <strong>{{ match_data.team2_total }}</strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    {% else %}
+                    <div class="no-games-match">
+                        <div class="no-games-teams">
+                            <a href="{% url 'team_season' match_data.match.team1.id %}">{{ match_data.match.team1.name }}</a>
+                            <br>vs<br>
+                            <a href="{% url 'team_season' match_data.match.team2.id %}">{{ match_data.match.team2.name }}</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% empty %}
+        <div style="text-align: center; padding: 50px; color: #6c757d;">
+            No matches scheduled for this season.
+        </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        function changeSeason(seasonId) {
+            if (seasonId) {
+                window.location.href = `/season/${seasonId}/schedule/`;
+            }
+        }
+    </script>
+</body>
+</html>
