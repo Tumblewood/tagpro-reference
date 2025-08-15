@@ -1,0 +1,109 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Search Results for "{{ query }}" - TagPro Reference{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">Search Results</h1>
+    
+    {% if query %}
+        <div style="text-align: center; margin: 1rem 0; color: #666; font-size: 1.1rem;">
+            Showing results for: <strong>"{{ query }}"</strong>
+        </div>
+    {% endif %}
+    
+    {% if no_results %}
+        <div style="text-align: center; padding: 3rem; color: #6c757d; font-size: 1.1rem;">
+            {% if query and query|length < 2 %}
+                Please enter at least 2 characters to search.
+            {% else %}
+                No results found{% if query %} for "{{ query }}"{% endif %}.
+            {% endif %}
+        </div>
+    {% else %}
+        
+        {% if leagues %}
+            <section style="margin: 2.5rem 0;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #333; border-bottom: 2px solid #57c; padding-bottom: 0.5rem;">
+                    Leagues ({{ leagues|length }})
+                </h2>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    {% for league in leagues %}
+                        <li style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-left: 4px solid #57c; border-radius: 4px;">
+                            <a href="{% url 'league_history' league.id %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
+                                League - {{ league.name }}
+                            </a>
+                            {% if league.abbr %}
+                                <span style="color: #666; margin-left: 0.5rem; font-size: 0.9rem;">
+                                    [{{ league.abbr }}]
+                                </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        
+        {% if franchises %}
+            <section style="margin: 2.5rem 0;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #333; border-bottom: 2px solid #57c; padding-bottom: 0.5rem;">
+                    Franchises ({{ franchises|length }})
+                </h2>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    {% for franchise in franchises %}
+                        <li style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-left: 4px solid #57c; border-radius: 4px;">
+                            <a href="{% url 'franchise_history' franchise.id %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
+                                Franchise - {{ franchise.name }}
+                            </a>
+                            {% if franchise.abbr %}
+                                <span style="color: #666; margin-left: 0.5rem; font-size: 0.9rem;">
+                                    [{{ franchise.abbr }}]
+                                </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        
+        {% if teams %}
+            <section style="margin: 2.5rem 0;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #333; border-bottom: 2px solid #57c; padding-bottom: 0.5rem;">
+                    Teams ({{ teams|length }})
+                </h2>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    {% for team in teams %}
+                        <li style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-left: 4px solid #57c; border-radius: 4px;">
+                            <a href="{% url 'team_season' team.id %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
+                                {{ team.name }} ({{ team.season.name }})
+                            </a>
+                            {% if team.abbr %}
+                                <span style="color: #666; margin-left: 0.5rem; font-size: 0.9rem;">
+                                    [{{ team.abbr }}]
+                                </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        
+        {% if players %}
+            <section style="margin: 2.5rem 0;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #333; border-bottom: 2px solid #57c; padding-bottom: 0.5rem;">
+                    Players ({{ players|length }})
+                </h2>
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    {% for player in players %}
+                        <li style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-left: 4px solid #57c; border-radius: 4px;">
+                            <a href="{% url 'player_history' player.id %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
+                                {{ player.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
+        
+    {% endif %}
+{% endblock %}

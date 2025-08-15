@@ -1,0 +1,30 @@
+/* Table sorting styles */
+
+/* Sortable header styles */
+th[data-sortable] {
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+}
+
+/* Sort indicator styles */
+.sort-indicator {
+    font-size: 0.8rem;
+    color: #999;
+    margin-left: 0.25rem;
+}
+
+.sort-indicator.active {
+    color: #111;
+    font-weight: bold;
+}
+
+/* Cursor pointer for sortable headers */
+th[data-sortable] {
+    cursor: pointer;
+}
+
+/* Visual feedback for sorting */
+th[data-sortable]:active {
+    background-color: #79d !important;
+}

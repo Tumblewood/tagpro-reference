@@ -1,0 +1,208 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ team.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/rosters.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/schedule.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ team.name }}</h1>
+    
+    <div style="text-align: center; margin: 1.5rem 0; font-size: 1.1rem;">
+        Franchise: <a href="{% url 'franchise_history' franchise.id %}" style="color: #07b; text-decoration: none; font-weight: bold;">
+            {{ franchise.name }}
+        </a>
+        |
+        Season: <a href="{% url 'season_home' season.id %}" style="color: #07b; text-decoration: none; font-weight: bold;">
+            {{ season.name }}
+        </a>
+    </div>
+    
+    <div style="text-align: center; margin: 1.5rem 0; font-size: 1rem; color: #666;">
+        Rank: {{ rank }} | Playoff Finish: {{ playoff_finish }} | Record: {{ record }} | 
+        Captain: 
+        {% if team.captain %}
+            <a href="{% url 'player_history' team.captain.id %}" style="color: #07b; text-decoration: none;">
+                {{ team.captain.name }}
+            </a>
+        {% else %}
+            —
+        {% endif %}
+        {% if team.co_captain %}
+            | Co-Captain: 
+            <a href="{% url 'player_history' team.co_captain.id %}" style="color: #07b; text-decoration: none;">
+                {{ team.co_captain.name }}
+            </a>
+        {% endif %}
+    </div>
+    
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Roster</h2>
+    
+    <div class="rosters-container">
+        <table class="roster-table">
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for player_season in players %}
+                <tr>
+                    <td class="player-name">
+                        <a href="{% url 'player_history' player_season.player.id %}">
+                            {{ player_season.playing_as }}
+                        </a>
+                    </td>
+                    <td class="position">{{ player_season.get_position_display }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="2" class="empty-roster">No players found</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Stats</h2>
+    
+    <div class="stat-table-container">
+        <table class="stat-table" id="stats-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="text">Player</th>
+                    <th data-sortable data-type="number">Min</th>
+                    <th data-sortable data-type="number">Tags</th>
+                    <th data-sortable data-type="number">Pops</th>
+                    <th data-sortable data-type="number">Grabs</th>
+                    <th data-sortable data-type="number">Drops</th>
+                    <th data-sortable data-type="number">Hold</th>
+                    <th data-sortable data-type="number">Caps</th>
+                    <th data-sortable data-type="number">Prevent</th>
+                    <th data-sortable data-type="number">Returns</th>
+                    <th data-sortable data-type="number">Pups</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in team_stats %}
+                <tr>
+                    <td class="team-name">
+                        <a href="{% url 'player_history' stat.player.id %}">
+                            {{ stat.player.name }}
+                        </a>
+                    </td>
+                    <td>{{ stat.time_played_min }}</td>
+                    <td>{{ stat.tags }}</td>
+                    <td>{{ stat.pops }}</td>
+                    <td>{{ stat.grabs }}</td>
+                    <td>{{ stat.drops }}</td>
+                    <td>{{ stat.hold_sec }}</td>
+                    <td>{{ stat.captures }}</td>
+                    <td>{{ stat.prevent_sec }}</td>
+                    <td>{{ stat.returns }}</td>
+                    <td>{{ stat.powerups }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="11" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No stats found for this team.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Schedule</h2>
+    
+    <div class="matches-container">
+        {% for match_data in schedule_data %}
+            <div class="match-box">
+                <div class="match-date"><a href="{% url 'match_view' match_data.match.id %}">{{ match_data.match.week }} - {{ match_data.match.date|date:"n/j" }}</a></div>
+                
+                {% if match_data.has_games %}
+                <table class="box-score">
+                    <colgroup>
+                        <col>
+                        {% for game in match_data.games %}
+                        <col style="width: 2rem">
+                        {% endfor %}
+                        <col style="width: 2.5rem">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            {% for game in match_data.games %}
+                            <th>G{{ forloop.counter }}</th>
+                            {% endfor %}
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="team-name-cell">
+                                <a href="{% url 'team_season' match_data.match.team1.id %}">
+                                    {{ match_data.match.team1.name }}
+                                </a>
+                            </td>
+                            {% for game in match_data.games %}
+                            <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
+                                {{ game.team1_score }}{% if game.is_overtime and game.winner == 'team1' %}<span class="overtime">O</span>{% endif %}
+                            </td>
+                            {% endfor %}
+                            <td class="{% if match_data.match_winner == 'team1' %}winning-total{% endif %}">
+                                <strong>{{ match_data.team1_total }}</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="team-name-cell">
+                                <a href="{% url 'team_season' match_data.match.team2.id %}">
+                                    {{ match_data.match.team2.name }}
+                                </a>
+                            </td>
+                            {% for game in match_data.games %}
+                            <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
+                                {{ game.team2_score }}{% if game.is_overtime and game.winner == 'team2' %}<span class="overtime">O</span>{% endif %}
+                            </td>
+                            {% endfor %}
+                            <td class="{% if match_data.match_winner == 'team2' %}winning-total{% endif %}">
+                                <strong>{{ match_data.team2_total }}</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                {% else %}
+                <div class="no-games-match">
+                    <div class="no-games-teams">
+                        <a href="{% url 'team_season' match_data.match.team1.id %}">{{ match_data.match.team1.name }}</a>
+                        <br>vs<br>
+                        <a href="{% url 'team_season' match_data.match.team2.id %}">{{ match_data.match.team2.name }}</a>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        {% empty %}
+            <div style="text-align: center; padding: 2rem; color: #6c757d;">
+                No matches found for this team.
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize stats table with default sort by Min (column 1) descending
+        initTableSort('#stats-table', {
+            initialSort: { column: 1, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}

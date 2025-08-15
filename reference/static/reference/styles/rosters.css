@@ -1,0 +1,99 @@
+/* Roster page styles */
+
+.rosters-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 2rem 0;
+}
+
+.roster-box {
+    width: 20rem;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.roster-box .team-name {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.roster-box .team-name a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.roster-box .team-name a:hover {
+    text-decoration: underline;
+}
+
+.roster-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.roster-table th {
+    padding: 0.5rem 0.4rem;
+    border: 1px solid #ccc;
+    background-color: #e9ecef;
+    font-weight: bold;
+    text-align: center;
+}
+
+.roster-table td {
+    padding: 0.5rem 0.4rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.roster-table .player-name {
+    text-align: left !important;
+}
+
+.roster-table .player-name a {
+    color: #007cba;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.roster-table .player-name a:hover {
+    text-decoration: underline;
+}
+
+.roster-table .position {
+    width: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+}
+
+.empty-roster {
+    text-align: center !important;
+    color: #666;
+    font-style: italic;
+}
+
+.no-teams {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin: 3rem 0;
+}
+
+@media (max-width: 720px) {
+    .rosters-container {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    
+    .roster-box {
+        min-width: 18rem;
+    }
+}

@@ -3,11 +3,11 @@ from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib import messages
 from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
-from django.db import models
+from django.db import models, transaction
 import json
 import re
 from datetime import datetime, date
-from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
+from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayerStats
 import tagpro_eu
 
 
@@ -18,15 +18,22 @@ with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding
     )]
 
 
+@transaction.atomic
 def process_game_stats(game: Game):
     # Get all existing PlayerGameLogs for the game
     players = {
-        p.playing_as: p for p in
+        p.playing_as: p
+        for p in
         PlayerGameLog.objects.filter(
             game=game
         )
     }
-    m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == str(game.tagpro_eu)][0]
+    
+    try:
+        m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == str(game.tagpro_eu)][0]
+    except IndexError:
+        # if no tagpro.eu match found in bulkmatches, don't reprocess
+        return None
 
     went_to_ot = False
     for time, desc, p in m.create_timeline():
@@ -66,8 +73,27 @@ def process_game_stats(game: Game):
         game.team1_standing_points = 1
         game.team2_standing_points = 1
 
-    # Here is where we would set other stats if we were collecting those yet
+    # Add player stats to the gamelog
+    for p in players:
+        # Get or create the object for their stats
+        stats = PlayerStats.objects.filter(player_gamelog=players[p]).first()
+        if stats is None:
+            stats = PlayerStats(player_gamelog=players[p])
 
+        # Set their stats based on the EU file
+        eu_stats: tagpro_eu.PlayerStats = [x for x in m.players if x.name == p][0].stats
+        stats.time_played = eu_stats.time.seconds
+        stats.tags = eu_stats.tags
+        stats.pops = eu_stats.pops
+        stats.grabs = eu_stats.grabs
+        stats.drops = eu_stats.drops
+        stats.hold = eu_stats.hold
+        stats.captures = eu_stats.captures
+        stats.prevent = eu_stats.prevent
+        stats.returns = eu_stats.returns
+        stats.powerups = eu_stats.pups_total
+
+        # Save everything to DB
+        stats.save()
+        players[p].save()
     game.save()
-    for p in players.values():
-        p.save()

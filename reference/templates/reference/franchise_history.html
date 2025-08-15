@@ -1,0 +1,172 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ franchise.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ franchise.name }}</h1>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+        <label for="league-dropdown">League: </label>
+        <select id="league-dropdown" onchange="changeLeague(this.value)" style="padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 4px; background: white; min-width: 8rem;">
+            <option value="all" {% if current_league == 'all' %}selected{% endif %}>All CTF</option>
+            {% for league in leagues %}
+                <option value="{{ league.id }}" {% if current_league == league.id|stringformat:"s" %}selected{% endif %}>
+                    {{ league.abbr }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 2rem 0 1rem; color: #333;">Seasons</h2>
+    
+    <div class="stat-table-container">
+        <table class="stat-table" id="seasons-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="text">Season</th>
+                    <th data-sortable data-type="text">Team</th>
+                    <th data-sortable data-type="number">Rank</th>
+                    <th data-sortable data-type="text">Playoff Finish</th>
+                    <th data-sortable data-type="text">Record</th>
+                    <th data-sortable data-type="text">Captain</th>
+                    <th data-sortable data-type="text">Co-Captain</th>
+                    <th data-sortable data-type="text">Most Minutes</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for history in history_data %}
+                <tr>
+                    <td class="team-name">
+                        <a href="{% url 'season_home' history.season.id %}">
+                            {{ history.season.name }}
+                        </a>
+                    </td>
+                    <td class="team-name">
+                        <a href="{% url 'team_season' history.team.id %}">
+                            {{ history.team.name }}
+                        </a>
+                    </td>
+                    <td>{{ history.rank }}</td>
+                    <td>{{ history.playoff_finish }}</td>
+                    <td>{{ history.record }}</td>
+                    <td>
+                        {% if history.captain %}
+                            <a href="{% url 'player_history' history.captain.id %}">
+                                {{ history.captain.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if history.co_captain %}
+                            <a href="{% url 'player_history' history.co_captain.id %}">
+                                {{ history.co_captain.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if history.most_minutes_player %}
+                            <a href="{% url 'player_history' history.most_minutes_player.id %}">
+                                {{ history.most_minutes_player.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No history found for this franchise{% if current_league != 'all' %} in this league{% endif %}.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 3rem 0 1rem; color: #333;">All-Time Stats</h2>
+    
+    <div class="stat-table-container">
+        <table class="stat-table" id="all-time-stats-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="text">Player</th>
+                    <th data-sortable data-type="number">Min</th>
+                    <th data-sortable data-type="number">Tags</th>
+                    <th data-sortable data-type="number">Pops</th>
+                    <th data-sortable data-type="number">Grabs</th>
+                    <th data-sortable data-type="number">Drops</th>
+                    <th data-sortable data-type="number">Hold</th>
+                    <th data-sortable data-type="number">Caps</th>
+                    <th data-sortable data-type="number">Prevent</th>
+                    <th data-sortable data-type="number">Returns</th>
+                    <th data-sortable data-type="number">Pups</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for stat in all_time_stats %}
+                <tr>
+                    <td class="team-name">
+                        <a href="{% url 'player_history' stat.player.id %}">
+                            {{ stat.player.name }}
+                        </a>
+                    </td>
+                    <td>{{ stat.time_played_min }}</td>
+                    <td>{{ stat.tags }}</td>
+                    <td>{{ stat.pops }}</td>
+                    <td>{{ stat.grabs }}</td>
+                    <td>{{ stat.drops }}</td>
+                    <td>{{ stat.hold_sec }}</td>
+                    <td>{{ stat.captures }}</td>
+                    <td>{{ stat.prevent_sec }}</td>
+                    <td>{{ stat.returns }}</td>
+                    <td>{{ stat.powerups }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="11" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No stats found for this franchise{% if current_league != 'all' %} in this league{% endif %}.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    function changeLeague(leagueId) {
+        const url = new URL(window.location);
+        if (leagueId === 'all') {
+            url.searchParams.delete('league');
+        } else {
+            url.searchParams.set('league', leagueId);
+        }
+        window.location.href = url.toString();
+    }
+    
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize seasons table with default sort by Season (column 0) descending
+        initTableSort('#seasons-table', {
+            initialSort: { column: 0, direction: 'desc' }
+        });
+        
+        // Initialize all-time stats table with default sort by Min (column 1) descending
+        initTableSort('#all-time-stats-table', {
+            initialSort: { column: 1, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}

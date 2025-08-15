@@ -1,0 +1,78 @@
+/* League filter styles */
+
+.league-filter {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.league-filter label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.league-filter select {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    min-width: 8rem;
+}
+
+.league-filter select:focus {
+    outline: none;
+    border-color: #007cba;
+    box-shadow: 0 0 0 2px rgba(0, 124, 186, 0.2);
+}
+
+/* Alternative tab-style filter (if preferred) */
+.league-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.league-tab {
+    padding: 0.5rem 1rem;
+    background: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #495057;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.league-tab:hover {
+    background: #dee2e6;
+    text-decoration: none;
+}
+
+.league-tab.active {
+    background: #007cba;
+    color: white;
+    border-color: #007cba;
+}
+
+@media (max-width: 768px) {
+    .league-filter {
+        margin: 1rem 0;
+        padding: 0.75rem;
+    }
+    
+    .league-tabs {
+        gap: 0.25rem;
+    }
+    
+    .league-tab {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.9rem;
+    }
+}

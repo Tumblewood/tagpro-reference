@@ -1,0 +1,107 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ season.name }} Stats - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ season.name }} Stats</h1>
+    
+    <div class="season-selector">
+        <label for="season-dropdown">Switch Season: </label>
+        <select id="season-dropdown" onchange="changeSeason(this.value)">
+            {% for league_season in league_seasons %}
+                <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                    {{ league_season.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="season-nav">
+        <a href="{% url 'season_home' season.id %}">Home</a> |
+        <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
+        <span class="current">Stats</span> |
+        <a href="{% url 'season_rosters' season.id %}">Rosters</a>
+    </div>
+    
+    <div class="stat-table-container">
+        <table class="stat-table">
+            <thead>
+                <tr>
+                    <th class="team-name" data-sortable data-type="text">Player</th>
+                    <th data-sortable data-type="text">Team</th>
+                    <th data-sortable data-type="number">Min</th>
+                    <th data-sortable data-type="number">Tags</th>
+                    <th data-sortable data-type="number">Pops</th>
+                    <th data-sortable data-type="number">Grabs</th>
+                    <th data-sortable data-type="number">Drops</th>
+                    <th data-sortable data-type="number">Hold</th>
+                    <th data-sortable data-type="number">Caps</th>
+                    <th data-sortable data-type="number">Prev</th>
+                    <th data-sortable data-type="number">Ret</th>
+                    <th data-sortable data-type="number">Pups</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for player_stat in player_stats %}
+                <tr>
+                    <td class="team-name">
+                        <a href="{% url 'player_history' player_stat.player.id %}">
+                            {{ player_stat.playing_as }}
+                        </a>
+                    </td>
+                    <td style="text-align: center;">
+                        {% if player_stat.team %}
+                            <a href="{% url 'team_season' player_stat.team.id %}">
+                                {{ player_stat.team.abbr }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td>{{ player_stat.time_played_min }}</td>
+                    <td>{{ player_stat.tags }}</td>
+                    <td>{{ player_stat.pops }}</td>
+                    <td>{{ player_stat.grabs }}</td>
+                    <td>{{ player_stat.drops }}</td>
+                    <td>{{ player_stat.hold_sec }}</td>
+                    <td>{{ player_stat.captures }}</td>
+                    <td>{{ player_stat.prevent_sec }}</td>
+                    <td>{{ player_stat.returns }}</td>
+                    <td>{{ player_stat.powerups }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="12" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No player statistics found for this season.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    function changeSeason(seasonId) {
+        if (seasonId) {
+            window.location.href = `/season/${seasonId}/stats/`;
+        }
+    }
+    
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize sortable table with default sort by Minutes (column 2) descending
+        initTableSort('.stat-table', {
+            initialSort: { column: 2, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}

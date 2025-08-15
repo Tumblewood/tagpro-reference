@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}TagPro Reference{% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700">
+    <link rel="stylesheet" href="{% static 'reference/styles/base.css' %}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header>
+        <a href="{% url 'homepage' %}" class="site-name">TagPro Reference</a>
+        <div class="league-link-container-desktop">
+            {% for league_data in navigation_leagues %}
+                <a href="{% url 'season_home' league_data.most_recent_season.id %}" class="league-link">
+                    {{ league_data.league.abbr }}
+                </a>
+            {% endfor %}
+            <form method="get" action="{% url 'search_results' 'PLACEHOLDER' %}" onsubmit="return handleSearch(this)">
+                <input type="text" name="q" class="search-bar" placeholder="Search for a player or team" />
+            </form>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {% block extra_js %}{% endblock %}
+    <script>
+        function handleSearch(form) {
+            const query = form.querySelector('input[name="q"]').value.trim();
+            if (query) {
+                window.location.href = `/search/${encodeURIComponent(query)}/`;
+            }
+            return false; // Prevent form submission
+        }
+    </script>
+</body>
+</html>

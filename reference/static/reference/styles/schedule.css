@@ -1,0 +1,102 @@
+.week-section {
+    margin: 2rem 3.5rem;
+    width: calc(100% - 7rem);
+}
+.week-title {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #007b;
+    font-size: 1.8rem;
+    color: #333;
+}
+.matches-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+.match-box {
+    width: 25rem;
+    padding: 0 1rem;
+}
+.match-date {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.match-date a {
+    color: #666;
+    text-decoration: none;
+}
+.match-date a:hover {
+    text-decoration: underline;
+}
+.box-score {
+    width: 25rem;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+.box-score th {
+    padding: 0.5rem 0.4rem;
+    border: 1px solid #ccc;
+    background-color: #e9ecef;
+    font-weight: bold;
+    text-align: center;
+}
+.box-score td {
+    padding: 0.5rem 0.4rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.team-name-cell {
+    text-align: left !important;
+    padding: 0 0.6rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.team-name-cell a,
+.no-games-teams a {
+    color: #007cba;
+    text-decoration: none;
+    font-weight: bold;
+}
+.team-name-cell a:hover,
+.no-games-teams a:hover {
+    text-decoration: underline;
+}
+.winning-score {
+    font-weight: bold;
+}
+.winning-total {
+    font-weight: bold;
+    background-color: #d4edda;
+}
+.overtime {
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
+/* No games match styling */
+.no-games-match {
+    text-align: center;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    color: #666;
+    background-color: #eee;
+}
+.no-games-teams {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+@media (max-width: 720px) {
+    .matches-container {
+        width: 100%;
+        overflow-x: scroll;
+    }
+}

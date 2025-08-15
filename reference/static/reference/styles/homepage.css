@@ -1,0 +1,157 @@
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0 3rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.standings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.league-standings {
+    flex: 0 0 auto;
+    min-width: 320px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.season-title {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.season-title a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.season-title a:hover {
+    text-decoration: underline;
+}
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.standings-table thead {
+    background-color: #f8f9fa;
+}
+
+.standings-table th {
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 0.9rem;
+}
+
+.standings-table td {
+    padding: 0.6rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.standings-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.standings-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Column specific styles */
+.rank-col, .rank-cell {
+    width: 15%;
+    font-weight: 600;
+}
+
+.team-col {
+    width: 40%;
+    text-align: left;
+}
+
+.team-cell {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.team-cell a {
+    color: #07b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.team-cell a:hover {
+    text-decoration: underline;
+}
+
+.pts-col, .pts-cell {
+    width: 15%;
+}
+
+.record-col, .record-cell {
+    width: 20%;
+}
+
+.diff-col, .diff-cell {
+    width: 15%;
+    font-weight: 500;
+}
+
+.diff-cell.positive {
+    color: #28a745;
+}
+
+.diff-cell.negative {
+    color: #dc3545;
+}
+
+.diff-cell.zero {
+    color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .standings-container {
+        gap: 1.5rem;
+        padding: 0 0.5rem;
+    }
+    
+    .league-standings {
+        min-width: 280px;
+        max-width: 100%;
+    }
+    
+    .standings-table th,
+    .standings-table td {
+        padding: 0.5rem 0.25rem;
+        font-size: 0.8rem;
+    }
+    
+    .team-cell {
+        padding-left: 0.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .league-standings {
+        max-width: 350px;
+    }
+}

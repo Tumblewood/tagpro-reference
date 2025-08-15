@@ -1,192 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ season.name }} - TagPro League</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .season-title {
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            color: #333;
-        }
-        .season-selector {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .season-selector select {
-            padding: 10px 15px;
-            font-size: 16px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            background: white;
-        }
-        .standings-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        .standings-table th,
-        .standings-table td {
-            padding: 12px 8px;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-        }
-        .standings-table th {
-            background-color: #f8f9fa;
-            font-weight: bold;
-            color: #555;
-            position: sticky;
-            top: 0;
-        }
-        .standings-table tr:hover {
-            background-color: #f8f9fa;
-        }
-        .team-name {
-            text-align: left;
-            padding-left: 15px;
-        }
-        .team-name a {
-            color: #007cba;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .team-name a:hover {
-            text-decoration: underline;
-        }
-        .rank-col {
-            font-weight: bold;
-            color: #666;
-        }
-        .positive {
-            color: #161;
-        }
-        .negative {
-            color: #611;
-        }
-        .zero {
-            color: #6c757d;
-        }
-        .season-nav {
-            text-align: center;
-            margin: 20px 0;
-            font-size: 16px;
-        }
-        .season-nav span {
-            margin: 0 5px;
-        }
-        .season-nav a {
-            margin: 0 5px;
-            color: #007cba;
-        }
-        .season-nav .current {
-            color: #333;
-            font-weight: bold;
-        }
-        @media (max-width: 768px) {
-            .standings-table {
-                font-size: 14px;
-            }
-            .standings-table th,
-            .standings-table td {
-                padding: 8px 4px;
-            }
-            .season-title {
-                font-size: 2em;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="season-title">{{ season.name }}</h1>
-        
-        <div class="season-selector">
-            <label for="season-dropdown">Switch Season: </label>
-            <select id="season-dropdown" onchange="changeSeason(this.value)">
-                {% for league_season in league_seasons %}
-                    <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
-                        {{ league_season.name }}
-                    </option>
-                {% endfor %}
-            </select>
-        </div>
-        
-        <div class="season-nav">
-            <span class="current">Home</span> |
-            <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
-            <a href="{% url 'season_stats' season.id %}">Stats</a> |
-            <a href="{% url 'season_rosters' season.id %}">Rosters</a>
-        </div>
-        
-        <table class="standings-table">
-            <thead>
-                <tr>
-                    <th>Rank</th>
-                    <th class="team-name">Team</th>
-                    <th>GP</th>
-                    <th>Pts</th>
-                    <th>W</th>
-                    <th>OTW</th>
-                    <th>OTL</th>
-                    <th>L</th>
-                    <th>CF</th>
-                    <th>CA</th>
-                    <th>Diff</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for standing in standings %}
-                <tr>
-                    <td class="rank-col">{{ standing.rank }}</td>
-                    <td class="team-name">
-                        <a href="{% url 'team_season' standing.team.id %}">
-                            {{ standing.team.name }}
-                        </a>
-                    </td>
-                    <td>{{ standing.games_played }}</td>
-                    <td><strong>{{ standing.standing_points }}</strong></td>
-                    <td>{{ standing.wins }}</td>
-                    <td>{{ standing.ot_wins }}</td>
-                    <td>{{ standing.ot_losses }}</td>
-                    <td>{{ standing.losses }}</td>
-                    <td>{{ standing.caps_for }}</td>
-                    <td>{{ standing.caps_against }}</td>
-                    <td class="{% if standing.cap_differential > 0 %}positive{% elif standing.cap_differential < 0 %}negative{% else %}zero{% endif %}">
-                        {{ standing.cap_differential|stringformat:"+d" }}
-                    </td>
-                </tr>
-                {% empty %}
-                <tr>
-                    <td colspan="11" style="text-align: center; padding: 30px; color: #6c757d;">
-                        No teams found for this season.
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
+{% extends "reference/base.html" %}
+{% load static %}
 
-    <script>
-        function changeSeason(seasonId) {
-            if (seasonId) {
-                window.location.href = `/season/${seasonId}/`;
-            }
+{% block title %}{{ season.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">{{ season.name }}</h1>
+
+<div class="season-selector">
+    <label for="season-dropdown">Switch Season: </label>
+    <select id="season-dropdown" onchange="changeSeason(this.value)">
+        {% for league_season in league_seasons %}
+            <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                {{ league_season.name }}
+            </option>
+        {% endfor %}
+    </select>
+</div>
+
+<div class="season-nav">
+    <span class="current">Home</span> |
+    <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
+    <a href="{% url 'season_stats' season.id %}">Stats</a> |
+    <a href="{% url 'season_rosters' season.id %}">Rosters</a>
+</div>
+
+<div class="stat-table-container">
+    <table class="stat-table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th class="team-name">Team</th>
+                <th>GP</th>
+                <th>Pts</th>
+                <th>W</th>
+                <th>OTW</th>
+                <th>OTL</th>
+                <th>L</th>
+                <th>CF</th>
+                <th>CA</th>
+                <th>Diff</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for standing in standings %}
+            <tr>
+                <td class="rank-col">{{ standing.rank }}</td>
+                <td class="team-name">
+                    <a href="{% url 'team_season' standing.team.id %}">
+                        {{ standing.team.name }}
+                    </a>
+                </td>
+                <td>{{ standing.games_played }}</td>
+                <td><strong>{{ standing.standing_points }}</strong></td>
+                <td>{{ standing.wins }}</td>
+                <td>{{ standing.ot_wins }}</td>
+                <td>{{ standing.ot_losses }}</td>
+                <td>{{ standing.losses }}</td>
+                <td>{{ standing.caps_for }}</td>
+                <td>{{ standing.caps_against }}</td>
+                <td class="{% if standing.cap_differential > 0 %}positive{% elif standing.cap_differential < 0 %}negative{% else %}zero{% endif %}">
+                    {{ standing.cap_differential|stringformat:"+d" }}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="11" style="text-align: center; padding: 30px; color: #6c757d;">
+                    No teams found for this season.
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function changeSeason(seasonId) {
+        if (seasonId) {
+            window.location.href = `/season/${seasonId}/`;
         }
-    </script>
-</body>
-</html>
+    }
+</script>
+{% endblock %}

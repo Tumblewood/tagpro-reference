@@ -1,0 +1,63 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/homepage.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">TagPro Reference</h1>
+    
+    <div class="standings-container">
+        {% for league_data in league_standings %}
+            <div class="league-standings">
+                <h2 class="season-title">
+                    <a href="{% url 'season_home' league_data.season.id %}">
+                        {{ league_data.season.name }}
+                    </a>
+                </h2>
+                
+                <table class="standings-table">
+                    <thead>
+                        <tr>
+                            <th class="rank-col">Rank</th>
+                            <th class="team-col">Team</th>
+                            <th class="pts-col">Pts</th>
+                            <th class="record-col">Record</th>
+                            <th class="diff-col">Diff</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for standing in league_data.standings %}
+                        <tr>
+                            <td class="rank-cell">{{ standing.rank }}</td>
+                            <td class="team-cell">
+                                <a href="{% url 'team_season' standing.team.id %}">
+                                    {{ standing.team.name }}
+                                </a>
+                            </td>
+                            <td class="pts-cell">{{ standing.standing_points }}</td>
+                            <td class="record-cell">{{ standing.record }}</td>
+                            <td class="diff-cell {% if standing.cap_differential > 0 %}positive{% elif standing.cap_differential < 0 %}negative{% else %}zero{% endif %}">
+                                {% if standing.cap_differential > 0 %}+{% endif %}{{ standing.cap_differential }}
+                            </td>
+                        </tr>
+                        {% empty %}
+                        <tr>
+                            <td colspan="5" style="text-align: center; padding: 1rem; color: #6c757d;">
+                                No standings available.
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        {% empty %}
+            <div style="text-align: center; padding: 3rem; color: #6c757d; font-size: 1.1rem;">
+                No league standings available.
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,157 @@
+/* Styles for the highest-level containers on the page */
+
+body {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+main {
+    padding: 1.25rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+* {
+    font-family: inherit;
+}
+
+/* Header styles */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #555e;
+    color: #fff;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-name {
+    margin: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+.league-link-container-desktop {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-weight: 600;
+}
+.league-link {
+    height: 100%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.league-link:hover {
+    background-color: #0004;
+}
+.search-bar {
+    width: 14rem;
+    margin: 0.25rem 1rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 2px solid #666;
+    font-family: inherit;
+}
+
+/* Elements repeated across many or all pages */
+
+.page-title {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Styles for main stat / reference tables */
+
+.stat-table-container {
+    max-width: 100%;
+    margin: 2.5rem 0;
+    overflow: auto;
+}
+.stat-table {
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.stat-table th,
+.stat-table td {
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.stat-table th {
+    background-color: #57c;
+    font-weight: bold;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+.stat-table th:hover {
+    background-color: #46b;
+    cursor: pointer;
+}
+.stat-table tr:hover {
+    background-color: #f8f9fa;
+}
+th.team-name {
+    width: auto;
+}
+td.team-name {
+    width: auto;
+    text-align: left;
+    padding: 0 25px 0 15px;
+}
+.team-name a {
+    color: #07b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.team-name a:hover {
+    text-decoration: underline;
+}
+.rank-col {
+    font-weight: bold;
+    color: #666;
+}
+.positive {
+    color: #070;
+}
+.negative {
+    color: #700;
+}
+.zero {
+    color: #345;
+}
+
+@media screen and (min-width) and (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 12px;
+    }
+
+    .league-link-container-desktop {
+        display: none;
+    }
+
+    .standings-table th,
+    .standings-table td {
+        padding: 0.5rem 0.25rem;
+    }
+}

@@ -1,0 +1,155 @@
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1.5rem 0 3rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.seasons-table-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.seasons-table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.seasons-table thead {
+    background-color: #f8f9fa;
+}
+
+.seasons-table th {
+    padding: 1.2rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #495057;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 1rem;
+}
+
+.seasons-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+.seasons-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.seasons-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Column specific styling */
+.season-cell {
+    font-weight: 600;
+    min-width: 200px;
+}
+
+.season-cell a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.season-cell a:hover {
+    text-decoration: underline;
+}
+
+.date-cell {
+    min-width: 100px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.teams-cell {
+    text-align: center;
+    font-weight: 600;
+    color: #495057;
+    min-width: 80px;
+}
+
+.champion-cell,
+.runner-up-cell {
+    min-width: 150px;
+}
+
+.champion-cell a,
+.runner-up-cell a {
+    color: #07b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.champion-cell a:hover,
+.runner-up-cell a:hover {
+    text-decoration: underline;
+}
+
+.champion-cell {
+    background-color: rgba(255, 215, 0, 0.1);
+}
+
+.empty-seasons {
+    text-align: center;
+    padding: 3rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 2rem;
+        margin: 1rem 0 2rem;
+    }
+    
+    .seasons-table-container {
+        padding: 0 0.5rem;
+    }
+    
+    .seasons-table th,
+    .seasons-table td {
+        padding: 0.8rem 0.6rem;
+        font-size: 0.85rem;
+    }
+    
+    .season-cell {
+        min-width: 150px;
+    }
+    
+    .date-cell {
+        min-width: 80px;
+    }
+    
+    .champion-cell,
+    .runner-up-cell {
+        min-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .seasons-table th,
+    .seasons-table td {
+        padding: 0.6rem 0.4rem;
+        font-size: 0.8rem;
+    }
+    
+    .season-cell {
+        min-width: 120px;
+    }
+    
+    .champion-cell,
+    .runner-up-cell {
+        min-width: 100px;
+    }
+}

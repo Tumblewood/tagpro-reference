@@ -1,0 +1,71 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ league.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/league-history.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ league.name }}</h1>
+    
+    <div class="seasons-table-container">
+        <table class="seasons-table">
+            <thead>
+                <tr>
+                    <th>Season</th>
+                    <th>End Date</th>
+                    <th>Teams</th>
+                    <th>Champion</th>
+                    <th>Runner-up</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for season_data in season_history %}
+                <tr>
+                    <td class="season-cell">
+                        <a href="{% url 'season_home' season_data.season.id %}">
+                            {{ season_data.season.name }}
+                        </a>
+                    </td>
+                    <td class="date-cell">
+                        {% if season_data.season.end_date %}
+                            {{ season_data.season.end_date|date:"n/j/Y" }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td class="teams-cell">
+                        {{ season_data.team_count }}
+                    </td>
+                    <td class="champion-cell">
+                        {% if season_data.champion %}
+                            <a href="{% url 'team_season' season_data.champion.id %}">
+                                {{ season_data.champion.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td class="runner-up-cell">
+                        {% if season_data.runner_up %}
+                            <a href="{% url 'team_season' season_data.runner_up.id %}">
+                                {{ season_data.runner_up.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="empty-seasons">
+                        No seasons found for this league.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

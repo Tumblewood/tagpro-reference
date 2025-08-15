@@ -1,0 +1,100 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ player.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/league-filter.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ player.name }}</h1>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+        <label for="league-dropdown">League: </label>
+        <select id="league-dropdown" onchange="changeLeague(this.value)" style="padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 4px; background: white; min-width: 8rem;">
+            <option value="all" {% if current_league == 'all' %}selected{% endif %}>All CTF</option>
+            {% for league in leagues %}
+                <option value="{{ league.id }}" {% if current_league == league.id|stringformat:"s" %}selected{% endif %}>
+                    {{ league.abbr }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="stat-table-container">
+        <table class="stat-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="text">Season</th>
+                    <th data-sortable data-type="text">Team</th>
+                    <th data-sortable data-type="number">Seed</th>
+                    <th data-sortable data-type="text">Playoff Finish</th>
+                    <th data-sortable data-type="number">Min</th>
+                    <th data-sortable data-type="number">Caps</th>
+                    <th data-sortable data-type="number">Hold</th>
+                    <th data-sortable data-type="number">Prevent</th>
+                    <th data-sortable data-type="number">Returns</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for history in history_data %}
+                <tr>
+                    <td class="team-name">
+                        <a href="{% url 'season_home' history.season.id %}">
+                            {{ history.season.name }}
+                        </a>
+                    </td>
+                    <td class="team-name">
+                        {% if history.team %}
+                            <a href="{% url 'team_season' history.team.id %}">
+                                {{ history.team.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td>{{ history.rank }}</td>
+                    <td>{{ history.playoff_finish }}</td>
+                    <td>{{ history.minutes_played }}</td>
+                    <td>{{ history.captures }}</td>
+                    <td>{{ history.hold_sec }}</td>
+                    <td>{{ history.prevent_sec }}</td>
+                    <td>{{ history.returns }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="9" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No history found for this player{% if current_league != 'all' %} in this league{% endif %}.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    function changeLeague(leagueId) {
+        const url = new URL(window.location);
+        if (leagueId === 'all') {
+            url.searchParams.delete('league');
+        } else {
+            url.searchParams.set('league', leagueId);
+        }
+        window.location.href = url.toString();
+    }
+    
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize sortable table with default sort by Season (column 0) descending
+        // This will sort by season end date since they're already ordered that way from the view
+        initTableSort('.stat-table', {
+            initialSort: { column: 0, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}

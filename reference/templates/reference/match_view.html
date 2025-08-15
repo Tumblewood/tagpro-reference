@@ -1,0 +1,221 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/match.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }}</h1>
+    
+    <div class="match-info">
+        Season: <a href="{% url 'season_home' season.id %}">{{ season.name }}</a>
+        | Date: {{ match.date|date:"n/j" }}
+        {% if map_info %}
+            | Map: {{ map_info.map_name }}
+            {% if map_info.tagpro_eu_url %} | <a href="{{ map_info.tagpro_eu_url }}" target="_blank">tagpro.eu</a>{% endif %}
+            {% if map_info.replay %} | <a href="{{ map_info.replay }}" target="_blank">replay</a>{% endif %}
+            {% if map_info.vod %} | <a href="{{ map_info.vod }}" target="_blank">vod</a>{% endif %}
+        {% endif %}
+    </div>
+    
+    <div class="match-box-score">
+        <table class="box-score">
+            <colgroup>
+                <col style="width: auto;">
+                {% for game in box_score_games %}
+                <col style="width: 4rem;">
+                {% endfor %}
+                <col style="width: 3rem;">
+                <col style="width: 3rem;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    {% for game in box_score_games %}
+                    <th>Game {{ forloop.counter }}</th>
+                    {% endfor %}
+                    <th>Pts</th>
+                    <th>Caps</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="team-name-cell">
+                        <a href="{% url 'team_season' match.team1.id %}">
+                            {{ match.team1.name }}
+                        </a>
+                    </td>
+                    {% for game_data in box_score_games %}
+                    <td class="score-cell {% if game_data.winner == 'team1' %}winning-score{% endif %} {% if game_data.team1_is_red %}red-team{% elif game_data.team1_is_blue %}blue-team{% endif %}">
+                        {{ game_data.team1_score }}{% if game_data.is_overtime %}<span class="overtime">OT</span>{% endif %}
+                    </td>
+                    {% endfor %}
+                    <td class="total-cell {% if match_winner == 'team1' %}winning-total{% endif %}">
+                        <strong>{{ team1_total_score }}</strong>
+                    </td>
+                    <td class="caps-cell">
+                        {{ team1_total_caps }}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="team-name-cell">
+                        <a href="{% url 'team_season' match.team2.id %}">
+                            {{ match.team2.name }}
+                        </a>
+                    </td>
+                    {% for game_data in box_score_games %}
+                    <td class="score-cell {% if game_data.winner == 'team2' %}winning-score{% endif %} {% if not game_data.team1_is_red %}red-team{% elif not game_data.team1_is_blue %}blue-team{% endif %}">
+                        {{ game_data.team2_score }}{% if game_data.is_overtime %}<span class="overtime">OT</span>{% endif %}
+                    </td>
+                    {% endfor %}
+                    <td class="total-cell {% if match_winner == 'team2' %}winning-total{% endif %}">
+                        <strong>{{ team2_total_score }}</strong>
+                    </td>
+                    <td class="caps-cell">
+                        {{ team2_total_caps }}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="game-filter">
+        <label for="game-select">Filter stats by game:</label>
+        <select id="game-select" onchange="filterByGame(this.value)">
+            {% for option in game_options %}
+            <option value="{{ option.value }}" {% if option.value == selected_game %}selected{% endif %}>
+                {{ option.label }}
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="stats-tables">
+        <div class="team-stats-section">
+            <h2 class="team-stats-title">{{ match.team1.name }}</h2>
+            <table class="player-stats-table" id="team1-stats-table">
+                <thead>
+                    <tr>
+                        <th data-sortable data-type="text">Player</th>
+                        <th data-sortable data-type="number">Min</th>
+                        <th data-sortable data-type="number">Tags</th>
+                        <th data-sortable data-type="number">Pops</th>
+                        <th data-sortable data-type="number">Grabs</th>
+                        <th data-sortable data-type="number">Drops</th>
+                        <th data-sortable data-type="number">Hold</th>
+                        <th data-sortable data-type="number">Caps</th>
+                        <th data-sortable data-type="number">Prevent</th>
+                        <th data-sortable data-type="number">Returns</th>
+                        <th data-sortable data-type="number">Pups</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for stat in team1_stats %}
+                    <tr>
+                        <td class="player-name">
+                            <a href="{% url 'player_history' stat.player_season__player__id %}">
+                                {{ stat.player_season__playing_as }}
+                            </a>
+                        </td>
+                        <td>{{ stat.time_played_min }}</td>
+                        <td>{{ stat.tags }}</td>
+                        <td>{{ stat.pops }}</td>
+                        <td>{{ stat.grabs }}</td>
+                        <td>{{ stat.drops }}</td>
+                        <td>{{ stat.hold_sec }}</td>
+                        <td>{{ stat.captures }}</td>
+                        <td>{{ stat.prevent_sec }}</td>
+                        <td>{{ stat.returns }}</td>
+                        <td>{{ stat.powerups }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="11" style="text-align: center; padding: 2rem; color: #6c757d;">
+                            No stats found for {{ match.team1.name }}.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="team-stats-section">
+            <h2 class="team-stats-title">{{ match.team2.name }}</h2>
+            <table class="player-stats-table" id="team2-stats-table">
+                <thead>
+                    <tr>
+                        <th data-sortable data-type="text">Player</th>
+                        <th data-sortable data-type="number">Min</th>
+                        <th data-sortable data-type="number">Tags</th>
+                        <th data-sortable data-type="number">Pops</th>
+                        <th data-sortable data-type="number">Grabs</th>
+                        <th data-sortable data-type="number">Drops</th>
+                        <th data-sortable data-type="number">Hold</th>
+                        <th data-sortable data-type="number">Caps</th>
+                        <th data-sortable data-type="number">Prevent</th>
+                        <th data-sortable data-type="number">Returns</th>
+                        <th data-sortable data-type="number">Pups</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for stat in team2_stats %}
+                    <tr>
+                        <td class="player-name">
+                            <a href="{% url 'player_history' stat.player_season__player__id %}">
+                                {{ stat.player_season__playing_as }}
+                            </a>
+                        </td>
+                        <td>{{ stat.time_played_min }}</td>
+                        <td>{{ stat.tags }}</td>
+                        <td>{{ stat.pops }}</td>
+                        <td>{{ stat.grabs }}</td>
+                        <td>{{ stat.drops }}</td>
+                        <td>{{ stat.hold_sec }}</td>
+                        <td>{{ stat.captures }}</td>
+                        <td>{{ stat.prevent_sec }}</td>
+                        <td>{{ stat.returns }}</td>
+                        <td>{{ stat.powerups }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="11" style="text-align: center; padding: 2rem; color: #6c757d;">
+                            No stats found for {{ match.team2.name }}.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize both stats tables with default sort by Min (column 1) descending
+        initTableSort('#team1-stats-table', {
+            initialSort: { column: 1, direction: 'desc' }
+        });
+        initTableSort('#team2-stats-table', {
+            initialSort: { column: 1, direction: 'desc' }
+        });
+    });
+
+    function filterByGame(gameValue) {
+        // Get current URL and modify the 'game' parameter
+        const url = new URL(window.location);
+        if (gameValue === 'all') {
+            url.searchParams.delete('game');
+        } else {
+            url.searchParams.set('game', gameValue);
+        }
+        window.location.href = url.toString();
+    }
+</script>
+{% endblock %}

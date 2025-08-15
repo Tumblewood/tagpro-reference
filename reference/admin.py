@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, Award, Transaction
+from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, AwardType, AwardReceived, Transaction
 from .views import stat_collection
 
 
@@ -22,6 +22,7 @@ class PlayerGameLogInline(admin.TabularInline):
 
 
 class MatchAdmin(admin.ModelAdmin):
+    list_filter = ["team1", "team2"]
     inlines = [GameInline, PlayoffSeriesInline]
 
 
@@ -42,7 +43,9 @@ admin.site.register([
     TeamSeason,
     PlayerSeason,
     PlayoffSeries,
-    Award,
+    PlayerStats,
+    AwardType,
+    AwardReceived,
     Transaction
 ])
 

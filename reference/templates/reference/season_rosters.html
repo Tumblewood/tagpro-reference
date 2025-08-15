@@ -1,0 +1,80 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}{{ season.name }} Rosters - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/rosters.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">{{ season.name }} Rosters</h1>
+    
+    <div class="season-selector">
+        <label for="season-dropdown">Switch Season: </label>
+        <select id="season-dropdown" onchange="changeSeason(this.value)">
+            {% for league_season in league_seasons %}
+                <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                    {{ league_season.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="season-nav">
+        <a href="{% url 'season_home' season.id %}">Home</a> |
+        <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
+        <a href="{% url 'season_stats' season.id %}">Stats</a> |
+        <span class="current">Rosters</span>
+    </div>
+    
+    <div class="rosters-container">
+        {% for roster_data in rosters %}
+        <div class="roster-box">
+            <h3 class="team-name">
+                <a href="{% url 'team_season' roster_data.team.id %}">{{ roster_data.team.name }}</a>
+            </h3>
+            
+            <table class="roster-table">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Position</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for player_season in roster_data.players %}
+                    <tr>
+                        <td class="player-name">
+                            <a href="{% url 'player_history' player_season.player.id %}">
+                                {{ player_season.playing_as }}
+                            </a>
+                        </td>
+                        <td class="position">{{ player_season.get_position_display }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="2" class="empty-roster">No players found</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% empty %}
+        <div class="no-teams">
+            <p>No teams found for this season.</p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function changeSeason(seasonId) {
+        if (seasonId) {
+            window.location.href = `/season/${seasonId}/rosters/`;
+        }
+    }
+</script>
+{% endblock %}

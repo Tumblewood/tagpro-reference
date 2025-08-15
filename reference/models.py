@@ -72,7 +72,7 @@ class PlayerSeason(models.Model):
     team = models.ForeignKey(TeamSeason, on_delete=models.PROTECT, blank=True, null=True, related_name="players", help_text="The team the player ended the season on, if any")
     player = models.ForeignKey(Player, on_delete=models.PROTECT, related_name="seasons_played")
     playing_as = models.CharField(max_length=255, help_text="The name the player used during this season")
-    position = models.CharField(max_length=1, choices=[('O', 'Offense'), ('D', 'Defense'), ('N', 'None')], default='N')
+    position = models.CharField(max_length=1, choices=[('O', 'O'), ('D', 'D'), ('N', '—')], default='N')
     other_restrictions = models.CharField(max_length=255, blank=True, null=True)
 
     class Meta:
@@ -90,6 +90,12 @@ class Match(models.Model):
     week = models.CharField(max_length=100, help_text="e.g., Week 3, Foci Four")
     team1 = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="home_matches")
     team2 = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="away_matches")
+
+    def get_playoff_series(self):
+        try:
+            return self.playoff_series
+        except PlayoffSeries.DoesNotExist:
+            return None
 
     def __str__(self):
         return f"{self.team1} vs {self.team2} - {self.week}, {self.season}"
@@ -145,43 +151,64 @@ class Game(models.Model):
 
 class PlayerGameLog(models.Model):
     """
-    Represents an individual player's stats for a single gamelog.
+    Represents an individual player's participation in a single game.
     """
     game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name="player_stats")
     team = models.ForeignKey(TeamSeason, on_delete=models.CASCADE)
     player_season = models.ForeignKey(PlayerSeason, on_delete=models.CASCADE, related_name="gamelogs", db_column="player")
     playing_as = models.CharField(max_length=255)
-    # tags = models.IntegerField(blank=True, null=True)
-    # pops = models.IntegerField(blank=True, null=True)
-    # grabs = models.IntegerField(blank=True, null=True)
-    # drops = models.IntegerField(blank=True, null=True)
-    # hold = models.IntegerField(blank=True, null=True, help_text="Hold time in seconds")
-    # captures = models.IntegerField(blank=True, null=True)
-    # prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in seconds")
-    # returns = models.IntegerField(blank=True, null=True)
-    # powerups = models.IntegerField(blank=True, null=True)
 
     class Meta:
         unique_together = ('game', 'player_season')
 
     def __str__(self):
-        return f"Stats for {self.player_season.player.name} in {self.game}"
+        return f"{self.player_season.player.name} in {self.game}"
 
-class Award(models.Model):
+class PlayerStats(models.Model):
     """
-    Represents an award given to a player or team for a season.
+    Represents an individual player's stats in a single game.
+    """
+    player_gamelog = models.OneToOneField(PlayerGameLog, on_delete=models.CASCADE, related_name="stats")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    tags = models.IntegerField(blank=True, null=True)
+    pops = models.IntegerField(blank=True, null=True)
+    grabs = models.IntegerField(blank=True, null=True)
+    drops = models.IntegerField(blank=True, null=True)
+    hold = models.IntegerField(blank=True, null=True, help_text="Hold time in ticks (1/60th of a second)")
+    captures = models.IntegerField(blank=True, null=True)
+    prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
+    returns = models.IntegerField(blank=True, null=True)
+    powerups = models.IntegerField(blank=True, null=True)
+
+    def __str__(self):
+        return f"Stats for {self.player_gamelog}"
+
+class AwardType(models.Model):
+    """
+    Represents a type of award.
+    """
+    name = models.CharField(max_length=255, help_text="Full name of the award")
+    abbr = models.CharField(max_length=100, help_text="Abbreviation for the award name")
+    icon = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the award's icon")
+    ordering = models.IntegerField()
+
+    def __str__(self):
+        return f"{self.name}"
+    
+class AwardReceived(models.Model):
+    """
+    Represents a player or team receiving an award for a season.
     """
     season = models.ForeignKey(Season, on_delete=models.CASCADE, related_name="awards")
     team = models.ForeignKey(TeamSeason, on_delete=models.SET_NULL, null=True, blank=True, help_text="Team awarded or player's team")
     player = models.ForeignKey(Player, on_delete=models.SET_NULL, null=True, blank=True, help_text="Player who won the award")
-    award_name = models.CharField(max_length=255)
+    award = models.ForeignKey(AwardType, on_delete=models.PROTECT)
     placement = models.PositiveIntegerField(default=1, null=True, blank=True, help_text="1 for 1st place, 2 for 2nd, etc.")
-    icon = models.ImageField(upload_to='icons/awards/', blank=True, null=True, help_text="Icon representing the award")
 
     def __str__(self):
         if self.player:
-            return f"{self.award_name} ({self.placement}) - {self.player.name}"
-        return f"{self.award_name} ({self.placement}) - {self.team.name}"
+            return f"{self.award.name} ({self.placement}) - {self.player.name}"
+        return f"{self.award.name} ({self.placement}) - {self.team.name}"
 
 class Transaction(models.Model):
     """
