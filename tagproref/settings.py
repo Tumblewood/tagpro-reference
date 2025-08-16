@@ -45,7 +45,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "tplnext.wsgi.application"
+WSGI_APPLICATION = "tagproref.wsgi.application"
 
 
 # Database

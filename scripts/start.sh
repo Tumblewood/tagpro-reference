@@ -35,7 +35,7 @@ sudo chown -R www-data:www-data "$DJANGO_STATIC_ROOT"
 # Start uwsgi with the application
 echo "Starting uwsgi..."
 uwsgi --socket tagpro-reference.sock \
-      --module tplnext.wsgi \
+      --module tagproref.wsgi \
       --chmod-socket=666 \
       --daemonize=/var/log/uwsgi/tagpro-reference.log \
       --env DJANGO_SECRET_KEY="$DJANGO_SECRET_KEY" \
