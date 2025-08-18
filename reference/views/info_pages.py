@@ -1285,8 +1285,8 @@ def match_view(req, match_id):
             winner = 'tie'
         
         # Add to totals
-        team1_total_score += game.team1_score
-        team2_total_score += game.team2_score
+        team1_total_score += game.team1_standing_points
+        team2_total_score += game.team2_standing_points
         
         # Calculate caps (scores) for the series
         team1_total_caps += game.team1_score

@@ -26,7 +26,13 @@ def extract_game_data(eu_url: str) -> Dict:
     # Extract game ID from URL
     game_id = re.search(r'(\d{6,7})', eu_url)
     game_id = game_id.group(1) if game_id else "-1"
-    m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == game_id][0]
+    try:
+        m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == game_id][0]
+    except IndexError:
+        # if no match found in bulkmatches, download from tagpro.eu
+        # when we use download_match, map_id field will not be present, so set it to None
+        m: tagpro_eu.Match = tagpro_eu.download_match(eu_url)
+        m.map_id = None
     
     # Get the set of players who joined each team
     r_players = set()
