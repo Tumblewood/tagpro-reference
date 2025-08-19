@@ -33,6 +33,23 @@
     text-decoration: underline;
 }
 
+.team-leadership {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.team-leadership a {
+    color: #007cba;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.team-leadership a:hover {
+    text-decoration: underline;
+}
+
 .roster-table {
     width: 100%;
     border-collapse: collapse;

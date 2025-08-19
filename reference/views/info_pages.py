@@ -334,8 +334,10 @@ def season_home(req, season_id):
                     wins += 1
                 elif outcome == 'OTW':
                     ot_wins += 1
+                    caps_for -= 1  # OT caps don't count
                 elif outcome == 'OTL':
                     ot_losses += 1
+                    caps_against -= 1  # OT caps don't count
                 elif outcome == 'L':
                     losses += 1
         

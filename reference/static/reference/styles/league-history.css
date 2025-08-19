@@ -1,101 +1,60 @@
 .page-title {
-    text-align: center;
-    font-size: 2.5rem;
     margin: 1.5rem 0 3rem;
-    color: #333;
-    font-weight: 300;
 }
 
-.seasons-table-container {
-    display: flex;
-    justify-content: center;
-    padding: 0 1rem;
-}
-
-.seasons-table {
-    width: 100%;
+/* Override stat-table max-width for league history */
+.stat-table-container .stat-table {
     max-width: 1000px;
-    border-collapse: collapse;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.seasons-table thead {
-    background-color: #f8f9fa;
-}
-
-.seasons-table th {
-    padding: 1.2rem 1rem;
-    text-align: left;
-    font-weight: 600;
-    color: #495057;
-    border-bottom: 2px solid #dee2e6;
-    font-size: 1rem;
-}
-
-.seasons-table td {
-    padding: 1rem;
-    border-bottom: 1px solid #eee;
-    font-size: 0.95rem;
-}
-
-.seasons-table tbody tr:hover {
-    background-color: #f8f9fa;
-}
-
-.seasons-table tbody tr:last-child td {
-    border-bottom: none;
-}
-
-/* Column specific styling */
-.season-cell {
+/* League history specific column styling */
+.stat-table .season-cell {
     font-weight: 600;
     min-width: 200px;
+    text-align: left;
 }
 
-.season-cell a {
+.stat-table .season-cell a {
     color: #07b;
     text-decoration: none;
 }
 
-.season-cell a:hover {
+.stat-table .season-cell a:hover {
     text-decoration: underline;
 }
 
-.date-cell {
+.stat-table .date-cell {
     min-width: 100px;
     color: #6c757d;
     font-weight: 500;
 }
 
-.teams-cell {
+.stat-table .teams-cell {
     text-align: center;
     font-weight: 600;
     color: #495057;
     min-width: 80px;
 }
 
-.champion-cell,
-.runner-up-cell {
+.stat-table .champion-cell,
+.stat-table .runner-up-cell {
     min-width: 150px;
+    text-align: left;
 }
 
-.champion-cell a,
-.runner-up-cell a {
+.stat-table .champion-cell a,
+.stat-table .runner-up-cell a {
     color: #07b;
     text-decoration: none;
     font-weight: 500;
 }
 
-.champion-cell a:hover,
-.runner-up-cell a:hover {
+.stat-table .champion-cell a:hover,
+.stat-table .runner-up-cell a:hover {
     text-decoration: underline;
 }
 
-.champion-cell {
+.stat-table .champion-cell {
     background-color: rgba(255, 215, 0, 0.1);
 }
 
@@ -113,43 +72,27 @@
         margin: 1rem 0 2rem;
     }
     
-    .seasons-table-container {
-        padding: 0 0.5rem;
-    }
-    
-    .seasons-table th,
-    .seasons-table td {
-        padding: 0.8rem 0.6rem;
-        font-size: 0.85rem;
-    }
-    
-    .season-cell {
+    .stat-table .season-cell {
         min-width: 150px;
     }
     
-    .date-cell {
+    .stat-table .date-cell {
         min-width: 80px;
     }
     
-    .champion-cell,
-    .runner-up-cell {
+    .stat-table .champion-cell,
+    .stat-table .runner-up-cell {
         min-width: 120px;
     }
 }
 
 @media (max-width: 480px) {
-    .seasons-table th,
-    .seasons-table td {
-        padding: 0.6rem 0.4rem;
-        font-size: 0.8rem;
-    }
-    
-    .season-cell {
+    .stat-table .season-cell {
         min-width: 120px;
     }
     
-    .champion-cell,
-    .runner-up-cell {
+    .stat-table .champion-cell,
+    .stat-table .runner-up-cell {
         min-width: 100px;
     }
 }

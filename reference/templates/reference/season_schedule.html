@@ -27,7 +27,8 @@
             <a href="{% url 'season_home' season.id %}">Home</a> |
             <span class="current">Schedule</span> |
             <a href="{% url 'season_stats' season.id %}">Stats</a> |
-            <a href="{% url 'season_rosters' season.id %}">Rosters</a>
+            <a href="{% url 'season_rosters' season.id %}">Rosters</a> |
+            <a href="{% url 'league_history' season.league.id %}">History</a>
         </div>
         
         {% for week_data in schedule_data %}

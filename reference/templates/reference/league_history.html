@@ -5,20 +5,21 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/league-history.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
 {% endblock %}
 
 {% block content %}
     <h1 class="page-title">{{ league.name }}</h1>
     
-    <div class="seasons-table-container">
-        <table class="seasons-table">
+    <div class="stat-table-container">
+        <table class="stat-table">
             <thead>
                 <tr>
-                    <th>Season</th>
-                    <th>End Date</th>
-                    <th>Teams</th>
-                    <th>Champion</th>
-                    <th>Runner-up</th>
+                    <th data-sortable data-type="text">Season</th>
+                    <th data-sortable data-type="date">End Date</th>
+                    <th data-sortable data-type="number">Teams</th>
+                    <th data-sortable data-type="text">Champion</th>
+                    <th data-sortable data-type="text">Runner-up</th>
                 </tr>
             </thead>
             <tbody>
@@ -68,4 +69,17 @@
             </tbody>
         </table>
     </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize sortable table with default sort by Season (column 0) descending
+        initTableSort('.stat-table', {
+            initialSort: { column: 0, direction: 'desc' }
+        });
+    });
+</script>
 {% endblock %}

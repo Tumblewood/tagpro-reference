@@ -26,7 +26,8 @@
         <a href="{% url 'season_home' season.id %}">Home</a> |
         <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
         <a href="{% url 'season_stats' season.id %}">Stats</a> |
-        <span class="current">Rosters</span>
+        <span class="current">Rosters</span> |
+        <a href="{% url 'league_history' season.league.id %}">History</a>
     </div>
     
     <div class="rosters-container">
@@ -35,6 +36,17 @@
             <h3 class="team-name">
                 <a href="{% url 'team_season' roster_data.team.id %}">{{ roster_data.team.name }}</a>
             </h3>
+            {% if roster_data.team.captain or roster_data.team.co_captain %}
+            <div class="team-leadership">
+                {% if roster_data.team.captain and roster_data.team.co_captain %}
+                    Captains: <a href="{% url 'player_history' roster_data.team.captain.id %}">{{ roster_data.team.captain.name }}</a> / <a href="{% url 'player_history' roster_data.team.co_captain.id %}">{{ roster_data.team.co_captain.name }}</a>
+                {% elif roster_data.team.captain %}
+                    Captain: <a href="{% url 'player_history' roster_data.team.captain.id %}">{{ roster_data.team.captain.name }}</a>
+                {% elif roster_data.team.co_captain %}
+                    Captain: <a href="{% url 'player_history' roster_data.team.co_captain.id %}">{{ roster_data.team.co_captain.name }}</a>
+                {% endif %}
+            </div>
+            {% endif %}
             
             <table class="roster-table">
                 <thead>

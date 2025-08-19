@@ -26,7 +26,8 @@
     <span class="current">Home</span> |
     <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
     <a href="{% url 'season_stats' season.id %}">Stats</a> |
-    <a href="{% url 'season_rosters' season.id %}">Rosters</a>
+    <a href="{% url 'season_rosters' season.id %}">Rosters</a> |
+    <a href="{% url 'league_history' season.league.id %}">History</a>
 </div>
 
 <div class="stat-table-container">

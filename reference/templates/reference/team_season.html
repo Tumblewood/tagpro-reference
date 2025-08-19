@@ -22,7 +22,7 @@
         </a>
     </div>
     
-    <div style="text-align: center; margin: 1.5rem 0; font-size: 1rem; color: #666;">
+    <div style="text-align: center; font-size: 1rem; color: #666;">
         Rank: {{ rank }} | Playoff Finish: {{ playoff_finish }} | Record: {{ record }} | 
         Captain: 
         {% if team.captain %}
@@ -40,7 +40,7 @@
         {% endif %}
     </div>
     
-    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Roster</h2>
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 2rem 0 0; color: #333;">Roster</h2>
     
     <div class="rosters-container">
         <table class="roster-table">
@@ -69,7 +69,7 @@
         </table>
     </div>
     
-    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Stats</h2>
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 1rem 0 0; color: #333;">Stats</h2>
     
     <div class="stat-table-container">
         <table class="stat-table" id="stats-table">
@@ -118,7 +118,7 @@
         </table>
     </div>
     
-    <h2 style="text-align: center; font-size: 1.75rem; margin: 2.5rem 0 1rem; color: #333;">Schedule</h2>
+    <h2 style="text-align: center; font-size: 1.75rem; margin: 1rem 0 1rem; color: #333;">Schedule</h2>
     
     <div class="matches-container">
         {% for match_data in schedule_data %}
