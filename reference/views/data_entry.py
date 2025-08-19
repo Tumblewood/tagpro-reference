@@ -314,6 +314,16 @@ def enter_confirmed_data(
 
     # Create PlayerGameLogs for all players in the game
     for p in players:
+        played_on = red_team if p['game_team'] == red_team_raw_name else blue_team
+
+        # If the player has a PlayerSeason in that season, set it to that
+        exact_player_season_match = PlayerSeason.objects.filter(
+            season=red_team.season,
+            player=p['player']
+        ).first()
+        if exact_player_season_match is not None:
+            p['player_season'] = exact_player_season_match
+
         # If Player and PlayerSeason are both None, create a new Player
         if p['player'] is None and p['player_season'] is None:
             p['player'] = Player.objects.create(name=p['player_username'])
@@ -332,7 +342,7 @@ def enter_confirmed_data(
             game=game,
             player_season=p['player_season'],
             playing_as=p['game_username'],
-            team=red_team if p['game_team'] == red_team_raw_name else blue_team
+            team=played_on
         )
     
     # Run this to collect stats from the game and attach those to the PlayerGameLogs
