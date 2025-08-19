@@ -9,8 +9,8 @@ class League(models.Model):
     region = models.CharField(max_length=3, choices=[('NA', 'North America'), ('EU', 'Europe'), ('OCE', 'Oceania')], blank=True, null=True)
     ordering = models.IntegerField(help_text="Indicates how leagues should be ordered when several are displayed")
     gamemode = models.CharField(max_length=50, help_text="CTF")
-    logo = models.ImageField(upload_to='icons/leagues/', blank=True, null=True)
-    trophy_icon = models.ImageField(upload_to='icons/trophies/', blank=True, null=True)
+    logo = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the league's logo image")
+    trophy_icon = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the league's championship trophy image")
 
     def __str__(self):
         return self.name
@@ -21,7 +21,7 @@ class Franchise(models.Model):
     """
     name = models.CharField(max_length=255, unique=True)
     abbr = models.CharField(max_length=10)
-    logo = models.ImageField(upload_to='icons/franchises/', blank=True, null=True)
+    logo = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the franchise's logo image")
 
     def __str__(self):
         return self.name
