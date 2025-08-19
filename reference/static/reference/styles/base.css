@@ -74,6 +74,45 @@ header {
     color: #333;
 }
 
+.section-title {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 2rem 0 0;
+    color: #333;
+    font-weight: 700;
+}
+
+.page-info-primary {
+    text-align: center;
+    margin: 0.5rem 0 1rem;
+    font-size: 1.1rem;
+}
+
+.page-info-primary a {
+    color: #07b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-info-primary a:hover {
+    text-decoration: underline;
+}
+
+.page-info-secondary {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
+
+.page-info-secondary a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.page-info-secondary a:hover {
+    text-decoration: underline;
+}
+
 /* Styles for main stat / reference tables */
 
 .stat-table-container {

@@ -11,27 +11,22 @@
 {% block content %}
     <h1 class="page-title">{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }}</h1>
     
-    <div class="match-info">
+    <div class="page-info-primary">
         Season: <a href="{% url 'season_home' season.id %}">{{ season.name }}</a>
         | Date: {{ match.date|date:"n/j" }}
-        {% if map_info %}
-            | Map: {{ map_info.map_name }}
-            {% if map_info.tagpro_eu_url %} | <a href="{{ map_info.tagpro_eu_url }}" target="_blank">tagpro.eu</a>{% endif %}
-            {% if map_info.replay %} | <a href="{{ map_info.replay }}" target="_blank">replay</a>{% endif %}
-            {% if map_info.vod %} | <a href="{{ map_info.vod }}" target="_blank">vod</a>{% endif %}
-        {% endif %}
     </div>
     
-    <div class="match-box-score">
-        <table class="box-score">
-            <colgroup>
-                <col style="width: auto;">
-                {% for game in box_score_games %}
-                <col style="width: 4rem;">
-                {% endfor %}
-                <col style="width: 3rem;">
-                <col style="width: 3rem;">
-            </colgroup>
+    {% if map_info %}
+    <div class="page-info-secondary">
+        Map: {{ map_info.map_name }}
+        {% if map_info.tagpro_eu_url %} | <a href="{{ map_info.tagpro_eu_url }}" target="_blank">tagpro.eu</a>{% endif %}
+        {% if map_info.replay %} | <a href="{{ map_info.replay }}" target="_blank">replay</a>{% endif %}
+        {% if map_info.vod %} | <a href="{{ map_info.vod }}" target="_blank">vod</a>{% endif %}
+    </div>
+    {% endif %}
+    
+    <div class="stat-table-container">
+        <table class="stat-table">
             <thead>
                 <tr>
                     <th>Team</th>
@@ -44,7 +39,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="team-name-cell">
+                    <td class="team-name">
                         <a href="{% url 'team_season' match.team1.id %}">
                             {{ match.team1.name }}
                         </a>
@@ -62,7 +57,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="team-name-cell">
+                    <td class="team-name">
                         <a href="{% url 'team_season' match.team2.id %}">
                             {{ match.team2.name }}
                         </a>
@@ -96,8 +91,9 @@
     
     <div class="stats-tables">
         <div class="team-stats-section">
-            <h2 class="team-stats-title">{{ match.team1.name }}</h2>
-            <table class="player-stats-table" id="team1-stats-table">
+            <h2 class="section-title">{{ match.team1.name }}</h2>
+            <div class="stat-table-container">
+                <table class="stat-table" id="team1-stats-table">
                 <thead>
                     <tr>
                         <th data-sortable data-type="text">Player</th>
@@ -116,7 +112,7 @@
                 <tbody>
                     {% for stat in team1_stats %}
                     <tr>
-                        <td class="player-name">
+                        <td class="team-name">
                             <a href="{% url 'player_history' stat.player_season__player__id %}">
                                 {{ stat.player_season__playing_as }}
                             </a>
@@ -140,12 +136,14 @@
                     </tr>
                     {% endfor %}
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
         
         <div class="team-stats-section">
-            <h2 class="team-stats-title">{{ match.team2.name }}</h2>
-            <table class="player-stats-table" id="team2-stats-table">
+            <h2 class="section-title" style="margin: 0;">{{ match.team2.name }}</h2>
+            <div class="stat-table-container">
+                <table class="stat-table" id="team2-stats-table">
                 <thead>
                     <tr>
                         <th data-sortable data-type="text">Player</th>
@@ -164,7 +162,7 @@
                 <tbody>
                     {% for stat in team2_stats %}
                     <tr>
-                        <td class="player-name">
+                        <td class="team-name">
                             <a href="{% url 'player_history' stat.player_season__player__id %}">
                                 {{ stat.player_season__playing_as }}
                             </a>
@@ -188,7 +186,8 @@
                     </tr>
                     {% endfor %}
                 </tbody>
-            </table>
+                </table>
+            </div>
         </div>
     </div>
 {% endblock %}
