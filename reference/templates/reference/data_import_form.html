@@ -178,7 +178,7 @@
                         <option value="">-- No Team Found --</option>
                         {% for team in team_seasons %}
                             <option value="{{ team.id }}" {% if team.id == form_data.red_team.id %}selected{% endif %}>
-                                {{ team.franchise.name }} ({{ team.season.name }})
+                                {{ team.name }} ({{ team.season.name }})
                             </option>
                         {% endfor %}
                     </select>
@@ -189,7 +189,7 @@
                         <option value="">-- No Team Found --</option>
                         {% for team in team_seasons %}
                             <option value="{{ team.id }}" {% if team.id == form_data.blue_team.id %}selected{% endif %}>
-                                {{ team.franchise.name }} ({{ team.season.name }})
+                                {{ team.name }} ({{ team.season.name }})
                             </option>
                         {% endfor %}
                     </select>
@@ -200,7 +200,7 @@
                         <option value="">-- New Match --</option>
                         {% for match in matches %}
                             <option value="{{ match.id }}" {% if match.id == form_data.match.id %}selected{% endif %}>
-                                {{ match.team1.franchise.name }} vs {{ match.team2.franchise.name }} - {{ match.week }}
+                                {{ match.team1.name }} vs {{ match.team2.name }} - {{ match.week }}
                             </option>
                         {% endfor %}
                     </select>
@@ -279,7 +279,7 @@
                         <option value="">-- New Player Season --</option>
                         {% for ps in player_seasons %}
                             <option value="{{ ps.id }}" {% if ps.id == player.player_season.id %}selected{% endif %}>
-                                {{ ps.player.name }} ({{ ps.season.name }}) - {{ ps.team.franchise.name }}
+                                {{ ps.player.name }} ({{ ps.season.name }}) - {{ ps.team.name }}
                             </option>
                         {% endfor %}
                     </select>
@@ -298,7 +298,7 @@
                         <option value="">-- No Team --</option>
                         {% for team in team_seasons %}
                             <option value="{{ team.id }}" {% if team.id == player.season_team.id %}selected{% endif %}>
-                                {{ team.franchise.name }} ({{ team.season.name }})
+                                {{ team.name }} ({{ team.season.name }})
                             </option>
                         {% endfor %}
                     </select>
