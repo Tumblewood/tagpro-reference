@@ -683,6 +683,12 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
     # Sort matches by date
     matches.sort(key=lambda m: m['date'])
     
+    # Sort teamSeasons by season then by team name
+    team_seasons.sort(key=lambda ts: (ts['season'], ts['name']))
+    
+    # Sort playerSeasons by season then by team name then by playing_as
+    player_seasons.sort(key=lambda ps: (ps['season'], ps['team'], ps['playing_as']))
+    
     return {
         'teamSeasons': team_seasons,
         'playerSeasons': player_seasons,
@@ -809,12 +815,12 @@ def import_json_data_idempotent(json_data: Dict) -> Dict:
             player, _ = Player.objects.get_or_create(name=player_name)
             players_cache[player_name] = player
         
-        # Get team season
-        team_season = team_seasons_cache.get(f"{season.name}_{ps_data['team']}")
-        if not team_season:
-            continue
+        # Get team season (allow null team)
+        team_season = None
+        if ps_data['team']:
+            team_season = team_seasons_cache.get(f"{season.name}_{ps_data['team']}")
             
-        # Get or create player season
+        # Get or create player season (team can be None)
         player_season, _ = PlayerSeason.objects.get_or_create(
             season=season,
             player=players_cache[player_name],
