@@ -672,11 +672,16 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
         
         seen_matches[match_key]['games'].append(game_entry)
     
-    # Update game_in_match numbers
+    # Update game_in_match numbers and sort games by EU ID
     for match_data in seen_matches.values():
+        # Sort games within each match by tagpro_eu ID
+        match_data['games'].sort(key=lambda g: g['tagpro_eu'])
         for i, game in enumerate(match_data['games'], 1):
             game['game_in_match'] = i
         matches.append(match_data)
+    
+    # Sort matches by date
+    matches.sort(key=lambda m: m['date'])
     
     return {
         'teamSeasons': team_seasons,
@@ -693,7 +698,11 @@ def preprocess_eu_links(request):
     
     elif request.method == 'POST':
         season_filter_string = request.POST.get('season_filter_string', '').strip()
-        eu_urls = [url.strip() for url in request.POST.get('eu_urls', '').strip().split('\n') if url.strip()]
+        eu_input = request.POST.get('eu_urls', '').strip()
+        
+        # Extract all numbers from the input using regex (these should be EU IDs)
+        eu_ids = re.findall(r'\b(\d+)\b', eu_input)
+        eu_urls = [f"https://tagpro.eu/?match={eu_id}" for eu_id in eu_ids]
         
         if not season_filter_string:
             messages.error(request, "Please enter a season filter string.")
@@ -706,7 +715,7 @@ def preprocess_eu_links(request):
         try:
             json_data = process_multiple_eu_links(season_filter_string, eu_urls)
             return render(request, 'reference/preprocess_results.html', {
-                'json_data': json.dumps(json_data, indent=2),
+                'json_data': format_compact_json(json_data),
                 'url_count': len(eu_urls)
             })
         except Exception as e:
@@ -899,3 +908,126 @@ def import_json_data_idempotent(json_data: Dict) -> Dict:
             created_count += 1
     
     return {'created_count': created_count, 'skipped_count': skipped_count}
+
+
+def format_compact_json(data):
+    """Format JSON with scalar fields on one line, arrays/objects multi-line."""
+    def format_value(obj, indent_level=0):
+        indent = "  " * indent_level
+        
+        if isinstance(obj, dict):
+            # Check if this object has any array/object values
+            has_complex_values = any(isinstance(v, (list, dict)) for v in obj.values())
+            
+            if not has_complex_values:
+                # All scalar values - put on one line
+                pairs = [f'"{k}": {json.dumps(v)}' for k, v in obj.items()]
+                return "{ " + ", ".join(pairs) + " }"
+            else:
+                # Has complex values - use multi-line format
+                lines = ["{"]
+                for k, v in obj.items():
+                    if isinstance(v, (list, dict)):
+                        lines.append(f'{indent}  "{k}": {format_value(v, indent_level + 1)},')
+                    else:
+                        # Scalar field - format inline
+                        scalar_pairs = [(k, v)]
+                        # Collect consecutive scalar fields
+                        items = list(obj.items())
+                        current_idx = items.index((k, v))
+                        while (current_idx + 1 < len(items) and 
+                               not isinstance(items[current_idx + 1][1], (list, dict))):
+                            current_idx += 1
+                            scalar_pairs.append(items[current_idx])
+                        
+                        if len(scalar_pairs) > 1:
+                            # Multiple scalars - put them together on one line
+                            formatted_pairs = [f'"{pk}": {json.dumps(pv)}' for pk, pv in scalar_pairs]
+                            lines.append(f'{indent}  {", ".join(formatted_pairs)},')
+                            # Skip the ones we just processed
+                            for _ in range(len(scalar_pairs) - 1):
+                                next(iter(obj.items()))
+                        else:
+                            lines.append(f'{indent}  "{k}": {json.dumps(v)},')
+                
+                # Remove trailing comma from last line
+                if lines[-1].endswith(','):
+                    lines[-1] = lines[-1][:-1]
+                lines.append(indent + "}")
+                return "\n".join(lines)
+                
+        elif isinstance(obj, list):
+            if not obj:
+                return "[]"
+            lines = ["["]
+            for i, item in enumerate(obj):
+                comma = "," if i < len(obj) - 1 else ""
+                formatted_item = format_value(item, indent_level + 1)
+                if isinstance(item, dict):
+                    lines.append(f"{indent}  {formatted_item}{comma}")
+                else:
+                    lines.append(f"{indent}  {json.dumps(item)}{comma}")
+            lines.append(indent + "]")
+            return "\n".join(lines)
+        else:
+            return json.dumps(obj)
+    
+    # Simplified approach - format each top-level section
+    result_lines = ["{"]
+    
+    # teamSeasons - each on one line
+    if data.get('teamSeasons'):
+        result_lines.append('  "teamSeasons": [')
+        for i, ts in enumerate(data['teamSeasons']):
+            comma = "," if i < len(data['teamSeasons']) - 1 else ""
+            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ts.items()]
+            result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
+        result_lines.append('  ],')
+    
+    # playerSeasons - each on one line  
+    if data.get('playerSeasons'):
+        result_lines.append('  "playerSeasons": [')
+        for i, ps in enumerate(data['playerSeasons']):
+            comma = "," if i < len(data['playerSeasons']) - 1 else ""
+            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ps.items()]
+            result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
+        result_lines.append('  ],')
+    
+    # matches - scalar fields on one line, games array multi-line
+    if data.get('matches'):
+        result_lines.append('  "matches": [')
+        for i, match in enumerate(data['matches']):
+            comma = "," if i < len(data['matches']) - 1 else ""
+            result_lines.append('    {')
+            
+            # Match scalar fields on one line
+            scalar_fields = {k: v for k, v in match.items() if k != 'games'}
+            scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in scalar_fields.items()]
+            result_lines.append(f'      {", ".join(scalar_pairs)},')
+            
+            # Games array
+            result_lines.append('      "games": [')
+            for j, game in enumerate(match['games']):
+                game_comma = "," if j < len(match['games']) - 1 else ""
+                result_lines.append('        {')
+                
+                # Game scalar fields on one line
+                game_scalar_fields = {k: v for k, v in game.items() if k != 'players'}
+                game_scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in game_scalar_fields.items()]
+                result_lines.append(f'          {", ".join(game_scalar_pairs)},')
+                
+                # Players array - each player on one line
+                result_lines.append('          "players": [')
+                for p_idx, player in enumerate(game['players']):
+                    player_comma = "," if p_idx < len(game['players']) - 1 else ""
+                    player_pairs = [f'"{k}": {json.dumps(v)}' for k, v in player.items()]
+                    result_lines.append(f'            {{ {", ".join(player_pairs)} }}{player_comma}')
+                result_lines.append('          ]')
+                
+                result_lines.append(f'        }}{game_comma}')
+            result_lines.append('      ]')
+            result_lines.append(f'    }}{comma}')
+        result_lines.append('  ]')
+    
+    result_lines.append('}')
+    return '\n'.join(result_lines)
