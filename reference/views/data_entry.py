@@ -514,3 +514,388 @@ def import_from_eus(request):
                     'error': str(e),
                     'form_data': request.POST
                 })
+
+
+def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> Dict:
+    """Process multiple EU links and return JSON according to the schema."""
+    # Get season group
+    season_group = [s for s in Season.objects.all() if season_filter_string in s.name]
+    if not season_group:
+        raise Exception(f"No seasons found matching '{season_filter_string}'")
+    
+    team_seasons = []
+    player_seasons = []
+    matches = []
+    
+    # Track unique entities to avoid duplicates
+    seen_team_seasons = set()
+    seen_player_seasons = set()
+    seen_matches = {}  # key -> match_data for aggregating games
+    player_last_team = {}  # username -> (team_name, season_name) - track last team per player
+    
+    for url in eu_urls:
+        game_data = extract_game_data(url)
+        red_team = infer_team(season_group, game_data['team_red']['name'])
+        blue_team = infer_team(season_group, game_data['team_blue']['name'])
+        
+        # Add team seasons (include both known and unknown teams)
+        for team, raw_name in [(red_team, game_data['team_red']['name']), (blue_team, game_data['team_blue']['name'])]:
+            if not raw_name:  # Skip if raw_name is None or empty
+                continue
+                
+            team_name = team.name if team and hasattr(team, 'name') else raw_name
+            if team_name and team_name not in seen_team_seasons:
+                if team and hasattr(team, 'name') and hasattr(team, 'season'):
+                    # Known team
+                    team_seasons.append({
+                        'franchise': team.franchise.name if (team.franchise and hasattr(team.franchise, 'name')) else team_name,
+                        'season': team.season.name if (team.season and hasattr(team.season, 'name')) else season_group[0].name,
+                        'name': team.name,
+                        'abbr': getattr(team, 'abbr', team_name)
+                    })
+                else:
+                    # Unknown team - use raw name and infer season
+                    season_name = season_group[0].name if season_group else 'Unknown Season'
+                    team_abbr = raw_name[1:] if len(raw_name) > 1 else raw_name  # Remove league prefix
+                    team_seasons.append({
+                        'franchise': raw_name,  # Use raw name as franchise fallback
+                        'season': season_name,
+                        'name': raw_name,  # Use raw name as team name
+                        'abbr': team_abbr
+                    })
+                seen_team_seasons.add(team_name)
+        
+        # Track player teams across all games first
+        for player_data in game_data['players']:
+            username = player_data['username']
+            team = red_team if player_data['team'] == game_data['team_red']['name'] else blue_team
+            team_name = team.name if team else player_data['team']
+            season_name = team.season.name if team else season_group[0].name
+            
+            # Update last known team for this player
+            player_last_team[username] = (team_name, season_name)
+    
+    # Second pass: create player seasons and matches
+    for url in eu_urls:
+        game_data = extract_game_data(url)
+        red_team = infer_team(season_group, game_data['team_red']['name'])
+        blue_team = infer_team(season_group, game_data['team_blue']['name'])
+        
+        # Add player seasons
+        for player_data in game_data['players']:
+            username = player_data['username']
+            team = red_team if player_data['team'] == game_data['team_red']['name'] else blue_team
+            player_season = infer_player_season(username, team)
+            
+            if player_season and player_season.season and player_season.team and player_season.player:
+                key = f"{player_season.season.name}_{player_season.playing_as}_{player_season.team.name}"
+                if key not in seen_player_seasons:
+                    player_seasons.append({
+                        'season': player_season.season.name,
+                        'player': player_season.player.name,
+                        'playing_as': player_season.playing_as,
+                        'team': player_season.team.name
+                    })
+                    seen_player_seasons.add(key)
+            else:
+                # Create entry for unknown player using their last known team
+                last_team_name, last_season_name = player_last_team.get(username, (player_data['team'], season_group[0].name))
+                key = f"{last_season_name}_{username}_{last_team_name}"
+                if key not in seen_player_seasons:
+                    player_seasons.append({
+                        'season': last_season_name,
+                        'player': username,
+                        'playing_as': username,
+                        'team': last_team_name
+                    })
+                    seen_player_seasons.add(key)
+        
+        # Handle match data - group games by match (teams in either order)
+        existing_match = get_existing_match(red_team, blue_team, game_data['date'])
+        if existing_match:
+            match_key = f"{existing_match.season.name}_{existing_match.team1.name}_{existing_match.team2.name}_{existing_match.date}"
+            season_name = existing_match.season.name
+            team1_name = existing_match.team1.name
+            team2_name = existing_match.team2.name
+            week = existing_match.week
+        else:
+            season_name = red_team.season.name if red_team else (blue_team.season.name if blue_team else season_group[0].name)
+            red_name = red_team.name if red_team else game_data['team_red']['name']
+            blue_name = blue_team.name if blue_team else game_data['team_blue']['name']
+            
+            # Sort team names to ensure consistent match keys regardless of red/blue order
+            team_names_sorted = sorted([red_name, blue_name])
+            team1_name = team_names_sorted[0]
+            team2_name = team_names_sorted[1]
+            match_key = f"{season_name}_{team1_name}_{team2_name}_{game_data['date']}"
+            week = infer_week(red_team, blue_team, game_data['date'])
+        
+        # Build game entry
+        game_entry = {
+            'game_in_match': 1,  # Will be updated when we finalize matches
+            'tagpro_eu': int(game_data['game_id']),
+            'map_name': game_data['map_name'],
+            'map_id': game_data['map_id'] if game_data['map_id'] else '',
+            'red_team': red_team.name if red_team else game_data['team_red']['name'],
+            'blue_team': blue_team.name if blue_team else game_data['team_blue']['name'],
+            'team1_score': game_data['team_red']['score'],
+            'team2_score': game_data['team_blue']['score'],
+            'players': []
+        }
+        
+        # Add player data to game
+        for player_data in game_data['players']:
+            username = player_data['username']
+            team = red_team if player_data['team'] == game_data['team_red']['name'] else blue_team
+            player_season = infer_player_season(username, team)
+            
+            # Use actual team name if known, otherwise use raw team name
+            team_name = team.name if team else player_data['team']
+            playerseason_name = player_season.playing_as if player_season else username
+            
+            game_entry['players'].append({
+                'team': team_name,
+                'playerseason': playerseason_name,
+                'playing_as': username
+            })
+        
+        # Add to matches (group by match_key)
+        if match_key not in seen_matches:
+            seen_matches[match_key] = {
+                'season': season_name,
+                'date': str(game_data['date']),
+                'week': week,
+                'team1': team1_name,
+                'team2': team2_name,
+                'games': []
+            }
+        
+        seen_matches[match_key]['games'].append(game_entry)
+    
+    # Update game_in_match numbers
+    for match_data in seen_matches.values():
+        for i, game in enumerate(match_data['games'], 1):
+            game['game_in_match'] = i
+        matches.append(match_data)
+    
+    return {
+        'teamSeasons': team_seasons,
+        'playerSeasons': player_seasons,
+        'matches': matches
+    }
+
+
+@staff_member_required
+def preprocess_eu_links(request):
+    """Form where user can paste EU links and get back JSON data."""
+    if request.method == 'GET':
+        return render(request, 'reference/preprocess_eu_links.html')
+    
+    elif request.method == 'POST':
+        season_filter_string = request.POST.get('season_filter_string', '').strip()
+        eu_urls = [url.strip() for url in request.POST.get('eu_urls', '').strip().split('\n') if url.strip()]
+        
+        if not season_filter_string:
+            messages.error(request, "Please enter a season filter string.")
+            return render(request, 'reference/preprocess_eu_links.html')
+        
+        if not eu_urls:
+            messages.error(request, "Please enter at least one tagpro.eu URL.")
+            return render(request, 'reference/preprocess_eu_links.html')
+        
+        try:
+            json_data = process_multiple_eu_links(season_filter_string, eu_urls)
+            return render(request, 'reference/preprocess_results.html', {
+                'json_data': json.dumps(json_data, indent=2),
+                'url_count': len(eu_urls)
+            })
+        except Exception as e:
+            import traceback
+            error_details = traceback.format_exc()
+            messages.error(request, f"Error processing URLs: {str(e)}\n\nDetails:\n{error_details}")
+            return render(request, 'reference/preprocess_eu_links.html')
+
+
+@staff_member_required
+@transaction.atomic
+def import_from_json(request):
+    """Form where user can paste JSON data to import into database."""
+    if request.method == 'GET':
+        return render(request, 'reference/import_json.html')
+    
+    elif request.method == 'POST':
+        json_data_str = request.POST.get('json_data', '').strip()
+        
+        if not json_data_str:
+            messages.error(request, "Please enter JSON data.")
+            return render(request, 'reference/import_json.html')
+        
+        try:
+            json_data = json.loads(json_data_str)
+            
+            # Import data idempotently
+            import_results = import_json_data_idempotent(json_data)
+            
+            messages.success(request, f"Import completed: {import_results['created_count']} new games, {import_results['skipped_count']} already existed")
+            return render(request, 'reference/import_json.html')
+            
+        except json.JSONDecodeError as e:
+            messages.error(request, f"Invalid JSON: {str(e)}")
+            return render(request, 'reference/import_json.html')
+        except Exception as e:
+            messages.error(request, f"Error importing JSON: {str(e)}")
+            return render(request, 'reference/import_json.html')
+
+
+def import_json_data_idempotent(json_data: Dict) -> Dict:
+    """Import JSON data into database idempotently."""
+    from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
+    
+    created_count = 0
+    skipped_count = 0
+    
+    # First pass: Create/get all seasons, franchises, players, team seasons, player seasons
+    seasons_cache = {}
+    franchises_cache = {}
+    players_cache = {}
+    team_seasons_cache = {}
+    player_seasons_cache = {}
+    
+    # Cache existing seasons
+    for season in Season.objects.all():
+        seasons_cache[season.name] = season
+    
+    # Process team seasons
+    for ts_data in json_data.get('teamSeasons', []):
+        season = seasons_cache.get(ts_data['season'])
+        if not season:
+            continue
+            
+        # Get or create franchise
+        franchise_name = ts_data['franchise']
+        if franchise_name not in franchises_cache:
+            franchise, _ = Franchise.objects.get_or_create(name=franchise_name)
+            franchises_cache[franchise_name] = franchise
+        
+        # Get or create team season
+        team_season, _ = TeamSeason.objects.get_or_create(
+            season=season,
+            name=ts_data['name'],
+            defaults={
+                'franchise': franchises_cache[franchise_name],
+                'abbr': ts_data['abbr']
+            }
+        )
+        team_seasons_cache[f"{season.name}_{ts_data['name']}"] = team_season
+    
+    # Process player seasons
+    for ps_data in json_data.get('playerSeasons', []):
+        season = seasons_cache.get(ps_data['season'])
+        if not season:
+            continue
+            
+        # Get or create player
+        player_name = ps_data['player']
+        if player_name not in players_cache:
+            player, _ = Player.objects.get_or_create(name=player_name)
+            players_cache[player_name] = player
+        
+        # Get team season
+        team_season = team_seasons_cache.get(f"{season.name}_{ps_data['team']}")
+        if not team_season:
+            continue
+            
+        # Get or create player season
+        player_season, _ = PlayerSeason.objects.get_or_create(
+            season=season,
+            player=players_cache[player_name],
+            playing_as=ps_data['playing_as'],
+            defaults={'team': team_season}
+        )
+        player_seasons_cache[f"{season.name}_{ps_data['playing_as']}"] = player_season
+    
+    # Process matches and games
+    for match_data in json_data.get('matches', []):
+        season = seasons_cache.get(match_data['season'])
+        if not season:
+            continue
+            
+        team1 = team_seasons_cache.get(f"{season.name}_{match_data['team1']}")
+        team2 = team_seasons_cache.get(f"{season.name}_{match_data['team2']}")
+        if not team1 or not team2:
+            continue
+            
+        # Get or create match
+        match, _ = Match.objects.get_or_create(
+            season=season,
+            team1=team1,
+            team2=team2,
+            date=match_data['date'],
+            defaults={'week': match_data['week']}
+        )
+        
+        # Process games in this match
+        for game_data in match_data['games']:
+            red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
+            blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
+            if not red_team or not blue_team:
+                continue
+                
+            # Check if game already exists
+            existing_game = Game.objects.filter(
+                match=match,
+                tagpro_eu=game_data['tagpro_eu']
+            ).first()
+            
+            if existing_game:
+                skipped_count += 1
+                continue
+                
+            # Determine team1/team2 scores based on match team order
+            team1_is_red = (red_team == match.team1)
+            team1_score = game_data['team1_score'] if team1_is_red else game_data['team2_score']
+            team2_score = game_data['team2_score'] if team1_is_red else game_data['team1_score']
+            
+            # Create game
+            game = Game.objects.create(
+                match=match,
+                red_team=red_team,
+                blue_team=blue_team,
+                team1_score=team1_score,
+                team2_score=team2_score,
+                map_name=game_data['map_name'],
+                map_id=game_data['map_id'] if game_data['map_id'] else None,
+                game_in_match=game_data['game_in_match'],
+                tagpro_eu=game_data['tagpro_eu']
+            )
+            
+            # Create player game logs
+            for player_data in game_data['players']:
+                player_season = player_seasons_cache.get(f"{season.name}_{player_data['playerseason']}")
+                if not player_season:
+                    continue
+                    
+                team = team_seasons_cache.get(f"{season.name}_{player_data['team']}")
+                if not team:
+                    continue
+                    
+                # Check if player game log already exists
+                existing_pgl = PlayerGameLog.objects.filter(
+                    game=game,
+                    player_season=player_season,
+                    playing_as=player_data['playing_as']
+                ).first()
+                
+                if not existing_pgl:
+                    PlayerGameLog.objects.create(
+                        game=game,
+                        player_season=player_season,
+                        playing_as=player_data['playing_as'],
+                        team=team
+                    )
+            
+            # Process game stats
+            process_game_stats(game)
+            created_count += 1
+    
+    return {'created_count': created_count, 'skipped_count': skipped_count}

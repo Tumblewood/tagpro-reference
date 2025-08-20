@@ -1,0 +1,41 @@
+
+{
+  teamSeasons: {
+    franchise: string  // franchise name
+    season: string  // season name
+    name: string  // teamseason name
+    abbr: string  // teamseason abbr
+    // ignore captain and co_captain; those are not indicated by eu files and can be added manually later
+  }[]
+  playerSeasons: {
+    season: string  // season name
+    player: string  // player name
+    playing_as: string  // playerseason playing_as
+    team: string  // teamseason name
+    // ignore position and other_restrictions; those are not indicated by eu files and can be added manually later
+  }[]
+  matches: {
+    season: string  // season name
+    date: string  // in YYYY-MM-DD format
+    week: string  // week name; no need to infer if it'll be difficult, can just say week 1. but if easy might as well do.
+    team1: string  // team1 teamseason name
+    team2: string  // team2 teamseason name
+    games: {
+      game_in_match: number
+      tagpro_eu: number  // tagpro.eu match id
+      map_name: string
+      map_id: number
+      red_team: string  // teamseason name
+      blue_team: string  // teamseason name
+      team1_score: number  // note that team1 is the same as the match's team1 but can be red or blue
+      team2_score: number  // ditto
+      outcome: string  // W / OTW / OTL / L
+      // ignore replay and vod, which aren't indicated, and standing points, which can be derived from outcome
+      players: {
+        team: string  // teamseason name
+        playerseason: string  // playerseason playing_as
+        playing_as: string  // playergamelog playing_as (their username THAT game not necessarily the whole season)
+      }[]
+    }[]
+  }[]
+}

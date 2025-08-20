@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Import - TagPro League</title>
+    <title>JSON Import - TagPro League</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f5f5f5;
@@ -31,19 +31,18 @@
             font-weight: bold;
             color: #555;
         }
-        input[type="text"], textarea {
+        textarea {
             width: 100%;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
-            font-size: 14px;
-        }
-        textarea {
-            min-height: 150px;
+            font-size: 12px;
+            font-family: 'Courier New', monospace;
+            min-height: 400px;
             resize: vertical;
         }
         button {
-            background-color: #007cba;
+            background-color: #dc3545;
             color: white;
             padding: 12px 24px;
             border: none;
@@ -52,7 +51,7 @@
             cursor: pointer;
         }
         button:hover {
-            background-color: #005a87;
+            background-color: #c82333;
         }
         .messages {
             margin-bottom: 20px;
@@ -77,17 +76,40 @@
             color: #666;
             margin-top: 5px;
         }
+        .nav-links {
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            color: #007cba;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="nav-links" style="margin-bottom: 20px;">
-            <a href="{% url 'import_data' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">EU Import</a>
-            <a href="{% url 'preprocess_eu_links' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">Preprocess</a>
-            <a href="{% url 'import_from_json' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">JSON Import</a>
+        <div class="nav-links">
+            <a href="{% url 'import_data' %}">EU Import</a>
+            <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
+            <a href="{% url 'import_from_json' %}">JSON Import</a>
         </div>
         
-        <h1>EU Import (One-by-One)</h1>
+        <h1>JSON Import</h1>
+        
+        <div class="warning">
+            <strong>Warning:</strong> This will add data directly to the database. Make sure you've reviewed the JSON data carefully before importing.
+        </div>
         
         {% if messages %}
         <div class="messages">
@@ -101,18 +123,12 @@
             {% csrf_token %}
             
             <div class="form-group">
-                <label for="season_filter_string">Season Filter String:</label>
-                <input type="text" id="season_filter_string" name="season_filter_string" required>
-                <div class="help-text">Enter a string that will match season names (e.g., "S36" or "MLTP S35")</div>
+                <label for="json_data">JSON Data:</label>
+                <textarea id="json_data" name="json_data" placeholder="Paste the processed JSON data here..." required></textarea>
+                <div class="help-text">Paste the JSON data from the preprocessing step. The data should follow the expected schema format.</div>
             </div>
             
-            <div class="form-group">
-                <label for="eu_urls">TagPro EU URLs:</label>
-                <textarea id="eu_urls" name="eu_urls" placeholder="Paste TagPro EU URLs here, one per line..." required></textarea>
-                <div class="help-text">Enter one TagPro EU URL per line. Example: https://tagpro.eu/?match=1234567</div>
-            </div>
-            
-            <button type="submit">Start Import Process</button>
+            <button type="submit">Import to Database</button>
         </form>
     </div>
 </body>

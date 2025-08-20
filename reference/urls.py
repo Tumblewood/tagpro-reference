@@ -13,5 +13,7 @@ urlpatterns = [
     path('team/<int:team_id>/', info_pages.team_season, name='team_season'),
     path('franchise/<int:franchise_id>/', info_pages.franchise_history, name='franchise_history'),
     path('match/<int:match_id>/', info_pages.match_view, name='match_view'),
-    path('data/import/', data_entry.import_from_eus, name='import_data'),
+    path('import/eu/', data_entry.import_from_eus, name='import_data'),
+    path('import/preprocess/', data_entry.preprocess_eu_links, name='preprocess_eu_links'),
+    path('import/json/', data_entry.import_from_json, name='import_from_json'),
 ]

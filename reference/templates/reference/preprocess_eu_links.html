@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Import - TagPro League</title>
+    <title>Preprocess EU Links - TagPro League</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -77,17 +77,29 @@
             color: #666;
             margin-top: 5px;
         }
+        .nav-links {
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            color: #007cba;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="nav-links" style="margin-bottom: 20px;">
-            <a href="{% url 'import_data' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">EU Import</a>
-            <a href="{% url 'preprocess_eu_links' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">Preprocess</a>
-            <a href="{% url 'import_from_json' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">JSON Import</a>
+        <div class="nav-links">
+            <a href="{% url 'import_data' %}">EU Import</a>
+            <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
+            <a href="{% url 'import_from_json' %}">JSON Import</a>
         </div>
         
-        <h1>EU Import (One-by-One)</h1>
+        <h1>Preprocess EU Links</h1>
+        <p>Enter multiple TagPro EU links and get JSON data for review before importing.</p>
         
         {% if messages %}
         <div class="messages">
@@ -112,7 +124,7 @@
                 <div class="help-text">Enter one TagPro EU URL per line. Example: https://tagpro.eu/?match=1234567</div>
             </div>
             
-            <button type="submit">Start Import Process</button>
+            <button type="submit">Generate JSON</button>
         </form>
     </div>
 </body>
