@@ -642,7 +642,6 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
     }
 
 
-@staff_member_required
 def preprocess_eu_links(request):
     """Form where user can paste EU links and get back JSON data."""
     if request.method == 'GET':

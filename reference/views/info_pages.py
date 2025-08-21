@@ -393,8 +393,9 @@ def season_schedule(req, season_id):
     # Sort weeks with special playoff ordering
     def week_sort_key(week_name):
         playoff_order = {
-            'Equidistant Eight': 'ZZZZ1',
-            'Secant Six': 'ZZZZ2', 
+            'Fibonacci Fifteen': 'ZZZZ1',
+            'Equidistant Eight': 'ZZZZ2',
+            'Secant Six': 'ZZZZ2',
             'Foci Four': 'ZZZZ3',
             'Super Ball': 'ZZZZ4',
             'Muper Ball': 'ZZZZ4',
