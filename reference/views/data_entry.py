@@ -8,10 +8,10 @@ import json
 import re
 from datetime import datetime, date
 import tagpro_eu
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 
 from .stat_collection import process_game_stats
-from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
+from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
 
 
 with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
@@ -71,23 +71,32 @@ def extract_game_data(eu_url: str) -> Dict:
     }
 
 
+def infer_season(season_group: List[Season], team_name_in_group: str) -> Optional[Season]:
+    if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) < 4:
+        return None
+    
+    league_indicator = team_name_in_group[:1]
+    try:
+        if league_indicator == "M":
+            return [s for s in season_group if s.name.startswith("MLTP")][0]
+        elif league_indicator == "N":
+            return [s for s in season_group if s.name.startswith("mLTP")][0]
+        elif league_indicator == "A":
+            return [s for s in season_group if s.name.startswith("NLTP")][0]
+        else:
+            return None
+    except IndexError:
+        return None
+
+
 def infer_team(season_group: List[Season], team_name_in_group: str) -> Optional[TeamSeason]:
     """Try to automatically match team name from group to TeamSeason within the season group."""
     # If the team name doesn't exist, is default, or is too short, return None
-    if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) <= 2:
+    if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) < 3:
         return None
     
-    season_guess = None
-    league_indicator, team_abbr = team_name_in_group[:1], team_name_in_group[1:]
-    try:
-        if league_indicator == "M":
-            season_guess = [s for s in season_group if s.name.startswith("MLTP")][0]
-        elif league_indicator == "N":
-            season_guess = [s for s in season_group if s.name.startswith("mLTP")][0]
-        elif league_indicator == "A":
-            season_guess = [s for s in season_group if s.name.startswith("NLTP")][0]
-    except IndexError:
-        return None
+    team_abbr = team_name_in_group.strip()[-3:]  # strip because sometimes captains add a trailing space by mistake
+    season_guess = infer_season(season_group, team_name_in_group)
 
     # Get all teams with matching abbreviation
     matching_abbr = TeamSeason.objects.filter(abbr=team_abbr)
@@ -514,3 +523,456 @@ def import_from_eus(request):
                     'error': str(e),
                     'form_data': request.POST
                 })
+
+
+def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> Dict:
+    """Process multiple EU links and return JSON according to the schema."""
+    # Get season group
+    season_group = [s for s in Season.objects.all() if season_filter_string in s.name]
+    if not season_group:
+        raise Exception(f"No seasons found matching '{season_filter_string}'")
+
+    # Track unique entities to avoid duplicates
+    team_seasons: Dict[str, List[Any]] = {}
+    player_seasons: Dict[str, List[Any]] = {}
+    matches: Dict[str, List[Any]] = {}
+    
+    extracted_game_data = [extract_game_data(url) for url in eu_urls]
+    for game_data in extracted_game_data:
+        red_team: Optional[TeamSeason] = infer_team(season_group, game_data['team_red']['name'])
+        blue_team: Optional[TeamSeason] = infer_team(season_group, game_data['team_blue']['name'])
+        season: Optional[Season] = None
+        game_players: List[Dict] = []
+        team1_score = game_data['team_red']['score']
+        team2_score = game_data['team_blue']['score']
+        
+        # Add team seasons (include both known and unknown teams)
+        for team, raw_name in [(red_team, game_data['team_red']['name']), (blue_team, game_data['team_blue']['name'])]:                
+            team_name = team.name if team else raw_name
+            if team:
+                # Known team
+                season = team.season
+                team_key = f"{season.name} {team_name}"
+                team_seasons[team_key] = {
+                    'season': season.name,
+                    'franchise': team.franchise.name if team.franchise else team_name,
+                    'name': team.name,
+                    'abbr': team.abbr
+                }
+            else:
+                # Unknown team - use raw name and infer season and franchise
+                season = infer_season(raw_name) or season_group[0]
+                team_abbr = raw_name[-3:]
+                team_key = f"{season.name} {team_abbr}"
+                team_seasons[team_key] = {
+                    'season': season.name,
+                    'franchise': raw_name,  # Use raw name as franchise fallback
+                    'name': raw_name,  # Use raw name as team name
+                    'abbr': team_abbr
+                }
+        
+        # Identify and track players from the game
+        for player_data in game_data['players']:
+            player_season: Optional[PlayerSeason] = None
+            player: Optional[Player] = infer_player(None, player_data['username'])
+            if player:
+                player_season = PlayerSeason.objects.filter(season=season, player=player).first()
+            season_playing_as = player_season.playing_as if player_season else player_data['username']
+            player_key = f"{season.name} {season_playing_as}"
+            team = red_team if player_data['team'] == game_data['team_red']['name'] else blue_team
+            game_players.append({
+                'team': team.name if team else player_data['team'],
+                'player_season': season_playing_as,
+                'playing_as': player_data['username']
+            })
+            if player_season:
+                if player_season.team:
+                    season_team_name = player_season.team.name
+                else:
+                    season_team_name = None
+            else:
+                if team:
+                    season_team_name = team.name
+                else:
+                    season_team_name = player_data['team']
+            player_seasons[player_key] = {
+                'season': season.name,
+                'team': season_team_name,
+                'player': player.name if player else season_playing_as,
+                'playing_as': season_playing_as
+            }
+        
+        # Search for the existing match if there is one (either red or blue team could be team1), or create a new match if none found
+        match_key = f"{season.name} {game_data['date']} - {red_team.name if red_team else game_data['team_red']['name']} vs. {blue_team.name if blue_team else game_data['team_blue']['name']}"
+        reverse_match_key = f"{season.name} {game_data['date']} - {blue_team.name if blue_team else game_data['team_blue']['name']} vs. {red_team.name if red_team else game_data['team_red']['name']}"
+        if match_key not in matches:
+            if reverse_match_key in matches:
+                match_key = reverse_match_key
+                team1_score = game_data['team_blue']['score']
+                team2_score = game_data['team_red']['score']
+            else:
+                matches[match_key] = {
+                    'season': season.name,
+                    'date': str(game_data['date']),
+                    'week': infer_week(red_team, blue_team, game_data['date']),
+                    'team1': red_team.name if red_team else game_data['team_red']['name'],
+                    'team2': blue_team.name if blue_team else game_data['team_blue']['name'],
+                    'games': []
+                }
+
+        matches[match_key]['games'].append({
+            "tagpro_eu": game_data['game_id'],
+            "map_name": game_data['map_name'],
+            "map_id": game_data['map_id'],
+            "red_team": red_team.name if red_team else game_data['team_red']['name'],
+            "blue_team": blue_team.name if blue_team else game_data['team_blue']['name'],
+            "team1_score": team1_score,
+            "team2_score": team2_score,
+            "players": game_players
+        })
+
+    sorted_ts = sorted([team_seasons[ts] for ts in team_seasons], key=lambda ts: (ts['season'], ts['name']))
+    sorted_ps = sorted([player_seasons[ps] for ps in player_seasons], key=lambda ps: (ps['season'], ps['team'] or "", ps['playing_as']))
+    sorted_matches = [matches[m] for m in sorted(matches.keys())]
+    
+    return {
+        'teamSeasons': sorted_ts,
+        'playerSeasons': sorted_ps,
+        'matches': sorted_matches
+    }
+
+
+@staff_member_required
+def preprocess_eu_links(request):
+    """Form where user can paste EU links and get back JSON data."""
+    if request.method == 'GET':
+        return render(request, 'reference/preprocess_eu_links.html')
+    
+    elif request.method == 'POST':
+        season_filter_string = request.POST.get('season_filter_string', '').strip()
+        eu_input = request.POST.get('eu_urls', '').strip()
+        
+        # Extract all numbers from the input using regex (these should be EU IDs)
+        eu_ids = re.findall(r'\b(\d+)\b', eu_input)
+        eu_urls = [f"https://tagpro.eu/?match={eu_id}" for eu_id in eu_ids]
+        
+        if not season_filter_string:
+            messages.error(request, "Please enter a season filter string.")
+            return render(request, 'reference/preprocess_eu_links.html')
+        
+        if not eu_urls:
+            messages.error(request, "Please enter at least one tagpro.eu URL.")
+            return render(request, 'reference/preprocess_eu_links.html')
+        
+        try:
+            json_data = process_multiple_eu_links(season_filter_string,sorted(eu_urls))
+            return render(request, 'reference/preprocess_results.html', {
+                'json_data': format_compact_json(json_data),
+                'url_count': len(eu_urls)
+            })
+        except Exception as e:
+            messages.error(request, f"Error processing URLs: {str(e)}")
+            return render(request, 'reference/preprocess_eu_links.html')
+
+
+@staff_member_required
+@transaction.atomic
+def import_from_json(request):
+    """Form where user can paste JSON data to import into database."""
+    if request.method == 'GET':
+        return render(request, 'reference/import_json.html')
+    
+    elif request.method == 'POST':
+        json_data_str = request.POST.get('json_data', '').strip()
+        
+        if not json_data_str:
+            messages.error(request, "Please enter JSON data.")
+            return render(request, 'reference/import_json.html')
+        
+        try:
+            json_data = json.loads(json_data_str)
+            
+            # Import data idempotently
+            import_results = import_json_data_to_db(json_data)
+            
+            messages.success(request, f"Import completed: {import_results['created_count']} new games, {import_results['skipped_count']} already existed")
+            return render(request, 'reference/import_json.html')
+            
+        except json.JSONDecodeError as e:
+            messages.error(request, f"Invalid JSON: {str(e)}")
+            return render(request, 'reference/import_json.html')
+        except Exception as e:
+            import traceback
+            error_details = traceback.format_exc()
+            messages.error(request, f"Error importing JSON: {str(e)}\n\nDetails:\n{error_details}")
+            return render(request, 'reference/import_json.html')
+
+
+def import_json_data_to_db(json_data: Dict) -> Dict:
+    """Import JSON data into database idempotently."""
+    created_count = 0
+    skipped_count = 0
+    
+    # First pass: Create/get all seasons, franchises, players, team seasons, player seasons
+    seasons_cache = {}
+    franchises_cache = {}
+    players_cache = {}
+    team_seasons_cache = {}
+    player_seasons_cache = {}
+    
+    # Cache existing seasons
+    for season in Season.objects.all():
+        seasons_cache[season.name] = season
+    
+    # Process team seasons
+    for ts_data in json_data.get('teamSeasons', []):
+        season = seasons_cache.get(ts_data['season'])
+        if not season:
+            continue
+            
+        # Get or create franchise
+        franchise_name = ts_data['franchise']
+        if franchise_name not in franchises_cache:
+            franchise, _ = Franchise.objects.get_or_create(name=franchise_name)
+            franchises_cache[franchise_name] = franchise
+        
+        # Get or create team season
+        team_season, _ = TeamSeason.objects.get_or_create(
+            season=season,
+            name=ts_data['name'],
+            defaults={
+                'franchise': franchises_cache[franchise_name],
+                'abbr': ts_data['abbr']
+            }
+        )
+        team_seasons_cache[f"{season.name}_{ts_data['name']}"] = team_season
+    
+    # Process player seasons
+    for ps_data in json_data.get('playerSeasons', []):
+        season = seasons_cache.get(ps_data['season'])
+        if not season:
+            continue
+            
+        # Get or create player
+        player_name = ps_data['player']
+        if player_name not in players_cache:
+            player, _ = Player.objects.get_or_create(name=player_name)
+            players_cache[player_name] = player
+        
+        # Get team season (allow null team)
+        team_season = None
+        if ps_data['team']:
+            team_season = team_seasons_cache.get(f"{season.name}_{ps_data['team']}")
+            
+        # Get or create player season (team can be None)
+        player_season, _ = PlayerSeason.objects.get_or_create(
+            season=season,
+            player=players_cache[player_name],
+            playing_as=ps_data['playing_as'],
+            defaults={'team': team_season}
+        )
+        player_seasons_cache[f"{season.name}_{ps_data['playing_as']}"] = player_season
+    
+    # Process matches and games
+    for match_data in json_data.get('matches', []):
+        season = seasons_cache.get(match_data['season'])
+        if not season:
+            continue
+            
+        team1 = team_seasons_cache.get(f"{season.name}_{match_data['team1']}")
+        team2 = team_seasons_cache.get(f"{season.name}_{match_data['team2']}")
+        if not team1 or not team2:
+            continue
+            
+        # Get or create match
+        match, _ = Match.objects.get_or_create(
+            season=season,
+            team1=team1,
+            team2=team2,
+            date=match_data['date'],
+            defaults={'week': match_data['week']}
+        )
+
+        game_in_match = 0
+        
+        # Process games in this match
+        for game_data in match_data['games']:
+            game_in_match += 1
+            red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
+            blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
+            if not red_team or not blue_team:
+                continue
+                
+            # Check if game already exists
+            existing_game = Game.objects.filter(tagpro_eu=game_data['tagpro_eu']).first()
+            
+            if existing_game:
+                skipped_count += 1
+                continue
+
+            # Create game
+            game = Game.objects.create(
+                match=match,
+                red_team=red_team,
+                blue_team=blue_team,
+                team1_score=game_data['team1_score'],
+                team2_score=game_data['team2_score'],
+                map_name=game_data['map_name'],
+                map_id=game_data['map_id'] if game_data['map_id'] else None,
+                game_in_match=f"Game {game_in_match}",
+                tagpro_eu=game_data['tagpro_eu']
+            )
+
+            # Create player game logs
+            for player_data in game_data['players']:
+                player_season = player_seasons_cache.get(f"{season.name}_{player_data['player_season']}")
+                if not player_season:
+                    continue
+                    
+                team = team_seasons_cache.get(f"{season.name}_{player_data['team']}")
+                if not team:
+                    continue
+                    
+                # Check if player game log already exists
+                existing_pgl = PlayerGameLog.objects.filter(
+                    game=game,
+                    player_season=player_season,
+                    playing_as=player_data['playing_as']
+                ).first()
+                
+                if not existing_pgl:
+                    PlayerGameLog.objects.create(
+                        game=game,
+                        player_season=player_season,
+                        playing_as=player_data['playing_as'],
+                        team=team
+                    )
+            
+            # Process game stats
+            process_game_stats(game)
+            created_count += 1
+    
+    return {'created_count': created_count, 'skipped_count': skipped_count}
+
+
+def format_compact_json(data):
+    """Format JSON with scalar fields on one line, arrays/objects multi-line."""
+    def format_value(obj, indent_level=0):
+        indent = "  " * indent_level
+        
+        if isinstance(obj, dict):
+            # Check if this object has any array/object values
+            has_complex_values = any(isinstance(v, (list, dict)) for v in obj.values())
+            
+            if not has_complex_values:
+                # All scalar values - put on one line
+                pairs = [f'"{k}": {json.dumps(v)}' for k, v in obj.items()]
+                return "{ " + ", ".join(pairs) + " }"
+            else:
+                # Has complex values - use multi-line format
+                lines = ["{"]
+                for k, v in obj.items():
+                    if isinstance(v, (list, dict)):
+                        lines.append(f'{indent}  "{k}": {format_value(v, indent_level + 1)},')
+                    else:
+                        # Scalar field - format inline
+                        scalar_pairs = [(k, v)]
+                        # Collect consecutive scalar fields
+                        items = list(obj.items())
+                        current_idx = items.index((k, v))
+                        while (current_idx + 1 < len(items) and 
+                               not isinstance(items[current_idx + 1][1], (list, dict))):
+                            current_idx += 1
+                            scalar_pairs.append(items[current_idx])
+                        
+                        if len(scalar_pairs) > 1:
+                            # Multiple scalars - put them together on one line
+                            formatted_pairs = [f'"{pk}": {json.dumps(pv)}' for pk, pv in scalar_pairs]
+                            lines.append(f'{indent}  {", ".join(formatted_pairs)},')
+                            # Skip the ones we just processed
+                            for _ in range(len(scalar_pairs) - 1):
+                                next(iter(obj.items()))
+                        else:
+                            lines.append(f'{indent}  "{k}": {json.dumps(v)},')
+                
+                # Remove trailing comma from last line
+                if lines[-1].endswith(','):
+                    lines[-1] = lines[-1][:-1]
+                lines.append(indent + "}")
+                return "\n".join(lines)
+                
+        elif isinstance(obj, list):
+            if not obj:
+                return "[]"
+            lines = ["["]
+            for i, item in enumerate(obj):
+                comma = "," if i < len(obj) - 1 else ""
+                formatted_item = format_value(item, indent_level + 1)
+                if isinstance(item, dict):
+                    lines.append(f"{indent}  {formatted_item}{comma}")
+                else:
+                    lines.append(f"{indent}  {json.dumps(item)}{comma}")
+            lines.append(indent + "]")
+            return "\n".join(lines)
+        else:
+            return json.dumps(obj)
+    
+    # Simplified approach - format each top-level section
+    result_lines = ["{"]
+    
+    # teamSeasons - each on one line
+    if data.get('teamSeasons'):
+        result_lines.append('  "teamSeasons": [')
+        for i, ts in enumerate(data['teamSeasons']):
+            comma = "," if i < len(data['teamSeasons']) - 1 else ""
+            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ts.items()]
+            result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
+        result_lines.append('  ],')
+    
+    # playerSeasons - each on one line  
+    if data.get('playerSeasons'):
+        result_lines.append('  "playerSeasons": [')
+        for i, ps in enumerate(data['playerSeasons']):
+            comma = "," if i < len(data['playerSeasons']) - 1 else ""
+            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ps.items()]
+            result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
+        result_lines.append('  ],')
+    
+    # matches - scalar fields on one line, games array multi-line
+    if data.get('matches'):
+        result_lines.append('  "matches": [')
+        for i, match in enumerate(data['matches']):
+            comma = "," if i < len(data['matches']) - 1 else ""
+            result_lines.append('    {')
+            
+            # Match scalar fields on one line
+            scalar_fields = {k: v for k, v in match.items() if k != 'games'}
+            scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in scalar_fields.items()]
+            result_lines.append(f'      {", ".join(scalar_pairs)},')
+            
+            # Games array
+            result_lines.append('      "games": [')
+            for j, game in enumerate(match['games']):
+                game_comma = "," if j < len(match['games']) - 1 else ""
+                result_lines.append('        {')
+                
+                # Game scalar fields on one line
+                game_scalar_fields = {k: v for k, v in game.items() if k != 'players'}
+                game_scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in game_scalar_fields.items()]
+                result_lines.append(f'          {", ".join(game_scalar_pairs)},')
+                
+                # Players array - each player on one line
+                result_lines.append('          "players": [')
+                for p_idx, player in enumerate(game['players']):
+                    player_comma = "," if p_idx < len(game['players']) - 1 else ""
+                    player_pairs = [f'"{k}": {json.dumps(v)}' for k, v in player.items()]
+                    result_lines.append(f'            {{ {", ".join(player_pairs)} }}{player_comma}')
+                result_lines.append('          ]')
+                
+                result_lines.append(f'        }}{game_comma}')
+            result_lines.append('      ]')
+            result_lines.append(f'    }}{comma}')
+        result_lines.append('  ]')
+    
+    result_lines.append('}')
+    return '\n'.join(result_lines)
