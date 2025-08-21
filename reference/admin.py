@@ -32,7 +32,7 @@ class GameAdmin(admin.ModelAdmin):
 
 
 class PlayerGameLogAdmin(admin.ModelAdmin):
-    search_fields = ['player_season']
+    search_fields = ['player_season__playing_as']
 
 
 admin.site.register([

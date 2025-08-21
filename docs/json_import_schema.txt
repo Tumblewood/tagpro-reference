@@ -21,7 +21,6 @@
     team1: string  // team1 teamseason name
     team2: string  // team2 teamseason name
     games: {
-      game_in_match: number
       tagpro_eu: number  // tagpro.eu match id
       map_name: string
       map_id: number
@@ -29,7 +28,6 @@
       blue_team: string  // teamseason name
       team1_score: number  // note that team1 is the same as the match's team1 but can be red or blue
       team2_score: number  // ditto
-      outcome: string  // W / OTW / OTL / L
       // ignore replay and vod, which aren't indicated, and standing points, which can be derived from outcome
       players: {
         team: string  // teamseason name
