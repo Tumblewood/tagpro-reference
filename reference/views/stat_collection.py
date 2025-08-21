@@ -11,6 +11,15 @@ from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, Play
 import tagpro_eu
 
 
+class DummyPGL:
+    def __init__(self):
+        self.team = None
+        self.game = None
+
+    def save(self):
+        pass
+
+
 with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
     bulkmatches = [m for m in tagpro_eu.bulk.load_matches(
        f1,
@@ -37,11 +46,15 @@ def process_game_stats(game: Game):
 
     went_to_ot = False
     for time, desc, p in m.create_timeline():
+        # In case someone plays who we don't want to count (rare; like if someone refreshes as a Some Ball)
+        if p.name not in players:
+            players[p.name] = DummyPGL()
+
         # Set all players' team to the team they played on in that game
         if desc[:4] == "Join":
             team = desc[10:]
             players[p.name].team = game.red_team if team == m.team_red.name else game.blue_team
-        # If someone
+        # If someone captured after 10 minutes elapsed, it's an OT game
         elif desc[:7] == "Capture" and time.minutes >= 10:
             went_to_ot = True
     
@@ -75,6 +88,9 @@ def process_game_stats(game: Game):
 
     # Add player stats to the gamelog
     for p in players:
+        if players[p].game is None:
+            continue  # this means it's a dummy
+
         # Get or create the object for their stats
         stats = PlayerStats.objects.filter(player_gamelog=players[p]).first()
         if stats is None:
