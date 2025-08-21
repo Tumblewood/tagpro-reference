@@ -14,7 +14,6 @@ The primary goal is to facilitate stat-keeping for past seasons that are not wel
 TagPro Reference is not complete. Here are the remaining features needed, from a development perspective:
 
 - Better handling of edge cases (overtime games, games that are stopped and restarted)
-- Better support for data entry outside of the dev environment
 - Advanced stats
 
 There are some further additions that would be nice to have as well:
@@ -29,7 +28,7 @@ There are some further additions that would be nice to have as well:
 
 If you want to help the TagPro Reference project, the main way you can contribute is by **entering historical data**. There are dozens of seasons of competitive TagPro missing from the site. If you would like to help input data from one of those seasons, please message me and I will help you get started.
 
-You can contribute data for any competitive league, including leagues for alternate gamemodes like neutral flag and eggball. For reference on how long data entry takes, the initial pass for NALTP S35 took me 3 hours. (Seasons with worse documentation will take longer.)
+You can contribute data for any competitive league, including leagues for alternate gamemodes like neutral flag and eggball. For reference on how long data entry takes, the initial pass for NALTP S32 took me 1 and a half hours. (Seasons with worse documentation will take longer.)
 
 If you would like to help in other ways, here are some of the other areas where I could use help:
 
