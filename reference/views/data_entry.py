@@ -561,7 +561,7 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
                 }
             else:
                 # Unknown team - use raw name and infer season and franchise
-                season = infer_season(raw_name) or season_group[0]
+                season = infer_season(season_group, raw_name) or season_group[0]
                 team_abbr = raw_name[-3:]
                 team_key = f"{season.name} {team_abbr}"
                 team_seasons[team_key] = {
