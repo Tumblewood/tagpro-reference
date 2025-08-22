@@ -621,9 +621,9 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
                 }
 
         matches[match_key]['games'].append({
-            "tagpro_eu": game_data['game_id'],
+            "tagpro_eu": int(game_data['game_id']),
             "map_name": game_data['map_name'],
-            "map_id": game_data['map_id'],
+            "map_id": int(game_data['map_id']) if game_data['map_id'] else None,
             "red_team": red_team.name if red_team else game_data['team_red']['name'],
             "blue_team": blue_team.name if blue_team else game_data['team_blue']['name'],
             "team1_score": team1_score,
@@ -701,9 +701,7 @@ def import_from_json(request):
             messages.error(request, f"Invalid JSON: {str(e)}")
             return render(request, 'reference/import_json.html')
         except Exception as e:
-            import traceback
-            error_details = traceback.format_exc()
-            messages.error(request, f"Error importing JSON: {str(e)}\n\nDetails:\n{error_details}")
+            messages.error(request, f"Error importing JSON: {str(e)}")
             return render(request, 'reference/import_json.html')
 
 
