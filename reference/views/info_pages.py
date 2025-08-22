@@ -906,6 +906,7 @@ def season_stats(req, season_id):
             {'key': 'powerups', 'label': 'Pups', 'type': 'number'},
         ],
         'offense': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
             {'key': 'grabs_off_handoffs', 'label': 'GOH', 'type': 'number', 'tooltip': 'Grabs Off Handoffs - grabs within <2 seconds of teammate drop from hold of <3 seconds'},
             {'key': 'caps_off_handoffs', 'label': 'COH', 'type': 'number', 'tooltip': 'Caps Off Handoffs - caps after grabbing within <2 seconds of teammate drop from hold of <3 seconds'},
             {'key': 'grabs_off_regrab', 'label': 'GOR', 'type': 'number', 'tooltip': 'Grabs Off Regrab - grabs within <2 seconds of teammate drop'},
@@ -916,6 +917,7 @@ def season_stats(req, season_id):
             {'key': 'good_handoffs', 'label': 'GH', 'type': 'number', 'tooltip': 'Good Handoffs - handoff resulting in teammate hold of >5 seconds'},
         ],
         'defense': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
             {'key': 'quick_returns', 'label': 'QR', 'type': 'number', 'tooltip': 'Quick Returns - return within <2 seconds of opponent hold'},
             {'key': 'returns_in_base', 'label': 'RIB', 'type': 'number', 'tooltip': 'Returns In Base - return within 10 tiles of the team\'s flag'},
             {'key': 'saves', 'label': 'Saves', 'type': 'number', 'tooltip': 'Saves - return within 10 tiles of the enemy flag'},
@@ -923,6 +925,7 @@ def season_stats(req, season_id):
             {'key': 'hold_against', 'label': 'HA', 'type': 'number', 'tooltip': 'Hold Against - hold accumulated by opponents while playing (in seconds)'},
         ],
         'offense_rates': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
             {'key': 'gpm', 'label': 'GPM', 'type': 'number', 'tooltip': 'Grabs Per Minute - grabs / minutes played'},
             {'key': 'cpm', 'label': 'CPM', 'type': 'number', 'tooltip': 'Caps Per Minute - captures / minutes played'},
             {'key': 'hpm', 'label': 'HPM', 'type': 'number', 'tooltip': 'Hold Per Minute - hold / minutes played'},
@@ -933,6 +936,7 @@ def season_stats(req, season_id):
             {'key': 'flaccid_percent', 'label': 'Flaccid%', 'type': 'number', 'tooltip': 'Flaccid Percentage - flaccids / grabs'},
         ],
         'defense_rates': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
             {'key': 'tpm', 'label': 'TPM', 'type': 'number', 'tooltip': 'Tags Per Minute - tags / minutes played'},
             {'key': 'rpm', 'label': 'RPM', 'type': 'number', 'tooltip': 'Returns Per Minute - returns / minutes played'},
             {'key': 'ppm', 'label': 'PPM', 'type': 'number', 'tooltip': 'Prevent Per Minute - prevent / minutes played'},
@@ -943,6 +947,7 @@ def season_stats(req, season_id):
             {'key': 'qr_percent', 'label': 'QR%', 'type': 'number', 'tooltip': 'Quick Return Percentage - quick returns / returns'},
         ],
         'miscellaneous': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
             {'key': 'plus_minus', 'label': 'PM', 'type': 'number', 'tooltip': 'Plus/Minus - caps for - caps against'},
             {'key': 'kept_flags', 'label': 'KF', 'type': 'number', 'tooltip': 'Kept Flags - times holding flag as the game ends'},
             {'key': 'kd_ratio', 'label': 'K/D', 'type': 'number', 'tooltip': 'Kill/Death Ratio - tags / pops'},
