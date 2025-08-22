@@ -22,7 +22,41 @@
                 <input type="text" name="q" class="search-bar" placeholder="Search for a player or team" />
             </form>
         </div>
+        
+        <!-- Mobile hamburger menu -->
+        <button class="hamburger-button" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
     </header>
+
+    <!-- Mobile sidebar overlay -->
+    <div class="mobile-overlay" id="mobile-overlay" onclick="closeMobileMenu()"></div>
+    
+    <!-- Mobile sidebar menu -->
+    <div class="mobile-sidebar" id="mobile-sidebar">
+        <div class="mobile-menu-header">
+            <button class="close-menu-button" onclick="closeMobileMenu()" aria-label="Close navigation menu">
+                <span class="close-icon">&times;</span>
+            </button>
+        </div>
+        
+        <div class="mobile-menu-content">
+            <form method="get" action="{% url 'search_results' 'PLACEHOLDER' %}" onsubmit="return handleMobileSearch(this)" class="mobile-search-form">
+                <input type="text" name="q" class="mobile-search-bar" placeholder="Search for a player or team" />
+                <button type="submit" class="mobile-search-button">Search</button>
+            </form>
+            
+            <div class="mobile-league-links">
+                {% for league_data in navigation_leagues %}
+                    <a href="{% url 'season_home' league_data.most_recent_season.id %}" class="mobile-league-link" onclick="closeMobileMenu()">
+                        {{ league_data.league.abbr }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
     <main>
         {% block content %}
@@ -38,6 +72,52 @@
             }
             return false; // Prevent form submission
         }
+        
+        function handleMobileSearch(form) {
+            const query = form.querySelector('input[name="q"]').value.trim();
+            if (query) {
+                closeMobileMenu();
+                window.location.href = `/search/${encodeURIComponent(query)}/`;
+            }
+            return false; // Prevent form submission
+        }
+        
+        function toggleMobileMenu() {
+            const sidebar = document.getElementById('mobile-sidebar');
+            const overlay = document.getElementById('mobile-overlay');
+            const isOpen = sidebar.classList.contains('open');
+            
+            if (isOpen) {
+                closeMobileMenu();
+            } else {
+                openMobileMenu();
+            }
+        }
+        
+        function openMobileMenu() {
+            const sidebar = document.getElementById('mobile-sidebar');
+            const overlay = document.getElementById('mobile-overlay');
+            
+            sidebar.classList.add('open');
+            overlay.classList.add('open');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+        
+        function closeMobileMenu() {
+            const sidebar = document.getElementById('mobile-sidebar');
+            const overlay = document.getElementById('mobile-overlay');
+            
+            sidebar.classList.remove('open');
+            overlay.classList.remove('open');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+        
+        // Close menu when pressing Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeMobileMenu();
+            }
+        });
     </script>
 </body>
 </html>
