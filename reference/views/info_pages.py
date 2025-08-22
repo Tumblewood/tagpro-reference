@@ -576,6 +576,24 @@ def season_stats(req, season_id):
                 'prevent': stat.prevent or 0,
                 'returns': stat.returns or 0,
                 'powerups': stat.powerups or 0,
+                # Advanced stats
+                'caps_for': stat.caps_for or 0,
+                'caps_against': stat.caps_against or 0,
+                'total_pups_in_game': stat.total_pups_in_game or 0,
+                'grabs_off_handoffs': stat.grabs_off_handoffs or 0,
+                'caps_off_handoffs': stat.caps_off_handoffs or 0,
+                'grabs_off_regrab': stat.grabs_off_regrab or 0,
+                'caps_off_regrab': stat.caps_off_regrab or 0,
+                'long_holds': stat.long_holds or 0,
+                'flaccids': stat.flaccids or 0,
+                'handoffs': stat.handoffs or 0,
+                'good_handoffs': stat.good_handoffs or 0,
+                'quick_returns': stat.quick_returns or 0,
+                'returns_in_base': stat.returns_in_base or 0,
+                'saves': stat.saves or 0,
+                'key_returns': stat.key_returns or 0,
+                'hold_against': stat.hold_against or 0,
+                'kept_flags': stat.kept_flags or 0,
             }
             
             # Convert time fields
@@ -620,6 +638,24 @@ def season_stats(req, season_id):
                         'prevent': 0,
                         'returns': 0,
                         'powerups': 0,
+                        # Advanced stats
+                        'caps_for': 0,
+                        'caps_against': 0,
+                        'total_pups_in_game': 0,
+                        'grabs_off_handoffs': 0,
+                        'caps_off_handoffs': 0,
+                        'grabs_off_regrab': 0,
+                        'caps_off_regrab': 0,
+                        'long_holds': 0,
+                        'flaccids': 0,
+                        'handoffs': 0,
+                        'good_handoffs': 0,
+                        'quick_returns': 0,
+                        'returns_in_base': 0,
+                        'saves': 0,
+                        'key_returns': 0,
+                        'hold_against': 0,
+                        'kept_flags': 0,
                     }
                 
                 # Aggregate each stat field
@@ -634,6 +670,24 @@ def season_stats(req, season_id):
                 agg['prevent'] += stat.prevent or 0
                 agg['returns'] += stat.returns or 0
                 agg['powerups'] += stat.powerups or 0
+                # Advanced stats
+                agg['caps_for'] += stat.caps_for or 0
+                agg['caps_against'] += stat.caps_against or 0
+                agg['total_pups_in_game'] += stat.total_pups_in_game or 0
+                agg['grabs_off_handoffs'] += stat.grabs_off_handoffs or 0
+                agg['caps_off_handoffs'] += stat.caps_off_handoffs or 0
+                agg['grabs_off_regrab'] += stat.grabs_off_regrab or 0
+                agg['caps_off_regrab'] += stat.caps_off_regrab or 0
+                agg['long_holds'] += stat.long_holds or 0
+                agg['flaccids'] += stat.flaccids or 0
+                agg['handoffs'] += stat.handoffs or 0
+                agg['good_handoffs'] += stat.good_handoffs or 0
+                agg['quick_returns'] += stat.quick_returns or 0
+                agg['returns_in_base'] += stat.returns_in_base or 0
+                agg['saves'] += stat.saves or 0
+                agg['key_returns'] += stat.key_returns or 0
+                agg['hold_against'] += stat.hold_against or 0
+                agg['kept_flags'] += stat.kept_flags or 0
             
             # Convert to final stats list
             stats_list = []
@@ -678,6 +732,24 @@ def season_stats(req, season_id):
                     'prevent': 0,
                     'returns': 0,
                     'powerups': 0,
+                    # Advanced stats
+                    'caps_for': 0,
+                    'caps_against': 0,
+                    'total_pups_in_game': 0,
+                    'grabs_off_handoffs': 0,
+                    'caps_off_handoffs': 0,
+                    'grabs_off_regrab': 0,
+                    'caps_off_regrab': 0,
+                    'long_holds': 0,
+                    'flaccids': 0,
+                    'handoffs': 0,
+                    'good_handoffs': 0,
+                    'quick_returns': 0,
+                    'returns_in_base': 0,
+                    'saves': 0,
+                    'key_returns': 0,
+                    'hold_against': 0,
+                    'kept_flags': 0,
                 }
             
             # Aggregate each stat field
@@ -692,6 +764,24 @@ def season_stats(req, season_id):
             agg['prevent'] += stat.prevent or 0
             agg['returns'] += stat.returns or 0
             agg['powerups'] += stat.powerups or 0
+            # Advanced stats
+            agg['caps_for'] += stat.caps_for or 0
+            agg['caps_against'] += stat.caps_against or 0
+            agg['total_pups_in_game'] += stat.total_pups_in_game or 0
+            agg['grabs_off_handoffs'] += stat.grabs_off_handoffs or 0
+            agg['caps_off_handoffs'] += stat.caps_off_handoffs or 0
+            agg['grabs_off_regrab'] += stat.grabs_off_regrab or 0
+            agg['caps_off_regrab'] += stat.caps_off_regrab or 0
+            agg['long_holds'] += stat.long_holds or 0
+            agg['flaccids'] += stat.flaccids or 0
+            agg['handoffs'] += stat.handoffs or 0
+            agg['good_handoffs'] += stat.good_handoffs or 0
+            agg['quick_returns'] += stat.quick_returns or 0
+            agg['returns_in_base'] += stat.returns_in_base or 0
+            agg['saves'] += stat.saves or 0
+            agg['key_returns'] += stat.key_returns or 0
+            agg['hold_against'] += stat.hold_against or 0
+            agg['kept_flags'] += stat.kept_flags or 0
         
         # Convert to final stats list
         stats_list = []
@@ -733,6 +823,24 @@ def season_stats(req, season_id):
                 'prevent': stat.prevent or 0,
                 'returns': stat.returns or 0,
                 'powerups': stat.powerups or 0,
+                # Advanced stats
+                'caps_for': stat.caps_for or 0,
+                'caps_against': stat.caps_against or 0,
+                'total_pups_in_game': stat.total_pups_in_game or 0,
+                'grabs_off_handoffs': stat.grabs_off_handoffs or 0,
+                'caps_off_handoffs': stat.caps_off_handoffs or 0,
+                'grabs_off_regrab': stat.grabs_off_regrab or 0,
+                'caps_off_regrab': stat.caps_off_regrab or 0,
+                'long_holds': stat.long_holds or 0,
+                'flaccids': stat.flaccids or 0,
+                'handoffs': stat.handoffs or 0,
+                'good_handoffs': stat.good_handoffs or 0,
+                'quick_returns': stat.quick_returns or 0,
+                'returns_in_base': stat.returns_in_base or 0,
+                'saves': stat.saves or 0,
+                'key_returns': stat.key_returns or 0,
+                'hold_against': stat.hold_against or 0,
+                'kept_flags': stat.kept_flags or 0,
             }
             
             # Convert time fields
