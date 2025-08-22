@@ -98,7 +98,7 @@ class Match(models.Model):
             return None
 
     def __str__(self):
-        return f"{self.team1} vs {self.team2} - {self.week}, {self.season}"
+        return f"{self.season.name} {self.week}: {self.team1.name} vs {self.team2.name}"
 
 class PlayoffSeries(models.Model):
     """
@@ -123,14 +123,16 @@ class Game(models.Model):
     match = models.ForeignKey(Match, on_delete=models.CASCADE, related_name="games")
     game_in_match = models.CharField(max_length=100, null=True, blank=True)
     tagpro_eu = models.IntegerField(unique=True, null=True, blank=True)
+    paused_time = models.IntegerField(null=True, blank=True, help_text="Time (in seconds from the start) the game was paused, if it was paused and resumed later")
+    resumed_tagpro_eu = models.IntegerField(unique=True, null=True, blank=True, help_text="Second tagpro.eu match ID, if the game was paused and resumed later")
     replay = models.CharField(max_length=100, unique=True, null=True, blank=True)
     vod = models.URLField(max_length=255, blank=True, null=True)
     map_name = models.CharField(max_length=255, null=True, blank=True)
     map_id = models.IntegerField(null=True, blank=True)
     red_team = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="red_games")
     blue_team = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="blue_games")
-    team1_score = models.IntegerField()  # Score for team1 in the match, not necessarily always red team
-    team2_score = models.IntegerField()  # Score for team2 in the match, not necessarily always blue team
+    team1_score = models.IntegerField()  # Score for team1 in the match (whether red or blue in this game)
+    team2_score = models.IntegerField()  # Score for team2 in the match (whether red or blue in this game)
     OUTCOMES = [
         ('L', 'Loss'),
         ('OTL', 'OT Loss'),
@@ -147,7 +149,7 @@ class Game(models.Model):
         unique_together = ('match', 'game_in_match')
 
     def __str__(self):
-        return f"{self.game_in_match} of {self.match} ({self.tagpro_eu})"
+        return f"{self.match}, {self.game_in_match} ({self.tagpro_eu})"
 
 class PlayerGameLog(models.Model):
     """
@@ -162,9 +164,9 @@ class PlayerGameLog(models.Model):
         unique_together = ('game', 'player_season')
 
     def __str__(self):
-        return f"{self.player_season.player.name} in {self.game}"
+        return f"{self.player_season.playing_as} in {self.game}"
 
-class PlayerStats(models.Model):
+class PlayerGameStats(models.Model):
     """
     Represents an individual player's stats in a single game.
     """
@@ -179,9 +181,99 @@ class PlayerStats(models.Model):
     prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
     returns = models.IntegerField(blank=True, null=True)
     powerups = models.IntegerField(blank=True, null=True)
+    caps_for = models.IntegerField(blank=True, null=True)
+    caps_against = models.IntegerField(blank=True, null=True)
+    total_pups_in_game = models.IntegerField(blank=True, null=True)
+    grabs_off_handoffs = models.IntegerField(blank=True, null=True)
+    caps_off_handoffs = models.IntegerField(blank=True, null=True)
+    grabs_off_regrab = models.IntegerField(blank=True, null=True)
+    caps_off_regrab = models.IntegerField(blank=True, null=True)
+    long_holds = models.IntegerField(blank=True, null=True)
+    flaccids = models.IntegerField(blank=True, null=True)
+    handoffs = models.IntegerField(blank=True, null=True)
+    good_handoffs = models.IntegerField(blank=True, null=True)
+    quick_returns = models.IntegerField(blank=True, null=True)
+    returns_in_base = models.IntegerField(blank=True, null=True)
+    saves = models.IntegerField(blank=True, null=True)
+    key_returns = models.IntegerField(blank=True, null=True)
+    hold_against = models.IntegerField(blank=True, null=True)
+    kept_flags = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
         return f"Stats for {self.player_gamelog}"
+    
+class PlayerWeekStats(models.Model):
+    """
+    Represents an individual player's total stats in a single week of a season.
+    """
+    player_season = models.ForeignKey(PlayerSeason, on_delete=models.CASCADE, related_name="weekly_stats")
+    week = models.CharField(max_length=100)
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    tags = models.IntegerField(blank=True, null=True)
+    pops = models.IntegerField(blank=True, null=True)
+    grabs = models.IntegerField(blank=True, null=True)
+    drops = models.IntegerField(blank=True, null=True)
+    hold = models.IntegerField(blank=True, null=True, help_text="Hold time in ticks (1/60th of a second)")
+    captures = models.IntegerField(blank=True, null=True)
+    prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
+    returns = models.IntegerField(blank=True, null=True)
+    powerups = models.IntegerField(blank=True, null=True)
+    caps_for = models.IntegerField(blank=True, null=True)
+    caps_against = models.IntegerField(blank=True, null=True)
+    total_pups_in_game = models.IntegerField(blank=True, null=True)
+    grabs_off_handoffs = models.IntegerField(blank=True, null=True)
+    caps_off_handoffs = models.IntegerField(blank=True, null=True)
+    grabs_off_regrab = models.IntegerField(blank=True, null=True)
+    caps_off_regrab = models.IntegerField(blank=True, null=True)
+    long_holds = models.IntegerField(blank=True, null=True)
+    flaccids = models.IntegerField(blank=True, null=True)
+    handoffs = models.IntegerField(blank=True, null=True)
+    good_handoffs = models.IntegerField(blank=True, null=True)
+    quick_returns = models.IntegerField(blank=True, null=True)
+    returns_in_base = models.IntegerField(blank=True, null=True)
+    saves = models.IntegerField(blank=True, null=True)
+    key_returns = models.IntegerField(blank=True, null=True)
+    hold_against = models.IntegerField(blank=True, null=True)
+    kept_flags = models.IntegerField(blank=True, null=True)
+
+    def __str__(self):
+        return f"Stats for {self.player_season.playing_as} in {self.week} of {self.player_season.season.name}"
+
+class PlayerSeasonStats(models.Model):
+    """
+    Represents an individual player's total stats in a season.
+    """
+    player_season = models.OneToOneField(PlayerSeason, on_delete=models.CASCADE, related_name="stats")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    tags = models.IntegerField(blank=True, null=True)
+    pops = models.IntegerField(blank=True, null=True)
+    grabs = models.IntegerField(blank=True, null=True)
+    drops = models.IntegerField(blank=True, null=True)
+    hold = models.IntegerField(blank=True, null=True, help_text="Hold time in ticks (1/60th of a second)")
+    captures = models.IntegerField(blank=True, null=True)
+    prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
+    returns = models.IntegerField(blank=True, null=True)
+    powerups = models.IntegerField(blank=True, null=True)
+    caps_for = models.IntegerField(blank=True, null=True)
+    caps_against = models.IntegerField(blank=True, null=True)
+    total_pups_in_game = models.IntegerField(blank=True, null=True)
+    grabs_off_handoffs = models.IntegerField(blank=True, null=True)
+    caps_off_handoffs = models.IntegerField(blank=True, null=True)
+    grabs_off_regrab = models.IntegerField(blank=True, null=True)
+    caps_off_regrab = models.IntegerField(blank=True, null=True)
+    long_holds = models.IntegerField(blank=True, null=True)
+    flaccids = models.IntegerField(blank=True, null=True)
+    handoffs = models.IntegerField(blank=True, null=True)
+    good_handoffs = models.IntegerField(blank=True, null=True)
+    quick_returns = models.IntegerField(blank=True, null=True)
+    returns_in_base = models.IntegerField(blank=True, null=True)
+    saves = models.IntegerField(blank=True, null=True)
+    key_returns = models.IntegerField(blank=True, null=True)
+    hold_against = models.IntegerField(blank=True, null=True)
+    kept_flags = models.IntegerField(blank=True, null=True)
+
+    def __str__(self):
+        return f"Stats for {self.player_season.playing_as} in {self.player_season.season.name}"
 
 class AwardType(models.Model):
     """
@@ -193,7 +285,7 @@ class AwardType(models.Model):
     ordering = models.IntegerField()
 
     def __str__(self):
-        return f"{self.name}"
+        return self.name
     
 class AwardReceived(models.Model):
     """
@@ -207,8 +299,8 @@ class AwardReceived(models.Model):
 
     def __str__(self):
         if self.player:
-            return f"{self.award.name} ({self.placement}) - {self.player.name}"
-        return f"{self.award.name} ({self.placement}) - {self.team.name}"
+            return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.player.name}"
+        return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.team.name}"
 
 class Transaction(models.Model):
     """
@@ -232,4 +324,4 @@ class Transaction(models.Model):
     was_snake = models.BooleanField(null=True, blank=True)
 
     def __str__(self):
-        return f"{self.transaction_type.title()}: {self.player_season.player.name} and {self.team.name}"
+        return f"{self.date}: {self.team.name} {self.transaction_type.title()}s {self.player_season.playing_as} ({self.team.season.name})"
