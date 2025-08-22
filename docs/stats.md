@@ -22,12 +22,12 @@ Caps Off Handoffs (COH) - caps after grabbing within <2 seconds of teammate drop
 Grabs Off Regrab (GOR) - grabs within <2 seconds of teammate drop
 Caps Off Regrab (COR) - caps after grabbing within <2 seconds of teammate drop
 Long Holds (LH) - holds of >10 seconds
-Flaccids - drop after <2 seconds of hold
+Flaccids (Flcd) - drop after <2 seconds of hold
 Handoffs (HO) - hold for <3 seconds and teammate grabs within <2 seconds of the drop
 Good Handoffs (GH) - handoff resulting in teammate hold of >5 seconds
 Quick Returns (QR) - return within <2 seconds of opponent hold
 Returns In Base (RIB) - return within 10 tiles of the team's flag
-Saves - return within 5 tiles of the enemy flag
+Saves - return within 10 tiles of the enemy flag
 Key Returns (KR) - return within <2 seconds before team caps
 Hold Against (HA) - hold accumulated by opponents while playing
 Kept Flags (KF) - times holding flag as the game ends
@@ -46,7 +46,7 @@ H/G - hold / grabs
 Chain% - good handoffs / handoffs
 Score% - captures / grabs
 Flaccid% - flaccids / grabs
-KD - tags / pops
+K/D - tags / pops
 Prevent / Return (P/R) - prevent / returns
 Prevent / Hold Against (P/HA) - prevent / hold against
 Spark% - (captures - caps off regrab) / captures

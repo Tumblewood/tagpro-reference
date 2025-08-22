@@ -356,7 +356,8 @@ def process_game_stats(game: Game):
         player_week_stats.save()
 
         pws_this_season = PlayerWeekStats.objects.filter(
-            player_season=players[p].player_season
+            player_season=players[p].player_season,
+            week__startswith="Week"
         )
         player_season_stats, _ = PlayerSeasonStats.objects.update_or_create(
             player_season=players[p].player_season,

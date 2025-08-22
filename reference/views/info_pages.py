@@ -7,7 +7,7 @@ from django.db import models
 import json
 import re
 from datetime import datetime, date
-from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats, League, PlayoffSeries, Franchise
+from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayerWeekStats, PlayerSeasonStats, League, PlayoffSeries, Franchise
 import tagpro_eu
 
 
@@ -502,69 +502,374 @@ def season_stats(req, season_id):
     # Get all seasons from the same league for dropdown
     league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
     
-    # Get all player stats from regular season games only
-    player_stats = PlayerGameStats.objects.filter(
-        player_gamelog__game__match__season=season,
-        player_gamelog__game__match__week__startswith="Week"  # Regular season only
-    ).select_related(
-        'player_gamelog__player_season__player',
-        'player_gamelog__player_season__team'
-    )
+    # Get week filter and stat view from query params
+    week_filter = req.GET.get('week', 'all_regular_season')
+    stat_view = req.GET.get('view', 'basic')
     
-    # Aggregate stats by player
-    player_aggregates = {}
-    for stat in player_stats:
-        player_season = stat.player_gamelog.player_season
-        key = (player_season.player.id, player_season.team.id if player_season.team else None)
+    # Get all weeks for this season to build dropdown
+    all_weeks = Match.objects.filter(season=season).values_list('week', flat=True).distinct()
+    
+    # Sort weeks with special playoff ordering (same as schedule)
+    def week_sort_key(week_name):
+        playoff_order = {
+            'Fibonacci Fifteen': 'ZZZZ1',
+            'Equidistant Eight': 'ZZZZ2',
+            'Secant Six': 'ZZZZ2',
+            'Foci Four': 'ZZZZ3',
+            'Super Ball': 'ZZZZ4',
+            'Muper Ball': 'ZZZZ4',
+            'Nuper Ball': 'ZZZZ4',
+            'Buper Ball': 'ZZZZ4',
+        }
+        return playoff_order.get(week_name, week_name)
+    
+    sorted_weeks = sorted(all_weeks, key=week_sort_key)
+    
+    # Build week options
+    week_options = [
+        {'value': 'all_regular_season', 'label': 'All Regular Season'},
+        {'value': 'all_playoffs', 'label': 'All Playoffs'},
+        {'value': 'all_season', 'label': 'All RS + Playoffs'},
+    ]
+    for week in sorted_weeks:
+        week_options.append({'value': week, 'label': week})
+    
+    # Build stat view options
+    stat_view_options = [
+        {'value': 'basic', 'label': 'Basic'},
+        {'value': 'offense', 'label': 'Offense'},
+        {'value': 'defense', 'label': 'Defense'},
+        {'value': 'offense_rates', 'label': 'Offense Rates'},
+        {'value': 'defense_rates', 'label': 'Defense Rates'},
+        {'value': 'miscellaneous', 'label': 'Miscellaneous'},
+    ]
+    
+    # Get stats based on week filter
+    if week_filter == 'all_regular_season':
+        # Use PlayerSeasonStats but filter to only regular season data
+        player_season_stats = PlayerSeasonStats.objects.filter(
+            player_season__season=season
+        ).select_related(
+            'player_season__player',
+            'player_season__team'
+        )
         
-        if key not in player_aggregates:
-            player_aggregates[key] = {
+        # Convert to final stats list
+        stats_list = []
+        for stat in player_season_stats:
+            player_season = stat.player_season
+            
+            # Note: This assumes PlayerSeasonStats contains only regular season data
+            # If it includes playoff data, we'd need to aggregate from PlayerWeekStats
+            stats_data = {
                 'player': player_season.player,
                 'player_season': player_season,
                 'team': player_season.team,
                 'playing_as': player_season.playing_as,
-                'time_played': 0,
-                'tags': 0,
-                'pops': 0,
-                'grabs': 0,
-                'drops': 0,
-                'hold': 0,
-                'captures': 0,
-                'prevent': 0,
-                'returns': 0,
-                'powerups': 0,
+                'time_played': stat.time_played or 0,
+                'tags': stat.tags or 0,
+                'pops': stat.pops or 0,
+                'grabs': stat.grabs or 0,
+                'drops': stat.drops or 0,
+                'hold': stat.hold or 0,
+                'captures': stat.captures or 0,
+                'prevent': stat.prevent or 0,
+                'returns': stat.returns or 0,
+                'powerups': stat.powerups or 0,
             }
-        
-        # Aggregate each stat field
-        agg = player_aggregates[key]
-        agg['time_played'] += stat.time_played or 0
-        agg['tags'] += stat.tags or 0
-        agg['pops'] += stat.pops or 0
-        agg['grabs'] += stat.grabs or 0
-        agg['drops'] += stat.drops or 0
-        agg['hold'] += stat.hold or 0
-        agg['captures'] += stat.captures or 0
-        agg['prevent'] += stat.prevent or 0
-        agg['returns'] += stat.returns or 0
-        agg['powerups'] += stat.powerups or 0
+            
+            # Convert time fields
+            stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
+            stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
+            stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+            
+            stats_list.append(stats_data)
     
-    # Convert time fields and prepare final stats list
-    stats_list = []
-    for agg in player_aggregates.values():
-        # Convert time fields
-        agg['time_played_min'] = round(agg['time_played'] / 60) if agg['time_played'] else 0
-        agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
-        agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+    elif week_filter == 'all_playoffs':
+        # Aggregate from PlayerWeekStats for all playoff weeks
+        playoff_weeks = [w for w in sorted_weeks if not w.startswith('Week')]
         
-        stats_list.append(agg)
+        if playoff_weeks:
+            week_stats = PlayerWeekStats.objects.filter(
+                player_season__season=season,
+                week__in=playoff_weeks
+            ).select_related(
+                'player_season__player',
+                'player_season__team'
+            )
+            
+            # Aggregate stats by player
+            player_aggregates = {}
+            for stat in week_stats:
+                player_season = stat.player_season
+                key = (player_season.player.id, player_season.team.id if player_season.team else None)
+                
+                if key not in player_aggregates:
+                    player_aggregates[key] = {
+                        'player': player_season.player,
+                        'player_season': player_season,
+                        'team': player_season.team,
+                        'playing_as': player_season.playing_as,
+                        'time_played': 0,
+                        'tags': 0,
+                        'pops': 0,
+                        'grabs': 0,
+                        'drops': 0,
+                        'hold': 0,
+                        'captures': 0,
+                        'prevent': 0,
+                        'returns': 0,
+                        'powerups': 0,
+                    }
+                
+                # Aggregate each stat field
+                agg = player_aggregates[key]
+                agg['time_played'] += stat.time_played or 0
+                agg['tags'] += stat.tags or 0
+                agg['pops'] += stat.pops or 0
+                agg['grabs'] += stat.grabs or 0
+                agg['drops'] += stat.drops or 0
+                agg['hold'] += stat.hold or 0
+                agg['captures'] += stat.captures or 0
+                agg['prevent'] += stat.prevent or 0
+                agg['returns'] += stat.returns or 0
+                agg['powerups'] += stat.powerups or 0
+            
+            # Convert to final stats list
+            stats_list = []
+            for agg in player_aggregates.values():
+                # Convert time fields
+                agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
+                agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
+                agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+                
+                stats_list.append(agg)
+        else:
+            stats_list = []
+    
+    elif week_filter == 'all_season':
+        # Aggregate from PlayerWeekStats for all weeks (regular season + playoffs)
+        week_stats = PlayerWeekStats.objects.filter(
+            player_season__season=season
+        ).select_related(
+            'player_season__player',
+            'player_season__team'
+        )
+        
+        # Aggregate stats by player
+        player_aggregates = {}
+        for stat in week_stats:
+            player_season = stat.player_season
+            key = (player_season.player.id, player_season.team.id if player_season.team else None)
+            
+            if key not in player_aggregates:
+                player_aggregates[key] = {
+                    'player': player_season.player,
+                    'player_season': player_season,
+                    'team': player_season.team,
+                    'playing_as': player_season.playing_as,
+                    'time_played': 0,
+                    'tags': 0,
+                    'pops': 0,
+                    'grabs': 0,
+                    'drops': 0,
+                    'hold': 0,
+                    'captures': 0,
+                    'prevent': 0,
+                    'returns': 0,
+                    'powerups': 0,
+                }
+            
+            # Aggregate each stat field
+            agg = player_aggregates[key]
+            agg['time_played'] += stat.time_played or 0
+            agg['tags'] += stat.tags or 0
+            agg['pops'] += stat.pops or 0
+            agg['grabs'] += stat.grabs or 0
+            agg['drops'] += stat.drops or 0
+            agg['hold'] += stat.hold or 0
+            agg['captures'] += stat.captures or 0
+            agg['prevent'] += stat.prevent or 0
+            agg['returns'] += stat.returns or 0
+            agg['powerups'] += stat.powerups or 0
+        
+        # Convert to final stats list
+        stats_list = []
+        for agg in player_aggregates.values():
+            # Convert time fields
+            agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
+            agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
+            agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+            
+            stats_list.append(agg)
+    
+    else:
+        # Specific week selected - use PlayerWeekStats
+        week_stats = PlayerWeekStats.objects.filter(
+            player_season__season=season,
+            week=week_filter
+        ).select_related(
+            'player_season__player',
+            'player_season__team'
+        )
+        
+        # Convert to final stats list
+        stats_list = []
+        for stat in week_stats:
+            player_season = stat.player_season
+            
+            stats_data = {
+                'player': player_season.player,
+                'player_season': player_season,
+                'team': player_season.team,
+                'playing_as': player_season.playing_as,
+                'time_played': stat.time_played or 0,
+                'tags': stat.tags or 0,
+                'pops': stat.pops or 0,
+                'grabs': stat.grabs or 0,
+                'drops': stat.drops or 0,
+                'hold': stat.hold or 0,
+                'captures': stat.captures or 0,
+                'prevent': stat.prevent or 0,
+                'returns': stat.returns or 0,
+                'powerups': stat.powerups or 0,
+            }
+            
+            # Convert time fields
+            stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
+            stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
+            stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+            
+            stats_list.append(stats_data)
     
     # Sort by time played (descending)
     stats_list.sort(key=lambda x: -x['time_played'])
     
+    # Calculate derived stats based on the selected view
+    def calculate_derived_stats(stats_data):
+        """Calculate rate stats and other derived metrics"""
+        minutes = stats_data['time_played_min']
+        
+        # Rate stats (per minute)
+        stats_data['gpm'] = round(stats_data['grabs'] / minutes, 2) if minutes > 0 else 0
+        stats_data['cpm'] = round(stats_data['captures'] / minutes, 2) if minutes > 0 else 0
+        stats_data['hpm'] = round(stats_data['hold_sec'] / minutes, 2) if minutes > 0 else 0
+        stats_data['tpm'] = round(stats_data['tags'] / minutes, 2) if minutes > 0 else 0
+        stats_data['rpm'] = round(stats_data['returns'] / minutes, 2) if minutes > 0 else 0
+        stats_data['ppm'] = round(stats_data['prevent_sec'] / minutes, 2) if minutes > 0 else 0
+        stats_data['ham'] = round(stats_data.get('hold_against', 0) / 60 / minutes, 2) if minutes > 0 else 0
+        
+        # Ratio stats
+        stats_data['hold_per_grab'] = round(stats_data['hold_sec'] / stats_data['grabs'], 2) if stats_data['grabs'] > 0 else 0
+        stats_data['score_percent'] = round(stats_data['captures'] / stats_data['grabs'] * 100, 1) if stats_data['grabs'] > 0 else 0
+        stats_data['flaccid_percent'] = round(stats_data.get('flaccids', 0) / stats_data['grabs'] * 100, 1) if stats_data['grabs'] > 0 else 0
+        stats_data['chain_percent'] = round(stats_data.get('good_handoffs', 0) / stats_data.get('handoffs', 1) * 100, 1) if stats_data.get('handoffs', 0) > 0 else 0
+        stats_data['spark_percent'] = round((stats_data['captures'] - stats_data.get('caps_off_regrab', 0)) / stats_data['captures'] * 100, 1) if stats_data['captures'] > 0 else 0
+        stats_data['kd_ratio'] = round(stats_data['tags'] / stats_data['pops'], 2) if stats_data['pops'] > 0 else stats_data['tags']
+        stats_data['prevent_per_return'] = round(stats_data['prevent_sec'] / stats_data['returns'], 2) if stats_data['returns'] > 0 else 0
+        stats_data['prevent_per_hold_against'] = round(stats_data['prevent_sec'] / (stats_data.get('hold_against', 0) / 60), 2) if stats_data.get('hold_against', 0) > 0 else 0
+        stats_data['rib_percent'] = round(stats_data.get('returns_in_base', 0) / stats_data['returns'] * 100, 1) if stats_data['returns'] > 0 else 0
+        stats_data['qr_percent'] = round(stats_data.get('quick_returns', 0) / stats_data['returns'] * 100, 1) if stats_data['returns'] > 0 else 0
+        stats_data['pup_percent'] = round(stats_data['powerups'] / stats_data.get('total_pups_in_game', 1) * 100, 1) if stats_data.get('total_pups_in_game', 0) > 0 else 0
+        
+        # Derived counting stats
+        stats_data['plus_minus'] = stats_data.get('caps_for', 0) - stats_data.get('caps_against', 0)
+        stats_data['non_return_tags'] = stats_data['tags'] - stats_data['returns']
+        stats_data['non_drop_pops'] = stats_data['pops'] - stats_data['drops']
+        
+        return stats_data
+    
+    # Apply calculations to all players
+    for player_stat in stats_list:
+        calculate_derived_stats(player_stat)
+    
+    # Define column configurations for each view
+    stat_columns = {
+        'basic': [
+            {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
+            {'key': 'tags', 'label': 'Tags', 'type': 'number'},
+            {'key': 'pops', 'label': 'Pops', 'type': 'number'},
+            {'key': 'grabs', 'label': 'Grabs', 'type': 'number'},
+            {'key': 'drops', 'label': 'Drops', 'type': 'number'},
+            {'key': 'hold_sec', 'label': 'Hold', 'type': 'number'},
+            {'key': 'captures', 'label': 'Caps', 'type': 'number'},
+            {'key': 'prevent_sec', 'label': 'Prev', 'type': 'number'},
+            {'key': 'returns', 'label': 'Ret', 'type': 'number'},
+            {'key': 'powerups', 'label': 'Pups', 'type': 'number'},
+        ],
+        'offense': [
+            {'key': 'grabs_off_handoffs', 'label': 'GOH', 'type': 'number', 'tooltip': 'Grabs Off Handoffs - grabs within <2 seconds of teammate drop from hold of <3 seconds'},
+            {'key': 'caps_off_handoffs', 'label': 'COH', 'type': 'number', 'tooltip': 'Caps Off Handoffs - caps after grabbing within <2 seconds of teammate drop from hold of <3 seconds'},
+            {'key': 'grabs_off_regrab', 'label': 'GOR', 'type': 'number', 'tooltip': 'Grabs Off Regrab - grabs within <2 seconds of teammate drop'},
+            {'key': 'caps_off_regrab', 'label': 'COR', 'type': 'number', 'tooltip': 'Caps Off Regrab - caps after grabbing within <2 seconds of teammate drop'},
+            {'key': 'long_holds', 'label': 'LH', 'type': 'number', 'tooltip': 'Long Holds - holds of >10 seconds'},
+            {'key': 'flaccids', 'label': 'FLcd', 'type': 'number', 'tooltip': 'Flaccids - drop after <2 seconds of hold'},
+            {'key': 'handoffs', 'label': 'HO', 'type': 'number', 'tooltip': 'Handoffs - hold for <3 seconds and teammate grabs within <2 seconds of the drop'},
+            {'key': 'good_handoffs', 'label': 'GH', 'type': 'number', 'tooltip': 'Good Handoffs - handoff resulting in teammate hold of >5 seconds'},
+        ],
+        'defense': [
+            {'key': 'quick_returns', 'label': 'QR', 'type': 'number', 'tooltip': 'Quick Returns - return within <2 seconds of opponent hold'},
+            {'key': 'returns_in_base', 'label': 'RIB', 'type': 'number', 'tooltip': 'Returns In Base - return within 10 tiles of the team\'s flag'},
+            {'key': 'saves', 'label': 'Saves', 'type': 'number', 'tooltip': 'Saves - return within 10 tiles of the enemy flag'},
+            {'key': 'key_returns', 'label': 'KR', 'type': 'number', 'tooltip': 'Key Returns - return within <2 seconds before team caps'},
+            {'key': 'hold_against', 'label': 'HA', 'type': 'number', 'tooltip': 'Hold Against - hold accumulated by opponents while playing (in seconds)'},
+        ],
+        'offense_rates': [
+            {'key': 'gpm', 'label': 'GPM', 'type': 'number', 'tooltip': 'Grabs Per Minute - grabs / minutes played'},
+            {'key': 'cpm', 'label': 'CPM', 'type': 'number', 'tooltip': 'Caps Per Minute - captures / minutes played'},
+            {'key': 'hpm', 'label': 'HPM', 'type': 'number', 'tooltip': 'Hold Per Minute - hold / minutes played'},
+            {'key': 'hold_per_grab', 'label': 'H/G', 'type': 'number', 'tooltip': 'Hold per Grab - hold / grabs'},
+            {'key': 'score_percent', 'label': 'Score%', 'type': 'number', 'tooltip': 'Score Percentage - captures / grabs'},
+            {'key': 'chain_percent', 'label': 'Chain%', 'type': 'number', 'tooltip': 'Chain Percentage - good handoffs / handoffs'},
+            {'key': 'spark_percent', 'label': 'Spark%', 'type': 'number', 'tooltip': 'Spark Percentage - (captures - caps off regrab) / captures'},
+            {'key': 'flaccid_percent', 'label': 'Flaccid%', 'type': 'number', 'tooltip': 'Flaccid Percentage - flaccids / grabs'},
+        ],
+        'defense_rates': [
+            {'key': 'tpm', 'label': 'TPM', 'type': 'number', 'tooltip': 'Tags Per Minute - tags / minutes played'},
+            {'key': 'rpm', 'label': 'RPM', 'type': 'number', 'tooltip': 'Returns Per Minute - returns / minutes played'},
+            {'key': 'ppm', 'label': 'PPM', 'type': 'number', 'tooltip': 'Prevent Per Minute - prevent / minutes played'},
+            {'key': 'ham', 'label': 'HAM', 'type': 'number', 'tooltip': 'Hold Against Per Minute - hold against / minutes played'},
+            {'key': 'prevent_per_return', 'label': 'P/R', 'type': 'number', 'tooltip': 'Prevent per Return - prevent / returns'},
+            {'key': 'prevent_per_hold_against', 'label': 'P/HA', 'type': 'number', 'tooltip': 'Prevent per Hold Against - prevent / hold against'},
+            {'key': 'rib_percent', 'label': 'RIB%', 'type': 'number', 'tooltip': 'Return In Base Percentage - returns in base / returns'},
+            {'key': 'qr_percent', 'label': 'QR%', 'type': 'number', 'tooltip': 'Quick Return Percentage - quick returns / returns'},
+        ],
+        'miscellaneous': [
+            {'key': 'plus_minus', 'label': 'PM', 'type': 'number', 'tooltip': 'Plus/Minus - caps for - caps against'},
+            {'key': 'kept_flags', 'label': 'KF', 'type': 'number', 'tooltip': 'Kept Flags - times holding flag as the game ends'},
+            {'key': 'kd_ratio', 'label': 'K/D', 'type': 'number', 'tooltip': 'Kill/Death Ratio - tags / pops'},
+            {'key': 'non_return_tags', 'label': 'NRTags', 'type': 'number', 'tooltip': 'Non-Return Tags - tags - returns'},
+            {'key': 'non_drop_pops', 'label': 'NDPops', 'type': 'number', 'tooltip': 'Non-Drop Pops - pops - drops'},
+            {'key': 'pup_percent', 'label': 'Pup%', 'type': 'number', 'tooltip': 'Powerup Percentage - powerups / total pups in game'},
+        ]
+    }
+    
+    # Prepare data for template with column values extracted
+    template_stats = []
+    for player_stat in stats_list:
+        stat_row = {
+            'player': player_stat['player'],
+            'player_season': player_stat.get('player_season'),
+            'team': player_stat.get('team'),
+            'playing_as': player_stat['playing_as'],
+            'column_values': []
+        }
+        
+        for column in stat_columns[stat_view]:
+            value = player_stat.get(column['key'], 0)
+            stat_row['column_values'].append(value)
+        
+        template_stats.append(stat_row)
+    
     return render(req, 'reference/season_stats.html', {
         'season': season,
         'league_seasons': league_seasons,
-        'player_stats': stats_list,
+        'player_stats': template_stats,
+        'week_options': week_options,
+        'current_week': week_filter,
+        'stat_view_options': stat_view_options,
+        'current_stat_view': stat_view,
+        'stat_columns': stat_columns[stat_view],
     })
 
 
@@ -709,21 +1014,19 @@ def player_history(req, player_id):
                     else:
                         playoff_finish = f"Lost {match.week}"
         
-        # Get player stats for this season
-        player_stats = PlayerGameStats.objects.filter(
-            player_gamelog__player_season=ps,
-            player_gamelog__game__match__season=season
-        )
-        
-        # Aggregate stats
-        total_time = sum(stat.time_played or 0 for stat in player_stats)
-        total_caps = sum(stat.captures or 0 for stat in player_stats) 
-        total_hold = sum(stat.hold or 0 for stat in player_stats)
-        total_prevent = sum(stat.prevent or 0 for stat in player_stats)
-        total_returns = sum(stat.returns or 0 for stat in player_stats)
+        # Get player season stats
+        try:
+            season_stats = PlayerSeasonStats.objects.get(player_season=ps)
+            total_time = season_stats.time_played or 0
+            total_caps = season_stats.captures or 0
+            total_hold = season_stats.hold or 0
+            total_prevent = season_stats.prevent or 0
+            total_returns = season_stats.returns or 0
+        except PlayerSeasonStats.DoesNotExist:
+            total_time = total_caps = total_hold = total_prevent = total_returns = 0
         
         # Convert time units
-        minutes_played = round(total_time / 60) if total_time else 0
+        minutes_played = round(total_time / 3600) if total_time else 0
         hold_sec = round(total_hold / 60) if total_hold else 0
         prevent_sec = round(total_prevent / 60) if total_prevent else 0
         
@@ -867,57 +1170,38 @@ def team_season(req, team_id):
     # Get roster
     players = team.players.all().order_by('player__name')
     
-    # Get player stats for this team
-    player_stats = PlayerGameStats.objects.filter(
-        player_gamelog__team=team,
-        player_gamelog__game__match__week__startswith="Week"  # Regular season only
+    # Get player season stats for this team
+    player_season_stats = PlayerSeasonStats.objects.filter(
+        player_season__team=team
     ).select_related(
-        'player_gamelog__player_season__player'
+        'player_season__player'
     )
     
-    # Aggregate stats by player
-    player_aggregates = {}
-    for stat in player_stats:
-        player_season = stat.player_gamelog.player_season
-        player = player_season.player
-        
-        if player not in player_aggregates:
-            player_aggregates[player] = {
-                'player': player,
-                'time_played': 0,
-                'tags': 0,
-                'pops': 0,
-                'grabs': 0,
-                'drops': 0,
-                'hold': 0,
-                'captures': 0,
-                'prevent': 0,
-                'returns': 0,
-                'powerups': 0,
-            }
-        
-        # Aggregate each stat field
-        agg = player_aggregates[player]
-        agg['time_played'] += stat.time_played or 0
-        agg['tags'] += stat.tags or 0
-        agg['pops'] += stat.pops or 0
-        agg['grabs'] += stat.grabs or 0
-        agg['drops'] += stat.drops or 0
-        agg['hold'] += stat.hold or 0
-        agg['captures'] += stat.captures or 0
-        agg['prevent'] += stat.prevent or 0
-        agg['returns'] += stat.returns or 0
-        agg['powerups'] += stat.powerups or 0
-    
-    # Convert time fields and prepare final stats list
+    # Convert to final stats list
     team_stats = []
-    for agg in player_aggregates.values():
-        # Convert time fields
-        agg['time_played_min'] = round(agg['time_played'] / 60) if agg['time_played'] else 0
-        agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
-        agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+    for stat in player_season_stats:
+        player_season = stat.player_season
         
-        team_stats.append(agg)
+        stats_data = {
+            'player': player_season.player,
+            'time_played': stat.time_played or 0,
+            'tags': stat.tags or 0,
+            'pops': stat.pops or 0,
+            'grabs': stat.grabs or 0,
+            'drops': stat.drops or 0,
+            'hold': stat.hold or 0,
+            'captures': stat.captures or 0,
+            'prevent': stat.prevent or 0,
+            'returns': stat.returns or 0,
+            'powerups': stat.powerups or 0,
+        }
+        
+        # Convert time fields
+        stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
+        stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
+        stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+        
+        team_stats.append(stats_data)
     
     # Sort by time played (descending)
     team_stats.sort(key=lambda x: -x['time_played'])
@@ -1161,20 +1445,13 @@ def franchise_history(req, franchise_id):
         record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"
         
         # Find player with most minutes
-        player_stats = PlayerGameStats.objects.filter(
-            player_gamelog__team=team,
-            player_gamelog__game__match__season=season
-        ).select_related('player_gamelog__player_season__player')
-        
-        # Aggregate minutes by player
-        player_minutes = {}
-        for stat in player_stats:
-            player = stat.player_gamelog.player_season.player
-            player_minutes[player] = player_minutes.get(player, 0) + (stat.time_played or 0)
-        
-        most_minutes_player = None
-        if player_minutes:
-            most_minutes_player = max(player_minutes.keys(), key=lambda p: player_minutes[p])
+        try:
+            most_minutes_stat = PlayerSeasonStats.objects.filter(
+                player_season__team=team
+            ).select_related('player_season__player').order_by('-time_played').first()
+            most_minutes_player = most_minutes_stat.player_season.player if most_minutes_stat else None
+        except PlayerSeasonStats.DoesNotExist:
+            most_minutes_player = None
         
         history_data.append({
             'season': season,
@@ -1191,18 +1468,16 @@ def franchise_history(req, franchise_id):
     franchise_team_ids = [ts.id for ts in team_seasons]
     
     if franchise_team_ids:
-        all_player_stats = PlayerGameStats.objects.filter(
-            player_gamelog__team__id__in=franchise_team_ids,
-            player_gamelog__game__match__week__startswith="Week"  # Regular season only
+        franchise_season_stats = PlayerSeasonStats.objects.filter(
+            player_season__team__id__in=franchise_team_ids
         ).select_related(
-            'player_gamelog__player_season__player'
+            'player_season__player'
         )
         
         # Aggregate stats by player across all seasons for this franchise
         player_aggregates = {}
-        for stat in all_player_stats:
-            player_season = stat.player_gamelog.player_season
-            player = player_season.player
+        for stat in franchise_season_stats:
+            player = stat.player_season.player
             
             if player not in player_aggregates:
                 player_aggregates[player] = {
@@ -1236,7 +1511,7 @@ def franchise_history(req, franchise_id):
         all_time_stats = []
         for agg in player_aggregates.values():
             # Convert time fields
-            agg['time_played_min'] = round(agg['time_played'] / 60) if agg['time_played'] else 0
+            agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
             agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
             agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
             
@@ -1331,33 +1606,70 @@ def match_view(req, match_id):
     
     # Get player stats for both teams
     def get_team_stats(team, games_filter):
-        player_logs = PlayerGameLog.objects.filter(
-            game__in=games_filter,
-            team=team
-        ).select_related('player_season__player').values(
-            'player_season__player__id',
-            'player_season__player__name',
-            'player_season__playing_as',
-        ).annotate(
-            time_played=models.Sum('stats__time_played'),
-            tags=models.Sum('stats__tags'),
-            pops=models.Sum('stats__pops'),
-            grabs=models.Sum('stats__grabs'),
-            drops=models.Sum('stats__drops'),
-            hold=models.Sum('stats__hold'),
-            captures=models.Sum('stats__captures'),
-            prevent=models.Sum('stats__prevent'),
-            returns=models.Sum('stats__returns'),
-            powerups=models.Sum('stats__powerups'),
-        ).order_by('-time_played')
-        
-        team_stats = []
-        for log in player_logs:
-            # Convert time fields from seconds to minutes
-            log['time_played_min'] = round(log['time_played'] / 60) if log['time_played'] else 0
-            log['hold_sec'] = round(log['hold'] / 60) if log['hold'] else 0
-            log['prevent_sec'] = round(log['prevent'] / 60) if log['prevent'] else 0
-            team_stats.append(log)
+        # If showing all games, use PlayerWeekStats for the match week
+        if selected_game == 'all':
+            week_stats = PlayerWeekStats.objects.filter(
+                player_season__team=team,
+                week=match.week
+            ).select_related('player_season__player')
+            
+            team_stats = []
+            for stat in week_stats:
+                player_season = stat.player_season
+                stats_data = {
+                    'player_season__player__id': player_season.player.id,
+                    'player_season__player__name': player_season.player.name,
+                    'player_season__playing_as': player_season.playing_as,
+                    'time_played': stat.time_played or 0,
+                    'tags': stat.tags or 0,
+                    'pops': stat.pops or 0,
+                    'grabs': stat.grabs or 0,
+                    'drops': stat.drops or 0,
+                    'hold': stat.hold or 0,
+                    'captures': stat.captures or 0,
+                    'prevent': stat.prevent or 0,
+                    'returns': stat.returns or 0,
+                    'powerups': stat.powerups or 0,
+                }
+                
+                # Convert time fields
+                stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
+                stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
+                stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+                
+                team_stats.append(stats_data)
+            
+            # Sort by time played (descending)
+            team_stats.sort(key=lambda x: -x['time_played'])
+        else:
+            # For specific games, aggregate from PlayerGameLog
+            player_logs = PlayerGameLog.objects.filter(
+                game__in=games_filter,
+                team=team
+            ).select_related('player_season__player').values(
+                'player_season__player__id',
+                'player_season__player__name',
+                'player_season__playing_as',
+            ).annotate(
+                time_played=models.Sum('stats__time_played'),
+                tags=models.Sum('stats__tags'),
+                pops=models.Sum('stats__pops'),
+                grabs=models.Sum('stats__grabs'),
+                drops=models.Sum('stats__drops'),
+                hold=models.Sum('stats__hold'),
+                captures=models.Sum('stats__captures'),
+                prevent=models.Sum('stats__prevent'),
+                returns=models.Sum('stats__returns'),
+                powerups=models.Sum('stats__powerups'),
+            ).order_by('-time_played')
+            
+            team_stats = []
+            for log in player_logs:
+                # Convert time fields from seconds to minutes
+                log['time_played_min'] = round(log['time_played'] / 3600) if log['time_played'] else 0
+                log['hold_sec'] = round(log['hold'] / 60) if log['hold'] else 0
+                log['prevent_sec'] = round(log['prevent'] / 60) if log['prevent'] else 0
+                team_stats.append(log)
         
         return team_stats
     

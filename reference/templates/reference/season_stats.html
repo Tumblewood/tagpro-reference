@@ -22,6 +22,28 @@
         </select>
     </div>
     
+    <div class="season-selector">
+        <label for="week-dropdown">Filter by Week: </label>
+        <select id="week-dropdown" onchange="changeWeek(this.value)">
+            {% for week_option in week_options %}
+                <option value="{{ week_option.value }}" {% if week_option.value == current_week %}selected{% endif %}>
+                    {{ week_option.label }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="season-selector">
+        <label for="view-dropdown">Stat View: </label>
+        <select id="view-dropdown" onchange="changeView(this.value)">
+            {% for view_option in stat_view_options %}
+                <option value="{{ view_option.value }}" {% if view_option.value == current_stat_view %}selected{% endif %}>
+                    {{ view_option.label }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+    
     <div class="season-nav">
         <a href="{% url 'season_home' season.id %}">Home</a> |
         <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
@@ -36,16 +58,11 @@
                 <tr>
                     <th class="team-name" data-sortable data-type="text">Player</th>
                     <th data-sortable data-type="text">Team</th>
-                    <th data-sortable data-type="number">Min</th>
-                    <th data-sortable data-type="number">Tags</th>
-                    <th data-sortable data-type="number">Pops</th>
-                    <th data-sortable data-type="number">Grabs</th>
-                    <th data-sortable data-type="number">Drops</th>
-                    <th data-sortable data-type="number">Hold</th>
-                    <th data-sortable data-type="number">Caps</th>
-                    <th data-sortable data-type="number">Prev</th>
-                    <th data-sortable data-type="number">Ret</th>
-                    <th data-sortable data-type="number">Pups</th>
+                    {% for column in stat_columns %}
+                        <th data-sortable data-type="{{ column.type }}"{% if column.tooltip %} title="{{ column.tooltip }}"{% endif %}>
+                            {{ column.label }}
+                        </th>
+                    {% endfor %}
                 </tr>
             </thead>
             <tbody>
@@ -65,20 +82,13 @@
                             —
                         {% endif %}
                     </td>
-                    <td>{{ player_stat.time_played_min }}</td>
-                    <td>{{ player_stat.tags }}</td>
-                    <td>{{ player_stat.pops }}</td>
-                    <td>{{ player_stat.grabs }}</td>
-                    <td>{{ player_stat.drops }}</td>
-                    <td>{{ player_stat.hold_sec }}</td>
-                    <td>{{ player_stat.captures }}</td>
-                    <td>{{ player_stat.prevent_sec }}</td>
-                    <td>{{ player_stat.returns }}</td>
-                    <td>{{ player_stat.powerups }}</td>
+                    {% for value in player_stat.column_values %}
+                        <td>{{ value|default_if_none:"0" }}</td>
+                    {% endfor %}
                 </tr>
                 {% empty %}
                 <tr>
-                    <td colspan="12" style="text-align: center; padding: 2rem; color: #6c757d;">
+                    <td colspan="{{ stat_columns|length|add:2 }}" style="text-align: center; padding: 2rem; color: #6c757d;">
                         No player statistics found for this season.
                     </td>
                 </tr>
@@ -95,6 +105,26 @@
         if (seasonId) {
             window.location.href = `/season/${seasonId}/stats/`;
         }
+    }
+    
+    function changeWeek(weekValue) {
+        const url = new URL(window.location);
+        if (weekValue === 'all_regular_season') {
+            url.searchParams.delete('week');
+        } else {
+            url.searchParams.set('week', weekValue);
+        }
+        window.location.href = url.toString();
+    }
+    
+    function changeView(viewValue) {
+        const url = new URL(window.location);
+        if (viewValue === 'basic') {
+            url.searchParams.delete('view');
+        } else {
+            url.searchParams.set('view', viewValue);
+        }
+        window.location.href = url.toString();
     }
     
     // Initialize table sorting when page loads
