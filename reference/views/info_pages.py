@@ -600,6 +600,7 @@ def season_stats(req, season_id):
             stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
             stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
             stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+            stats_data['hold_against_sec'] = round(stats_data['hold_against'] / 60) if stats_data['hold_against'] else 0
             
             stats_list.append(stats_data)
     
@@ -790,6 +791,7 @@ def season_stats(req, season_id):
             agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
             agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
             agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+            agg['hold_against_sec'] = round(agg['hold_against'] / 60) if agg['hold_against'] else 0
             
             stats_list.append(agg)
     
@@ -847,6 +849,7 @@ def season_stats(req, season_id):
             stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
             stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
             stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
+            stats_data['hold_against_sec'] = round(stats_data['hold_against'] / 60) if stats_data['hold_against'] else 0
             
             stats_list.append(stats_data)
     
@@ -922,7 +925,7 @@ def season_stats(req, season_id):
             {'key': 'returns_in_base', 'label': 'RIB', 'type': 'number', 'tooltip': 'Returns In Base - return within 10 tiles of the team\'s flag'},
             {'key': 'saves', 'label': 'Saves', 'type': 'number', 'tooltip': 'Saves - return within 10 tiles of the enemy flag'},
             {'key': 'key_returns', 'label': 'KR', 'type': 'number', 'tooltip': 'Key Returns - return within <2 seconds before team caps'},
-            {'key': 'hold_against', 'label': 'HA', 'type': 'number', 'tooltip': 'Hold Against - hold accumulated by opponents while playing (in seconds)'},
+            {'key': 'hold_against_sec', 'label': 'HA', 'type': 'number', 'tooltip': 'Hold Against - hold accumulated by opponents while playing (in seconds)'},
         ],
         'offense_rates': [
             {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
@@ -1627,6 +1630,7 @@ def franchise_history(req, franchise_id):
             agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
             agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
             agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
+            agg['hold_against_sec'] = round(agg['hold_against'] / 60) if agg['hold_against'] else 0
             
             all_time_stats.append(agg)
         
