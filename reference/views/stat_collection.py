@@ -1,13 +1,5 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.contrib.admin.views.decorators import staff_member_required
-from django.contrib import messages
-from django.http import JsonResponse
-from django.views.decorators.http import require_http_methods
 from django.db import models, transaction
-import json
-import re
 from typing import Dict, Tuple
-from datetime import datetime, date
 from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats
 import tagpro_eu
 
@@ -30,15 +22,6 @@ stat_defaults = {
 }
 for f in HELPER_FIELDS:
     stat_defaults[f] = None
-
-
-class DummyPGL:
-    def __init__(self):
-        self.team = None
-        self.game = None
-
-    def save(self):
-        pass
 
 
 with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
@@ -198,7 +181,18 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
                     elif time_since_drop < 2 * 60:
                         p['grabs_off_regrab'] += 1
                         p['grabbed_off_regrab'] = True
-        elif event[:4] == "Drop":
+        elif event == "Drop Temporary flag":
+            # This happens when a player grabs and gets popped in the same tick (usually by a TagPro)
+            p['grabs'] += 1
+            p['drops'] += 1
+            p['pops'] += 1
+            p['flaccids'] += 1  # only log flaccids for drops, not caps or end of game
+
+            p['grab_time'] = time
+            p['last_hold_end'] = time
+            p['grabbed_off_regrab'] = None
+            p['handed_off_by'] = None
+        elif event == "Drop Opponent flag":
             p['drops'] += 1
             p['pops'] += 1
 
@@ -235,7 +229,10 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
                     hold_length = p2['last_hold_end'] - p2['grab_time']
                     if hold_length < 2 * 60:
                         p['quick_returns'] += 1
-                    splat = [s for s in m.splats if s.time.real == time and s.player.name == p2_name][0]
+                    try:
+                        splat = [s for s in m.splats if s.time.real == time and s.player.name == p2_name][0]
+                    except IndexError:
+                        continue  # NO idea why but this happens once in a blue moon (e.g., match 3676097)
                     is_red_team = p['team'] == m.team_red.name
                     if is_red_team:
                         own_flag = red_flag
@@ -245,9 +242,9 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
                         enemy_flag = red_flag
                     distance_from_own_flag = ((splat.x / 40 - own_flag[0]) ** 2 + (splat.y / 40 - own_flag[1]) ** 2) ** 0.5
                     distance_from_enemy_flag = ((splat.x / 40 - enemy_flag[0]) ** 2 + (splat.y / 40 - enemy_flag[1]) ** 2) ** 0.5
-                    if distance_from_own_flag < 8:
+                    if distance_from_own_flag < 10:
                         p['returns_in_base'] += 1
-                    if distance_from_enemy_flag < 8:
+                    if distance_from_enemy_flag < 10:
                         own_team_with_flag = [p3 for p3 in ps.values() if p3['grab_time'] is not None and p3['last_hold_end'] is None]
                         if len(own_team_with_flag) == 0:
                             p['saves'] += 1
