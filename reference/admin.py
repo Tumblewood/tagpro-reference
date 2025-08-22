@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, AwardType, AwardReceived, Transaction
+from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
 from .views import stat_collection
 
 
@@ -29,6 +29,12 @@ class MatchAdmin(admin.ModelAdmin):
 class GameAdmin(admin.ModelAdmin):
     actions = [reprocess]
     inlines = [PlayerGameLogInline]
+    search_fields = ['tagpro_eu', 'resumed_tagpro_eu']
+
+
+class PlayerSeasonAdmin(admin.ModelAdmin):
+    search_fields = ['player__name', 'playing_as']
+    list_filter = ['season', 'team__franchise__name']
 
 
 class PlayerGameLogAdmin(admin.ModelAdmin):
@@ -41,9 +47,10 @@ admin.site.register([
     Player,
     Season,
     TeamSeason,
-    PlayerSeason,
     PlayoffSeries,
-    PlayerStats,
+    PlayerGameStats,
+    PlayerWeekStats,
+    PlayerSeasonStats,
     AwardType,
     AwardReceived,
     Transaction
@@ -51,4 +58,5 @@ admin.site.register([
 
 admin.site.register(Match, MatchAdmin)
 admin.site.register(Game, GameAdmin)
+admin.site.register(PlayerSeason, PlayerSeasonAdmin)
 admin.site.register(PlayerGameLog, PlayerGameLogAdmin)

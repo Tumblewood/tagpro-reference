@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name="playerstats",
+            model_name="playergamestats",
             name="time_played",
             field=models.IntegerField(
                 blank=True, help_text="Time played in seconds", null=True

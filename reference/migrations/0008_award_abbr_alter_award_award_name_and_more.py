@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             field=models.CharField(help_text="Full name of the award", max_length=255),
         ),
         migrations.AlterField(
-            model_name="playerstats",
+            model_name="playergamestats",
             name="hold",
             field=models.IntegerField(
                 blank=True,
@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
             ),
         ),
         migrations.AlterField(
-            model_name="playerstats",
+            model_name="playergamestats",
             name="prevent",
             field=models.IntegerField(
                 blank=True,

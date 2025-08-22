@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
             ),
         ),
         migrations.CreateModel(
-            name="PlayerStats",
+            name="PlayerGameStats",
             fields=[
                 (
                     "id",
