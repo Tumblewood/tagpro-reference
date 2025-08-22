@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, AwardType, AwardReceived, Transaction
+from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
 from .views import stat_collection
 
 
@@ -43,7 +43,9 @@ admin.site.register([
     TeamSeason,
     PlayerSeason,
     PlayoffSeries,
-    PlayerStats,
+    PlayerGameStats,
+    PlayerWeekStats,
+    PlayerSeasonStats,
     AwardType,
     AwardReceived,
     Transaction
