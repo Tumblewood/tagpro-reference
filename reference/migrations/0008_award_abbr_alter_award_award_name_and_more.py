@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("reference", "0007_playergamestats_time_played"),
+        ("reference", "0007_playerstats_time_played"),
     ]
 
     operations = [
