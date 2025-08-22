@@ -370,7 +370,7 @@ def process_game_stats(game: Game):
 
 def aggregate_game_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
     """
-    Return a dict usable as default for a PlayerStats model where the values are the totals of all
+    Return a dict usable as default for a PlayerGameStats model where the values are the totals of all
     the stats in the records in pgs.
     """
     aggregate_fields = {

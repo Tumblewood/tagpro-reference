@@ -235,5 +235,5 @@ class Migration(migrations.Migration):
                 ),
             ],
         ),
-        migrations.DeleteModel(name="PlayerStats",),
+        migrations.DeleteModel(name="PlayerGameStats",),
     ]

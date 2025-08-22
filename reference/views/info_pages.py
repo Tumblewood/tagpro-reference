@@ -503,7 +503,7 @@ def season_stats(req, season_id):
     league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
     
     # Get all player stats from regular season games only
-    player_stats = PlayerStats.objects.filter(
+    player_stats = PlayerGameStats.objects.filter(
         player_gamelog__game__match__season=season,
         player_gamelog__game__match__week__startswith="Week"  # Regular season only
     ).select_related(
@@ -710,7 +710,7 @@ def player_history(req, player_id):
                         playoff_finish = f"Lost {match.week}"
         
         # Get player stats for this season
-        player_stats = PlayerStats.objects.filter(
+        player_stats = PlayerGameStats.objects.filter(
             player_gamelog__player_season=ps,
             player_gamelog__game__match__season=season
         )
@@ -868,7 +868,7 @@ def team_season(req, team_id):
     players = team.players.all().order_by('player__name')
     
     # Get player stats for this team
-    player_stats = PlayerStats.objects.filter(
+    player_stats = PlayerGameStats.objects.filter(
         player_gamelog__team=team,
         player_gamelog__game__match__week__startswith="Week"  # Regular season only
     ).select_related(
@@ -1161,7 +1161,7 @@ def franchise_history(req, franchise_id):
         record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"
         
         # Find player with most minutes
-        player_stats = PlayerStats.objects.filter(
+        player_stats = PlayerGameStats.objects.filter(
             player_gamelog__team=team,
             player_gamelog__game__match__season=season
         ).select_related('player_gamelog__player_season__player')
@@ -1191,7 +1191,7 @@ def franchise_history(req, franchise_id):
     franchise_team_ids = [ts.id for ts in team_seasons]
     
     if franchise_team_ids:
-        all_player_stats = PlayerStats.objects.filter(
+        all_player_stats = PlayerGameStats.objects.filter(
             player_gamelog__team__id__in=franchise_team_ids,
             player_gamelog__game__match__week__startswith="Week"  # Regular season only
         ).select_related(
