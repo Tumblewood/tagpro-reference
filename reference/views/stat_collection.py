@@ -1,6 +1,6 @@
 from django.db import models, transaction
 from typing import Dict, Tuple
-from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats
+from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerWeekStats, PlayerSeasonStats, Season
 import tagpro_eu
 
 
@@ -31,7 +31,7 @@ with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding
     )]
 
 
-def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
+def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
     """
     Takes a tagpro_eu.Match and extracts all counting stats into a dict, and all player teams into another dict.
     Dict keys for both tuple members are player usernames from the game, and values are a dict with their counting stats
@@ -56,31 +56,35 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         p.name: { **stat_defaults }
         for p in m.players
     }
+    ps_before_ot = {
+        p.name: { **stat_defaults }
+        for p in m.players
+    }
     score_before_ot = (0, 0)
     for time, event, player in sorted(m.create_timeline()):
         p = ps[player.name]
         time = time.real
 
-        # If more than 10 minutes have elapsed, stop recording stats.
-        # Clean up any time-based stats currently being tracked.
-        # Currently commenting out to enable tracking of kept flags whether game went to OT.
-        # Needs a rework to enable tracking of some stats but not all. Or prorate to a 10-minute period?
-        # if time > 10 * 60 * 60:
-        #     time = 10 * 60 * 60
-        #     for p in ps.values():
-        #         if p['join_time'] is not None:
-        #             p['time_played'] += time - p['join_time']
-        #         if p['grab_time'] is not None:
-        #             hold_length = time - p['grab_time']
-        #             p['hold'] += hold_length
-        #             if hold_length > 10 * 60:
-        #                 p['long_holds'] += 1
-        #             for p2 in ps.values():
-        #                 if p2['team'] is not None and p2['team'] != p['team']:
-        #                     p2['hold_against'] += time - p['grab_time']
-        #         if p['prevent_start_time'] is not None:
-        #             p['prevent'] += time - p['prevent_start_time']
-        #     break
+        # Take a snapshot of all stats at the end of regulation (10 minutes)
+        if time > 10 * 60 * 60:
+            ps_before_ot = { p: ps[p].copy() for p in ps }
+            for p in ps_before_ot.values():
+                if p['join_time'] is not None:
+                    p['time_played'] += time - p['join_time']
+
+                if p['prevent_start_time'] is not None:
+                    p['prevent'] += time - p['prevent_start_time']
+                
+                if p['grab_time'] is not None and p['last_hold_end'] is None:
+                    hold_length = time - p['grab_time']
+                    p['hold'] += hold_length
+                    if hold_length > 10 * 60:
+                        p['long_holds'] += 1
+                    if hold_length > 5 * 60 and p['handed_off_by'] is not None:
+                        ps[p['handed_off_by']]['good_handoffs'] += 1
+                    for p2 in ps.values():
+                        if p2['team'] is not None and p2['team'] != p['team']:
+                            p2['hold_against'] += hold_length
         if event[:4] == "Join":
             p['team'] = event[10:]
             p['join_time'] = time
@@ -94,6 +98,7 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
             
             if p['grab_time'] is not None and p['last_hold_end'] is None:
                 p['kept_flags'] += 1
+                ps_before_ot['kept_flags'] += 1  # kept flags count even in OT
                 hold_length = time - p['grab_time']
                 p['hold'] += hold_length
                 if hold_length > 10 * 60:
@@ -260,7 +265,7 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
             p['prevent'] += time - p['prevent_start_time']
             p['prevent_start_time'] = None
 
-    return ps, last_team_played_for, score_before_ot
+    return ps, ps_before_ot, last_team_played_for, score_before_ot
 
 
 @transaction.atomic
@@ -277,7 +282,7 @@ def process_game_stats(game: Game):
         # if no tagpro.eu match found in bulkmatches, don't reprocess
         return None
 
-    ps, team_mapping, score_before_ot = parse_stats_from_eu_match(m)
+    ps, ps_before_ot, team_mapping, score_before_ot = parse_stats_from_eu_match(m)
     went_to_ot = score_before_ot != (m.team_red.score, m.team_blue.score)
     
     # Set the winner based on the score
@@ -321,52 +326,58 @@ def process_game_stats(game: Game):
             raise Exception("Player {p} has no team")
         players[p].save()
 
-        # Get or create the object for their stats
+        # Get or create the object for their stats (for both full game and regulation)
         player_stat_defaults = {
             stat: ps[p][stat]
             for stat in STAT_FIELDS
         }
-        stats, _ = PlayerGameStats.objects.update_or_create(
+        player_regulation_stat_defaults = {
+            stat: ps_before_ot[p][stat]
+            for stat in STAT_FIELDS
+        }
+        game_stats, _ = PlayerGameStats.objects.update_or_create(
             player_gamelog=players[p],
             defaults=player_stat_defaults
         )
-        stats.save()
+        regulation_game_stats, _ = PlayerRegulationGameStats.objects.update_or_create(
+            player_gamelog=players[p],
+            defaults=player_regulation_stat_defaults
+        )
+        game_stats.save()
+        regulation_game_stats.save()
 
-        # Update the player's aggregated stats for the week and the season
-        pgs_this_week = PlayerGameStats.objects.filter(
-            player_gamelog__player_season=players[p].player_season,
+
+def reaggregate_stats(game: Game):
+    """Re-aggregate week and season stat totals for all players in the game."""
+    for pgl in PlayerGameLog.objects.filter(game=game):
+        prgs_this_week = PlayerRegulationGameStats.objects.filter(
+            player_gamelog__player_season=pgl.player_season,
             player_gamelog__game__match__week=game.match.week
         )
-        week_stat_defaults = aggregate_game_stats(pgs_this_week)
-
-        # If more than 50 minutes played in the week, and not playoffs, prorate all stats to 50 minutes
-        if game.match.week.startswith("Week"):
-            max_minutes = 50
-        else:
-            max_minutes = len(pgs_this_week) * 10
-        if game.match.week.startswith("Week") and week_stat_defaults['time_played'] > max_minutes * 60 * 60:
-            ratio = max_minutes * 60 * 60 / week_stat_defaults['time_played']
-            for stat in STAT_FIELDS:
-                week_stat_defaults[stat] = round(week_stat_defaults[stat] * ratio)
         player_week_stats, _ = PlayerWeekStats.objects.update_or_create(
-            player_season=players[p].player_season,
+            player_season=pgl.player_season,
             week=game.match.week,
-            defaults=week_stat_defaults
+            defaults=aggregate_stats(prgs_this_week)
         )
         player_week_stats.save()
 
         pws_this_season = PlayerWeekStats.objects.filter(
-            player_season=players[p].player_season,
+            player_season=pgl.player_season,
             week__startswith="Week"
         )
         player_season_stats, _ = PlayerSeasonStats.objects.update_or_create(
-            player_season=players[p].player_season,
-            defaults=aggregate_game_stats(pws_this_season)
+            player_season=pgl.player_season,
+            defaults=aggregate_stats(pws_this_season)
         )
         player_season_stats.save()
 
 
-def aggregate_game_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
+def reaggregate_full_season(season: Season):
+    """Re-aggregate week and season stat totals for all players in the season and all weeks."""
+    pass
+
+
+def aggregate_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
     """
     Return a dict usable as default for a PlayerGameStats model where the values are the totals of all
     the stats in the records in pgs.

@@ -7,6 +7,7 @@ from .views import stat_collection
 def reprocess(modeladmin, request, queryset):
     for g in queryset:
         stat_collection.process_game_stats(g)
+        stat_collection.reaggregate_stats(g)
 
 
 class TeamSeasonInline(admin.TabularInline):

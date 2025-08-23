@@ -10,7 +10,7 @@ from datetime import datetime, date
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats
+from .stat_collection import process_game_stats, reaggregate_stats
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
 
 
@@ -354,8 +354,9 @@ def enter_confirmed_data(
             team=played_on
         )
     
-    # Run this to collect stats from the game and attach those to the PlayerGameLogs
+    # Collect and store stats from the game
     process_game_stats(game)
+    reaggregate_stats(game)
 
 
 @staff_member_required
@@ -846,7 +847,6 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                     )
             
             # Process game stats
-            process_game_stats(game)
             created_count += 1
     
     return {'created_count': created_count, 'skipped_count': skipped_count}
