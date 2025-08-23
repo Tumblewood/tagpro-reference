@@ -266,6 +266,8 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         elif event[:16] == "Start preventing":
             p['prevent_start_time'] = time
         elif event[:15] == "Stop preventing":
+            if p['prevent_start_time'] is None:
+                continue  # happens when someone disconnects in same tick as prevent end
             p['prevent'] += time - p['prevent_start_time']
             p['prevent_start_time'] = None
 

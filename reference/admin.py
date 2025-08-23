@@ -22,6 +22,18 @@ def reaggregate_season(modeladmin, request, queryset):
             stat_collection.reaggregate_stats(game)
 
 
+@admin.action(description="Re-process stats for the season")
+def reprocess_season(modeladmin, request, queryset):
+    """Re-aggregate stats for the season."""
+    for season in queryset:
+        # Get all games for this season
+        games = Game.objects.filter(match__season=season)
+        
+        # Re-aggregate each game
+        for game in games:
+            stat_collection.process_game_stats(game)
+
+
 class TeamSeasonInline(admin.TabularInline):
     model = TeamSeason
 
@@ -45,7 +57,7 @@ class PlayerGameLogInline(admin.TabularInline):
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     inlines = [TeamSeasonInline]
-    actions = [reaggregate_season]
+    actions = [reaggregate_season, reprocess_season]
 
 
 class TeamSeasonAdmin(admin.ModelAdmin):
