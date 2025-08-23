@@ -171,7 +171,7 @@ class PlayerGameStats(models.Model):
     Represents an individual player's stats in a single game.
     """
     player_gamelog = models.OneToOneField(PlayerGameLog, on_delete=models.CASCADE, related_name="stats")
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
     tags = models.IntegerField(blank=True, null=True)
     pops = models.IntegerField(blank=True, null=True)
     grabs = models.IntegerField(blank=True, null=True)
@@ -208,8 +208,8 @@ class PlayerRegulationGameStats(models.Model):
     Excludes OT stats and games played on "home maps".
     This is what should be used for week and season totals.
     """
-    player_gamelog = models.OneToOneField(PlayerGameLog, on_delete=models.CASCADE, related_name="stats")
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    player_gamelog = models.OneToOneField(PlayerGameLog, on_delete=models.CASCADE, related_name="regulation_stats")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
     tags = models.IntegerField(blank=True, null=True)
     pops = models.IntegerField(blank=True, null=True)
     grabs = models.IntegerField(blank=True, null=True)
@@ -238,7 +238,7 @@ class PlayerRegulationGameStats(models.Model):
     kept_flags = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
-        return f"Regulatio sStats for {self.player_gamelog}"
+        return f"Regulation game stats for {self.player_gamelog}"
     
 class PlayerWeekStats(models.Model):
     """
@@ -246,7 +246,7 @@ class PlayerWeekStats(models.Model):
     """
     player_season = models.ForeignKey(PlayerSeason, on_delete=models.CASCADE, related_name="weekly_stats")
     week = models.CharField(max_length=100)
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
     tags = models.IntegerField(blank=True, null=True)
     pops = models.IntegerField(blank=True, null=True)
     grabs = models.IntegerField(blank=True, null=True)
@@ -282,7 +282,7 @@ class PlayerSeasonStats(models.Model):
     Represents an individual player's total stats in a season.
     """
     player_season = models.OneToOneField(PlayerSeason, on_delete=models.CASCADE, related_name="stats")
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in seconds")
+    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
     tags = models.IntegerField(blank=True, null=True)
     pops = models.IntegerField(blank=True, null=True)
     grabs = models.IntegerField(blank=True, null=True)

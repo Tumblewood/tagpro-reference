@@ -235,5 +235,5 @@ class Migration(migrations.Migration):
                 ),
             ],
         ),
-        migrations.DeleteModel(name="PlayerGameStats",),
+        # migrations.DeleteModel(name="PlayerGameStats",),  why was this added?
     ]

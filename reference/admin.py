@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
+from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
 from .views import stat_collection
 
 
@@ -8,6 +8,18 @@ def reprocess(modeladmin, request, queryset):
     for g in queryset:
         stat_collection.process_game_stats(g)
         stat_collection.reaggregate_stats(g)
+
+
+@admin.action(description="Re-aggregate stats for the season")
+def reaggregate_season(modeladmin, request, queryset):
+    """Re-aggregate stats for the season."""
+    for season in queryset:
+        # Get all games for this season
+        games = Game.objects.filter(match__season=season)
+        
+        # Re-aggregate each game
+        for game in games:
+            stat_collection.reaggregate_stats(game)
 
 
 class TeamSeasonInline(admin.TabularInline):
@@ -33,6 +45,7 @@ class PlayerGameLogInline(admin.TabularInline):
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     inlines = [TeamSeasonInline]
+    actions = [reaggregate_season]
 
 
 class TeamSeasonAdmin(admin.ModelAdmin):
@@ -49,6 +62,7 @@ class GameAdmin(admin.ModelAdmin):
     actions = [reprocess]
     inlines = [PlayerGameLogInline]
     search_fields = ['tagpro_eu', 'resumed_tagpro_eu']
+    list_filter = ['match__season']
 
 
 class PlayerSeasonAdmin(admin.ModelAdmin):
@@ -66,6 +80,7 @@ admin.site.register([
     Player,
     PlayoffSeries,
     PlayerGameStats,
+    PlayerRegulationGameStats,
     PlayerWeekStats,
     PlayerSeasonStats,
     AwardType,

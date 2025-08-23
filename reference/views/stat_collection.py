@@ -60,31 +60,35 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         p.name: { **stat_defaults }
         for p in m.players
     }
+    snapshotted = False
     score_before_ot = (0, 0)
     for time, event, player in sorted(m.create_timeline()):
         p = ps[player.name]
         time = time.real
 
         # Take a snapshot of all stats at the end of regulation (10 minutes)
-        if time > 10 * 60 * 60:
-            ps_before_ot = { p: ps[p].copy() for p in ps }
-            for p in ps_before_ot.values():
-                if p['join_time'] is not None:
-                    p['time_played'] += time - p['join_time']
+        if time > 10 * 60 * 60 and not snapshotted:
+            ps_before_ot = { player_name: ps[player_name].copy() for player_name in ps }
+            snapshotted = True
+            for p2 in ps_before_ot.values():  # don't overwrite value of p
+                if p2['join_time'] is not None:
+                    p2['time_played'] += time - p2['join_time']
 
-                if p['prevent_start_time'] is not None:
-                    p['prevent'] += time - p['prevent_start_time']
+                if p2['prevent_start_time'] is not None:
+                    p2['prevent'] += time - p2['prevent_start_time']
                 
-                if p['grab_time'] is not None and p['last_hold_end'] is None:
-                    hold_length = time - p['grab_time']
-                    p['hold'] += hold_length
+                if p2['grab_time'] is not None and p2['last_hold_end'] is None:
+                    hold_length = time - p2['grab_time']
+                    p2['hold'] += hold_length
                     if hold_length > 10 * 60:
-                        p['long_holds'] += 1
-                    if hold_length > 5 * 60 and p['handed_off_by'] is not None:
-                        ps[p['handed_off_by']]['good_handoffs'] += 1
-                    for p2 in ps.values():
-                        if p2['team'] is not None and p2['team'] != p['team']:
-                            p2['hold_against'] += hold_length
+                        p2['long_holds'] += 1
+                    if hold_length > 5 * 60 and p2['handed_off_by'] is not None:
+                        ps_before_ot[p2['handed_off_by']]['good_handoffs'] += 1
+                    for p3 in ps_before_ot.values():
+                        if p3['team'] is not None and p3['team'] != p2['team']:
+                            p3['hold_against'] += hold_length
+        
+        # Process event
         if event[:4] == "Join":
             p['team'] = event[10:]
             p['join_time'] = time
@@ -98,7 +102,7 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
             
             if p['grab_time'] is not None and p['last_hold_end'] is None:
                 p['kept_flags'] += 1
-                ps_before_ot['kept_flags'] += 1  # kept flags count even in OT
+                ps_before_ot[player.name]['kept_flags'] += 1  # kept flags count even in OT
                 hold_length = time - p['grab_time']
                 p['hold'] += hold_length
                 if hold_length > 10 * 60:
@@ -370,11 +374,6 @@ def reaggregate_stats(game: Game):
             defaults=aggregate_stats(pws_this_season)
         )
         player_season_stats.save()
-
-
-def reaggregate_full_season(season: Season):
-    """Re-aggregate week and season stat totals for all players in the season and all weeks."""
-    pass
 
 
 def aggregate_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
