@@ -1725,10 +1725,16 @@ def match_view(req, match_id):
     def get_team_stats(team, games_filter):
         # If showing all games, use PlayerWeekStats for the match week
         if selected_game == 'all':
-            # TODO: this is excluding people who played in the match but were
-            # not officially rostered at end of season.
+            # Get all player_seasons who actually played for this team in this match
+            match_games = Game.objects.filter(match=match)
+            player_seasons_in_match = PlayerGameLog.objects.filter(
+                game__in=match_games,
+                team=team
+            ).values_list('player_season', flat=True).distinct()
+            
+            # Get week stats for players who actually played in the match
             week_stats = PlayerWeekStats.objects.filter(
-                player_season__team=team,
+                player_season__in=player_seasons_in_match,
                 week=match.week
             ).select_related('player_season__player')
             
