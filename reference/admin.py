@@ -9,6 +9,14 @@ def reprocess(modeladmin, request, queryset):
         stat_collection.process_game_stats(g)
 
 
+class TeamSeasonInline(admin.TabularInline):
+    model = TeamSeason
+
+
+class PlayerSeasonInline(admin.TabularInline):
+    model = PlayerSeason
+
+
 class PlayoffSeriesInline(admin.StackedInline):
     model = PlayoffSeries
 
@@ -19,6 +27,16 @@ class GameInline(admin.TabularInline):
 
 class PlayerGameLogInline(admin.TabularInline):
     model = PlayerGameLog
+
+
+class SeasonAdmin(admin.ModelAdmin):
+    search_fields = ['name']
+    inlines = [TeamSeasonInline]
+
+
+class TeamSeasonAdmin(admin.ModelAdmin):
+    search_fields = ['name']
+    inlines = [PlayerSeasonInline]
 
 
 class MatchAdmin(admin.ModelAdmin):
@@ -45,8 +63,6 @@ admin.site.register([
     League,
     Franchise,
     Player,
-    Season,
-    TeamSeason,
     PlayoffSeries,
     PlayerGameStats,
     PlayerWeekStats,
@@ -56,6 +72,8 @@ admin.site.register([
     Transaction
 ])
 
+admin.site.register(Season, SeasonAdmin)
+admin.site.register(TeamSeason, TeamSeasonAdmin)
 admin.site.register(Match, MatchAdmin)
 admin.site.register(Game, GameAdmin)
 admin.site.register(PlayerSeason, PlayerSeasonAdmin)
