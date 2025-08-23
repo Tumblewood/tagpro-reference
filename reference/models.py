@@ -143,6 +143,7 @@ class Game(models.Model):
     outcome = models.CharField(max_length=3, choices=OUTCOMES, null=True, blank=True, help_text="Outcome of the game for team1")
     team1_standing_points = models.IntegerField(null=True, blank=True, help_text="Points awarded for standings")
     team2_standing_points = models.IntegerField(null=True, blank=True, help_text="Points awarded for standings")
+    non_regulation = models.BooleanField(default=False, help_text="Whether this game is non-regulation and should be excluded from stats (e.g., played on a home map)")
 
     class Meta:
         ordering = ['game_in_match']
