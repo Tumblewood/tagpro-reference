@@ -74,13 +74,17 @@ class PlayerGameLogAdmin(admin.ModelAdmin):
     search_fields = ['player_season__playing_as']
 
 
+class PlayerRegulationGameStatsAdmin(admin.ModelAdmin):
+    search_fields = ['player_gamelog__player_season__playing_as']
+    list_filter = ['player_gamelog__game__match__season']
+
+
 admin.site.register([
     League,
     Franchise,
     Player,
     PlayoffSeries,
     PlayerGameStats,
-    PlayerRegulationGameStats,
     PlayerWeekStats,
     PlayerSeasonStats,
     AwardType,
@@ -94,3 +98,4 @@ admin.site.register(Match, MatchAdmin)
 admin.site.register(Game, GameAdmin)
 admin.site.register(PlayerSeason, PlayerSeasonAdmin)
 admin.site.register(PlayerGameLog, PlayerGameLogAdmin)
+admin.site.register(PlayerRegulationGameStats, PlayerRegulationGameStatsAdmin)

@@ -269,6 +269,10 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
             p['prevent'] += time - p['prevent_start_time']
             p['prevent_start_time'] = None
 
+    # If the game ended in regulation, before-OT stats will be same as full stats
+    if not snapshotted:
+        ps_before_ot = ps
+
     return ps, ps_before_ot, last_team_played_for, score_before_ot
 
 

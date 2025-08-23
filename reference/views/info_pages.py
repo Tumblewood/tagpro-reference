@@ -1725,6 +1725,8 @@ def match_view(req, match_id):
     def get_team_stats(team, games_filter):
         # If showing all games, use PlayerWeekStats for the match week
         if selected_game == 'all':
+            # TODO: this is excluding people who played in the match but were
+            # not officially rostered at end of season.
             week_stats = PlayerWeekStats.objects.filter(
                 player_season__team=team,
                 week=match.week
