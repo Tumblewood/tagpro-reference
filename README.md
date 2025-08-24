@@ -14,15 +14,14 @@ The primary goal is to facilitate stat-keeping for past seasons that are not wel
 TagPro Reference is not complete. Here are the remaining features needed, from a development perspective:
 
 - Better handling of edge cases (overtime games, games that are stopped and restarted)
-- Advanced stats
+- Advanced stats (like GASP and NISH)
 
 There are some further additions that would be nice to have as well:
 
-- Icons for leagues, franchises, awards, and trophies
 - Playoff brackets
-- Pages for season awards and transaction history
+- Displays for season awards and transaction history
 - Easier workflow for finding and correcting erroneous data
-- Easier data entry workflow for out-of-game information (like transactions)
+- Easier data entry workflow for out-of-game information (like awards)
 
 # Contribution
 
