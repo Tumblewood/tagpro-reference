@@ -1,6 +1,6 @@
 from django.db import models, transaction
 from typing import Dict, Tuple
-from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerWeekStats, PlayerSeasonStats
+from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerSeason, PlayerWeekStats, PlayerSeasonStats, Season, TeamSeason, Match, PlayoffSeries
 import tagpro_eu
 
 
@@ -31,7 +31,7 @@ with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding
     )]
 
 
-def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
+def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
     """
     Takes a tagpro_eu.Match and extracts all counting stats into a dict, and all player teams into another dict.
     Dict keys for both tuple members are player usernames from the game, and values are a dict with their counting stats
@@ -56,31 +56,39 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         p.name: { **stat_defaults }
         for p in m.players
     }
+    ps_before_ot = {
+        p.name: { **stat_defaults }
+        for p in m.players
+    }
+    snapshotted = False
     score_before_ot = (0, 0)
     for time, event, player in sorted(m.create_timeline()):
         p = ps[player.name]
         time = time.real
 
-        # If more than 10 minutes have elapsed, stop recording stats.
-        # Clean up any time-based stats currently being tracked.
-        # Currently commenting out to enable tracking of kept flags whether game went to OT.
-        # Needs a rework to enable tracking of some stats but not all. Or prorate to a 10-minute period?
-        # if time > 10 * 60 * 60:
-        #     time = 10 * 60 * 60
-        #     for p in ps.values():
-        #         if p['join_time'] is not None:
-        #             p['time_played'] += time - p['join_time']
-        #         if p['grab_time'] is not None:
-        #             hold_length = time - p['grab_time']
-        #             p['hold'] += hold_length
-        #             if hold_length > 10 * 60:
-        #                 p['long_holds'] += 1
-        #             for p2 in ps.values():
-        #                 if p2['team'] is not None and p2['team'] != p['team']:
-        #                     p2['hold_against'] += time - p['grab_time']
-        #         if p['prevent_start_time'] is not None:
-        #             p['prevent'] += time - p['prevent_start_time']
-        #     break
+        # Take a snapshot of all stats at the end of regulation (10 minutes)
+        if time > 10 * 60 * 60 and not snapshotted:
+            ps_before_ot = { player_name: ps[player_name].copy() for player_name in ps }
+            snapshotted = True
+            for p2 in ps_before_ot.values():  # don't overwrite value of p
+                if p2['join_time'] is not None:
+                    p2['time_played'] += time - p2['join_time']
+
+                if p2['prevent_start_time'] is not None:
+                    p2['prevent'] += time - p2['prevent_start_time']
+                
+                if p2['grab_time'] is not None and p2['last_hold_end'] is None:
+                    hold_length = time - p2['grab_time']
+                    p2['hold'] += hold_length
+                    if hold_length > 10 * 60:
+                        p2['long_holds'] += 1
+                    if hold_length > 5 * 60 and p2['handed_off_by'] is not None:
+                        ps_before_ot[p2['handed_off_by']]['good_handoffs'] += 1
+                    for p3 in ps_before_ot.values():
+                        if p3['team'] is not None and p3['team'] != p2['team']:
+                            p3['hold_against'] += hold_length
+        
+        # Process event
         if event[:4] == "Join":
             p['team'] = event[10:]
             p['join_time'] = time
@@ -94,6 +102,7 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
             
             if p['grab_time'] is not None and p['last_hold_end'] is None:
                 p['kept_flags'] += 1
+                ps_before_ot[player.name]['kept_flags'] += 1  # kept flags count even in OT
                 hold_length = time - p['grab_time']
                 p['hold'] += hold_length
                 if hold_length > 10 * 60:
@@ -257,10 +266,16 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         elif event[:16] == "Start preventing":
             p['prevent_start_time'] = time
         elif event[:15] == "Stop preventing":
+            if p['prevent_start_time'] is None:
+                continue  # happens when someone disconnects in same tick as prevent end
             p['prevent'] += time - p['prevent_start_time']
             p['prevent_start_time'] = None
 
-    return ps, last_team_played_for, score_before_ot
+    # If the game ended in regulation, before-OT stats will be same as full stats
+    if not snapshotted:
+        ps_before_ot = ps
+
+    return ps, ps_before_ot, last_team_played_for, score_before_ot
 
 
 @transaction.atomic
@@ -277,7 +292,7 @@ def process_game_stats(game: Game):
         # if no tagpro.eu match found in bulkmatches, don't reprocess
         return None
 
-    ps, team_mapping, score_before_ot = parse_stats_from_eu_match(m)
+    ps, ps_before_ot, team_mapping, score_before_ot = parse_stats_from_eu_match(m)
     went_to_ot = score_before_ot != (m.team_red.score, m.team_blue.score)
     
     # Set the winner based on the score
@@ -321,52 +336,56 @@ def process_game_stats(game: Game):
             raise Exception("Player {p} has no team")
         players[p].save()
 
-        # Get or create the object for their stats
+        # Get or create the object for their stats (for both full game and regulation)
         player_stat_defaults = {
             stat: ps[p][stat]
             for stat in STAT_FIELDS
         }
-        stats, _ = PlayerGameStats.objects.update_or_create(
+        player_regulation_stat_defaults = {
+            stat: ps_before_ot[p][stat]
+            for stat in STAT_FIELDS
+        }
+        game_stats, _ = PlayerGameStats.objects.update_or_create(
             player_gamelog=players[p],
             defaults=player_stat_defaults
         )
-        stats.save()
-
-        # Update the player's aggregated stats for the week and the season
-        pgs_this_week = PlayerGameStats.objects.filter(
-            player_gamelog__player_season=players[p].player_season,
-            player_gamelog__game__match__week=game.match.week
+        regulation_game_stats, _ = PlayerRegulationGameStats.objects.update_or_create(
+            player_gamelog=players[p],
+            defaults=player_regulation_stat_defaults
         )
-        week_stat_defaults = aggregate_game_stats(pgs_this_week)
+        game_stats.save()
+        regulation_game_stats.save()
 
-        # If more than 50 minutes played in the week, and not playoffs, prorate all stats to 50 minutes
-        if game.match.week.startswith("Week"):
-            max_minutes = 50
-        else:
-            max_minutes = len(pgs_this_week) * 10
-        if game.match.week.startswith("Week") and week_stat_defaults['time_played'] > max_minutes * 60 * 60:
-            ratio = max_minutes * 60 * 60 / week_stat_defaults['time_played']
-            for stat in STAT_FIELDS:
-                week_stat_defaults[stat] = round(week_stat_defaults[stat] * ratio)
+
+def reaggregate_stats(player_season: PlayerSeason):
+    """Re-aggregate week and season stat totals for all players in the game."""
+    weeks_in_season = Match.objects.filter(
+        season=player_season.season
+    ).values_list('week', flat=True).distinct()
+    for week in weeks_in_season:
+        prgs_this_week = PlayerRegulationGameStats.objects.filter(
+            player_gamelog__player_season=player_season,
+            player_gamelog__game__match__week=week
+        )
         player_week_stats, _ = PlayerWeekStats.objects.update_or_create(
-            player_season=players[p].player_season,
-            week=game.match.week,
-            defaults=week_stat_defaults
+            player_season=player_season,
+            week=week,
+            defaults=aggregate_stats(prgs_this_week)
         )
         player_week_stats.save()
 
         pws_this_season = PlayerWeekStats.objects.filter(
-            player_season=players[p].player_season,
+            player_season=player_season,
             week__startswith="Week"
         )
         player_season_stats, _ = PlayerSeasonStats.objects.update_or_create(
-            player_season=players[p].player_season,
-            defaults=aggregate_game_stats(pws_this_season)
+            player_season=player_season,
+            defaults=aggregate_stats(pws_this_season)
         )
         player_season_stats.save()
 
 
-def aggregate_game_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
+def aggregate_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
     """
     Return a dict usable as default for a PlayerGameStats model where the values are the totals of all
     the stats in the records in pgs.
@@ -378,3 +397,147 @@ def aggregate_game_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int
     return {
         key.replace('_sum', ''): value for key, value in totals.items()
     }
+
+
+def update_standings(season: Season):
+    """
+    Calculate and update seed and playoff_finish for all teams in a season.
+    """
+    teams = TeamSeason.objects.filter(season=season)
+    
+    # Calculate standings for each team
+    standings_data = []
+    for team in teams:
+        # Get all regular season games for the team
+        team_games = Game.objects.filter(
+            models.Q(red_team=team) | models.Q(blue_team=team),
+            match__season=season,
+            match__week__startswith="Week"
+        )
+        
+        standing_points = 0
+        caps_for = 0
+        caps_against = 0
+        head_to_head = {}  # team_id -> (wins, losses, caps_for, caps_against)
+        
+        for game in team_games:
+            is_team1 = (team == game.match.team1)
+            opponent = game.match.team2 if is_team1 else game.match.team1
+            
+            if is_team1:
+                team_standing_points = game.team1_standing_points or 0
+                team_caps = game.team1_score
+                opponent_caps = game.team2_score
+            else:
+                team_standing_points = game.team2_standing_points or 0
+                team_caps = game.team2_score
+                opponent_caps = game.team1_score
+            
+            standing_points += team_standing_points
+            caps_for += team_caps
+            caps_against += opponent_caps
+            
+            # Track head-to-head records
+            if opponent.id not in head_to_head:
+                head_to_head[opponent.id] = {'wins': 0, 'losses': 0, 'caps_for': 0, 'caps_against': 0}
+            
+            h2h = head_to_head[opponent.id]
+            h2h['caps_for'] += team_caps
+            h2h['caps_against'] += opponent_caps
+            
+            if team_standing_points > (game.team2_standing_points if is_team1 else game.team1_standing_points):
+                h2h['wins'] += 1
+            elif team_standing_points < (game.team2_standing_points if is_team1 else game.team1_standing_points):
+                h2h['losses'] += 1
+        
+        standings_data.append({
+            'team': team,
+            'standing_points': standing_points,
+            'cap_differential': caps_for - caps_against,
+            'total_caps': caps_for,
+            'head_to_head': head_to_head,
+        })
+    
+    # Sort standings using NALTP tiebreaker rules
+    def tiebreaker_sort_key(team_data):
+        return (
+            -team_data['standing_points'],  # Higher standing points first
+            -team_data['cap_differential'], # Higher cap differential first
+            -team_data['total_caps']        # Higher total caps first
+        )
+    
+    # For more complex tiebreakers (head-to-head, common opponents), we'll need
+    # to implement them when we encounter actual ties. For now, use basic sort.
+    standings_data.sort(key=tiebreaker_sort_key)
+    
+    # Assign seeds
+    current_rank = 1
+    for i, team_data in enumerate(standings_data):
+        if i > 0:
+            prev_data = standings_data[i-1]
+            # Check if tied with previous team
+            if (team_data['standing_points'] == prev_data['standing_points'] and
+                team_data['cap_differential'] == prev_data['cap_differential'] and
+                team_data['total_caps'] == prev_data['total_caps']):
+                # Same rank as previous team
+                team_data['seed'] = prev_data['seed']
+            else:
+                # Next rank (skip if there were ties)
+                current_rank = i + 1
+                team_data['seed'] = current_rank
+        else:
+            team_data['seed'] = 1
+    
+    # Calculate playoff finishes
+    has_playoffs = Match.objects.filter(
+        season=season,
+        playoff_series__isnull=False,
+        playoff_series__winner__isnull=False
+    ).exists()
+    
+    for team_data in standings_data:
+        team = team_data['team']
+        
+        if not has_playoffs:
+            playoff_finish = "—"
+        else:
+            # Check if team played in any playoff series
+            playoff_matches = Match.objects.filter(
+                season=season,
+                playoff_series__isnull=False
+            ).filter(
+                models.Q(team1=team) | models.Q(team2=team)
+            ).order_by('-date')
+            
+            if not playoff_matches.exists():
+                playoff_finish = "Missed playoffs"
+            else:
+                # Find their final result
+                last_loss_week = None
+                last_win_week = None
+                
+                for match in playoff_matches:
+                    series = match.playoff_series
+                    if series and series.winner:
+                        if series.winner == team:
+                            last_win_week = match.week
+                        else:
+                            # They lost this series
+                            if last_loss_week is None:  # First loss we encounter (most recent)
+                                last_loss_week = match.week
+                
+                # Check if they won the championship
+                final_names = ['Super Ball', 'Muper Ball', 'Nuper Ball', 'Buper Ball']
+                if last_win_week in final_names:
+                    playoff_finish = "Won championship"
+                elif last_loss_week:
+                    playoff_finish = f"Lost {last_loss_week}"
+                elif last_win_week:
+                    playoff_finish = f"Won {last_win_week}"
+                else:
+                    playoff_finish = "Missed playoffs"
+        
+        # Update the team
+        team.seed = team_data['seed']
+        team.playoff_finish = playoff_finish
+        team.save()
