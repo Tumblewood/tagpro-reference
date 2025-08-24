@@ -4,14 +4,15 @@
 {% block title %}{{ league.name }} - TagPro Reference{% endblock %}
 
 {% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/league-history.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
 {% endblock %}
 
 {% block content %}
     <h1 class="page-title">
-        {% if season.league.logo %}
-            <img src="/static/reference/{{ season.league.logo }}" alt="{{ season.league.name }} logo" class="league-logo">
+        {% if league.logo %}
+            <img src="/static/reference/{{ league.logo }}" alt="{{ league.name }} logo" class="league-logo">
         {% endif %}
         {{ league.name }}
     </h1>
@@ -23,8 +24,8 @@
                     <th data-sortable data-type="text">Season</th>
                     <th data-sortable data-type="date">End Date</th>
                     <th data-sortable data-type="number">Teams</th>
+                    <th class="logo-col"></th>
                     <th data-sortable data-type="text">Champion</th>
-                    <th data-sortable data-type="text">Runner-up</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,19 +46,15 @@
                     <td class="teams-cell">
                         {{ season_data.team_count }}
                     </td>
+                    <td class="logo-col">
+                        {% if season_data.champion and season_data.champion.franchise.logo %}
+                            <img src="/static/reference/{{ season_data.champion.franchise.logo }}" alt="{{ season_data.champion.franchise.name }} logo" class="team-logo-small">
+                        {% endif %}
+                    </td>
                     <td class="champion-cell">
                         {% if season_data.champion %}
                             <a href="{% url 'team_season' season_data.champion.id %}">
                                 {{ season_data.champion.name }}
-                            </a>
-                        {% else %}
-                            —
-                        {% endif %}
-                    </td>
-                    <td class="runner-up-cell">
-                        {% if season_data.runner_up %}
-                            <a href="{% url 'team_season' season_data.runner_up.id %}">
-                                {{ season_data.runner_up.name }}
                             </a>
                         {% else %}
                             —

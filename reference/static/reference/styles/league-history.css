@@ -9,8 +9,7 @@
 
 /* League history specific column styling */
 .stat-table .season-cell {
-    font-weight: 600;
-    min-width: 200px;
+    font-weight: 700;
     text-align: left;
 }
 
@@ -24,7 +23,6 @@
 }
 
 .stat-table .date-cell {
-    min-width: 100px;
     color: #6c757d;
     font-weight: 500;
 }
@@ -36,26 +34,18 @@
     min-width: 80px;
 }
 
-.stat-table .champion-cell,
-.stat-table .runner-up-cell {
-    min-width: 150px;
+.stat-table .champion-cell {
     text-align: left;
 }
 
-.stat-table .champion-cell a,
-.stat-table .runner-up-cell a {
+.stat-table .champion-cell a {
     color: #07b;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.stat-table .champion-cell a:hover,
-.stat-table .runner-up-cell a:hover {
+.stat-table .champion-cell a:hover {
     text-decoration: underline;
-}
-
-.stat-table .champion-cell {
-    background-color: rgba(255, 215, 0, 0.1);
 }
 
 .empty-seasons {
@@ -73,15 +63,14 @@
     }
     
     .stat-table .season-cell {
-        min-width: 150px;
+        min-width: 100px;
     }
     
     .stat-table .date-cell {
         min-width: 80px;
     }
     
-    .stat-table .champion-cell,
-    .stat-table .runner-up-cell {
+    .stat-table .champion-cell {
         min-width: 120px;
     }
 }
@@ -91,8 +80,7 @@
         min-width: 120px;
     }
     
-    .stat-table .champion-cell,
-    .stat-table .runner-up-cell {
+    .stat-table .champion-cell {
         min-width: 100px;
     }
 }
