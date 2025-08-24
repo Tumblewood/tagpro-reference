@@ -28,6 +28,28 @@
 .league-logo {
     height: 2rem;
     width: auto;
+    margin-bottom: 0.4rem;
     margin-right: 0.5rem;
     vertical-align: middle;
+}
+
+.team-logo {
+    height: 3rem;
+    width: auto;
+    margin-bottom: 0.6rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.team-logo-small {
+    height: 1.2rem;
+    width: auto;
+    vertical-align: middle;
+    margin-bottom: 0.15rem;
+}
+
+.logo-col {
+    width: 2rem;
+    text-align: center;
+    padding: 0.5rem 0.25rem;
 }

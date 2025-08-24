@@ -4,13 +4,19 @@
 {% block title %}{{ team.name }} - TagPro Reference{% endblock %}
 
 {% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/rosters.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/schedule.css' %}">
 {% endblock %}
 
 {% block content %}
-    <h1 class="page-title">{{ team.name }}</h1>
+    <h1 class="page-title">
+        {% if franchise.logo %}
+            <img src="/static/reference/{{ franchise.logo }}" alt="{{ franchise.name }} logo" class="team-logo">
+        {% endif %}
+        {{ team.name }}
+    </h1>
     
     <div class="page-info-primary">
         Franchise: <a href="{% url 'franchise_history' franchise.id %}" style="color: #07b; text-decoration: none; font-weight: bold;">

@@ -39,23 +39,29 @@
     <table class="stat-table">
         <thead>
             <tr>
-                <th>Rank</th>
-                <th class="team-name">Team</th>
-                <th>GP</th>
-                <th>Pts</th>
-                <th>W</th>
-                <th>OTW</th>
-                <th>OTL</th>
-                <th>L</th>
-                <th>CF</th>
-                <th>CA</th>
-                <th>Diff</th>
+                <th data-sortable data-type="number">Rank</th>
+                <th class="logo-col"></th>
+                <th class="team-name" data-sortable data-type="text">Team</th>
+                <th data-sortable data-type="number">GP</th>
+                <th data-sortable data-type="number">Pts</th>
+                <th data-sortable data-type="number">W</th>
+                <th data-sortable data-type="number">OTW</th>
+                <th data-sortable data-type="number">OTL</th>
+                <th data-sortable data-type="number">L</th>
+                <th data-sortable data-type="number">CF</th>
+                <th data-sortable data-type="number">CA</th>
+                <th data-sortable data-type="number">Diff</th>
             </tr>
         </thead>
         <tbody>
             {% for standing in standings %}
             <tr>
                 <td class="rank-col">{{ standing.rank }}</td>
+                <td class="logo-col">
+                    {% if standing.team.franchise.logo %}
+                        <img src="/static/reference/{{ standing.team.franchise.logo }}" alt="{{ standing.team.franchise.name }} logo" class="team-logo-small">
+                    {% endif %}
+                </td>
                 <td class="team-name">
                     <a href="{% url 'team_season' standing.team.id %}">
                         {{ standing.team.name }}
@@ -75,7 +81,7 @@
             </tr>
             {% empty %}
             <tr>
-                <td colspan="11" style="text-align: center; padding: 30px; color: #6c757d;">
+                <td colspan="12" style="text-align: center; padding: 30px; color: #6c757d;">
                     No teams found for this season.
                 </td>
             </tr>
@@ -86,11 +92,20 @@
 {% endblock %}
 
 {% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
 <script>
     function changeSeason(seasonId) {
         if (seasonId) {
             window.location.href = `/season/${seasonId}/`;
         }
     }
+    
+    // Initialize table sorting when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize sortable table with default sort by Pts (column 4) descending
+        initTableSort('.stat-table', {
+            initialSort: { column: 0, direction: 'asc' }
+        });
+    });
 </script>
 {% endblock %}
