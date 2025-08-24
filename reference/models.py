@@ -57,6 +57,8 @@ class TeamSeason(models.Model):
     abbr = models.CharField(max_length=10)
     captain = models.ForeignKey(Player, on_delete=models.SET_NULL, related_name="captain_of", blank=True, null=True)
     co_captain = models.ForeignKey(Player, on_delete=models.SET_NULL, related_name="co_captain_of", blank=True, null=True)
+    seed = models.IntegerField(blank=True, null=True, help_text="Team's regular season rank based on standing points and tiebreakers")
+    playoff_finish = models.CharField(max_length=100, blank=True, null=True, help_text="Team's playoff result: '—', 'Missed playoffs', 'Lost [round name]', 'Won [round name]'")
 
     class Meta:
         unique_together = ('franchise', 'season')

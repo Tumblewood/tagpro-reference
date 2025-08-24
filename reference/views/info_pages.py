@@ -1053,84 +1053,9 @@ def player_history(req, player_id):
         season = ps.season
         team = ps.team
         
-        # Calculate team rank in standings (if team exists)
-        rank = "—"
-        if team:
-            # Get all teams in season and calculate standings
-            season_teams = TeamSeason.objects.filter(season=season)
-            standings = []
-            
-            for season_team in season_teams:
-                # Calculate standing points for this team
-                team_games = Game.objects.filter(
-                    models.Q(red_team=season_team) | models.Q(blue_team=season_team),
-                    match__season=season,
-                    match__week__startswith="Week"
-                )
-                
-                standing_points = 0
-                caps_for = 0
-                caps_against = 0
-                
-                for game in team_games:
-                    is_team1 = (season_team == game.match.team1)
-                    if is_team1:
-                        standing_points += game.team1_standing_points or 0
-                        caps_for += game.team1_score
-                        caps_against += game.team2_score
-                    else:
-                        standing_points += game.team2_standing_points or 0
-                        caps_for += game.team2_score
-                        caps_against += game.team1_score
-                
-                standings.append({
-                    'team': season_team,
-                    'standing_points': standing_points,
-                    'cap_differential': caps_for - caps_against
-                })
-            
-            # Sort standings
-            standings.sort(key=lambda x: (-x['standing_points'], -x['cap_differential']))
-            
-            # Find rank
-            for i, standing in enumerate(standings, 1):
-                if standing['team'].id == team.id:
-                    rank = i
-                    break
-        
-        # Calculate playoff finish
-        playoff_finish = "—"
-        if team and season.end_date and season.end_date <= date.today():
-            # Season is over, determine playoff result
-            # Check if team played in any playoff series
-            playoff_matches = Match.objects.filter(
-                season=season,
-                playoff_series__isnull=False
-            ).filter(
-                models.Q(team1=team) | models.Q(team2=team)
-            ).order_by('-date')
-            
-            if not playoff_matches.exists():
-                playoff_finish = "Missed playoffs"
-            else:
-                # Find the last series this team played
-                last_series = None
-                for match in playoff_matches:
-                    series = match.get_playoff_series()
-                    if series:
-                        last_series = series
-                        break
-                
-                if last_series:
-                    if last_series.winner == team:
-                        # Check if this was the final (Super Ball, etc.)
-                        final_names = ['Super Ball', 'Muper Ball', 'Nuper Ball', 'Buper Ball']
-                        if match.week in final_names:
-                            playoff_finish = "Won championship"
-                        else:
-                            playoff_finish = f"Won {match.week}"
-                    else:
-                        playoff_finish = f"Lost {match.week}"
+        # Get team rank and playoff finish from pre-calculated fields
+        rank = team.seed if team else "—"
+        playoff_finish = team.playoff_finish if team else "—"
         
         # Get player season stats
         try:
@@ -1174,78 +1099,9 @@ def team_season(req, team_id):
     season = team.season
     franchise = team.franchise
     
-    # Calculate team rank in standings
-    season_teams = TeamSeason.objects.filter(season=season)
-    standings = []
-    
-    for season_team in season_teams:
-        # Calculate standing points for this team
-        team_games = Game.objects.filter(
-            models.Q(red_team=season_team) | models.Q(blue_team=season_team),
-            match__season=season,
-            match__week__startswith="Week"
-        )
-        
-        standing_points = 0
-        caps_for = 0
-        caps_against = 0
-        
-        for game in team_games:
-            is_team1 = (season_team == game.match.team1)
-            if is_team1:
-                standing_points += game.team1_standing_points or 0
-                caps_for += game.team1_score
-                caps_against += game.team2_score
-            else:
-                standing_points += game.team2_standing_points or 0
-                caps_for += game.team2_score
-                caps_against += game.team1_score
-        
-        standings.append({
-            'team': season_team,
-            'standing_points': standing_points,
-            'cap_differential': caps_for - caps_against
-        })
-    
-    # Sort standings
-    standings.sort(key=lambda x: (-x['standing_points'], -x['cap_differential']))
-    
-    # Find rank
-    rank = "—"
-    for i, standing in enumerate(standings, 1):
-        if standing['team'].id == team.id:
-            rank = i
-            break
-    
-    # Calculate playoff finish
-    playoff_finish = "—"
-    if season.end_date and season.end_date <= date.today():
-        playoff_matches = Match.objects.filter(
-            season=season,
-            playoff_series__isnull=False
-        ).filter(
-            models.Q(team1=team) | models.Q(team2=team)
-        ).order_by('-date')
-        
-        if not playoff_matches.exists():
-            playoff_finish = "Missed playoffs"
-        else:
-            last_series = None
-            for match in playoff_matches:
-                series = match.get_playoff_series()
-                if series:
-                    last_series = series
-                    break
-            
-            if last_series:
-                if last_series.winner == team:
-                    final_names = ['Super Ball', 'Muper Ball', 'Nuper Ball', 'Buper Ball']
-                    if match.week in final_names:
-                        playoff_finish = "Won championship"
-                    else:
-                        playoff_finish = f"Won {match.week}"
-                else:
-                    playoff_finish = f"Lost {match.week}"
+    # Get team rank and playoff finish from pre-calculated fields
+    rank = team.seed if team.seed else "—"
+    playoff_finish = team.playoff_finish if team.playoff_finish else "—"
     
     # Calculate team record (W-OTW-OTL-L)
     team_games = Game.objects.filter(
@@ -1451,78 +1307,9 @@ def franchise_history(req, franchise_id):
     for team in team_seasons:
         season = team.season
         
-        # Calculate team rank in standings
-        season_teams = TeamSeason.objects.filter(season=season)
-        standings = []
-        
-        for season_team in season_teams:
-            # Calculate standing points for this team
-            team_games = Game.objects.filter(
-                models.Q(red_team=season_team) | models.Q(blue_team=season_team),
-                match__season=season,
-                match__week__startswith="Week"
-            )
-            
-            standing_points = 0
-            caps_for = 0
-            caps_against = 0
-            
-            for game in team_games:
-                is_team1 = (season_team == game.match.team1)
-                if is_team1:
-                    standing_points += game.team1_standing_points or 0
-                    caps_for += game.team1_score
-                    caps_against += game.team2_score
-                else:
-                    standing_points += game.team2_standing_points or 0
-                    caps_for += game.team2_score
-                    caps_against += game.team1_score
-            
-            standings.append({
-                'team': season_team,
-                'standing_points': standing_points,
-                'cap_differential': caps_for - caps_against
-            })
-        
-        # Sort standings
-        standings.sort(key=lambda x: (-x['standing_points'], -x['cap_differential']))
-        
-        # Find rank
-        rank = "—"
-        for i, standing in enumerate(standings, 1):
-            if standing['team'].id == team.id:
-                rank = i
-                break
-        
-        # Calculate playoff finish (same logic as player_history)
-        playoff_finish = "—"
-        if season.end_date and season.end_date <= date.today():
-            playoff_matches = Match.objects.filter(
-                season=season,
-                playoff_series__isnull=False
-            ).filter(
-                models.Q(team1=team) | models.Q(team2=team)
-            ).order_by('-date')
-            
-            if not playoff_matches.exists():
-                playoff_finish = "Missed playoffs"
-            else:
-                last_series = None
-                for match in playoff_matches:
-                    series = match.get_playoff_series()
-                    if series:
-                        last_series = series
-                        break
-                
-                if last_series:
-                    if last_series.winner == team:
-                        final_names = ['Super Ball', 'Muper Ball', 'Nuper Ball', 'Buper Ball']
-                        if match.week in final_names:
-                            playoff_finish = "Won championship"
-                        else:
-                            playoff_finish = f"Won {match.week}"
-                    else:
-                        playoff_finish = f"Lost {match.week}"
+        # Get team rank and playoff finish from pre-calculated fields
+        rank = team.seed if team.seed else "—"
+        playoff_finish = team.playoff_finish if team.playoff_finish else "—"
         
         # Calculate team record (W-OTW-OTL-L)
         team_games = Game.objects.filter(
@@ -1632,7 +1419,6 @@ def franchise_history(req, franchise_id):
             agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
             agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
             agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
-            agg['hold_against_sec'] = round(agg['hold_against'] / 60) if agg['hold_against'] else 0
             
             all_time_stats.append(agg)
         

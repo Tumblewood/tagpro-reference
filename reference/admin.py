@@ -7,7 +7,12 @@ from .views import stat_collection
 def reprocess(modeladmin, request, queryset):
     for g in queryset:
         stat_collection.process_game_stats(g)
-        stat_collection.reaggregate_stats(g)
+        
+    player_seasons = PlayerGameLog.objects.filter(
+        game__in=queryset
+    ).values('player_season', flat=True).distinct()
+    for ps in player_seasons:
+        stat_collection.reaggregate_stats(PlayerSeason.objects.get(id=ps['player_season']))
 
 
 @admin.action(description="Re-aggregate stats for the season")
@@ -15,11 +20,14 @@ def reaggregate_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
         # Get all games for this season
-        games = Game.objects.filter(match__season=season)
+        player_seasons = PlayerSeason.objects.filter(season=season)
         
         # Re-aggregate each game
-        for game in games:
-            stat_collection.reaggregate_stats(game)
+        for ps in player_seasons:
+            stat_collection.reaggregate_stats(ps)
+        
+        # Update season standings
+        stat_collection.update_standings(season)
 
 
 @admin.action(description="Re-process stats for the season")
@@ -32,6 +40,9 @@ def reprocess_season(modeladmin, request, queryset):
         # Re-aggregate each game
         for game in games:
             stat_collection.process_game_stats(game)
+        
+        # Update season standings
+        stat_collection.update_standings(season)
 
 
 class TeamSeasonInline(admin.TabularInline):

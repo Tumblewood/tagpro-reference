@@ -10,7 +10,7 @@ from datetime import datetime, date
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, reaggregate_stats
+from .stat_collection import process_game_stats, reaggregate_stats, update_standings
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
 
 
@@ -356,7 +356,8 @@ def enter_confirmed_data(
     
     # Collect and store stats from the game
     process_game_stats(game)
-    reaggregate_stats(game)
+    for p in players:
+        reaggregate_stats(p['player_season'])
 
 
 @staff_member_required
@@ -478,6 +479,7 @@ def import_from_eus(request):
                     date=date,
                     players=players
                 )
+                update_standings(red_team.season)
                 
                 messages.success(request, f"Game data saved successfully for {eu_url}")
                 
