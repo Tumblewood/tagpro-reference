@@ -9,7 +9,12 @@
 {% endblock %}
 
 {% block content %}
-    <h1 class="page-title">{{ season.name }} Rosters</h1>
+    <h1 class="page-title">
+        {% if season.league.logo %}
+            <img src="/static/reference/{{ season.league.logo }}" alt="{{ season.league.name }} logo" class="league-logo">
+        {% endif %}
+        {{ season.name }} Rosters
+    </h1>
     
     <div class="season-selector">
         <label for="season-dropdown">Switch Season: </label>

@@ -9,6 +9,13 @@ def reprocess(modeladmin, request, queryset):
         stat_collection.process_game_stats(g)
 
 
+@admin.action(description="Add logo path")
+def add_logo_path(modeladmin, request, queryset):
+    for f in queryset:
+        f.logo = f"logos/{f.abbr}.png"
+        f.save()
+
+
 class TeamSeasonInline(admin.TabularInline):
     model = TeamSeason
 
@@ -31,6 +38,12 @@ class PlayerGameLogInline(admin.TabularInline):
 
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
+    inlines = [TeamSeasonInline]
+
+
+class FranchiseAdmin(admin.ModelAdmin):
+    search_fields = ['name', 'abbr']
+    actions = [add_logo_path]
     inlines = [TeamSeasonInline]
 
 
@@ -61,7 +74,6 @@ class PlayerGameLogAdmin(admin.ModelAdmin):
 
 admin.site.register([
     League,
-    Franchise,
     Player,
     PlayoffSeries,
     PlayerGameStats,
@@ -73,6 +85,7 @@ admin.site.register([
 ])
 
 admin.site.register(Season, SeasonAdmin)
+admin.site.register(Franchise, FranchiseAdmin)
 admin.site.register(TeamSeason, TeamSeasonAdmin)
 admin.site.register(Match, MatchAdmin)
 admin.site.register(Game, GameAdmin)

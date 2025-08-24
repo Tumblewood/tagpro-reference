@@ -105,8 +105,6 @@ class PlayoffSeries(models.Model):
     Represents a playoff series.
     """
     match = models.OneToOneField(Match, on_delete=models.PROTECT, null=True, blank=True, related_name="playoff_series")
-    seed1 = models.IntegerField()
-    seed2 = models.IntegerField()
     team1_prev_series = models.ForeignKey('self', on_delete=models.SET_NULL, null=True, blank=True, related_name="next_series_for_team1")
     team2_prev_series = models.ForeignKey('self', on_delete=models.SET_NULL, null=True, blank=True, related_name="next_series_for_team2")
     winner = models.ForeignKey(TeamSeason, on_delete=models.SET_NULL, null=True, blank=True, related_name="series_wins")
