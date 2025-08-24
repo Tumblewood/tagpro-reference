@@ -39,7 +39,12 @@
         {% for roster_data in rosters %}
         <div class="roster-box">
             <h3 class="team-name">
-                <a href="{% url 'team_season' roster_data.team.id %}">{{ roster_data.team.name }}</a>
+                <a href="{% url 'team_season' roster_data.team.id %}">
+                    {% if roster_data.team.franchise.logo %}
+                        <img src="/static/reference/{{ roster_data.team.franchise.logo }}" alt="{{ roster_data.team.franchise.name }} logo" class="team-logo-medium">
+                    {% endif %}
+                    {{ roster_data.team.name }}
+                </a>
             </h3>
             {% if roster_data.team.captain or roster_data.team.co_captain %}
             <div class="team-leadership">
