@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
 from .views import stat_collection
+from .views.data_entry import infer_playoff_series
 
 
 @admin.action(description="Reprocess stats from the game")
@@ -28,6 +29,9 @@ def reaggregate_season(modeladmin, request, queryset):
         
         # Update season standings
         stat_collection.update_standings(season)
+        
+        # Infer playoff series
+        infer_playoff_series(season)
 
 
 @admin.action(description="Re-process stats for the season")
@@ -43,6 +47,9 @@ def reprocess_season(modeladmin, request, queryset):
         
         # Update season standings
         stat_collection.update_standings(season)
+        
+        # Infer playoff series
+        infer_playoff_series(season)
 
 
 class TeamSeasonInline(admin.TabularInline):

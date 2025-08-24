@@ -11,7 +11,7 @@ import tagpro_eu
 from typing import Optional, List, Dict, Any
 
 from .stat_collection import process_game_stats, reaggregate_stats, update_standings
-from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog
+from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries
 
 
 with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
@@ -975,3 +975,99 @@ def format_compact_json(data):
     
     result_lines.append('}')
     return '\n'.join(result_lines)
+
+
+@transaction.atomic
+def infer_playoff_series(season: Season):
+    """
+    Create PlayoffSeries for all playoff matches in the season.
+    Sets team1 to the better seeded team and updates games accordingly.
+    """
+    # Get all playoff matches (week not starting with "Week")
+    playoff_matches = Match.objects.filter(
+        season=season
+    ).exclude(week__startswith="Week").order_by('date')
+    
+    for match in playoff_matches:
+        # Determine which team should be team1 (better seed = lower number)
+        team1_seed = match.team1.seed or 999  # Use high number if no seed
+        team2_seed = match.team2.seed or 999
+        
+        # If team2 has better seed, swap the teams
+        if team2_seed < team1_seed:
+            # Swap teams in the match
+            original_team1 = match.team1
+            original_team2 = match.team2
+            match.team1 = original_team2
+            match.team2 = original_team1
+            match.save()
+            
+            # Update all games in this match to reflect the team swap
+            for game in match.games.all():
+                # Swap team1/team2 scores
+                original_team1_score = game.team1_score
+                original_team2_score = game.team2_score
+                original_team1_standing_points = game.team1_standing_points
+                original_team2_standing_points = game.team2_standing_points
+                
+                game.team1_score = original_team2_score
+                game.team2_score = original_team1_score
+                game.team1_standing_points = original_team2_standing_points
+                game.team2_standing_points = original_team1_standing_points
+                
+                # Update outcome from team1's perspective
+                if game.outcome == 'W':
+                    game.outcome = 'L'
+                elif game.outcome == 'L':
+                    game.outcome = 'W'
+                elif game.outcome == 'OTW':
+                    game.outcome = 'OTL'
+                elif game.outcome == 'OTL':
+                    game.outcome = 'OTW'
+                # 'T' stays the same
+                
+                game.save()
+        
+        # Calculate game wins for each team
+        team1_wins = 0
+        team2_wins = 0
+        
+        for game in match.games.all():
+            if game.outcome in ['W', 'OTW']:
+                team1_wins += 1
+            elif game.outcome in ['L', 'OTL']:
+                team2_wins += 1
+        
+        # Determine winner (null if tied)
+        winner = None
+        if team1_wins > team2_wins:
+            winner = match.team1
+        elif team2_wins > team1_wins:
+            winner = match.team2
+        
+        # Find previous series for each team
+        team1_prev_series = PlayoffSeries.objects.filter(
+            match__season=season,
+            match__date__lt=match.date
+        ).filter(
+            models.Q(match__team1=match.team1) | models.Q(match__team2=match.team1)
+        ).order_by('-match__date').first()
+        
+        team2_prev_series = PlayoffSeries.objects.filter(
+            match__season=season,
+            match__date__lt=match.date
+        ).filter(
+            models.Q(match__team1=match.team2) | models.Q(match__team2=match.team2)
+        ).order_by('-match__date').first()
+        
+        # Create or update the PlayoffSeries
+        playoff_series, created = PlayoffSeries.objects.update_or_create(
+            match=match,
+            defaults={
+                'team1_prev_series': team1_prev_series,
+                'team2_prev_series': team2_prev_series,
+                'winner': winner,
+                'team1_game_wins': team1_wins,
+                'team2_game_wins': team2_wins,
+            }
+        )
