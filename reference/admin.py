@@ -9,11 +9,11 @@ def reprocess(modeladmin, request, queryset):
     for g in queryset:
         stat_collection.process_game_stats(g)
         
-    player_seasons = PlayerGameLog.objects.filter(
-        game__in=queryset
-    ).values('player_season', flat=True).distinct()
-    for ps in player_seasons:
-        stat_collection.reaggregate_stats(PlayerSeason.objects.get(id=ps['player_season']))
+    # player_seasons = PlayerGameLog.objects.filter(
+    #     game__in=queryset
+    # ).values('player_season', flat=True).distinct()
+    # for ps in player_seasons:
+    #     stat_collection.reaggregate_stats(PlayerSeason.objects.get(id=ps['player_season']))
 
 
 @admin.action(description="Re-aggregate stats for the season")
