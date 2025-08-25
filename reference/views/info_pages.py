@@ -345,6 +345,7 @@ def season_home(req, season_id):
         
         standings.append({
             'team': team,
+            'seed': team.seed,
             'games_played': games_played,
             'standing_points': standing_points,
             'wins': wins,
@@ -357,7 +358,7 @@ def season_home(req, season_id):
         })
     
     # Sort by standing points (descending), then by cap differential (descending)
-    standings.sort(key=lambda x: (-x['standing_points'], -x['cap_differential']))
+    standings.sort(key=lambda x: x['seed'])
     
     # Add rank
     for i, standing in enumerate(standings, 1):
@@ -1612,6 +1613,8 @@ def match_view(req, match_id):
             'replay': game.replay,
             'vod': game.vod,
         }
+        if game.resumed_tagpro_eu:
+            map_info['resumed_tagpro_eu_url'] = f"https://tagpro.eu/?match={game.resumed_tagpro_eu}"
     
     return render(req, 'reference/match_view.html', {
         'match': match,

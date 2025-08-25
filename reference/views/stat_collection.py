@@ -31,7 +31,10 @@ with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding
     )]
 
 
-def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
+def parse_stats_from_eu_match(
+        m: tagpro_eu.Match,
+        stats_count_until: int = 10 * 60
+    ) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
     """
     Takes a tagpro_eu.Match and extracts all counting stats into a dict, and all player teams into another dict.
     Dict keys for both tuple members are player usernames from the game, and values are a dict with their counting stats
@@ -67,7 +70,7 @@ def parse_stats_from_eu_match(m: tagpro_eu.Match) -> Tuple[Dict[str, Dict[str, i
         time = time.real
 
         # Take a snapshot of all stats at the end of regulation (10 minutes)
-        if time > 10 * 60 * 60 and not snapshotted:
+        if time > stats_count_until * 60 and not snapshotted:
             ps_before_ot = { player_name: ps[player_name].copy() for player_name in ps }
             snapshotted = True
             for p2 in ps_before_ot.values():  # don't overwrite value of p
@@ -286,19 +289,53 @@ def process_game_stats(game: Game):
         for p in PlayerGameLog.objects.filter(game=game)
     }
     
+    m, m2 = None, None
     try:
         m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == str(game.tagpro_eu)][0]
+        if game.resumed_tagpro_eu:
+            m2: tagpro_eu.match = [g for g in bulkmatches if g.match_id == str(game.resumed_tagpro_eu)][0]
     except IndexError:
-        # if no tagpro.eu match found in bulkmatches, don't reprocess
+        # if no tagpro.eu match found in bulkmatches, don't process
         return None
 
-    ps, ps_before_ot, team_mapping, score_before_ot = parse_stats_from_eu_match(m)
+    ps, ps_before_ot, team_mapping, score_before_ot = parse_stats_from_eu_match(m, game.paused_time or 600)
     went_to_ot = score_before_ot != (m.team_red.score, m.team_blue.score)
     
     # Set the winner based on the score
     team1_is_red = game.red_team == game.match.team1
     game.team1_score = m.team_red.score if team1_is_red else m.team_blue.score
     game.team2_score = m.team_blue.score if team1_is_red else m.team_red.score
+
+    if game.resumed_tagpro_eu:
+        ps2, ps2_before_ot, team_mapping2, score2_before_ot = parse_stats_from_eu_match(
+            m2,
+            stats_count_until=game.resumed_stats_count_until or 0
+        )
+        is_ot_period = not game.resumed_stats_count_until
+        went_to_ot = is_ot_period or\
+            score_before_ot[0] + score2_before_ot[0] == score_before_ot[1] + score2_before_ot[1]
+        
+        # Add stats from the resumed part to the first part
+        for p in ps2:
+            if p not in ps:
+                ps[p] = ps2[p]
+                ps_before_ot[p] = ps2_before_ot[p]
+            else:
+                for stat in STAT_FIELDS:
+                    ps[p][stat] = ps_before_ot[p][stat] + ps2[p][stat]
+                    ps_before_ot[p][stat] += ps2_before_ot[p][stat]
+            
+        for p in team_mapping2:
+            team_mapping[p] = team_mapping2[p]
+        
+        # Update the score
+        if is_ot_period:
+            game.team1_score += m2.team_red.score if team1_is_red else m2.team_blue.score
+            game.team2_score += m2.team_blue.score if team1_is_red else m2.team_red.score
+        else:
+            # if not OT period, score at start of 2nd game should be what it was when 1st was paused
+            game.team1_score = m2.team_red.score if team1_is_red else m2.team_blue.score
+            game.team2_score = m2.team_blue.score if team1_is_red else m2.team_red.score
 
     if game.team1_score > game.team2_score:
         if went_to_ot:
@@ -399,13 +436,190 @@ def aggregate_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
     }
 
 
+def rank_by_standing_points(teams_data):
+    """Rank teams by standing points, then apply head-to-head tiebreaker"""
+    teams_data.sort(key=lambda x: -x['standing_points'])
+    
+    result = []
+    i = 0
+    while i < len(teams_data):
+        current_points = teams_data[i]['standing_points']
+        tied_group = []
+        while i < len(teams_data) and teams_data[i]['standing_points'] == current_points:
+            tied_group.append(teams_data[i])
+            i += 1
+        
+        if len(tied_group) > 1:
+            tied_group = rank_by_head_to_head(tied_group)
+        result.extend(tied_group)
+    
+    return result
+
+
+def rank_by_head_to_head(teams_data):
+    """Rank teams by head-to-head win percentage (standing points earned / total possible)"""
+    if len(teams_data) <= 1:
+        return teams_data
+    
+    # Calculate h2h win percentage for each team against other teams in this group
+    for team_data in teams_data:
+        tied_team_ids = [t['team'].id for t in teams_data if t != team_data]
+        team_h2h_points = 0
+        total_h2h_points = 0
+        
+        for opp_id in tied_team_ids:
+            if opp_id in team_data['head_to_head']:
+                team_h2h_points += team_data['head_to_head'][opp_id]['team_standing_points']
+                total_h2h_points += team_data['head_to_head'][opp_id]['total_standing_points']
+        
+        h2h_win_pct = team_h2h_points / total_h2h_points if total_h2h_points > 0 else 0
+        team_data['_h2h_win_pct'] = h2h_win_pct
+    
+    teams_data.sort(key=lambda x: -x['_h2h_win_pct'])
+    print(teams_data)
+    
+    result = []
+    i = 0
+    while i < len(teams_data):
+        current_pct = teams_data[i]['_h2h_win_pct']
+        tied_group = []
+        while i < len(teams_data) and teams_data[i]['_h2h_win_pct'] == current_pct:
+            tied_group.append(teams_data[i])
+            i += 1
+        
+        if len(tied_group) > 1:
+            print(tied_group)
+            tied_group = rank_by_common_opponents_record(tied_group)
+        result.extend(tied_group)
+    
+    return result
+
+
+def rank_by_common_opponents_record(teams_data):
+    """Rank teams by record against common opponents"""
+    if len(teams_data) <= 1:
+        return teams_data
+    
+    # Find common opponents (teams that ALL teams in tied group have played)
+    all_opponents = set(teams_data[0]['head_to_head'].keys())
+    for team_data in teams_data[1:]:
+        all_opponents &= set(team_data['head_to_head'].keys())
+    
+    # Remove tied teams from common opponents
+    tied_team_ids = {t['team'].id for t in teams_data}
+    common_opponents = all_opponents - tied_team_ids
+    
+    if not common_opponents:
+        return rank_by_common_opponents_cap_diff(teams_data)  # Skip to next tiebreaker
+    
+    # Calculate win percentage against common opponents
+    for team_data in teams_data:
+        common_team_points = 0
+        common_total_points = 0
+        
+        for opp_id in common_opponents:
+            common_team_points += team_data['head_to_head'][opp_id]['team_standing_points']
+            common_total_points += team_data['head_to_head'][opp_id]['total_standing_points']
+        
+        common_win_pct = common_team_points / common_total_points if common_total_points > 0 else 0
+        team_data['_common_win_pct'] = common_win_pct
+    
+    teams_data.sort(key=lambda x: -x['_common_win_pct'])
+    
+    result = []
+    i = 0
+    while i < len(teams_data):
+        current_pct = teams_data[i]['_common_win_pct']
+        tied_group = []
+        while i < len(teams_data) and teams_data[i]['_common_win_pct'] == current_pct:
+            tied_group.append(teams_data[i])
+            i += 1
+        
+        if len(tied_group) > 1:
+            tied_group = rank_by_common_opponents_cap_diff(tied_group)
+        result.extend(tied_group)
+    
+    return result
+
+
+def rank_by_common_opponents_cap_diff(teams_data):
+    """Rank teams by cap differential against common opponents"""
+    if len(teams_data) <= 1:
+        return teams_data
+    
+    # Find common opponents 
+    all_opponents = set(teams_data[0]['head_to_head'].keys())
+    for team_data in teams_data[1:]:
+        all_opponents &= set(team_data['head_to_head'].keys())
+    
+    tied_team_ids = {t['team'].id for t in teams_data}
+    common_opponents = all_opponents - tied_team_ids
+    
+    if not common_opponents:
+        return rank_by_cap_differential(teams_data)  # Skip to next tiebreaker
+    
+    # Calculate cap differential against common opponents
+    for team_data in teams_data:
+        common_caps_for = sum(team_data['head_to_head'][opp_id]['caps_for'] for opp_id in common_opponents)
+        common_caps_against = sum(team_data['head_to_head'][opp_id]['caps_against'] for opp_id in common_opponents)
+        common_cap_diff = common_caps_for - common_caps_against
+        
+        team_data['_common_cap_diff'] = common_cap_diff
+    
+    teams_data.sort(key=lambda x: -x['_common_cap_diff'])
+    
+    result = []
+    i = 0
+    while i < len(teams_data):
+        current_diff = teams_data[i]['_common_cap_diff']
+        tied_group = []
+        while i < len(teams_data) and teams_data[i]['_common_cap_diff'] == current_diff:
+            tied_group.append(teams_data[i])
+            i += 1
+        
+        if len(tied_group) > 1:
+            tied_group = rank_by_cap_differential(tied_group)
+        result.extend(tied_group)
+    
+    return result
+
+
+def rank_by_cap_differential(teams_data):
+    """Rank teams by total cap differential"""
+    if len(teams_data) <= 1:
+        return teams_data
+    
+    teams_data.sort(key=lambda x: -x['cap_differential'])
+    
+    result = []
+    i = 0
+    while i < len(teams_data):
+        current_diff = teams_data[i]['cap_differential']
+        tied_group = []
+        while i < len(teams_data) and teams_data[i]['cap_differential'] == current_diff:
+            tied_group.append(teams_data[i])
+            i += 1
+        
+        if len(tied_group) > 1:
+            tied_group = rank_by_total_caps(tied_group)
+        result.extend(tied_group)
+    
+    return result
+
+
+def rank_by_total_caps(teams_data):
+    """Rank teams by total caps scored (final tiebreaker)"""
+    teams_data.sort(key=lambda x: -x['total_caps'])
+    return teams_data
+
+
 def update_standings(season: Season):
     """
     Calculate and update seed and playoff_finish for all teams in a season.
     """
     teams = TeamSeason.objects.filter(season=season)
     
-    # Calculate standings for each team
+    # Calculate standings data for each team
     standings_data = []
     for team in teams:
         # Get all regular season games for the team
@@ -418,7 +632,7 @@ def update_standings(season: Season):
         standing_points = 0
         caps_for = 0
         caps_against = 0
-        head_to_head = {}  # team_id -> (wins, losses, caps_for, caps_against)
+        head_to_head = {}  # opponent_id -> {'team_standing_points': int, 'total_standing_points': int, 'caps_for': int, 'caps_against': int}
         
         for game in team_games:
             is_team1 = (team == game.match.team1)
@@ -426,10 +640,12 @@ def update_standings(season: Season):
             
             if is_team1:
                 team_standing_points = game.team1_standing_points or 0
+                opponent_standing_points = game.team2_standing_points or 0
                 team_caps = game.team1_score
                 opponent_caps = game.team2_score
             else:
                 team_standing_points = game.team2_standing_points or 0
+                opponent_standing_points = game.team1_standing_points or 0
                 team_caps = game.team2_score
                 opponent_caps = game.team1_score
             
@@ -439,16 +655,13 @@ def update_standings(season: Season):
             
             # Track head-to-head records
             if opponent.id not in head_to_head:
-                head_to_head[opponent.id] = {'wins': 0, 'losses': 0, 'caps_for': 0, 'caps_against': 0}
+                head_to_head[opponent.id] = {'team_standing_points': 0, 'total_standing_points': 0, 'caps_for': 0, 'caps_against': 0}
             
             h2h = head_to_head[opponent.id]
             h2h['caps_for'] += team_caps
             h2h['caps_against'] += opponent_caps
-            
-            if team_standing_points > (game.team2_standing_points if is_team1 else game.team1_standing_points):
-                h2h['wins'] += 1
-            elif team_standing_points < (game.team2_standing_points if is_team1 else game.team1_standing_points):
-                h2h['losses'] += 1
+            h2h['team_standing_points'] += team_standing_points
+            h2h['total_standing_points'] += team_standing_points + opponent_standing_points
         
         standings_data.append({
             'team': team,
@@ -458,46 +671,16 @@ def update_standings(season: Season):
             'head_to_head': head_to_head,
         })
     
-    # Sort standings using NALTP tiebreaker rules
-    def tiebreaker_sort_key(team_data):
-        return (
-            -team_data['standing_points'],  # Higher standing points first
-            -team_data['cap_differential'], # Higher cap differential first
-            -team_data['total_caps']        # Higher total caps first
-        )
+    # Apply NALTP tiebreakers
+    standings_data = rank_by_standing_points(standings_data)
     
-    # For more complex tiebreakers (head-to-head, common opponents), we'll need
-    # to implement them when we encounter actual ties. For now, use basic sort.
-    standings_data.sort(key=tiebreaker_sort_key)
-    
-    # Assign seeds
-    current_rank = 1
+    # Assign seeds and update teams
     for i, team_data in enumerate(standings_data):
-        if i > 0:
-            prev_data = standings_data[i-1]
-            # Check if tied with previous team
-            if (team_data['standing_points'] == prev_data['standing_points'] and
-                team_data['cap_differential'] == prev_data['cap_differential'] and
-                team_data['total_caps'] == prev_data['total_caps']):
-                # Same rank as previous team
-                team_data['seed'] = prev_data['seed']
-            else:
-                # Next rank (skip if there were ties)
-                current_rank = i + 1
-                team_data['seed'] = current_rank
-        else:
-            team_data['seed'] = 1
-    
-    # Calculate playoff finishes
-    has_playoffs = Match.objects.filter(
-        season=season,
-        playoff_series__isnull=False,
-        playoff_series__winner__isnull=False
-    ).exists()
-    
-    for team_data in standings_data:
         team = team_data['team']
+        team.seed = i + 1
         
+        # Calculate playoff finishes
+        has_playoffs = PlayoffSeries.objects.filter(match__season=season).exclude(winner__isnull=True).exists()
         if not has_playoffs:
             playoff_finish = "—"
         else:
@@ -537,7 +720,5 @@ def update_standings(season: Season):
                 else:
                     playoff_finish = "Missed playoffs"
         
-        # Update the team
-        team.seed = team_data['seed']
         team.playoff_finish = playoff_finish
         team.save()

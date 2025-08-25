@@ -56,7 +56,7 @@
         <tbody>
             {% for standing in standings %}
             <tr>
-                <td class="rank-col">{{ standing.rank }}</td>
+                <td class="rank-col">{{ standing.seed }}</td>
                 <td class="logo-col">
                     {% if standing.team.franchise.logo %}
                         <img src="/static/reference/{{ standing.team.franchise.logo }}" alt="{{ standing.team.franchise.name }} logo" class="team-logo-small">

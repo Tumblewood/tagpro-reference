@@ -20,6 +20,7 @@
     <div class="page-info-secondary">
         Map: {{ map_info.map_name }}
         {% if map_info.tagpro_eu_url %} | <a href="{{ map_info.tagpro_eu_url }}" target="_blank">tagpro.eu</a>{% endif %}
+        {% if map_info.resumed_tagpro_eu_url %} | <a href="{{ map_info.resumed_tagpro_eu_url }}" target="_blank">part 2</a>{% endif %}
         {% if map_info.replay %} | <a href="{{ map_info.replay }}" target="_blank">replay</a>{% endif %}
         {% if map_info.vod %} | <a href="{{ map_info.vod }}" target="_blank">vod</a>{% endif %}
     </div>
