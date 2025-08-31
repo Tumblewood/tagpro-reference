@@ -4,7 +4,7 @@ It's similar to [TagPro League](https://www.tagproleague.com), but it makes the 
 
 - Open source
 - Better interface for viewing data from historical seasons
-- Additional pages like franchise history and match/game stats
+- Support for playoff stats
 - Easier data entry process
 
 The primary goal is to facilitate stat-keeping for past seasons that are not well-served by TagPro League. However, the site still functions for current season stat-keeping much like TPL does.
