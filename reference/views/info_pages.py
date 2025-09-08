@@ -358,7 +358,7 @@ def season_home(req, season_id):
         })
     
     # Sort by standing points (descending), then by cap differential (descending)
-    standings.sort(key=lambda x: x['seed'])
+    standings.sort(key=lambda x: x['seed'] if x['seed'] is not None else 1)
     
     # Add rank
     for i, standing in enumerate(standings, 1):
