@@ -1,7 +1,9 @@
 from django.db import models, transaction
 from typing import Dict, Tuple
+from math import ceil
 from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerSeason, PlayerWeekStats, PlayerSeasonStats, Season, TeamSeason, Match, PlayoffSeries
 import tagpro_eu
+from django.conf import settings
 
 
 STAT_FIELDS = [
@@ -24,11 +26,40 @@ for f in HELPER_FIELDS:
     stat_defaults[f] = None
 
 
-with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
-    bulkmatches = [m for m in tagpro_eu.bulk.load_matches(
-       f1,
-        tagpro_eu.bulk.load_maps(f2)
-    )]
+# In debug mode, load all league matches upfront
+all_league_matches = []
+if settings.DEBUG:
+    i = 1
+    while True:
+        try:
+            with open(f"data/league_matches{i}.json") as f:
+                all_league_matches += [m for m in tagpro_eu.bulk.load_matches(
+                    f,
+                    tagpro_eu.bulk.load_maps(open("data/league_maps.json", encoding="utf-8"))
+                )]
+            i += 1
+        except FileNotFoundError:
+            break
+
+
+def load_eu_match_object(game_id: str):
+    relevant_matches = all_league_matches
+    if not settings.DEBUG:
+        try:
+            with open(f"data/league_matches{ceil(int(game_id) / 500000)}.json") as f1, open("data/league_maps.json", encoding="utf-8") as f2:
+                relevant_matches = [m for m in tagpro_eu.bulk.load_matches(
+                    f1,
+                    tagpro_eu.bulk.load_maps(f2)
+                )]
+        except FileNotFoundError:
+            pass
+    try:
+        m: tagpro_eu.Match = [g for g in relevant_matches if g.match_id == game_id][0]
+    except IndexError:
+        # if no match found in bulkmatches, download from tagpro.eu
+        # when we use download_match, map_id field will not be present, so set it to None
+        m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
+        m.map_id = None
 
 
 def parse_stats_from_eu_match(
@@ -291,9 +322,9 @@ def process_game_stats(game: Game):
     
     m, m2 = None, None
     try:
-        m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == str(game.tagpro_eu)][0]
+        m: tagpro_eu.Match = load_eu_match_object(game.tagpro_eu)
         if game.resumed_tagpro_eu:
-            m2: tagpro_eu.match = [g for g in bulkmatches if g.match_id == str(game.resumed_tagpro_eu)][0]
+            m2: tagpro_eu.match = load_eu_match_object(game.resumed_tagpro_eu)
     except IndexError:
         # if no tagpro.eu match found in bulkmatches, don't process
         return None

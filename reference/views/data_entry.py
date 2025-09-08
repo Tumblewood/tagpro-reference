@@ -10,15 +10,8 @@ from datetime import datetime, date
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, reaggregate_stats, update_standings
+from .stat_collection import process_game_stats, reaggregate_stats, update_standings, load_eu_match_object
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries
-
-
-with open("data/league_matches.json") as f1, open("data/bulkmaps.json", encoding="utf-8") as f2:
-    bulkmatches = [m for m in tagpro_eu.bulk.load_matches(
-       f1,
-        tagpro_eu.bulk.load_maps(f2)
-    )]
 
 
 def extract_game_data(eu_url: str) -> Dict:
@@ -26,13 +19,7 @@ def extract_game_data(eu_url: str) -> Dict:
     # Extract game ID from URL
     game_id = re.search(r'(\d{6,7})', eu_url)
     game_id = game_id.group(1) if game_id else "-1"
-    try:
-        m: tagpro_eu.Match = [g for g in bulkmatches if g.match_id == game_id][0]
-    except IndexError:
-        # if no match found in bulkmatches, download from tagpro.eu
-        # when we use download_match, map_id field will not be present, so set it to None
-        m: tagpro_eu.Match = tagpro_eu.download_match(eu_url)
-        m.map_id = None
+    m: tagpro_eu.Match = load_eu_match_object(game_id)
     
     # Get the set of players who joined each team
     r_players = set()
