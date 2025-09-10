@@ -42,7 +42,7 @@ if settings.DEBUG:
             break
 
 
-def load_eu_match_object(game_id: str):
+def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
     relevant_matches = all_league_matches
     if not settings.DEBUG:
         try:
