@@ -852,7 +852,7 @@ def format_compact_json(data):
             
             if not has_complex_values:
                 # All scalar values - put on one line
-                pairs = [f'"{k}": {json.dumps(v)}' for k, v in obj.items()]
+                pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in obj.items()]
                 return "{ " + ", ".join(pairs) + " }"
             else:
                 # Has complex values - use multi-line format
@@ -873,13 +873,13 @@ def format_compact_json(data):
                         
                         if len(scalar_pairs) > 1:
                             # Multiple scalars - put them together on one line
-                            formatted_pairs = [f'"{pk}": {json.dumps(pv)}' for pk, pv in scalar_pairs]
+                            formatted_pairs = [f'"{pk}": {json.dumps(pv, ensure_ascii=False)}' for pk, pv in scalar_pairs]
                             lines.append(f'{indent}  {", ".join(formatted_pairs)},')
                             # Skip the ones we just processed
                             for _ in range(len(scalar_pairs) - 1):
                                 next(iter(obj.items()))
                         else:
-                            lines.append(f'{indent}  "{k}": {json.dumps(v)},')
+                            lines.append(f'{indent}  "{k}": {json.dumps(v, ensure_ascii=False)},')
                 
                 # Remove trailing comma from last line
                 if lines[-1].endswith(','):
@@ -897,11 +897,11 @@ def format_compact_json(data):
                 if isinstance(item, dict):
                     lines.append(f"{indent}  {formatted_item}{comma}")
                 else:
-                    lines.append(f"{indent}  {json.dumps(item)}{comma}")
+                    lines.append(f"{indent}  {json.dumps(item, ensure_ascii=False)}{comma}")
             lines.append(indent + "]")
             return "\n".join(lines)
         else:
-            return json.dumps(obj)
+            return json.dumps(obj, ensure_ascii=False)
     
     # Simplified approach - format each top-level section
     result_lines = ["{"]
@@ -911,7 +911,7 @@ def format_compact_json(data):
         result_lines.append('  "teamSeasons": [')
         for i, ts in enumerate(data['teamSeasons']):
             comma = "," if i < len(data['teamSeasons']) - 1 else ""
-            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ts.items()]
+            pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ts.items()]
             result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
         result_lines.append('  ],')
     
@@ -920,7 +920,7 @@ def format_compact_json(data):
         result_lines.append('  "playerSeasons": [')
         for i, ps in enumerate(data['playerSeasons']):
             comma = "," if i < len(data['playerSeasons']) - 1 else ""
-            pairs = [f'"{k}": {json.dumps(v)}' for k, v in ps.items()]
+            pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ps.items()]
             result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
         result_lines.append('  ],')
     
@@ -933,7 +933,7 @@ def format_compact_json(data):
             
             # Match scalar fields on one line
             scalar_fields = {k: v for k, v in match.items() if k != 'games'}
-            scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in scalar_fields.items()]
+            scalar_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in scalar_fields.items()]
             result_lines.append(f'      {", ".join(scalar_pairs)},')
             
             # Games array
@@ -944,14 +944,14 @@ def format_compact_json(data):
                 
                 # Game scalar fields on one line
                 game_scalar_fields = {k: v for k, v in game.items() if k != 'players'}
-                game_scalar_pairs = [f'"{k}": {json.dumps(v)}' for k, v in game_scalar_fields.items()]
+                game_scalar_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in game_scalar_fields.items()]
                 result_lines.append(f'          {", ".join(game_scalar_pairs)},')
                 
                 # Players array - each player on one line
                 result_lines.append('          "players": [')
                 for p_idx, player in enumerate(game['players']):
                     player_comma = "," if p_idx < len(game['players']) - 1 else ""
-                    player_pairs = [f'"{k}": {json.dumps(v)}' for k, v in player.items()]
+                    player_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in player.items()]
                     result_lines.append(f'            {{ {", ".join(player_pairs)} }}{player_comma}')
                 result_lines.append('          ]')
                 
