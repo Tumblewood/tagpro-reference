@@ -1,0 +1,2489 @@
+{
+  "teamSeasons": [
+    { "season": "mLTP S22", "franchise": "Ball Guys", "name": "Ball Guys", "abbr": "GUY", "captain": "Gram Parsons" },
+    { "season": "mLTP S22", "franchise": "Bottle Otters", "name": "Bottle Otters", "abbr": "BOT", "captain": "mex" },
+    { "season": "mLTP S22", "franchise": "Bubble Balls", "name": "Bubble Balls", "abbr": "BUB", "captain": "Raspberry" },
+    { "season": "mLTP S22", "franchise": "Chennai Super Pings", "name": "Chennai Super Pings", "abbr": "CMP", "captain": "waterwheel" },
+    { "season": "mLTP S22", "franchise": "Itsy Bitsy Spikers", "name": "Itsy Bitsy Spikers", "abbr": "IBS", "captain": "Juke of Yore" },
+    { "season": "mLTP S22", "franchise": "Mumble Cappers", "name": "Mumble Cappers", "abbr": "MBC", "captain": "d0pe" },
+    { "season": "mLTP S22", "franchise": "OutPast", "name": "OutPast", "abbr": "OTP", "captain": "inthesomeday" },
+    { "season": "mLTP S22", "franchise": "Pi-Curious", "name": "Pi-Curious", "abbr": "PIC", "captain": "BallAnka" },
+    { "season": "mLTP S22", "franchise": "Roamin' Swipes", "name": "Roamin' Swipes", "abbr": "RMS", "captain": "beast mode" },
+    { "season": "mLTP S22", "franchise": "Snow Angles", "name": "Snow Angles", "abbr": "SNA", "captain": "Frozen" },
+    { "season": "mLTP S22", "franchise": "WCYDinos", "name": "WCYDinos", "abbr": "DNO", "captain": "asap" },
+    { "season": "mLTP S22", "franchise": "Young Hotties", "name": "Young Hotties", "abbr": "YHT", "captain": "omar" }
+  ],
+  "playerSeasons": [
+    { "season": "mLTP S22", "team": null, "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "mLTP S22", "team": null, "player": "2Nutz", "playing_as": "2Nutz" },
+    { "season": "mLTP S22", "team": null, "player": "BananaBread", "playing_as": "BananaBread" },
+    { "season": "mLTP S22", "team": null, "player": "CoolCat", "playing_as": "CoolCat" },
+    { "season": "mLTP S22", "team": null, "player": "Crossover", "playing_as": "Crossover" },
+    { "season": "mLTP S22", "team": null, "player": "DAD.", "playing_as": "DAD." },
+    { "season": "mLTP S22", "team": null, "player": "Gram", "playing_as": "Gram" },
+    { "season": "mLTP S22", "team": null, "player": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+    { "season": "mLTP S22", "team": null, "player": "Kamikaze", "playing_as": "Kamikaze" },
+    { "season": "mLTP S22", "team": null, "player": "King~Zion", "playing_as": "King~Zion" },
+    { "season": "mLTP S22", "team": null, "player": "Nike", "playing_as": "Nike" },
+    { "season": "mLTP S22", "team": null, "player": "Prizm", "playing_as": "Prizm" },
+    { "season": "mLTP S22", "team": null, "player": "Sadness", "playing_as": "Sadness" },
+    { "season": "mLTP S22", "team": null, "player": "Vntus", "playing_as": "Vntus" },
+    { "season": "mLTP S22", "team": null, "player": "adidas", "playing_as": "adidas" },
+    { "season": "mLTP S22", "team": null, "player": "oIaf", "playing_as": "oIaf" },
+    { "season": "mLTP S22", "team": null, "player": "poodle", "playing_as": "poodle" },
+    { "season": "mLTP S22", "team": null, "player": "q42", "playing_as": "q42" },
+    { "season": "mLTP S22", "team": null, "player": "team", "playing_as": "team" },
+    { "season": "mLTP S22", "team": null, "player": "yppiks123", "playing_as": "yppiks123" },
+    { "season": "mLTP S22", "team": "Ball Guys", "player": "BaIl-E", "playing_as": "BaIl-E" },
+    { "season": "mLTP S22", "team": "Ball Guys", "player": "Buff Baby", "playing_as": "Buff Baby" },
+    { "season": "mLTP S22", "team": "Ball Guys", "player": "evanw4", "playing_as": "evanw4" },
+    { "season": "mLTP S22", "team": "Ball Guys", "player": "yiss", "playing_as": "yiss" },
+    { "season": "mLTP S22", "team": "Bottle Otters", "player": "FM", "playing_as": "FM" },
+    { "season": "mLTP S22", "team": "Bottle Otters", "player": "anduin", "playing_as": "anduin" },
+    { "season": "mLTP S22", "team": "Bottle Otters", "player": "might dino", "playing_as": "might dino" },
+    { "season": "mLTP S22", "team": "Bottle Otters", "player": "titanblue", "playing_as": "titanblue" },
+    { "season": "mLTP S22", "team": "Bubble Balls", "player": "2P1S", "playing_as": "2P1S" },
+    { "season": "mLTP S22", "team": "Bubble Balls", "player": "CarrotCake", "playing_as": "CarrotCake" },
+    { "season": "mLTP S22", "team": "Bubble Balls", "player": "Raven", "playing_as": "Raven" },
+    { "season": "mLTP S22", "team": "Chennai Super Pings", "player": "D Rek", "playing_as": "D Rek" },
+    { "season": "mLTP S22", "team": "Chennai Super Pings", "player": "Will1119", "playing_as": "Will1119" },
+    { "season": "mLTP S22", "team": "Chennai Super Pings", "player": "popsic", "playing_as": "popsic" },
+    { "season": "mLTP S22", "team": "Chennai Super Pings", "player": "ref", "playing_as": "ref" },
+    { "season": "mLTP S22", "team": "Chennai Super Pings", "player": "waterwheel", "playing_as": "waterwheel" },
+    { "season": "mLTP S22", "team": "Itsy Bitsy Spikers", "player": "Agency", "playing_as": "Agency" },
+    { "season": "mLTP S22", "team": "Itsy Bitsy Spikers", "player": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+    { "season": "mLTP S22", "team": "Itsy Bitsy Spikers", "player": "Koro Sensei", "playing_as": "Koro Sensei" },
+    { "season": "mLTP S22", "team": "Itsy Bitsy Spikers", "player": "OD GOD", "playing_as": "OD GOD" },
+    { "season": "mLTP S22", "team": "Itsy Bitsy Spikers", "player": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+    { "season": "mLTP S22", "team": "Mumble Cappers", "player": "Galvatron", "playing_as": "Galvatron" },
+    { "season": "mLTP S22", "team": "Mumble Cappers", "player": "Vader", "playing_as": "Vader" },
+    { "season": "mLTP S22", "team": "Mumble Cappers", "player": "black orchid", "playing_as": "black orchid" },
+    { "season": "mLTP S22", "team": "Mumble Cappers", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "mLTP S22", "team": "Mumble Cappers", "player": "eldenn", "playing_as": "eldenn" },
+    { "season": "mLTP S22", "team": "OutPast", "player": "Airmigo", "playing_as": "Airmigo" },
+    { "season": "mLTP S22", "team": "OutPast", "player": "BallsToYou.", "playing_as": "BallsToYou." },
+    { "season": "mLTP S22", "team": "OutPast", "player": "Darth", "playing_as": "Darth" },
+    { "season": "mLTP S22", "team": "OutPast", "player": "El Sacko", "playing_as": "El Sacko" },
+    { "season": "mLTP S22", "team": "OutPast", "player": "Zig!", "playing_as": "Zig!" },
+    { "season": "mLTP S22", "team": "OutPast", "player": "inthesomeday", "playing_as": "inthesomeday" },
+    { "season": "mLTP S22", "team": "Pi-Curious", "player": "BallAnka", "playing_as": "BallAnka" },
+    { "season": "mLTP S22", "team": "Pi-Curious", "player": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+    { "season": "mLTP S22", "team": "Pi-Curious", "player": "Homie", "playing_as": "Homie" },
+    { "season": "mLTP S22", "team": "Pi-Curious", "player": "boogie", "playing_as": "boogie" },
+    { "season": "mLTP S22", "team": "Roamin' Swipes", "player": "Catalyst", "playing_as": "Catalyst" },
+    { "season": "mLTP S22", "team": "Roamin' Swipes", "player": "Messi", "playing_as": "Messi" },
+    { "season": "mLTP S22", "team": "Roamin' Swipes", "player": "Xile", "playing_as": "Xile" },
+    { "season": "mLTP S22", "team": "Roamin' Swipes", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "mLTP S22", "team": "Snow Angles", "player": "Crowman", "playing_as": "Crowman" },
+    { "season": "mLTP S22", "team": "Snow Angles", "player": "Frozen", "playing_as": "Frozen" },
+    { "season": "mLTP S22", "team": "Snow Angles", "player": "Squeeb", "playing_as": "Squeeb" },
+    { "season": "mLTP S22", "team": "Snow Angles", "player": "kl", "playing_as": "kl" },
+    { "season": "mLTP S22", "team": "Snow Angles", "player": "spacetiger", "playing_as": "spacetiger" },
+    { "season": "mLTP S22", "team": "WCYDinos", "player": "CB13", "playing_as": "CB13" },
+    { "season": "mLTP S22", "team": "WCYDinos", "player": "Jubjubs", "playing_as": "Jubjubs" },
+    { "season": "mLTP S22", "team": "WCYDinos", "player": "Owen", "playing_as": "Owen" },
+    { "season": "mLTP S22", "team": "WCYDinos", "player": "asap", "playing_as": "asap" },
+    { "season": "mLTP S22", "team": "Young Hotties", "player": "Alphachurro", "playing_as": "Alphachurro" },
+    { "season": "mLTP S22", "team": "Young Hotties", "player": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+    { "season": "mLTP S22", "team": "Young Hotties", "player": "omar", "playing_as": "omar" },
+    { "season": "mLTP S22", "team": "Young Hotties", "player": "raymond53", "playing_as": "raymond53" }
+  ],
+  "matches": [
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "WCYDinos", "team2": "OutPast",
+      "games": [
+        {
+          "tagpro_eu": "2642759", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "WCYDinos", "blue_team": "OutPast", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "asap" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642775", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "OutPast", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "asap" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642796", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "OutPast", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "asap" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642820", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "WCYDinos", "blue_team": "OutPast", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "asap" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "Roamin' Swipes", "team2": "Ball Guys",
+      "games": [
+        {
+          "tagpro_eu": "2642741", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Roamin' Swipes", "blue_team": "Ball Guys", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Ball Guys", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642768", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Ball Guys", "blue_team": "Roamin' Swipes", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Ball Guys", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642787", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Roamin' Swipes", "blue_team": "Ball Guys", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Ball Guys", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642815", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Ball Guys", "blue_team": "Roamin' Swipes", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Ball Guys", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "Young Hotties", "team2": "Itsy Bitsy Spikers",
+      "games": [
+        {
+          "tagpro_eu": "2642745", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Itsy Bitsy Spikers", "blue_team": "Young Hotties", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642771", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Young Hotties", "blue_team": "Itsy Bitsy Spikers", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642789", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Itsy Bitsy Spikers", "blue_team": "Young Hotties", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642811", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Young Hotties", "blue_team": "Itsy Bitsy Spikers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "Bottle Otters", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "2642804", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Bottle Otters", "blue_team": "Mumble Cappers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642832", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Mumble Cappers", "blue_team": "Bottle Otters", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642854", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mumble Cappers", "blue_team": "Bottle Otters", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642869", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Bottle Otters", "blue_team": "Mumble Cappers", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "Pi-Curious", "team2": "Bubble Balls",
+      "games": [
+        {
+          "tagpro_eu": "2642780", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Pi-Curious", "blue_team": "Bubble Balls", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642803", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Bubble Balls", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642825", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pi-Curious", "blue_team": "Bubble Balls", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642848", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Bubble Balls", "blue_team": "Pi-Curious", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-14", "week": "Week 1", "team1": "Snow Angles", "team2": "Chennai Super Pings",
+      "games": [
+        {
+          "tagpro_eu": "2642798", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Snow Angles", "blue_team": "Chennai Super Pings", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snow Angles", "player_season": "Crowman", "playing_as": "Crowman" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642826", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Chennai Super Pings", "blue_team": "Snow Angles", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snow Angles", "player_season": "Crowman", "playing_as": "Crowman" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642853", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Chennai Super Pings", "blue_team": "Snow Angles", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snow Angles", "player_season": "Crowman", "playing_as": "Crowman" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "2642868", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snow Angles", "blue_team": "Chennai Super Pings", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snow Angles", "player_season": "Crowman", "playing_as": "Crowman" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "OutPast", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2649020", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pi-Curious", "blue_team": "OutPast", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649042", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "OutPast", "blue_team": "Pi-Curious", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649067", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Pi-Curious", "blue_team": "OutPast", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649097", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "OutPast", "blue_team": "Pi-Curious", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "Mumble Cappers", "team2": "Ball Guys",
+      "games": [
+        {
+          "tagpro_eu": "2649021", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Ball Guys", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649056", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mumble Cappers", "blue_team": "Ball Guys", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649084", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Mumble Cappers", "blue_team": "Ball Guys", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649122", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Ball Guys", "blue_team": "Mumble Cappers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mumble Cappers", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "Bubble Balls", "team2": "Roamin' Swipes",
+      "games": [
+        {
+          "tagpro_eu": "2649071", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Roamin' Swipes", "blue_team": "Bubble Balls", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649094", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Bubble Balls", "blue_team": "Roamin' Swipes", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649125", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Roamin' Swipes", "blue_team": "Bubble Balls", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649140", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Bubble Balls", "blue_team": "Roamin' Swipes", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "Chennai Super Pings", "team2": "Itsy Bitsy Spikers",
+      "games": [
+        {
+          "tagpro_eu": "2649095", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Itsy Bitsy Spikers", "blue_team": "Chennai Super Pings", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649118", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Chennai Super Pings", "blue_team": "Itsy Bitsy Spikers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649139", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Chennai Super Pings", "blue_team": "Itsy Bitsy Spikers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649154", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Itsy Bitsy Spikers", "blue_team": "Chennai Super Pings", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "Bottle Otters", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "2649074", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Bottle Otters", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649102", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "WCYDinos", "blue_team": "Bottle Otters", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649124", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "WCYDinos", "blue_team": "Bottle Otters", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649141", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Bottle Otters", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-21", "week": "Week 2", "team1": "Snow Angles", "team2": "Young Hotties",
+      "games": [
+        {
+          "tagpro_eu": "2649092", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snow Angles", "blue_team": "Young Hotties", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649113", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Young Hotties", "blue_team": "Snow Angles", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649133", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Snow Angles", "blue_team": "Young Hotties", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2649148", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Young Hotties", "blue_team": "Snow Angles", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-28", "week": "Week 3", "team1": "Itsy Bitsy Spikers", "team2": "OutPast",
+      "games": [
+        {
+          "tagpro_eu": "2655299", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13591, "red_team": "Itsy Bitsy Spikers", "blue_team": "OutPast", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655322", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13591, "red_team": "OutPast", "blue_team": "Itsy Bitsy Spikers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655340", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "OutPast", "blue_team": "Itsy Bitsy Spikers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655364", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Itsy Bitsy Spikers", "blue_team": "OutPast", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-28", "week": "Week 3", "team1": "Roamin' Swipes", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "2655386", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Mumble Cappers", "blue_team": "Roamin' Swipes", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655405", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Roamin' Swipes", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655424", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Mumble Cappers", "blue_team": "Roamin' Swipes", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655441", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Roamin' Swipes", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Roamin' Swipes", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-28", "week": "Week 3", "team1": "WCYDinos", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2655264", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Pi-Curious", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655288", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "WCYDinos", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655312", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Pi-Curious", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655333", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "WCYDinos", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-28", "week": "Week 3", "team1": "Young Hotties", "team2": "Chennai Super Pings",
+      "games": [
+        {
+          "tagpro_eu": "2655324", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Young Hotties", "blue_team": "Chennai Super Pings", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655352", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Chennai Super Pings", "blue_team": "Young Hotties", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655396", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Young Hotties", "blue_team": "Chennai Super Pings", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655416", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Chennai Super Pings", "blue_team": "Young Hotties", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "TRUMP4PRES", "playing_as": "TRUMP4PRES" },
+            { "team": "Young Hotties", "player_season": "oIaf", "playing_as": "oIaf" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-30", "week": "Week 3", "team1": "Ball Guys", "team2": "Bubble Balls",
+      "games": [
+        {
+          "tagpro_eu": "2657229", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13591, "red_team": "Bubble Balls", "blue_team": "Ball Guys", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Ball Guys", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" }
+          ]
+        },
+        {
+          "tagpro_eu": "2657249", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13591, "red_team": "Ball Guys", "blue_team": "Bubble Balls", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Ball Guys", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" }
+          ]
+        },
+        {
+          "tagpro_eu": "2657257", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Ball Guys", "blue_team": "Bubble Balls", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Ball Guys", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" }
+          ]
+        },
+        {
+          "tagpro_eu": "2657263", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Bubble Balls", "blue_team": "Ball Guys", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Ball Guys", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Bubble Balls", "player_season": "BananaBread", "playing_as": "BananaBread" },
+            { "team": "Bubble Balls", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-09-28", "week": "Week 3", "team1": "Snow Angles", "team2": "Bottle Otters",
+      "games": [
+        {
+          "tagpro_eu": "2655426", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 13544, "red_team": "Snow Angles", "blue_team": "Bottle Otters", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "kl", "playing_as": "kl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655443", "game_in_match": "Game 1 Half 2", "map_name": "Willow ", "map_id": 13544, "red_team": "Bottle Otters", "blue_team": "Snow Angles", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "kl", "playing_as": "kl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655457", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Bottle Otters", "blue_team": "Snow Angles", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "kl", "playing_as": "kl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2655468", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Snow Angles", "blue_team": "Bottle Otters", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "kl", "playing_as": "kl" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-05", "week": "Week 4", "team1": "OutPast", "team2": "Chennai Super Pings",
+      "games": [
+        {
+          "tagpro_eu": "2661187", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Chennai Super Pings", "blue_team": "OutPast", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661212", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "OutPast", "blue_team": "Chennai Super Pings", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661234", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "OutPast", "blue_team": "Chennai Super Pings", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661251", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Chennai Super Pings", "blue_team": "OutPast", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-05", "week": "Week 4", "team1": "Itsy Bitsy Spikers", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "2661128", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Mumble Cappers", "blue_team": "Itsy Bitsy Spikers", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661144", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Itsy Bitsy Spikers", "blue_team": "Mumble Cappers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661159", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Itsy Bitsy Spikers", "blue_team": "Mumble Cappers", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661175", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Mumble Cappers", "blue_team": "Itsy Bitsy Spikers", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Koro Sensei", "playing_as": "Koro Sensei" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-05", "week": "Week 4", "team1": "Bottle Otters", "team2": "Roamin' Swipes",
+      "games": [
+        {
+          "tagpro_eu": "2661132", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Bottle Otters", "blue_team": "Roamin' Swipes", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "team", "playing_as": "team" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Roamin' Swipes", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661153", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Roamin' Swipes", "blue_team": "Bottle Otters", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "team", "playing_as": "team" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Roamin' Swipes", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661179", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Bottle Otters", "blue_team": "Roamin' Swipes", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "team", "playing_as": "team" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Roamin' Swipes", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661200", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Roamin' Swipes", "blue_team": "Bottle Otters", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "team", "playing_as": "team" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Roamin' Swipes", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-05", "week": "Week 4", "team1": "WCYDinos", "team2": "Ball Guys",
+      "games": [
+        {
+          "tagpro_eu": "2661157", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Ball Guys", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661171", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "WCYDinos", "blue_team": "Ball Guys", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661186", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Ball Guys", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661207", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "WCYDinos", "blue_team": "Ball Guys", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-05", "week": "Week 4", "team1": "Snow Angles", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2661185", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Pi-Curious", "blue_team": "Snow Angles", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661206", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Snow Angles", "blue_team": "Pi-Curious", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661236", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pi-Curious", "blue_team": "Snow Angles", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2661250", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snow Angles", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-07", "week": "Week 4", "team1": "Bubble Balls", "team2": "Young Hotties",
+      "games": [
+        {
+          "tagpro_eu": "2662872", "game_in_match": "Game 1 Half 1", "map_name": "Dash", "map_id": 13915, "red_team": "Young Hotties", "blue_team": "Bubble Balls", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2662886", "game_in_match": "Game 1 Half 2", "map_name": "Dash", "map_id": 13915, "red_team": "Bubble Balls", "blue_team": "Young Hotties", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2662907", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Bubble Balls", "blue_team": "Young Hotties", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2662920", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Young Hotties", "blue_team": "Bubble Balls", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-15", "week": "Week 5", "team1": "Bubble Balls", "team2": "OutPast",
+      "games": [
+        {
+          "tagpro_eu": "2669967", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "OutPast", "blue_team": "Bubble Balls", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Vntus", "playing_as": "Vntus" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2669975", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Bubble Balls", "blue_team": "OutPast", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Vntus", "playing_as": "Vntus" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2669993", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "OutPast", "blue_team": "Bubble Balls", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Vntus", "playing_as": "Vntus" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2670000", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Bubble Balls", "blue_team": "OutPast", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "OutPast", "player_season": "Vntus", "playing_as": "Vntus" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-13", "week": "Week 5", "team1": "Young Hotties", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "2667998", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Mumble Cappers", "blue_team": "Young Hotties", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668017", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Young Hotties", "blue_team": "Mumble Cappers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668033", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Young Hotties", "blue_team": "Mumble Cappers", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668044", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Mumble Cappers", "blue_team": "Young Hotties", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-12", "week": "Week 5", "team1": "Pi-Curious", "team2": "Itsy Bitsy Spikers",
+      "games": [
+        {
+          "tagpro_eu": "2667100", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Itsy Bitsy Spikers", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2667120", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pi-Curious", "blue_team": "Itsy Bitsy Spikers", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2667143", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Itsy Bitsy Spikers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673505", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Itsy Bitsy Spikers", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-12", "week": "Week 5", "team1": "WCYDinos", "team2": "Chennai Super Pings",
+      "games": [
+        {
+          "tagpro_eu": "2667080", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "WCYDinos", "blue_team": "Chennai Super Pings", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2667101", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Chennai Super Pings", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2667123", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Chennai Super Pings", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2667144", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "Chennai Super Pings", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-14", "week": "Week 5", "team1": "Roamin' Swipes", "team2": "Snow Angles",
+      "games": [
+        {
+          "tagpro_eu": "2668921", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snow Angles", "blue_team": "Roamin' Swipes", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668944", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Roamin' Swipes", "blue_team": "Snow Angles", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668962", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Roamin' Swipes", "blue_team": "Snow Angles", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2668980", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Snow Angles", "blue_team": "Roamin' Swipes", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "q42", "playing_as": "q42" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-12", "week": "Week 5", "team1": "Ball Guys", "team2": "Bottle Otters",
+      "games": [
+        {
+          "tagpro_eu": "2667153", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Ball Guys", "blue_team": "Bottle Otters", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2669017", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Bottle Otters", "blue_team": "Ball Guys", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2669033", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Bottle Otters", "blue_team": "Ball Guys", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2669048", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Ball Guys", "blue_team": "Bottle Otters", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "OutPast", "team2": "Young Hotties",
+      "games": [
+        {
+          "tagpro_eu": "2673532", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "OutPast", "blue_team": "Young Hotties", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673558", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Young Hotties", "blue_team": "OutPast", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673591", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Young Hotties", "blue_team": "OutPast", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673609", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "OutPast", "blue_team": "Young Hotties", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "Itsy Bitsy Spikers", "team2": "Roamin' Swipes",
+      "games": [
+        {
+          "tagpro_eu": "2673621", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Roamin' Swipes", "blue_team": "Itsy Bitsy Spikers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673637", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Itsy Bitsy Spikers", "blue_team": "Roamin' Swipes", "team1_score": 6, "team2_score": 6,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673665", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Itsy Bitsy Spikers", "blue_team": "Roamin' Swipes", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673683", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Roamin' Swipes", "blue_team": "Itsy Bitsy Spikers", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of YoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "Chennai Super Pings", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2673536", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Chennai Super Pings", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673560", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Chennai Super Pings", "blue_team": "Pi-Curious", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673611", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Pi-Curious", "blue_team": "Chennai Super Pings", "team1_score": 12, "team2_score": 5,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673630", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Chennai Super Pings", "blue_team": "Pi-Curious", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "Mumble Cappers", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "2673618", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Mumble Cappers", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673636", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673655", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Mumble Cappers", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673677", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "WCYDinos", "blue_team": "Mumble Cappers", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "Snow Angles", "team2": "Ball Guys",
+      "games": [
+        {
+          "tagpro_eu": "2673622", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Snow Angles", "blue_team": "Ball Guys", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673638", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Ball Guys", "blue_team": "Snow Angles", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673659", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Ball Guys", "blue_team": "Snow Angles", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673679", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Snow Angles", "blue_team": "Ball Guys", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "BaIl-E" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-19", "week": "Week 6", "team1": "Bottle Otters", "team2": "Bubble Balls",
+      "games": [
+        {
+          "tagpro_eu": "2673692", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Bottle Otters", "blue_team": "Bubble Balls", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673704", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Bubble Balls", "blue_team": "Bottle Otters", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673716", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Bubble Balls", "blue_team": "Bottle Otters", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" }
+          ]
+        },
+        {
+          "tagpro_eu": "2673727", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Bottle Otters", "blue_team": "Bubble Balls", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "Roamin' Swipes", "team2": "Chennai Super Pings",
+      "games": [
+        {
+          "tagpro_eu": "2683753", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Chennai Super Pings", "blue_team": "Roamin' Swipes", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Roamin' Swipes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683777", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Roamin' Swipes", "blue_team": "Chennai Super Pings", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683807", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Chennai Super Pings", "blue_team": "Roamin' Swipes", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683844", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Roamin' Swipes", "blue_team": "Chennai Super Pings", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "D Rek", "playing_as": "D Rek" },
+            { "team": "Chennai Super Pings", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Chennai Super Pings", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Roamin' Swipes", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Roamin' Swipes", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Roamin' Swipes", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Roamin' Swipes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "OutPast", "team2": "Bottle Otters",
+      "games": [
+        {
+          "tagpro_eu": "2683727", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "OutPast", "blue_team": "Bottle Otters", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683754", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Bottle Otters", "blue_team": "OutPast", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683772", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "OutPast", "blue_team": "Bottle Otters", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683786", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Bottle Otters", "blue_team": "OutPast", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Bottle Otters", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Bottle Otters", "player_season": "Owen", "playing_as": "Owen" },
+            { "team": "Bottle Otters", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Bottle Otters", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "OutPast", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "OutPast", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "OutPast", "player_season": "Zig!", "playing_as": "Zig!" },
+            { "team": "OutPast", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "Pi-Curious", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "2683560", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Mumble Cappers", "blue_team": "Pi-Curious", "team1_score": 9, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "King~Zion", "playing_as": "King~Zion" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683606", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Pi-Curious", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "King~Zion", "playing_as": "King~Zion" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683625", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Mumble Cappers", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "King~Zion", "playing_as": "King~Zion" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683641", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Pi-Curious", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "FaZe BubbleZ", "playing_as": "FaZe BubbleZ" },
+            { "team": "Mumble Cappers", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Mumble Cappers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Mumble Cappers", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "Pi-Curious", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pi-Curious", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Pi-Curious", "player_season": "King~Zion", "playing_as": "King~Zion" },
+            { "team": "Pi-Curious", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "Ball Guys", "team2": "Itsy Bitsy Spikers",
+      "games": [
+        {
+          "tagpro_eu": "2683620", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Itsy Bitsy Spikers", "blue_team": "Ball Guys", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "baIl-e" },
+            { "team": "Ball Guys", "player_season": "Gram", "playing_as": "Gram" },
+            { "team": "Ball Guys", "player_season": "poodle", "playing_as": "poodle" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683635", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Ball Guys", "blue_team": "Itsy Bitsy Spikers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "baIl-e" },
+            { "team": "Ball Guys", "player_season": "Gram", "playing_as": "Gram" },
+            { "team": "Ball Guys", "player_season": "poodle", "playing_as": "poodle" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683700", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Ball Guys", "blue_team": "Itsy Bitsy Spikers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "baIl-e" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683737", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Itsy Bitsy Spikers", "blue_team": "Ball Guys", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Ball Guys", "player_season": "2Nutz", "playing_as": "2Nutz" },
+            { "team": "Ball Guys", "player_season": "BaIl-E", "playing_as": "baIl-e" },
+            { "team": "Ball Guys", "player_season": "Buff Baby", "playing_as": "Buff Baby" },
+            { "team": "Ball Guys", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Itsy Bitsy Spikers", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "WCYDinos", "team2": "Young Hotties",
+      "games": [
+        {
+          "tagpro_eu": "2683627", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "WCYDinos", "blue_team": "Young Hotties", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683645", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Young Hotties", "blue_team": "WCYDinos", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683667", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Young Hotties", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683692", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "WCYDinos", "blue_team": "Young Hotties", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "WCYDinos", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "WCYDinos", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "WCYDinos", "player_season": "asap", "playing_as": "ASAP" },
+            { "team": "WCYDinos", "player_season": "yppiks123", "playing_as": "yppiks123" },
+            { "team": "Young Hotties", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Young Hotties", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Young Hotties", "player_season": "omar", "playing_as": "omar" },
+            { "team": "Young Hotties", "player_season": "raymond53", "playing_as": "raymond53" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S22", "date": "2020-10-26", "week": "Week 7", "team1": "Bubble Balls", "team2": "Snow Angles",
+      "games": [
+        {
+          "tagpro_eu": "2683851", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 13850, "red_team": "Bubble Balls", "blue_team": "Snow Angles", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683865", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 13850, "red_team": "Snow Angles", "blue_team": "Bubble Balls", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683885", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Bubble Balls", "blue_team": "Snow Angles", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        },
+        {
+          "tagpro_eu": "2683903", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snow Angles", "blue_team": "Bubble Balls", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "Bubble Balls", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Bubble Balls", "player_season": "Nike", "playing_as": "Nike" },
+            { "team": "Bubble Balls", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Bubble Balls", "player_season": "adidas", "playing_as": "adidas" },
+            { "team": "Snow Angles", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "Snow Angles", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Snow Angles", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Snow Angles", "player_season": "ref", "playing_as": "ref" }
+          ]
+        }
+      ]
+    }
+  ]
+}

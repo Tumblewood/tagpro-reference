@@ -1,0 +1,1652 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S25", "franchise": "ALL CAPS", "name": "ALL CAPS", "abbr": "AC", "captain": "BALLDON'TLIE" },
+    { "season": "MLTP S25", "franchise": "CircleJukers", "name": "CircleJukers", "abbr": "CJK", "captain": "Sir Cle Jerk" },
+    { "season": "MLTP S25", "franchise": "Ghostboosters", "name": "Ghostboosters", "abbr": "GB", "captain": "FLY" },
+    { "season": "MLTP S25", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW", "captain": "Curry" },
+    { "season": "MLTP S25", "franchise": "Miami Ballphins", "name": "Miami Ballphins", "abbr": "MIA", "captain": "JARVISLANDRY" },
+    { "season": "MLTP S25", "franchise": "Mumble Cappers", "name": "Mumble Cappers", "abbr": "MBC", "captain": "d0pe" },
+    { "season": "MLTP S25", "franchise": "Snipe Hunt", "name": "Snipe Hunt", "abbr": "SNI", "captain": "Spheroid." },
+    { "season": "MLTP S25", "franchise": "Willy MonkaS and the Chocolate Factor-Re", "name": "Willy MonkaS and the Chocolate Factor-Re", "abbr": "WMS", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S25", "team": null, "player": "Airmigo", "playing_as": "Airmigo" },
+    { "season": "MLTP S25", "team": null, "player": "BallsToYou.", "playing_as": "BallsToYou." },
+    { "season": "MLTP S25", "team": null, "player": "BoldRoller", "playing_as": "BoldRoller" },
+    { "season": "MLTP S25", "team": null, "player": "CoolCat", "playing_as": "CoolCat" },
+    { "season": "MLTP S25", "team": null, "player": "DUMPTRUCKASS", "playing_as": "DUMPTRUCKASS" },
+    { "season": "MLTP S25", "team": null, "player": "First", "playing_as": "First" },
+    { "season": "MLTP S25", "team": null, "player": "Squeeb", "playing_as": "Squeeb" },
+    { "season": "MLTP S25", "team": "ALL CAPS", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S25", "team": "ALL CAPS", "player": "FENDER", "playing_as": "FENDER" },
+    { "season": "MLTP S25", "team": "ALL CAPS", "player": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+    { "season": "MLTP S25", "team": "ALL CAPS", "player": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+    { "season": "MLTP S25", "team": "CircleJukers", "player": "Meg", "playing_as": "Meg" },
+    { "season": "MLTP S25", "team": "CircleJukers", "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "MLTP S25", "team": "CircleJukers", "player": "q42", "playing_as": "q42" },
+    { "season": "MLTP S25", "team": "CircleJukers", "player": "toasty", "playing_as": "toasty" },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "Doris", "playing_as": "Doris" },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "GRIMROG", "playing_as": "GRIMROG" },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "NEB.", "playing_as": "NEB." },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "Taurus", "playing_as": "Taurus" },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "ez", "playing_as": "ez" },
+    { "season": "MLTP S25", "team": "Holdin' Gate Warriors", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S25", "team": "Holdin' Gate Warriors", "player": "Gleg", "playing_as": "Gleg" },
+    { "season": "MLTP S25", "team": "Holdin' Gate Warriors", "player": "Pro Boat", "playing_as": "Pro Boat" },
+    { "season": "MLTP S25", "team": "Holdin' Gate Warriors", "player": "ccga4", "playing_as": "ccga4" },
+    { "season": "MLTP S25", "team": "Miami Ballphins", "player": "Ball-erina", "playing_as": "Ball-erina" },
+    { "season": "MLTP S25", "team": "Miami Ballphins", "player": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+    { "season": "MLTP S25", "team": "Miami Ballphins", "player": "St. Bernard", "playing_as": "St. Bernard" },
+    { "season": "MLTP S25", "team": "Miami Ballphins", "player": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+    { "season": "MLTP S25", "team": "Mumble Cappers", "player": "Wanye", "playing_as": "Wanye" },
+    { "season": "MLTP S25", "team": "Mumble Cappers", "player": "dodsfall", "playing_as": "dodsfall" },
+    { "season": "MLTP S25", "team": "Mumble Cappers", "player": "gg!", "playing_as": "gg!" },
+    { "season": "MLTP S25", "team": "Mumble Cappers", "player": "kool aid", "playing_as": "kool aid" },
+    { "season": "MLTP S25", "team": "Snipe Hunt", "player": "Armbranch", "playing_as": "Armbranch" },
+    { "season": "MLTP S25", "team": "Snipe Hunt", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S25", "team": "Snipe Hunt", "player": "aaron", "playing_as": "aaron" },
+    { "season": "MLTP S25", "team": "Snipe Hunt", "player": "no name", "playing_as": "no name" },
+    { "season": "MLTP S25", "team": "Willy MonkaS and the Chocolate Factor-Re", "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S25", "team": "Willy MonkaS and the Chocolate Factor-Re", "player": "Xile", "playing_as": "Xile" },
+    { "season": "MLTP S25", "team": "Willy MonkaS and the Chocolate Factor-Re", "player": "grumpy", "playing_as": "grumpy" },
+    { "season": "MLTP S25", "team": "Willy MonkaS and the Chocolate Factor-Re", "player": "thenewguy.", "playing_as": "thenewguy." }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S25", "date": "2021-09-12", "week": "Week 1", "team1": "Holdin' Gate Warriors", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2997309", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997329", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997348", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997366", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 10,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-12", "week": "Week 1", "team1": "CircleJukers", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2997307", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "CircleJukers", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997328", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "CircleJukers", "blue_team": "Miami Ballphins", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997347", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "CircleJukers", "blue_team": "Miami Ballphins", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997372", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "CircleJukers", "team1_score": 12, "team2_score": 4,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-12", "week": "Week 1", "team1": "Mumble Cappers", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": "2997301", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Ghostboosters", "blue_team": "Mumble Cappers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997321", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mumble Cappers", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997338", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Mumble Cappers", "blue_team": "Ghostboosters", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2997360", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Ghostboosters", "blue_team": "Mumble Cappers", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-12", "week": "Week 1", "team1": "Willy MonkaS and the Chocolate Factor-Re", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2997292", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "ALL CAPS", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2997314", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2997333", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "ALL CAPS", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2997351", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "ALL CAPS", "team1_score": 9, "team2_score": 12,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-19", "week": "Week 2", "team1": "Snipe Hunt", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "3002829", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "ALL CAPS", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002848", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "ALL CAPS", "team1_score": 9, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002867", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Snipe Hunt", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002887", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "ALL CAPS", "blue_team": "Snipe Hunt", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-19", "week": "Week 2", "team1": "Mumble Cappers", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "3002831", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002847", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Mumble Cappers", "blue_team": "Holdin' Gate Warriors", "team1_score": 8, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002866", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Mumble Cappers", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002884", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Mumble Cappers", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-19", "week": "Week 2", "team1": "CircleJukers", "team2": "Willy MonkaS and the Chocolate Factor-Re",
+      "games": [
+        {
+          "tagpro_eu": "3002850", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "CircleJukers", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3002876", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "CircleJukers", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 6, "team2_score": 15,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3002893", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "CircleJukers", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3002906", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "CircleJukers", "team1_score": 6, "team2_score": 11,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-19", "week": "Week 2", "team1": "Miami Ballphins", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": "3002837", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Ghostboosters", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002861", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "Ghostboosters", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002882", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Ghostboosters", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3002898", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Ghostboosters", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 12,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-26", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "3008043", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Mumble Cappers", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008062", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Mumble Cappers", "team1_score": 7, "team2_score": 13,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008085", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mumble Cappers", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008106", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 10,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-26", "week": "Week 3", "team1": "Snipe Hunt", "team2": "CircleJukers",
+      "games": [
+        {
+          "tagpro_eu": "3008020", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Snipe Hunt", "blue_team": "CircleJukers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008030", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "CircleJukers", "blue_team": "Snipe Hunt", "team1_score": 10, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008047", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "CircleJukers", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008091", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "CircleJukers", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-26", "week": "Week 3", "team1": "ALL CAPS", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "3008083", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "ALL CAPS", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008102", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "ALL CAPS", "blue_team": "Holdin' Gate Warriors", "team1_score": 11, "team2_score": 9,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008121", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "ALL CAPS", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3008139", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "ALL CAPS", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-09-26", "week": "Week 3", "team1": "Ghostboosters", "team2": "Willy MonkaS and the Chocolate Factor-Re",
+      "games": [
+        {
+          "tagpro_eu": "3008015", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Ghostboosters", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3008026", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Ghostboosters", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3008041", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Ghostboosters", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3008059", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Ghostboosters", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-03", "week": "Week 4", "team1": "ALL CAPS", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": "3013588", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "ALL CAPS", "blue_team": "Ghostboosters", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013598", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Ghostboosters", "blue_team": "ALL CAPS", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013619", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "ALL CAPS", "blue_team": "Ghostboosters", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013631", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Ghostboosters", "blue_team": "ALL CAPS", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-03", "week": "Week 4", "team1": "CircleJukers", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "3013643", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mumble Cappers", "blue_team": "CircleJukers", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013666", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "CircleJukers", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013678", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mumble Cappers", "blue_team": "CircleJukers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013691", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "CircleJukers", "blue_team": "Mumble Cappers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "CircleJukers", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-03", "week": "Week 4", "team1": "Miami Ballphins", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "3013633", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013647", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 8, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013668", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3013682", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 11, "team2_score": 7,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-03", "week": "Week 4", "team1": "Snipe Hunt", "team2": "Willy MonkaS and the Chocolate Factor-Re",
+      "games": [
+        {
+          "tagpro_eu": "3013597", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013613", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013629", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3013639", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-13", "week": "Week 5", "team1": "Holdin' Gate Warriors", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": "3021531", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3021544", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 6, "team2_score": 9,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3021556", "game_in_match": "Game 2 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3021571", "game_in_match": "Game 2 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 13, "team2_score": 8,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-07", "week": "Week 5", "team1": "CircleJukers", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "3016922", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "ALL CAPS", "blue_team": "CircleJukers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "CircleJukers", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3016932", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "CircleJukers", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "CircleJukers", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3016950", "game_in_match": "Game 2 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "CircleJukers", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "CircleJukers", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3016961", "game_in_match": "Game 2 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "ALL CAPS", "blue_team": "CircleJukers", "team1_score": 13, "team2_score": 10,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "CircleJukers", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-10", "week": "Week 5", "team1": "Miami Ballphins", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "3019060", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3019081", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3019102", "game_in_match": "Game 2 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3019116", "game_in_match": "Game 2 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 12,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-10", "week": "Week 5", "team1": "Willy MonkaS and the Chocolate Factor-Re", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "3019178", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mumble Cappers", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3019192", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 12,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3019201", "game_in_match": "Game 2 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Mumble Cappers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3019212", "game_in_match": "Game 2 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Mumble Cappers", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-17", "week": "Week 6", "team1": "Willy MonkaS and the Chocolate Factor-Re", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3024599", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Miami Ballphins", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 10, "team2_score": 0,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3024637", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Miami Ballphins", "team1_score": 13, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3024658", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3024673", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Miami Ballphins", "team1_score": 20, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-17", "week": "Week 6", "team1": "Holdin' Gate Warriors", "team2": "CircleJukers",
+      "games": [
+        {
+          "tagpro_eu": "3024607", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "CircleJukers", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024632", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Holdin' Gate Warriors", "blue_team": "CircleJukers", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024655", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "CircleJukers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024672", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "CircleJukers", "blue_team": "Holdin' Gate Warriors", "team1_score": 8, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-17", "week": "Week 6", "team1": "ALL CAPS", "team2": "Mumble Cappers",
+      "games": [
+        {
+          "tagpro_eu": "3024617", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "ALL CAPS", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024647", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Mumble Cappers", "blue_team": "ALL CAPS", "team1_score": 9, "team2_score": 8,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024664", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mumble Cappers", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 12,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024684", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "ALL CAPS", "blue_team": "Mumble Cappers", "team1_score": 4, "team2_score": 22,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-17", "week": "Week 6", "team1": "Ghostboosters", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "3024583", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Ghostboosters", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024598", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Snipe Hunt", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024610", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3024641", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Ghostboosters", "blue_team": "Snipe Hunt", "team1_score": 9, "team2_score": 14,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-26", "week": "Week 7", "team1": "Mumble Cappers", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "3031671", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mumble Cappers", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3031681", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Mumble Cappers", "team1_score": 11, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3031699", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "Mumble Cappers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": "3031723", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mumble Cappers", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Mumble Cappers", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Mumble Cappers", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Mumble Cappers", "player_season": "kool aid", "playing_as": "kool aid" },
+            { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-24", "week": "Week 7", "team1": "ALL CAPS", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3029920", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "ALL CAPS", "blue_team": "Miami Ballphins", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029938", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "ALL CAPS", "team1_score": 17, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029952", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029963", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "ALL CAPS", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
+            { "team": "ALL CAPS", "player_season": "MAGNOLIA", "playing_as": "MAGNOLIA" },
+            { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
+            { "team": "Miami Ballphins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Miami Ballphins", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-24", "week": "Week 7", "team1": "Ghostboosters", "team2": "CircleJukers",
+      "games": [
+        {
+          "tagpro_eu": "3029919", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "CircleJukers", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029937", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Ghostboosters", "blue_team": "CircleJukers", "team1_score": 10, "team2_score": 11,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029950", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Ghostboosters", "blue_team": "CircleJukers", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
+          ]
+        },
+        {
+          "tagpro_eu": "3029964", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "CircleJukers", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 13,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Meg", "playing_as": "Meg" },
+            { "team": "CircleJukers", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
+            { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
+            { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S25", "date": "2021-10-24", "week": "Week 7", "team1": "Willy MonkaS and the Chocolate Factor-Re", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "3029949", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "DUMPTRUCKASS", "playing_as": "DUMPTRUCKASS" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3029961", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "DUMPTRUCKASS", "playing_as": "DUMPTRUCKASS" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3029973", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Willy MonkaS and the Chocolate Factor-Re", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "DUMPTRUCKASS", "playing_as": "DUMPTRUCKASS" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "3029983", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Willy MonkaS and the Chocolate Factor-Re", "team1_score": 7, "team2_score": 13,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "DUMPTRUCKASS", "playing_as": "DUMPTRUCKASS" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    }
+  ]
+}

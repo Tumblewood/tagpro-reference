@@ -1,0 +1,2033 @@
+{
+  "teamSeasons": [
+    { "season": "NLTP S26", "franchise": "Bohemian Cap City", "name": "Bohemian Cap City", "abbr": "BCC", "captain": "Rick G. #853" },
+    { "season": "NLTP S26", "franchise": "Legends of the Splittin Temple", "name": "Legends of the Splittin Temple", "abbr": "LST", "captain": "Sadness" },
+    { "season": "NLTP S26", "franchise": "Miami Ballphins", "name": "Miami Ballphins", "abbr": "MIA", "captain": "JARVISLANDRY" },
+    { "season": "NLTP S26", "franchise": "Misaki Bombs", "name": "Misaki Bombs", "abbr": "MSB", "captain": "Agency" },
+    { "season": "NLTP S26", "franchise": "OD Future", "name": "OD Future", "abbr": "ODD", "captain": "inthesomeday" },
+    { "season": "NLTP S26", "franchise": "Puparazzi", "name": "Puparazzi", "abbr": "PUP", "captain": "BoldRoller" },
+    { "season": "NLTP S26", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": "Tinderfella" },
+    { "season": "NLTP S26", "franchise": "The Last Flairbenders", "name": "The Last Flairbenders", "abbr": "TLF", "captain": "Gleg" },
+    { "season": "NLTP S26", "franchise": "WCYDinos", "name": "WCYDinos", "abbr": "DNO", "captain": "ASAP" },
+    { "season": "NLTP S26", "franchise": "Weed the People", "name": "Weed the People", "abbr": "WTP", "captain": "Homie" }
+  ],
+  "playerSeasons": [
+    { "season": "NLTP S26", "team": null, "player": "BertAndBort", "playing_as": "BertAndBort" },
+    { "season": "NLTP S26", "team": null, "player": "BlobPro", "playing_as": "BlobPro" },
+    { "season": "NLTP S26", "team": null, "player": "GospelofJuke", "playing_as": "GospelofJuke" },
+    { "season": "NLTP S26", "team": null, "player": "Omnivore", "playing_as": "Omnivore" },
+    { "season": "NLTP S26", "team": null, "player": "Waluigi", "playing_as": "Waluigi" },
+    { "season": "NLTP S26", "team": null, "player": "astor", "playing_as": "astor" },
+    { "season": "NLTP S26", "team": "Bohemian Cap City", "player": "Adarssh", "playing_as": "Adarssh" },
+    { "season": "NLTP S26", "team": "Bohemian Cap City", "player": "Cel", "playing_as": "Cel" },
+    { "season": "NLTP S26", "team": "Bohemian Cap City", "player": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+    { "season": "NLTP S26", "team": "Bohemian Cap City", "player": "Rick G. #853", "playing_as": "Rick G. #853" },
+    { "season": "NLTP S26", "team": "Bohemian Cap City", "player": "UNIT-02", "playing_as": "UNIT-02" },
+    { "season": "NLTP S26", "team": "Legends of the Splittin Temple", "player": "Borgus", "playing_as": "Borgus" },
+    { "season": "NLTP S26", "team": "Legends of the Splittin Temple", "player": "Button", "playing_as": "Button" },
+    { "season": "NLTP S26", "team": "Legends of the Splittin Temple", "player": "KahnMan", "playing_as": "KahnMan" },
+    { "season": "NLTP S26", "team": "Legends of the Splittin Temple", "player": "Scrapper8o", "playing_as": "Scrapper8o" },
+    { "season": "NLTP S26", "team": "Legends of the Splittin Temple", "player": "i am zeus", "playing_as": "i am zeus" },
+    { "season": "NLTP S26", "team": "Miami Ballphins", "player": "Catalyst", "playing_as": "Catalyst" },
+    { "season": "NLTP S26", "team": "Miami Ballphins", "player": "Farva", "playing_as": "Farva" },
+    { "season": "NLTP S26", "team": "Miami Ballphins", "player": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+    { "season": "NLTP S26", "team": "Miami Ballphins", "player": "depptonic", "playing_as": "depptonic" },
+    { "season": "NLTP S26", "team": "Miami Ballphins", "player": "drewfa", "playing_as": "drewfa" },
+    { "season": "NLTP S26", "team": "Misaki Bombs", "player": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+    { "season": "NLTP S26", "team": "Misaki Bombs", "player": "Hibana", "playing_as": "Hibana" },
+    { "season": "NLTP S26", "team": "Misaki Bombs", "player": "Poeticalto", "playing_as": "Poeticalto" },
+    { "season": "NLTP S26", "team": "Misaki Bombs", "player": "Wario", "playing_as": "Wario" },
+    { "season": "NLTP S26", "team": "OD Future", "player": "GratefulDead", "playing_as": "GratefulDead" },
+    { "season": "NLTP S26", "team": "OD Future", "player": "Irony", "playing_as": "Irony" },
+    { "season": "NLTP S26", "team": "OD Future", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "NLTP S26", "team": "OD Future", "player": "laserpig", "playing_as": "laserpig" },
+    { "season": "NLTP S26", "team": "Puparazzi", "player": "HYPE", "playing_as": "HYPE" },
+    { "season": "NLTP S26", "team": "Puparazzi", "player": "IPlannedThat", "playing_as": "IPlannedThat" },
+    { "season": "NLTP S26", "team": "Puparazzi", "player": "J24gordon", "playing_as": "J24gordon" },
+    { "season": "NLTP S26", "team": "Puparazzi", "player": "LAGITRON", "playing_as": "LAGITRON" },
+    { "season": "NLTP S26", "team": "Puparazzi", "player": "WRIG", "playing_as": "WRIG" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "Tinderfella", "playing_as": "Tinderfella" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "bergieberg", "playing_as": "bergieberg" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "kl", "playing_as": "kl" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "llamatron", "playing_as": "llamatron" },
+    { "season": "NLTP S26", "team": "The Land Before Timers", "player": "t h C", "playing_as": "t h C" },
+    { "season": "NLTP S26", "team": "The Last Flairbenders", "player": "20FPS", "playing_as": "20FPS" },
+    { "season": "NLTP S26", "team": "The Last Flairbenders", "player": "BigDickVic", "playing_as": "BigDickVic" },
+    { "season": "NLTP S26", "team": "The Last Flairbenders", "player": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+    { "season": "NLTP S26", "team": "The Last Flairbenders", "player": "JH13", "playing_as": "JH13" },
+    { "season": "NLTP S26", "team": "The Last Flairbenders", "player": "Killjoy", "playing_as": "Killjoy" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "360broscope", "playing_as": "360broscope" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "clairo", "playing_as": "clairo" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "clew3", "playing_as": "clew3" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "jazzz", "playing_as": "jazzz" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "noice!!", "playing_as": "noice!!" },
+    { "season": "NLTP S26", "team": "WCYDinos", "player": "spacetiger", "playing_as": "spacetiger" },
+    { "season": "NLTP S26", "team": "Weed the People", "player": "Grommit", "playing_as": "Grommit" },
+    { "season": "NLTP S26", "team": "Weed the People", "player": "Homie", "playing_as": "Homie" },
+    { "season": "NLTP S26", "team": "Weed the People", "player": "RedKillTiger", "playing_as": "RedKillTiger" },
+    { "season": "NLTP S26", "team": "Weed the People", "player": "flaccid trip", "playing_as": "flaccid trip" }
+  ],
+  "matches": [
+    {
+      "season": "NLTP S26", "date": "2022-01-18", "week": "Week 1", "team1": "The Land Before Timers", "team2": "The Last Flairbenders",
+      "games": [
+        {
+          "tagpro_eu": "3103186", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "The Land Before Timers", "blue_team": "The Last Flairbenders", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103202", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "The Last Flairbenders", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103221", "game_in_match": "Game 2 Half 1", "map_name": "Oak", "map_id": 14362, "red_team": "The Land Before Timers", "blue_team": "The Last Flairbenders", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103234", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 14362, "red_team": "The Last Flairbenders", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-18", "week": "Week 1", "team1": "OD Future", "team2": "Legends of the Splittin Temple",
+      "games": [
+        {
+          "tagpro_eu": "3103130", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Future", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103152", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "OD Future", "blue_team": "Legends of the Splittin Temple", "team1_score": 10, "team2_score": 11,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103170", "game_in_match": "Game 2 Half 1", "map_name": "Oak", "map_id": 14362, "red_team": "OD Future", "blue_team": "Legends of the Splittin Temple", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103193", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 14362, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Future", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-18", "week": "Week 1", "team1": "Miami Ballphins", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "3103173", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Miami Ballphins", "blue_team": "WCYDinos", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103196", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "WCYDinos", "blue_team": "Miami Ballphins", "team1_score": 13, "team2_score": 7,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103212", "game_in_match": "Game 2 Half 1", "map_name": "Oak", "map_id": 14362, "red_team": "WCYDinos", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103227", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 14362, "red_team": "Miami Ballphins", "blue_team": "WCYDinos", "team1_score": 9, "team2_score": 7,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-18", "week": "Week 1", "team1": "Misaki Bombs", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3103185", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Misaki Bombs", "blue_team": "Puparazzi", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103206", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Puparazzi", "blue_team": "Misaki Bombs", "team1_score": 19, "team2_score": 3,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103219", "game_in_match": "Game 2 Half 1", "map_name": "Oak", "map_id": 14362, "red_team": "Puparazzi", "blue_team": "Misaki Bombs", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103232", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 14362, "red_team": "Misaki Bombs", "blue_team": "Puparazzi", "team1_score": 9, "team2_score": 10,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-18", "week": "Week 1", "team1": "Bohemian Cap City", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3103116", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Bohemian Cap City", "blue_team": "Weed the People", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103141", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Weed the People", "blue_team": "Bohemian Cap City", "team1_score": 6, "team2_score": 11,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103157", "game_in_match": "Game 2 Half 1", "map_name": "Oak", "map_id": 14362, "red_team": "Weed the People", "blue_team": "Bohemian Cap City", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3103181", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 14362, "red_team": "Bohemian Cap City", "blue_team": "Weed the People", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-25", "week": "Week 2", "team1": "The Land Before Timers", "team2": "Legends of the Splittin Temple",
+      "games": [
+        {
+          "tagpro_eu": "3109056", "game_in_match": "Game 1 Half 1", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Legends of the Splittin Temple", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109087", "game_in_match": "Game 1 Half 2", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Land Before Timers", "blue_team": "Legends of the Splittin Temple", "team1_score": 11, "team2_score": 7,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109117", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "Legends of the Splittin Temple", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109138", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Legends of the Splittin Temple", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-26", "week": "Week 2", "team1": "The Last Flairbenders", "team2": "Misaki Bombs",
+      "games": [
+        {
+          "tagpro_eu": "3109954", "game_in_match": "Game 1 Half 1", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Misaki Bombs", "blue_team": "The Last Flairbenders", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109966", "game_in_match": "Game 1 Half 2", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Last Flairbenders", "blue_team": "Misaki Bombs", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109980", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Misaki Bombs", "blue_team": "The Last Flairbenders", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109990", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Last Flairbenders", "blue_team": "Misaki Bombs", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Wario", "playing_as": "Wario" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-25", "week": "Week 2", "team1": "OD Future", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3109059", "game_in_match": "Game 1 Half 1", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Miami Ballphins", "blue_team": "OD Future", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Farva", "playing_as": "Farva" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109093", "game_in_match": "Game 1 Half 2", "map_name": "Thicket 2", "map_id": 14752, "red_team": "OD Future", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Farva", "playing_as": "Farva" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109113", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "OD Future", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Farva", "playing_as": "Farva" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109136", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "OD Future", "blue_team": "Miami Ballphins", "team1_score": 10, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Farva", "playing_as": "Farva" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-25", "week": "Week 2", "team1": "Bohemian Cap City", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "3109005", "game_in_match": "Game 1 Half 1", "map_name": "Thicket 2", "map_id": 14752, "red_team": "WCYDinos", "blue_team": "Bohemian Cap City", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109026", "game_in_match": "Game 1 Half 2", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Bohemian Cap City", "blue_team": "WCYDinos", "team1_score": 9, "team2_score": 8,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109053", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "WCYDinos", "blue_team": "Bohemian Cap City", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109085", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Bohemian Cap City", "blue_team": "WCYDinos", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-01-25", "week": "Week 2", "team1": "Puparazzi", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3108971", "game_in_match": "Game 1 Half 1", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Puparazzi", "blue_team": "Weed the People", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3108987", "game_in_match": "Game 1 Half 2", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Weed the People", "blue_team": "Puparazzi", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109003", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Weed the People", "blue_team": "Puparazzi", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3109016", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Puparazzi", "blue_team": "Weed the People", "team1_score": 6, "team2_score": 9,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-01", "week": "Week 3", "team1": "The Land Before Timers", "team2": "OD Future",
+      "games": [
+        {
+          "tagpro_eu": "3114951", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "OD Future", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114969", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Future", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 15,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114988", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "The Land Before Timers", "blue_team": "OD Future", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3115006", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "OD Future", "blue_team": "The Land Before Timers", "team1_score": 12, "team2_score": 9,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-01", "week": "Week 3", "team1": "The Last Flairbenders", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3114888", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Last Flairbenders", "blue_team": "Puparazzi", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114910", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Puparazzi", "blue_team": "The Last Flairbenders", "team1_score": 11, "team2_score": 5,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114930", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Puparazzi", "blue_team": "The Last Flairbenders", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114952", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "The Last Flairbenders", "blue_team": "Puparazzi", "team1_score": 11, "team2_score": 6,
+          "players": [
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Puparazzi", "player_season": "astor", "playing_as": "astor" },
+            { "team": "The Last Flairbenders", "player_season": "20FPS", "playing_as": "20FPS" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-01", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Bohemian Cap City",
+      "games": [
+        {
+          "tagpro_eu": "3114944", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Bohemian Cap City", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114966", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Bohemian Cap City", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114984", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Bohemian Cap City", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114999", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Miami Ballphins", "blue_team": "Bohemian Cap City", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Miami Ballphins", "player_season": "GospelofJuke", "playing_as": "GospelofJuke" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-01", "week": "Week 3", "team1": "Misaki Bombs", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3114939", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Misaki Bombs", "blue_team": "Weed the People", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114959", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Weed the People", "blue_team": "Misaki Bombs", "team1_score": 7, "team2_score": 8,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114977", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Weed the People", "blue_team": "Misaki Bombs", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114993", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Misaki Bombs", "blue_team": "Weed the People", "team1_score": 4, "team2_score": 10,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-01", "week": "Week 3", "team1": "Legends of the Splittin Temple", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "3114897", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "WCYDinos", "blue_team": "Legends of the Splittin Temple", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114913", "game_in_match": "Game 1 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Legends of the Splittin Temple", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114933", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Legends of the Splittin Temple", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3114956", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "WCYDinos", "blue_team": "Legends of the Splittin Temple", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-08", "week": "Week 4", "team1": "The Land Before Timers", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3120703", "game_in_match": "Game 1 Half 1", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120716", "game_in_match": "Game 1 Half 2", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Miami Ballphins", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120729", "game_in_match": "Game 2 Half 1", "map_name": "Some Ring", "map_id": 15105, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120743", "game_in_match": "Game 2 Half 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "Miami Ballphins", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-08", "week": "Week 4", "team1": "The Last Flairbenders", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "3120588", "game_in_match": "Game 1 Half 1", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "WCYDinos", "blue_team": "The Last Flairbenders", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120608", "game_in_match": "Game 1 Half 2", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "The Last Flairbenders", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120633", "game_in_match": "Game 2 Half 1", "map_name": "Some Ring", "map_id": 15105, "red_team": "WCYDinos", "blue_team": "The Last Flairbenders", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120657", "game_in_match": "Game 2 Half 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "The Last Flairbenders", "blue_team": "WCYDinos", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-08", "week": "Week 4", "team1": "OD Future", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3120581", "game_in_match": "Game 1 Half 1", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "OD Future", "blue_team": "Weed the People", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120598", "game_in_match": "Game 1 Half 2", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Weed the People", "blue_team": "OD Future", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120615", "game_in_match": "Game 2 Half 1", "map_name": "Some Ring", "map_id": 15105, "red_team": "Weed the People", "blue_team": "OD Future", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120638", "game_in_match": "Game 2 Half 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "OD Future", "blue_team": "Weed the People", "team1_score": 5, "team2_score": 10,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-08", "week": "Week 4", "team1": "Misaki Bombs", "team2": "Legends of the Splittin Temple",
+      "games": [
+        {
+          "tagpro_eu": "3120648", "game_in_match": "Game 1 Half 1", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Misaki Bombs", "blue_team": "Legends of the Splittin Temple", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120668", "game_in_match": "Game 1 Half 2", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Legends of the Splittin Temple", "blue_team": "Misaki Bombs", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120688", "game_in_match": "Game 2 Half 1", "map_name": "Some Ring", "map_id": 15105, "red_team": "Legends of the Splittin Temple", "blue_team": "Misaki Bombs", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120704", "game_in_match": "Game 2 Half 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "Misaki Bombs", "blue_team": "Legends of the Splittin Temple", "team1_score": 12, "team2_score": 8,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "Button" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-08", "week": "Week 4", "team1": "Bohemian Cap City", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3120574", "game_in_match": "Game 1 Half 1", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Puparazzi", "blue_team": "Bohemian Cap City", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120593", "game_in_match": "Game 1 Half 2", "map_name": "Apparition 2021", "map_id": 15136, "red_team": "Bohemian Cap City", "blue_team": "Puparazzi", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120611", "game_in_match": "Game 2 Half 1", "map_name": "Some Ring", "map_id": 15105, "red_team": "Bohemian Cap City", "blue_team": "Puparazzi", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" }
+          ]
+        },
+        {
+          "tagpro_eu": "3120635", "game_in_match": "Game 2 Half 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "Puparazzi", "blue_team": "Bohemian Cap City", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-15", "week": "Week 5", "team1": "The Land Before Timers", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "3125988", "game_in_match": "Game 1 Half 1", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126003", "game_in_match": "Game 1 Half 2", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 6,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126019", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126035", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-15", "week": "Week 5", "team1": "The Last Flairbenders", "team2": "Bohemian Cap City",
+      "games": [
+        {
+          "tagpro_eu": "3125951", "game_in_match": "Game 1 Half 1", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "The Last Flairbenders", "blue_team": "Bohemian Cap City", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125971", "game_in_match": "Game 1 Half 2", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Bohemian Cap City", "blue_team": "The Last Flairbenders", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125989", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Bohemian Cap City", "blue_team": "The Last Flairbenders", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126001", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "The Last Flairbenders", "blue_team": "Bohemian Cap City", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-15", "week": "Week 5", "team1": "OD Future", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3125941", "game_in_match": "Game 1 Half 1", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Puparazzi", "blue_team": "OD Future", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125959", "game_in_match": "Game 1 Half 2", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "OD Future", "blue_team": "Puparazzi", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125981", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Puparazzi", "blue_team": "OD Future", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125996", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "OD Future", "blue_team": "Puparazzi", "team1_score": 6, "team2_score": 11,
+          "players": [
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-15", "week": "Week 5", "team1": "Miami Ballphins", "team2": "Misaki Bombs",
+      "games": [
+        {
+          "tagpro_eu": "3126006", "game_in_match": "Game 1 Half 1", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Miami Ballphins", "blue_team": "Misaki Bombs", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126023", "game_in_match": "Game 1 Half 2", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Misaki Bombs", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126038", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Misaki Bombs", "blue_team": "Miami Ballphins", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        },
+        {
+          "tagpro_eu": "3126054", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "Misaki Bombs", "team1_score": 10, "team2_score": 8,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-15", "week": "Week 5", "team1": "Legends of the Splittin Temple", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3125919", "game_in_match": "Game 1 Half 1", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Weed the People", "blue_team": "Legends of the Splittin Temple", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125936", "game_in_match": "Game 1 Half 2", "map_name": "Safe Space Scorpio", "map_id": 15145, "red_team": "Legends of the Splittin Temple", "blue_team": "Weed the People", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125958", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Legends of the Splittin Temple", "blue_team": "Weed the People", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3125979", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Weed the People", "blue_team": "Legends of the Splittin Temple", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-22", "week": "Week 6", "team1": "The Land Before Timers", "team2": "Misaki Bombs",
+      "games": [
+        {
+          "tagpro_eu": "3131327", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Misaki Bombs", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "kl", "playing_as": "kl" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131336", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Misaki Bombs", "team1_score": 6, "team2_score": 10,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "kl", "playing_as": "kl" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131350", "game_in_match": "Game 2 Half 1", "map_name": "Garlic", "map_id": 15130, "red_team": "Misaki Bombs", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Land Before Timers", "player_season": "kl", "playing_as": "kl" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131363", "game_in_match": "Game 2 Half 2", "map_name": "Garlic", "map_id": 15130, "red_team": "The Land Before Timers", "blue_team": "Misaki Bombs", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "kl", "playing_as": "kl" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-22", "week": "Week 6", "team1": "The Last Flairbenders", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3131319", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "The Last Flairbenders", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131330", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Last Flairbenders", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131348", "game_in_match": "Game 2 Half 1", "map_name": "Garlic", "map_id": 15130, "red_team": "The Last Flairbenders", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131364", "game_in_match": "Game 2 Half 2", "map_name": "Garlic", "map_id": 15130, "red_team": "Miami Ballphins", "blue_team": "The Last Flairbenders", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-22", "week": "Week 6", "team1": "OD Future", "team2": "Bohemian Cap City",
+      "games": [
+        {
+          "tagpro_eu": "3131271", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Future", "blue_team": "Bohemian Cap City", "team1_score": 0, "team2_score": 10,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "Bohemian Cap City", "player_season": "UNIT-02", "playing_as": "UNIT-02" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131291", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Bohemian Cap City", "blue_team": "OD Future", "team1_score": 1, "team2_score": 16,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131305", "game_in_match": "Game 2 Half 1", "map_name": "Garlic", "map_id": 15130, "red_team": "Bohemian Cap City", "blue_team": "OD Future", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-22", "week": "Week 6", "team1": "Legends of the Splittin Temple", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3131248", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Puparazzi", "blue_team": "Legends of the Splittin Temple", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131262", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Legends of the Splittin Temple", "blue_team": "Puparazzi", "team1_score": 9, "team2_score": 8,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131279", "game_in_match": "Game 2 Half 1", "map_name": "Garlic", "map_id": 15130, "red_team": "Legends of the Splittin Temple", "blue_team": "Puparazzi", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131309", "game_in_match": "Game 2 Half 2", "map_name": "Garlic", "map_id": 15130, "red_team": "Puparazzi", "blue_team": "Legends of the Splittin Temple", "team1_score": 4, "team2_score": 11,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "BlobPro", "playing_as": "BlobPro" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "BuTtOn" },
+            { "team": "Legends of the Splittin Temple", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "Legends of the Splittin Temple", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-02-22", "week": "Week 6", "team1": "WCYDinos", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3131260", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Weed the People", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131276", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "WCYDinos", "blue_team": "Weed the People", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131300", "game_in_match": "Game 2 Half 1", "map_name": "Garlic", "map_id": 15130, "red_team": "Weed the People", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 8,
+          "players": [
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3131317", "game_in_match": "Game 2 Half 2", "map_name": "Garlic", "map_id": 15130, "red_team": "WCYDinos", "blue_team": "Weed the People", "team1_score": 7, "team2_score": 11,
+          "players": [
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-03-01", "week": "Week 7", "team1": "The Land Before Timers", "team2": "Bohemian Cap City",
+      "games": [
+        {
+          "tagpro_eu": "3136658", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "The Land Before Timers", "blue_team": "Bohemian Cap City", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136672", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Bohemian Cap City", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 11,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136681", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Bohemian Cap City", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136699", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "The Land Before Timers", "blue_team": "Bohemian Cap City", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Bohemian Cap City", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Bohemian Cap City", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Bohemian Cap City", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Bohemian Cap City", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
+            { "team": "The Land Before Timers", "player_season": "AnthonyDavis", "playing_as": "AnthonyDavis" },
+            { "team": "The Land Before Timers", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "The Land Before Timers", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "The Land Before Timers", "player_season": "t h C", "playing_as": "t h C" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-03-01", "week": "Week 7", "team1": "The Last Flairbenders", "team2": "Legends of the Splittin Temple",
+      "games": [
+        {
+          "tagpro_eu": "3136663", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Legends of the Splittin Temple", "blue_team": "The Last Flairbenders", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "buttON" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136675", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "The Last Flairbenders", "blue_team": "Legends of the Splittin Temple", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "buttON" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136696", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "The Last Flairbenders", "blue_team": "Legends of the Splittin Temple", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "buttON" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136712", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Legends of the Splittin Temple", "blue_team": "The Last Flairbenders", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Button", "playing_as": "buttON" },
+            { "team": "Legends of the Splittin Temple", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
+            { "team": "The Last Flairbenders", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "The Last Flairbenders", "player_season": "HerSwayTwerk", "playing_as": "HerSwayTwerk" },
+            { "team": "The Last Flairbenders", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "The Last Flairbenders", "player_season": "Killjoy", "playing_as": "Killjoy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-03-02", "week": "Week 7", "team1": "OD Future", "team2": "Misaki Bombs",
+      "games": [
+        {
+          "tagpro_eu": "3137722", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Misaki Bombs", "blue_team": "OD Future", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3137739", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "OD Future", "blue_team": "Misaki Bombs", "team1_score": 4, "team2_score": 16,
+          "players": [
+            { "team": "Misaki Bombs", "player_season": "2TrnipsnHeat", "playing_as": "2TrnipsnHeat" },
+            { "team": "Misaki Bombs", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "Misaki Bombs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Misaki Bombs", "player_season": "Waluigi", "playing_as": "Waluigi" },
+            { "team": "OD Future", "player_season": "GratefulDead", "playing_as": "GratefulDead" },
+            { "team": "OD Future", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "OD Future", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "OD Future", "player_season": "laserpig", "playing_as": "laserpig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-03-01", "week": "Week 7", "team1": "Miami Ballphins", "team2": "Weed the People",
+      "games": [
+        {
+          "tagpro_eu": "3136632", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Weed the People", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136652", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Weed the People", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136668", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Weed the People", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136682", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Miami Ballphins", "blue_team": "Weed the People", "team1_score": 1, "team2_score": 12,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "depptonic", "playing_as": "depptonic" },
+            { "team": "Miami Ballphins", "player_season": "drewfa", "playing_as": "drewfa" },
+            { "team": "Weed the People", "player_season": "Grommit", "playing_as": "Grommit" },
+            { "team": "Weed the People", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Weed the People", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Weed the People", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S26", "date": "2022-03-01", "week": "Week 7", "team1": "WCYDinos", "team2": "Puparazzi",
+      "games": [
+        {
+          "tagpro_eu": "3136597", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "WCYDinos", "blue_team": "Puparazzi", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136621", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Puparazzi", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 16,
+          "players": [
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "clew3", "playing_as": "clew3" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136640", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Puparazzi", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "noice!!", "playing_as": "noice!!" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3136655", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "WCYDinos", "blue_team": "Puparazzi", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Puparazzi", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Puparazzi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Puparazzi", "player_season": "LAGITRON", "playing_as": "LAGITRON" },
+            { "team": "Puparazzi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "WCYDinos", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "WCYDinos", "player_season": "clairo", "playing_as": "clairo" },
+            { "team": "WCYDinos", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "WCYDinos", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        }
+      ]
+    }
+  ]
+}

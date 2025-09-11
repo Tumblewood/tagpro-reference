@@ -1,0 +1,1837 @@
+{
+  "teamSeasons": [
+    { "season": "NLTP S33", "franchise": "Arctag IceCaps", "name": "Arctag IceCaps", "abbr": "AIC", "captain": "Witcher" },
+    { "season": "NLTP S33", "franchise": "Boosting Ballacudas", "name": "Boosting Ballacudas", "abbr": "BBS", "captain": null },
+    { "season": "NLTP S33", "franchise": "Holdman Sachs", "name": "Holdman Sachs", "abbr": "HSG", "captain": null },
+    { "season": "NLTP S33", "franchise": "Jukakke", "name": "Jukakke", "abbr": "JKK", "captain": null },
+    { "season": "NLTP S33", "franchise": "Microphone Hawks", "name": "Microphone Hawks", "abbr": "MIC", "captain": "NameLEss" },
+    { "season": "NLTP S33", "franchise": "OD Gambit: Nubstep Variation", "name": "OD Gambit: Nubstep Variation", "abbr": "ODG", "captain": null },
+    { "season": "NLTP S33", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": "Tinderfella" },
+    { "season": "NLTP S33", "franchise": "The Swipe Rights", "name": "The Swipe Rights", "abbr": "TSR", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "NLTP S33", "team": null, "player": "ErectChris", "playing_as": "ErectChris" },
+    { "season": "NLTP S33", "team": null, "player": "Hadouken!", "playing_as": "Hadouken!" },
+    { "season": "NLTP S33", "team": null, "player": "Meesterman", "playing_as": "Meesterman" },
+    { "season": "NLTP S33", "team": null, "player": "Some Ball 6", "playing_as": "Some Ball 6" },
+    { "season": "NLTP S33", "team": null, "player": "Some Ball 7", "playing_as": "Some Ball 7" },
+    { "season": "NLTP S33", "team": null, "player": "Some Ball 8", "playing_as": "Some Ball 8" },
+    { "season": "NLTP S33", "team": null, "player": "Spheroid", "playing_as": "Spheroid" },
+    { "season": "NLTP S33", "team": null, "player": "charlottem", "playing_as": "charlottem" },
+    { "season": "NLTP S33", "team": null, "player": "k-rent", "playing_as": "k-rent" },
+    { "season": "NLTP S33", "team": "Arctag IceCaps", "player": "Corduroy", "playing_as": "Corduroy" },
+    { "season": "NLTP S33", "team": "Arctag IceCaps", "player": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+    { "season": "NLTP S33", "team": "Arctag IceCaps", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+    { "season": "NLTP S33", "team": "Arctag IceCaps", "player": "Sheiko", "playing_as": "Sheiko" },
+    { "season": "NLTP S33", "team": "Boosting Ballacudas", "player": "Bazooted", "playing_as": "Bazooted" },
+    { "season": "NLTP S33", "team": "Boosting Ballacudas", "player": "G.O.A.T.", "playing_as": "G.O.A.T." },
+    { "season": "NLTP S33", "team": "Boosting Ballacudas", "player": "TheChowMein", "playing_as": "TheChowMein" },
+    { "season": "NLTP S33", "team": "Boosting Ballacudas", "player": "hue", "playing_as": "hue" },
+    { "season": "NLTP S33", "team": "Boosting Ballacudas", "player": "stee", "playing_as": "stee" },
+    { "season": "NLTP S33", "team": "Holdman Sachs", "player": "AJ.", "playing_as": "AJ." },
+    { "season": "NLTP S33", "team": "Holdman Sachs", "player": "Glimmer", "playing_as": "Glimmer" },
+    { "season": "NLTP S33", "team": "Holdman Sachs", "player": "Glizzy", "playing_as": "Glizzy" },
+    { "season": "NLTP S33", "team": "Holdman Sachs", "player": "MarcusYallow", "playing_as": "MarcusYallow" },
+    { "season": "NLTP S33", "team": "Holdman Sachs", "player": "zachhhh32", "playing_as": "zachhhh32" },
+    { "season": "NLTP S33", "team": "Jukakke", "player": "AgnusFortis", "playing_as": "AgnusFortis" },
+    { "season": "NLTP S33", "team": "Jukakke", "player": "Caius", "playing_as": "Caius" },
+    { "season": "NLTP S33", "team": "Jukakke", "player": "Megablocks", "playing_as": "Megablocks" },
+    { "season": "NLTP S33", "team": "Jukakke", "player": "SmallyBigs", "playing_as": "SmallyBigs" },
+    { "season": "NLTP S33", "team": "Jukakke", "player": "jkxs", "playing_as": "jkxs" },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Avsy26", "playing_as": "Avsy26" },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Bambi", "playing_as": "Bambi" },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Moosen", "playing_as": "Moosen" },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Robiny", "playing_as": "Robiny" },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Spheroid.", "playing_as": "Spheroid." },
+    { "season": "NLTP S33", "team": "Microphone Hawks", "player": "undyingderp", "playing_as": "undyingderp" },
+    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": ".__.", "playing_as": ".__." },
+    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Morpheus", "playing_as": "Morpheus" },
+    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Phreek", "playing_as": "Phreek" },
+    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Theslightest", "playing_as": "Theslightest" },
+    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "dyd", "playing_as": "dyd" },
+    { "season": "NLTP S33", "team": "The Land Before Timers", "player": "Gnas", "playing_as": "Gnas" },
+    { "season": "NLTP S33", "team": "The Land Before Timers", "player": "SOLF", "playing_as": "SOLF" },
+    { "season": "NLTP S33", "team": "The Land Before Timers", "player": "Sorry l suck", "playing_as": "Sorry l suck" },
+    { "season": "NLTP S33", "team": "The Land Before Timers", "player": "gh0st", "playing_as": "gh0st" },
+    { "season": "NLTP S33", "team": "The Land Before Timers", "player": "thisf_nguy", "playing_as": "thisf_nguy" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "Mueller", "playing_as": "Mueller" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "Tinderfella", "playing_as": "Tinderfella" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "itagpro", "playing_as": "itagpro" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "o o l e r", "playing_as": "o o l e r" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "phlasid", "playing_as": "phlasid" },
+    { "season": "NLTP S33", "team": "The Swipe Rights", "player": "timmysumball", "playing_as": "timmysumball" }
+  ],
+  "matches": [
+    {
+      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "OD Gambit: Nubstep Variation", "team2": "Boosting Ballacudas",
+      "games": [
+        {
+          "tagpro_eu": "3661840", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661847", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661857", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 16, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661869", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661879", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "The Land Before Timers", "team2": "The Swipe Rights",
+      "games": [
+        {
+          "tagpro_eu": "3661858", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Swipe Rights", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661867", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "The Swipe Rights", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661880", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Swipe Rights", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661888", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "The Land Before Timers", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661897", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "The Swipe Rights", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "Arctag IceCaps", "team2": "Jukakke",
+      "games": [
+        {
+          "tagpro_eu": "3661851", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "Jukakke", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661861", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Jukakke", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661873", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "Jukakke", "team1_score": 0, "team2_score": 11,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661882", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "Jukakke", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661889", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "Arctag IceCaps", "blue_team": "Jukakke", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "Holdman Sachs", "team2": "Microphone Hawks",
+      "games": [
+        {
+          "tagpro_eu": "3661853", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdman Sachs", "blue_team": "Microphone Hawks", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3661866", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hawks", "blue_team": "Holdman Sachs", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661878", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdman Sachs", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 11,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3661885", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "Microphone Hawks", "blue_team": "Holdman Sachs", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" }
+          ]
+        },
+        {
+          "tagpro_eu": "3661895", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "Holdman Sachs", "blue_team": "Microphone Hawks", "team1_score": 0, "team2_score": 15,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "Boosting Ballacudas", "team2": "Holdman Sachs",
+      "games": [
+        {
+          "tagpro_eu": "3665065", "game_in_match": "Game 1", "map_name": "Moai ", "map_id": 17630, "red_team": "Boosting Ballacudas", "blue_team": "Holdman Sachs", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665076", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Holdman Sachs", "blue_team": "Boosting Ballacudas", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665092", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Boosting Ballacudas", "blue_team": "Holdman Sachs", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665109", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Holdman Sachs", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665118", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Boosting Ballacudas", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "The Land Before Timers", "team2": "OD Gambit: Nubstep Variation",
+      "games": [
+        {
+          "tagpro_eu": "3665031", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665048", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665064", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665077", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665088", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "Microphone Hawks", "team2": "Jukakke",
+      "games": [
+        {
+          "tagpro_eu": "3665022", "game_in_match": "Game 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Jukakke", "blue_team": "Microphone Hawks", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3665028", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "Jukakke", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3665042", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Jukakke", "blue_team": "Microphone Hawks", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Microphone Hawks", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665058", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Microphone Hawks", "blue_team": "Jukakke", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3665070", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Jukakke", "blue_team": "Microphone Hawks", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "The Swipe Rights", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3665060", "game_in_match": "Game 1", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Arctag IceCaps", "blue_team": "The Swipe Rights", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Sheiko", "playing_as": "Sheiko" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665072", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Swipe Rights", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Sheiko", "playing_as": "Sheiko" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665087", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Sheiko", "playing_as": "Sheiko" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665099", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Swipe Rights", "blue_team": "Arctag IceCaps", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Sheiko", "playing_as": "Sheiko" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3665106", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "Arctag IceCaps", "blue_team": "The Swipe Rights", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Sheiko", "playing_as": "Sheiko" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "Boosting Ballacudas", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3668073", "game_in_match": "Game 1", "map_name": "Apparition 2021", "map_id": 15192, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 0, "team2_score": 10,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668088", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Boosting Ballacudas", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668098", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668106", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668118", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "Holdman Sachs", "team2": "Jukakke",
+      "games": [
+        {
+          "tagpro_eu": "3668068", "game_in_match": "Game 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Jukakke", "blue_team": "Holdman Sachs", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668082", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdman Sachs", "blue_team": "Jukakke", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668094", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Jukakke", "blue_team": "Holdman Sachs", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668105", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdman Sachs", "blue_team": "Jukakke", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668114", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Jukakke", "blue_team": "Holdman Sachs", "team1_score": 3, "team2_score": 10,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "Microphone Hawks", "team2": "The Swipe Rights",
+      "games": [
+        {
+          "tagpro_eu": "3668052", "game_in_match": "Game 1", "map_name": "Wormye", "map_id": 13914, "red_team": "Microphone Hawks", "blue_team": "The Swipe Rights", "team1_score": 12, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668063", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Swipe Rights", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668074", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Microphone Hawks", "blue_team": "The Swipe Rights", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668087", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Swipe Rights", "blue_team": "Microphone Hawks", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668097", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hawks", "blue_team": "The Swipe Rights", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "OD Gambit: Nubstep Variation", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3668049", "game_in_match": "Game 1", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 8", "playing_as": "Some Ball 8" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668061", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668070", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668079", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 6", "playing_as": "Some Ball 6" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668095", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 8", "playing_as": "Some Ball 8" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-26", "week": "Week 4", "team1": "Jukakke", "team2": "The Swipe Rights",
+      "games": [
+        {
+          "tagpro_eu": "3671228", "game_in_match": "Game 1", "map_name": "Wormye", "map_id": 13914, "red_team": "The Swipe Rights", "blue_team": "Jukakke", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671236", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Jukakke", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671240", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Swipe Rights", "blue_team": "Jukakke", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671245", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Jukakke", "blue_team": "The Swipe Rights", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671253", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Swipe Rights", "blue_team": "Jukakke", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-26", "week": "Week 4", "team1": "Arctag IceCaps", "team2": "Boosting Ballacudas",
+      "games": [
+        {
+          "tagpro_eu": "3671234", "game_in_match": "Game 1", "map_name": "Marauder", "map_id": 17637, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Boosting Ballacudas", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671239", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Boosting Ballacudas", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671246", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Boosting Ballacudas", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671255", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 6", "playing_as": "Some Ball 6" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Boosting Ballacudas", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671265", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Boosting Ballacudas", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-26", "week": "Week 4", "team1": "OD Gambit: Nubstep Variation", "team2": "Microphone Hawks",
+      "games": [
+        {
+          "tagpro_eu": "3671200", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671206", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671214", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671221", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671232", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Boosting Ballacudas", "team2": "Microphone Hawks",
+      "games": [
+        {
+          "tagpro_eu": "3674024", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3674035", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3674043", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3674057", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3674067", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 0, "team2_score": 18,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Holdman Sachs", "team2": "The Swipe Rights",
+      "games": [
+        {
+          "tagpro_eu": "3674040", "game_in_match": "Game 1", "map_name": "Wormye", "map_id": 13914, "red_team": "The Swipe Rights", "blue_team": "Holdman Sachs", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674049", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Holdman Sachs", "blue_team": "The Swipe Rights", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674060", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Swipe Rights", "blue_team": "Holdman Sachs", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674072", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Holdman Sachs", "blue_team": "The Swipe Rights", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674082", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "The Swipe Rights", "blue_team": "Holdman Sachs", "team1_score": 6, "team2_score": 12,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Holdman Sachs", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Arctag IceCaps", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3674089", "game_in_match": "Game 1", "map_name": "Apparition 2021", "map_id": 15192, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "Arctag IceCaps", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674098", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Arctag IceCaps", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674105", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Arctag IceCaps", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674113", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Arctag IceCaps", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674123", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "IMAGOODPLAYE", "playing_as": "IMAGOODPLAYE" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "undyingderp", "playing_as": "undyingderp" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Hadouken!", "playing_as": "Hadouken!" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Jukakke", "team2": "OD Gambit: Nubstep Variation",
+      "games": [
+        {
+          "tagpro_eu": "3674050", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674062", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674070", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Jukakke", "team1_score": 11, "team2_score": 1,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674080", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674092", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Jukakke", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-27", "week": "Week 6", "team1": "Arctag IceCaps", "team2": "Microphone Hawks",
+      "games": [
+        {
+          "tagpro_eu": "3671671", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Arctag IceCaps", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3671683", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-27", "week": "Week 6", "team1": "The Land Before Timers", "team2": "Jukakke",
+      "games": [
+        {
+          "tagpro_eu": "3671666", "game_in_match": "Game 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Jukakke", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671684", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "The Land Before Timers", "blue_team": "Jukakke", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671694", "game_in_match": "Game 3", "map_name": "Pine", "map_id": 14289, "red_team": "Jukakke", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671699", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Jukakke", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3671705", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Jukakke", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 8,
+          "players": [
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 6", "team1": "The Swipe Rights", "team2": "Boosting Ballacudas",
+      "games": [
+        {
+          "tagpro_eu": "3674093", "game_in_match": "Game 1", "map_name": "Marauder", "map_id": 17637, "red_team": "The Swipe Rights", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674101", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Boosting Ballacudas", "blue_team": "The Swipe Rights", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674108", "game_in_match": "Game 3", "map_name": "Pine", "map_id": 14289, "red_team": "The Swipe Rights", "blue_team": "Boosting Ballacudas", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674117", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "The Swipe Rights", "team1_score": 15, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3674125", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "The Swipe Rights", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-30", "week": "Week 6", "team1": "OD Gambit: Nubstep Variation", "team2": "Holdman Sachs",
+      "games": [
+        {
+          "tagpro_eu": "3672591", "game_in_match": "Game 1", "map_name": "Moai ", "map_id": 17630, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3672598", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3672606", "game_in_match": "Game 3", "map_name": "Pine", "map_id": 14289, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3672612", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
+            { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-07-02", "week": "Week 7", "team1": "The Swipe Rights", "team2": "OD Gambit: Nubstep Variation",
+      "games": [
+        {
+          "tagpro_eu": "3673616", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3673627", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3673635", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3673644", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3673655", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 5, "team2_score": 8,
+          "players": [
+            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
+            { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-25", "week": "Week 7", "team1": "Jukakke", "team2": "Boosting Ballacudas",
+      "games": [
+        {
+          "tagpro_eu": "3670797", "game_in_match": "Game 1", "map_name": "Marauder", "map_id": 17637, "red_team": "Boosting Ballacudas", "blue_team": "Jukakke", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3670815", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Jukakke", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3670830", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Boosting Ballacudas", "blue_team": "Jukakke", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3670838", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Jukakke", "blue_team": "Boosting Ballacudas", "team1_score": 12, "team2_score": 4,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3670845", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Boosting Ballacudas", "blue_team": "Jukakke", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
+            { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
+            { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
+            { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
+            { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S33", "date": "2024-06-20", "week": "Week 7", "team1": "Microphone Hawks", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3668534", "game_in_match": "Game 1", "map_name": "Apparition 2021", "map_id": 15192, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid", "playing_as": "Spheroid" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668545", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid", "playing_as": "Spheroid" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668556", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid", "playing_as": "Spheroid" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668566", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Microphone Hawks", "team1_score": 8, "team2_score": 0,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid", "playing_as": "Spheroid" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "The Land Before Timers", "player_season": "thisf_nguy", "playing_as": "thisf_nguy" }
+          ]
+        },
+        {
+          "tagpro_eu": "3668579", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "BamBi" },
+            { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
+            { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid", "playing_as": "Spheroid" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
+            { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" }
+          ]
+        }
+      ]
+    }
+  ]
+}

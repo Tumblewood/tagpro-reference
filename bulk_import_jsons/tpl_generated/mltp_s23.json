@@ -1,0 +1,1662 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S23", "franchise": "G6", "name": "G6", "abbr": "G6", "captain": "Gryff" },
+    { "season": "MLTP S23", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW", "captain": "Curry" },
+    { "season": "MLTP S23", "franchise": "Miami Ballphins", "name": "Miami Ballphins", "abbr": "MIA", "captain": "JARVISLANDRY" },
+    { "season": "MLTP S23", "franchise": "Mr. Poppa's Pinguins", "name": "Mr. Poppa's Pinguins", "abbr": "MPP", "captain": "smallyBigs" },
+    { "season": "MLTP S23", "franchise": "Pi-Curious", "name": "Pi-Curious", "abbr": "PIC", "captain": "Sgt. Ducky" },
+    { "season": "MLTP S23", "franchise": "Red Hot Chili Poppers", "name": "Red Hot Chili Poppers", "abbr": "RHCP", "captain": "Tantrew" },
+    { "season": "MLTP S23", "franchise": "Snipe Hunt", "name": "Snipe Hunt", "abbr": "SNI", "captain": "Spheroid." },
+    { "season": "MLTP S23", "franchise": "The Holy Seehawks", "name": "The Holy Seehawks", "abbr": "THS", "captain": "ccga4" }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S23", "team": null, "player": "Airmigo", "playing_as": "Airmigo" },
+    { "season": "MLTP S23", "team": null, "player": "Destar", "playing_as": "Destar" },
+    { "season": "MLTP S23", "team": null, "player": "Exile", "playing_as": "Exile" },
+    { "season": "MLTP S23", "team": null, "player": "GRIMROG", "playing_as": "GRIMROG" },
+    { "season": "MLTP S23", "team": "G6", "player": "Cheetosrule", "playing_as": "Cheetosrule" },
+    { "season": "MLTP S23", "team": "G6", "player": "Pro Boat", "playing_as": "Pro Boat" },
+    { "season": "MLTP S23", "team": "G6", "player": "Suchit", "playing_as": "Suchit" },
+    { "season": "MLTP S23", "team": "G6", "player": "Xile", "playing_as": "Xile" },
+    { "season": "MLTP S23", "team": "G6", "player": "ez", "playing_as": "ez" },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "Juke of Yore", "playing_as": "Juke of Yore" },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "Maru", "playing_as": "Maru" },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "NEB.", "playing_as": "NEB." },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "St. Bernard", "playing_as": "St. Bernard" },
+    { "season": "MLTP S23", "team": "Holdin' Gate Warriors", "player": "YuuStare", "playing_as": "YuuStare" },
+    { "season": "MLTP S23", "team": "Miami Ballphins", "player": "FK", "playing_as": "FK" },
+    { "season": "MLTP S23", "team": "Miami Ballphins", "player": "FM", "playing_as": "FM" },
+    { "season": "MLTP S23", "team": "Miami Ballphins", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S23", "team": "Miami Ballphins", "player": "KIDDO116", "playing_as": "KIDDO116" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "Ball-erina", "playing_as": "Ball-erina" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "Will1119", "playing_as": "Will1119" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "grumpy", "playing_as": "grumpy" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "titanblue", "playing_as": "titanblue" },
+    { "season": "MLTP S23", "team": "Mr. Poppa's Pinguins", "player": "top kekker", "playing_as": "top kekker" },
+    { "season": "MLTP S23", "team": "Pi-Curious", "player": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+    { "season": "MLTP S23", "team": "Pi-Curious", "player": "Deafheaven", "playing_as": "Deafheaven" },
+    { "season": "MLTP S23", "team": "Pi-Curious", "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S23", "team": "Pi-Curious", "player": "thenewguy.", "playing_as": "thenewguy." },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "Squeeb", "playing_as": "Squeeb" },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "Sugar", "playing_as": "Sugar" },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "aaron", "playing_as": "aaron" },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "MLTP S23", "team": "Red Hot Chili Poppers", "player": "inthesomeday", "playing_as": "inthesomeday" },
+    { "season": "MLTP S23", "team": "Snipe Hunt", "player": "Air Jordan", "playing_as": "Air Jordan" },
+    { "season": "MLTP S23", "team": "Snipe Hunt", "player": "Bal McCartny", "playing_as": "Bal McCartny" },
+    { "season": "MLTP S23", "team": "Snipe Hunt", "player": "DAD.", "playing_as": "DAD." },
+    { "season": "MLTP S23", "team": "Snipe Hunt", "player": "Kamikaze", "playing_as": "Kamikaze" },
+    { "season": "MLTP S23", "team": "Snipe Hunt", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "Acuraun", "playing_as": "Acuraun" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "First", "playing_as": "First" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "Raven", "playing_as": "Raven" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S23", "team": "The Holy Seehawks", "player": "team", "playing_as": "team" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S23", "date": "2021-01-10", "week": "Week 1", "team1": "Mr. Poppa's Pinguins", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2756358", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756371", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756380", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756394", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-10", "week": "Week 1", "team1": "G6", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2756367", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "G6", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756376", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "G6", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756392", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "G6", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756405", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "G6", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-10", "week": "Week 1", "team1": "The Holy Seehawks", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2756338", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Red Hot Chili Poppers", "blue_team": "The Holy Seehawks", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756350", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "The Holy Seehawks", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756369", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Red Hot Chili Poppers", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756379", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Holy Seehawks", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-10", "week": "Week 1", "team1": "Pi-Curious", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2756343", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756356", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pi-Curious", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756370", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Pi-Curious", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2756381", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-17", "week": "Week 2", "team1": "G6", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "2763972", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "G6", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2763992", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Holy Seehawks", "blue_team": "G6", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2764011", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "The Holy Seehawks", "blue_team": "G6", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2764026", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "G6", "blue_team": "The Holy Seehawks", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-17", "week": "Week 2", "team1": "Mr. Poppa's Pinguins", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2764034", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Red Hot Chili Poppers", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2764049", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2764083", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Red Hot Chili Poppers", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2764098", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-17", "week": "Week 2", "team1": "Miami Ballphins", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2763981", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2764012", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2764031", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2764047", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-17", "week": "Week 2", "team1": "Holdin' Gate Warriors", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2763896", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "Pi-Curious", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2763914", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Pi-Curious", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2763927", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Holdin' Gate Warriors", "blue_team": "Pi-Curious", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2763944", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pi-Curious", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Pi-Curious", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-24", "week": "Week 3", "team1": "Snipe Hunt", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2771841", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771861", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771903", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771921", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" },
+            { "team": "Snipe Hunt", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-24", "week": "Week 3", "team1": "Red Hot Chili Poppers", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2771901", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2771917", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Red Hot Chili Poppers", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2771934", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Red Hot Chili Poppers", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2771955", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-24", "week": "Week 3", "team1": "The Holy Seehawks", "team2": "Mr. Poppa's Pinguins",
+      "games": [
+        {
+          "tagpro_eu": "2771957", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "The Holy Seehawks", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771980", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Mr. Poppa's Pinguins", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771997", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "The Holy Seehawks", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2772012", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Mr. Poppa's Pinguins", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-24", "week": "Week 3", "team1": "Pi-Curious", "team2": "G6",
+      "games": [
+        {
+          "tagpro_eu": "2771834", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pi-Curious", "blue_team": "G6", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771849", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "G6", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771867", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Pi-Curious", "blue_team": "G6", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2771891", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "G6", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-31", "week": "Week 4", "team1": "Red Hot Chili Poppers", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2780026", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Pi-Curious", "blue_team": "Red Hot Chili Poppers", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2780046", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Red Hot Chili Poppers", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2780061", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2780085", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Red Hot Chili Poppers", "blue_team": "Pi-Curious", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-31", "week": "Week 4", "team1": "Miami Ballphins", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "2780043", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "The Holy Seehawks", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780062", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780087", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780114", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Miami Ballphins", "blue_team": "The Holy Seehawks", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-31", "week": "Week 4", "team1": "Holdin' Gate Warriors", "team2": "G6",
+      "games": [
+        {
+          "tagpro_eu": "2780033", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "G6", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780055", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "G6", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780074", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "G6", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780100", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "G6", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "YuuStare", "playing_as": "YuuStare" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-01-31", "week": "Week 4", "team1": "Snipe Hunt", "team2": "Mr. Poppa's Pinguins",
+      "games": [
+        {
+          "tagpro_eu": "2780166", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780188", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780211", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2780229", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-22", "week": "Week 5", "team1": "Mr. Poppa's Pinguins", "team2": "G6",
+      "games": [
+        {
+          "tagpro_eu": "2804924", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Mr. Poppa's Pinguins", "blue_team": "G6", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Exile", "playing_as": "Exile" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2804955", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "G6", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2804976", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "G6", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2804995", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Mr. Poppa's Pinguins", "blue_team": "G6", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-15", "week": "Week 5", "team1": "The Holy Seehawks", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2796917", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2796939", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2796953", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2796966", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-14", "week": "Week 5", "team1": "Pi-Curious", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2795733", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795748", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Miami Ballphins", "blue_team": "Pi-Curious", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795762", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Pi-Curious", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795783", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Pi-Curious", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-14", "week": "Week 5", "team1": "Snipe Hunt", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2795760", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Red Hot Chili Poppers", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795786", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795806", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Red Hot Chili Poppers", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2795829", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Red Hot Chili Poppers", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Kamikaze", "playing_as": "Kamikaze" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-21", "week": "Week 6", "team1": "The Holy Seehawks", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2803500", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Pi-Curious", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803521", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Holy Seehawks", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803545", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Pi-Curious", "blue_team": "The Holy Seehawks", "team1_score": 1, "team2_score": 11,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803574", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "The Holy Seehawks", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" },
+            { "team": "The Holy Seehawks", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-21", "week": "Week 6", "team1": "Miami Ballphins", "team2": "Mr. Poppa's Pinguins",
+      "games": [
+        {
+          "tagpro_eu": "2803631", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803651", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803668", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Miami Ballphins", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803691", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-21", "week": "Week 6", "team1": "Holdin' Gate Warriors", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2803569", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803591", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Red Hot Chili Poppers", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803626", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Holdin' Gate Warriors", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803648", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Red Hot Chili Poppers", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-21", "week": "Week 6", "team1": "G6", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2803536", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "G6", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803561", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "G6", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803589", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "G6", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "2803611", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Snipe Hunt", "blue_team": "G6", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-28", "week": "Week 7", "team1": "Red Hot Chili Poppers", "team2": "G6",
+      "games": [
+        {
+          "tagpro_eu": "2811363", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Red Hot Chili Poppers", "blue_team": "G6", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sugar", "playing_as": "Sugar" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811393", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "G6", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sugar", "playing_as": "Sugar" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811416", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "G6", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sugar", "playing_as": "Sugar" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811434", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Red Hot Chili Poppers", "blue_team": "G6", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "G6", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "G6", "player_season": "Pro Boat", "playing_as": "Pro Boat" },
+            { "team": "G6", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "G6", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sugar", "playing_as": "Sugar" },
+            { "team": "Red Hot Chili Poppers", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Red Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-28", "week": "Week 7", "team1": "Miami Ballphins", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2811367", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811392", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811411", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811431", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Maru", "playing_as": "Maru" },
+            { "team": "Holdin' Gate Warriors", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Holdin' Gate Warriors", "player_season": "ShinjukuGirl", "playing_as": "ShinjukuGirl" },
+            { "team": "Miami Ballphins", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Miami Ballphins", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Miami Ballphins", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Miami Ballphins", "player_season": "KIDDO116", "playing_as": "KIDDO116" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-28", "week": "Week 7", "team1": "Mr. Poppa's Pinguins", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "2811439", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Pi-Curious", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2811459", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2811480", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pi-Curious", "blue_team": "Mr. Poppa's Pinguins", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2811495", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Mr. Poppa's Pinguins", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "grumpy", "playing_as": "grumpy" },
+            { "team": "Mr. Poppa's Pinguins", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pi-Curious", "player_season": "BIG CLEFFA", "playing_as": "BIG CLEFFA" },
+            { "team": "Pi-Curious", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Pi-Curious", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Pi-Curious", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S23", "date": "2021-02-28", "week": "Week 7", "team1": "Snipe Hunt", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "2811349", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 3", "map_id": 13908, "red_team": "The Holy Seehawks", "blue_team": "Snipe Hunt", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Acuraun", "playing_as": "Acuraun" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811376", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 3", "map_id": 13908, "red_team": "Snipe Hunt", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Acuraun", "playing_as": "Acuraun" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811399", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" }
+          ]
+        },
+        {
+          "tagpro_eu": "2811425", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "The Holy Seehawks", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Air Jordan", "playing_as": "Air Jordan" },
+            { "team": "Snipe Hunt", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Snipe Hunt", "player_season": "Raven", "playing_as": "Raven" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Holy Seehawks", "player_season": "Airmigo", "playing_as": "Airmigo" },
+            { "team": "The Holy Seehawks", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "The Holy Seehawks", "player_season": "First", "playing_as": "First" }
+          ]
+        }
+      ]
+    }
+  ]
+}

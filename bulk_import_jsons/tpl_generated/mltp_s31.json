@@ -1,0 +1,1218 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S31", "franchise": "Arctag IceCaps", "name": "Arctag IceCaps", "abbr": "AIC", "captain": "Sweg" },
+    { "season": "MLTP S31", "franchise": "Banchester United", "name": "Banchester United", "abbr": "BAN", "captain": "Robiny" },
+    { "season": "MLTP S31", "franchise": "Converse Ballstars", "name": "Converse Ballstars", "abbr": "CBS", "captain": "Gnas" },
+    { "season": "MLTP S31", "franchise": "Good Read You! Block Enterer", "name": "Good Read You! Block Enterer", "abbr": "GRY", "captain": "Djinni" },
+    { "season": "MLTP S31", "franchise": "Miami Ballphins", "name": "Miami Ballphins", "abbr": "MIA", "captain": "JARVISLANDRY" },
+    { "season": "MLTP S31", "franchise": "Over the Pants Handoffs", "name": "Over the Pants Handoffs", "abbr": "OPH", "captain": "no name" },
+    { "season": "MLTP S31", "franchise": "The Holy Seehawks", "name": "The Holy Seehawks", "abbr": "THS", "captain": "GOOBR" },
+    { "season": "MLTP S31", "franchise": "The Way of Pings", "name": "The Way of Pings", "abbr": "WOP", "captain": "Button" }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S31", "team": null, "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S31", "team": null, "player": "Cel", "playing_as": "Cel" },
+    { "season": "MLTP S31", "team": null, "player": "GO RUSSIA!", "playing_as": "GO RUSSIA!" },
+    { "season": "MLTP S31", "team": null, "player": "Irony", "playing_as": "Irony" },
+    { "season": "MLTP S31", "team": null, "player": "Jer32", "playing_as": "Jer32" },
+    { "season": "MLTP S31", "team": null, "player": "Magnolia", "playing_as": "Magnolia" },
+    { "season": "MLTP S31", "team": null, "player": "omni", "playing_as": "omni" },
+    { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "BoldRoller", "playing_as": "BoldRoller" },
+    { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "Vader", "playing_as": "Vader" },
+    { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "bbb", "playing_as": "bbb" },
+    { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "phreak", "playing_as": "phreak" },
+    { "season": "MLTP S31", "team": "Banchester United", "player": "ASAP", "playing_as": "ASAP" },
+    { "season": "MLTP S31", "team": "Banchester United", "player": "`", "playing_as": "`" },
+    { "season": "MLTP S31", "team": "Banchester United", "player": "kelvin", "playing_as": "kelvin" },
+    { "season": "MLTP S31", "team": "Banchester United", "player": "vic", "playing_as": "vic" },
+    { "season": "MLTP S31", "team": "Converse Ballstars", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S31", "team": "Converse Ballstars", "player": "GtR", "playing_as": "GtR" },
+    { "season": "MLTP S31", "team": "Converse Ballstars", "player": "tears", "playing_as": "tears" },
+    { "season": "MLTP S31", "team": "Converse Ballstars", "player": "titan", "playing_as": "titan" },
+    { "season": "MLTP S31", "team": "Good Read You! Block Enterer", "player": "Prime", "playing_as": "Prime" },
+    { "season": "MLTP S31", "team": "Good Read You! Block Enterer", "player": "Sadness", "playing_as": "Sadness" },
+    { "season": "MLTP S31", "team": "Good Read You! Block Enterer", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "MLTP S31", "team": "Good Read You! Block Enterer", "player": "inthesomeday", "playing_as": "inthesomeday" },
+    { "season": "MLTP S31", "team": "Miami Ballphins", "player": "Arbybear", "playing_as": "Arbybear" },
+    { "season": "MLTP S31", "team": "Miami Ballphins", "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S31", "team": "Miami Ballphins", "player": "Scorch", "playing_as": "Scorch" },
+    { "season": "MLTP S31", "team": "Miami Ballphins", "player": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+    { "season": "MLTP S31", "team": "Over the Pants Handoffs", "player": "Chaos", "playing_as": "Chaos" },
+    { "season": "MLTP S31", "team": "Over the Pants Handoffs", "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "MLTP S31", "team": "Over the Pants Handoffs", "player": "Xile", "playing_as": "Xile" },
+    { "season": "MLTP S31", "team": "Over the Pants Handoffs", "player": "bumballbee", "playing_as": "bumballbee" },
+    { "season": "MLTP S31", "team": "The Holy Seehawks", "player": "Gleg", "playing_as": "Gleg" },
+    { "season": "MLTP S31", "team": "The Holy Seehawks", "player": "Poeticalto", "playing_as": "Poeticalto" },
+    { "season": "MLTP S31", "team": "The Holy Seehawks", "player": "fender", "playing_as": "fender" },
+    { "season": "MLTP S31", "team": "The Way of Pings", "player": "2P1S", "playing_as": "2P1S" },
+    { "season": "MLTP S31", "team": "The Way of Pings", "player": "anti-re", "playing_as": "anti-re" },
+    { "season": "MLTP S31", "team": "The Way of Pings", "player": "ft", "playing_as": "ft" },
+    { "season": "MLTP S31", "team": "The Way of Pings", "player": "tng.", "playing_as": "tng." }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S31", "date": "2023-09-24", "week": "Week 1", "team1": "The Way of Pings", "team2": "Banchester United",
+      "games": [
+        {
+          "tagpro_eu": "3524059", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "The Way of Pings", "blue_team": "Banchester United", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3524077", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Banchester United", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3524082", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Banchester United", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-09-24", "week": "Week 1", "team1": "Miami Ballphins", "team2": "Over the Pants Handoffs",
+      "games": [
+        {
+          "tagpro_eu": "3524031", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "Miami Ballphins", "blue_team": "Over the Pants Handoffs", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "Over the Pants Handoffs", "player_season": "GO RUSSIA!", "playing_as": "GO RUSSIA!" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3524049", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "Over the Pants Handoffs", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "Over the Pants Handoffs", "player_season": "GO RUSSIA!", "playing_as": "GO RUSSIA!" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3524055", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Over the Pants Handoffs", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "Over the Pants Handoffs", "player_season": "GO RUSSIA!", "playing_as": "GO RUSSIA!" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-09-26", "week": "Week 1", "team1": "The Holy Seehawks", "team2": "Good Read You! Block Enterer",
+      "games": [
+        {
+          "tagpro_eu": "3525222", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "The Holy Seehawks", "blue_team": "Good Read You! Block Enterer", "team1_score": 1, "team2_score": 9,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525244", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Holy Seehawks", "blue_team": "Good Read You! Block Enterer", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525253", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Good Read You! Block Enterer", "blue_team": "The Holy Seehawks", "team1_score": 9, "team2_score": 7,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "The Way of Pings", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3528096", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3528106", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Banchester United", "team2": "Over the Pants Handoffs",
+      "games": [
+        {
+          "tagpro_eu": "3528112", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Banchester United", "blue_team": "Over the Pants Handoffs", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Over the Pants Handoffs", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528123", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Banchester United", "blue_team": "Over the Pants Handoffs", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Over the Pants Handoffs", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528126", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Over the Pants Handoffs", "blue_team": "Banchester United", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Over the Pants Handoffs", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Arctag IceCaps", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "3528050", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "The Holy Seehawks", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528079", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528088", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Holy Seehawks", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Good Read You! Block Enterer", "team2": "Converse Ballstars",
+      "games": [
+        {
+          "tagpro_eu": "3528081", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Good Read You! Block Enterer", "blue_team": "Converse Ballstars", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528100", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Good Read You! Block Enterer", "blue_team": "Converse Ballstars", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528111", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Converse Ballstars", "blue_team": "Good Read You! Block Enterer", "team1_score": 8, "team2_score": 6,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-03", "week": "Week 3", "team1": "The Way of Pings", "team2": "Over the Pants Handoffs",
+      "games": [
+        {
+          "tagpro_eu": "3529161", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Way of Pings", "blue_team": "Over the Pants Handoffs", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3529191", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Way of Pings", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3529204", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Over the Pants Handoffs", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-03", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Banchester United",
+      "games": [
+        {
+          "tagpro_eu": "3529211", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "Banchester United", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529230", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Banchester United", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529238", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Banchester United", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-03", "week": "Week 3", "team1": "Arctag IceCaps", "team2": "Good Read You! Block Enterer",
+      "games": [
+        {
+          "tagpro_eu": "3529151", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "Good Read You! Block Enterer", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529175", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "Good Read You! Block Enterer", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529190", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Good Read You! Block Enterer", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-03", "week": "Week 3", "team1": "Converse Ballstars", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "3529154", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Converse Ballstars", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529181", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Converse Ballstars", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529193", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Holy Seehawks", "blue_team": "Converse Ballstars", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-08", "week": "Week 4", "team1": "Arctag IceCaps", "team2": "The Way of Pings",
+      "games": [
+        {
+          "tagpro_eu": "3531733", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3531758", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Arctag IceCaps", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3531771", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "The Way of Pings", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-08", "week": "Week 4", "team1": "Banchester United", "team2": "Converse Ballstars",
+      "games": [
+        {
+          "tagpro_eu": "3531786", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Banchester United", "blue_team": "Converse Ballstars", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" }
+          ]
+        },
+        {
+          "tagpro_eu": "3531800", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Banchester United", "blue_team": "Converse Ballstars", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" }
+          ]
+        },
+        {
+          "tagpro_eu": "3531807", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Converse Ballstars", "blue_team": "Banchester United", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-08", "week": "Week 4", "team1": "The Holy Seehawks", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3531774", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "The Holy Seehawks", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "3531782", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "The Holy Seehawks", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-10", "week": "Week 4", "team1": "Good Read You! Block Enterer", "team2": "Over the Pants Handoffs",
+      "games": [
+        {
+          "tagpro_eu": "3532964", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Good Read You! Block Enterer", "blue_team": "Over the Pants Handoffs", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3532982", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Good Read You! Block Enterer", "blue_team": "Over the Pants Handoffs", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3532990", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Over the Pants Handoffs", "blue_team": "Good Read You! Block Enterer", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Converse Ballstars", "team2": "The Way of Pings",
+      "games": [
+        {
+          "tagpro_eu": "3535806", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Converse Ballstars", "blue_team": "The Way of Pings", "team1_score": 1, "team2_score": 9,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "omni", "playing_as": "omni" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3535830", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Converse Ballstars", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3535843", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Way of Pings", "blue_team": "Converse Ballstars", "team1_score": 4, "team2_score": 13,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Banchester United", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3535790", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Banchester United", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535821", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Banchester United", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535835", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Arctag IceCaps", "blue_team": "Banchester United", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Miami Ballphins", "team2": "Good Read You! Block Enterer",
+      "games": [
+        {
+          "tagpro_eu": "3535772", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Good Read You! Block Enterer", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535804", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Good Read You! Block Enterer", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535815", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Good Read You! Block Enterer", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Over the Pants Handoffs", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "3535792", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Over the Pants Handoffs", "blue_team": "The Holy Seehawks", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535823", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Over the Pants Handoffs", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535836", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Holy Seehawks", "blue_team": "Over the Pants Handoffs", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-17", "week": "Week 6", "team1": "The Holy Seehawks", "team2": "The Way of Pings",
+      "games": [
+        {
+          "tagpro_eu": "3537050", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Holy Seehawks", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3537071", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Holy Seehawks", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3537085", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-17", "week": "Week 6", "team1": "Good Read You! Block Enterer", "team2": "Banchester United",
+      "games": [
+        {
+          "tagpro_eu": "3537047", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Good Read You! Block Enterer", "blue_team": "Banchester United", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537072", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Good Read You! Block Enterer", "blue_team": "Banchester United", "team1_score": 10, "team2_score": 4,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537088", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Banchester United", "blue_team": "Good Read You! Block Enterer", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-18", "week": "Week 6", "team1": "Miami Ballphins", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3537662", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537692", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537705", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-17", "week": "Week 6", "team1": "Over the Pants Handoffs", "team2": "Converse Ballstars",
+      "games": [
+        {
+          "tagpro_eu": "3537057", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Over the Pants Handoffs", "blue_team": "Converse Ballstars", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537083", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Over the Pants Handoffs", "blue_team": "Converse Ballstars", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537095", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Converse Ballstars", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-22", "week": "Week 7", "team1": "The Way of Pings", "team2": "Good Read You! Block Enterer",
+      "games": [
+        {
+          "tagpro_eu": "3539783", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "Good Read You! Block Enterer", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3539807", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Way of Pings", "blue_team": "Good Read You! Block Enterer", "team1_score": 7, "team2_score": 8,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3539821", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Good Read You! Block Enterer", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Good Read You! Block Enterer", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Good Read You! Block Enterer", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Good Read You! Block Enterer", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-22", "week": "Week 7", "team1": "The Holy Seehawks", "team2": "Banchester United",
+      "games": [
+        {
+          "tagpro_eu": "3539815", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Holy Seehawks", "blue_team": "Banchester United", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539831", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Holy Seehawks", "blue_team": "Banchester United", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539838", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Banchester United", "blue_team": "The Holy Seehawks", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Banchester United", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Banchester United", "player_season": "`", "playing_as": "`" },
+            { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
+            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-22", "week": "Week 7", "team1": "Converse Ballstars", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "3539775", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Converse Ballstars", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539803", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Converse Ballstars", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539813", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Miami Ballphins", "blue_team": "Converse Ballstars", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears" },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S31", "date": "2023-10-22", "week": "Week 7", "team1": "Over the Pants Handoffs", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3539749", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Over the Pants Handoffs", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539804", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Arctag IceCaps", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        },
+        {
+          "tagpro_eu": "3539816", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Over the Pants Handoffs", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Over the Pants Handoffs", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Over the Pants Handoffs", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" }
+          ]
+        }
+      ]
+    }
+  ]
+}

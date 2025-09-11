@@ -1,0 +1,2398 @@
+{
+  "teamSeasons": [
+    { "season": "mLTP S18", "franchise": "21 Juke Street", "name": "21 Juke Street", "abbr": "21J", "captain": "aardvark" },
+    { "season": "mLTP S18", "franchise": "Blue Hot Chili Poppers", "name": "Blue Hot Chili Poppers", "abbr": "BHCP", "captain": "Tantrew" },
+    { "season": "mLTP S18", "franchise": "CapHazard", "name": "CapHazard", "abbr": "CPH", "captain": "Frothy" },
+    { "season": "mLTP S18", "franchise": "Clout 9", "name": "Clout 9", "abbr": "CT9", "captain": "titanblue" },
+    { "season": "mLTP S18", "franchise": "Contain Your Enthusiasm", "name": "Contain Your Enthusiasm", "abbr": "CYE", "captain": "learn OD" },
+    { "season": "mLTP S18", "franchise": "Gateful Dead", "name": "Gateful Dead", "abbr": "GFD", "captain": "IfYouSeekAmy" },
+    { "season": "mLTP S18", "franchise": "Orbital Tilt", "name": "Orbital Tilt", "abbr": "OBT", "captain": "beast mode" },
+    { "season": "mLTP S18", "franchise": "Pardon My Gate", "name": "Pardon My Gate", "abbr": "PMG", "captain": "MrJoeHobo" },
+    { "season": "mLTP S18", "franchise": "Respawnsiballs", "name": "Respawnsiballs", "abbr": "RSP", "captain": "Poeticalto" },
+    { "season": "mLTP S18", "franchise": "Run the Jukes", "name": "Run the Jukes", "abbr": "RTJ", "captain": "Neb." },
+    { "season": "mLTP S18", "franchise": "TC Jukes", "name": "TC Jukes", "abbr": "TCJ", "captain": "Ron Hextball" },
+    { "season": "mLTP S18", "franchise": "The Balltastics", "name": "The Balltastics", "abbr": "TBT", "captain": "sidewalk" }
+  ],
+  "playerSeasons": [
+    { "season": "mLTP S18", "team": null, "player": "Ball-erina", "playing_as": "Ball-erina" },
+    { "season": "mLTP S18", "team": null, "player": "CostanzaHP", "playing_as": "CostanzaHP" },
+    { "season": "mLTP S18", "team": null, "player": "Kaleb Song", "playing_as": "Kaleb Song" },
+    { "season": "mLTP S18", "team": null, "player": "McBooty", "playing_as": "McBooty" },
+    { "season": "mLTP S18", "team": null, "player": "OD God", "playing_as": "OD God" },
+    { "season": "mLTP S18", "team": null, "player": "PascalSiakam", "playing_as": "PascalSiakam" },
+    { "season": "mLTP S18", "team": null, "player": "TheBob18", "playing_as": "TheBob18" },
+    { "season": "mLTP S18", "team": null, "player": "[leo] sass", "playing_as": "[leo] sass" },
+    { "season": "mLTP S18", "team": null, "player": "a$ap.", "playing_as": "a$ap." },
+    { "season": "mLTP S18", "team": null, "player": "blackberry", "playing_as": "blackberry" },
+    { "season": "mLTP S18", "team": null, "player": "bubblez", "playing_as": "bubblez" },
+    { "season": "mLTP S18", "team": null, "player": "h", "playing_as": "h" },
+    { "season": "mLTP S18", "team": null, "player": "kl", "playing_as": "kl" },
+    { "season": "mLTP S18", "team": null, "player": "nOice!!", "playing_as": "nOice!!" },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "BallsToYou.", "playing_as": "BallsToYou." },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "EIsa", "playing_as": "EIsa" },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "eee", "playing_as": "eee" },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "poobie", "playing_as": "poobie" },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "thick shady", "playing_as": "thick shady" },
+    { "season": "mLTP S18", "team": "21 Juke Street", "player": "yep", "playing_as": "yep" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "Bomber", "playing_as": "Bomber" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "Shrimpster", "playing_as": "Shrimpster" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "ez", "playing_as": "ez" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "pk", "playing_as": "pk" },
+    { "season": "mLTP S18", "team": "Blue Hot Chili Poppers", "player": "wassa", "playing_as": "wassa" },
+    { "season": "mLTP S18", "team": "CapHazard", "player": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+    { "season": "mLTP S18", "team": "CapHazard", "player": "RemoSlice", "playing_as": "RemoSlice" },
+    { "season": "mLTP S18", "team": "CapHazard", "player": "Sundown", "playing_as": "Sundown" },
+    { "season": "mLTP S18", "team": "CapHazard", "player": "gghob", "playing_as": "gghob" },
+    { "season": "mLTP S18", "team": "CapHazard", "player": "q42", "playing_as": "q42" },
+    { "season": "mLTP S18", "team": "Clout 9", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "mLTP S18", "team": "Clout 9", "player": "El Sacko", "playing_as": "El Sacko" },
+    { "season": "mLTP S18", "team": "Clout 9", "player": "King's Crown", "playing_as": "King's Crown" },
+    { "season": "mLTP S18", "team": "Clout 9", "player": "king krule", "playing_as": "king krule" },
+    { "season": "mLTP S18", "team": "Clout 9", "player": "titanblue", "playing_as": "titanblue" },
+    { "season": "mLTP S18", "team": "Contain Your Enthusiasm", "player": "Balled Eagle", "playing_as": "Balled Eagle" },
+    { "season": "mLTP S18", "team": "Contain Your Enthusiasm", "player": "Hawaii", "playing_as": "Hawaii" },
+    { "season": "mLTP S18", "team": "Contain Your Enthusiasm", "player": "black orchid", "playing_as": "black orchid" },
+    { "season": "mLTP S18", "team": "Contain Your Enthusiasm", "player": "kutrebar", "playing_as": "kutrebar" },
+    { "season": "mLTP S18", "team": "Contain Your Enthusiasm", "player": "learn OD", "playing_as": "learn OD" },
+    { "season": "mLTP S18", "team": "Gateful Dead", "player": "Four Twenty", "playing_as": "Four Twenty" },
+    { "season": "mLTP S18", "team": "Gateful Dead", "player": "Homie", "playing_as": "Homie" },
+    { "season": "mLTP S18", "team": "Gateful Dead", "player": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+    { "season": "mLTP S18", "team": "Gateful Dead", "player": "Jerry.", "playing_as": "Jerry." },
+    { "season": "mLTP S18", "team": "Orbital Tilt", "player": "Dank Sniper", "playing_as": "Dank Sniper" },
+    { "season": "mLTP S18", "team": "Orbital Tilt", "player": "LioneI Messi", "playing_as": "LioneI Messi" },
+    { "season": "mLTP S18", "team": "Orbital Tilt", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "mLTP S18", "team": "Orbital Tilt", "player": "cr30", "playing_as": "cr30" },
+    { "season": "mLTP S18", "team": "Pardon My Gate", "player": "Cheezedoodle", "playing_as": "Cheezedoodle" },
+    { "season": "mLTP S18", "team": "Pardon My Gate", "player": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+    { "season": "mLTP S18", "team": "Pardon My Gate", "player": "anduin", "playing_as": "anduin" },
+    { "season": "mLTP S18", "team": "Respawnsiballs", "player": "A-A-ron", "playing_as": "A-A-ron" },
+    { "season": "mLTP S18", "team": "Respawnsiballs", "player": "Poeticalto", "playing_as": "Poeticalto" },
+    { "season": "mLTP S18", "team": "Respawnsiballs", "player": "Raspberry", "playing_as": "Raspberry" },
+    { "season": "mLTP S18", "team": "Respawnsiballs", "player": "gg!", "playing_as": "gg!" },
+    { "season": "mLTP S18", "team": "Respawnsiballs", "player": "might dino", "playing_as": "might dino" },
+    { "season": "mLTP S18", "team": "Run the Jukes", "player": "BallAnka", "playing_as": "BallAnka" },
+    { "season": "mLTP S18", "team": "Run the Jukes", "player": "Dusk", "playing_as": "Dusk" },
+    { "season": "mLTP S18", "team": "Run the Jukes", "player": "NEB.", "playing_as": "NEB." },
+    { "season": "mLTP S18", "team": "Run the Jukes", "player": "Suchit", "playing_as": "Suchit" },
+    { "season": "mLTP S18", "team": "Run the Jukes", "player": "eldenn", "playing_as": "eldenn" },
+    { "season": "mLTP S18", "team": "TC Jukes", "player": "Gargantua", "playing_as": "Gargantua" },
+    { "season": "mLTP S18", "team": "TC Jukes", "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "mLTP S18", "team": "TC Jukes", "player": "Taurus", "playing_as": "Taurus" },
+    { "season": "mLTP S18", "team": "TC Jukes", "player": "refined", "playing_as": "refined" },
+    { "season": "mLTP S18", "team": "TC Jukes", "player": "team", "playing_as": "team" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "BAI_I_", "playing_as": "BAI_I_" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "HERB", "playing_as": "HERB" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "Snowball", "playing_as": "Snowball" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "Some Paul", "playing_as": "Some Paul" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "micropenis", "playing_as": "micropenis" },
+    { "season": "mLTP S18", "team": "The Balltastics", "player": "sidewalk", "playing_as": "sidewalk" }
+  ],
+  "matches": [
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "The Balltastics", "team2": "Clout 9",
+      "games": [
+        {
+          "tagpro_eu": "2180530", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Balltastics", "blue_team": "Clout 9", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "[leo] sass", "playing_as": "[leo] sass" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180552", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Clout 9", "blue_team": "The Balltastics", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "[leo] sass", "playing_as": "[leo] sass" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180567", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Balltastics", "blue_team": "Clout 9", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "[leo] sass", "playing_as": "[leo] sass" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "Blue Hot Chili Poppers", "team2": "Respawnsiballs",
+      "games": [
+        {
+          "tagpro_eu": "2180516", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Respawnsiballs", "blue_team": "Blue Hot Chili Poppers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180543", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Blue Hot Chili Poppers", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180563", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Blue Hot Chili Poppers", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180580", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Respawnsiballs", "blue_team": "Blue Hot Chili Poppers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "TC Jukes", "team2": "21 Juke Street",
+      "games": [
+        {
+          "tagpro_eu": "2180513", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "21 Juke Street", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180535", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "TC Jukes", "blue_team": "21 Juke Street", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180557", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "21 Juke Street", "blue_team": "TC Jukes", "team1_score": 10, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180574", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "TC Jukes", "blue_team": "21 Juke Street", "team1_score": 8, "team2_score": 0,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "CapHazard", "team2": "Orbital Tilt",
+      "games": [
+        {
+          "tagpro_eu": "2180594", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Orbital Tilt", "blue_team": "CapHazard", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180610", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "CapHazard", "blue_team": "Orbital Tilt", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180638", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "CapHazard", "blue_team": "Orbital Tilt", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180655", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Orbital Tilt", "blue_team": "CapHazard", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "Run the Jukes", "team2": "Contain Your Enthusiasm",
+      "games": [
+        {
+          "tagpro_eu": "2180493", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Contain Your Enthusiasm", "blue_team": "Run the Jukes", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180504", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Run the Jukes", "blue_team": "Contain Your Enthusiasm", "team1_score": 10, "team2_score": 0,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180518", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Contain Your Enthusiasm", "blue_team": "Run the Jukes", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "Pardon My Gate", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2180500", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Pardon My Gate", "blue_team": "Gateful Dead", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180511", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Gateful Dead", "blue_team": "Pardon My Gate", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180534", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Pardon My Gate", "blue_team": "Gateful Dead", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2180555", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Gateful Dead", "blue_team": "Pardon My Gate", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-13", "week": "Week 2", "team1": "The Balltastics", "team2": "CapHazard",
+      "games": [
+        {
+          "tagpro_eu": "2187303", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Balltastics", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "The Balltastics", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187326", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "CapHazard", "blue_team": "The Balltastics", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "The Balltastics", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187341", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "CapHazard", "blue_team": "The Balltastics", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187354", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "The Balltastics", "blue_team": "CapHazard", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "The Balltastics", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-13", "week": "Week 2", "team1": "Clout 9", "team2": "Orbital Tilt",
+      "games": [
+        {
+          "tagpro_eu": "2187248", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Orbital Tilt", "blue_team": "Clout 9", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187271", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Clout 9", "blue_team": "Orbital Tilt", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187293", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Clout 9", "blue_team": "Orbital Tilt", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Clout 9", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187310", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Orbital Tilt", "blue_team": "Clout 9", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-13", "week": "Week 2", "team1": "Blue Hot Chili Poppers", "team2": "Run the Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2187243", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Blue Hot Chili Poppers", "blue_team": "Run the Jukes", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187265", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Run the Jukes", "blue_team": "Blue Hot Chili Poppers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187288", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Blue Hot Chili Poppers", "blue_team": "Run the Jukes", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187299", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Run the Jukes", "blue_team": "Blue Hot Chili Poppers", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-13", "week": "Week 2", "team1": "TC Jukes", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2187214", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Pardon My Gate", "blue_team": "TC Jukes", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187230", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "TC Jukes", "blue_team": "Pardon My Gate", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187249", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "TC Jukes", "blue_team": "Pardon My Gate", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2187274", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Pardon My Gate", "blue_team": "TC Jukes", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-13", "week": "Week 2", "team1": "21 Juke Street", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2187224", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "21 Juke Street", "blue_team": "Gateful Dead", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2187241", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Gateful Dead", "blue_team": "21 Juke Street", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2187263", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "21 Juke Street", "blue_team": "Gateful Dead", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2187282", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Gateful Dead", "blue_team": "21 Juke Street", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "The Balltastics", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2192451", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Gateful Dead", "blue_team": "The Balltastics", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192467", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "The Balltastics", "blue_team": "Gateful Dead", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192486", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Balltastics", "blue_team": "Gateful Dead", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192499", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Gateful Dead", "blue_team": "The Balltastics", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "Clout 9", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2192481", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Pardon My Gate", "blue_team": "Clout 9", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192496", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Clout 9", "blue_team": "Pardon My Gate", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192514", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Clout 9", "blue_team": "Pardon My Gate", "team1_score": 1, "team2_score": 9,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192535", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Pardon My Gate", "blue_team": "Clout 9", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "Blue Hot Chili Poppers", "team2": "21 Juke Street",
+      "games": [
+        {
+          "tagpro_eu": "2192519", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "21 Juke Street", "blue_team": "Blue Hot Chili Poppers", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192536", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Blue Hot Chili Poppers", "blue_team": "21 Juke Street", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192552", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "21 Juke Street", "blue_team": "Blue Hot Chili Poppers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192568", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Blue Hot Chili Poppers", "blue_team": "21 Juke Street", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "Respawnsiballs", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2192543", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Respawnsiballs", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192583", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "TC Jukes", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192600", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Respawnsiballs", "blue_team": "TC Jukes", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "CapHazard", "team2": "Contain Your Enthusiasm",
+      "games": [
+        {
+          "tagpro_eu": "2192529", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "CapHazard", "blue_team": "Contain Your Enthusiasm", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "CostanzaHP", "playing_as": "CostanzaHP" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192546", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Contain Your Enthusiasm", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "CostanzaHP", "playing_as": "CostanzaHP" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192581", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "CapHazard", "blue_team": "Contain Your Enthusiasm", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "CostanzaHP", "playing_as": "CostanzaHP" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192596", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Contain Your Enthusiasm", "blue_team": "CapHazard", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "CostanzaHP", "playing_as": "CostanzaHP" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-20", "week": "Week 3", "team1": "Orbital Tilt", "team2": "Run the Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2192488", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Run the Jukes", "blue_team": "Orbital Tilt", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192503", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Orbital Tilt", "blue_team": "Run the Jukes", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192521", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Orbital Tilt", "blue_team": "Run the Jukes", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192534", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Run the Jukes", "blue_team": "Orbital Tilt", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-03", "week": "Week 4", "team1": "The Balltastics", "team2": "Respawnsiballs",
+      "games": [
+        {
+          "tagpro_eu": "2202558", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Respawnsiballs", "blue_team": "The Balltastics", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Respawnsiballs", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202576", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Balltastics", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Respawnsiballs", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202594", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Balltastics", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Respawnsiballs", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202610", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Respawnsiballs", "blue_team": "The Balltastics", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Respawnsiballs", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-03", "week": "Week 4", "team1": "Clout 9", "team2": "Blue Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2202479", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Blue Hot Chili Poppers", "blue_team": "Clout 9", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202498", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Clout 9", "blue_team": "Blue Hot Chili Poppers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202515", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Clout 9", "blue_team": "Blue Hot Chili Poppers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202535", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Blue Hot Chili Poppers", "blue_team": "Clout 9", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-05-30", "week": "Week 4", "team1": "TC Jukes", "team2": "Orbital Tilt",
+      "games": [
+        {
+          "tagpro_eu": "2199617", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Orbital Tilt", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2199632", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "TC Jukes", "blue_team": "Orbital Tilt", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2199650", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Orbital Tilt", "blue_team": "TC Jukes", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2199664", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "TC Jukes", "blue_team": "Orbital Tilt", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-03", "week": "Week 4", "team1": "21 Juke Street", "team2": "CapHazard",
+      "games": [
+        {
+          "tagpro_eu": "2202548", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "21 Juke Street", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "PascalSiakam", "playing_as": "PascalSiakam" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202566", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "CapHazard", "blue_team": "21 Juke Street", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "PascalSiakam", "playing_as": "PascalSiakam" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202601", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "21 Juke Street", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "PascalSiakam", "playing_as": "PascalSiakam" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202620", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "CapHazard", "blue_team": "21 Juke Street", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "PascalSiakam", "playing_as": "PascalSiakam" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-03", "week": "Week 4", "team1": "Run the Jukes", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2202473", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Run the Jukes", "blue_team": "Gateful Dead", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202490", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Gateful Dead", "blue_team": "Run the Jukes", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202507", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Run the Jukes", "blue_team": "Gateful Dead", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202525", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Gateful Dead", "blue_team": "Run the Jukes", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-03", "week": "Week 4", "team1": "Contain Your Enthusiasm", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2202461", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Contain Your Enthusiasm", "blue_team": "Pardon My Gate", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202475", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Pardon My Gate", "blue_team": "Contain Your Enthusiasm", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202497", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Pardon My Gate", "blue_team": "Contain Your Enthusiasm", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        },
+        {
+          "tagpro_eu": "2202516", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Contain Your Enthusiasm", "blue_team": "Pardon My Gate", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Balled Eagle", "playing_as": "Balled Eagle" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "The Balltastics", "team2": "Orbital Tilt",
+      "games": [
+        {
+          "tagpro_eu": "2207601", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Orbital Tilt", "blue_team": "The Balltastics", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "nOice!!", "playing_as": "nOice!!" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207615", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Balltastics", "blue_team": "Orbital Tilt", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "nOice!!", "playing_as": "nOice!!" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207632", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Orbital Tilt", "blue_team": "The Balltastics", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "nOice!!", "playing_as": "nOice!!" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207649", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Balltastics", "blue_team": "Orbital Tilt", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "nOice!!", "playing_as": "nOice!!" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "Clout 9", "team2": "CapHazard",
+      "games": [
+        {
+          "tagpro_eu": "2207589", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Clout 9", "blue_team": "CapHazard", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207597", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "CapHazard", "blue_team": "Clout 9", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207612", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "CapHazard", "blue_team": "Clout 9", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207631", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Clout 9", "blue_team": "CapHazard", "team1_score": 11, "team2_score": 5,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "pk", "playing_as": "pk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "Blue Hot Chili Poppers", "team2": "Contain Your Enthusiasm",
+      "games": [
+        {
+          "tagpro_eu": "2207599", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Contain Your Enthusiasm", "blue_team": "Blue Hot Chili Poppers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207609", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Blue Hot Chili Poppers", "blue_team": "Contain Your Enthusiasm", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207639", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Blue Hot Chili Poppers", "blue_team": "Contain Your Enthusiasm", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207655", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Contain Your Enthusiasm", "blue_team": "Blue Hot Chili Poppers", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "Respawnsiballs", "team2": "Run the Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2207681", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Run the Jukes", "blue_team": "Respawnsiballs", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207696", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Respawnsiballs", "blue_team": "Run the Jukes", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207709", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Run the Jukes", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207721", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Respawnsiballs", "blue_team": "Run the Jukes", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "TC Jukes", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2207607", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Gateful Dead", "blue_team": "TC Jukes", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207629", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "TC Jukes", "blue_team": "Gateful Dead", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207646", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "TC Jukes", "blue_team": "Gateful Dead", "team1_score": 4, "team2_score": 13,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207667", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Gateful Dead", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." },
+            { "team": "TC Jukes", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-10", "week": "Week 5", "team1": "21 Juke Street", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2207608", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Pardon My Gate", "blue_team": "21 Juke Street", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207624", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "21 Juke Street", "blue_team": "Pardon My Gate", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207641", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "21 Juke Street", "blue_team": "Pardon My Gate", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" }
+          ]
+        },
+        {
+          "tagpro_eu": "2207662", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Pardon My Gate", "blue_team": "21 Juke Street", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-17", "week": "Week 6", "team1": "The Balltastics", "team2": "Blue Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "2212534", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Blue Hot Chili Poppers", "blue_team": "The Balltastics", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212551", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Balltastics", "blue_team": "Blue Hot Chili Poppers", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "bubblez", "playing_as": "bubblez" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212566", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Balltastics", "blue_team": "Blue Hot Chili Poppers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "bubblez", "playing_as": "bubblez" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212579", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Blue Hot Chili Poppers", "blue_team": "The Balltastics", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Bomber", "playing_as": "Bomber" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "bubblez", "playing_as": "bubblez" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-17", "week": "Week 6", "team1": "Clout 9", "team2": "Respawnsiballs",
+      "games": [
+        {
+          "tagpro_eu": "2212602", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Clout 9", "blue_team": "Respawnsiballs", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212616", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Respawnsiballs", "blue_team": "Clout 9", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212625", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Respawnsiballs", "blue_team": "Clout 9", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212635", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Clout 9", "blue_team": "Respawnsiballs", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-20", "week": "Week 6", "team1": "TC Jukes", "team2": "CapHazard",
+      "games": [
+        {
+          "tagpro_eu": "2214842", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "TC Jukes", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "TC Jukes", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214847", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "CapHazard", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214856", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "CapHazard", "blue_team": "TC Jukes", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "TC Jukes", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214864", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "TC Jukes", "blue_team": "CapHazard", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "gghob", "playing_as": "gghob" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "TC Jukes", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-17", "week": "Week 6", "team1": "21 Juke Street", "team2": "Orbital Tilt",
+      "games": [
+        {
+          "tagpro_eu": "2212517", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Orbital Tilt", "blue_team": "21 Juke Street", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212530", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "21 Juke Street", "blue_team": "Orbital Tilt", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212546", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Orbital Tilt", "blue_team": "21 Juke Street", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2212561", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "21 Juke Street", "blue_team": "Orbital Tilt", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-20", "week": "Week 6", "team1": "Run the Jukes", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2214840", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Run the Jukes", "blue_team": "Pardon My Gate", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214846", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Pardon My Gate", "blue_team": "Run the Jukes", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214861", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Run the Jukes", "blue_team": "Pardon My Gate", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2214866", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Pardon My Gate", "blue_team": "Run the Jukes", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-17", "week": "Week 6", "team1": "Contain Your Enthusiasm", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2212510", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Contain Your Enthusiasm", "blue_team": "Gateful Dead", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2212526", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Gateful Dead", "blue_team": "Contain Your Enthusiasm", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2212556", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Contain Your Enthusiasm", "blue_team": "Gateful Dead", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2212572", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Gateful Dead", "blue_team": "Contain Your Enthusiasm", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "Hawaii", "playing_as": "Hawaii" },
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-24", "week": "Week 7", "team1": "The Balltastics", "team2": "Pardon My Gate",
+      "games": [
+        {
+          "tagpro_eu": "2217686", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Pardon My Gate", "blue_team": "The Balltastics", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217703", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Balltastics", "blue_team": "Pardon My Gate", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "The Balltastics", "player_season": "BAI_I_", "playing_as": "BAI_I_" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "micropenis", "playing_as": "micropenis" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217716", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Balltastics", "blue_team": "Pardon My Gate", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217735", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Pardon My Gate", "blue_team": "The Balltastics", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Pardon My Gate", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Pardon My Gate", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle" },
+            { "team": "Pardon My Gate", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Pardon My Gate", "player_season": "YOSSARIAN", "playing_as": "YOSSARIAN" },
+            { "team": "Pardon My Gate", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "The Balltastics", "player_season": "Kaleb Song", "playing_as": "Kaleb Song" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-24", "week": "Week 7", "team1": "Clout 9", "team2": "Gateful Dead",
+      "games": [
+        {
+          "tagpro_eu": "2217710", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Gateful Dead", "blue_team": "Clout 9", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2217721", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Clout 9", "blue_team": "Gateful Dead", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2217743", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Clout 9", "blue_team": "Gateful Dead", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Clout 9", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        },
+        {
+          "tagpro_eu": "2217757", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Gateful Dead", "blue_team": "Clout 9", "team1_score": 14, "team2_score": 7,
+          "players": [
+            { "team": "Clout 9", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Gateful Dead", "player_season": "Four Twenty", "playing_as": "Four Twenty" },
+            { "team": "Gateful Dead", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Gateful Dead", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Gateful Dead", "player_season": "Jerry.", "playing_as": "Jerry." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-24", "week": "Week 7", "team1": "Blue Hot Chili Poppers", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2217690", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Blue Hot Chili Poppers", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217711", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "TC Jukes", "blue_team": "Blue Hot Chili Poppers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "TC Jukes", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217725", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "TC Jukes", "blue_team": "Blue Hot Chili Poppers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217747", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Blue Hot Chili Poppers", "blue_team": "TC Jukes", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Blue Hot Chili Poppers", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Blue Hot Chili Poppers", "player_season": "h", "playing_as": "h" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "pk", "playing_as": "pk" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-24", "week": "Week 7", "team1": "Respawnsiballs", "team2": "21 Juke Street",
+      "games": [
+        {
+          "tagpro_eu": "2217764", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "21 Juke Street", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "21 Juke Street", "player_season": "yep", "playing_as": "yep" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217772", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Respawnsiballs", "blue_team": "21 Juke Street", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217781", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "21 Juke Street", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217793", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "21 Juke Street", "blue_team": "Respawnsiballs", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "EIsa", "playing_as": "EIsa" },
+            { "team": "21 Juke Street", "player_season": "eee", "playing_as": "eee" },
+            { "team": "21 Juke Street", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "21 Juke Street", "player_season": "thick shady", "playing_as": "thick shady" },
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-24", "week": "Week 7", "team1": "CapHazard", "team2": "Run the Jukes",
+      "games": [
+        {
+          "tagpro_eu": "2217726", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Run the Jukes", "blue_team": "CapHazard", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "kl", "playing_as": "kl" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217745", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "CapHazard", "blue_team": "Run the Jukes", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "kl", "playing_as": "kl" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217758", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "CapHazard", "blue_team": "Run the Jukes", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "kl", "playing_as": "kl" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2217768", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Run the Jukes", "blue_team": "CapHazard", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "CapHazard", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "CapHazard", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "CapHazard", "player_season": "kl", "playing_as": "kl" },
+            { "team": "CapHazard", "player_season": "q42", "playing_as": "q42" },
+            { "team": "Run the Jukes", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "Run the Jukes", "player_season": "Dusk", "playing_as": "Dusk" },
+            { "team": "Run the Jukes", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Run the Jukes", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S18", "date": "2019-06-26", "week": "Week 7", "team1": "Orbital Tilt", "team2": "Contain Your Enthusiasm",
+      "games": [
+        {
+          "tagpro_eu": "2219214", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Orbital Tilt", "blue_team": "Contain Your Enthusiasm", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2219228", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Contain Your Enthusiasm", "blue_team": "Orbital Tilt", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2219241", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Contain Your Enthusiasm", "blue_team": "Orbital Tilt", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        },
+        {
+          "tagpro_eu": "2219257", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Orbital Tilt", "blue_team": "Contain Your Enthusiasm", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Contain Your Enthusiasm", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Contain Your Enthusiasm", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "Contain Your Enthusiasm", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "Contain Your Enthusiasm", "player_season": "learn OD", "playing_as": "learn OD" },
+            { "team": "Orbital Tilt", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Orbital Tilt", "player_season": "LioneI Messi", "playing_as": "LioneI Messi" },
+            { "team": "Orbital Tilt", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orbital Tilt", "player_season": "cr30", "playing_as": "cr30" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1579 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S15", "franchise": "A Blockwork Orange", "name": "A Blockwork Orange", "abbr": "ABO", "captain": "Eashy" },
+    { "season": "MLTP S15", "franchise": "ALL CAPS", "name": "ALL CAPS", "abbr": "AC", "captain": "BALLDON'TLIE" },
+    { "season": "MLTP S15", "franchise": "Boostin Dynamo", "name": "Boostin Dynamo", "abbr": "BD", "captain": "intercest" },
+    { "season": "MLTP S15", "franchise": "Centra of Attention", "name": "Centra of Attention", "abbr": "COA", "captain": "Warriors" },
+    { "season": "MLTP S15", "franchise": "CreoKoalas", "name": "CreoKoalas", "abbr": "CRK", "captain": "Destar" },
+    { "season": "MLTP S15", "franchise": "Orlando Roller Bears", "name": "Orlando Roller Bears", "abbr": "RLB", "captain": "toasty." },
+    { "season": "MLTP S15", "franchise": "The Good Gravy Boat", "name": "The Good Gravy Boat", "abbr": "GGB", "captain": "GOOBR" },
+    { "season": "MLTP S15", "franchise": "The Wizard of Balls", "name": "The Wizard of Balls", "abbr": "WoB", "captain": "fender" }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S15", "team": null, "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "MLTP S15", "team": null, "player": "Fuzzy", "playing_as": "Fuzzy" },
+    { "season": "MLTP S15", "team": null, "player": "Mufro", "playing_as": "Mufro" },
+    { "season": "MLTP S15", "team": null, "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "MLTP S15", "team": null, "player": "herb.", "playing_as": "herb." },
+    { "season": "MLTP S15", "team": null, "player": "obama.", "playing_as": "obama." },
+    { "season": "MLTP S15", "team": null, "player": "veezy", "playing_as": "veezy" },
+    { "season": "MLTP S15", "team": null, "player": "waterwheel", "playing_as": "waterwheel" },
+    { "season": "MLTP S15", "team": "A Blockwork Orange", "player": "Curry", "playing_as": "Curry" },
+    { "season": "MLTP S15", "team": "A Blockwork Orange", "player": "Eashy", "playing_as": "Eashy" },
+    { "season": "MLTP S15", "team": "A Blockwork Orange", "player": "badger", "playing_as": "badger" },
+    { "season": "MLTP S15", "team": "A Blockwork Orange", "player": "phreak", "playing_as": "phreak" },
+    { "season": "MLTP S15", "team": "ALL CAPS", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S15", "team": "ALL CAPS", "player": "BOOGIE", "playing_as": "BOOGIE" },
+    { "season": "MLTP S15", "team": "ALL CAPS", "player": "MILKY", "playing_as": "MILKY" },
+    { "season": "MLTP S15", "team": "ALL CAPS", "player": "SIDE", "playing_as": "SIDE" },
+    { "season": "MLTP S15", "team": "Boostin Dynamo", "player": "Calamitous", "playing_as": "Calamitous" },
+    { "season": "MLTP S15", "team": "Boostin Dynamo", "player": "JOBA", "playing_as": "JOBA" },
+    { "season": "MLTP S15", "team": "Boostin Dynamo", "player": "Vials", "playing_as": "Vials" },
+    { "season": "MLTP S15", "team": "Boostin Dynamo", "player": "intercest", "playing_as": "intercest" },
+    { "season": "MLTP S15", "team": "Boostin Dynamo", "player": "protag", "playing_as": "protag" },
+    { "season": "MLTP S15", "team": "Centra of Attention", "player": "Daffodil", "playing_as": "Daffodil" },
+    { "season": "MLTP S15", "team": "Centra of Attention", "player": "Eggo", "playing_as": "Eggo" },
+    { "season": "MLTP S15", "team": "Centra of Attention", "player": "bright", "playing_as": "bright" },
+    { "season": "MLTP S15", "team": "Centra of Attention", "player": "sun chips", "playing_as": "sun chips" },
+    { "season": "MLTP S15", "team": "CreoKoalas", "player": "Destar", "playing_as": "Destar" },
+    { "season": "MLTP S15", "team": "CreoKoalas", "player": "MEX", "playing_as": "MEX" },
+    { "season": "MLTP S15", "team": "CreoKoalas", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S15", "team": "CreoKoalas", "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "Cheetosrule", "playing_as": "Cheetosrule" },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "Misaki", "playing_as": "Misaki" },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "Syniikal", "playing_as": "Syniikal" },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "iAaronK", "playing_as": "iAaronK" },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "taco.", "playing_as": "taco." },
+    { "season": "MLTP S15", "team": "Orlando Roller Bears", "player": "toasty.", "playing_as": "toasty." },
+    { "season": "MLTP S15", "team": "The Good Gravy Boat", "player": "Frozen", "playing_as": "Frozen" },
+    { "season": "MLTP S15", "team": "The Good Gravy Boat", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S15", "team": "The Good Gravy Boat", "player": "Spjork", "playing_as": "Spjork" },
+    { "season": "MLTP S15", "team": "The Good Gravy Boat", "player": "Wanye", "playing_as": "Wanye" },
+    { "season": "MLTP S15", "team": "The Good Gravy Boat", "player": "pulpo", "playing_as": "pulpo" },
+    { "season": "MLTP S15", "team": "The Wizard of Balls", "player": "Arbybear", "playing_as": "Arbybear" },
+    { "season": "MLTP S15", "team": "The Wizard of Balls", "player": "DT", "playing_as": "DT" },
+    { "season": "MLTP S15", "team": "The Wizard of Balls", "player": "Frothy", "playing_as": "Frothy" },
+    { "season": "MLTP S15", "team": "The Wizard of Balls", "player": "Gasol", "playing_as": "Gasol" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S15", "date": "2018-04-15", "week": "Week 1", "team1": "Boostin Dynamo", "team2": "Centra of Attention",
+      "games": [
+        {
+          "tagpro_eu": "1839848", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Boostin Dynamo", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839865", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Centra of Attention", "blue_team": "Boostin Dynamo", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839903", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "Boostin Dynamo", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839915", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Boostin Dynamo", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-15", "week": "Week 1", "team1": "ALL CAPS", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1839786", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Good Gravy Boat", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839803", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "ALL CAPS", "blue_team": "The Good Gravy Boat", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839812", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "ALL CAPS", "blue_team": "The Good Gravy Boat", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839826", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Good Gravy Boat", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-15", "week": "Week 1", "team1": "A Blockwork Orange", "team2": "The Wizard of Balls",
+      "games": [
+        {
+          "tagpro_eu": "1839790", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "A Blockwork Orange", "blue_team": "The Wizard of Balls", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839809", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Wizard of Balls", "blue_team": "A Blockwork Orange", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839823", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Wizard of Balls", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1839838", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "A Blockwork Orange", "blue_team": "The Wizard of Balls", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-15", "week": "Week 1", "team1": "Orlando Roller Bears", "team2": "CreoKoalas",
+      "games": [
+        {
+          "tagpro_eu": "1839834", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "CreoKoalas", "blue_team": "Orlando Roller Bears", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "CreoKoalas", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1839851", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Orlando Roller Bears", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "CreoKoalas", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1839868", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "CreoKoalas", "blue_team": "Orlando Roller Bears", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "CreoKoalas", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1839885", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Orlando Roller Bears", "blue_team": "CreoKoalas", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "CreoKoalas", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-22", "week": "Week 2", "team1": "The Good Gravy Boat", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": "1846645", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Boostin Dynamo", "blue_team": "The Good Gravy Boat", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846657", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Good Gravy Boat", "blue_team": "Boostin Dynamo", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846666", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Good Gravy Boat", "blue_team": "Boostin Dynamo", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846682", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Boostin Dynamo", "blue_team": "The Good Gravy Boat", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-22", "week": "Week 2", "team1": "The Wizard of Balls", "team2": "Centra of Attention",
+      "games": [
+        {
+          "tagpro_eu": "1846617", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "The Wizard of Balls", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846627", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Wizard of Balls", "blue_team": "Centra of Attention", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846640", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Centra of Attention", "blue_team": "The Wizard of Balls", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846656", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Wizard of Balls", "blue_team": "Centra of Attention", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-22", "week": "Week 2", "team1": "CreoKoalas", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "1846563", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "CreoKoalas", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "CreoKoalas", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846581", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "ALL CAPS", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "CreoKoalas", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846597", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "ALL CAPS", "blue_team": "CreoKoalas", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "CreoKoalas", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1846609", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "CreoKoalas", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "CreoKoalas", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-22", "week": "Week 2", "team1": "Orlando Roller Bears", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": "1846518", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "A Blockwork Orange", "blue_team": "Orlando Roller Bears", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "obama.", "playing_as": "obama." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1846525", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Orlando Roller Bears", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "obama.", "playing_as": "obama." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1846551", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Orlando Roller Bears", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "obama.", "playing_as": "obama." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-29", "week": "Week 3", "team1": "Boostin Dynamo", "team2": "The Wizard of Balls",
+      "games": [
+        {
+          "tagpro_eu": "1853769", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Boostin Dynamo", "blue_team": "The Wizard of Balls", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853779", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Wizard of Balls", "blue_team": "Boostin Dynamo", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853788", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "The Wizard of Balls", "blue_team": "Boostin Dynamo", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853796", "game_in_match": "Game 2 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Boostin Dynamo", "blue_team": "The Wizard of Balls", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-29", "week": "Week 3", "team1": "The Good Gravy Boat", "team2": "CreoKoalas",
+      "games": [
+        {
+          "tagpro_eu": "1853743", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Good Gravy Boat", "blue_team": "CreoKoalas", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-29", "week": "Week 3", "team1": "Centra of Attention", "team2": "Orlando Roller Bears",
+      "games": [
+        {
+          "tagpro_eu": "1853823", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Orlando Roller Bears", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "Orlando Roller Bears", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1853838", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Centra of Attention", "blue_team": "Orlando Roller Bears", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "Orlando Roller Bears", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1853846", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Centra of Attention", "blue_team": "Orlando Roller Bears", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "Orlando Roller Bears", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1853863", "game_in_match": "Game 2 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Orlando Roller Bears", "blue_team": "Centra of Attention", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "Orlando Roller Bears", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Orlando Roller Bears", "player_season": "iAaronK", "playing_as": "iAaronK" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-04-29", "week": "Week 3", "team1": "ALL CAPS", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": "1853692", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "ALL CAPS", "blue_team": "A Blockwork Orange", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853705", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "A Blockwork Orange", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853715", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "A Blockwork Orange", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" }
+          ]
+        },
+        {
+          "tagpro_eu": "1853728", "game_in_match": "Game 2 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "ALL CAPS", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-08", "week": "Week 4", "team1": "CreoKoalas", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": "1862360", "game_in_match": "Game 1 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Boostin Dynamo", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1862370", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "CreoKoalas", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1862388", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "CreoKoalas", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-06", "week": "Week 4", "team1": "The Wizard of Balls", "team2": "Orlando Roller Bears",
+      "games": [
+        {
+          "tagpro_eu": "1860548", "game_in_match": "Game 1 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "The Wizard of Balls", "blue_team": "Orlando Roller Bears", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "phreak", "playing_as": "phreak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860559", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Orlando Roller Bears", "blue_team": "The Wizard of Balls", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "phreak", "playing_as": "phreak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860559", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Orlando Roller Bears", "blue_team": "The Wizard of Balls", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "phreak", "playing_as": "phreak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860587", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The Wizard of Balls", "blue_team": "Orlando Roller Bears", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Calamitous", "playing_as": "Calamitous" },
+            { "team": "Orlando Roller Bears", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "phreak", "playing_as": "phreak" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-07", "week": "Week 4", "team1": "A Blockwork Orange", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1861427", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "The Good Gravy Boat", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1861447", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "The Good Gravy Boat", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1861460", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "A Blockwork Orange", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-06", "week": "Week 4", "team1": "Centra of Attention", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "1860468", "game_in_match": "Game 1 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "ALL CAPS", "blue_team": "Centra of Attention", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860481", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Centra of Attention", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860499", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Centra of Attention", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1860512", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "ALL CAPS", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-20", "week": "Week 5", "team1": "Boostin Dynamo", "team2": "Orlando Roller Bears",
+      "games": [
+        {
+          "tagpro_eu": "1873487", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Boostin Dynamo", "blue_team": "Orlando Roller Bears", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "herb.", "playing_as": "herb." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873498", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Orlando Roller Bears", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "herb.", "playing_as": "herb." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873511", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Orlando Roller Bears", "blue_team": "Boostin Dynamo", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "herb.", "playing_as": "herb." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873520", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Boostin Dynamo", "blue_team": "Orlando Roller Bears", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "herb.", "playing_as": "herb." },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-15", "week": "Week 5", "team1": "CreoKoalas", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": "1868485", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "A Blockwork Orange", "blue_team": "CreoKoalas", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1868494", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "CreoKoalas", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1868506", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "CreoKoalas", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1868514", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "A Blockwork Orange", "blue_team": "CreoKoalas", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-13", "week": "Week 5", "team1": "The Wizard of Balls", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "1866757", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "ALL CAPS", "blue_team": "The Wizard of Balls", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "obama.", "playing_as": "OBAMA." },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1866774", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The Wizard of Balls", "blue_team": "ALL CAPS", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "obama.", "playing_as": "OBAMA." },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1866787", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Wizard of Balls", "blue_team": "ALL CAPS", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "obama.", "playing_as": "OBAMA." },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        },
+        {
+          "tagpro_eu": "1866804", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "ALL CAPS", "blue_team": "The Wizard of Balls", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "obama.", "playing_as": "OBAMA." },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-14", "week": "Week 5", "team1": "The Good Gravy Boat", "team2": "Centra of Attention",
+      "games": [
+        {
+          "tagpro_eu": "1867706", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "The Good Gravy Boat", "blue_team": "Centra of Attention", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1867716", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Centra of Attention", "blue_team": "The Good Gravy Boat", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1867729", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "The Good Gravy Boat", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1867743", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Good Gravy Boat", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "The Good Gravy Boat", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-29", "week": "Week 6", "team1": "A Blockwork Orange", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": "1881756", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "A Blockwork Orange", "blue_team": "Boostin Dynamo", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881764", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Boostin Dynamo", "blue_team": "A Blockwork Orange", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881778", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Boostin Dynamo", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881787", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "A Blockwork Orange", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-27", "week": "Week 6", "team1": "ALL CAPS", "team2": "Orlando Roller Bears",
+      "games": [
+        {
+          "tagpro_eu": "1879859", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "ALL CAPS", "blue_team": "Orlando Roller Bears", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1879868", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Orlando Roller Bears", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1879878", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Orlando Roller Bears", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        },
+        {
+          "tagpro_eu": "1879886", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "ALL CAPS", "blue_team": "Orlando Roller Bears", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-20", "week": "Week 6", "team1": "Centra of Attention", "team2": "CreoKoalas",
+      "games": [
+        {
+          "tagpro_eu": "1873424", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "CreoKoalas", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873449", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "CreoKoalas", "blue_team": "Centra of Attention", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873468", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Centra of Attention", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873482", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "CreoKoalas", "blue_team": "Centra of Attention", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" },
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Misaki", "playing_as": "Misaki" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-20", "week": "Week 6", "team1": "The Good Gravy Boat", "team2": "The Wizard of Balls",
+      "games": [
+        {
+          "tagpro_eu": "1873450", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Good Gravy Boat", "blue_team": "The Wizard of Balls", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The Wizard of Balls", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873476", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Wizard of Balls", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873490", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Wizard of Balls", "blue_team": "The Good Gravy Boat", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1873503", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Good Gravy Boat", "blue_team": "The Wizard of Balls", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-29", "week": "Week 7", "team1": "Boostin Dynamo", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "1881824", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "ALL CAPS", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881841", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Boostin Dynamo", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 11,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881860", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Boostin Dynamo", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        },
+        {
+          "tagpro_eu": "1881875", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "ALL CAPS", "blue_team": "Boostin Dynamo", "team1_score": 5, "team2_score": 12,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "BOOGIE", "playing_as": "BOOGIE" },
+            { "team": "ALL CAPS", "player_season": "MILKY", "playing_as": "MILKY" },
+            { "team": "ALL CAPS", "player_season": "SIDE", "playing_as": "SIDE" },
+            { "team": "ALL CAPS", "player_season": "herb.", "playing_as": "HERB." },
+            { "team": "Boostin Dynamo", "player_season": "JOBA", "playing_as": "JOBA" },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Boostin Dynamo", "player_season": "protag", "playing_as": "protag" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-27", "week": "Week 7", "team1": "A Blockwork Orange", "team2": "Centra of Attention",
+      "games": [
+        {
+          "tagpro_eu": "1879901", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Centra of Attention", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879911", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "A Blockwork Orange", "blue_team": "Centra of Attention", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879920", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Centra of Attention", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879930", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "A Blockwork Orange", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "A Blockwork Orange", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "A Blockwork Orange", "player_season": "badger", "playing_as": "badger" },
+            { "team": "A Blockwork Orange", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Centra of Attention", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "Centra of Attention", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Centra of Attention", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Centra of Attention", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-30", "week": "Week 7", "team1": "Orlando Roller Bears", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1882838", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Good Gravy Boat", "blue_team": "Orlando Roller Bears", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1882847", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Orlando Roller Bears", "blue_team": "The Good Gravy Boat", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1882858", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Orlando Roller Bears", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1882874", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Good Gravy Boat", "blue_team": "Orlando Roller Bears", "team1_score": 8, "team2_score": 6,
+          "players": [
+            { "team": "Orlando Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Orlando Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Orlando Roller Bears", "player_season": "taco.", "playing_as": "taco." },
+            { "team": "Orlando Roller Bears", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "The Good Gravy Boat", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S15", "date": "2018-05-27", "week": "Week 7", "team1": "CreoKoalas", "team2": "The Wizard of Balls",
+      "games": [
+        {
+          "tagpro_eu": "1879913", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "CreoKoalas", "blue_team": "The Wizard of Balls", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879919", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Wizard of Balls", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879928", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Wizard of Balls", "blue_team": "CreoKoalas", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1879936", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "CreoKoalas", "blue_team": "The Wizard of Balls", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "MEX", "playing_as": "MEX" },
+            { "team": "CreoKoalas", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "CreoKoalas", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Wizard of Balls", "player_season": "DT", "playing_as": "DT" },
+            { "team": "The Wizard of Balls", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "The Wizard of Balls", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "The Wizard of Balls", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        }
+      ]
+    }
+  ]
+}

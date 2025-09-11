@@ -1,0 +1,2109 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S16", "franchise": "Centra of Attention", "name": "Centra of Attention", "abbr": "COA", "captain": "Wanye" },
+    { "season": "MLTP S16", "franchise": "Chennai Super Pings", "name": "Chennai Super Pings", "abbr": "CSP", "captain": "waterwheel" },
+    { "season": "MLTP S16", "franchise": "CreoKoalas", "name": "CreoKoalas", "abbr": "CRK", "captain": "Destar" },
+    { "season": "MLTP S16", "franchise": "Mickey Mouse Poperation", "name": "Mickey Mouse Poperation", "abbr": "MMP", "captain": "CB13" },
+    { "season": "MLTP S16", "franchise": "Pi-Curious", "name": "Pi-Curious", "abbr": "PIC", "captain": "BallAnka" },
+    { "season": "MLTP S16", "franchise": "Red Hot Chili Poppers", "name": "Red Hot Chili Poppers", "abbr": "RHCP", "captain": "Tantrew" },
+    { "season": "MLTP S16", "franchise": "She Wants the KD", "name": "She Wants the KD", "abbr": "SKD", "captain": "Syniikal" },
+    { "season": "MLTP S16", "franchise": "Stranger Pings", "name": "Stranger Pings", "abbr": "SRP", "captain": "#SelfySyntax" },
+    { "season": "MLTP S16", "franchise": "TC Jukes", "name": "TC Jukes", "abbr": "TCJ", "captain": "Ron Hextball" },
+    { "season": "MLTP S16", "franchise": "The Good Gravy Boat", "name": "The Good Gravy Boat", "abbr": "GGB", "captain": "GOOBR" },
+    { "season": "MLTP S16", "franchise": "The Holy Seehawks", "name": "The Holy Seehawks", "abbr": "THS", "captain": "bright" },
+    { "season": "MLTP S16", "franchise": "The United Pingdom", "name": "The United Pingdom", "abbr": "UP", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S16", "team": null, "player": "Nice Person", "playing_as": "Nice Person" },
+    { "season": "MLTP S16", "team": null, "player": "Piper", "playing_as": "Piper" },
+    { "season": "MLTP S16", "team": null, "player": "tits", "playing_as": "tits" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "Apopalypse", "playing_as": "Apopalypse" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "Bamboozler", "playing_as": "Bamboozler" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "Djinni", "playing_as": "Djinni" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "RacgiMan", "playing_as": "RacgiMan" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "Wanye", "playing_as": "Wanye" },
+    { "season": "MLTP S16", "team": "Centra of Attention", "player": "WarriOrs", "playing_as": "WarriOrs" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "A-A-ron", "playing_as": "A-A-ron" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "Cheetosrule", "playing_as": "Cheetosrule" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "WRIG", "playing_as": "WRIG" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "phreak", "playing_as": "phreak" },
+    { "season": "MLTP S16", "team": "Chennai Super Pings", "player": "waterwheel", "playing_as": "waterwheel" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "Destar", "playing_as": "Destar" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "Doris", "playing_as": "Doris" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "FLY", "playing_as": "FLY" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "idiOt", "playing_as": "idiOt" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "mis", "playing_as": "mis" },
+    { "season": "MLTP S16", "team": "CreoKoalas", "player": "yiss", "playing_as": "yiss" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "777z", "playing_as": "777z" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "Ball OON", "playing_as": "Ball OON" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "Crossover", "playing_as": "Crossover" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "MLTP S16", "team": "Mickey Mouse Poperation", "player": "sidewalk", "playing_as": "sidewalk" },
+    { "season": "MLTP S16", "team": "Pi-Curious", "player": "Bomberguy", "playing_as": "Bomberguy" },
+    { "season": "MLTP S16", "team": "Pi-Curious", "player": "Gasol", "playing_as": "Gasol" },
+    { "season": "MLTP S16", "team": "Pi-Curious", "player": "Homie", "playing_as": "Homie" },
+    { "season": "MLTP S16", "team": "Pi-Curious", "player": "boogie", "playing_as": "boogie" },
+    { "season": "MLTP S16", "team": "Pi-Curious", "player": "veezy", "playing_as": "veezy" },
+    { "season": "MLTP S16", "team": "Red Hot Chili Poppers", "player": "Curry", "playing_as": "Curry" },
+    { "season": "MLTP S16", "team": "Red Hot Chili Poppers", "player": "Fuzzy", "playing_as": "Fuzzy" },
+    { "season": "MLTP S16", "team": "Red Hot Chili Poppers", "player": "Spjork", "playing_as": "Spjork" },
+    { "season": "MLTP S16", "team": "Red Hot Chili Poppers", "player": "Suplex Slam", "playing_as": "Suplex Slam" },
+    { "season": "MLTP S16", "team": "Red Hot Chili Poppers", "player": "np", "playing_as": "np" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "DEAD NAN", "playing_as": "DEAD NAN" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "HERB", "playing_as": "HERB" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "Sam-", "playing_as": "Sam-" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "Some Paul", "playing_as": "Some Paul" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "Suchit", "playing_as": "Suchit" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "Syniikal", "playing_as": "Syniikal" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "eee", "playing_as": "eee" },
+    { "season": "MLTP S16", "team": "She Wants the KD", "player": "taco", "playing_as": "taco" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "Juke of Yore", "playing_as": "Juke of Yore" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "Kibo", "playing_as": "Kibo" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "MLTP S16", "team": "Stranger Pings", "player": "refined", "playing_as": "refined" },
+    { "season": "MLTP S16", "team": "TC Jukes", "player": "Armbranch", "playing_as": "Armbranch" },
+    { "season": "MLTP S16", "team": "TC Jukes", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S16", "team": "TC Jukes", "player": "Frozen", "playing_as": "Frozen" },
+    { "season": "MLTP S16", "team": "TC Jukes", "player": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+    { "season": "MLTP S16", "team": "TC Jukes", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "BigBird", "playing_as": "BigBird" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "Jake from SF", "playing_as": "Jake from SF" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "King's Crown", "playing_as": "King's Crown" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "Raspberry", "playing_as": "Raspberry" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "YUNG ZEFF", "playing_as": "YUNG ZEFF" },
+    { "season": "MLTP S16", "team": "The Good Gravy Boat", "player": "ez", "playing_as": "ez" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "Eggo", "playing_as": "Eggo" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "Epiphany", "playing_as": "Epiphany" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "blackberry", "playing_as": "blackberry" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "bright", "playing_as": "bright" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "ccga4", "playing_as": "ccga4" },
+    { "season": "MLTP S16", "team": "The Holy Seehawks", "player": "pulpo", "playing_as": "pulpo" },
+    { "season": "MLTP S16", "team": "The United Pingdom", "player": "Arbybear", "playing_as": "Arbybear" },
+    { "season": "MLTP S16", "team": "The United Pingdom", "player": "Mufro", "playing_as": "Mufro" },
+    { "season": "MLTP S16", "team": "The United Pingdom", "player": "Will1119", "playing_as": "Will1119" },
+    { "season": "MLTP S16", "team": "The United Pingdom", "player": "obama.", "playing_as": "obama." },
+    { "season": "MLTP S16", "team": "The United Pingdom", "player": "quibble", "playing_as": "quibble" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S16", "date": "2018-08-05", "week": "Week 1", "team1": "Chennai Super Pings", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1937856", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Chennai Super Pings", "blue_team": "The Good Gravy Boat", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937868", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Good Gravy Boat", "blue_team": "Chennai Super Pings", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937877", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Good Gravy Boat", "blue_team": "Chennai Super Pings", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937887", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Chennai Super Pings", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-12", "week": "Week 1", "team1": "Centra of Attention", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1943842", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Holy Seehawks", "blue_team": "Centra of Attention", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943850", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Centra of Attention", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943859", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Holy Seehawks", "blue_team": "Centra of Attention", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943865", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Centra of Attention", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-05", "week": "Week 1", "team1": "Red Hot Chili Poppers", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1937811", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Red Hot Chili Poppers", "blue_team": "The United Pingdom", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1937822", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The United Pingdom", "blue_team": "Red Hot Chili Poppers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1937830", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The United Pingdom", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1937845", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Red Hot Chili Poppers", "blue_team": "The United Pingdom", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-05", "week": "Week 1", "team1": "Stranger Pings", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1937907", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Stranger Pings", "blue_team": "Mickey Mouse Poperation", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937918", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Mickey Mouse Poperation", "blue_team": "Stranger Pings", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937927", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Mickey Mouse Poperation", "blue_team": "Stranger Pings", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937935", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Stranger Pings", "blue_team": "Mickey Mouse Poperation", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-05", "week": "Week 1", "team1": "TC Jukes", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "1937860", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Pi-Curious", "blue_team": "TC Jukes", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937874", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "TC Jukes", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937890", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Pi-Curious", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-05", "week": "Week 1", "team1": "She Wants the KD", "team2": "CreoKoalas",
+      "games": [
+        {
+          "tagpro_eu": "1937885", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "She Wants the KD", "blue_team": "CreoKoalas", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "idiOt", "playing_as": "idiOt" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Sam-", "playing_as": "Sam-" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937891", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "CreoKoalas", "blue_team": "She Wants the KD", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "idiOt", "playing_as": "idiOt" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Sam-", "playing_as": "Sam-" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937904", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "CreoKoalas", "blue_team": "She Wants the KD", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "idiOt", "playing_as": "idiOt" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Sam-", "playing_as": "Sam-" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1937913", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "She Wants the KD", "blue_team": "CreoKoalas", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "idiOt", "playing_as": "idiOt" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-09", "week": "Week 2", "team1": "Chennai Super Pings", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "1941284", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Chennai Super Pings", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1941293", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Red Hot Chili Poppers", "blue_team": "Chennai Super Pings", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1941301", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Red Hot Chili Poppers", "blue_team": "Chennai Super Pings", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Suplex Slam", "playing_as": "Suplex Slam" },
+            { "team": "Red Hot Chili Poppers", "player_season": "np", "playing_as": "np" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-21", "week": "Week 2", "team1": "Centra of Attention", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "1951798", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Centra of Attention", "blue_team": "Stranger Pings", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951803", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Stranger Pings", "blue_team": "Centra of Attention", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951814", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "Stranger Pings", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951825", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Stranger Pings", "blue_team": "Centra of Attention", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-14", "week": "Week 2", "team1": "The Holy Seehawks", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "1945572", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "TC Jukes", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1945579", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Holy Seehawks", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1945589", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1945603", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "TC Jukes", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-17", "week": "Week 2", "team1": "The Good Gravy Boat", "team2": "She Wants the KD",
+      "games": [
+        {
+          "tagpro_eu": "1948385", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "She Wants the KD", "blue_team": "The Good Gravy Boat", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" }
+          ]
+        },
+        {
+          "tagpro_eu": "1948393", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Good Gravy Boat", "blue_team": "She Wants the KD", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-12", "week": "Week 2", "team1": "CreoKoalas", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1943748", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "CreoKoalas", "blue_team": "The United Pingdom", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943758", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The United Pingdom", "blue_team": "CreoKoalas", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943768", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "CreoKoalas", "blue_team": "The United Pingdom", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943784", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The United Pingdom", "blue_team": "CreoKoalas", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-12", "week": "Week 2", "team1": "Pi-Curious", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1943780", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Mickey Mouse Poperation", "blue_team": "Pi-Curious", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943802", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Pi-Curious", "blue_team": "Mickey Mouse Poperation", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943817", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Mickey Mouse Poperation", "blue_team": "Pi-Curious", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1943826", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Mickey Mouse Poperation", "team1_score": 10, "team2_score": 2,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-19", "week": "Week 3", "team1": "Centra of Attention", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "1950044", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "Pi-Curious", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Pi-Curious", "player_season": "Bomberguy", "playing_as": "Bomberguy" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1950053", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Pi-Curious", "blue_team": "Centra of Attention", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1950063", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Centra of Attention", "blue_team": "Pi-Curious", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1950073", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Pi-Curious", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-21", "week": "Week 3", "team1": "The Holy Seehawks", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1951792", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Mickey Mouse Poperation", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951799", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Mickey Mouse Poperation", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951807", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Mickey Mouse Poperation", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "Piper", "playing_as": "Piper" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1951818", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Holy Seehawks", "blue_team": "Mickey Mouse Poperation", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "Piper", "playing_as": "Piper" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-19", "week": "Week 3", "team1": "The Good Gravy Boat", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1949953", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Good Gravy Boat", "blue_team": "The United Pingdom", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1949968", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The United Pingdom", "blue_team": "The Good Gravy Boat", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1949991", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Good Gravy Boat", "blue_team": "The United Pingdom", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1950003", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The United Pingdom", "blue_team": "The Good Gravy Boat", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-19", "week": "Week 3", "team1": "Stranger Pings", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "1949971", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "TC Jukes", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 12,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1949980", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Stranger Pings", "blue_team": "TC Jukes", "team1_score": 6, "team2_score": 10,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1949990", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Stranger Pings", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1950000", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "TC Jukes", "blue_team": "Stranger Pings", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-26", "week": "Week 4", "team1": "Chennai Super Pings", "team2": "Centra of Attention",
+      "games": [
+        {
+          "tagpro_eu": "1956114", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Centra of Attention", "blue_team": "Chennai Super Pings", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956128", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Chennai Super Pings", "blue_team": "Centra of Attention", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956134", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "Chennai Super Pings", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956143", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Centra of Attention", "blue_team": "Chennai Super Pings", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-29", "week": "Week 4", "team1": "The Holy Seehawks", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1958813", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Holy Seehawks", "blue_team": "The Good Gravy Boat", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1958825", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Good Gravy Boat", "blue_team": "The Holy Seehawks", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1958835", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "The Holy Seehawks", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1958840", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "The Good Gravy Boat", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "The Good Gravy Boat", "player_season": "ez", "playing_as": "ez" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-26", "week": "Week 4", "team1": "Red Hot Chili Poppers", "team2": "CreoKoalas",
+      "games": [
+        {
+          "tagpro_eu": "1956021", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Red Hot Chili Poppers", "blue_team": "CreoKoalas", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956031", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "CreoKoalas", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956045", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "CreoKoalas", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956060", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Red Hot Chili Poppers", "blue_team": "CreoKoalas", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-26", "week": "Week 4", "team1": "Stranger Pings", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "1956084", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Pi-Curious", "blue_team": "Stranger Pings", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" },
+            { "team": "Stranger Pings", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956098", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Stranger Pings", "blue_team": "Pi-Curious", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" },
+            { "team": "Stranger Pings", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956108", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "Pi-Curious", "blue_team": "Stranger Pings", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" },
+            { "team": "Stranger Pings", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956123", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Stranger Pings", "blue_team": "Pi-Curious", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "Stranger Pings", "player_season": "Kibo", "playing_as": "Kibo" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" },
+            { "team": "Stranger Pings", "player_season": "tits", "playing_as": "tits" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-26", "week": "Week 4", "team1": "TC Jukes", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1956138", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "TC Jukes", "blue_team": "Mickey Mouse Poperation", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956144", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Mickey Mouse Poperation", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956161", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "Mickey Mouse Poperation", "blue_team": "TC Jukes", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956174", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "TC Jukes", "blue_team": "Mickey Mouse Poperation", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-08-26", "week": "Week 4", "team1": "She Wants the KD", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1956055", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "She Wants the KD", "blue_team": "The United Pingdom", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956075", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The United Pingdom", "blue_team": "She Wants the KD", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956082", "game_in_match": "Game 2 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "The United Pingdom", "blue_team": "She Wants the KD", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        },
+        {
+          "tagpro_eu": "1956094", "game_in_match": "Game 2 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "She Wants the KD", "blue_team": "The United Pingdom", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "quibble", "playing_as": "quibble" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-02", "week": "Week 5", "team1": "Chennai Super Pings", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "1961643", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "Chennai Super Pings", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961653", "game_in_match": "Game 1 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Stranger Pings", "blue_team": "Chennai Super Pings", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961660", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Stranger Pings", "blue_team": "Chennai Super Pings", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961668", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Chennai Super Pings", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-02", "week": "Week 5", "team1": "Centra of Attention", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "1961638", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "TC Jukes", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Centra of Attention", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961650", "game_in_match": "Game 1 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Centra of Attention", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Centra of Attention", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961657", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "TC Jukes", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Centra of Attention", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961666", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "TC Jukes", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Centra of Attention", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-02", "week": "Week 5", "team1": "The Holy Seehawks", "team2": "She Wants the KD",
+      "games": [
+        {
+          "tagpro_eu": "1961656", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "The Holy Seehawks", "blue_team": "She Wants the KD", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961665", "game_in_match": "Game 1 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "She Wants the KD", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961672", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Holy Seehawks", "blue_team": "She Wants the KD", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "eee", "playing_as": "eee" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1961681", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "She Wants the KD", "blue_team": "The Holy Seehawks", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "eee", "playing_as": "eee" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-04", "week": "Week 5", "team1": "The Good Gravy Boat", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": "1963439", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "The Good Gravy Boat", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "1963453", "game_in_match": "Game 1 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Red Hot Chili Poppers", "blue_team": "The Good Gravy Boat", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        },
+        {
+          "tagpro_eu": "1963478", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Red Hot Chili Poppers", "blue_team": "The Good Gravy Boat", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "The Good Gravy Boat", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-09", "week": "Week 5", "team1": "CreoKoalas", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "1967435", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "CreoKoalas", "blue_team": "Pi-Curious", "team1_score": 8, "team2_score": 5,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967457", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "CreoKoalas", "blue_team": "Pi-Curious", "team1_score": 8, "team2_score": 0,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967465", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Pi-Curious", "blue_team": "CreoKoalas", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "mis", "playing_as": "mis" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-03", "week": "Week 5", "team1": "Mickey Mouse Poperation", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1962659", "game_in_match": "Game 1 Half 1", "map_name": "Tetanic", "map_id": 12535, "red_team": "The United Pingdom", "blue_team": "Mickey Mouse Poperation", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1962668", "game_in_match": "Game 1 Half 2", "map_name": "Tetanic", "map_id": 12535, "red_team": "Mickey Mouse Poperation", "blue_team": "The United Pingdom", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1962677", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The United Pingdom", "blue_team": "Mickey Mouse Poperation", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1962684", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Mickey Mouse Poperation", "blue_team": "The United Pingdom", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-09", "week": "Week 6", "team1": "Chennai Super Pings", "team2": "Pi-Curious",
+      "games": [
+        {
+          "tagpro_eu": "1967481", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Pi-Curious", "blue_team": "Chennai Super Pings", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967487", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Chennai Super Pings", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967498", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Pi-Curious", "blue_team": "Chennai Super Pings", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967512", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Chennai Super Pings", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-11", "week": "Week 6", "team1": "Centra of Attention", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1969263", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Centra of Attention", "blue_team": "Mickey Mouse Poperation", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-09", "week": "Week 6", "team1": "The Holy Seehawks", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1967494", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Holy Seehawks", "blue_team": "The United Pingdom", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1967505", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The United Pingdom", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1967517", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "The United Pingdom", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1967527", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The Holy Seehawks", "blue_team": "The United Pingdom", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-09", "week": "Week 6", "team1": "Red Hot Chili Poppers", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "1967456", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Stranger Pings", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967464", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Stranger Pings", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "Juke of Yore", "playing_as": "Juke of Yore" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "1967472", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Red Hot Chili Poppers", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Abe Lincoln", "playing_as": "Abe Lincoln" },
+            { "team": "Stranger Pings", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Stranger Pings", "player_season": "refined", "playing_as": "refined" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-10", "week": "Week 6", "team1": "TC Jukes", "team2": "She Wants the KD",
+      "games": [
+        {
+          "tagpro_eu": "1968265", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "TC Jukes", "blue_team": "She Wants the KD", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1968277", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "She Wants the KD", "blue_team": "TC Jukes", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1968290", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "She Wants the KD", "blue_team": "TC Jukes", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1968302", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "TC Jukes", "blue_team": "She Wants the KD", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "She Wants the KD", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
+            { "team": "She Wants the KD", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "She Wants the KD", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "She Wants the KD", "player_season": "taco", "playing_as": "taco" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-16", "week": "Week 7", "team1": "Chennai Super Pings", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1973463", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Chennai Super Pings", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1973475", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The Holy Seehawks", "blue_team": "Chennai Super Pings", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1973484", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Holy Seehawks", "blue_team": "Chennai Super Pings", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        },
+        {
+          "tagpro_eu": "1973492", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Chennai Super Pings", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Chennai Super Pings", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Chennai Super Pings", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Chennai Super Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Chennai Super Pings", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Holy Seehawks", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "The Holy Seehawks", "player_season": "blackberry", "playing_as": "blackberry" },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-18", "week": "Week 7", "team1": "Centra of Attention", "team2": "The Good Gravy Boat",
+      "games": [
+        {
+          "tagpro_eu": "1975228", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "The Good Gravy Boat", "blue_team": "Centra of Attention", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "YUNG ZEFF", "playing_as": "YUNG ZEFF" }
+          ]
+        },
+        {
+          "tagpro_eu": "1975239", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Centra of Attention", "blue_team": "The Good Gravy Boat", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "YUNG ZEFF", "playing_as": "YUNG ZEFF" }
+          ]
+        },
+        {
+          "tagpro_eu": "1975271", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Good Gravy Boat", "blue_team": "Centra of Attention", "team1_score": 8, "team2_score": 5,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "YUNG ZEFF", "playing_as": "YUNG ZEFF" }
+          ]
+        },
+        {
+          "tagpro_eu": "1975287", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Centra of Attention", "blue_team": "The Good Gravy Boat", "team1_score": 9, "team2_score": 4,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "Centra of Attention", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
+            { "team": "The Good Gravy Boat", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "The Good Gravy Boat", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "The Good Gravy Boat", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "The Good Gravy Boat", "player_season": "YUNG ZEFF", "playing_as": "YUNG ZEFF" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-17", "week": "Week 7", "team1": "Red Hot Chili Poppers", "team2": "TC Jukes",
+      "games": [
+        {
+          "tagpro_eu": "1974260", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "TC Jukes", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1974272", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Red Hot Chili Poppers", "blue_team": "TC Jukes", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1974279", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Red Hot Chili Poppers", "blue_team": "TC Jukes", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1974290", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "TC Jukes", "blue_team": "Red Hot Chili Poppers", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Nice Person", "playing_as": "Nice Person" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "TC Jukes", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "TC Jukes", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "TC Jukes", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-16", "week": "Week 7", "team1": "CreoKoalas", "team2": "Mickey Mouse Poperation",
+      "games": [
+        {
+          "tagpro_eu": "1973508", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Mickey Mouse Poperation", "blue_team": "CreoKoalas", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1973513", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "CreoKoalas", "blue_team": "Mickey Mouse Poperation", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "CreoKoalas", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "CreoKoalas", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "CreoKoalas", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "CreoKoalas", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Mickey Mouse Poperation", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Mickey Mouse Poperation", "player_season": "Ball OON", "playing_as": "Ball OON" },
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Mickey Mouse Poperation", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S16", "date": "2018-09-16", "week": "Week 7", "team1": "Pi-Curious", "team2": "The United Pingdom",
+      "games": [
+        {
+          "tagpro_eu": "1973404", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Pi-Curious", "blue_team": "The United Pingdom", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1973415", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The United Pingdom", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1973419", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The United Pingdom", "blue_team": "Pi-Curious", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        },
+        {
+          "tagpro_eu": "1973432", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Pi-Curious", "blue_team": "The United Pingdom", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Pi-Curious", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Pi-Curious", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Pi-Curious", "player_season": "veezy", "playing_as": "veezy" },
+            { "team": "The United Pingdom", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "The United Pingdom", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "The United Pingdom", "player_season": "Will1119", "playing_as": "Will1119" },
+            { "team": "The United Pingdom", "player_season": "obama.", "playing_as": "obama." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1527 @@
+{
+  "teamSeasons": [
+    { "season": "NLTP S36", "franchise": "FWO", "name": "FWO", "abbr": "FWO", "captain": null },
+    { "season": "NLTP S36", "franchise": "Flag Nabbit", "name": "Flag Nabbit", "abbr": "FNB", "captain": null },
+    { "season": "NLTP S36", "franchise": "Heart of the Hold", "name": "Heart of the Hold", "abbr": "HOH", "captain": null },
+    { "season": "NLTP S36", "franchise": "Mercury Revolutions", "name": "Mercury Revolutions", "abbr": "MRV", "captain": null },
+    { "season": "NLTP S36", "franchise": "That Time I Got Reincarnated as a Ball", "name": "That Time I Got Reincarnated as a Ball", "abbr": "GRB", "captain": null },
+    { "season": "NLTP S36", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "NLTP S36", "team": "FWO", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+    { "season": "NLTP S36", "team": "FWO", "player": "Penis Wings", "playing_as": "Penis Wings" },
+    { "season": "NLTP S36", "team": "FWO", "player": "Rayn", "playing_as": "Rayn" },
+    { "season": "NLTP S36", "team": "FWO", "player": "Riley_2025", "playing_as": "Riley_2025" },
+    { "season": "NLTP S36", "team": "FWO", "player": "Robiny", "playing_as": "Robiny" },
+    { "season": "NLTP S36", "team": "FWO", "player": "Snekster", "playing_as": "Snekster" },
+    { "season": "NLTP S36", "team": "FWO", "player": "havok", "playing_as": "havok" },
+    { "season": "NLTP S36", "team": "FWO", "player": "i am zeus", "playing_as": "i am zeus" },
+    { "season": "NLTP S36", "team": "FWO", "player": "tag.youre.it", "playing_as": "tag.youre.it" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "Avsy26", "playing_as": "Avsy26" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "Glimmer", "playing_as": "Glimmer" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "Pickle Ball", "playing_as": "Pickle Ball" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "PotatoPotato", "playing_as": "PotatoPotato" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "bleast", "playing_as": "bleast" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "cazador", "playing_as": "cazador" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "dyd", "playing_as": "dyd" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "jkxs", "playing_as": "jkxs" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "megapoop22", "playing_as": "megapoop22" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "pk", "playing_as": "pk" },
+    { "season": "NLTP S36", "team": "Flag Nabbit", "player": "sweatypete", "playing_as": "sweatypete" },
+    { "season": "NLTP S36", "team": "Heart of the Hold", "player": "Moto Moto", "playing_as": "Moto Moto" },
+    { "season": "NLTP S36", "team": "Heart of the Hold", "player": "timmysumball", "playing_as": "timmysumball" },
+    { "season": "NLTP S36", "team": "Mercury Revolutions", "player": "Orca", "playing_as": "Orca" },
+    { "season": "NLTP S36", "team": "Mercury Revolutions", "player": "anom", "playing_as": "anom" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "Belacqua", "playing_as": "Belacqua" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "Mueller", "playing_as": "Mueller" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "Secondskin", "playing_as": "Secondskin" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "o o l e r", "playing_as": "o o l e r" },
+    { "season": "NLTP S36", "team": "That Time I Got Reincarnated as a Ball", "player": "the buttons", "playing_as": "the buttons" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "Gamma", "playing_as": "Gamma" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "Karasu", "playing_as": "Karasu" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "LiddiLidd", "playing_as": "LiddiLidd" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "SmallyBigs", "playing_as": "SmallyBigs" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "Tumblewood", "playing_as": "Tumblewood" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "josh61616", "playing_as": "josh61616" },
+    { "season": "NLTP S36", "team": "The Land Before Timers", "player": "kmichael", "playing_as": "kmichael" }
+  ],
+  "matches": [
+    {
+      "season": "NLTP S36", "date": "2025-05-28", "week": "Week 1", "team1": "The Land Before Timers", "team2": "Flag Nabbit",
+      "games": [
+        {
+          "tagpro_eu": "3986793", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Flag Nabbit", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986822", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Flag Nabbit", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986839", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Flag Nabbit", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986854", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Flag Nabbit", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986869", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Flag Nabbit", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-05-28", "week": "Week 1", "team1": "FWO", "team2": "That Time I Got Reincarnated as a Ball",
+      "games": [
+        {
+          "tagpro_eu": "3986714", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 10, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986733", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986749", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986783", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986803", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-05-28", "week": "Week 1", "team1": "Heart of the Hold", "team2": "Mercury Revolutions",
+      "games": [
+        {
+          "tagpro_eu": "3986708", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Heart of the Hold", "blue_team": "Mercury Revolutions", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986729", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Mercury Revolutions", "blue_team": "Heart of the Hold", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986744", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Heart of the Hold", "blue_team": "Mercury Revolutions", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986771", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "Heart of the Hold", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3986792", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Heart of the Hold", "blue_team": "Mercury Revolutions", "team1_score": 11, "team2_score": 3,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-04", "week": "Week 2", "team1": "Mercury Revolutions", "team2": "FWO",
+      "games": [
+        {
+          "tagpro_eu": "3992295", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992307", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 11, "team2_score": 3,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992320", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992336", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992352", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-04", "week": "Week 2", "team1": "Heart of the Hold", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3992396", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Heart of the Hold", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992423", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Heart of the Hold", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992442", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992458", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Heart of the Hold", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992475", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Heart of the Hold", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-04", "week": "Week 2", "team1": "That Time I Got Reincarnated as a Ball", "team2": "Flag Nabbit",
+      "games": [
+        {
+          "tagpro_eu": "3992385", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Flag Nabbit", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992398", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Flag Nabbit", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992419", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Flag Nabbit", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992435", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Flag Nabbit", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3992456", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Flag Nabbit", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-11", "week": "Week 3", "team1": "Flag Nabbit", "team2": "Heart of the Hold",
+      "games": [
+        {
+          "tagpro_eu": "3997764", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Flag Nabbit", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997780", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Heart of the Hold", "blue_team": "Flag Nabbit", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997803", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "Flag Nabbit", "blue_team": "Heart of the Hold", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997821", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "Heart of the Hold", "blue_team": "Flag Nabbit", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "o o l e r", "playing_as": "o o l e r" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997839", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "Flag Nabbit", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-11", "week": "Week 3", "team1": "That Time I Got Reincarnated as a Ball", "team2": "Mercury Revolutions",
+      "games": [
+        {
+          "tagpro_eu": "3997723", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Mercury Revolutions", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997738", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mercury Revolutions", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "Mercury Revolutions", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997753", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Mercury Revolutions", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997771", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "Mercury Revolutions", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997798", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Mercury Revolutions", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-11", "week": "Week 3", "team1": "The Land Before Timers", "team2": "FWO",
+      "games": [
+        {
+          "tagpro_eu": "3997776", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997795", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997816", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997833", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997847", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-18", "week": "Week 4", "team1": "Mercury Revolutions", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "4003425", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Mercury Revolutions", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003439", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Land Before Timers", "blue_team": "Mercury Revolutions", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003460", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Mercury Revolutions", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003479", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Mercury Revolutions", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003503", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Mercury Revolutions", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-18", "week": "Week 4", "team1": "Heart of the Hold", "team2": "That Time I Got Reincarnated as a Ball",
+      "games": [
+        {
+          "tagpro_eu": "4003438", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Heart of the Hold", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003451", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Heart of the Hold", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003469", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Heart of the Hold", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003496", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Heart of the Hold", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003515", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Heart of the Hold", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-18", "week": "Week 4", "team1": "FWO", "team2": "Flag Nabbit",
+      "games": [
+        {
+          "tagpro_eu": "4003414", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003430", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Flag Nabbit", "blue_team": "FWO", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003455", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003473", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Flag Nabbit", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        },
+        {
+          "tagpro_eu": "4003495", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 11, "team2_score": 3,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-25", "week": "Week 5", "team1": "Flag Nabbit", "team2": "Mercury Revolutions",
+      "games": [
+        {
+          "tagpro_eu": "4009093", "game_in_match": "Game 1", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Mercury Revolutions", "blue_team": "Flag Nabbit", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "sweatypete", "playing_as": "sweatypete" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009121", "game_in_match": "Game 2", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Flag Nabbit", "blue_team": "Mercury Revolutions", "team1_score": 12, "team2_score": 4,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Flag Nabbit", "player_season": "sweatypete", "playing_as": "sweatypete" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009137", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Mercury Revolutions", "blue_team": "Flag Nabbit", "team1_score": 16, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Flag Nabbit", "player_season": "sweatypete", "playing_as": "sweatypete" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009157", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Flag Nabbit", "blue_team": "Mercury Revolutions", "team1_score": 17, "team2_score": 5,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Flag Nabbit", "player_season": "sweatypete", "playing_as": "sweatypete" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009169", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Mercury Revolutions", "blue_team": "Flag Nabbit", "team1_score": 15, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-25", "week": "Week 5", "team1": "The Land Before Timers", "team2": "That Time I Got Reincarnated as a Ball",
+      "games": [
+        {
+          "tagpro_eu": "4009154", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009165", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009181", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "The Land Before Timers", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009198", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009208", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "The Land Before Timers", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-06-25", "week": "Week 5", "team1": "FWO", "team2": "Heart of the Hold",
+      "games": [
+        {
+          "tagpro_eu": "4009084", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 5, "team2_score": 11,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009113", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Heart of the Hold", "blue_team": "FWO", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009132", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009152", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Heart of the Hold", "blue_team": "FWO", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" }
+          ]
+        },
+        {
+          "tagpro_eu": "4009168", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-02", "week": "Week 6", "team1": "Flag Nabbit", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "4014465", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Flag Nabbit", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 10,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014476", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "Flag Nabbit", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014488", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Flag Nabbit", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014500", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "Flag Nabbit", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014512", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "Flag Nabbit", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 17,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-02", "week": "Week 6", "team1": "That Time I Got Reincarnated as a Ball", "team2": "FWO",
+      "games": [
+        {
+          "tagpro_eu": "4014405", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014421", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "DYD" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014438", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "DYD" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014455", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "DYD" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014469", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 8, "team2_score": 6,
+          "players": [
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-02", "week": "Week 6", "team1": "Mercury Revolutions", "team2": "Heart of the Hold",
+      "games": [
+        {
+          "tagpro_eu": "4014396", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mercury Revolutions", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014412", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Heart of the Hold", "blue_team": "Mercury Revolutions", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014432", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Mercury Revolutions", "blue_team": "Heart of the Hold", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014447", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "Heart of the Hold", "blue_team": "Mercury Revolutions", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Heart of the Hold", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4014461", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "Mercury Revolutions", "blue_team": "Heart of the Hold", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "Mercury Revolutions", "player_season": "Orca", "playing_as": "Orca" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-09", "week": "Week 7", "team1": "FWO", "team2": "Mercury Revolutions",
+      "games": [
+        {
+          "tagpro_eu": "4018834", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018852", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018863", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 5, "team2_score": 12,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018878", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 12,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018900", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-09", "week": "Week 7", "team1": "The Land Before Timers", "team2": "Heart of the Hold",
+      "games": [
+        {
+          "tagpro_eu": "4018853", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "Heart of the Hold", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018865", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Heart of the Hold", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018884", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Heart of the Hold", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018905", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Heart of the Hold", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018918", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
+            { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
+            { "team": "Heart of the Hold", "player_season": "kmichael", "playing_as": "kmichael" },
+            { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
+            { "team": "The Land Before Timers", "player_season": "Gamma", "playing_as": "Gamma" },
+            { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
+            { "team": "The Land Before Timers", "player_season": "Tumblewood", "playing_as": "Tumblewood" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S36", "date": "2025-07-09", "week": "Week 7", "team1": "Flag Nabbit", "team2": "That Time I Got Reincarnated as a Ball",
+      "games": [
+        {
+          "tagpro_eu": "4018868", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "Flag Nabbit", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 1, "team2_score": 12,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Flag Nabbit", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018879", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Flag Nabbit", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018899", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Flag Nabbit", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018913", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Flag Nabbit", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        },
+        {
+          "tagpro_eu": "4018930", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "Flag Nabbit", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Flag Nabbit", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
+            { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
+            { "team": "Flag Nabbit", "player_season": "jkxs", "playing_as": "jkxs" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "megapoop22", "playing_as": "megapoop22" },
+            { "team": "That Time I Got Reincarnated as a Ball", "player_season": "pk", "playing_as": "pk" }
+          ]
+        }
+      ]
+    }
+  ]
+}
