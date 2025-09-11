@@ -56,8 +56,8 @@ def get_team_info(team_name: str, season_name: str) -> Tuple[str, str, Optional[
     history = all_team_seasons[team_name].get("history", {}).get(season_name, None)
     captain = history['captain'] if history else None
     roster = history['roster'] if history else []
-    abbr = all_team_seasons[g['team1']]['abbr']
-    maps_to = all_team_seasons[g['team1']]['maps_to']
+    abbr = all_team_seasons[team_name]['abbr']
+    maps_to = all_team_seasons[team_name]['maps_to']
     return abbr, maps_to, roster, captain
 
 
@@ -205,7 +205,6 @@ for season_name in seasons:
                     p_is_red = p.team.name == red_name
 
                 player_season_name = get_player_season_name(p.name, player_capitalization)
-                print(t1_maps_to, t2_maps_to, player_season_name, p_is_red, t1_is_red)
                 game_players.append({
                     'team': t1_maps_to if p_is_red == t1_is_red else t2_maps_to,
                     'player_season': player_season_name,
@@ -229,7 +228,6 @@ for season_name in seasons:
                 else:
                     players[player_season_name]['team'] = t1_maps_to if t1_is_red else t2_maps_to
 
-            1/0
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
             has_halves = any([g2['half'] != "Half 1" for g2 in games])
             match_object['games'].append({
