@@ -90,7 +90,7 @@ def get_t1_is_red(g: Dict[str, Any], player_teams: Dict[str, Dict[str, int]]) ->
         if p.team is None:
             handler = DetectJoinHandler()
             p.parse_events(handler)
-            p_is_red = 2 if handler.team.name == red_name else -2
+            p_is_red = 2 if handler.team.name == "red" else -2
         else:
             p_is_red = 2 if p.team.name == red_name else -2
         if p.name.lower() in [o.lower() for o in t1_roster]:
@@ -200,7 +200,7 @@ for season_name in seasons:
                 if p.team is None:
                     handler = DetectJoinHandler()
                     p.parse_events(handler)
-                    p_is_red = handler.team.name == red_name
+                    p_is_red = handler.team.name == "red"
                 else:
                     p_is_red = p.team.name == red_name
 
