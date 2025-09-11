@@ -205,6 +205,7 @@ for season_name in seasons:
                     p_is_red = p.team.name == red_name
 
                 player_season_name = get_player_season_name(p.name, player_capitalization)
+                print(t1_maps_to, t2_maps_to, player_season_name, p_is_red, t1_is_red)
                 game_players.append({
                     'team': t1_maps_to if p_is_red == t1_is_red else t2_maps_to,
                     'player_season': player_season_name,
@@ -220,14 +221,15 @@ for season_name in seasons:
                     }
                 # If the season has rosters, set the player's season team if they're on either team's roster
                 # If there are no rosters, set the player's season team to whoever they just played on
-                if t1_roster or t2_roster:
-                    if player_season_name in [n.lower() for n in t1_roster]:
+                if (t1_roster and t1_is_red) or (t2_roster and not t1_is_red):
+                    if player_season_name.lower() in [n.lower() for n in t1_roster]:
                         players[player_season_name]['team'] = t1_maps_to
-                    elif player_season_name in [n.lower() for n in t2_roster]:
+                    elif player_season_name.lower() in [n.lower() for n in t2_roster]:
                         players[player_season_name]['team'] = t2_maps_to
                 else:
                     players[player_season_name]['team'] = t1_maps_to if t1_is_red else t2_maps_to
 
+            1/0
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
             has_halves = any([g2['half'] != "Half 1" for g2 in games])
             match_object['games'].append({
