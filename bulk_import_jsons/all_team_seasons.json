@@ -514,7 +514,7 @@
       "MLTP S36"
     ],
     "abbr": "3SC",
-    "history": []
+    "history": {}
   },
   "80 Degrees": {
     "maps_to": "80 Degrees",
@@ -556,6 +556,7 @@
   },
   "877-CAPSNOW": {
     "maps_to": "877CAPSNOW",
+    "abbr": "877",
     "seasons": [
       "NLTP B S7",
       "NLTP S7"
@@ -569,7 +570,7 @@
       "MLTP S22",
       "mLTP S14"
     ],
-    "abbr": 877,
+    "abbr": "877",
     "history": {
       "nltp_s7": {
         "captain": "Bamboozler",
@@ -3778,6 +3779,7 @@
   },
   "Ballin' on a Budget (Gnas took all my money)": {
     "maps_to": "Ballin' on a Budget (Gnas took all my money)",
+    "abbr": "BOB",
     "seasons": [
       "mLTP S34"
     ]
@@ -9878,6 +9880,7 @@
   },
   "Coup d' Ècap": {
     "maps_to": "Coup d'Ecap",
+    "abbr": "CDC",
     "seasons": [
       "NLTP B S7",
       "NLTP B S8",
@@ -10463,7 +10466,7 @@
       "mLTP S36"
     ],
     "abbr": "FWO",
-    "history": []
+    "history": {}
   },
   "FWO (N)": {
     "maps_to": "FWO",
@@ -10471,7 +10474,7 @@
       "NLTP S36"
     ],
     "abbr": "FWO",
-    "history": []
+    "history": {}
   },
   "Feel Good Pingc": {
     "maps_to": "Feel Good Pingc",
@@ -10599,7 +10602,7 @@
       "NLTP S36"
     ],
     "abbr": "FNB",
-    "history": []
+    "history": {}
   },
   "Flairbnb": {
     "maps_to": "Flairbnb",
@@ -10793,7 +10796,7 @@
       "NLTP S35"
     ],
     "abbr": "FUR",
-    "history": []
+    "history": {}
   },
   "Furballers (m)": {
     "maps_to": "Furballers",
@@ -10801,7 +10804,7 @@
       "mLTP S36"
     ],
     "abbr": "FUR",
-    "history": []
+    "history": {}
   },
   "G-Squad": {
     "maps_to": "G-Squad",
@@ -11666,6 +11669,7 @@
   },
   "H&R Blox": {
     "maps_to": "H&R Blox",
+    "abbr": "HRB",
     "seasons": [
       "mLTP S31"
     ]
@@ -13743,7 +13747,7 @@
       "MLTP S36"
     ],
     "abbr": "IST",
-    "history": []
+    "history": {}
   },
   "Imagine Laggins": {
     "maps_to": "Imagine Laggins",
@@ -14782,6 +14786,7 @@
   },
   "Jungle Jukes": {
     "maps_to": "Jungle Jukes",
+    "abbr": "JNG",
     "seasons": [
       "mLTP S15"
     ]
@@ -21087,8 +21092,9 @@
       }
     }
   },
-  "PequeÃ±os Pandas": {
-    "maps_to": "PequeÃ±os Pandas",
+  "Pequeños Pandas": {
+    "maps_to": "Pequeños Pandas",
+    "abbr": "PEQ",
     "seasons": [
       "MLTP S14",
       "NLTP B S10",
@@ -27799,7 +27805,7 @@
       "NLTP S36"
     ],
     "abbr": "GRB",
-    "history": []
+    "history": {}
   },
   "The Aristocaps": {
     "maps_to": "The Aristocaps",
@@ -27908,7 +27914,7 @@
       "MLTP S36"
     ],
     "abbr": "BLK",
-    "history": []
+    "history": {}
   },
   "The Blokes": {
     "maps_to": "The Blokes",
@@ -30109,7 +30115,7 @@
       "mLTP S36"
     ],
     "abbr": "TMS",
-    "history": []
+    "history": {}
   },
   "The Mighty Ducks": {
     "maps_to": "The Mighty Ducks",
@@ -30481,7 +30487,7 @@
       "mLTP S36"
     ],
     "abbr": "TPO",
-    "history": []
+    "history": {}
   },
   "The Pointless Warriors": {
     "maps_to": "The Pointless Warriors",
@@ -31211,6 +31217,7 @@
   },
   "The United Pingdom": {
     "maps_to": "The United Pingdom",
+    "abbr": "UP",
     "seasons": [
       "MLTP S16"
     ]
@@ -33636,6 +33643,7 @@
   },
   "bigbadball's bigbadballs": {
     "maps_to": "bigbadball's bigbadballs",
+    "abbr": "BBB",
     "seasons": [
       "mLTP S35"
     ]
