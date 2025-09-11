@@ -1,12 +1,10 @@
 import os
 import sys
-import django # type: ignore
+import django
 import json
-import requests
 from pathlib import Path
-from datetime import datetime, timezone, date, timedelta
+from datetime import timedelta
 from typing import Dict, List, Optional, Any, Tuple
-import re
 import tagpro_eu
 
 # Set up Django environment
@@ -14,8 +12,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tagproref.settings')
 django.setup()
 
-from reference.models import Season, TeamSeason
-from reference.views.data_entry import infer_team, infer_season, infer_player, format_compact_json
+from reference.views.data_entry import format_compact_json
 
 with open("tpl_import/league_maps.json") as f:
     bulkmaps = json.load(f)
@@ -105,14 +102,24 @@ def get_t1_is_red(g: Dict[str, Any], player_teams: Dict[str, Dict[str, int]]) ->
     return t1_is_red > 0
 
 
+def get_player_season_name(name: str, capitalization: Dict[str, Dict[str, int]]) -> str:
+    name = name.lower()
+    best_name = None
+    best_amount = -1
+    for n in capitalization[name]:
+        if capitalization[name][n] > best_amount:
+            best_name = n
+            best_amount = capitalization[name][n]
+    return best_name
+
+
 for season_name in seasons:
-    s = seasons[season_name]
-    teams = []
-    players = []
+    teams: Dict[str, Any] = {}
+    players: Dict[str, Any] = {}
     matches = []
 
     match_mapping: Dict[str, Any] = {}
-    for g in s:
+    for g in seasons[season_name]:
         match_key = f"{g['team1']} {g['team2']} {g['week']}"
         if match_key not in match_mapping:
             match_mapping[match_key] = []
@@ -144,7 +151,9 @@ for season_name in seasons:
                 player_teams[p.name.lower()][g['team1']] += 1
                 player_teams[p.name.lower()][g['team2']] += 1
     
+    # Now actually add all the info
     for games in match_mapping.values():
+        match_object = None
         for g in games:
             m: Optional[tagpro_eu.Match] = match_from_links(g)
             if m is None:
@@ -154,10 +163,39 @@ for season_name in seasons:
             t1_abbr, t1_maps_to, t1_roster, t1_captain = get_team_info(g['team1'], season_name)
             t2_abbr, t2_maps_to, t2_roster, t2_captain = get_team_info(g['team2'], season_name)
 
+            # Add the teams
+            if t1_maps_to not in teams:
+                teams[t1_maps_to] = {
+                    'season': season_name,
+                    'franchise': t1_maps_to,
+                    'name': t1_maps_to,
+                    'abbr': t1_abbr,
+                    'captain': t1_captain
+                }
+            if t2_maps_to not in teams:
+                teams[t2_maps_to] = {
+                    'season': season_name,
+                    'franchise': t2_maps_to,
+                    'name': t2_maps_to,
+                    'abbr': t2_abbr,
+                    'captain': t2_captain
+                }
+
+            if match_object is None:
+                match_object = {
+                    'season': season_name,
+                    'date': (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d"),  # Convert from UTC to PST
+                    'week': f"Week {g['week']}",
+                    'team1': t1_maps_to,
+                    'team2': t2_maps_to,
+                    'games': []
+                }
+
             t1_is_red = get_t1_is_red(g, player_teams)
             red_name: str = m.team_red.name
             blue_name: str = m.team_blue.name
 
+            game_players = []
             for p in m.players:
                 if p.team is None:
                     handler = DetectJoinHandler()
@@ -165,5 +203,55 @@ for season_name in seasons:
                     p_is_red = handler.team.name == red_name
                 else:
                     p_is_red = p.team.name == red_name
-            
 
+                player_season_name = get_player_season_name(p.name, player_capitalization)
+                game_players.append({
+                    'team': t1_maps_to if p_is_red == t1_is_red else t2_maps_to,
+                    'player_season': player_season_name,
+                    'playing_as': p.name
+                })
+
+                if player_season_name not in players:
+                    players[player_season_name] = {
+                        'season': season_name,
+                        'team': None,
+                        'player': player_season_name,
+                        'playing_as': player_season_name
+                    }
+                # If the season has rosters, set the player's season team if they're on either team's roster
+                # If there are no rosters, set the player's season team to whoever they just played on
+                if t1_roster or t2_roster:
+                    if player_season_name in [n.lower() for n in t1_roster]:
+                        players[player_season_name]['team'] = t1_maps_to
+                    elif player_season_name in [n.lower() for n in t2_roster]:
+                        players[player_season_name]['team'] = t2_maps_to
+                else:
+                    players[player_season_name]['team'] = t1_maps_to if t1_is_red else t2_maps_to
+
+            game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
+            has_halves = any([g2['half'] != "Half 1" for g2 in games])
+            match_object['games'].append({
+                'tagpro_eu': str(m.match_id),
+                'game_in_match': f"{g['game']} {g['half']}" if has_halves else g['game'],
+                'map_name': m.map.get("name", None),
+                'map_id': m.map_id,
+                'red_team': t1_maps_to if t1_is_red else t2_maps_to,
+                'blue_team': t1_maps_to if not t1_is_red else t2_maps_to,
+                'team1_score': m.team_red.score if t1_is_red else m.team_blue.score,
+                'team2_score': m.team_red.score if not t1_is_red else m.team_blue.score,
+                'players': game_players
+            })
+        
+        if match_object is not None:
+            matches.append(match_object)
+
+    final_object = {
+        'teamSeasons': sorted([t for t in teams.values()], key=lambda t: t['name']),
+        'playerSeasons': sorted([p for p in players.values()], key=lambda p: (p['team'] or "", p['player'])),
+        'matches': matches
+    }
+    if season_name.startswith("mLTP"):
+        season_name = "Minors " + season_name.split(" ")[1]
+    season_name = season_name.lower().replace(" ", "_")
+    with open(f"bulk_import_jsons/tpl_generated/{season_name}.json", "w", encoding="utf-8") as f:
+        f.write(format_compact_json(final_object))
