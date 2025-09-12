@@ -129,6 +129,20 @@ for season_name in seasons:
     player_capitalization: Dict[str, Dict[str, int]] = {}
     player_teams = {}
     for games in match_mapping.values():
+        # From S27-31, they played 5-game regular season matches but entered it like two games of
+        # two halves with G1H2 having two EUs.
+        if games[0]['season'] >= 27\
+                and games[0]['season'] <= 31\
+                and len(games) == 4\
+                and len(games[1]['links']) == 2:
+            games: List[Dict] = games
+            games.insert(2, games[1].copy())
+            games[2]['links'] = [games[1]['links'][1]]
+            games[1]['links'] = [games[1]['links'][0]]
+            for i in range(5):
+                games[i]['game'] = f"Game {i + 1}"
+                games[i]['half'] = f"Half 1"
+
         for g in games:
             m: Optional[tagpro_eu.Match] = match_from_links(g)
             if m is None:

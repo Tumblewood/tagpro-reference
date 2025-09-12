@@ -14,6 +14,7 @@
     { "season": "NLTP S31", "team": null, "player": "DoggoDodge", "playing_as": "DoggoDodge" },
     { "season": "NLTP S31", "team": null, "player": "ErectChris", "playing_as": "ErectChris" },
     { "season": "NLTP S31", "team": null, "player": "Garfield", "playing_as": "Garfield" },
+    { "season": "NLTP S31", "team": null, "player": "Meesterman", "playing_as": "Meesterman" },
     { "season": "NLTP S31", "team": null, "player": "RUMPSKl", "playing_as": "RUMPSKl" },
     { "season": "NLTP S31", "team": null, "player": "Robt Ballson", "playing_as": "Robt Ballson" },
     { "season": "NLTP S31", "team": null, "player": "Some Ball 21", "playing_as": "Some Ball 21" },
@@ -66,7 +67,7 @@
       "season": "NLTP S31", "date": "2023-09-27", "week": "Week 1", "team1": "EREBCREBBCREAMC(d)", "team2": "Portland Tile Blazers",
       "games": [
         {
-          "tagpro_eu": "3525777", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3525777", "game_in_match": "Game 1", "map_name": "Oak", "map_id": 15154, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -79,7 +80,33 @@
           ]
         },
         {
-          "tagpro_eu": "3525810", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Portland Tile Blazers", "team1_score": 9, "team2_score": 2,
+          "tagpro_eu": "3525796", "game_in_match": "Game 2", "map_name": "Oak", "map_id": 15154, "red_team": "Portland Tile Blazers", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525842", "game_in_match": "Game 3", "map_name": "Oak", "map_id": 15154, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Portland Tile Blazers", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525810", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Portland Tile Blazers", "team1_score": 9, "team2_score": 2,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -92,7 +119,7 @@
           ]
         },
         {
-          "tagpro_eu": "3525829", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Portland Tile Blazers", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 10, "team2_score": 3,
+          "tagpro_eu": "3525829", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Portland Tile Blazers", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 10, "team2_score": 3,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -110,7 +137,7 @@
       "season": "NLTP S31", "date": "2023-09-27", "week": "Week 1", "team1": "The Land Before Timers", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": "3525759", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3525759", "game_in_match": "Game 1", "map_name": "Oak", "map_id": 15154, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -123,7 +150,33 @@
           ]
         },
         {
-          "tagpro_eu": "3525793", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 9,
+          "tagpro_eu": "3525778", "game_in_match": "Game 2", "map_name": "Oak", "map_id": 15154, "red_team": "Miami Ballphins", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 9,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "touraldinho", "playing_as": "touraldinho" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525821", "game_in_match": "Game 3", "map_name": "Oak", "map_id": 15154, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525793", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 9,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -136,7 +189,7 @@
           ]
         },
         {
-          "tagpro_eu": "3525805", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 5,
+          "tagpro_eu": "3525805", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -154,7 +207,7 @@
       "season": "NLTP S31", "date": "2023-09-27", "week": "Week 1", "team1": "Arctag IceCaps", "team2": "Respawnsiballs",
       "games": [
         {
-          "tagpro_eu": "3525723", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "Arctag IceCaps", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3525723", "game_in_match": "Game 1", "map_name": "Oak", "map_id": 15154, "red_team": "Arctag IceCaps", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
@@ -167,7 +220,33 @@
           ]
         },
         {
-          "tagpro_eu": "3525757", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3525741", "game_in_match": "Game 2", "map_name": "Oak", "map_id": 15154, "red_team": "Respawnsiballs", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "megapoop22TV", "playing_as": "megapoop22TV" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525788", "game_in_match": "Game 3", "map_name": "Oak", "map_id": 15154, "red_team": "Arctag IceCaps", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "megapoop22TV", "playing_as": "megapoop22TV" }
+          ]
+        },
+        {
+          "tagpro_eu": "3525757", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
@@ -180,7 +259,7 @@
           ]
         },
         {
-          "tagpro_eu": "3525771", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Respawnsiballs", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3525771", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Respawnsiballs", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
@@ -198,7 +277,7 @@
       "season": "NLTP S31", "date": "2023-09-27", "week": "Week 1", "team1": "Boosting Ballacudas", "team2": "Microphone Hawks",
       "games": [
         {
-          "tagpro_eu": "3525756", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 6,
+          "tagpro_eu": "3525756", "game_in_match": "Game 1", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 6,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -211,7 +290,20 @@
           ]
         },
         {
-          "tagpro_eu": "3525787", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 9, "team2_score": 2,
+          "tagpro_eu": "3525770", "game_in_match": "Game 2", "map_name": "Oak", "map_id": 15154, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3525815", "game_in_match": "Game 3", "map_name": "Oak", "map_id": 15154, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -224,7 +316,20 @@
           ]
         },
         {
-          "tagpro_eu": "3525800", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3525787", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "Microphone Hawks", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Muslim", "playing_as": "Muslim" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3525800", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -242,7 +347,7 @@
       "season": "NLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Arctag IceCaps", "team2": "Boosting Ballacudas",
       "games": [
         {
-          "tagpro_eu": "3528057", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3528057", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -255,7 +360,7 @@
           ]
         },
         {
-          "tagpro_eu": "3528104", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 7,
+          "tagpro_eu": "3528078", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 10,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -268,7 +373,33 @@
           ]
         },
         {
-          "tagpro_eu": "3528114", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3528094", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528104", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528114", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -286,7 +417,7 @@
       "season": "NLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Miami Ballphins", "team2": "Respawnsiballs",
       "games": [
         {
-          "tagpro_eu": "3528030", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 2, "team2_score": 12,
+          "tagpro_eu": "3528030", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 2, "team2_score": 12,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -299,7 +430,20 @@
           ]
         },
         {
-          "tagpro_eu": "3528072", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3528042", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Meesterman", "playing_as": "Meesterman" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528059", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -312,7 +456,20 @@
           ]
         },
         {
-          "tagpro_eu": "3528086", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 8,
+          "tagpro_eu": "3528072", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528086", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 8,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -388,7 +545,7 @@
       "season": "NLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "Microphone Hawks", "team2": "Portland Tile Blazers",
       "games": [
         {
-          "tagpro_eu": "3528095", "game_in_match": "Game 1 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Portland Tile Blazers", "team1_score": 8, "team2_score": 5,
+          "tagpro_eu": "3528095", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Portland Tile Blazers", "team1_score": 8, "team2_score": 5,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
             { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
@@ -401,7 +558,33 @@
           ]
         },
         {
-          "tagpro_eu": "3528122", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Microphone Hawks", "team1_score": 9, "team2_score": 1,
+          "tagpro_eu": "3528109", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Portland Tile Blazers", "blue_team": "Microphone Hawks", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hawks", "player_season": "rns", "playing_as": "rns" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528117", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "Portland Tile Blazers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Muslim", "playing_as": "Muslim" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3528122", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Microphone Hawks", "team1_score": 9, "team2_score": 1,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -414,7 +597,7 @@
           ]
         },
         {
-          "tagpro_eu": "3528125", "game_in_match": "Game 2 Half 2", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Portland Tile Blazers", "team1_score": 5, "team2_score": 9,
+          "tagpro_eu": "3528125", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Microphone Hawks", "blue_team": "Portland Tile Blazers", "team1_score": 5, "team2_score": 9,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -432,7 +615,7 @@
       "season": "NLTP S31", "date": "2023-10-04", "week": "Week 3", "team1": "Boosting Ballacudas", "team2": "Respawnsiballs",
       "games": [
         {
-          "tagpro_eu": "3529690", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3529690", "game_in_match": "Game 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -445,7 +628,7 @@
           ]
         },
         {
-          "tagpro_eu": "3529724", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 0,
+          "tagpro_eu": "3529700", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Respawnsiballs", "blue_team": "Boosting Ballacudas", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -458,7 +641,33 @@
           ]
         },
         {
-          "tagpro_eu": "3529738", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3529710", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "Respawnsiballs", "team1_score": 12, "team2_score": 3,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529724", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529738", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Boosting Ballacudas", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -476,7 +685,7 @@
       "season": "NLTP S31", "date": "2023-10-04", "week": "Week 3", "team1": "The Land Before Timers", "team2": "Arctag IceCaps",
       "games": [
         {
-          "tagpro_eu": "3529769", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3529769", "game_in_match": "Game 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
@@ -489,7 +698,33 @@
           ]
         },
         {
-          "tagpro_eu": "3529803", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 9,
+          "tagpro_eu": "3529781", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529791", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529803", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 9,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
@@ -502,7 +737,7 @@
           ]
         },
         {
-          "tagpro_eu": "3529811", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "3529811", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 7,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
@@ -520,7 +755,7 @@
       "season": "NLTP S31", "date": "2023-10-04", "week": "Week 3", "team1": "Portland Tile Blazers", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": "3529694", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3529694", "game_in_match": "Game 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -533,7 +768,33 @@
           ]
         },
         {
-          "tagpro_eu": "3529730", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Portland Tile Blazers", "team1_score": 6, "team2_score": 1,
+          "tagpro_eu": "3529706", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "Portland Tile Blazers", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Constantine", "playing_as": "Constantine" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529716", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Portland Tile Blazers", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3529730", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Portland Tile Blazers", "team1_score": 6, "team2_score": 1,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -546,7 +807,7 @@
           ]
         },
         {
-          "tagpro_eu": "3529743", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3529743", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Portland Tile Blazers", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
@@ -564,7 +825,7 @@
       "season": "NLTP S31", "date": "2023-10-04", "week": "Week 3", "team1": "Microphone Hawks", "team2": "EREBCREBBCREAMC(d)",
       "games": [
         {
-          "tagpro_eu": "3529789", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3529789", "game_in_match": "Game 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -577,7 +838,33 @@
           ]
         },
         {
-          "tagpro_eu": "3529821", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Microphone Hawks", "team1_score": 10, "team2_score": 1,
+          "tagpro_eu": "3529800", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Microphone Hawks", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Muslim", "playing_as": "Muslim" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3529810", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hawks", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "glimmer", "playing_as": "glimmer" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Muslim", "playing_as": "Muslim" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3529821", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Microphone Hawks", "team1_score": 10, "team2_score": 1,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -590,7 +877,7 @@
           ]
         },
         {
-          "tagpro_eu": "3529835", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 7, "team2_score": 3,
+          "tagpro_eu": "3529835", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 7, "team2_score": 3,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -608,7 +895,7 @@
       "season": "NLTP S31", "date": "2023-10-11", "week": "Week 4", "team1": "Respawnsiballs", "team2": "Microphone Hawks",
       "games": [
         {
-          "tagpro_eu": "3533595", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3533595", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -621,7 +908,33 @@
           ]
         },
         {
-          "tagpro_eu": "3533649", "game_in_match": "Game 2 Half 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Microphone Hawks", "blue_team": "Respawnsiballs", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "3533609", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hawks", "blue_team": "Respawnsiballs", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533630", "game_in_match": "Game 3", "map_name": "Catch-24", "map_id": 13912, "red_team": "Respawnsiballs", "blue_team": "Microphone Hawks", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533649", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13912, "red_team": "Microphone Hawks", "blue_team": "Respawnsiballs", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -635,7 +948,7 @@
           ]
         },
         {
-          "tagpro_eu": "3533660", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3533660", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Respawnsiballs", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -653,7 +966,7 @@
       "season": "NLTP S31", "date": "2023-10-11", "week": "Week 4", "team1": "The Land Before Timers", "team2": "Boosting Ballacudas",
       "games": [
         {
-          "tagpro_eu": "3533591", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 9,
+          "tagpro_eu": "3533591", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 9,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -666,7 +979,33 @@
           ]
         },
         {
-          "tagpro_eu": "3533639", "game_in_match": "Game 2 Half 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Boosting Ballacudas", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 7,
+          "tagpro_eu": "3533604", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "The Land Before Timers", "player_season": "Constantine", "playing_as": "Constantine" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533621", "game_in_match": "Game 3", "map_name": "Catch-24", "map_id": 13912, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 1, "team2_score": 12,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533639", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13912, "red_team": "Boosting Ballacudas", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 7,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -679,7 +1018,7 @@
           ]
         },
         {
-          "tagpro_eu": "3533657", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3533657", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -697,7 +1036,7 @@
       "season": "NLTP S31", "date": "2023-10-11", "week": "Week 4", "team1": "EREBCREBBCREAMC(d)", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": "3533589", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3533589", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -710,7 +1049,34 @@
           ]
         },
         {
-          "tagpro_eu": "3533644", "game_in_match": "Game 2 Half 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Miami Ballphins", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3533605", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533622", "game_in_match": "Game 3", "map_name": "Catch-24", "map_id": 13912, "red_team": "Miami Ballphins", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "khaiworld", "playing_as": "khaiworld" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533644", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13912, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Miami Ballphins", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -723,7 +1089,7 @@
           ]
         },
         {
-          "tagpro_eu": "3533656", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3533656", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -742,7 +1108,7 @@
       "season": "NLTP S31", "date": "2023-10-11", "week": "Week 4", "team1": "Portland Tile Blazers", "team2": "Arctag IceCaps",
       "games": [
         {
-          "tagpro_eu": "3533575", "game_in_match": "Game 1 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Portland Tile Blazers", "blue_team": "Arctag IceCaps", "team1_score": 7, "team2_score": 2,
+          "tagpro_eu": "3533575", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Portland Tile Blazers", "blue_team": "Arctag IceCaps", "team1_score": 7, "team2_score": 2,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -755,7 +1121,33 @@
           ]
         },
         {
-          "tagpro_eu": "3533618", "game_in_match": "Game 2 Half 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Arctag IceCaps", "blue_team": "Portland Tile Blazers", "team1_score": 7, "team2_score": 0,
+          "tagpro_eu": "3533585", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "Portland Tile Blazers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533601", "game_in_match": "Game 3", "map_name": "Catch-24", "map_id": 13912, "red_team": "Portland Tile Blazers", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3533618", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13912, "red_team": "Arctag IceCaps", "blue_team": "Portland Tile Blazers", "team1_score": 7, "team2_score": 0,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -773,7 +1165,7 @@
       "season": "NLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Respawnsiballs", "team2": "The Land Before Timers",
       "games": [
         {
-          "tagpro_eu": "3535788", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Respawnsiballs", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 0,
+          "tagpro_eu": "3535788", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Respawnsiballs", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 0,
           "players": [
             { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
@@ -786,7 +1178,7 @@
           ]
         },
         {
-          "tagpro_eu": "3535822", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Respawnsiballs", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": "3535809", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
@@ -799,7 +1191,33 @@
           ]
         },
         {
-          "tagpro_eu": "3535837", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "Respawnsiballs", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "3535853", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Respawnsiballs", "blue_team": "The Land Before Timers", "team1_score": 10, "team2_score": 2,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "megapoop22TV", "playing_as": "megapoop22TV" },
+            { "team": "The Land Before Timers", "player_season": "RUMPSKl", "playing_as": "RUMPSKl" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535822", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Respawnsiballs", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "megapoop22TV", "playing_as": "megapoop22TV" },
+            { "team": "The Land Before Timers", "player_season": "RUMPSKl", "playing_as": "RUMPSKl" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535837", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "Respawnsiballs", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
@@ -817,7 +1235,7 @@
       "season": "NLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Miami Ballphins", "team2": "Microphone Hawks",
       "games": [
         {
-          "tagpro_eu": "3535797", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "3535797", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -830,7 +1248,33 @@
           ]
         },
         {
-          "tagpro_eu": "3535833", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 10,
+          "tagpro_eu": "3535812", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Microphone Hawks", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3535857", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Microphone Hawks", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3535833", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Microphone Hawks", "team1_score": 1, "team2_score": 10,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -843,7 +1287,7 @@
           ]
         },
         {
-          "tagpro_eu": "3535846", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3535846", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Boyjedi", "playing_as": "Boyjedi" },
             { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
@@ -861,7 +1305,7 @@
       "season": "NLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Arctag IceCaps", "team2": "EREBCREBBCREAMC(d)",
       "games": [
         {
-          "tagpro_eu": "3535826", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3535826", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -874,7 +1318,7 @@
           ]
         },
         {
-          "tagpro_eu": "3535854", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Arctag IceCaps", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3535841", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 9,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -887,7 +1331,33 @@
           ]
         },
         {
-          "tagpro_eu": "3535866", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 14,
+          "tagpro_eu": "3535875", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 1, "team2_score": 9,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Arctag IceCaps", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535854", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Arctag IceCaps", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535866", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 14,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -905,7 +1375,7 @@
       "season": "NLTP S31", "date": "2023-10-15", "week": "Week 5", "team1": "Boosting Ballacudas", "team2": "Portland Tile Blazers",
       "games": [
         {
-          "tagpro_eu": "3535720", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Boosting Ballacudas", "blue_team": "Portland Tile Blazers", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3535720", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Boosting Ballacudas", "blue_team": "Portland Tile Blazers", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -918,7 +1388,33 @@
           ]
         },
         {
-          "tagpro_eu": "3535759", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "Portland Tile Blazers", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3535739", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Portland Tile Blazers", "blue_team": "Boosting Ballacudas", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535800", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Boosting Ballacudas", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" }
+          ]
+        },
+        {
+          "tagpro_eu": "3535759", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "Portland Tile Blazers", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -931,7 +1427,7 @@
           ]
         },
         {
-          "tagpro_eu": "3535780", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3535780", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -949,7 +1445,7 @@
       "season": "NLTP S31", "date": "2023-10-18", "week": "Week 6", "team1": "Miami Ballphins", "team2": "Arctag IceCaps",
       "games": [
         {
-          "tagpro_eu": "3537675", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 8, "team2_score": 0,
+          "tagpro_eu": "3537675", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 8, "team2_score": 0,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -962,7 +1458,33 @@
           ]
         },
         {
-          "tagpro_eu": "3537722", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "Miami Ballphins", "team1_score": 10, "team2_score": 6,
+          "tagpro_eu": "3537694", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Arctag IceCaps", "blue_team": "Miami Ballphins", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537710", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Miami Ballphins", "player_season": "Dragon  Ball", "playing_as": "Dragon  Ball" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537722", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "Miami Ballphins", "team1_score": 10, "team2_score": 6,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
             { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
@@ -975,7 +1497,7 @@
           ]
         },
         {
-          "tagpro_eu": "3537735", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "3537735", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
@@ -993,7 +1515,7 @@
       "season": "NLTP S31", "date": "2023-10-18", "week": "Week 6", "team1": "Portland Tile Blazers", "team2": "Respawnsiballs",
       "games": [
         {
-          "tagpro_eu": "3537656", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Respawnsiballs", "team1_score": 8, "team2_score": 4,
+          "tagpro_eu": "3537656", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Respawnsiballs", "team1_score": 8, "team2_score": 4,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
@@ -1006,7 +1528,33 @@
           ]
         },
         {
-          "tagpro_eu": "3537697", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "Portland Tile Blazers", "team1_score": 14, "team2_score": 1,
+          "tagpro_eu": "3537669", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Respawnsiballs", "blue_team": "Portland Tile Blazers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537686", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Portland Tile Blazers", "blue_team": "Respawnsiballs", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "k-rent", "playing_as": "k-rent" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Respawnsiballs", "player_season": "phlasid", "playing_as": "phlasid" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537697", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "Portland Tile Blazers", "team1_score": 14, "team2_score": 1,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
@@ -1019,7 +1567,7 @@
           ]
         },
         {
-          "tagpro_eu": "3537714", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Respawnsiballs", "team1_score": 2, "team2_score": 7,
+          "tagpro_eu": "3537714", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Portland Tile Blazers", "blue_team": "Respawnsiballs", "team1_score": 2, "team2_score": 7,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
             { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
@@ -1037,7 +1585,7 @@
       "season": "NLTP S31", "date": "2023-10-18", "week": "Week 6", "team1": "Boosting Ballacudas", "team2": "EREBCREBBCREAMC(d)",
       "games": [
         {
-          "tagpro_eu": "3537702", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "3537702", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -1050,7 +1598,34 @@
           ]
         },
         {
-          "tagpro_eu": "3537747", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Boosting Ballacudas", "team1_score": 14, "team2_score": 1,
+          "tagpro_eu": "3537719", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "khaiworld", "playing_as": "khaiworld" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537729", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Boosting Ballacudas", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "glimmer", "playing_as": "glimmer" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537747", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Boosting Ballacudas", "team1_score": 14, "team2_score": 1,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -1063,7 +1638,7 @@
           ]
         },
         {
-          "tagpro_eu": "3537767", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3537767", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Boosting Ballacudas", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -1082,7 +1657,7 @@
       "season": "NLTP S31", "date": "2023-10-18", "week": "Week 6", "team1": "The Land Before Timers", "team2": "Microphone Hawks",
       "games": [
         {
-          "tagpro_eu": "3537730", "game_in_match": "Game 1 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 8,
+          "tagpro_eu": "3537730", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 8,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -1095,7 +1670,33 @@
           ]
         },
         {
-          "tagpro_eu": "3537776", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3537744", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Land Before Timers", "player_season": "RUMPSKl", "playing_as": "RUMPSKl" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "charlottem", "playing_as": "charlottem" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537758", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Land Before Timers", "player_season": "RUMPSKl", "playing_as": "RUMPSKl" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3537776", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -1108,7 +1709,7 @@
           ]
         },
         {
-          "tagpro_eu": "3537786", "game_in_match": "Game 2 Half 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
+          "tagpro_eu": "3537786", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Microphone Hawks", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
@@ -1126,7 +1727,7 @@
       "season": "NLTP S31", "date": "2023-10-25", "week": "Week 7", "team1": "Respawnsiballs", "team2": "EREBCREBBCREAMC(d)",
       "games": [
         {
-          "tagpro_eu": "3541788", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3541788", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -1139,7 +1740,34 @@
           ]
         },
         {
-          "tagpro_eu": "3541841", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Respawnsiballs", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "3541808", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Respawnsiballs", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "glimmer", "playing_as": "Glimmer" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541830", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Respawnsiballs", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "Spear", "playing_as": "Spear" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "khaiworld", "playing_as": "khaiworld" },
+            { "team": "EREBCREBBCREAMC(d)", "player_season": "lifeofnurse", "playing_as": "lifeofnurse" },
+            { "team": "Respawnsiballs", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Respawnsiballs", "player_season": "CBad", "playing_as": "CBad" },
+            { "team": "Respawnsiballs", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "Respawnsiballs", "player_season": "Robt Ballson", "playing_as": "Robt Ballson" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541841", "game_in_match": "Game 4", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "EREBCREBBCREAMC(d)", "blue_team": "Respawnsiballs", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -1152,7 +1780,7 @@
           ]
         },
         {
-          "tagpro_eu": "3541854", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3541854", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Respawnsiballs", "blue_team": "EREBCREBBCREAMC(d)", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "EREBCREBBCREAMC(d)", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "EREBCREBBCREAMC(d)", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -1170,7 +1798,7 @@
       "season": "NLTP S31", "date": "2023-10-25", "week": "Week 7", "team1": "Microphone Hawks", "team2": "Arctag IceCaps",
       "games": [
         {
-          "tagpro_eu": "3541805", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 0,
+          "tagpro_eu": "3541805", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 0,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
@@ -1183,7 +1811,33 @@
           ]
         },
         {
-          "tagpro_eu": "3541853", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Arctag IceCaps", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "3541822", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "Microphone Hawks", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
+            { "team": "Arctag IceCaps", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3541836", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
+            { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
+            { "team": "Arctag IceCaps", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
+            { "team": "Arctag IceCaps", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Microphone Hawks", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Microphone Hawks", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Microphone Hawks", "player_season": "Jukester'", "playing_as": "Jukester'" },
+            { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." }
+          ]
+        },
+        {
+          "tagpro_eu": "3541853", "game_in_match": "Game 4", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Arctag IceCaps", "blue_team": "Microphone Hawks", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "CBad", "playing_as": "CBad" },
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
@@ -1196,7 +1850,7 @@
           ]
         },
         {
-          "tagpro_eu": "3541861", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3541861", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Microphone Hawks", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Arctag IceCaps", "player_season": "Garfield", "playing_as": "Garfield" },
@@ -1214,7 +1868,7 @@
       "season": "NLTP S31", "date": "2023-10-25", "week": "Week 7", "team1": "Portland Tile Blazers", "team2": "The Land Before Timers",
       "games": [
         {
-          "tagpro_eu": "3541787", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Portland Tile Blazers", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 7,
+          "tagpro_eu": "3541787", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Portland Tile Blazers", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 7,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
@@ -1227,7 +1881,20 @@
           ]
         },
         {
-          "tagpro_eu": "3541837", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Portland Tile Blazers", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 0,
+          "tagpro_eu": "3541801", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Portland Tile Blazers", "team1_score": 19, "team2_score": 6,
+          "players": [
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "avsy", "playing_as": "avsy" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541825", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Land Before Timers", "blue_team": "Portland Tile Blazers", "team1_score": 6, "team2_score": 1,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
@@ -1240,7 +1907,20 @@
           ]
         },
         {
-          "tagpro_eu": "3541849", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Portland Tile Blazers", "team1_score": 9, "team2_score": 5,
+          "tagpro_eu": "3541837", "game_in_match": "Game 4", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Portland Tile Blazers", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 0,
+          "players": [
+            { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
+            { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
+            { "team": "Portland Tile Blazers", "player_season": "Some Ball 23", "playing_as": "Some Ball 23" },
+            { "team": "Portland Tile Blazers", "player_season": "Sweg'", "playing_as": "Sweg'" },
+            { "team": "The Land Before Timers", "player_season": "ErectChris", "playing_as": "ErectChris" },
+            { "team": "The Land Before Timers", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "The Land Before Timers", "player_season": "timmysumball", "playing_as": "timmysumball" },
+            { "team": "The Land Before Timers", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541849", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "Portland Tile Blazers", "team1_score": 9, "team2_score": 5,
           "players": [
             { "team": "Portland Tile Blazers", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Portland Tile Blazers", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
@@ -1258,7 +1938,7 @@
       "season": "NLTP S31", "date": "2023-10-25", "week": "Week 7", "team1": "Miami Ballphins", "team2": "Boosting Ballacudas",
       "games": [
         {
-          "tagpro_eu": "3541773", "game_in_match": "Game 1 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Boosting Ballacudas", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3541773", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Boosting Ballacudas", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
@@ -1271,7 +1951,7 @@
           ]
         },
         {
-          "tagpro_eu": "3541831", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Boosting Ballacudas", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3541792", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Boosting Ballacudas", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
@@ -1284,7 +1964,33 @@
           ]
         },
         {
-          "tagpro_eu": "3541844", "game_in_match": "Game 2 Half 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 6,
+          "tagpro_eu": "3541818", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Miami Ballphins", "blue_team": "Boosting Ballacudas", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541831", "game_in_match": "Game 4", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Boosting Ballacudas", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
+            { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
+            { "team": "Boosting Ballacudas", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Boosting Ballacudas", "player_season": "Robiny", "playing_as": "Robiny" },
+            { "team": "Miami Ballphins", "player_season": "Glizzy", "playing_as": "Glizzy" },
+            { "team": "Miami Ballphins", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Miami Ballphins", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "Miami Ballphins", "player_season": "dyd", "playing_as": "dyd" }
+          ]
+        },
+        {
+          "tagpro_eu": "3541844", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 6,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "DoggoDodge", "playing_as": "DoggoDodge" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
