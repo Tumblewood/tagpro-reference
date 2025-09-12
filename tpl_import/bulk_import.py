@@ -142,6 +142,19 @@ for season_name in seasons:
             for i in range(5):
                 games[i]['game'] = f"Game {i + 1}"
                 games[i]['half'] = f"Half 1"
+        
+        # Split overtimes with multiple EUs into multiple games
+        i = 0
+        while i < len(games):
+            if games[i]['half'] == "Overtime"\
+                    and len(games[i]['links']) > 1\
+                    and all(["tagpro.eu" in link for link in games[i]['links']]):
+                for j, link in enumerate(games[i]['links'][1:]):
+                    games.insert(i + j + 1, games[i].copy())
+                    games[i + j + 1]['half'] = f"Overtime {j + 2}"
+                    games[i + j + 1]['links'] = [link]
+                games[i]['links'] = [games[i]['links'][0]]
+            i += 1
 
         for g in games:
             m: Optional[tagpro_eu.Match] = match_from_links(g)
