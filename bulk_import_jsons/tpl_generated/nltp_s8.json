@@ -20,12 +20,12 @@
   "playerSeasons": [
     { "season": "NLTP S8", "team": null, "player": "Brainiac", "playing_as": "Brainiac" },
     { "season": "NLTP S8", "team": null, "player": "FURY.", "playing_as": "FURY." },
-    { "season": "NLTP S8", "team": null, "player": "Rattpack", "playing_as": "Rattpack" },
     { "season": "NLTP S8", "team": null, "player": "Sniper", "playing_as": "Sniper" },
     { "season": "NLTP S8", "team": null, "player": "boogieidm", "playing_as": "boogieidm" },
     { "season": "NLTP S8", "team": null, "player": "d1hanow", "playing_as": "d1hanow" },
     { "season": "NLTP S8", "team": null, "player": "memeganoob", "playing_as": "memeganoob" },
     { "season": "NLTP S8", "team": "A Blockwork Orange", "player": "Moggle", "playing_as": "Moggle" },
+    { "season": "NLTP S8", "team": "A Blockwork Orange", "player": "Rattpack", "playing_as": "Rattpack" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "3.1 Thor", "playing_as": "3.1 Thor" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "Dope Francis", "playing_as": "Dope Francis" },
@@ -33,6 +33,7 @@
     { "season": "NLTP S8", "team": "Attack the Block", "player": "Infinite Sky", "playing_as": "Infinite Sky" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "Tonto", "playing_as": "Tonto" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "refined", "playing_as": "refined" },
+    { "season": "NLTP S8", "team": "CircleJukers", "player": "Aunt Jemima", "playing_as": "Aunt Jemima" },
     { "season": "NLTP S8", "team": "CircleJukers", "player": "BonerFart", "playing_as": "BonerFart" },
     { "season": "NLTP S8", "team": "CircleJukers", "player": "BusinessBird", "playing_as": "BusinessBird" },
     { "season": "NLTP S8", "team": "CircleJukers", "player": "Music", "playing_as": "Music" },
@@ -50,6 +51,7 @@
     { "season": "NLTP S8", "team": "Coup d'Ecap", "player": "YNLONG", "playing_as": "YNLONG" },
     { "season": "NLTP S8", "team": "Coup d'Ecap", "player": "d0pe", "playing_as": "d0pe" },
     { "season": "NLTP S8", "team": "Coup d'Ecap", "player": "j0ules", "playing_as": "j0ules" },
+    { "season": "NLTP S8", "team": "Insane Cap Posse", "player": "AlysBrangwin", "playing_as": "AlysBrangwin" },
     { "season": "NLTP S8", "team": "Insane Cap Posse", "player": "BallGasol", "playing_as": "BallGasol" },
     { "season": "NLTP S8", "team": "Insane Cap Posse", "player": "ButtSnake", "playing_as": "ButtSnake" },
     { "season": "NLTP S8", "team": "Insane Cap Posse", "player": "Kibo", "playing_as": "Kibo" },
@@ -1369,6 +1371,63 @@
       ]
     },
     {
+      "season": "NLTP S8", "date": "2016-12-13", "week": "Week 3", "team1": "Tyle Boyz", "team2": "Attack the Block",
+      "games": [
+        {
+          "tagpro_eu": "1110654", "game_in_match": "Game 1 Half 1", "map_name": "Constriction", "map_id": 1, "red_team": "Tyle Boyz", "blue_team": "Attack the Block", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Tyle Boyz", "player_season": "DUBSTEP", "playing_as": "DUBSTEP" },
+            { "team": "Tyle Boyz", "player_season": "Shabba", "playing_as": "Shabba" },
+            { "team": "Tyle Boyz", "player_season": "fractal", "playing_as": "fractal" },
+            { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
+          ]
+        },
+        {
+          "tagpro_eu": "1110615", "game_in_match": "Game 1 Half 2", "map_name": "Constriction", "map_id": 1, "red_team": "Attack the Block", "blue_team": "Tyle Boyz", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Tyle Boyz", "player_season": "DUBSTEP", "playing_as": "DUBSTEP" },
+            { "team": "Tyle Boyz", "player_season": "Shabba", "playing_as": "Shabba" },
+            { "team": "Tyle Boyz", "player_season": "fractal", "playing_as": "fractal" },
+            { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
+          ]
+        },
+        {
+          "tagpro_eu": "1110563", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Attack the Block", "blue_team": "Tyle Boyz", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "FragrantFowl", "playing_as": "FragrantFowl" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Tyle Boyz", "player_season": "DUBSTEP", "playing_as": "DUBSTEP" },
+            { "team": "Tyle Boyz", "player_season": "Shabba", "playing_as": "Shabba" },
+            { "team": "Tyle Boyz", "player_season": "fractal", "playing_as": "fractal" },
+            { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
+          ]
+        },
+        {
+          "tagpro_eu": "1110519", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tyle Boyz", "blue_team": "Attack the Block", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "FragrantFowl", "playing_as": "FragrantFowl" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Tyle Boyz", "player_season": "DUBSTEP", "playing_as": "DUBSTEP" },
+            { "team": "Tyle Boyz", "player_season": "Shabba", "playing_as": "Shabba" },
+            { "team": "Tyle Boyz", "player_season": "fractal", "playing_as": "fractal" },
+            { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
+          ]
+        }
+      ]
+    },
+    {
       "season": "NLTP S8", "date": "2016-12-13", "week": "Week 3", "team1": "ThunderCaps", "team2": "The Aristocaps",
       "games": [
         {
@@ -1897,6 +1956,76 @@
       ]
     },
     {
+      "season": "NLTP S8", "date": "2016-12-20", "week": "Week 4", "team1": "Attack the Block", "team2": "CircleJukers",
+      "games": [
+        {
+          "tagpro_eu": "1127271", "game_in_match": "Game 1 Half 1", "map_name": "Constriction", "map_id": 1, "red_team": "CircleJukers", "blue_team": "Attack the Block", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "CircleJukers", "player_season": "Aunt Jemima", "playing_as": "Aunt Jemima" },
+            { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
+            { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
+            { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "1127301", "game_in_match": "Game 1 Half 2", "map_name": "Constriction", "map_id": 1, "red_team": "Attack the Block", "blue_team": "CircleJukers", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "CircleJukers", "player_season": "Aunt Jemima", "playing_as": "Aunt Jemima" },
+            { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
+            { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
+            { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "1127316", "game_in_match": "Game 1 Overtime", "map_name": "Constriction", "map_id": 1, "red_team": "Attack the Block", "blue_team": "CircleJukers", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "CircleJukers", "player_season": "Aunt Jemima", "playing_as": "Aunt Jemima" },
+            { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
+            { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
+            { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "1127352", "game_in_match": "Game 2 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Attack the Block", "blue_team": "CircleJukers", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
+            { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
+            { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        },
+        {
+          "tagpro_eu": "1127387", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "CircleJukers", "blue_team": "Attack the Block", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "G1nseng", "playing_as": "G1nseng" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
+            { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
+            { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
+            { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" }
+          ]
+        }
+      ]
+    },
+    {
       "season": "NLTP S8", "date": "2016-12-20", "week": "Week 4", "team1": "The Aristocaps", "team2": "A Blockwork Orange",
       "games": [
         {
@@ -2192,6 +2321,64 @@
             { "team": "The Pointless Warriors", "player_season": "Ranger", "playing_as": "Ranger" },
             { "team": "The Pointless Warriors", "player_season": "STRFKR", "playing_as": "STRFKR" },
             { "team": "The Pointless Warriors", "player_season": "Tofuman", "playing_as": "Tofuman" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S8", "date": "2017-01-03", "week": "Week 5", "team1": "Insane Cap Posse", "team2": "Attack the Block",
+      "games": [
+        {
+          "tagpro_eu": "1158292", "game_in_match": "Game 1 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Insane Cap Posse", "blue_team": "Attack the Block", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
+            { "team": "Insane Cap Posse", "player_season": "AlysBrangwin", "playing_as": "AlysBrangwin" },
+            { "team": "Insane Cap Posse", "player_season": "BallGasol", "playing_as": "BallGasol" },
+            { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
+            { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" }
+          ]
+        },
+        {
+          "tagpro_eu": "1158335", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Attack the Block", "blue_team": "Insane Cap Posse", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
+            { "team": "Insane Cap Posse", "player_season": "BallGasol", "playing_as": "BallGasol" },
+            { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
+            { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
+            { "team": "Insane Cap Posse", "player_season": "ball.i.am", "playing_as": "ball.i.am" }
+          ]
+        },
+        {
+          "tagpro_eu": "1158364", "game_in_match": "Game 2 Half 1", "map_name": "IRON", "map_id": 11, "red_team": "Attack the Block", "blue_team": "Insane Cap Posse", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
+            { "team": "Insane Cap Posse", "player_season": "BallGasol", "playing_as": "BallGasol" },
+            { "team": "Insane Cap Posse", "player_season": "FURY.", "playing_as": "FURY." },
+            { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
+            { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
+            { "team": "Insane Cap Posse", "player_season": "ball.i.am", "playing_as": "ball.i.am" }
+          ]
+        },
+        {
+          "tagpro_eu": "1158398", "game_in_match": "Game 2 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "Insane Cap Posse", "blue_team": "Attack the Block", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
+            { "team": "Insane Cap Posse", "player_season": "BallGasol", "playing_as": "BallGasol" },
+            { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
+            { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
+            { "team": "Insane Cap Posse", "player_season": "ball.i.am", "playing_as": "ball.i.am" }
           ]
         }
       ]
@@ -2717,6 +2904,78 @@
             { "team": "ThunderCaps", "player_season": "Crossover", "playing_as": "Crossover" },
             { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua" },
             { "team": "ThunderCaps", "player_season": "tantrew", "playing_as": "tantrew" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S8", "date": "2017-01-10", "week": "Week 6", "team1": "Attack the Block", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": "1172163", "game_in_match": "Game 1 Half 1", "map_name": "IRON", "map_id": 11, "red_team": "A Blockwork Orange", "blue_team": "Attack the Block", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Mystical", "playing_as": "Mystical" },
+            { "team": "A Blockwork Orange", "player_season": "SpiKing", "playing_as": "SpiKing" },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball" },
+            { "team": "A Blockwork Orange", "player_season": "ess", "playing_as": "ess" },
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" }
+          ]
+        },
+        {
+          "tagpro_eu": "1172200", "game_in_match": "Game 1 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "Attack the Block", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Mystical", "playing_as": "Mystical" },
+            { "team": "A Blockwork Orange", "player_season": "SpiKing", "playing_as": "SpiKing" },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball" },
+            { "team": "A Blockwork Orange", "player_season": "ess", "playing_as": "ess" },
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
+            { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" }
+          ]
+        },
+        {
+          "tagpro_eu": "1172235", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Attack the Block", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Mystical", "playing_as": "Mystical" },
+            { "team": "A Blockwork Orange", "player_season": "SpiKing", "playing_as": "SpiKing" },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball" },
+            { "team": "A Blockwork Orange", "player_season": "ess", "playing_as": "ess" },
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" }
+          ]
+        },
+        {
+          "tagpro_eu": "1172285", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "A Blockwork Orange", "blue_team": "Attack the Block", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Mystical", "playing_as": "Mystical" },
+            { "team": "A Blockwork Orange", "player_season": "Rattpack", "playing_as": "Rattpack" },
+            { "team": "A Blockwork Orange", "player_season": "SpiKing", "playing_as": "SpiKing" },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball" },
+            { "team": "A Blockwork Orange", "player_season": "ess", "playing_as": "ess" },
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" }
+          ]
+        },
+        {
+          "tagpro_eu": "1172296", "game_in_match": "Game 2 Overtime", "map_name": "EMERALD", "map_id": 9, "red_team": "Attack the Block", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Mystical", "playing_as": "Mystical" },
+            { "team": "A Blockwork Orange", "player_season": "Rattpack", "playing_as": "Rattpack" },
+            { "team": "A Blockwork Orange", "player_season": "SpiKing", "playing_as": "SpiKing" },
+            { "team": "A Blockwork Orange", "player_season": "ess", "playing_as": "ess" },
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Attack the Block", "player_season": "Dope Francis", "playing_as": "Dope Francis" },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" }
           ]
         }
       ]
