@@ -263,7 +263,7 @@ for season_name in seasons:
                     elif player_season_name.lower() in [n.lower() for n in t2_roster]:
                         players[player_season_name]['team'] = t2_maps_to
                 else:
-                    players[player_season_name]['team'] = t1_maps_to if t1_is_red else t2_maps_to
+                    players[player_season_name]['team'] = t1_maps_to if p_is_red == t1_is_red else t2_maps_to
 
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
             has_halves = any([g2['half'] != "Half 1" for g2 in games])
