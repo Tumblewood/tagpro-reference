@@ -130,7 +130,7 @@ for season_name in seasons:
     player_teams = {}
     for games in match_mapping.values():
         # From S27-31, they played 5-game regular season matches but entered it like two games of
-        # two halves with G1H2 having two EUs.
+        # two halves with G1H2 or G2H2 having two EUs.
         if games[0]['season'] >= 27\
                 and games[0]['season'] <= 31\
                 and len(games) == 4\
@@ -139,6 +139,16 @@ for season_name in seasons:
             games.insert(2, games[1].copy())
             games[2]['links'] = [games[1]['links'][1]]
             games[1]['links'] = [games[1]['links'][0]]
+            for i in range(5):
+                games[i]['game'] = f"Game {i + 1}"
+                games[i]['half'] = f"Half 1"
+        elif games[0]['season'] in [27, 29]\
+                and len(games) == 4\
+                and len(games[3]['links']) == 2:
+            games: List[Dict] = games
+            games.insert(4, games[3].copy())
+            games[4]['links'] = [games[3]['links'][1]]
+            games[3]['links'] = [games[3]['links'][0]]
             for i in range(5):
                 games[i]['game'] = f"Game {i + 1}"
                 games[i]['half'] = f"Half 1"
