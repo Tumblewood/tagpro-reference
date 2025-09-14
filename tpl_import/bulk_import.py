@@ -297,9 +297,9 @@ for season_name in seasons:
                         p_is_red = p.team.name == m.team_red.name
                 else:
                     # If the player's team isn't known, assume it's whatever team they played for more
-                    if g['stats'][p] == 0:
+                    if g['stats'][p]['team'] == 0:
                         p_is_red = player_teams[p.lower()][g['team1']] > player_teams[p.lower()][g['team2']]
-                    p_is_red = g['stats'][p] == 1
+                    p_is_red = g['stats'][p]['team'] == 1
 
                 player_season_name = get_player_season_name(p.name if m else p, player_capitalization)
                 player_object = {
