@@ -47,6 +47,7 @@
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Ball God", "playing_as": "Ball God" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Curry", "playing_as": "Curry" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Dalek", "playing_as": "Dalek" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Eggo", "playing_as": "Eggo" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "El Sacko", "playing_as": "El Sacko" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "GOOBR", "playing_as": "GOOBR" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Neon", "playing_as": "Neon" },
@@ -54,7 +55,6 @@
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Wayne", "playing_as": "Wayne" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Wayne_", "playing_as": "Wayne_" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "cucurrucucu", "playing_as": "cucurrucucu" },
-    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "eggo", "playing_as": "eggo" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "iblis", "playing_as": "iblis" },
     { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "kelvin", "playing_as": "kelvin" },
     { "season": "MLTP S11", "team": "Holy Rollers", "player": "2P1S", "playing_as": "2P1S" },
@@ -69,11 +69,11 @@
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "CB13", "playing_as": "CB13" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "ComfortFlair", "playing_as": "ComfortFlair" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "Crossover", "playing_as": "Crossover" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "Destar", "playing_as": "Destar" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "Devious", "playing_as": "Devious" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "Sneak", "playing_as": "Sneak" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "WowSuchPro", "playing_as": "WowSuchPro" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "danisk", "playing_as": "danisk" },
-    { "season": "MLTP S11", "team": "Liberty Caps", "player": "destar", "playing_as": "destar" },
     { "season": "MLTP S11", "team": "Liberty Caps", "player": "fenix funk 5", "playing_as": "fenix funk 5" },
     { "season": "MLTP S11", "team": "Merballs", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
     { "season": "MLTP S11", "team": "Merballs", "player": "Death Pickle", "playing_as": "Death Pickle" },
@@ -410,8 +410,8 @@
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "eggo" },
             { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
             { "team": "Return of the Ping", "player_season": "The X Factor", "playing_as": "The X Factor" },
             { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
@@ -424,8 +424,8 @@
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "eggo" },
             { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
             { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
             { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
@@ -437,8 +437,8 @@
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "eggo" },
             { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
             { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
             { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
@@ -450,8 +450,8 @@
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "eggo" },
             { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
             { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
             { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
@@ -529,8 +529,8 @@
             { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" }
           ]
         },
         {
@@ -543,7 +543,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" }
           ]
         },
         {
@@ -555,8 +555,8 @@
             { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Liberty Caps", "player_season": "WowSuchPro", "playing_as": "WowSuchPro" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "WowSuchPro", "playing_as": "WowSuchPro" }
           ]
         },
         {
@@ -568,7 +568,7 @@
             { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
             { "team": "Liberty Caps", "player_season": "fenix funk 5", "playing_as": "fenix funk 5" }
           ]
         }
@@ -639,9 +639,9 @@
           "tagpro_eu": "1075607", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
             { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
@@ -653,9 +653,9 @@
         {
           "tagpro_eu": "1075638", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears For Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 1,
           "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
             { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
@@ -667,9 +667,9 @@
           "tagpro_eu": "1075674", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Tears For Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
             { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
@@ -681,9 +681,9 @@
           "tagpro_eu": "1075697", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears For Spheres", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
             { "team": "Tears For Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
@@ -932,9 +932,9 @@
             { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
             { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "kelvin", "playing_as": "kelvin" }
           ]
         },
@@ -959,9 +959,9 @@
             { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
             { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
           ]
         },
         {
@@ -972,9 +972,9 @@
             { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
             { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
           ]
         }
       ]
@@ -1279,7 +1279,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
           ]
         },
         {
@@ -1292,7 +1292,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
           ]
         },
         {
@@ -1305,7 +1305,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
           ]
         },
         {
@@ -1318,7 +1318,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" }
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
           ]
         }
       ]
@@ -1330,9 +1330,9 @@
           "tagpro_eu": "1105954", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
             { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
@@ -1343,9 +1343,9 @@
           "tagpro_eu": "1105981", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
             { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
@@ -1356,9 +1356,9 @@
           "tagpro_eu": "1106006", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 7, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
             { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
             { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
@@ -1370,9 +1370,9 @@
           "tagpro_eu": "1106030", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
             { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
             { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
@@ -1675,9 +1675,9 @@
           "tagpro_eu": "1124637", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
             { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
@@ -1688,9 +1688,9 @@
           "tagpro_eu": "1124677", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 9,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
             { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
@@ -1701,9 +1701,9 @@
           "tagpro_eu": "1124715", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
             { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
@@ -1714,9 +1714,9 @@
           "tagpro_eu": "1124751", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" },
             { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
             { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
@@ -1966,9 +1966,9 @@
             { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
             { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
           ]
         },
         {
@@ -1979,9 +1979,9 @@
             { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
             { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
           ]
         },
         {
@@ -1992,9 +1992,9 @@
             { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
             { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" }
           ]
         },
         {
@@ -2005,9 +2005,9 @@
             { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
             { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
             { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
             { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
-            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" },
-            { "team": "Holdin' Gate Warriors", "player_season": "eggo", "playing_as": "Eggo" }
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" }
           ]
         }
       ]
@@ -2021,7 +2021,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
@@ -2033,8 +2033,8 @@
           "players": [
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" },
             { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
@@ -2060,7 +2060,7 @@
             { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
             { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
-            { "team": "Liberty Caps", "player_season": "destar", "playing_as": "Destar" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },

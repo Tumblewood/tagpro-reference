@@ -82,7 +82,7 @@
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "DragonBeast", "playing_as": "DragonBeast" },
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "FirePire", "playing_as": "FirePire" },
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "Fitz.", "playing_as": "Fitz." },
-    { "season": "NLTP B S11", "team": "Bust a Pup", "player": "LarryLuciano", "playing_as": "LarryLuciano" },
+    { "season": "NLTP B S11", "team": "Bust a Pup", "player": "Larryluciano", "playing_as": "Larryluciano" },
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "Puggins", "playing_as": "Puggins" },
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "Raja", "playing_as": "Raja" },
     { "season": "NLTP B S11", "team": "Bust a Pup", "player": "Snapz", "playing_as": "Snapz" },
@@ -116,7 +116,6 @@
     { "season": "NLTP B S11", "team": "Nevermores", "player": "j0ules", "playing_as": "j0ules" },
     { "season": "NLTP B S11", "team": "Nevermores", "player": "lil baot", "playing_as": "lil baot" },
     { "season": "NLTP B S11", "team": "Nevermores", "player": "lmc", "playing_as": "lmc" },
-    { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "BOLSEN.", "playing_as": "BOLSEN." },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "Ball-erina", "playing_as": "Ball-erina" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "LiddiLidd", "playing_as": "LiddiLidd" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "Master88", "playing_as": "Master88" },
@@ -124,11 +123,12 @@
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "NameLEss", "playing_as": "NameLEss" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "ZEUS*BALL", "playing_as": "ZEUS*BALL" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "ballyball", "playing_as": "ballyball" },
+    { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "bolsen.", "playing_as": "bolsen." },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "pseudo", "playing_as": "pseudo" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "sweater", "playing_as": "sweater" },
     { "season": "NLTP B S11", "team": "Over the Pants Handoffs", "player": "wmwtso", "playing_as": "wmwtso" },
     { "season": "NLTP B S11", "team": "TC Boosts", "player": "Creta Petram", "playing_as": "Creta Petram" },
-    { "season": "NLTP B S11", "team": "TC Boosts", "player": "HTM", "playing_as": "HTM" },
+    { "season": "NLTP B S11", "team": "TC Boosts", "player": "Htm", "playing_as": "Htm" },
     { "season": "NLTP B S11", "team": "TC Boosts", "player": "Kornbeef", "playing_as": "Kornbeef" },
     { "season": "NLTP B S11", "team": "TC Boosts", "player": "Niplepotamus", "playing_as": "Niplepotamus" },
     { "season": "NLTP B S11", "team": "TC Boosts", "player": "Sensei Osy", "playing_as": "Sensei Osy" },
@@ -166,8 +166,8 @@
         {
           "tagpro_eu": "1685747", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Handoff God", "blue_team": "Blockwork Orange", "team1_score": 2, "team2_score": 2,
           "players": [
-            { "team": "Blockwork Orange", "player_season": "BOLSEN.", "playing_as": "BOLSEN." },
             { "team": "Blockwork Orange", "player_season": "Some Ballz", "playing_as": "Some Ballz" },
+            { "team": "Blockwork Orange", "player_season": "bolsen.", "playing_as": "BOLSEN." },
             { "team": "Blockwork Orange", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Blockwork Orange", "player_season": "migos", "playing_as": "migos" },
             { "team": "The Handoff God", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
@@ -343,7 +343,7 @@
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
             { "team": "Bust a Pup", "player_season": "Snapz", "playing_as": "Snapz" },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "HTM" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "HTM" },
             { "team": "TC Boosts", "player_season": "j.a. capp", "playing_as": "j.a. capp" },
             { "team": "TC Boosts", "player_season": "nucular", "playing_as": "nucular" }
           ]
@@ -353,7 +353,7 @@
           "players": [
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano" },
             { "team": "Bust a Pup", "player_season": "Snapz", "playing_as": "Snapz" },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
             { "team": "TC Boosts", "player_season": "TRA$HY", "playing_as": "TRA$HY" },
@@ -367,7 +367,7 @@
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano" },
             { "team": "TC Boosts", "player_season": "Niplepotamus", "playing_as": "Niplepotamus" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "TC Boosts", "player_season": "j.a. capp", "playing_as": "j.a. capp" },
@@ -379,9 +379,9 @@
           "players": [
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano" },
             { "team": "Bust a Pup", "player_season": "Snapz", "playing_as": "Snapz" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "HTM" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "HTM" },
             { "team": "TC Boosts", "player_season": "Niplepotamus", "playing_as": "Niplepotamus" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "TC Boosts", "player_season": "j.a. capp", "playing_as": "j.a. capp" }
@@ -689,7 +689,7 @@
             { "team": "Big Black Blocks", "player_season": "demman32", "playing_as": "demman32" },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano" },
             { "team": "Bust a Pup", "player_season": "iSuck", "playing_as": "iSuck" }
           ]
         },
@@ -703,7 +703,7 @@
             { "team": "Big Black Blocks", "player_season": "nanner", "playing_as": "nanner" },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" }
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano" }
           ]
         }
       ]
@@ -718,7 +718,7 @@
             { "team": "Nevermores", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Nevermores", "player_season": "Rose.", "playing_as": "Rose." },
             { "team": "Nevermores", "player_season": "lmc", "playing_as": "lmc" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Niplepotamus", "playing_as": "Niplepotamus" },
             { "team": "TC Boosts", "player_season": "Sensei Osy", "playing_as": "Sensei Osy" }
@@ -759,7 +759,7 @@
             { "team": "Nevermores", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Nevermores", "player_season": "Rose.", "playing_as": "Rose." },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Niplepotamus", "playing_as": "Niplepotamus" },
             { "team": "TC Boosts", "player_season": "Sensei Osy", "playing_as": "Sensei Osy" }
           ]
@@ -772,7 +772,7 @@
             { "team": "Nevermores", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Nevermores", "player_season": "Rose.", "playing_as": "Rose." },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Niplepotamus", "playing_as": "Niplepotamus" },
             { "team": "TC Boosts", "player_season": "Sensei Osy", "playing_as": "Sensei Osy" },
             { "team": "TC Boosts", "player_season": "TRA$HY", "playing_as": "TRA$HY" }
@@ -962,10 +962,10 @@
             { "team": "A¢AP Mob", "player_season": "A$AP SIR CLE", "playing_as": "A$AP SIR CLE" },
             { "team": "A¢AP Mob", "player_season": "Darth A$AP", "playing_as": "Darth A$AP" },
             { "team": "A¢AP Mob", "player_season": "lcskulls06", "playing_as": "lcskulls06" },
-            { "team": "Bust a Pup", "player_season": "BOLSEN.", "playing_as": "BOLSEN." },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "Raja", "playing_as": "Raja" },
-            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" }
+            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "BOLSEN." }
           ]
         },
         {
@@ -978,7 +978,7 @@
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
             { "team": "Bust a Pup", "player_season": "Berserk", "playing_as": "Berserk" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" }
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" }
           ]
         },
         {
@@ -988,10 +988,10 @@
             { "team": "A¢AP Mob", "player_season": "Kylo Ren", "playing_as": "Kylo Ren" },
             { "team": "A¢AP Mob", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "A¢AP Mob", "player_season": "lcskulls06", "playing_as": "lcskulls06" },
-            { "team": "Bust a Pup", "player_season": "BOLSEN.", "playing_as": "BOLSEN." },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "Raja", "playing_as": "Raja" },
-            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" }
+            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "BOLSEN." }
           ]
         },
         {
@@ -1004,7 +1004,7 @@
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
             { "team": "Bust a Pup", "player_season": "Berserk", "playing_as": "Berserk" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" }
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" }
           ]
         }
       ]
@@ -1187,7 +1187,7 @@
             { "team": "Han Solos and Chewbotca", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Han Solos and Chewbotca", "player_season": "o_O", "playing_as": "o_O" },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" }
           ]
@@ -1200,7 +1200,7 @@
             { "team": "Han Solos and Chewbotca", "player_season": "o_O", "playing_as": "o_O" },
             { "team": "Han Solos and Chewbotca", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" }
           ]
@@ -1461,7 +1461,7 @@
             { "team": "Blackcaps", "player_season": "Pepto Dismal", "playing_as": "Pepto Dismal" },
             { "team": "Blackcaps", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Blackcaps", "player_season": "gghob", "playing_as": "gghob" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "TC Boosts", "player_season": "Some Ball 11", "playing_as": "Some Ball 11" }
@@ -1563,7 +1563,7 @@
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
             { "team": "Bust a Pup", "player_season": "Fitz.", "playing_as": "Fitz." },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" },
             { "team": "Han Solos and Chewbotca", "player_season": "Berserk", "playing_as": "Berserk" },
             { "team": "Han Solos and Chewbotca", "player_season": "chucky", "playing_as": "chucky" },
             { "team": "Han Solos and Chewbotca", "player_season": "llamatron", "playing_as": "llamatron" },
@@ -1586,10 +1586,10 @@
         {
           "tagpro_eu": "1712730", "game_in_match": "Game 2 Half 1", "map_name": "Constriction", "map_id": 1, "red_team": "Bust a Pup", "blue_team": "Han Solos and Chewbotca", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "Bust a Pup", "player_season": "BOLSEN.", "playing_as": "BOLSEN." },
             { "team": "Bust a Pup", "player_season": "Berserk", "playing_as": "Berserk" },
             { "team": "Bust a Pup", "player_season": "FirePire", "playing_as": "FirePire" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "BOLSEN." },
             { "team": "Han Solos and Chewbotca", "player_season": "Porps", "playing_as": "Porps" },
             { "team": "Han Solos and Chewbotca", "player_season": "chucky", "playing_as": "chucky" },
             { "team": "Han Solos and Chewbotca", "player_season": "llamatron", "playing_as": "llamatron" },
@@ -1723,6 +1723,20 @@
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Sensei Osy", "playing_as": "Sensei Osy" },
             { "team": "TC Boosts", "player_season": "TRA$HY", "playing_as": "TRA$HY" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "TC Boosts", "blue_team": "A¢AP Mob", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "A¢AP Mob", "player_season": "A$AP Caplord", "playing_as": "A$AP Caplord", "stats": {"team": 2, "minutes": 7, "score": 30, "tags": 5, "pops": 12, "grabs": 10, "drops": 9, "hold": 80, "captures": 1, "prevent": 10, "returns": 3, "pups": 0, "holdagainst": 378, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "A¢AP Mob", "player_season": "A$AP SIR CLE", "playing_as": "A$AP SIR CLE", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 11, "pops": 19, "grabs": 17, "drops": 15, "hold": 137, "captures": 1, "prevent": 37, "returns": 5, "pups": 3, "holdagainst": 378, "pm": -4, "pupscomp": 18, "ndpops": 4, "nrtags": 6} },
+            { "team": "A¢AP Mob", "player_season": "Creta Petram", "playing_as": "Creta Petram", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 13, "pops": 17, "grabs": 9, "drops": 8, "hold": 50, "captures": 1, "prevent": 141, "returns": 10, "pups": 2, "holdagainst": 299, "pm": 4, "pupscomp": 18, "ndpops": 9, "nrtags": 3} },
+            { "team": "A¢AP Mob", "player_season": "Darth", "playing_as": "Darth", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 26, "pops": 14, "grabs": 5, "drops": 5, "hold": 16, "captures": 0, "prevent": 90, "returns": 18, "pups": 3, "holdagainst": 378, "pm": -4, "pupscomp": 18, "ndpops": 9, "nrtags": 8} },
+            { "team": "A¢AP Mob", "player_season": "Kornbeef", "playing_as": "Kornbeef", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 21, "pops": 10, "grabs": 5, "drops": 5, "hold": 38, "captures": 0, "prevent": 169, "returns": 20, "pups": 2, "holdagainst": 299, "pm": 4, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "A¢AP Mob", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 25, "pops": 9, "grabs": 10, "drops": 9, "hold": 52, "captures": 1, "prevent": 84, "returns": 16, "pups": 4, "holdagainst": 378, "pm": -4, "pupscomp": 18, "ndpops": 0, "nrtags": 9} },
+            { "team": "A¢AP Mob", "player_season": "Sensei Osy", "playing_as": "Sensei Osy", "stats": {"team": 1, "minutes": 10, "score": 52, "tags": 11, "pops": 25, "grabs": 20, "drops": 16, "hold": 156, "captures": 4, "prevent": 16, "returns": 9, "pups": 4, "holdagainst": 299, "pm": 4, "pupscomp": 18, "ndpops": 9, "nrtags": 2} },
+            { "team": "A¢AP Mob", "player_season": "TRA$HY", "playing_as": "TRA$HY", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 9, "pops": 22, "grabs": 19, "drops": 17, "hold": 134, "captures": 2, "prevent": 31, "returns": 8, "pups": 0, "holdagainst": 299, "pm": 4, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "A¢AP Mob", "player_season": "lcskulls06", "playing_as": "lcskulls06", "stats": {"team": 2, "minutes": 3, "score": 3, "tags": 2, "pops": 3, "grabs": 3, "drops": 3, "hold": 14, "captures": 0, "prevent": 10, "returns": 2, "pups": 0, "holdagainst": 378, "pm": -4, "pupscomp": 18, "ndpops": 0, "nrtags": 0} }
           ]
         }
       ]
@@ -1908,16 +1922,55 @@
       "season": "NLTP B S11", "date": "2018-01-10", "week": "Week 5", "team1": "Attack the Block", "team2": "Bust a Pup",
       "games": [
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Bust a Pup", "blue_team": "Attack the Block", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 4, "pops": 15, "grabs": 13, "drops": 13, "hold": 115, "captures": 0, "prevent": 0, "returns": 3, "pups": 4, "holdagainst": 405, "pm": -3, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Attack the Block", "player_season": "Ball-erina", "playing_as": "Ball-erina", "stats": {"team": 1, "minutes": 10, "score": 34, "tags": 2, "pops": 15, "grabs": 12, "drops": 10, "hold": 167, "captures": 2, "prevent": 9, "returns": 2, "pups": 2, "holdagainst": 305, "pm": 3, "pupscomp": 27, "ndpops": 5, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "DragonBeast", "playing_as": "DragonBeast", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 3, "pops": 10, "grabs": 10, "drops": 9, "hold": 213, "captures": 1, "prevent": 11, "returns": 3, "pups": 5, "holdagainst": 305, "pm": 3, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "Dstnd", "playing_as": "Dstnd", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 5, "pops": 23, "grabs": 18, "drops": 17, "hold": 142, "captures": 1, "prevent": 12, "returns": 5, "pups": 2, "holdagainst": 405, "pm": -3, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "Snapz", "playing_as": "Snapz", "stats": {"team": 1, "minutes": 10, "score": 51, "tags": 12, "pops": 8, "grabs": 3, "drops": 2, "hold": 25, "captures": 1, "prevent": 94, "returns": 8, "pups": 4, "holdagainst": 305, "pm": 3, "pupscomp": 27, "ndpops": 6, "nrtags": 4} },
+            { "team": "Attack the Block", "player_season": "TinkerbaII", "playing_as": "TinkerbaII", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 21, "pops": 10, "grabs": 6, "drops": 6, "hold": 3, "captures": 0, "prevent": 91, "returns": 20, "pups": 3, "holdagainst": 405, "pm": -3, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "Attack the Block", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 8, "pops": 8, "grabs": 4, "drops": 4, "hold": 40, "captures": 0, "prevent": 91, "returns": 8, "pups": 1, "holdagainst": 405, "pm": -3, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined", "stats": {"team": 2, "minutes": 10, "score": 50, "tags": 20, "pops": 6, "grabs": 4, "drops": 4, "hold": 5, "captures": 0, "prevent": 76, "returns": 11, "pups": 6, "holdagainst": 405, "pm": -3, "pupscomp": 27, "ndpops": 2, "nrtags": 9} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Attack the Block", "blue_team": "Bust a Pup", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Bust a Pup", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 7, "pops": 16, "grabs": 16, "drops": 15, "hold": 148, "captures": 1, "prevent": 16, "returns": 5, "pups": 5, "holdagainst": 438, "pm": -1, "pupscomp": 27, "ndpops": 1, "nrtags": 2} },
+            { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 8, "pops": 15, "grabs": 15, "drops": 14, "hold": 203, "captures": 1, "prevent": 8, "returns": 8, "pups": 4, "holdagainst": 318, "pm": 1, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "Bust a Pup", "player_season": "Dstnd", "playing_as": "Dstnd", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 6, "pops": 20, "grabs": 17, "drops": 17, "hold": 93, "captures": 0, "prevent": 10, "returns": 6, "pups": 0, "holdagainst": 438, "pm": -1, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Bust a Pup", "player_season": "Fitz.", "playing_as": "Fitz.", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 12, "pops": 7, "grabs": 5, "drops": 5, "hold": 30, "captures": 0, "prevent": 116, "returns": 11, "pups": 3, "holdagainst": 318, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano", "stats": {"team": 2, "minutes": 10, "score": 50, "tags": 30, "pops": 5, "grabs": 2, "drops": 2, "hold": 34, "captures": 0, "prevent": 99, "returns": 26, "pups": 2, "holdagainst": 318, "pm": 1, "pupscomp": 27, "ndpops": 3, "nrtags": 4} },
+            { "team": "Bust a Pup", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 9, "pops": 10, "grabs": 8, "drops": 8, "hold": 39, "captures": 0, "prevent": 26, "returns": 9, "pups": 2, "holdagainst": 438, "pm": -1, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "bolsen.", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 6, "pops": 15, "grabs": 14, "drops": 13, "hold": 171, "captures": 1, "prevent": 7, "returns": 4, "pups": 6, "holdagainst": 318, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 2} },
+            { "team": "Bust a Pup", "player_season": "refined", "playing_as": "refined", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 19, "pops": 10, "grabs": 6, "drops": 6, "hold": 38, "captures": 0, "prevent": 46, "returns": 16, "pups": 5, "holdagainst": 438, "pm": -1, "pupscomp": 27, "ndpops": 4, "nrtags": 3} }
+          ]
+        },
+        {
           "tagpro_eu": "1734069", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Bust a Pup", "blue_team": "Attack the Block", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Attack the Block", "player_season": "Dstnd", "playing_as": "Dstnd" },
             { "team": "Attack the Block", "player_season": "Victor messi", "playing_as": "Victor messi" },
             { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" },
-            { "team": "Bust a Pup", "player_season": "BOLSEN.", "playing_as": "bolsen." },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "Snapz", "playing_as": "Snapz" },
-            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" }
+            { "team": "Bust a Pup", "player_season": "TinkerbaII", "playing_as": "TinkerbaII" },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "bolsen." }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Attack the Block", "blue_team": "Bust a Pup", "team1_score": 0, "team2_score": 0,
+          "players": [
+            { "team": "Bust a Pup", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"team": 1, "minutes": 10, "score": 13, "tags": 7, "pops": 20, "grabs": 16, "drops": 16, "hold": 54, "captures": 0, "prevent": 17, "returns": 5, "pups": 2, "holdagainst": 279, "pm": 0, "pupscomp": 18, "ndpops": 4, "nrtags": 2} },
+            { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina", "stats": {"team": 2, "minutes": 10, "score": 14, "tags": 6, "pops": 20, "grabs": 19, "drops": 19, "hold": 100, "captures": 0, "prevent": 9, "returns": 4, "pups": 1, "holdagainst": 172, "pm": 0, "pupscomp": 18, "ndpops": 1, "nrtags": 2} },
+            { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 12, "pops": 20, "grabs": 14, "drops": 13, "hold": 130, "captures": 0, "prevent": 6, "returns": 6, "pups": 5, "holdagainst": 172, "pm": 0, "pupscomp": 18, "ndpops": 7, "nrtags": 6} },
+            { "team": "Bust a Pup", "player_season": "Fitz.", "playing_as": "Fitz.", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 15, "pops": 11, "grabs": 4, "drops": 4, "hold": 29, "captures": 0, "prevent": 226, "returns": 15, "pups": 1, "holdagainst": 172, "pm": 0, "pupscomp": 18, "ndpops": 7, "nrtags": 0} },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "LarryLuciano", "stats": {"team": 2, "minutes": 10, "score": 40, "tags": 21, "pops": 10, "grabs": 3, "drops": 3, "hold": 20, "captures": 0, "prevent": 218, "returns": 17, "pups": 1, "holdagainst": 172, "pm": 0, "pupscomp": 18, "ndpops": 7, "nrtags": 4} },
+            { "team": "Bust a Pup", "player_season": "Premier", "playing_as": "Premier", "stats": {"team": 1, "minutes": 10, "score": 34, "tags": 15, "pops": 10, "grabs": 6, "drops": 6, "hold": 56, "captures": 0, "prevent": 119, "returns": 10, "pups": 3, "holdagainst": 279, "pm": 0, "pupscomp": 18, "ndpops": 4, "nrtags": 5} },
+            { "team": "Bust a Pup", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 11, "pops": 18, "grabs": 14, "drops": 13, "hold": 54, "captures": 0, "prevent": 33, "returns": 7, "pups": 2, "holdagainst": 279, "pm": 0, "pupscomp": 18, "ndpops": 5, "nrtags": 4} },
+            { "team": "Bust a Pup", "player_season": "refined", "playing_as": "refined", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 20, "pops": 12, "grabs": 6, "drops": 6, "hold": 8, "captures": 0, "prevent": 156, "returns": 17, "pups": 3, "holdagainst": 279, "pm": 0, "pupscomp": 18, "ndpops": 6, "nrtags": 3} }
           ]
         }
       ]
@@ -2118,10 +2171,10 @@
             { "team": "Blackcaps", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Blackcaps", "player_season": "Whiskey Jack", "playing_as": "Whiskey Jack" },
             { "team": "Blackcaps", "player_season": "gghob", "playing_as": "gghob" },
-            { "team": "Bust a Pup", "player_season": "BOLSEN.", "playing_as": "bolsen." },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" },
-            { "team": "Bust a Pup", "player_season": "Puggins", "playing_as": "Puggins" }
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "Puggins", "playing_as": "Puggins" },
+            { "team": "Bust a Pup", "player_season": "bolsen.", "playing_as": "bolsen." }
           ]
         },
         {
@@ -2134,7 +2187,7 @@
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
             { "team": "Bust a Pup", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" }
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" }
           ]
         },
         {
@@ -2246,7 +2299,7 @@
             { "team": "Attack the Block", "player_season": "Victor messi", "playing_as": "Victor messi" },
             { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" },
             { "team": "TC Boosts", "player_season": "Creta Petram", "playing_as": "Creta Petram" },
-            { "team": "TC Boosts", "player_season": "HTM", "playing_as": "Htm" },
+            { "team": "TC Boosts", "player_season": "Htm", "playing_as": "Htm" },
             { "team": "TC Boosts", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "TC Boosts", "player_season": "Snekster", "playing_as": "Snekster" }
           ]
@@ -2420,7 +2473,7 @@
             { "team": "Big Black Blocks", "player_season": "nanner", "playing_as": "nanner" },
             { "team": "Bust a Pup", "player_season": "-Batman-", "playing_as": "-Batman-" },
             { "team": "Bust a Pup", "player_season": "Al Chaperone", "playing_as": "Al Chaperone" },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" },
             { "team": "Bust a Pup", "player_season": "Puggins", "playing_as": "Puggins" }
           ]
         },
@@ -2433,7 +2486,7 @@
             { "team": "Big Black Blocks", "player_season": "nanner", "playing_as": "nanner" },
             { "team": "Bust a Pup", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
             { "team": "Bust a Pup", "player_season": "Fitz.", "playing_as": "Fitz." },
-            { "team": "Bust a Pup", "player_season": "LarryLuciano", "playing_as": "Larryluciano" },
+            { "team": "Bust a Pup", "player_season": "Larryluciano", "playing_as": "Larryluciano" },
             { "team": "Bust a Pup", "player_season": "Puggins", "playing_as": "Puggins" }
           ]
         }
@@ -2519,11 +2572,11 @@
             { "team": "Attack the Block", "player_season": "Ntdaspi.dll", "playing_as": "Ntdaspi.dll" },
             { "team": "Attack the Block", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" },
-            { "team": "Over the Pants Handoffs", "player_season": "BOLSEN.", "playing_as": "bolsen." },
             { "team": "Over the Pants Handoffs", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Over the Pants Handoffs", "player_season": "Master88", "playing_as": "Master88" },
             { "team": "Over the Pants Handoffs", "player_season": "ZEUS*BALL", "playing_as": "ZEUS*BALL" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
+            { "team": "Over the Pants Handoffs", "player_season": "bolsen.", "playing_as": "bolsen." },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
         },
@@ -2562,11 +2615,11 @@
             { "team": "Attack the Block", "player_season": "Dstnd", "playing_as": "Dstnd" },
             { "team": "Attack the Block", "player_season": "Ntdaspi.dll", "playing_as": "Ntdaspi.dll" },
             { "team": "Attack the Block", "player_season": "Victor messi", "playing_as": "Victor messi" },
-            { "team": "Over the Pants Handoffs", "player_season": "BOLSEN.", "playing_as": "bolsen." },
             { "team": "Over the Pants Handoffs", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
             { "team": "Over the Pants Handoffs", "player_season": "Master88", "playing_as": "Master88" },
             { "team": "Over the Pants Handoffs", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
-            { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" }
+            { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
+            { "team": "Over the Pants Handoffs", "player_season": "bolsen.", "playing_as": "bolsen." }
           ]
         }
       ]

@@ -26,7 +26,7 @@
     { "season": "MLTP S25", "team": "CircleJukers", "player": "q42", "playing_as": "q42" },
     { "season": "MLTP S25", "team": "CircleJukers", "player": "toasty", "playing_as": "toasty" },
     { "season": "MLTP S25", "team": "Ghostboosters", "player": "Doris", "playing_as": "Doris" },
-    { "season": "MLTP S25", "team": "Ghostboosters", "player": "GRIMROG", "playing_as": "GRIMROG" },
+    { "season": "MLTP S25", "team": "Ghostboosters", "player": "Grimrog", "playing_as": "Grimrog" },
     { "season": "MLTP S25", "team": "Ghostboosters", "player": "NEB.", "playing_as": "NEB." },
     { "season": "MLTP S25", "team": "Ghostboosters", "player": "Taurus", "playing_as": "Taurus" },
     { "season": "MLTP S25", "team": "Ghostboosters", "player": "ez", "playing_as": "ez" },
@@ -79,6 +79,12 @@
             { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Snipe Hunt", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "Snipe Hunt", "player_season": "no name", "playing_as": "no name" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"team": 1, "minutes": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
           ]
         },
         {
@@ -136,6 +142,12 @@
             { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
             { "team": "Miami Ballphins", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
             { "team": "Miami Ballphins", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "CircleJukers", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "NameLEss", "playing_as": "NameLEss", "stats": {"team": 1, "minutes": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
           ]
         },
         {
@@ -231,7 +243,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
@@ -244,7 +256,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
@@ -257,7 +269,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
@@ -270,7 +282,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
@@ -288,7 +300,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
@@ -301,7 +313,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
@@ -314,7 +326,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
@@ -327,7 +339,7 @@
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "ALL CAPS", "player_season": "FENDER", "playing_as": "FENDER" },
-            { "team": "ALL CAPS", "player_season": "GRIMROG", "playing_as": "GRIMROG" },
+            { "team": "ALL CAPS", "player_season": "Grimrog", "playing_as": "GRIMROG" },
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
@@ -687,7 +699,7 @@
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
@@ -700,7 +712,7 @@
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
@@ -713,7 +725,7 @@
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
@@ -726,7 +738,7 @@
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Willy MonkaS and the Chocolate Factor-Re", "player_season": "Squeeb", "playing_as": "Squeeb" },
@@ -748,7 +760,7 @@
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
           ]
         },
@@ -761,7 +773,7 @@
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
           ]
         },
@@ -774,7 +786,7 @@
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
           ]
         },
@@ -787,7 +799,7 @@
             { "team": "ALL CAPS", "player_season": "MR AWESOME:)", "playing_as": "MR AWESOME:)" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Ghostboosters", "player_season": "First", "playing_as": "First" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." }
           ]
         }
@@ -971,7 +983,7 @@
           "tagpro_eu": "3021531", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
@@ -984,7 +996,7 @@
           "tagpro_eu": "3021544", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 6, "team2_score": 9,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
@@ -997,7 +1009,7 @@
           "tagpro_eu": "3021556", "game_in_match": "Game 2 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 8, "team2_score": 4,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
@@ -1010,7 +1022,7 @@
           "tagpro_eu": "3021571", "game_in_match": "Game 2 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 13, "team2_score": 8,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
@@ -1336,6 +1348,12 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "ALL CAPS", "blue_team": "Mumble Cappers", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Mumble Cappers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 1, "minutes": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
+          ]
+        },
+        {
           "tagpro_eu": "3024664", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mumble Cappers", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 12,
           "players": [
             { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -1370,7 +1388,7 @@
           "tagpro_eu": "3024583", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Ghostboosters", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
@@ -1383,7 +1401,7 @@
           "tagpro_eu": "3024598", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Snipe Hunt", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 9,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
@@ -1396,7 +1414,7 @@
           "tagpro_eu": "3024610", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 9,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
@@ -1409,7 +1427,7 @@
           "tagpro_eu": "3024641", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Ghostboosters", "blue_team": "Snipe Hunt", "team1_score": 9, "team2_score": 14,
           "players": [
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "GrimrOg" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "GrimrOg" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" },
             { "team": "Snipe Hunt", "player_season": "Armbranch", "playing_as": "Armbranch" },
@@ -1545,7 +1563,7 @@
             { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
             { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
           ]
@@ -1558,7 +1576,7 @@
             { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
             { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
           ]
@@ -1571,7 +1589,7 @@
             { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
             { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
           ]
@@ -1584,7 +1602,7 @@
             { "team": "CircleJukers", "player_season": "q42", "playing_as": "q42" },
             { "team": "CircleJukers", "player_season": "toasty", "playing_as": "toasty" },
             { "team": "Ghostboosters", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Ghostboosters", "player_season": "GRIMROG", "playing_as": "Grimrog" },
+            { "team": "Ghostboosters", "player_season": "Grimrog", "playing_as": "Grimrog" },
             { "team": "Ghostboosters", "player_season": "NEB.", "playing_as": "NEB." },
             { "team": "Ghostboosters", "player_season": "ez", "playing_as": "ez" }
           ]

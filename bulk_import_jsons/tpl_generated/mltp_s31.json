@@ -15,7 +15,7 @@
     { "season": "MLTP S31", "team": null, "player": "GO RUSSIA!", "playing_as": "GO RUSSIA!" },
     { "season": "MLTP S31", "team": null, "player": "Irony", "playing_as": "Irony" },
     { "season": "MLTP S31", "team": null, "player": "Jer32", "playing_as": "Jer32" },
-    { "season": "MLTP S31", "team": null, "player": "Magnolia", "playing_as": "Magnolia" },
+    { "season": "MLTP S31", "team": null, "player": "magnolia", "playing_as": "magnolia" },
     { "season": "MLTP S31", "team": null, "player": "omni", "playing_as": "omni" },
     { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "BoldRoller", "playing_as": "BoldRoller" },
     { "season": "MLTP S31", "team": "Arctag IceCaps", "player": "Vader", "playing_as": "Vader" },
@@ -191,6 +191,76 @@
       ]
     },
     {
+      "season": "MLTP S31", "date": "", "week": "Week 1", "team1": "Arctag IceCaps", "team2": "Converse Ballstars",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Arctag IceCaps", "blue_team": "Converse Ballstars", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"score": 48, "team": 2, "prevent": 158, "returns": 24, "tags": 26, "ndpops": 4, "pops": 9, "grabs": 5, "drops": 5, "hold": 15, "pups": 4, "minutes": 10, "quickret": 10, "retinbase": 11, "keyret": 3, "goregrab": 1, "flaccids": 2, "gohandoff": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 2, "holdagainst": 250, "pupscomp": 18, "pm": 1} },
+            { "team": "Converse Ballstars", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 46, "team": 1, "grabs": 23, "pops": 20, "drops": 20, "hold": 128, "returns": 11, "tags": 13, "captures": 3, "prevent": 25, "pups": 2, "minutes": 10, "flaccids": 6, "goodhandoff": 3, "handoff": 6, "goregrab": 7, "coregrab": 1, "gohandoff": 4, "quickret": 1, "retinbase": 2, "cohandoff": 1, "nrtags": 2, "holdagainst": 198, "pupscomp": 18, "pm": -1} },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 31, "team": 2, "prevent": 150, "returns": 12, "tags": 12, "pups": 2, "grabs": 3, "pops": 7, "drops": 3, "hold": 15, "ndpops": 4, "minutes": 10, "quickret": 6, "retinbase": 6, "flaccids": 1, "nrtags": 0, "holdagainst": 250, "pupscomp": 18, "pm": 1} },
+            { "team": "Converse Ballstars", "player_season": "Vader", "playing_as": "Vader", "stats": {"score": 28, "team": 1, "prevent": 187, "returns": 9, "tags": 10, "grabs": 10, "pops": 10, "drops": 10, "hold": 29, "pups": 1, "minutes": 10, "quickret": 6, "retinbase": 4, "keyret": 1, "goregrab": 1, "gohandoff": 1, "flaccids": 5, "handoff": 5, "goodhandoff": 4, "nrtags": 1, "holdagainst": 198, "pupscomp": 18, "pm": -1} },
+            { "team": "Converse Ballstars", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 34, "team": 1, "prevent": 135, "returns": 7, "tags": 14, "pups": 3, "grabs": 9, "pops": 10, "drops": 8, "hold": 35, "ndpops": 2, "minutes": 10, "quickret": 2, "retinbase": 3, "goregrab": 3, "flaccids": 3, "handoff": 2, "goodhandoff": 1, "gohandoff": 1, "nrtags": 7, "holdagainst": 198, "pupscomp": 18, "pm": -1} },
+            { "team": "Converse Ballstars", "player_season": "omni", "playing_as": "omni", "stats": {"score": 29, "team": 1, "grabs": 17, "pops": 18, "drops": 15, "hold": 58, "prevent": 75, "pups": 1, "returns": 4, "tags": 4, "ndpops": 3, "captures": 2, "minutes": 10, "flaccids": 6, "gohandoff": 3, "handoff": 8, "goodhandoff": 4, "keyret": 1, "cohandoff": 1, "goregrab": 1, "retinbase": 1, "nrtags": 0, "holdagainst": 198, "pupscomp": 18, "pm": -1} },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears", "stats": {"score": 30, "team": 2, "grabs": 11, "pops": 11, "drops": 10, "hold": 67, "prevent": 48, "returns": 10, "tags": 13, "ndpops": 1, "captures": 1, "pups": 1, "minutes": 10, "flaccids": 2, "goregrab": 3, "quickret": 3, "retinbase": 3, "keyret": 1, "coregrab": 1, "handoff": 1, "saves": 1, "nrtags": 3, "holdagainst": 250, "pupscomp": 18, "pm": 1} },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan", "stats": {"score": 54, "team": 2, "prevent": 36, "returns": 7, "tags": 7, "grabs": 18, "pops": 14, "drops": 13, "hold": 101, "ndpops": 1, "captures": 5, "pups": 4, "minutes": 10, "quit": false, "game_end": 17057, "game_start": 17083, "quickret": 1, "retinbase": 1, "flaccids": 4, "goodhandoff": 3, "handoff": 5, "goregrab": 2, "coregrab": 2, "nrtags": 0, "holdagainst": 250, "pupscomp": 18, "pm": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "Converse Ballstars", "blue_team": "Arctag IceCaps", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"score": 99, "team": 1, "prevent": 191, "returns": 36, "tags": 38, "pups": 9, "grabs": 19, "pops": 20, "drops": 18, "hold": 120, "ndpops": 2, "minutes": 20, "quickret": 10, "retinbase": 10, "goregrab": 11, "handoff": 6, "flaccids": 6, "longholds": 1, "nrtags": 2, "holdagainst": 657, "pupscomp": 36, "pm": -4, "captures": 1, "goodhandoff": 2, "keyret": 2} },
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 88, "team": 2, "grabs": 37, "pops": 38, "drops": 33, "hold": 257, "prevent": 62, "ndpops": 5, "returns": 29, "tags": 31, "captures": 3, "minutes": 20, "gohandoff": 5, "flaccids": 9, "retinbase": 8, "goodhandoff": 11, "handoff": 13, "quickret": 6, "cohandoff": 1, "longholds": 2, "nrtags": 2, "holdagainst": 668, "pupscomp": 36, "pm": 4, "pups": 3, "goregrab": 6, "keyret": 2} },
+            { "team": "Arctag IceCaps", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 85, "team": 1, "prevent": 210, "returns": 20, "tags": 25, "grabs": 11, "pops": 16, "drops": 9, "hold": 95, "ndpops": 7, "captures": 2, "pups": 4, "minutes": 20, "quickret": 8, "retinbase": 9, "gohandoff": 1, "handoff": 6, "goregrab": 1, "coregrab": 1, "goodhandoff": 4, "flaccids": 2, "nrtags": 5, "holdagainst": 657, "pupscomp": 36, "pm": -4, "keyret": 1} },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader", "stats": {"score": 74, "team": 2, "prevent": 128, "grabs": 25, "returns": 16, "tags": 16, "pops": 25, "drops": 21, "hold": 163, "captures": 4, "ndpops": 4, "minutes": 20, "goregrab": 10, "handoff": 7, "flaccids": 5, "retinbase": 5, "quickret": 4, "goodhandoff": 6, "nrtags": 0, "holdagainst": 668, "pupscomp": 36, "pm": 4, "pups": 1, "keyret": 1, "gohandoff": 4, "longholds": 1, "coregrab": 2} },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 93, "team": 2, "prevent": 197, "returns": 24, "tags": 35, "grabs": 13, "pops": 19, "drops": 12, "hold": 79, "ndpops": 7, "pups": 9, "minutes": 20, "goodhandoff": 5, "handoff": 5, "gohandoff": 2, "flaccids": 4, "quickret": 4, "retinbase": 3, "goregrab": 3, "nrtags": 11, "holdagainst": 668, "pupscomp": 36, "pm": 4, "captures": 1, "coregrab": 1, "keyret": 1} },
+            { "team": "Arctag IceCaps", "player_season": "omni", "playing_as": "omni", "stats": {"score": 56, "team": 2, "grabs": 23, "pops": 27, "drops": 22, "hold": 158, "returns": 13, "tags": 18, "pups": 6, "ndpops": 5, "prevent": 56, "minutes": 20, "flaccids": 7, "goregrab": 10, "handoff": 8, "goodhandoff": 5, "retinbase": 4, "keyret": 2, "quickret": 5, "nrtags": 5, "holdagainst": 668, "pupscomp": 36, "pm": 4, "captures": 1, "gohandoff": 2, "longholds": 1, "coregrab": 1} },
+            { "team": "Arctag IceCaps", "player_season": "tears", "playing_as": "tears", "stats": {"score": 39, "team": 1, "ndpops": 7, "pops": 31, "grabs": 25, "drops": 24, "hold": 191, "prevent": 70, "returns": 16, "tags": 17, "pups": 1, "minutes": 20, "quickret": 4, "goregrab": 8, "goodhandoff": 4, "handoff": 9, "flaccids": 4, "nrtags": 1, "holdagainst": 657, "pupscomp": 36, "pm": -4, "longholds": 2, "retinbase": 3} },
+            { "team": "Arctag IceCaps", "player_season": "titan", "playing_as": "titan", "stats": {"score": 67, "team": 1, "prevent": 35, "grabs": 33, "pops": 35, "drops": 31, "hold": 262, "returns": 16, "tags": 21, "pups": 3, "ndpops": 4, "captures": 2, "minutes": 20, "goodhandoff": 8, "handoff": 9, "quickret": 3, "flaccids": 7, "goregrab": 11, "retinbase": 1, "gohandoff": 1, "cohandoff": 1, "longholds": 2, "nrtags": 5, "holdagainst": 657, "pupscomp": 36, "pm": -4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "Converse Ballstars", "blue_team": "Arctag IceCaps", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"score": 99, "team": 1, "prevent": 191, "returns": 36, "tags": 38, "pups": 9, "grabs": 19, "pops": 20, "drops": 18, "hold": 120, "ndpops": 2, "minutes": 20, "quickret": 10, "retinbase": 10, "goregrab": 11, "handoff": 6, "flaccids": 6, "longholds": 1, "nrtags": 2, "holdagainst": 657, "pupscomp": 36, "pm": -4, "captures": 1, "goodhandoff": 2, "keyret": 2} },
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 88, "team": 2, "grabs": 37, "pops": 38, "drops": 33, "hold": 257, "prevent": 62, "ndpops": 5, "returns": 29, "tags": 31, "captures": 3, "minutes": 20, "gohandoff": 5, "flaccids": 9, "retinbase": 8, "goodhandoff": 11, "handoff": 13, "quickret": 6, "cohandoff": 1, "longholds": 2, "nrtags": 2, "holdagainst": 668, "pupscomp": 36, "pm": 4, "pups": 3, "goregrab": 6, "keyret": 2} },
+            { "team": "Arctag IceCaps", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 85, "team": 1, "prevent": 210, "returns": 20, "tags": 25, "grabs": 11, "pops": 16, "drops": 9, "hold": 95, "ndpops": 7, "captures": 2, "pups": 4, "minutes": 20, "quickret": 8, "retinbase": 9, "gohandoff": 1, "handoff": 6, "goregrab": 1, "coregrab": 1, "goodhandoff": 4, "flaccids": 2, "nrtags": 5, "holdagainst": 657, "pupscomp": 36, "pm": -4, "keyret": 1} },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader", "stats": {"score": 74, "team": 2, "prevent": 128, "grabs": 25, "returns": 16, "tags": 16, "pops": 25, "drops": 21, "hold": 163, "captures": 4, "ndpops": 4, "minutes": 20, "goregrab": 10, "handoff": 7, "flaccids": 5, "retinbase": 5, "quickret": 4, "goodhandoff": 6, "nrtags": 0, "holdagainst": 668, "pupscomp": 36, "pm": 4, "pups": 1, "keyret": 1, "gohandoff": 4, "longholds": 1, "coregrab": 2} },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 93, "team": 2, "prevent": 197, "returns": 24, "tags": 35, "grabs": 13, "pops": 19, "drops": 12, "hold": 79, "ndpops": 7, "pups": 9, "minutes": 20, "goodhandoff": 5, "handoff": 5, "gohandoff": 2, "flaccids": 4, "quickret": 4, "retinbase": 3, "goregrab": 3, "nrtags": 11, "holdagainst": 668, "pupscomp": 36, "pm": 4, "captures": 1, "coregrab": 1, "keyret": 1} },
+            { "team": "Arctag IceCaps", "player_season": "omni", "playing_as": "omni", "stats": {"score": 56, "team": 2, "grabs": 23, "pops": 27, "drops": 22, "hold": 158, "returns": 13, "tags": 18, "pups": 6, "ndpops": 5, "prevent": 56, "minutes": 20, "flaccids": 7, "goregrab": 10, "handoff": 8, "goodhandoff": 5, "retinbase": 4, "keyret": 2, "quickret": 5, "nrtags": 5, "holdagainst": 668, "pupscomp": 36, "pm": 4, "captures": 1, "gohandoff": 2, "longholds": 1, "coregrab": 1} },
+            { "team": "Arctag IceCaps", "player_season": "tears", "playing_as": "tears", "stats": {"score": 39, "team": 1, "ndpops": 7, "pops": 31, "grabs": 25, "drops": 24, "hold": 191, "prevent": 70, "returns": 16, "tags": 17, "pups": 1, "minutes": 20, "quickret": 4, "goregrab": 8, "goodhandoff": 4, "handoff": 9, "flaccids": 4, "nrtags": 1, "holdagainst": 657, "pupscomp": 36, "pm": -4, "longholds": 2, "retinbase": 3} },
+            { "team": "Arctag IceCaps", "player_season": "titan", "playing_as": "titan", "stats": {"score": 67, "team": 1, "prevent": 35, "grabs": 33, "pops": 35, "drops": 31, "hold": 262, "returns": 16, "tags": 21, "pups": 3, "ndpops": 4, "captures": 2, "minutes": 20, "goodhandoff": 8, "handoff": 9, "quickret": 3, "flaccids": 7, "goregrab": 11, "retinbase": 1, "gohandoff": 1, "cohandoff": 1, "longholds": 2, "nrtags": 5, "holdagainst": 657, "pupscomp": 36, "pm": -4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 4", "map_name": null, "map_id": null, "red_team": "Arctag IceCaps", "blue_team": "Converse Ballstars", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Converse Ballstars", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"score": 51, "team": 2, "prevent": 179, "returns": 15, "tags": 16, "grabs": 6, "pops": 6, "drops": 5, "hold": 76, "pups": 3, "ndpops": 1, "captures": 1, "minutes": 10, "retinbase": 8, "quickret": 6, "flaccids": 1, "goregrab": 4, "goodhandoff": 2, "handoff": 3, "longholds": 2, "coregrab": 1, "nrtags": 1, "holdagainst": 269, "pupscomp": 18, "pm": -3} },
+            { "team": "Converse Ballstars", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 29, "team": 1, "grabs": 19, "pops": 20, "drops": 16, "hold": 118, "returns": 8, "tags": 8, "prevent": 29, "captures": 3, "ndpops": 4, "minutes": 10, "flaccids": 9, "quickret": 5, "retinbase": 2, "longholds": 2, "goodhandoff": 2, "handoff": 2, "goregrab": 2, "nrtags": 0, "holdagainst": 327, "pupscomp": 18, "pm": 3} },
+            { "team": "Converse Ballstars", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 45, "team": 2, "prevent": 203, "returns": 11, "tags": 17, "grabs": 5, "pops": 6, "drops": 5, "hold": 27, "pups": 3, "ndpops": 1, "minutes": 10, "quickret": 6, "retinbase": 5, "goregrab": 1, "flaccids": 1, "goodhandoff": 2, "handoff": 3, "keyret": 1, "nrtags": 6, "holdagainst": 269, "pupscomp": 18, "pm": -3} },
+            { "team": "Converse Ballstars", "player_season": "Vader", "playing_as": "Vader", "stats": {"score": 32, "team": 1, "tags": 16, "prevent": 81, "returns": 12, "grabs": 7, "pops": 8, "drops": 6, "hold": 33, "pups": 2, "ndpops": 2, "minutes": 10, "quickret": 4, "retinbase": 4, "goregrab": 4, "handoff": 2, "flaccids": 2, "goodhandoff": 1, "nrtags": 4, "holdagainst": 327, "pupscomp": 18, "pm": 3} },
+            { "team": "Converse Ballstars", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 45, "team": 1, "prevent": 108, "returns": 16, "tags": 18, "grabs": 6, "captures": 2, "hold": 24, "pops": 7, "drops": 4, "pups": 1, "ndpops": 3, "minutes": 10, "goodhandoff": 2, "handoff": 2, "gohandoff": 1, "flaccids": 2, "quickret": 4, "goregrab": 1, "retinbase": 4, "saves": 1, "nrtags": 2, "holdagainst": 327, "pupscomp": 18, "pm": 3} },
+            { "team": "Converse Ballstars", "player_season": "omni", "playing_as": "omni", "stats": {"score": 35, "team": 1, "ndpops": 2, "pops": 14, "grabs": 14, "drops": 12, "hold": 94, "prevent": 14, "returns": 7, "tags": 10, "pups": 3, "captures": 2, "minutes": 10, "goregrab": 4, "quickret": 1, "retinbase": 4, "gohandoff": 2, "goodhandoff": 3, "handoff": 4, "flaccids": 1, "coregrab": 1, "nrtags": 3, "holdagainst": 327, "pupscomp": 18, "pm": 3} },
+            { "team": "Converse Ballstars", "player_season": "tears", "playing_as": "tears", "stats": {"score": 33, "team": 2, "grabs": 17, "pops": 19, "drops": 16, "hold": 94, "prevent": 20, "pups": 4, "ndpops": 3, "returns": 6, "tags": 7, "captures": 1, "minutes": 10, "gohandoff": 1, "flaccids": 3, "goodhandoff": 3, "handoff": 5, "goregrab": 6, "quickret": 1, "longholds": 1, "nrtags": 1, "holdagainst": 269, "pupscomp": 18, "pm": -3} },
+            { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan", "stats": {"score": 29, "team": 2, "ndpops": 6, "pops": 24, "grabs": 21, "drops": 18, "hold": 130, "returns": 6, "tags": 6, "captures": 2, "prevent": 27, "pups": 2, "minutes": 10, "flaccids": 9, "handoff": 4, "gohandoff": 4, "goregrab": 1, "longholds": 2, "quickret": 1, "retinbase": 1, "goodhandoff": 2, "keyret": 1, "nrtags": 0, "holdagainst": 269, "pupscomp": 18, "pm": -3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 5", "map_name": null, "map_id": null, "red_team": "Converse Ballstars", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"score": 64, "team": 1, "prevent": 160, "returns": 18, "tags": 21, "ndpops": 2, "pops": 9, "pups": 5, "grabs": 8, "drops": 7, "hold": 45, "captures": 1, "minutes": 10, "retinbase": 7, "quickret": 6, "flaccids": 3, "goregrab": 3, "goodhandoff": 3, "handoff": 3, "gohandoff": 1, "nrtags": 3, "holdagainst": 261, "pupscomp": 18, "pm": -2} },
+            { "team": "Arctag IceCaps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 38, "team": 2, "grabs": 19, "pops": 22, "drops": 18, "hold": 92, "returns": 9, "tags": 13, "prevent": 43, "pups": 3, "ndpops": 4, "captures": 1, "minutes": 10, "flaccids": 6, "gohandoff": 1, "quickret": 5, "retinbase": 5, "goodhandoff": 5, "handoff": 9, "goregrab": 5, "longholds": 1, "nrtags": 4, "holdagainst": 278, "pupscomp": 18, "pm": 2} },
+            { "team": "Arctag IceCaps", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 30, "team": 1, "prevent": 185, "returns": 7, "tags": 9, "ndpops": 3, "pops": 9, "grabs": 6, "drops": 6, "hold": 28, "pups": 2, "minutes": 10, "quickret": 2, "retinbase": 2, "flaccids": 4, "goodhandoff": 3, "handoff": 4, "goregrab": 2, "nrtags": 2, "holdagainst": 261, "pupscomp": 18, "pm": -2} },
+            { "team": "Arctag IceCaps", "player_season": "Vader", "playing_as": "Vader", "stats": {"score": 44, "team": 2, "prevent": 105, "returns": 10, "tags": 11, "pups": 3, "grabs": 12, "captures": 1, "hold": 55, "pops": 10, "drops": 10, "minutes": 10, "quickret": 2, "retinbase": 1, "handoff": 6, "goodhandoff": 4, "gohandoff": 1, "goregrab": 3, "nrtags": 1, "holdagainst": 278, "pupscomp": 18, "pm": 2} },
+            { "team": "Arctag IceCaps", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 50, "team": 2, "returns": 14, "tags": 14, "prevent": 143, "grabs": 11, "pops": 13, "drops": 10, "hold": 65, "ndpops": 3, "pups": 2, "captures": 1, "minutes": 10, "flaccids": 3, "goodhandoff": 2, "handoff": 5, "goregrab": 4, "quickret": 5, "gohandoff": 1, "cohandoff": 1, "retinbase": 5, "nrtags": 0, "holdagainst": 278, "pupscomp": 18, "pm": 2} },
+            { "team": "Arctag IceCaps", "player_season": "omni", "playing_as": "omni", "stats": {"score": 26, "team": 2, "ndpops": 3, "pops": 14, "prevent": 41, "grabs": 11, "drops": 11, "hold": 49, "pups": 2, "tags": 15, "returns": 11, "minutes": 10, "quickret": 5, "retinbase": 6, "gohandoff": 2, "handoff": 5, "keyret": 1, "flaccids": 2, "goregrab": 1, "goodhandoff": 1, "nrtags": 4, "holdagainst": 278, "pupscomp": 18, "pm": 2} },
+            { "team": "Arctag IceCaps", "player_season": "tears", "playing_as": "tears", "stats": {"score": 22, "team": 1, "grabs": 15, "pops": 18, "drops": 15, "hold": 59, "prevent": 31, "ndpops": 3, "returns": 10, "tags": 12, "minutes": 10, "flaccids": 7, "handoff": 4, "goregrab": 4, "goodhandoff": 2, "gohandoff": 2, "nrtags": 2, "holdagainst": 261, "pupscomp": 18, "pm": -2} },
+            { "team": "Arctag IceCaps", "player_season": "titan", "playing_as": "titan", "stats": {"score": 27, "team": 1, "prevent": 32, "grabs": 19, "pops": 19, "drops": 18, "hold": 146, "returns": 11, "tags": 11, "ndpops": 1, "pups": 1, "minutes": 10, "gohandoff": 3, "retinbase": 6, "quickret": 3, "longholds": 2, "flaccids": 3, "goodhandoff": 2, "handoff": 3, "goregrab": 2, "nrtags": 0, "holdagainst": 261, "pupscomp": 18, "pm": -2} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "MLTP S31", "date": "2023-09-26", "week": "Week 1", "team1": "The Holy Seehawks", "team2": "Good Read You! Block Enterer",
       "games": [
         {
@@ -202,8 +272,8 @@
             { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -215,8 +285,21 @@
             { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "Good Read You! Block Enterer", "blue_team": "The Holy Seehawks", "team1_score": 9, "team2_score": 13,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg", "stats": {"score": 57, "team": 2, "grabs": 32, "returns": 17, "tags": 19, "pops": 34, "drops": 29, "hold": 170, "prevent": 73, "pups": 3, "captures": 3, "ndpops": 5, "minutes": 20, "gohandoff": 6, "handoff": 7, "quickret": 3, "retinbase": 3, "keyret": 1, "flaccids": 9, "goregrab": 4, "longholds": 1, "goodhandoff": 3, "nrtags": 2, "holdagainst": 679, "pupscomp": 36, "pm": -4, "coregrab": 1} },
+            { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32", "stats": {"score": 64, "team": 2, "prevent": 227, "grabs": 12, "pops": 14, "drops": 11, "hold": 51, "returns": 25, "tags": 25, "captures": 1, "pups": 3, "ndpops": 3, "minutes": 20, "quickret": 5, "retinbase": 5, "flaccids": 7, "longholds": 1, "handoff": 2, "saves": 2, "gohandoff": 1, "nrtags": 0, "holdagainst": 679, "pupscomp": 36, "pm": -4, "goregrab": 3, "goodhandoff": 1, "keyret": 1} },
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto", "stats": {"score": 54, "team": 2, "prevent": 171, "grabs": 11, "pops": 20, "drops": 11, "hold": 45, "returns": 26, "tags": 28, "ndpops": 9, "minutes": 20, "gohandoff": 3, "flaccids": 5, "retinbase": 7, "keyret": 3, "goodhandoff": 3, "handoff": 5, "quickret": 7, "nrtags": 2, "holdagainst": 679, "pupscomp": 36, "pm": -4, "pups": 1} },
+            { "team": "The Holy Seehawks", "player_season": "Prime", "playing_as": "Prime", "stats": {"score": 91, "team": 1, "prevent": 296, "returns": 36, "tags": 37, "ndpops": 4, "pops": 18, "grabs": 16, "drops": 14, "hold": 84, "captures": 2, "pups": 3, "minutes": 20, "quickret": 16, "retinbase": 19, "flaccids": 4, "keyret": 3, "goregrab": 8, "coregrab": 2, "handoff": 6, "nrtags": 1, "holdagainst": 461, "pupscomp": 36, "pm": 4, "goodhandoff": 3, "gohandoff": 1} },
+            { "team": "The Holy Seehawks", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"score": 69, "team": 1, "grabs": 35, "returns": 9, "tags": 9, "pops": 34, "drops": 30, "hold": 215, "captures": 4, "prevent": 126, "ndpops": 4, "pups": 5, "minutes": 20, "retinbase": 4, "goodhandoff": 10, "handoff": 13, "goregrab": 14, "flaccids": 6, "quickret": 3, "coregrab": 1, "longholds": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 461, "pupscomp": 36, "pm": 4, "keyret": 2} },
+            { "team": "The Holy Seehawks", "player_season": "d0pe", "playing_as": "d0pe", "stats": {"score": 118, "team": 1, "prevent": 290, "returns": 30, "tags": 44, "pups": 12, "grabs": 10, "pops": 11, "drops": 9, "hold": 72, "ndpops": 2, "minutes": 20, "retinbase": 12, "goregrab": 2, "goodhandoff": 3, "handoff": 5, "flaccids": 1, "quickret": 15, "nrtags": 14, "holdagainst": 461, "pupscomp": 36, "pm": 4, "captures": 1, "keyret": 1, "gohandoff": 3, "cohandoff": 1} },
+            { "team": "The Holy Seehawks", "player_season": "inthesomeday", "playing_as": "inthesomeday", "stats": {"score": 88, "team": 1, "grabs": 36, "pops": 32, "drops": 30, "hold": 308, "prevent": 78, "ndpops": 2, "captures": 6, "returns": 15, "tags": 18, "pups": 5, "minutes": 20, "goodhandoff": 8, "handoff": 14, "goregrab": 11, "coregrab": 2, "quickret": 5, "retinbase": 4, "gohandoff": 2, "flaccids": 8, "nrtags": 3, "holdagainst": 461, "pupscomp": 36, "pm": 4, "longholds": 3} },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia", "stats": {"score": 59, "team": 2, "grabs": 45, "pops": 45, "drops": 40, "hold": 195, "prevent": 56, "captures": 5, "returns": 13, "tags": 15, "pups": 4, "ndpops": 5, "minutes": 20, "handoff": 8, "goregrab": 8, "flaccids": 18, "goodhandoff": 4, "gohandoff": 4, "retinbase": 3, "quickret": 4, "nrtags": 2, "holdagainst": 679, "pupscomp": 36, "pm": -4, "longholds": 1, "coregrab": 1} }
           ]
         },
         {
@@ -228,8 +311,8 @@
             { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -241,15 +324,28 @@
             { "team": "Good Read You! Block Enterer", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         }
       ]
     },
     {
-      "season": "MLTP S31", "date": "2023-10-01", "week": "Week 2", "team1": "The Way of Pings", "team2": "Miami Ballphins",
+      "season": "MLTP S31", "date": "", "week": "Week 2", "team1": "The Way of Pings", "team2": "Miami Ballphins",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S", "stats": {"score": 51, "team": 2, "grabs": 17, "pops": 21, "drops": 17, "hold": 76, "prevent": 58, "returns": 7, "tags": 11, "ndpops": 4, "pups": 2, "minutes": 10, "flaccids": 4, "goregrab": 1, "handoff": 2, "gohandoff": 2, "longholds": 1, "goodhandoff": 1, "nrtags": 4, "holdagainst": 212, "pupscomp": 16, "pm": -4, "captures": 0} },
+            { "team": "The Way of Pings", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"score": 71, "team": 1, "prevent": 172, "grabs": 6, "pops": 10, "drops": 6, "hold": 33, "returns": 14, "tags": 16, "pups": 3, "ndpops": 4, "minutes": 10, "quickret": 5, "retinbase": 5, "saves": 1, "goodhandoff": 2, "handoff": 2, "keyret": 1, "nrtags": 2, "holdagainst": 184, "pupscomp": 16, "pm": 4, "captures": 0} },
+            { "team": "The Way of Pings", "player_season": "Messi", "playing_as": "Messi", "stats": {"score": 77, "team": 1, "prevent": 88, "ndpops": 3, "pops": 17, "grabs": 16, "captures": 2, "hold": 89, "returns": 7, "tags": 9, "drops": 14, "minutes": 10, "quickret": 2, "retinbase": 2, "goodhandoff": 2, "handoff": 4, "goregrab": 2, "gohandoff": 2, "cohandoff": 1, "nrtags": 2, "holdagainst": 184, "pupscomp": 16, "pm": 4, "pups": 1} },
+            { "team": "The Way of Pings", "player_season": "Scorch", "playing_as": "Scorch", "stats": {"score": 83, "team": 1, "prevent": 183, "returns": 15, "tags": 19, "grabs": 8, "pops": 13, "drops": 7, "hold": 20, "pups": 2, "ndpops": 6, "captures": 1, "minutes": 10, "saves": 1, "flaccids": 3, "gohandoff": 1, "nrtags": 4, "holdagainst": 184, "pupscomp": 16, "pm": 4} },
+            { "team": "The Way of Pings", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff", "stats": {"score": 105, "team": 1, "grabs": 23, "pops": 20, "drops": 20, "hold": 70, "prevent": 55, "tags": 5, "pups": 2, "returns": 3, "ndpops": 0, "minutes": 10, "flaccids": 5, "goregrab": 3, "handoff": 3, "goodhandoff": 1, "quickret": 1, "retinbase": 1, "nrtags": 2, "holdagainst": 184, "pupscomp": 16, "pm": 4, "captures": 3} },
+            { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re", "stats": {"score": 68, "team": 2, "prevent": 171, "returns": 16, "tags": 16, "ndpops": 6, "pops": 11, "pups": 2, "grabs": 5, "drops": 5, "hold": 29, "minutes": 10, "quickret": 2, "retinbase": 3, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 212, "pupscomp": 16, "pm": -4, "captures": 0} },
+            { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft", "stats": {"score": 67, "team": 2, "grabs": 12, "captures": 1, "hold": 35, "prevent": 18, "pops": 15, "drops": 11, "returns": 8, "tags": 16, "ndpops": 4, "pups": 3, "minutes": 10, "goodhandoff": 2, "handoff": 3, "flaccids": 3, "quickret": 1, "retinbase": 1, "goregrab": 1, "gohandoff": 1, "nrtags": 8, "holdagainst": 212, "pupscomp": 16, "pm": -4} },
+            { "team": "The Way of Pings", "player_season": "tng.", "playing_as": "tng.", "stats": {"score": 79, "team": 2, "prevent": 182, "returns": 15, "tags": 16, "grabs": 7, "captures": 1, "hold": 44, "pops": 9, "drops": 6, "ndpops": 3, "minutes": 10, "keyret": 1, "quickret": 5, "retinbase": 6, "goregrab": 2, "flaccids": 1, "goodhandoff": 1, "handoff": 2, "longholds": 1, "nrtags": 1, "holdagainst": 212, "pupscomp": 16, "pm": -4, "pups": 1} }
+          ]
+        },
         {
           "tagpro_eu": "3528085", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 2,
           "players": [
@@ -386,8 +482,8 @@
             { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
             { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -399,8 +495,8 @@
             { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
             { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -412,8 +508,8 @@
             { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
             { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -425,8 +521,8 @@
             { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
             { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         },
         {
@@ -438,8 +534,8 @@
             { "team": "Arctag IceCaps", "player_season": "phreak", "playing_as": "phreak" },
             { "team": "The Holy Seehawks", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "Magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "Magnolia" }
           ]
         }
       ]
@@ -736,8 +832,8 @@
             { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -749,8 +845,8 @@
             { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -762,8 +858,8 @@
             { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -775,8 +871,8 @@
             { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -788,8 +884,8 @@
             { "team": "Converse Ballstars", "player_season": "titan", "playing_as": "titan" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
             { "team": "The Holy Seehawks", "player_season": "Jer32", "playing_as": "Jer32" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
-            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" }
+            { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         }
       ]
@@ -935,8 +1031,21 @@
       ]
     },
     {
-      "season": "MLTP S31", "date": "2023-10-08", "week": "Week 4", "team1": "The Holy Seehawks", "team2": "Miami Ballphins",
+      "season": "MLTP S31", "date": "", "week": "Week 4", "team1": "The Holy Seehawks", "team2": "Miami Ballphins",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Holy Seehawks", "blue_team": "Miami Ballphins", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"team": 2, "minutes": 10, "score": 57, "tags": 14, "pops": 3, "grabs": 3, "drops": 2, "hold": 1, "captures": 0, "prevent": 122, "returns": 13, "pups": 1, "holdagainst": 337, "pm": -9, "pupscomp": 16, "ndpops": 1, "nrtags": 1, "quickret": 2, "retinbase": 1, "flaccids": 1} },
+            { "team": "Miami Ballphins", "player_season": "Gleg", "playing_as": "Gleg", "stats": {"team": 1, "minutes": 10, "score": 58, "tags": 3, "pops": 19, "grabs": 21, "drops": 19, "hold": 126, "captures": 2, "prevent": 42, "returns": 3, "pups": 2, "holdagainst": 238, "pm": 9, "pupscomp": 16, "ndpops": 0, "nrtags": 0, "goregrab": 6, "goodhandoff": 3, "handoff": 3, "flaccids": 6, "coregrab": 1} },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 2, "minutes": 10, "score": 59, "tags": 8, "pops": 13, "grabs": 14, "drops": 13, "hold": 100, "captures": 1, "prevent": 7, "returns": 8, "pups": 1, "holdagainst": 337, "pm": -9, "pupscomp": 16, "ndpops": 0, "nrtags": 0, "goregrab": 1, "longholds": 1, "flaccids": 3, "gohandoff": 1, "quickret": 1, "retinbase": 1, "goodhandoff": 1, "handoff": 3} },
+            { "team": "Miami Ballphins", "player_season": "Poeticalto", "playing_as": "Poeticalto", "stats": {"team": 1, "minutes": 10, "score": 113, "tags": 11, "pops": 7, "grabs": 7, "drops": 5, "hold": 54, "captures": 2, "prevent": 262, "returns": 9, "pups": 4, "holdagainst": 238, "pm": 9, "pupscomp": 16, "ndpops": 2, "nrtags": 2, "goregrab": 3, "goodhandoff": 1, "handoff": 1, "retinbase": 3, "quickret": 2} },
+            { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch", "stats": {"team": 2, "minutes": 10, "score": 66, "tags": 13, "pops": 12, "grabs": 9, "drops": 9, "hold": 57, "captures": 0, "prevent": 102, "returns": 12, "pups": 3, "holdagainst": 337, "pm": -9, "pupscomp": 16, "ndpops": 3, "nrtags": 1, "flaccids": 1, "gohandoff": 2, "retinbase": 1} },
+            { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 5, "pops": 15, "grabs": 12, "drops": 12, "hold": 80, "captures": 0, "prevent": 60, "returns": 5, "pups": 1, "holdagainst": 337, "pm": -9, "pupscomp": 16, "ndpops": 3, "nrtags": 0, "goodhandoff": 1, "handoff": 2, "retinbase": 3, "quickret": 3, "flaccids": 3, "gohandoff": 2} },
+            { "team": "Miami Ballphins", "player_season": "fender", "playing_as": "fender", "stats": {"team": 1, "minutes": 10, "score": 111, "tags": 18, "pops": 5, "grabs": 7, "drops": 5, "hold": 70, "captures": 2, "prevent": 212, "returns": 17, "pups": 1, "holdagainst": 238, "pm": 9, "pupscomp": 16, "ndpops": 0, "nrtags": 1, "goregrab": 3, "goodhandoff": 2, "handoff": 3, "coregrab": 2, "quickret": 6, "retinbase": 7} },
+            { "team": "Miami Ballphins", "player_season": "magnolia", "playing_as": "magnolia", "stats": {"team": 1, "minutes": 10, "score": 104, "tags": 7, "pops": 9, "grabs": 14, "drops": 9, "hold": 87, "captures": 4, "prevent": 67, "returns": 7, "pups": 3, "holdagainst": 238, "pm": 9, "pupscomp": 16, "ndpops": 0, "nrtags": 0, "goodhandoff": 2, "handoff": 2, "goregrab": 1, "gohandoff": 1} }
+          ]
+        },
         {
           "tagpro_eu": "3531765", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "The Holy Seehawks", "team1_score": 9, "team2_score": 2,
           "players": [
@@ -945,9 +1054,9 @@
             { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
             { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -958,9 +1067,9 @@
             { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
             { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -971,9 +1080,9 @@
             { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
             { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -984,9 +1093,9 @@
             { "team": "Miami Ballphins", "player_season": "Scorch", "playing_as": "Scorch" },
             { "team": "Miami Ballphins", "player_season": "TaylorWhiff", "playing_as": "TaylorWhiff" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         }
       ]
@@ -1283,9 +1392,9 @@
             { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
             { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1296,9 +1405,9 @@
             { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
             { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1309,9 +1418,9 @@
             { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
             { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1322,9 +1431,9 @@
             { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
             { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1335,9 +1444,9 @@
             { "team": "Over the Pants Handoffs", "player_season": "Xile", "playing_as": "Xile" },
             { "team": "Over the Pants Handoffs", "player_season": "bumballbee", "playing_as": "bumballbee" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         }
       ]
@@ -1349,9 +1458,9 @@
           "tagpro_eu": "3537050", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Holy Seehawks", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 3,
           "players": [
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" },
             { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
             { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
             { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
@@ -1362,9 +1471,9 @@
           "tagpro_eu": "3537060", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Way of Pings", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" },
             { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
             { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
             { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
@@ -1375,9 +1484,9 @@
           "tagpro_eu": "3537099", "game_in_match": "Game 3", "map_name": "Willow ", "map_id": 14107, "red_team": "The Holy Seehawks", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" },
             { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
             { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
             { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
@@ -1388,9 +1497,9 @@
           "tagpro_eu": "3537071", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Holy Seehawks", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" },
             { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
             { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
             { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
@@ -1401,9 +1510,9 @@
           "tagpro_eu": "3537085", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 7,
           "players": [
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" },
             { "team": "The Way of Pings", "player_season": "2P1S", "playing_as": "2P1S" },
             { "team": "The Way of Pings", "player_season": "anti-re", "playing_as": "anti-re" },
             { "team": "The Way of Pings", "player_season": "ft", "playing_as": "ft" },
@@ -1703,9 +1812,9 @@
             { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1716,9 +1825,9 @@
             { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1729,9 +1838,9 @@
             { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1742,9 +1851,9 @@
             { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         },
         {
@@ -1755,9 +1864,9 @@
             { "team": "Banchester United", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Banchester United", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Holy Seehawks", "player_season": "Gleg", "playing_as": "Gleg" },
-            { "team": "The Holy Seehawks", "player_season": "Magnolia", "playing_as": "magnolia" },
             { "team": "The Holy Seehawks", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" }
+            { "team": "The Holy Seehawks", "player_season": "fender", "playing_as": "fender" },
+            { "team": "The Holy Seehawks", "player_season": "magnolia", "playing_as": "magnolia" }
           ]
         }
       ]

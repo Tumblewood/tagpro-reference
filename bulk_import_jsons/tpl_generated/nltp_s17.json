@@ -43,8 +43,8 @@
     { "season": "NLTP S17", "team": "Imagine Laggins", "player": "f t", "playing_as": "f t" },
     { "season": "NLTP S17", "team": "Jack in the Blocks", "player": "Activ.", "playing_as": "Activ." },
     { "season": "NLTP S17", "team": "Jack in the Blocks", "player": "Crony", "playing_as": "Crony" },
+    { "season": "NLTP S17", "team": "Jack in the Blocks", "player": "Noice!!", "playing_as": "Noice!!" },
     { "season": "NLTP S17", "team": "Jack in the Blocks", "player": "Shaolin", "playing_as": "Shaolin" },
-    { "season": "NLTP S17", "team": "Jack in the Blocks", "player": "noice!!", "playing_as": "noice!!" },
     { "season": "NLTP S17", "team": "New Pingland Revolutions", "player": "BUTTSNAKE", "playing_as": "BUTTSNAKE" },
     { "season": "NLTP S17", "team": "New Pingland Revolutions", "player": "Catalyst", "playing_as": "Catalyst" },
     { "season": "NLTP S17", "team": "New Pingland Revolutions", "player": "LifeOfBrian", "playing_as": "LifeOfBrian" },
@@ -77,7 +77,7 @@
     { "season": "NLTP S17", "team": "So Long and Thanks for All the Caps", "player": "Prizm", "playing_as": "Prizm" },
     { "season": "NLTP S17", "team": "So Long and Thanks for All the Caps", "player": "ThePace", "playing_as": "ThePace" },
     { "season": "NLTP S17", "team": "So Long and Thanks for All the Caps", "player": "TurdFerguson", "playing_as": "TurdFerguson" },
-    { "season": "NLTP S17", "team": "St. James InfirWormy", "player": "IPlanneDThat", "playing_as": "IPlanneDThat" },
+    { "season": "NLTP S17", "team": "St. James InfirWormy", "player": "IPlannedThat", "playing_as": "IPlannedThat" },
     { "season": "NLTP S17", "team": "St. James InfirWormy", "player": "Keyser Soze", "playing_as": "Keyser Soze" },
     { "season": "NLTP S17", "team": "St. James InfirWormy", "player": "Poeticalto", "playing_as": "Poeticalto" },
     { "season": "NLTP S17", "team": "St. James InfirWormy", "player": "WRIG", "playing_as": "WRIG" },
@@ -164,6 +164,19 @@
     {
       "season": "NLTP S17", "date": "2020-01-21", "week": "Week 1", "team1": "So Long and Thanks for All the Caps", "team2": "Imagine Laggins",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "So Long and Thanks for All the Caps", "blue_team": "Imagine Laggins", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 11, "pops": 13, "grabs": 2, "drops": 2, "hold": 11, "captures": 0, "prevent": 143, "returns": 6, "pups": 6, "holdagainst": 219, "pm": 0, "pupscomp": 27, "ndpops": 11, "nrtags": 5} },
+            { "team": "Imagine Laggins", "player_season": "42", "playing_as": "42", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 11, "pops": 13, "grabs": 6, "drops": 6, "hold": 20, "captures": 0, "prevent": 106, "returns": 7, "pups": 6, "holdagainst": 238, "pm": 0, "pupscomp": 27, "ndpops": 7, "nrtags": 4} },
+            { "team": "Imagine Laggins", "player_season": "Aaron215", "playing_as": "Aaron215", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 23, "pops": 17, "grabs": 3, "drops": 3, "hold": 25, "captures": 0, "prevent": 129, "returns": 20, "pups": 2, "holdagainst": 219, "pm": 0, "pupscomp": 27, "ndpops": 14, "nrtags": 3} },
+            { "team": "Imagine Laggins", "player_season": "Airmigo", "playing_as": "Airmigo", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 7, "pops": 18, "grabs": 14, "drops": 12, "hold": 106, "captures": 2, "prevent": 4, "returns": 5, "pups": 1, "holdagainst": 238, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 2} },
+            { "team": "Imagine Laggins", "player_season": "Cheezeoooole", "playing_as": "Cheezeoooole", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 5, "pops": 21, "grabs": 15, "drops": 13, "hold": 86, "captures": 2, "prevent": 33, "returns": 5, "pups": 4, "holdagainst": 219, "pm": 0, "pupscomp": 27, "ndpops": 8, "nrtags": 0} },
+            { "team": "Imagine Laggins", "player_season": "First", "playing_as": "First", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 18, "pops": 19, "grabs": 13, "drops": 12, "hold": 79, "captures": 1, "prevent": 32, "returns": 7, "pups": 4, "holdagainst": 238, "pm": 0, "pupscomp": 27, "ndpops": 7, "nrtags": 11} },
+            { "team": "Imagine Laggins", "player_season": "TurdFerguson", "playing_as": "TurdFerguson", "stats": {"team": 1, "minutes": 10, "score": 27, "tags": 11, "pops": 11, "grabs": 5, "drops": 5, "hold": 14, "captures": 0, "prevent": 143, "returns": 8, "pups": 2, "holdagainst": 238, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 3} },
+            { "team": "Imagine Laggins", "player_season": "f t", "playing_as": "f t", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 7, "pops": 15, "grabs": 13, "drops": 12, "hold": 116, "captures": 1, "prevent": 8, "returns": 4, "pups": 2, "holdagainst": 219, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 3} }
+          ]
+        },
         {
           "tagpro_eu": "2384605", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Imagine Laggins", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 2, "team2_score": 3,
           "players": [
@@ -270,8 +283,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "noice!!" },
             { "team": "Pi-Curious", "player_season": "BUTTSNAKE", "playing_as": "BUTTSNAKE" },
             { "team": "Pi-Curious", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
@@ -283,8 +296,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "noice!!" },
             { "team": "Pi-Curious", "player_season": "BUTTSNAKE", "playing_as": "BUTTSNAKE" },
             { "team": "Pi-Curious", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
@@ -296,8 +309,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "noice!!" },
             { "team": "Pi-Curious", "player_season": "BUTTSNAKE", "playing_as": "BUTTSNAKE" },
             { "team": "Pi-Curious", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
             { "team": "Pi-Curious", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
@@ -309,8 +322,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "noice!!" },
             { "team": "Pi-Curious", "player_season": "BUTTSNAKE", "playing_as": "BUTTSNAKE" },
             { "team": "Pi-Curious", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
@@ -329,7 +342,7 @@
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlanneDThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlanneDThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -342,7 +355,7 @@
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlanneDThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlanneDThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -355,7 +368,7 @@
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlanneDThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlanneDThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -368,7 +381,7 @@
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlanneDThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlanneDThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -551,6 +564,19 @@
       "season": "NLTP S17", "date": "2020-01-28", "week": "Week 2", "team1": "Imagine Laggins", "team2": "The Gateful Dead",
       "games": [
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Gateful Dead", "blue_team": "Imagine Laggins", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"score": 34, "team": 2, "prevent": 199, "tags": 11, "pups": 4, "returns": 10, "ndpops": 4, "pops": 7, "grabs": 3, "drops": 3, "hold": 15, "minutes": 9, "quit": true, "game_end": 22797, "quickret": 3, "retinbase": 5, "goregrab": 1, "nrtags": 1, "holdagainst": 195, "pupscomp": 24, "pm": 1, "gohandoff": 1, "flaccids": 1} },
+            { "team": "Imagine Laggins", "player_season": "Aaron215", "playing_as": "Aaron215", "stats": {"score": 23, "team": 2, "returns": 14, "tags": 15, "prevent": 189, "ndpops": 5, "pops": 8, "pups": 2, "grabs": 3, "drops": 3, "hold": 9, "minutes": 9, "quit": true, "game_end": 22654, "quickret": 9, "retinbase": 8, "nrtags": 1, "holdagainst": 195, "pupscomp": 24, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "Cheezeoooole", "playing_as": "Cheezeoooole", "stats": {"score": 14, "team": 2, "grabs": 13, "pops": 13, "drops": 10, "hold": 94, "ndpops": 3, "returns": 4, "tags": 4, "prevent": 26, "captures": 2, "minutes": 9, "quit": true, "game_end": 22766, "goregrab": 2, "quickret": 1, "retinbase": 1, "longholds": 1, "goodhandoff": 3, "handoff": 4, "gohandoff": 1, "cohandoff": 1, "nrtags": 0, "holdagainst": 195, "pupscomp": 24, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy", "stats": {"score": 75, "team": 1, "prevent": 138, "ndpops": 1, "pops": 9, "grabs": 9, "drops": 8, "hold": 89, "tags": 9, "returns": 5, "pups": 3, "minutes": 9, "quit": true, "game_end": 22720, "goregrab": 2, "longholds": 1, "goodhandoff": 1, "handoff": 2, "gohandoff": 1, "flaccids": 2, "quickret": 2, "retinbase": 2, "nrtags": 4, "holdagainst": 204, "pupscomp": 24, "pm": -1, "captures": 1} },
+            { "team": "Imagine Laggins", "player_season": "Jerry.", "playing_as": "Jerry.", "stats": {"score": 75, "team": 1, "grabs": 11, "pops": 16, "drops": 9, "hold": 33, "ndpops": 7, "prevent": 41, "returns": 8, "tags": 12, "captures": 2, "pups": 4, "minutes": 9, "flaccids": 5, "quickret": 2, "retinbase": 2, "gohandoff": 1, "goodhandoff": 1, "handoff": 2, "nrtags": 4, "holdagainst": 204, "pupscomp": 24, "pm": -1, "goregrab": 1, "keyret": 1} },
+            { "team": "Imagine Laggins", "player_season": "WheelinTimmy", "playing_as": "WheelinTimmy", "stats": {"score": 49, "team": 1, "prevent": 159, "returns": 7, "tags": 11, "ndpops": 1, "pops": 4, "grabs": 3, "drops": 3, "hold": 32, "pups": 3, "minutes": 9, "quit": true, "game_end": 21838, "gohandoff": 1, "retinbase": 3, "goregrab": 2, "longholds": 1, "quickret": 2, "nrtags": 4, "holdagainst": 204, "pupscomp": 24, "pm": -1} },
+            { "team": "Imagine Laggins", "player_season": "f t", "playing_as": "f t", "stats": {"score": 41, "team": 2, "grabs": 14, "pops": 14, "drops": 11, "hold": 86, "pups": 5, "tags": 10, "ndpops": 3, "captures": 3, "prevent": 16, "returns": 3, "minutes": 9, "quit": true, "game_end": 22691, "goregrab": 5, "flaccids": 5, "longholds": 1, "goodhandoff": 3, "handoff": 3, "coregrab": 1, "quickret": 1, "retinbase": 1, "nrtags": 7, "holdagainst": 195, "pupscomp": 24, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "kutrebar", "playing_as": "kutrebar", "stats": {"score": 34, "team": 1, "grabs": 13, "pops": 13, "drops": 11, "hold": 41, "prevent": 41, "pups": 3, "tags": 10, "ndpops": 2, "returns": 7, "captures": 1, "minutes": 9, "quit": true, "game_end": 20289, "flaccids": 7, "goodhandoff": 3, "handoff": 4, "goregrab": 3, "retinbase": 2, "nrtags": 3, "holdagainst": 204, "pupscomp": 24, "pm": -1} }
+          ]
+        },
+        {
           "tagpro_eu": "2391007", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Imagine Laggins", "blue_team": "The Gateful Dead", "team1_score": 0, "team2_score": 3,
           "players": [
             { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope" },
@@ -601,8 +627,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "Oz God", "playing_as": "Oz God" },
@@ -614,8 +640,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "Oz God", "playing_as": "Oz God" },
@@ -627,8 +653,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "Oz God", "playing_as": "Oz God" },
@@ -640,8 +666,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "Oz God", "playing_as": "Oz God" },
@@ -680,6 +706,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "WCYDinos", "blue_team": "ProBots", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "ProBots", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"score": 57, "team": 2, "grabs": 15, "pops": 20, "drops": 13, "hold": 141, "ndpops": 7, "returns": 4, "tags": 9, "captures": 1, "prevent": 6, "pups": 2, "minutes": 10, "flaccids": 4, "goregrab": 6, "longholds": 4, "handoff": 7, "goodhandoff": 3, "coregrab": 1, "nrtags": 5, "holdagainst": 245, "pupscomp": 18, "pm": 3, "gohandoff": 1, "retinbase": 1} },
+            { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"score": 35, "team": 2, "prevent": 166, "returns": 15, "tags": 16, "pups": 1, "grabs": 5, "captures": 2, "hold": 49, "ndpops": 3, "pops": 6, "drops": 3, "minutes": 10, "quit": true, "game_end": 23227, "quickret": 5, "retinbase": 5, "keyret": 1, "goregrab": 2, "goodhandoff": 1, "handoff": 1, "coregrab": 1, "nrtags": 1, "holdagainst": 245, "pupscomp": 18, "pm": 3} },
+            { "team": "ProBots", "player_season": "Irony", "playing_as": "Irony", "stats": {"score": 61, "team": 1, "returns": 13, "tags": 13, "prevent": 136, "grabs": 8, "pops": 9, "drops": 7, "hold": 24, "pups": 3, "minutes": 10, "quit": true, "game_end": 22884, "quickret": 6, "retinbase": 7, "flaccids": 4, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 326, "pupscomp": 18, "pm": -3, "ndpops": 2, "goregrab": 1} },
+            { "team": "ProBots", "player_season": "MAGNlTUDE", "playing_as": "MAGNlTUDE", "stats": {"score": 32, "team": 1, "prevent": 129, "grabs": 3, "pops": 6, "drops": 3, "hold": 6, "returns": 11, "tags": 15, "pups": 2, "ndpops": 3, "minutes": 10, "quit": true, "game_end": 23071, "goregrab": 1, "flaccids": 2, "gohandoff": 1, "nrtags": 4, "holdagainst": 326, "pupscomp": 18, "pm": -3, "quickret": 1, "retinbase": 3} },
+            { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River", "stats": {"score": 114, "team": 2, "prevent": 184, "returns": 11, "tags": 11, "pups": 3, "grabs": 4, "pops": 5, "drops": 3, "hold": 67, "ndpops": 2, "minutes": 10, "goregrab": 2, "quickret": 5, "retinbase": 6, "keyret": 2, "longholds": 2, "nrtags": 0, "holdagainst": 245, "pupscomp": 18, "pm": 3, "captures": 1} },
+            { "team": "ProBots", "player_season": "adawg", "playing_as": "adawg", "stats": {"score": 31, "team": 1, "grabs": 12, "pops": 11, "drops": 10, "hold": 87, "returns": 3, "tags": 9, "pups": 3, "captures": 1, "prevent": 6, "minutes": 10, "quit": true, "game_end": 19852, "gohandoff": 3, "goodhandoff": 3, "handoff": 4, "goregrab": 3, "nrtags": 6, "holdagainst": 326, "pupscomp": 18, "pm": -3, "ndpops": 1, "flaccids": 1} },
+            { "team": "ProBots", "player_season": "bubz", "playing_as": "bubz", "stats": {"score": 45, "team": 1, "grabs": 19, "pops": 18, "drops": 17, "hold": 128, "returns": 1, "tags": 3, "prevent": 6, "ndpops": 1, "captures": 2, "minutes": 10, "quit": true, "game_end": 23018, "goodhandoff": 4, "handoff": 6, "saves": 1, "flaccids": 5, "longholds": 1, "nrtags": 2, "holdagainst": 326, "pupscomp": 18, "pm": -3, "pups": 1, "gohandoff": 1, "goregrab": 2} },
+            { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"score": 63, "team": 2, "grabs": 12, "pops": 14, "drops": 9, "hold": 69, "pups": 3, "returns": 7, "tags": 7, "prevent": 22, "captures": 2, "ndpops": 5, "minutes": 10, "flaccids": 3, "goodhandoff": 4, "handoff": 4, "goregrab": 6, "quickret": 2, "retinbase": 2, "coregrab": 2, "nrtags": 0, "holdagainst": 245, "pupscomp": 18, "pm": 3, "gohandoff": 1} }
+          ]
+        },
+        {
           "tagpro_eu": "2391070", "game_in_match": "Game 2 Half 2", "map_name": "Straight Cache Homie", "map_id": 9018, "red_team": "ProBots", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "ProBots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
@@ -704,7 +743,7 @@
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig", "playing_as": "Zig" },
             { "team": "Over the Pants Handoffs", "player_season": "eDD", "playing_as": "eDD" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -717,7 +756,7 @@
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig", "playing_as": "Zig" },
             { "team": "Over the Pants Handoffs", "player_season": "eDD", "playing_as": "eDD" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -770,7 +809,7 @@
         {
           "tagpro_eu": "2397017", "game_in_match": "Game 1 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "St. James InfirWormy", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 4,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -783,7 +822,7 @@
         {
           "tagpro_eu": "2397031", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "The Land Before Timers", "blue_team": "St. James InfirWormy", "team1_score": 4, "team2_score": 1,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -796,7 +835,7 @@
         {
           "tagpro_eu": "2397044", "game_in_match": "Game 2 Half 1", "map_name": "Worm", "map_id": 13224, "red_team": "The Land Before Timers", "blue_team": "St. James InfirWormy", "team1_score": 0, "team2_score": 0,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -809,7 +848,7 @@
         {
           "tagpro_eu": "2397054", "game_in_match": "Game 2 Half 2", "map_name": "Worm", "map_id": 13224, "red_team": "St. James InfirWormy", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 3,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -829,8 +868,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "42", "playing_as": "42" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Airmigo", "playing_as": "Airmigo" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "First", "playing_as": "First" },
@@ -842,8 +881,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "42", "playing_as": "42" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Airmigo", "playing_as": "Airmigo" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "First", "playing_as": "First" },
@@ -855,8 +894,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "42", "playing_as": "42" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Airmigo", "playing_as": "Airmigo" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "First", "playing_as": "First" },
@@ -868,8 +907,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "42", "playing_as": "42" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Airmigo", "playing_as": "Airmigo" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "First", "playing_as": "First" },
@@ -1356,8 +1395,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "WCYDinos", "player_season": "Dr.Ankles", "playing_as": "Dr.Ankles" },
             { "team": "WCYDinos", "player_season": "MAGNlTUDE", "playing_as": "MAGNlTUDE" },
             { "team": "WCYDinos", "player_season": "U-Baul", "playing_as": "U-Baul" },
@@ -1369,8 +1408,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "WCYDinos", "player_season": "Dr.Ankles", "playing_as": "Dr.Ankles" },
             { "team": "WCYDinos", "player_season": "MAGNlTUDE", "playing_as": "MAGNlTUDE" },
             { "team": "WCYDinos", "player_season": "U-Baul", "playing_as": "U-Baul" },
@@ -1382,8 +1421,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "WCYDinos", "player_season": "Dr.Ankles", "playing_as": "Dr.Ankles" },
             { "team": "WCYDinos", "player_season": "MAGNlTUDE", "playing_as": "MAGNlTUDE" },
             { "team": "WCYDinos", "player_season": "U-Baul", "playing_as": "U-Baul" },
@@ -1395,8 +1434,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "WCYDinos", "player_season": "Dr.Ankles", "playing_as": "Dr.Ankles" },
             { "team": "WCYDinos", "player_season": "MAGNlTUDE", "playing_as": "MAGNlTUDE" },
             { "team": "WCYDinos", "player_season": "U-Baul", "playing_as": "U-Baul" },
@@ -1415,7 +1454,7 @@
             { "team": "Pi-Curious", "player_season": "Maradona", "playing_as": "Maradona" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Pi-Curious", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "based ball", "playing_as": "based ball" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" }
@@ -1428,7 +1467,7 @@
             { "team": "Pi-Curious", "player_season": "Maradona", "playing_as": "Maradona" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Pi-Curious", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "based ball", "playing_as": "based ball" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" }
@@ -1441,7 +1480,7 @@
             { "team": "Pi-Curious", "player_season": "Maradona", "playing_as": "Maradona" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Pi-Curious", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "based ball", "playing_as": "based ball" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" }
@@ -1454,7 +1493,7 @@
             { "team": "Pi-Curious", "player_season": "Maradona", "playing_as": "Maradona" },
             { "team": "Pi-Curious", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Pi-Curious", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "based ball", "playing_as": "based ball" },
             { "team": "St. James InfirWormy", "player_season": "pk", "playing_as": "pk" }
@@ -1617,6 +1656,19 @@
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "ProBots", "blue_team": "Imagine Laggins", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"score": 25, "team": 2, "prevent": 109, "returns": 10, "tags": 10, "ndpops": 4, "pops": 11, "pups": 1, "grabs": 7, "drops": 7, "hold": 37, "minutes": 10, "quickret": 4, "goregrab": 5, "goodhandoff": 2, "handoff": 2, "flaccids": 2, "retinbase": 3, "keyret": 2, "nrtags": 0, "holdagainst": 332, "pupscomp": 18, "pm": -1} },
+            { "team": "Imagine Laggins", "player_season": "Aaron215", "playing_as": "Aaron215", "stats": {"score": 30, "team": 2, "prevent": 113, "ndpops": 13, "pops": 18, "returns": 13, "tags": 14, "grabs": 5, "drops": 5, "hold": 22, "pups": 2, "minutes": 10, "retinbase": 5, "flaccids": 2, "quickret": 4, "goodhandoff": 2, "handoff": 2, "nrtags": 1, "holdagainst": 332, "pupscomp": 18, "pm": -1} },
+            { "team": "Imagine Laggins", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"score": 29, "team": 1, "grabs": 18, "pops": 20, "drops": 17, "hold": 77, "returns": 9, "tags": 14, "pups": 1, "prevent": 65, "ndpops": 3, "captures": 1, "minutes": 10, "flaccids": 6, "goregrab": 3, "goodhandoff": 5, "handoff": 5, "quickret": 3, "retinbase": 3, "keyret": 1, "nrtags": 5, "holdagainst": 275, "pupscomp": 18, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "Cheezeoooole", "playing_as": "Cheezeoooole", "stats": {"score": 31, "team": 2, "grabs": 17, "pops": 18, "drops": 15, "hold": 80, "returns": 9, "tags": 9, "prevent": 22, "captures": 2, "pups": 1, "ndpops": 3, "minutes": 10, "flaccids": 7, "goregrab": 4, "coregrab": 1, "goodhandoff": 3, "handoff": 5, "quickret": 2, "retinbase": 2, "gohandoff": 3, "nrtags": 0, "holdagainst": 332, "pupscomp": 18, "pm": -1} },
+            { "team": "Imagine Laggins", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"score": 53, "team": 1, "prevent": 111, "tags": 21, "returns": 16, "pups": 3, "ndpops": 2, "pops": 10, "grabs": 9, "drops": 8, "hold": 80, "captures": 1, "minutes": 10, "quickret": 8, "retinbase": 7, "keyret": 2, "goregrab": 1, "handoff": 2, "flaccids": 2, "longholds": 1, "nrtags": 5, "holdagainst": 275, "pupscomp": 18, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "Moon River", "playing_as": "Moon River", "stats": {"score": 57, "team": 1, "prevent": 128, "returns": 13, "tags": 22, "grabs": 8, "pops": 8, "drops": 7, "hold": 84, "pups": 5, "ndpops": 1, "captures": 1, "minutes": 10, "quickret": 4, "retinbase": 5, "goodhandoff": 2, "handoff": 4, "goregrab": 4, "keyret": 1, "flaccids": 2, "coregrab": 1, "longholds": 1, "nrtags": 9, "holdagainst": 275, "pupscomp": 18, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"score": 31, "team": 1, "grabs": 12, "captures": 2, "hold": 91, "prevent": 19, "pops": 11, "drops": 10, "ndpops": 1, "pups": 1, "returns": 3, "tags": 4, "minutes": 10, "goregrab": 7, "coregrab": 1, "goodhandoff": 1, "handoff": 2, "flaccids": 3, "gohandoff": 2, "retinbase": 2, "nrtags": 1, "holdagainst": 275, "pupscomp": 18, "pm": 1} },
+            { "team": "Imagine Laggins", "player_season": "f t", "playing_as": "f t", "stats": {"score": 45, "team": 2, "grabs": 17, "pops": 18, "drops": 15, "hold": 136, "prevent": 30, "returns": 10, "tags": 13, "ndpops": 3, "pups": 4, "captures": 2, "minutes": 10, "goregrab": 2, "longholds": 2, "goodhandoff": 3, "handoff": 3, "flaccids": 4, "retinbase": 3, "quickret": 3, "gohandoff": 1, "nrtags": 3, "holdagainst": 332, "pupscomp": 18, "pm": -1} }
+          ]
         }
       ]
     },
@@ -1632,8 +1684,8 @@
             { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
-            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" }
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
+            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" }
           ]
         },
         {
@@ -1646,8 +1698,8 @@
             { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
-            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" }
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
+            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" }
           ]
         },
         {
@@ -1659,8 +1711,8 @@
             { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
-            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" }
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
+            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" }
           ]
         },
         {
@@ -1672,8 +1724,8 @@
             { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
-            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" }
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
+            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" }
           ]
         },
         {
@@ -1685,8 +1737,8 @@
             { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
-            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" }
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
+            { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" }
           ]
         }
       ]
@@ -1754,7 +1806,7 @@
         {
           "tagpro_eu": "2409035", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Gateful Dead", "blue_team": "St. James InfirWormy", "team1_score": 0, "team2_score": 4, "second_eu": "2409041", "switch_time": 180,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "WRIG", "playing_as": "WRIG" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -1767,7 +1819,7 @@
         {
           "tagpro_eu": "2409058", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "St. James InfirWormy", "blue_team": "The Gateful Dead", "team1_score": 5, "team2_score": 13,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "WRIG", "playing_as": "WRIG" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -1780,7 +1832,7 @@
         {
           "tagpro_eu": "2409077", "game_in_match": "Game 2 Half 1", "map_name": "Romania", "map_id": 13225, "red_team": "St. James InfirWormy", "blue_team": "The Gateful Dead", "team1_score": 2, "team2_score": 2,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -1793,7 +1845,7 @@
         {
           "tagpro_eu": "2409094", "game_in_match": "Game 2 Half 2", "map_name": "Romania", "map_id": 13225, "red_team": "The Gateful Dead", "blue_team": "St. James InfirWormy", "team1_score": 5, "team2_score": 3,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -1949,6 +2001,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Pi-Curious", "blue_team": "Imagine Laggins", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"team": 2, "minutes": 10, "score": 50, "tags": 17, "pops": 6, "grabs": 3, "drops": 2, "hold": 14, "captures": 1, "prevent": 144, "returns": 12, "pups": 8, "holdagainst": 188, "pm": 2, "pupscomp": 36, "ndpops": 4, "nrtags": 5} },
+            { "team": "Imagine Laggins", "player_season": "Aaron215", "playing_as": "Aaron215", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 15, "pops": 10, "grabs": 8, "drops": 8, "hold": 24, "captures": 0, "prevent": 91, "returns": 10, "pups": 6, "holdagainst": 188, "pm": 2, "pupscomp": 36, "ndpops": 2, "nrtags": 5} },
+            { "team": "Imagine Laggins", "player_season": "Cheezeoooole", "playing_as": "Cheezeoooole", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 8, "pops": 19, "grabs": 16, "drops": 15, "hold": 54, "captures": 1, "prevent": 29, "returns": 4, "pups": 2, "holdagainst": 188, "pm": 2, "pupscomp": 36, "ndpops": 4, "nrtags": 4} },
+            { "team": "Imagine Laggins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 21, "pops": 9, "grabs": 4, "drops": 4, "hold": 21, "captures": 0, "prevent": 95, "returns": 15, "pups": 7, "holdagainst": 193, "pm": -2, "pupscomp": 36, "ndpops": 5, "nrtags": 6} },
+            { "team": "Imagine Laggins", "player_season": "Maradona", "playing_as": "Maradona", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 16, "pops": 7, "grabs": 3, "drops": 2, "hold": 16, "captures": 1, "prevent": 168, "returns": 12, "pups": 3, "holdagainst": 193, "pm": -2, "pupscomp": 36, "ndpops": 5, "nrtags": 4} },
+            { "team": "Imagine Laggins", "player_season": "Slowpolka", "playing_as": "Slowpolka", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 2, "pops": 20, "grabs": 16, "drops": 13, "hold": 78, "captures": 3, "prevent": 24, "returns": 2, "pups": 1, "holdagainst": 193, "pm": -2, "pupscomp": 36, "ndpops": 7, "nrtags": 0} },
+            { "team": "Imagine Laggins", "player_season": "f t", "playing_as": "f t", "stats": {"team": 2, "minutes": 10, "score": 50, "tags": 3, "pops": 14, "grabs": 13, "drops": 9, "hold": 101, "captures": 4, "prevent": 23, "returns": 2, "pups": 7, "holdagainst": 188, "pm": 2, "pupscomp": 36, "ndpops": 5, "nrtags": 1} },
+            { "team": "Imagine Laggins", "player_season": "pk", "playing_as": "pk", "stats": {"team": 1, "minutes": 10, "score": 23, "tags": 9, "pops": 15, "grabs": 9, "drops": 9, "hold": 73, "captures": 0, "prevent": 9, "returns": 5, "pups": 2, "holdagainst": 193, "pm": -2, "pupscomp": 36, "ndpops": 6, "nrtags": 4} }
+          ]
+        },
+        {
           "tagpro_eu": "2414581", "game_in_match": "Game 2 Half 2", "map_name": "Jukebox", "map_id": 13345, "red_team": "Imagine Laggins", "blue_team": "Pi-Curious", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Imagine Laggins", "player_season": "360broscope", "playing_as": "360broscope" },
@@ -2017,6 +2082,19 @@
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
             { "team": "ProBots", "player_season": "eldenn", "playing_as": "eldenn" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Overtime", "map_name": null, "map_id": null, "red_team": "ProBots", "blue_team": "Boston Pops", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Boston Pops", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 1, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "CoolCat", "playing_as": "CoolCat", "stats": {"team": 2, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"team": 1, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "Incandenza", "playing_as": "Incandenza", "stats": {"team": 2, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "Moon River", "playing_as": "moon river", "stats": {"team": 1, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "Prevntus", "playing_as": "Prevntus", "stats": {"team": 2, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"team": 2, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Boston Pops", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"team": 1, "minutes": 2, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
+          ]
         }
       ]
     },
@@ -2028,8 +2106,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "Over the Pants Handoffs", "player_season": "Dr. Ek", "playing_as": "Dr. Ek" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig!", "playing_as": "Zig!" },
@@ -2041,8 +2119,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "Over the Pants Handoffs", "player_season": "Dr. Ek", "playing_as": "Dr. Ek" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig!", "playing_as": "Zig!" },
@@ -2054,8 +2132,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "Over the Pants Handoffs", "player_season": "D Rek", "playing_as": "D Rek" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig!", "playing_as": "Zig!" },
@@ -2067,8 +2145,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "Shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "Over the Pants Handoffs", "player_season": "D Rek", "playing_as": "D Rek" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "Zig!", "playing_as": "Zig!" },
@@ -2083,7 +2161,7 @@
         {
           "tagpro_eu": "2414598", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "WCYDinos", "blue_team": "St. James InfirWormy", "team1_score": 1, "team2_score": 7,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "titanblue", "playing_as": "titanblue" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -2096,7 +2174,7 @@
         {
           "tagpro_eu": "2414611", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "St. James InfirWormy", "blue_team": "WCYDinos", "team1_score": 6, "team2_score": 7,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "titanblue", "playing_as": "titanblue" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -2109,7 +2187,7 @@
         {
           "tagpro_eu": "2414624", "game_in_match": "Game 2 Half 1", "map_name": "Jukebox", "map_id": 13345, "red_team": "WCYDinos", "blue_team": "St. James InfirWormy", "team1_score": 2, "team2_score": 3,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "titanblue", "playing_as": "titanblue" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -2122,7 +2200,7 @@
         {
           "tagpro_eu": "2414640", "game_in_match": "Game 2 Half 2", "map_name": "Jukebox", "map_id": 13345, "red_team": "St. James InfirWormy", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 7,
           "players": [
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "titanblue", "playing_as": "titanblue" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" },
@@ -2256,8 +2334,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "ProBots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
@@ -2269,8 +2347,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "ProBots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
@@ -2282,8 +2360,8 @@
           "players": [
             { "team": "Jack in the Blocks", "player_season": "Activ.", "playing_as": "Activ." },
             { "team": "Jack in the Blocks", "player_season": "Crony", "playing_as": "Crony" },
+            { "team": "Jack in the Blocks", "player_season": "Noice!!", "playing_as": "Noice!!" },
             { "team": "Jack in the Blocks", "player_season": "Shaolin", "playing_as": "shaolin" },
-            { "team": "Jack in the Blocks", "player_season": "noice!!", "playing_as": "Noice!!" },
             { "team": "ProBots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "ProBots", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "ProBots", "player_season": "Moon River", "playing_as": "Moon River" },
@@ -2372,7 +2450,7 @@
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "yaboifatpp", "playing_as": "yaboifatpp" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Keyser Soze", "playing_as": "Keyser Soze" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -2385,7 +2463,7 @@
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "yaboifatpp", "playing_as": "yaboifatpp" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Keyser Soze", "playing_as": "Keyser Soze" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -2398,7 +2476,7 @@
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "yaboifatpp", "playing_as": "yaboifatpp" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Keyser Soze", "playing_as": "Keyser Soze" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }
@@ -2411,7 +2489,7 @@
             { "team": "New Pingland Revolutions", "player_season": "Catalyst", "playing_as": "Catalyst" },
             { "team": "New Pingland Revolutions", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "New Pingland Revolutions", "player_season": "yaboifatpp", "playing_as": "yaboifatpp" },
-            { "team": "St. James InfirWormy", "player_season": "IPlanneDThat", "playing_as": "IPlannedThat" },
+            { "team": "St. James InfirWormy", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
             { "team": "St. James InfirWormy", "player_season": "Keyser Soze", "playing_as": "Keyser Soze" },
             { "team": "St. James InfirWormy", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "St. James InfirWormy", "player_season": "washed zeus", "playing_as": "washed zeus" }

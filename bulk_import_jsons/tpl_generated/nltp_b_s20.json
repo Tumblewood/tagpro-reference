@@ -15,8 +15,8 @@
   ],
   "playerSeasons": [
     { "season": "NLTP B S20", "team": null, "player": "Catmobile97", "playing_as": "Catmobile97" },
+    { "season": "NLTP B S20", "team": null, "player": "Prime", "playing_as": "Prime" },
     { "season": "NLTP B S20", "team": null, "player": "ploo.", "playing_as": "ploo." },
-    { "season": "NLTP B S20", "team": null, "player": "prime", "playing_as": "prime" },
     { "season": "NLTP B S20", "team": "Bohemian Cap City", "player": "Button", "playing_as": "Button" },
     { "season": "NLTP B S20", "team": "Bohemian Cap City", "player": "KahnMan", "playing_as": "KahnMan" },
     { "season": "NLTP B S20", "team": "Bohemian Cap City", "player": "Omnivore", "playing_as": "Omnivore" },
@@ -29,7 +29,6 @@
     { "season": "NLTP B S20", "team": "Bust a Pup", "player": "UNIT-01", "playing_as": "UNIT-01" },
     { "season": "NLTP B S20", "team": "Bust a Pup", "player": "aerrow", "playing_as": "aerrow" },
     { "season": "NLTP B S20", "team": "Bust a Pup", "player": "big brother", "playing_as": "big brother" },
-    { "season": "NLTP B S20", "team": "Do the Wire", "player": "Catbabel97", "playing_as": "Catbabel97" },
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "Choko", "playing_as": "Choko" },
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "Corinth", "playing_as": "Corinth" },
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "Jelly Rat", "playing_as": "Jelly Rat" },
@@ -37,6 +36,7 @@
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "SmallyBigs", "playing_as": "SmallyBigs" },
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "Thanos Ball", "playing_as": "Thanos Ball" },
     { "season": "NLTP B S20", "team": "Do the Wire", "player": "Trapsin", "playing_as": "Trapsin" },
+    { "season": "NLTP B S20", "team": "Do the Wire", "player": "catBabel97", "playing_as": "catBabel97" },
     { "season": "NLTP B S20", "team": "Green Eggs and Spam", "player": "GnasStrafDel", "playing_as": "GnasStrafDel" },
     { "season": "NLTP B S20", "team": "Green Eggs and Spam", "player": "Kooler", "playing_as": "Kooler" },
     { "season": "NLTP B S20", "team": "Green Eggs and Spam", "player": "Opticball", "playing_as": "Opticball" },
@@ -178,8 +178,8 @@
             { "team": "Do the Wire", "player_season": "bombsquad", "playing_as": "bombsquad" },
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
           ]
         },
         {
@@ -204,8 +204,8 @@
             { "team": "Do the Wire", "player_season": "Trapsin", "playing_as": "Trapsin" },
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" }
           ]
         },
         {
@@ -217,8 +217,8 @@
             { "team": "Do the Wire", "player_season": "bombsquad", "playing_as": "bombsquad" },
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
           ]
         }
       ]
@@ -580,8 +580,8 @@
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" }
           ]
         },
         {
@@ -592,9 +592,9 @@
             { "team": "Incrediballs", "player_season": "Zoomie", "playing_as": "Zoomie" },
             { "team": "Incrediballs", "player_season": "im a goat", "playing_as": "im a goat" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
             { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
-            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
           ]
         },
         {
@@ -619,8 +619,8 @@
             { "team": "Incrediballs", "player_season": "im a goat", "playing_as": "im a goat" },
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" }
           ]
         }
       ]
@@ -951,8 +951,8 @@
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
             { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" },
             { "team": "The Cyclists", "player_season": "Overkill", "playing_as": "Overkill" },
             { "team": "The Cyclists", "player_season": "Sanitence", "playing_as": "Sanitence" },
             { "team": "The Cyclists", "player_season": "naga", "playing_as": "naga" },
@@ -963,9 +963,9 @@
           "tagpro_eu": "2783764", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Legends of the Splittin Temple", "blue_team": "The Cyclists", "team1_score": 3, "team2_score": 11,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
             { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
             { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" },
             { "team": "The Cyclists", "player_season": "bibo", "playing_as": "bibo" },
             { "team": "The Cyclists", "player_season": "korso", "playing_as": "korso" },
             { "team": "The Cyclists", "player_season": "rena", "playing_as": "rena" },
@@ -990,8 +990,8 @@
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
             { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" },
             { "team": "The Cyclists", "player_season": "Overkill", "playing_as": "Overkill" },
             { "team": "The Cyclists", "player_season": "korso", "playing_as": "korso" },
             { "team": "The Cyclists", "player_season": "naga", "playing_as": "naga" },
@@ -1867,10 +1867,10 @@
         {
           "tagpro_eu": "2807218", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Manipulation Station", "blue_team": "Do the Wire", "team1_score": 4, "team2_score": 8,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "Catbabel97" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
             { "team": "Do the Wire", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "Catbabel97" },
             { "team": "Manipulation Station", "player_season": "FrodoBallins", "playing_as": "FrodoBallins" },
             { "team": "Manipulation Station", "player_season": "JSwan", "playing_as": "JSwan" },
             { "team": "Manipulation Station", "player_season": "SOGEKING", "playing_as": "SOGEKING" },
@@ -1880,10 +1880,10 @@
         {
           "tagpro_eu": "2807239", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Do the Wire", "blue_team": "Manipulation Station", "team1_score": 8, "team2_score": 14,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "Catbabel97" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
             { "team": "Do the Wire", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "Catbabel97" },
             { "team": "Manipulation Station", "player_season": "SOGEKING", "playing_as": "SOGEKING" },
             { "team": "Manipulation Station", "player_season": "Victor messi", "playing_as": "Victor messi" },
             { "team": "Manipulation Station", "player_season": "lukemoo", "playing_as": "lukemoo" },
@@ -2152,11 +2152,11 @@
         {
           "tagpro_eu": "2814912", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Do the Wire", "team1_score": 2, "team2_score": 1,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "Catbabel97" },
             { "team": "Do the Wire", "player_season": "Corinth", "playing_as": "Corinth" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
             { "team": "Do the Wire", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "Catbabel97" },
             { "team": "The Land Before Timers", "player_season": "GreatBambino", "playing_as": "GreatBambino" },
             { "team": "The Land Before Timers", "player_season": "adam1", "playing_as": "adam1" },
             { "team": "The Land Before Timers", "player_season": "garet", "playing_as": "garet" },
@@ -2166,10 +2166,10 @@
         {
           "tagpro_eu": "2814926", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Do the Wire", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 7,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "catBabel97" },
             { "team": "Do the Wire", "player_season": "Corinth", "playing_as": "Corinth" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "catBabel97" },
             { "team": "The Land Before Timers", "player_season": "Psychic", "playing_as": "Psychic" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
             { "team": "The Land Before Timers", "player_season": "hippo", "playing_as": "hippo" },
@@ -2179,11 +2179,11 @@
         {
           "tagpro_eu": "2814943", "game_in_match": "Game 2 Half 1", "map_name": "Dash", "map_id": 14108, "red_team": "Do the Wire", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 0,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "catBabel97" },
             { "team": "Do the Wire", "player_season": "Corinth", "playing_as": "Corinth" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "catBabel97" },
             { "team": "The Land Before Timers", "player_season": "adam1", "playing_as": "adam1" },
             { "team": "The Land Before Timers", "player_season": "garet", "playing_as": "garet" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -2193,11 +2193,11 @@
         {
           "tagpro_eu": "2814954", "game_in_match": "Game 2 Half 2", "map_name": "Dash", "map_id": 14108, "red_team": "The Land Before Timers", "blue_team": "Do the Wire", "team1_score": 14, "team2_score": 2,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "catBabel97" },
             { "team": "Do the Wire", "player_season": "Corinth", "playing_as": "Corinth" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "catBabel97" },
             { "team": "The Land Before Timers", "player_season": "GreatBambino", "playing_as": "GreatBambino" },
             { "team": "The Land Before Timers", "player_season": "garet", "playing_as": "garet" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -2549,8 +2549,8 @@
             { "team": "Do the Wire", "player_season": "bombsquad", "playing_as": "bombsquad" },
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Legends of the Splittin Temple", "player_season": "Jarek", "playing_as": "Jarek" },
-            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" }
           ]
         }
       ]
@@ -2767,8 +2767,8 @@
             { "team": "Incrediballs", "player_season": "im a goat", "playing_as": "im a goat" },
             { "team": "Legends of the Splittin Temple", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
-            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" }
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" }
           ]
         }
       ]
@@ -2967,9 +2967,9 @@
           "tagpro_eu": "2783824", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Cyclists", "blue_team": "Legends of the Splittin Temple", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Borgus", "playing_as": "Borgus" },
+            { "team": "Legends of the Splittin Temple", "player_season": "Prime", "playing_as": "Prime" },
             { "team": "Legends of the Splittin Temple", "player_season": "Skitter", "playing_as": "Skitter" },
             { "team": "Legends of the Splittin Temple", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
-            { "team": "Legends of the Splittin Temple", "player_season": "prime", "playing_as": "Prime" },
             { "team": "The Cyclists", "player_season": "Overkill", "playing_as": "Overkill" },
             { "team": "The Cyclists", "player_season": "Sanitence", "playing_as": "Sanitence" },
             { "team": "The Cyclists", "player_season": "naga", "playing_as": "naga" },
@@ -3477,10 +3477,10 @@
         {
           "tagpro_eu": "2807310", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Manipulation Station", "blue_team": "Do the Wire", "team1_score": 6, "team2_score": 19,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "Catbabel97" },
             { "team": "Do the Wire", "player_season": "Corinth", "playing_as": "Corinth" },
             { "team": "Do the Wire", "player_season": "Oink Oink", "playing_as": "Oink Oink" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "Catbabel97" },
             { "team": "Manipulation Station", "player_season": "JSwan", "playing_as": "JSwan" },
             { "team": "Manipulation Station", "player_season": "SOGEKING", "playing_as": "SOGEKING" },
             { "team": "Manipulation Station", "player_season": "lukemoo", "playing_as": "lukemoo" },
@@ -3619,10 +3619,10 @@
         {
           "tagpro_eu": "2814967", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Do the Wire", "team1_score": 2, "team2_score": 2,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "catBabel97" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Thanos Ball", "playing_as": "Thanos Ball" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "catBabel97" },
             { "team": "The Land Before Timers", "player_season": "GreatBambino", "playing_as": "GreatBambino" },
             { "team": "The Land Before Timers", "player_season": "adam1", "playing_as": "adam1" },
             { "team": "The Land Before Timers", "player_season": "hippo", "playing_as": "hippo" },
@@ -3632,10 +3632,10 @@
         {
           "tagpro_eu": "2814981", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Do the Wire", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 4,
           "players": [
-            { "team": "Do the Wire", "player_season": "Catbabel97", "playing_as": "catBabel97" },
             { "team": "Do the Wire", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Do the Wire", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Do the Wire", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Do the Wire", "player_season": "catBabel97", "playing_as": "catBabel97" },
             { "team": "The Land Before Timers", "player_season": "GreatBambino", "playing_as": "GreatBambino" },
             { "team": "The Land Before Timers", "player_season": "garet", "playing_as": "garet" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },

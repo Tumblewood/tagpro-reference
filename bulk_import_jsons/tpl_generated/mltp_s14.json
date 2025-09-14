@@ -19,12 +19,16 @@
   ],
   "playerSeasons": [
     { "season": "MLTP S14", "team": null, "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S14", "team": null, "player": "Calamitous ", "playing_as": "Calamitous " },
+    { "season": "MLTP S14", "team": null, "player": "Elegant", "playing_as": "Elegant" },
     { "season": "MLTP S14", "team": null, "player": "HARD GAY", "playing_as": "HARD GAY" },
     { "season": "MLTP S14", "team": null, "player": "HERB.", "playing_as": "HERB." },
     { "season": "MLTP S14", "team": null, "player": "NEUhusky", "playing_as": "NEUhusky" },
+    { "season": "MLTP S14", "team": null, "player": "Pnaoxt.", "playing_as": "Pnaoxt." },
     { "season": "MLTP S14", "team": null, "player": "Puppy", "playing_as": "Puppy" },
     { "season": "MLTP S14", "team": null, "player": "Xile", "playing_as": "Xile" },
     { "season": "MLTP S14", "team": null, "player": "asdf", "playing_as": "asdf" },
+    { "season": "MLTP S14", "team": null, "player": "evanw", "playing_as": "evanw" },
     { "season": "MLTP S14", "team": null, "player": "hmuladies!", "playing_as": "hmuladies!" },
     { "season": "MLTP S14", "team": null, "player": "knox", "playing_as": "knox" },
     { "season": "MLTP S14", "team": null, "player": "le.asdf", "playing_as": "le.asdf" },
@@ -50,6 +54,8 @@
     { "season": "MLTP S14", "team": "A Developmental Lad", "player": "Will1119", "playing_as": "Will1119" },
     { "season": "MLTP S14", "team": "A Developmental Lad", "player": "dodsfall", "playing_as": "dodsfall" },
     { "season": "MLTP S14", "team": "A Developmental Lad", "player": "phreak", "playing_as": "phreak" },
+    { "season": "MLTP S14", "team": "Boostin Dynamo", "player": "JBaayBaay", "playing_as": "JBaayBaay" },
+    { "season": "MLTP S14", "team": "Boostin Dynamo", "player": "Neb.", "playing_as": "Neb." },
     { "season": "MLTP S14", "team": "Boostin Dynamo", "player": "Stann", "playing_as": "Stann" },
     { "season": "MLTP S14", "team": "Boostin Dynamo", "player": "Vials", "playing_as": "Vials" },
     { "season": "MLTP S14", "team": "Boostin Dynamo", "player": "intercest", "playing_as": "intercest" },
@@ -69,9 +75,9 @@
     { "season": "MLTP S14", "team": "London WASDs NA", "player": "Arbybear", "playing_as": "Arbybear" },
     { "season": "MLTP S14", "team": "London WASDs NA", "player": "Jump Ball", "playing_as": "Jump Ball" },
     { "season": "MLTP S14", "team": "London WASDs NA", "player": "Renegade", "playing_as": "Renegade" },
-    { "season": "MLTP S14", "team": "London WASDs NA", "player": "ToUcAnSaM", "playing_as": "ToUcAnSaM" },
     { "season": "MLTP S14", "team": "London WASDs NA", "player": "ZenWhisper", "playing_as": "ZenWhisper" },
     { "season": "MLTP S14", "team": "London WASDs NA", "player": "moobear", "playing_as": "moobear" },
+    { "season": "MLTP S14", "team": "London WASDs NA", "player": "toucansam", "playing_as": "toucansam" },
     { "season": "MLTP S14", "team": "Pequeños Pandas", "player": "BAllstar", "playing_as": "BAllstar" },
     { "season": "MLTP S14", "team": "Pequeños Pandas", "player": "Bal McCartny", "playing_as": "Bal McCartny" },
     { "season": "MLTP S14", "team": "Pequeños Pandas", "player": "Bumballbee", "playing_as": "Bumballbee" },
@@ -115,6 +121,7 @@
     { "season": "MLTP S14", "team": "The RePublicans", "player": "PK SMURFBALL", "playing_as": "PK SMURFBALL" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "TheIndian", "playing_as": "TheIndian" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "eee", "playing_as": "eee" },
+    { "season": "MLTP S14", "team": "The RePublicans", "player": "eldenn", "playing_as": "eldenn" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "evanw4", "playing_as": "evanw4" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "quibble", "playing_as": "quibble" },
     { "season": "MLTP S14", "team": "Whitecaps", "player": "C Bivvey", "playing_as": "C Bivvey" },
@@ -357,6 +364,19 @@
       "season": "MLTP S14", "date": "2017-11-12", "week": "Week 1", "team1": "TC Jukes", "team2": "A Blockwork Orange",
       "games": [
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "TC Jukes", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 13, "pops": 7, "grabs": 2, "drops": 2, "hold": 22, "captures": 0, "prevent": 187, "returns": 12, "pups": 2, "holdagainst": 241, "pm": 1, "pupscomp": 27, "ndpops": 5, "nrtags": 1} },
+            { "team": "A Blockwork Orange", "player_season": "Gasol", "playing_as": "Gasol", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 10, "pops": 22, "grabs": 18, "drops": 17, "hold": 116, "captures": 0, "prevent": 16, "returns": 4, "pups": 8, "holdagainst": 288, "pm": -1, "pupscomp": 27, "ndpops": 5, "nrtags": 6} },
+            { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 22, "pops": 5, "grabs": 1, "drops": 1, "hold": 2, "captures": 0, "prevent": 188, "returns": 16, "pups": 4, "holdagainst": 241, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 6} },
+            { "team": "A Blockwork Orange", "player_season": "ROFL", "playing_as": "ROFL", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 14, "pops": 7, "grabs": 3, "drops": 3, "hold": 12, "captures": 0, "prevent": 170, "returns": 14, "pups": 1, "holdagainst": 288, "pm": -1, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "Ty", "playing_as": "Ty", "stats": {"team": 1, "minutes": 10, "score": 34, "tags": 5, "pops": 17, "grabs": 13, "drops": 12, "hold": 96, "captures": 1, "prevent": 6, "returns": 2, "pups": 2, "holdagainst": 288, "pm": -1, "pupscomp": 27, "ndpops": 5, "nrtags": 3} },
+            { "team": "A Blockwork Orange", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 2, "minutes": 10, "score": 28, "tags": 7, "pops": 20, "grabs": 16, "drops": 15, "hold": 77, "captures": 0, "prevent": 10, "returns": 3, "pups": 7, "holdagainst": 241, "pm": 1, "pupscomp": 27, "ndpops": 5, "nrtags": 4} },
+            { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc", "stats": {"team": 2, "minutes": 10, "score": 63, "tags": 7, "pops": 20, "grabs": 18, "drops": 16, "hold": 187, "captures": 2, "prevent": 7, "returns": 5, "pups": 2, "holdagainst": 241, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 2} },
+            { "team": "A Blockwork Orange", "player_season": "side", "playing_as": "side", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 14, "pops": 8, "grabs": 4, "drops": 4, "hold": 17, "captures": 0, "prevent": 135, "returns": 13, "pups": 1, "holdagainst": 288, "pm": -1, "pupscomp": 27, "ndpops": 4, "nrtags": 1} }
+          ]
+        },
+        {
           "tagpro_eu": "1663658", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "A Blockwork Orange", "blue_team": "TC Jukes", "team1_score": 0, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous" },
@@ -367,6 +387,19 @@
             { "team": "TC Jukes", "player_season": "ROFL", "playing_as": "ROFL" },
             { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "TC Jukes", "player_season": "side", "playing_as": "side" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "TC Jukes", "blue_team": "A Blockwork Orange", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous", "stats": {"team": 2, "minutes": 10, "score": 37, "tags": 12, "pops": 11, "grabs": 6, "drops": 6, "hold": 34, "captures": 0, "prevent": 175, "returns": 12, "pups": 2, "holdagainst": 249, "pm": -4, "pupscomp": 18, "ndpops": 5, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "Gasol", "playing_as": "Gasol", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 3, "pops": 16, "grabs": 18, "drops": 16, "hold": 126, "captures": 2, "prevent": 13, "returns": 2, "pups": 3, "holdagainst": 336, "pm": 4, "pupscomp": 18, "ndpops": 0, "nrtags": 1} },
+            { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 15, "pops": 8, "grabs": 5, "drops": 5, "hold": 17, "captures": 0, "prevent": 239, "returns": 12, "pups": 3, "holdagainst": 249, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 3} },
+            { "team": "A Blockwork Orange", "player_season": "ROFL", "playing_as": "ROFL", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 11, "pops": 5, "grabs": 5, "drops": 4, "hold": 8, "captures": 1, "prevent": 127, "returns": 11, "pups": 0, "holdagainst": 336, "pm": 4, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "Ty", "playing_as": "Ty", "stats": {"team": 1, "minutes": 10, "score": 44, "tags": 5, "pops": 15, "grabs": 13, "drops": 11, "hold": 103, "captures": 2, "prevent": 9, "returns": 4, "pups": 4, "holdagainst": 336, "pm": 4, "pupscomp": 18, "ndpops": 4, "nrtags": 1} },
+            { "team": "A Blockwork Orange", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 2, "minutes": 10, "score": 17, "tags": 6, "pops": 18, "grabs": 18, "drops": 18, "hold": 77, "captures": 0, "prevent": 24, "returns": 6, "pups": 1, "holdagainst": 249, "pm": -4, "pupscomp": 18, "ndpops": 0, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 4, "pops": 17, "grabs": 16, "drops": 14, "hold": 208, "captures": 1, "prevent": 23, "returns": 4, "pups": 1, "holdagainst": 249, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "side", "playing_as": "side", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 27, "pops": 7, "grabs": 4, "drops": 4, "hold": 12, "captures": 0, "prevent": 172, "returns": 23, "pups": 4, "holdagainst": 336, "pm": 4, "pupscomp": 18, "ndpops": 3, "nrtags": 4} }
           ]
         },
         {
@@ -1085,6 +1118,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The RePublicans", "blue_team": "Ghostboosters", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"score": 31, "team": 2, "grabs": 16, "pops": 17, "drops": 15, "hold": 96, "pups": 2, "prevent": 19, "ndpops": 2, "returns": 4, "tags": 4, "captures": 1, "minutes": 10, "goregrab": 2, "longholds": 1, "goodhandoff": 4, "handoff": 6, "flaccids": 7, "gohandoff": 1, "nrtags": 0, "holdagainst": 149, "pupscomp": 18, "pm": 3} },
+            { "team": "Ghostboosters", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 31, "team": 1, "prevent": 134, "ndpops": 2, "pops": 8, "returns": 12, "tags": 14, "pups": 1, "grabs": 6, "drops": 6, "hold": 39, "minutes": 10, "quickret": 4, "flaccids": 4, "retinbase": 3, "goregrab": 2, "longholds": 1, "handoff": 1, "nrtags": 2, "holdagainst": 248, "pupscomp": 18, "pm": -3} },
+            { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"score": 62, "team": 2, "prevent": 287, "returns": 15, "tags": 16, "grabs": 2, "pops": 2, "drops": 1, "hold": 8, "pups": 3, "captures": 1, "ndpops": 1, "minutes": 10, "quickret": 9, "retinbase": 9, "goregrab": 2, "flaccids": 1, "coregrab": 1, "nrtags": 1, "holdagainst": 149, "pupscomp": 18, "pm": 3} },
+            { "team": "Ghostboosters", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL", "stats": {"score": 21, "team": 1, "grabs": 11, "pops": 13, "drops": 11, "hold": 25, "pups": 3, "prevent": 43, "returns": 6, "tags": 7, "ndpops": 2, "minutes": 10, "flaccids": 8, "goodhandoff": 3, "handoff": 3, "goregrab": 1, "quickret": 1, "retinbase": 1, "nrtags": 1, "holdagainst": 248, "pupscomp": 18, "pm": -3} },
+            { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"score": 58, "team": 2, "prevent": 269, "returns": 13, "tags": 13, "pups": 2, "ndpops": 1, "pops": 4, "grabs": 4, "captures": 1, "hold": 13, "drops": 3, "minutes": 10, "retinbase": 10, "goregrab": 3, "coregrab": 1, "quickret": 9, "flaccids": 2, "handoff": 1, "nrtags": 0, "holdagainst": 149, "pupscomp": 18, "pm": 3} },
+            { "team": "Ghostboosters", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"score": 53, "team": 1, "prevent": 190, "pups": 6, "returns": 17, "tags": 17, "minutes": 10, "quickret": 10, "retinbase": 10, "keyret": 1, "hold": 0, "nrtags": 0, "holdagainst": 248, "pupscomp": 18, "pm": -3} },
+            { "team": "Ghostboosters", "player_season": "eee", "playing_as": "eee", "stats": {"score": 21, "team": 1, "returns": 3, "tags": 3, "grabs": 17, "pops": 18, "drops": 16, "hold": 85, "captures": 1, "prevent": 9, "pups": 1, "ndpops": 2, "minutes": 10, "flaccids": 7, "handoff": 3, "gohandoff": 5, "goregrab": 2, "goodhandoff": 2, "retinbase": 1, "nrtags": 0, "holdagainst": 248, "pupscomp": 18, "pm": -3} },
+            { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"score": 24, "team": 2, "grabs": 21, "pops": 20, "drops": 20, "hold": 131, "prevent": 17, "captures": 1, "minutes": 10, "goodhandoff": 3, "handoff": 5, "goregrab": 4, "gohandoff": 2, "flaccids": 5, "longholds": 1, "nrtags": 0, "holdagainst": 149, "pupscomp": 18, "pm": 3} }
+          ]
+        },
+        {
           "tagpro_eu": "1700268", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Ghostboosters", "blue_team": "The RePublicans", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
@@ -1528,6 +1574,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Tears", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 13, "pops": 13, "grabs": 12, "drops": 10, "hold": 80, "captures": 1, "prevent": 39, "returns": 5, "pups": 6, "holdagainst": 330, "pm": -3, "pupscomp": 27, "ndpops": 3, "nrtags": 8} },
+            { "team": "Ghostboosters", "player_season": "BigBird", "playing_as": "BigBird", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 14, "pops": 12, "grabs": 7, "drops": 7, "hold": 37, "captures": 0, "prevent": 168, "returns": 14, "pups": 3, "holdagainst": 287, "pm": 3, "pupscomp": 27, "ndpops": 5, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"team": 2, "minutes": 10, "score": 53, "tags": 17, "pops": 10, "grabs": 9, "drops": 7, "hold": 87, "captures": 2, "prevent": 128, "returns": 13, "pups": 6, "holdagainst": 330, "pm": -3, "pupscomp": 27, "ndpops": 3, "nrtags": 4} },
+            { "team": "Ghostboosters", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"team": 1, "minutes": 10, "score": 45, "tags": 12, "pops": 14, "grabs": 16, "drops": 12, "hold": 135, "captures": 4, "prevent": 39, "returns": 8, "pups": 3, "holdagainst": 287, "pm": 3, "pupscomp": 27, "ndpops": 2, "nrtags": 4} },
+            { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 2, "minutes": 10, "score": 37, "tags": 11, "pops": 16, "grabs": 10, "drops": 9, "hold": 28, "captures": 1, "prevent": 148, "returns": 10, "pups": 2, "holdagainst": 330, "pm": -3, "pupscomp": 27, "ndpops": 7, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "ccga's mom", "playing_as": "ccga's mom", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 10, "pops": 20, "grabs": 16, "drops": 14, "hold": 101, "captures": 1, "prevent": 23, "returns": 6, "pups": 2, "holdagainst": 287, "pm": 3, "pupscomp": 27, "ndpops": 6, "nrtags": 4} },
+            { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"team": 2, "minutes": 10, "score": 21, "tags": 9, "pops": 18, "grabs": 15, "drops": 15, "hold": 92, "captures": 0, "prevent": 14, "returns": 8, "pups": 3, "holdagainst": 330, "pm": -3, "pupscomp": 27, "ndpops": 3, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "yank", "playing_as": "yank", "stats": {"team": 1, "minutes": 10, "score": 51, "tags": 17, "pops": 7, "grabs": 5, "drops": 3, "hold": 57, "captures": 2, "prevent": 147, "returns": 13, "pups": 2, "holdagainst": 287, "pm": 3, "pupscomp": 27, "ndpops": 4, "nrtags": 4} }
+          ]
+        },
+        {
           "tagpro_eu": "1700268", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Ghostboosters", "blue_team": "Tears", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
@@ -1947,6 +2006,19 @@
     {
       "season": "MLTP S14", "date": "2017-12-10", "week": "Week 4", "team1": "A Developmental Lad", "team2": "Whitecaps",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "A Developmental Lad", "blue_team": "Whitecaps", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Whitecaps", "player_season": "C Bivvey", "playing_as": "C Bivvey", "stats": {"team": 2, "minutes": 10, "score": 21, "tags": 8, "pops": 12, "grabs": 8, "drops": 8, "hold": 35, "captures": 0, "prevent": 172, "returns": 8, "pups": 1, "holdagainst": 314, "pm": -3, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 11, "pops": 21, "grabs": 18, "drops": 16, "hold": 89, "captures": 2, "prevent": 19, "returns": 7, "pups": 4, "holdagainst": 314, "pm": -3, "pupscomp": 27, "ndpops": 5, "nrtags": 4} },
+            { "team": "Whitecaps", "player_season": "Destar", "playing_as": "Destar", "stats": {"team": 2, "minutes": 10, "score": 22, "tags": 3, "pops": 17, "grabs": 16, "drops": 15, "hold": 107, "captures": 1, "prevent": 18, "returns": 3, "pups": 2, "holdagainst": 314, "pm": -3, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "MONSTAH", "playing_as": "MONSTAH", "stats": {"team": 1, "minutes": 10, "score": 55, "tags": 14, "pops": 9, "grabs": 10, "drops": 7, "hold": 163, "captures": 3, "prevent": 46, "returns": 3, "pups": 6, "holdagainst": 239, "pm": 3, "pupscomp": 27, "ndpops": 2, "nrtags": 11} },
+            { "team": "Whitecaps", "player_season": "Will1119", "playing_as": "Will1119", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 6, "pops": 12, "grabs": 14, "drops": 10, "hold": 124, "captures": 3, "prevent": 43, "returns": 6, "pups": 2, "holdagainst": 239, "pm": 3, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "dodsfall", "playing_as": "dodsfall", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 10, "pops": 7, "grabs": 5, "drops": 5, "hold": 25, "captures": 0, "prevent": 165, "returns": 10, "pups": 5, "holdagainst": 239, "pm": 3, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "phreak", "playing_as": "phreak", "stats": {"team": 1, "minutes": 10, "score": 58, "tags": 29, "pops": 1, "grabs": 1, "drops": 1, "hold": 2, "captures": 0, "prevent": 242, "returns": 24, "pups": 3, "holdagainst": 239, "pm": 3, "pupscomp": 27, "ndpops": 0, "nrtags": 5} },
+            { "team": "Whitecaps", "player_season": "waterwheel", "playing_as": "waterwheel", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 7, "pops": 11, "grabs": 5, "drops": 5, "hold": 8, "captures": 0, "prevent": 169, "returns": 5, "pups": 4, "holdagainst": 314, "pm": -3, "pupscomp": 27, "ndpops": 6, "nrtags": 2} }
+          ]
+        },
         {
           "tagpro_eu": "1700219", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Whitecaps", "blue_team": "A Developmental Lad", "team1_score": 1, "team2_score": 5,
           "players": [
@@ -2673,6 +2745,19 @@
       "season": "MLTP S14", "date": "2018-01-07", "week": "Week 6", "team1": "Pequeños Pandas", "team2": "21 Juke Street",
       "games": [
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "Pequeños Pandas", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Pequeños Pandas", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "minutes": 10, "score": 0, "tags": 3, "pops": 13, "grabs": 15, "drops": 13, "hold": 90, "captures": 2, "prevent": 14, "returns": 3, "pups": 2, "holdagainst": 145, "pm": 4, "pupscomp": 18, "ndpops": 0, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "Bal McCartny", "playing_as": "Bal McCartny", "stats": {"team": 2, "minutes": 10, "score": 0, "tags": 22, "pops": 3, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 180, "returns": 19, "pups": 3, "holdagainst": 214, "pm": -4, "pupscomp": 18, "ndpops": 1, "nrtags": 3} },
+            { "team": "Pequeños Pandas", "player_season": "Bumballbee", "playing_as": "Bumballbee", "stats": {"team": 2, "minutes": 10, "score": 0, "tags": 1, "pops": 19, "grabs": 18, "drops": 18, "hold": 70, "captures": 0, "prevent": 0, "returns": 1, "pups": 2, "holdagainst": 214, "pm": -4, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 1, "minutes": 10, "score": 0, "tags": 20, "pops": 7, "grabs": 19, "drops": 19, "hold": 23, "captures": 0, "prevent": 209, "returns": 19, "pups": 4, "holdagainst": 145, "pm": 4, "pupscomp": 18, "ndpops": -12, "nrtags": 1} },
+            { "team": "Pequeños Pandas", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 1, "minutes": 10, "score": 0, "tags": 23, "pops": 5, "grabs": 3, "drops": 2, "hold": 24, "captures": 1, "prevent": 210, "returns": 20, "pups": 1, "holdagainst": 145, "pm": 4, "pupscomp": 18, "ndpops": 3, "nrtags": 3} },
+            { "team": "Pequeños Pandas", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 1, "minutes": 10, "score": 0, "tags": 2, "pops": 10, "grabs": 12, "drops": 11, "hold": 77, "captures": 1, "prevent": 13, "returns": 2, "pups": 2, "holdagainst": 145, "pm": 4, "pupscomp": 18, "ndpops": -1, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "q42", "playing_as": "q42", "stats": {"team": 2, "minutes": 10, "score": 0, "tags": 17, "pops": 5, "grabs": 3, "drops": 3, "hold": 15, "captures": 0, "prevent": 190, "returns": 14, "pups": 4, "holdagainst": 214, "pm": -4, "pupscomp": 18, "ndpops": 2, "nrtags": 3} },
+            { "team": "Pequeños Pandas", "player_season": "veezy", "playing_as": "veezy", "stats": {"team": 2, "minutes": 10, "score": 0, "tags": 3, "pops": 27, "grabs": 24, "drops": 24, "hold": 50, "captures": 0, "prevent": 0, "returns": 3, "pups": 0, "holdagainst": 214, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 0} }
+          ]
+        },
+        {
           "tagpro_eu": "1730906", "game_in_match": "Game 1 Half 2", "map_name": "gfy", "map_id": 8905, "red_team": "Pequeños Pandas", "blue_team": "21 Juke Street", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "21 Juke Street", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
@@ -2709,6 +2794,63 @@
             { "team": "Pequeños Pandas", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
             { "team": "Pequeños Pandas", "player_season": "q42", "playing_as": "q42" },
             { "team": "Pequeños Pandas", "player_season": "veezy", "playing_as": "veezy" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 6", "team1": "The RePublicans", "team2": "A Developmental Lad",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "A Developmental Lad", "blue_team": "The RePublicans", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "The RePublicans", "player_season": "MONSTAH", "playing_as": "MONSTAH", "stats": {"team": 1, "minutes": 10, "score": 53, "tags": 7, "pops": 18, "grabs": 23, "drops": 18, "hold": 160, "captures": 4, "prevent": 34, "returns": 3, "pups": 3, "holdagainst": 183, "pm": 1, "pupscomp": 18, "ndpops": 0, "nrtags": 4} },
+            { "team": "The RePublicans", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 12, "pops": 20, "grabs": 17, "drops": 16, "hold": 76, "captures": 3, "prevent": 15, "returns": 7, "pups": 1, "holdagainst": 270, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 5} },
+            { "team": "The RePublicans", "player_season": "Will1119", "playing_as": "Will1119", "stats": {"team": 1, "minutes": 10, "score": 16, "tags": 9, "pops": 24, "grabs": 17, "drops": 17, "hold": 73, "captures": 0, "prevent": 45, "returns": 4, "pups": 1, "holdagainst": 183, "pm": 1, "pupscomp": 18, "ndpops": 7, "nrtags": 5} },
+            { "team": "The RePublicans", "player_season": "dodsfall", "playing_as": "dodsfall", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 14, "pops": 14, "grabs": 7, "drops": 7, "hold": 30, "captures": 0, "prevent": 152, "returns": 12, "pups": 6, "holdagainst": 183, "pm": 1, "pupscomp": 18, "ndpops": 7, "nrtags": 2} },
+            { "team": "The RePublicans", "player_season": "eee", "playing_as": "eee", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 10, "pops": 20, "grabs": 17, "drops": 16, "hold": 68, "captures": 1, "prevent": 18, "returns": 4, "pups": 1, "holdagainst": 270, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 6} },
+            { "team": "The RePublicans", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 17, "pops": 5, "grabs": 2, "drops": 2, "hold": 4, "captures": 0, "prevent": 197, "returns": 16, "pups": 3, "holdagainst": 270, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 1} },
+            { "team": "The RePublicans", "player_season": "evanw4", "playing_as": "evanw4", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 18, "pops": 4, "grabs": 3, "drops": 3, "hold": 35, "captures": 0, "prevent": 198, "returns": 16, "pups": 3, "holdagainst": 270, "pm": -1, "pupscomp": 18, "ndpops": 1, "nrtags": 2} },
+            { "team": "The RePublicans", "player_season": "phreak", "playing_as": "phreak", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 16, "pops": 5, "grabs": 3, "drops": 2, "hold": 7, "captures": 1, "prevent": 248, "returns": 16, "pups": 0, "holdagainst": 183, "pm": 1, "pupscomp": 18, "ndpops": 3, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The RePublicans", "blue_team": "A Developmental Lad", "team1_score": 4, "team2_score": 11,
+          "players": [
+            { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH", "stats": {"team": 2, "minutes": 10, "score": 56, "tags": 5, "pops": 17, "grabs": 21, "drops": 13, "hold": 146, "captures": 7, "prevent": 36, "returns": 3, "pups": 2, "holdagainst": 142, "pm": 7, "pupscomp": 18, "ndpops": 4, "nrtags": 2} },
+            { "team": "A Developmental Lad", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL", "stats": {"team": 1, "minutes": 10, "score": 33, "tags": 9, "pops": 19, "grabs": 18, "drops": 15, "hold": 61, "captures": 3, "prevent": 56, "returns": 5, "pups": 3, "holdagainst": 269, "pm": -7, "pupscomp": 18, "ndpops": 4, "nrtags": 4} },
+            { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 3, "pops": 17, "grabs": 18, "drops": 14, "hold": 102, "captures": 4, "prevent": 45, "returns": 3, "pups": 4, "holdagainst": 142, "pm": 7, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "A Developmental Lad", "player_season": "dodsfall", "playing_as": "dodsfall", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 18, "pops": 7, "grabs": 4, "drops": 4, "hold": 18, "captures": 0, "prevent": 285, "returns": 12, "pups": 3, "holdagainst": 142, "pm": 7, "pupscomp": 18, "ndpops": 3, "nrtags": 6} },
+            { "team": "A Developmental Lad", "player_season": "eee", "playing_as": "eee", "stats": {"team": 1, "minutes": 10, "score": 15, "tags": 6, "pops": 20, "grabs": 19, "drops": 18, "hold": 48, "captures": 1, "prevent": 31, "returns": 5, "pups": 0, "holdagainst": 269, "pm": -7, "pupscomp": 18, "ndpops": 2, "nrtags": 1} },
+            { "team": "A Developmental Lad", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 14, "pops": 7, "grabs": 5, "drops": 5, "hold": 15, "captures": 0, "prevent": 122, "returns": 11, "pups": 3, "holdagainst": 269, "pm": -7, "pupscomp": 18, "ndpops": 2, "nrtags": 3} },
+            { "team": "A Developmental Lad", "player_season": "evanw4", "playing_as": "evanw4", "stats": {"team": 1, "minutes": 10, "score": 24, "tags": 13, "pops": 12, "grabs": 8, "drops": 7, "hold": 18, "captures": 0, "prevent": 111, "returns": 10, "pups": 2, "holdagainst": 269, "pm": -7, "pupscomp": 18, "ndpops": 5, "nrtags": 3} },
+            { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak", "stats": {"team": 2, "minutes": 10, "score": 54, "tags": 30, "pops": 5, "grabs": 1, "drops": 1, "hold": 3, "captures": 0, "prevent": 323, "returns": 26, "pups": 1, "holdagainst": 142, "pm": 7, "pupscomp": 18, "ndpops": 4, "nrtags": 4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The RePublicans", "blue_team": "A Developmental Lad", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH", "stats": {"team": 2, "minutes": 10, "score": 11, "tags": 2, "pops": 16, "grabs": 14, "drops": 14, "hold": 178, "captures": 0, "prevent": 12, "returns": 2, "pups": 0, "holdagainst": 343, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "A Developmental Lad", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL", "stats": {"team": 1, "minutes": 10, "score": 49, "tags": 9, "pops": 15, "grabs": 15, "drops": 13, "hold": 164, "captures": 2, "prevent": 12, "returns": 6, "pups": 3, "holdagainst": 368, "pm": -1, "pupscomp": 27, "ndpops": 2, "nrtags": 3} },
+            { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 7, "pops": 18, "grabs": 18, "drops": 16, "hold": 125, "captures": 2, "prevent": 13, "returns": 4, "pups": 1, "holdagainst": 343, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 3} },
+            { "team": "A Developmental Lad", "player_season": "dodsfall", "playing_as": "dodsfall", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 13, "pops": 9, "grabs": 6, "drops": 6, "hold": 46, "captures": 0, "prevent": 107, "returns": 10, "pups": 5, "holdagainst": 343, "pm": 1, "pupscomp": 27, "ndpops": 3, "nrtags": 3} },
+            { "team": "A Developmental Lad", "player_season": "eee", "playing_as": "eee", "stats": {"team": 1, "minutes": 10, "score": 34, "tags": 9, "pops": 13, "grabs": 13, "drops": 13, "hold": 100, "captures": 0, "prevent": 31, "returns": 9, "pups": 7, "holdagainst": 368, "pm": -1, "pupscomp": 27, "ndpops": 0, "nrtags": 0} },
+            { "team": "A Developmental Lad", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 10, "pops": 9, "grabs": 4, "drops": 3, "hold": 26, "captures": 0, "prevent": 76, "returns": 10, "pups": 2, "holdagainst": 368, "pm": -1, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "A Developmental Lad", "player_season": "evanw4", "playing_as": "evanw4", "stats": {"team": 1, "minutes": 10, "score": 45, "tags": 14, "pops": 8, "grabs": 4, "drops": 4, "hold": 53, "captures": 0, "prevent": 105, "returns": 13, "pups": 6, "holdagainst": 368, "pm": -1, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak", "stats": {"team": 2, "minutes": 10, "score": 40, "tags": 15, "pops": 6, "grabs": 4, "drops": 3, "hold": 19, "captures": 1, "prevent": 67, "returns": 14, "pups": 3, "holdagainst": 343, "pm": 1, "pupscomp": 27, "ndpops": 3, "nrtags": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "A Developmental Lad", "blue_team": "The RePublicans", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "The RePublicans", "player_season": "Elegant", "playing_as": "Elegant", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 8, "pops": 9, "grabs": 7, "drops": 7, "hold": 63, "captures": 0, "prevent": 100, "returns": 8, "pups": 4, "holdagainst": 358, "pm": -5, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "The RePublicans", "player_season": "MONSTAH", "playing_as": "MONSTAH", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 8, "pops": 17, "grabs": 16, "drops": 13, "hold": 135, "captures": 2, "prevent": 4, "returns": 5, "pups": 4, "holdagainst": 308, "pm": 5, "pupscomp": 27, "ndpops": 4, "nrtags": 3} },
+            { "team": "The RePublicans", "player_season": "Will1119", "playing_as": "Will1119", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 8, "pops": 15, "grabs": 18, "drops": 14, "hold": 173, "captures": 4, "prevent": 15, "returns": 8, "pups": 2, "holdagainst": 308, "pm": 5, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "The RePublicans", "player_season": "dodsfall", "playing_as": "dodsfall", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 13, "pops": 8, "grabs": 4, "drops": 4, "hold": 34, "captures": 0, "prevent": 140, "returns": 8, "pups": 4, "holdagainst": 308, "pm": 5, "pupscomp": 27, "ndpops": 4, "nrtags": 5} },
+            { "team": "The RePublicans", "player_season": "eee", "playing_as": "eee", "stats": {"team": 2, "minutes": 10, "score": 28, "tags": 18, "pops": 17, "grabs": 16, "drops": 16, "hold": 133, "captures": 1, "prevent": 26, "returns": 8, "pups": 1, "holdagainst": 358, "pm": -5, "pupscomp": 27, "ndpops": 1, "nrtags": 10} },
+            { "team": "The RePublicans", "player_season": "eldenn", "playing_as": "eldenn", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 17, "pops": 8, "grabs": 5, "drops": 5, "hold": 20, "captures": 0, "prevent": 118, "returns": 12, "pups": 8, "holdagainst": 358, "pm": -5, "pupscomp": 27, "ndpops": 3, "nrtags": 5} },
+            { "team": "The RePublicans", "player_season": "evanw", "playing_as": "evanw", "stats": {"team": 2, "minutes": 10, "score": 19, "tags": 10, "pops": 19, "grabs": 14, "drops": 14, "hold": 92, "captures": 0, "prevent": 6, "returns": 6, "pups": 4, "holdagainst": 358, "pm": -5, "pupscomp": 27, "ndpops": 5, "nrtags": 4} },
+            { "team": "The RePublicans", "player_season": "phreak", "playing_as": "phreak", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 20, "pops": 11, "grabs": 3, "drops": 3, "hold": 16, "captures": 0, "prevent": 135, "returns": 20, "pups": 0, "holdagainst": 308, "pm": 5, "pupscomp": 27, "ndpops": 8, "nrtags": 0} }
           ]
         }
       ]
@@ -3003,8 +3145,8 @@
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
-            { "team": "London WASDs NA", "player_season": "ToUcAnSaM", "playing_as": "ToUcAnSaM" },
-            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" }
+            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "ToUcAnSaM" }
           ]
         },
         {
@@ -3041,9 +3183,9 @@
             { "team": "877CAPSNOW", "player_season": "Mufro", "playing_as": "Mufro" },
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
-            { "team": "London WASDs NA", "player_season": "ToUcAnSaM", "playing_as": "ToUcAnSaM" },
             { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
-            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" }
+            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "ToUcAnSaM" }
           ]
         }
       ]
@@ -3133,6 +3275,32 @@
             { "team": "Someballian Pirates", "player_season": "bubblez", "playing_as": "bubblez" },
             { "team": "Someballian Pirates", "player_season": "obama.", "playing_as": "obama." }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "Someballian Pirates", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Someballian Pirates", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "minutes": 10, "score": 20, "tags": 8, "pops": 20, "grabs": 17, "drops": 17, "hold": 143, "captures": 0, "prevent": 12, "returns": 6, "pups": 1, "holdagainst": 239, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 2} },
+            { "team": "Someballian Pirates", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 8, "pops": 16, "grabs": 14, "drops": 13, "hold": 99, "captures": 1, "prevent": 18, "returns": 7, "pups": 5, "holdagainst": 330, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 1} },
+            { "team": "Someballian Pirates", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 10, "pops": 10, "grabs": 5, "drops": 5, "hold": 39, "captures": 0, "prevent": 178, "returns": 10, "pups": 4, "holdagainst": 239, "pm": 0, "pupscomp": 27, "ndpops": 5, "nrtags": 0} },
+            { "team": "Someballian Pirates", "player_season": "Gem", "playing_as": "Gem", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 14, "pops": 13, "grabs": 9, "drops": 9, "hold": 37, "captures": 0, "prevent": 64, "returns": 12, "pups": 5, "holdagainst": 330, "pm": 0, "pupscomp": 27, "ndpops": 4, "nrtags": 2} },
+            { "team": "Someballian Pirates", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"team": 2, "minutes": 10, "score": 19, "tags": 7, "pops": 13, "grabs": 10, "drops": 10, "hold": 38, "captures": 0, "prevent": 22, "returns": 5, "pups": 4, "holdagainst": 330, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 2} },
+            { "team": "Someballian Pirates", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 14, "pops": 9, "grabs": 7, "drops": 6, "hold": 71, "captures": 1, "prevent": 145, "returns": 14, "pups": 3, "holdagainst": 239, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Someballian Pirates", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 10, "pops": 18, "grabs": 11, "drops": 10, "hold": 77, "captures": 1, "prevent": 49, "returns": 8, "pups": 1, "holdagainst": 239, "pm": 0, "pupscomp": 27, "ndpops": 8, "nrtags": 2} },
+            { "team": "Someballian Pirates", "player_season": "obama.", "playing_as": "obama.", "stats": {"team": 2, "minutes": 10, "score": 49, "tags": 14, "pops": 9, "grabs": 8, "drops": 7, "hold": 65, "captures": 1, "prevent": 67, "returns": 13, "pups": 4, "holdagainst": 330, "pm": 0, "pupscomp": 27, "ndpops": 2, "nrtags": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Someballian Pirates", "blue_team": "21 Juke Street", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 4, "pops": 15, "grabs": 14, "drops": 12, "hold": 78, "captures": 2, "prevent": 15, "returns": 1, "pups": 3, "holdagainst": 172, "pm": 1, "pupscomp": 42, "ndpops": 3, "nrtags": 3} },
+            { "team": "21 Juke Street", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 6, "pops": 14, "grabs": 14, "drops": 13, "hold": 49, "captures": 1, "prevent": 24, "returns": 6, "pups": 4, "holdagainst": 227, "pm": -1, "pupscomp": 42, "ndpops": 1, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 2, "minutes": 10, "score": 58, "tags": 12, "pops": 6, "grabs": 4, "drops": 3, "hold": 28, "captures": 1, "prevent": 274, "returns": 12, "pups": 4, "holdagainst": 172, "pm": 1, "pupscomp": 42, "ndpops": 3, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "Gem", "playing_as": "Gem", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 12, "pops": 14, "grabs": 11, "drops": 11, "hold": 47, "captures": 0, "prevent": 72, "returns": 12, "pups": 3, "holdagainst": 227, "pm": -1, "pupscomp": 42, "ndpops": 3, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 4, "pops": 14, "grabs": 14, "drops": 13, "hold": 74, "captures": 1, "prevent": 12, "returns": 4, "pups": 3, "holdagainst": 227, "pm": -1, "pupscomp": 42, "ndpops": 1, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 2, "minutes": 10, "score": 53, "tags": 22, "pops": 7, "grabs": 4, "drops": 4, "hold": 33, "captures": 0, "prevent": 228, "returns": 22, "pups": 18, "holdagainst": 172, "pm": 1, "pupscomp": 42, "ndpops": 3, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 2, "minutes": 10, "score": 18, "tags": 3, "pops": 19, "grabs": 17, "drops": 17, "hold": 88, "captures": 0, "prevent": 49, "returns": 3, "pups": 1, "holdagainst": 172, "pm": 1, "pupscomp": 42, "ndpops": 2, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "obama.", "playing_as": "obama.", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 16, "pops": 9, "grabs": 3, "drops": 3, "hold": 2, "captures": 0, "prevent": 149, "returns": 12, "pups": 6, "holdagainst": 227, "pm": -1, "pupscomp": 42, "ndpops": 6, "nrtags": 4} }
+          ]
         }
       ]
     },
@@ -3196,6 +3364,19 @@
     {
       "season": "MLTP S14", "date": "2018-01-14", "week": "Week 7", "team1": "The RePublicans", "team2": "A Blockwork Orange",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "The RePublicans", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The RePublicans", "player_season": "Calamitous ", "playing_as": "Calamitous ", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 15, "pops": 10, "grabs": 9, "drops": 8, "hold": 59, "captures": 1, "prevent": 143, "returns": 12, "pups": 5, "holdagainst": 244, "pm": -2, "pupscomp": 27, "ndpops": 2, "nrtags": 3} },
+            { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry", "stats": {"team": 2, "minutes": 10, "score": 40, "tags": 7, "pops": 18, "grabs": 19, "drops": 17, "hold": 126, "captures": 2, "prevent": 25, "returns": 6, "pups": 1, "holdagainst": 277, "pm": 2, "pupscomp": 27, "ndpops": 1, "nrtags": 1} },
+            { "team": "The RePublicans", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 18, "pops": 12, "grabs": 4, "drops": 3, "hold": 29, "captures": 1, "prevent": 143, "returns": 18, "pups": 5, "holdagainst": 277, "pm": 2, "pupscomp": 27, "ndpops": 9, "nrtags": 0} },
+            { "team": "The RePublicans", "player_season": "MEX", "playing_as": "MEX", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 16, "pops": 7, "grabs": 6, "drops": 6, "hold": 24, "captures": 0, "prevent": 108, "returns": 16, "pups": 2, "holdagainst": 244, "pm": -2, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "The RePublicans", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 1, "minutes": 10, "score": 25, "tags": 6, "pops": 18, "grabs": 18, "drops": 18, "hold": 118, "captures": 0, "prevent": 34, "returns": 3, "pups": 3, "holdagainst": 244, "pm": -2, "pupscomp": 27, "ndpops": 0, "nrtags": 3} },
+            { "team": "The RePublicans", "player_season": "eee", "playing_as": "eee", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 8, "pops": 17, "grabs": 16, "drops": 15, "hold": 62, "captures": 1, "prevent": 4, "returns": 8, "pups": 3, "holdagainst": 277, "pm": 2, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "The RePublicans", "player_season": "fuckthecrc", "playing_as": "fuckthecrc", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 11, "pops": 16, "grabs": 16, "drops": 15, "hold": 76, "captures": 1, "prevent": 45, "returns": 7, "pups": 7, "holdagainst": 244, "pm": -2, "pupscomp": 27, "ndpops": 1, "nrtags": 4} },
+            { "team": "The RePublicans", "player_season": "quibble", "playing_as": "quibble", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 17, "pops": 7, "grabs": 4, "drops": 4, "hold": 27, "captures": 0, "prevent": 134, "returns": 15, "pups": 1, "holdagainst": 277, "pm": 2, "pupscomp": 27, "ndpops": 3, "nrtags": 2} }
+          ]
+        },
         {
           "tagpro_eu": "1738610", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The RePublicans", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 2,
           "players": [
@@ -3493,6 +3674,235 @@
       ]
     },
     {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 8", "team1": "Ghostboosters", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Ghostboosters", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 3, "pops": 20, "grabs": 15, "drops": 14, "hold": 67, "captures": 1, "prevent": 20, "returns": 0, "pups": 2, "holdagainst": 179, "pm": -3, "pupscomp": 27, "ndpops": 6, "nrtags": 3} },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 2, "minutes": 10, "score": 60, "tags": 3, "pops": 13, "grabs": 14, "drops": 11, "hold": 102, "captures": 3, "prevent": 20, "returns": 2, "pups": 4, "holdagainst": 151, "pm": 3, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Red Hot Chili Poppers", "player_season": "GUTS.", "playing_as": "GUTS.", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 6, "pops": 17, "grabs": 8, "drops": 7, "hold": 39, "captures": 1, "prevent": 58, "returns": 6, "pups": 1, "holdagainst": 151, "pm": 3, "pupscomp": 27, "ndpops": 10, "nrtags": 0} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 12, "pops": 9, "grabs": 4, "drops": 4, "hold": 17, "captures": 0, "prevent": 151, "returns": 10, "pups": 3, "holdagainst": 151, "pm": 3, "pupscomp": 27, "ndpops": 5, "nrtags": 2} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 20, "pops": 10, "grabs": 6, "drops": 6, "hold": 20, "captures": 0, "prevent": 154, "returns": 9, "pups": 6, "holdagainst": 179, "pm": -3, "pupscomp": 27, "ndpops": 4, "nrtags": 11} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 12, "pops": 2, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 200, "returns": 10, "pups": 3, "holdagainst": 179, "pm": -3, "pupscomp": 27, "ndpops": 0, "nrtags": 2} },
+            { "team": "Red Hot Chili Poppers", "player_season": "protag", "playing_as": "protag", "stats": {"team": 1, "minutes": 10, "score": 11, "tags": 3, "pops": 21, "grabs": 16, "drops": 15, "hold": 54, "captures": 0, "prevent": 8, "returns": 3, "pups": 2, "holdagainst": 179, "pm": -3, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty.", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 19, "pops": 8, "grabs": 3, "drops": 3, "hold": 21, "captures": 0, "prevent": 112, "returns": 15, "pups": 6, "holdagainst": 151, "pm": 3, "pupscomp": 27, "ndpops": 5, "nrtags": 4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Ghostboosters", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 7, "pops": 14, "grabs": 12, "drops": 11, "hold": 50, "captures": 1, "prevent": 8, "returns": 2, "pups": 7, "holdagainst": 166, "pm": 0, "pupscomp": 25, "ndpops": 3, "nrtags": 5} },
+            { "team": "Ghostboosters", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 3, "pops": 18, "grabs": 16, "drops": 15, "hold": 56, "captures": 1, "prevent": 26, "returns": 3, "pups": 5, "holdagainst": 194, "pm": 0, "pupscomp": 25, "ndpops": 3, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "GUTS.", "playing_as": "GUTS.", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 7, "pops": 14, "grabs": 10, "drops": 10, "hold": 37, "captures": 0, "prevent": 67, "returns": 6, "pups": 3, "holdagainst": 194, "pm": 0, "pupscomp": 25, "ndpops": 4, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 14, "pops": 6, "grabs": 3, "drops": 2, "hold": 10, "captures": 1, "prevent": 190, "returns": 14, "pups": 2, "holdagainst": 166, "pm": 0, "pupscomp": 25, "ndpops": 4, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 15, "pops": 4, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 216, "returns": 15, "pups": 2, "holdagainst": 166, "pm": 0, "pupscomp": 25, "ndpops": 4, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "Tantrew", "playing_as": "Tantrew", "stats": {"team": 1, "minutes": 4, "score": 25, "tags": 0, "pops": 4, "grabs": 4, "drops": 2, "hold": 53, "captures": 2, "prevent": 7, "returns": 0, "pups": 0, "holdagainst": 194, "pm": 0, "pupscomp": 25, "ndpops": 2, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 5, "pops": 19, "grabs": 15, "drops": 14, "hold": 134, "captures": 1, "prevent": 1, "returns": 3, "pups": 2, "holdagainst": 166, "pm": 0, "pupscomp": 25, "ndpops": 5, "nrtags": 2} },
+            { "team": "Ghostboosters", "player_season": "toasty.", "playing_as": "toasty.", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 16, "pops": 9, "grabs": 5, "drops": 5, "hold": 20, "captures": 0, "prevent": 132, "returns": 10, "pups": 4, "holdagainst": 194, "pm": 0, "pupscomp": 25, "ndpops": 4, "nrtags": 6} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Ghostboosters", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 17, "tags": 14, "pops": 25, "grabs": 14, "drops": 14, "hold": 47, "captures": 0, "prevent": 1, "returns": 6, "pups": 2, "holdagainst": 192, "pm": -6, "pupscomp": 18, "ndpops": 11, "nrtags": 8} },
+            { "team": "Ghostboosters", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 3, "pops": 26, "grabs": 21, "drops": 15, "hold": 95, "captures": 6, "prevent": 24, "returns": 1, "pups": 6, "holdagainst": 158, "pm": 6, "pupscomp": 18, "ndpops": 11, "nrtags": 2} },
+            { "team": "Ghostboosters", "player_season": "GUTS.", "playing_as": "GUTS.", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 7, "pops": 18, "grabs": 16, "drops": 13, "hold": 58, "captures": 2, "prevent": 34, "returns": 2, "pups": 0, "holdagainst": 158, "pm": 6, "pupscomp": 18, "ndpops": 5, "nrtags": 5} },
+            { "team": "Ghostboosters", "player_season": "Misaki", "playing_as": "Misaki", "stats": {"team": 1, "minutes": 10, "score": 52, "tags": 24, "pops": 7, "grabs": 5, "drops": 4, "hold": 19, "captures": 1, "prevent": 236, "returns": 14, "pups": 2, "holdagainst": 158, "pm": 6, "pupscomp": 18, "ndpops": 3, "nrtags": 10} },
+            { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 21, "pops": 11, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 200, "returns": 19, "pups": 3, "holdagainst": 192, "pm": -6, "pupscomp": 18, "ndpops": 11, "nrtags": 2} },
+            { "team": "Ghostboosters", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 11, "pops": 3, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 241, "returns": 6, "pups": 1, "holdagainst": 192, "pm": -6, "pupscomp": 18, "ndpops": 3, "nrtags": 5} },
+            { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 10, "pops": 26, "grabs": 20, "drops": 17, "hold": 111, "captures": 3, "prevent": 14, "returns": 6, "pups": 0, "holdagainst": 192, "pm": -6, "pupscomp": 18, "ndpops": 9, "nrtags": 4} },
+            { "team": "Ghostboosters", "player_season": "toasty.", "playing_as": "toasty.", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 23, "pops": 11, "grabs": 8, "drops": 8, "hold": 20, "captures": 0, "prevent": 243, "returns": 14, "pups": 4, "holdagainst": 158, "pm": 6, "pupscomp": 18, "ndpops": 3, "nrtags": 9} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Ghostboosters", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 8, "pops": 20, "grabs": 14, "drops": 12, "hold": 61, "captures": 2, "prevent": 9, "returns": 2, "pups": 4, "holdagainst": 119, "pm": 3, "pupscomp": 18, "ndpops": 8, "nrtags": 6} },
+            { "team": "Red Hot Chili Poppers", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 7, "pops": 17, "grabs": 14, "drops": 11, "hold": 74, "captures": 3, "prevent": 8, "returns": 3, "pups": 3, "holdagainst": 155, "pm": -3, "pupscomp": 18, "ndpops": 6, "nrtags": 4} },
+            { "team": "Red Hot Chili Poppers", "player_season": "GUTS.", "playing_as": "GUTS.", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 10, "pops": 19, "grabs": 11, "drops": 11, "hold": 29, "captures": 0, "prevent": 43, "returns": 5, "pups": 3, "holdagainst": 155, "pm": -3, "pupscomp": 18, "ndpops": 8, "nrtags": 5} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 13, "pops": 7, "grabs": 3, "drops": 3, "hold": 9, "captures": 0, "prevent": 199, "returns": 8, "pups": 1, "holdagainst": 155, "pm": -3, "pupscomp": 18, "ndpops": 4, "nrtags": 5} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 1, "minutes": 10, "score": 48, "tags": 20, "pops": 5, "grabs": 3, "drops": 2, "hold": 13, "captures": 1, "prevent": 304, "returns": 10, "pups": 2, "holdagainst": 119, "pm": 3, "pupscomp": 18, "ndpops": 3, "nrtags": 10} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 17, "pops": 2, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 306, "returns": 12, "pups": 1, "holdagainst": 119, "pm": 3, "pupscomp": 18, "ndpops": 2, "nrtags": 5} },
+            { "team": "Red Hot Chili Poppers", "player_season": "protag", "playing_as": "protag", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 6, "pops": 26, "grabs": 24, "drops": 20, "hold": 81, "captures": 3, "prevent": 21, "returns": 4, "pups": 2, "holdagainst": 119, "pm": 3, "pupscomp": 18, "ndpops": 6, "nrtags": 2} },
+            { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty.", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 19, "pops": 9, "grabs": 3, "drops": 3, "hold": 7, "captures": 0, "prevent": 196, "returns": 17, "pups": 2, "holdagainst": 155, "pm": -3, "pupscomp": 18, "ndpops": 6, "nrtags": 2} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 8", "team1": "Someballian Pirates", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Someballian Pirates", "blue_team": "Boostin Dynamo", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Gem", "playing_as": "Gem", "stats": {"score": 44, "team": 1, "prevent": 59, "returns": 15, "tags": 19, "grabs": 12, "pops": 16, "drops": 11, "hold": 35, "ndpops": 5, "pups": 2, "captures": 1, "minutes": 10, "flaccids": 6, "goregrab": 2, "quickret": 4, "retinbase": 4, "gohandoff": 2, "goodhandoff": 2, "handoff": 2, "nrtags": 4, "holdagainst": 202, "pupscomp": 27, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "JBaayBaay", "playing_as": "JBaayBaay", "stats": {"score": 53, "team": 2, "grabs": 18, "pops": 18, "drops": 14, "hold": 88, "ndpops": 4, "pups": 3, "captures": 3, "prevent": 28, "returns": 4, "tags": 4, "minutes": 10, "goodhandoff": 1, "handoff": 3, "flaccids": 4, "quickret": 1, "retinbase": 2, "gohandoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 184, "pupscomp": 27, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"score": 20, "team": 1, "grabs": 13, "pops": 14, "drops": 13, "hold": 55, "pups": 4, "prevent": 34, "ndpops": 1, "returns": 1, "tags": 1, "minutes": 10, "flaccids": 5, "goregrab": 5, "handoff": 5, "gohandoff": 2, "goodhandoff": 1, "nrtags": 0, "holdagainst": 202, "pupscomp": 27, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "MrFruitzy", "playing_as": "MrFruitzy", "stats": {"score": 18, "team": 1, "grabs": 14, "pops": 18, "drops": 13, "hold": 75, "prevent": 7, "ndpops": 5, "captures": 1, "returns": 1, "tags": 1, "pups": 1, "minutes": 10, "flaccids": 4, "handoff": 5, "gohandoff": 2, "goodhandoff": 2, "goregrab": 1, "nrtags": 0, "holdagainst": 202, "pupscomp": 27, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann", "stats": {"score": 43, "team": 2, "prevent": 132, "returns": 13, "tags": 13, "pups": 3, "grabs": 2, "captures": 1, "hold": 11, "ndpops": 6, "pops": 7, "drops": 1, "minutes": 10, "quickret": 10, "retinbase": 9, "goregrab": 1, "coregrab": 1, "keyret": 1, "flaccids": 1, "nrtags": 0, "holdagainst": 184, "pupscomp": 27, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials", "stats": {"score": 30, "team": 2, "grabs": 12, "pops": 16, "drops": 12, "hold": 71, "pups": 4, "tags": 8, "ndpops": 4, "returns": 4, "prevent": 7, "minutes": 10, "goodhandoff": 2, "handoff": 2, "goregrab": 2, "flaccids": 3, "quickret": 1, "retinbase": 1, "longholds": 1, "nrtags": 4, "holdagainst": 184, "pupscomp": 27, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest", "stats": {"score": 55, "team": 2, "prevent": 141, "returns": 20, "tags": 24, "ndpops": 3, "pops": 5, "pups": 5, "grabs": 2, "drops": 2, "hold": 32, "minutes": 10, "quickret": 5, "retinbase": 8, "flaccids": 1, "longholds": 1, "nrtags": 4, "holdagainst": 184, "pupscomp": 27, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "yiss", "playing_as": "yiss", "stats": {"score": 37, "team": 1, "prevent": 129, "returns": 10, "tags": 10, "pups": 5, "grabs": 5, "pops": 10, "drops": 5, "hold": 19, "ndpops": 5, "minutes": 10, "quickret": 5, "retinbase": 5, "goodhandoff": 1, "handoff": 1, "flaccids": 2, "nrtags": 0, "holdagainst": 202, "pupscomp": 27, "pm": -2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Someballian Pirates", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Someballian Pirates", "player_season": "Gem", "playing_as": "Gem", "stats": {"score": 41, "team": 2, "prevent": 38, "returns": 16, "tags": 22, "ndpops": 6, "pops": 12, "pups": 5, "grabs": 6, "drops": 6, "hold": 58, "minutes": 10, "goregrab": 2, "flaccids": 2, "retinbase": 8, "quickret": 6, "longholds": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 6, "holdagainst": 284, "pupscomp": 27, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"score": 30, "team": 2, "ndpops": 5, "pops": 19, "grabs": 15, "drops": 14, "hold": 93, "pups": 3, "prevent": 8, "returns": 4, "tags": 6, "captures": 1, "minutes": 10, "flaccids": 7, "goodhandoff": 5, "handoff": 7, "longholds": 2, "gohandoff": 3, "quickret": 1, "retinbase": 1, "goregrab": 2, "nrtags": 2, "holdagainst": 284, "pupscomp": 27, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "MrFruitzy", "playing_as": "MrFruitzy", "stats": {"score": 34, "team": 2, "grabs": 14, "pops": 23, "drops": 13, "hold": 69, "returns": 5, "tags": 6, "ndpops": 10, "prevent": 30, "pups": 6, "captures": 1, "minutes": 10, "flaccids": 4, "goregrab": 2, "coregrab": 1, "goodhandoff": 1, "handoff": 2, "gohandoff": 1, "nrtags": 1, "holdagainst": 284, "pupscomp": 27, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "Neb.", "playing_as": "Neb.", "stats": {"score": 0, "team": 1, "game_start": 6575, "quit": true, "prevent": 1, "returns": 2, "tags": 2, "ndpops": 1, "pops": 1, "minutes": 1, "game_end": 6736, "hold": 0, "nrtags": 0, "holdagainst": 234, "pupscomp": 27, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "Stann", "playing_as": "Stann", "stats": {"score": 34, "team": 1, "prevent": 107, "returns": 13, "tags": 13, "ndpops": 6, "pops": 10, "pups": 2, "grabs": 4, "drops": 4, "hold": 30, "minutes": 10, "quickret": 5, "retinbase": 6, "goodhandoff": 1, "handoff": 1, "flaccids": 2, "saves": 1, "gohandoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 234, "pupscomp": 27, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "Vials", "playing_as": "Vials", "stats": {"score": 43, "team": 1, "grabs": 18, "pops": 20, "drops": 16, "hold": 114, "ndpops": 4, "captures": 2, "pups": 3, "tags": 10, "returns": 2, "prevent": 20, "minutes": 10, "goodhandoff": 4, "handoff": 8, "goregrab": 6, "flaccids": 4, "longholds": 2, "coregrab": 1, "gohandoff": 1, "cohandoff": 1, "nrtags": 8, "holdagainst": 234, "pupscomp": 27, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "intercest", "playing_as": "intercest", "stats": {"score": 45, "team": 1, "prevent": 101, "pups": 4, "ndpops": 8, "pops": 15, "grabs": 7, "drops": 7, "hold": 61, "returns": 18, "tags": 18, "minutes": 10, "longholds": 2, "handoff": 2, "quickret": 9, "retinbase": 9, "keyret": 1, "flaccids": 3, "goodhandoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 234, "pupscomp": 27, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "jjpoole", "playing_as": "jjpoole", "stats": {"score": 37, "team": 1, "grabs": 16, "pops": 16, "drops": 14, "hold": 79, "ndpops": 2, "prevent": 23, "minutes": 9, "quit": false, "game_end": 3271, "game_start": 6079, "returns": 2, "tags": 6, "pups": 2, "captures": 1, "goregrab": 5, "gohandoff": 5, "handoff": 4, "flaccids": 3, "quickret": 1, "retinbase": 1, "goodhandoff": 3, "coregrab": 1, "nrtags": 4, "holdagainst": 234, "pupscomp": 27, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "yiss", "playing_as": "yiss", "stats": {"score": 35, "team": 2, "prevent": 109, "returns": 15, "tags": 16, "pups": 2, "grabs": 4, "pops": 11, "drops": 4, "hold": 14, "ndpops": 7, "minutes": 10, "quickret": 5, "retinbase": 5, "goregrab": 2, "flaccids": 2, "handoff": 1, "nrtags": 1, "holdagainst": 284, "pupscomp": 27, "pm": -1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Someballian Pirates", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Someballian Pirates", "player_season": "Gem", "playing_as": "Gem", "stats": {"score": 41, "team": 2, "returns": 21, "tags": 28, "prevent": 135, "grabs": 11, "pops": 15, "drops": 11, "hold": 32, "pups": 2, "ndpops": 4, "minutes": 10, "quickret": 9, "retinbase": 8, "flaccids": 6, "gohandoff": 5, "goregrab": 2, "goodhandoff": 1, "handoff": 2, "keyret": 1, "nrtags": 7, "holdagainst": 293, "pupscomp": 18, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"score": 25, "team": 2, "grabs": 18, "pops": 20, "drops": 17, "hold": 61, "returns": 6, "tags": 8, "ndpops": 3, "prevent": 44, "pups": 2, "captures": 1, "minutes": 10, "quickret": 3, "retinbase": 4, "goodhandoff": 3, "handoff": 5, "gohandoff": 5, "flaccids": 9, "goregrab": 2, "coregrab": 1, "nrtags": 2, "holdagainst": 293, "pupscomp": 18, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "MrFruitzy", "playing_as": "MrFruitzy", "stats": {"score": 35, "team": 2, "grabs": 20, "pops": 20, "drops": 17, "hold": 109, "returns": 8, "tags": 14, "ndpops": 3, "prevent": 8, "captures": 2, "pups": 1, "minutes": 10, "goregrab": 6, "flaccids": 6, "gohandoff": 4, "goodhandoff": 3, "handoff": 5, "longholds": 1, "quickret": 2, "retinbase": 1, "coregrab": 1, "nrtags": 6, "holdagainst": 293, "pupscomp": 18, "pm": -1} },
+            { "team": "Someballian Pirates", "player_season": "Stann", "playing_as": "Stann", "stats": {"score": 43, "team": 1, "prevent": 147, "returns": 16, "tags": 16, "grabs": 8, "pops": 15, "drops": 7, "hold": 46, "captures": 1, "ndpops": 8, "pups": 2, "minutes": 10, "gohandoff": 1, "flaccids": 4, "goregrab": 1, "longholds": 1, "coregrab": 1, "goodhandoff": 1, "handoff": 2, "quickret": 6, "retinbase": 9, "keyret": 2, "nrtags": 0, "holdagainst": 238, "pupscomp": 18, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "Vials", "playing_as": "Vials", "stats": {"score": 34, "team": 1, "grabs": 20, "pops": 23, "drops": 17, "hold": 91, "returns": 6, "tags": 8, "ndpops": 6, "prevent": 14, "captures": 3, "pups": 1, "minutes": 10, "flaccids": 7, "goregrab": 6, "coregrab": 2, "quickret": 3, "retinbase": 2, "gohandoff": 2, "handoff": 3, "goodhandoff": 1, "nrtags": 2, "holdagainst": 238, "pupscomp": 18, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "intercest", "playing_as": "intercest", "stats": {"score": 55, "team": 1, "prevent": 162, "grabs": 9, "pops": 10, "drops": 8, "hold": 78, "tags": 24, "returns": 21, "pups": 3, "ndpops": 2, "captures": 1, "minutes": 10, "flaccids": 4, "quickret": 14, "retinbase": 10, "keyret": 1, "longholds": 2, "goodhandoff": 1, "handoff": 1, "goregrab": 1, "gohandoff": 2, "nrtags": 3, "holdagainst": 238, "pupscomp": 18, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "jjpoole", "playing_as": "jjpoole", "stats": {"score": 34, "team": 1, "grabs": 14, "pops": 22, "drops": 14, "hold": 78, "tags": 14, "prevent": 48, "pups": 5, "ndpops": 8, "returns": 9, "minutes": 10, "quickret": 2, "retinbase": 2, "flaccids": 4, "handoff": 4, "goregrab": 3, "goodhandoff": 2, "nrtags": 5, "holdagainst": 238, "pupscomp": 18, "pm": 1} },
+            { "team": "Someballian Pirates", "player_season": "yiss", "playing_as": "yiss", "stats": {"score": 32, "team": 2, "prevent": 129, "ndpops": 4, "pops": 14, "pups": 2, "grabs": 11, "tags": 12, "drops": 10, "hold": 36, "returns": 9, "captures": 1, "minutes": 10, "goodhandoff": 3, "handoff": 4, "saves": 1, "flaccids": 5, "quickret": 4, "retinbase": 4, "goregrab": 2, "nrtags": 3, "holdagainst": 293, "pupscomp": 18, "pm": -1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Someballian Pirates", "blue_team": "Boostin Dynamo", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Gem", "playing_as": "Gem", "stats": {"score": 27, "team": 1, "prevent": 65, "minutes": 10, "quit": false, "game_end": 1908, "game_start": 2324, "tags": 17, "returns": 14, "grabs": 12, "pops": 19, "drops": 12, "hold": 28, "pups": 1, "ndpops": 7, "flaccids": 7, "quickret": 6, "retinbase": 6, "gohandoff": 1, "handoff": 1, "keyret": 2, "goregrab": 1, "nrtags": 3, "holdagainst": 366, "pupscomp": 18, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "LioneI Messi", "playing_as": "LioneI Messi", "stats": {"score": 22, "team": 1, "grabs": 16, "pops": 22, "drops": 15, "hold": 72, "tags": 8, "ndpops": 7, "prevent": 34, "returns": 5, "pups": 1, "captures": 1, "minutes": 10, "flaccids": 6, "goregrab": 3, "handoff": 3, "quickret": 4, "retinbase": 3, "coregrab": 1, "goodhandoff": 2, "gohandoff": 3, "nrtags": 3, "holdagainst": 366, "pupscomp": 18, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "MrFruitzy", "playing_as": "MrFruitzy", "stats": {"score": 29, "team": 1, "grabs": 15, "pops": 17, "drops": 14, "hold": 81, "pups": 4, "tags": 7, "ndpops": 3, "returns": 3, "prevent": 5, "captures": 1, "minutes": 10, "goodhandoff": 4, "handoff": 8, "goregrab": 2, "longholds": 1, "gohandoff": 5, "flaccids": 9, "saves": 1, "cohandoff": 1, "nrtags": 4, "holdagainst": 366, "pupscomp": 18, "pm": -2} },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann", "stats": {"score": 49, "team": 2, "prevent": 192, "returns": 22, "tags": 24, "ndpops": 3, "pops": 5, "grabs": 3, "captures": 1, "hold": 10, "drops": 2, "minutes": 10, "goregrab": 2, "coregrab": 1, "flaccids": 2, "goodhandoff": 1, "handoff": 1, "quickret": 11, "retinbase": 9, "keyret": 3, "nrtags": 2, "holdagainst": 251, "pupscomp": 18, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "Vials", "playing_as": "Vials", "stats": {"score": 32, "team": 2, "grabs": 15, "pops": 17, "drops": 13, "hold": 108, "prevent": 52, "captures": 2, "returns": 4, "tags": 5, "ndpops": 4, "pups": 2, "minutes": 10, "goregrab": 7, "flaccids": 4, "coregrab": 1, "retinbase": 2, "quickret": 2, "goodhandoff": 3, "handoff": 3, "keyret": 1, "gohandoff": 2, "nrtags": 1, "holdagainst": 251, "pupscomp": 18, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest", "stats": {"score": 50, "team": 2, "prevent": 131, "returns": 13, "tags": 20, "ndpops": 1, "pops": 7, "grabs": 7, "drops": 6, "hold": 69, "pups": 3, "captures": 1, "minutes": 10, "quickret": 7, "longholds": 1, "gohandoff": 1, "goodhandoff": 3, "handoff": 5, "goregrab": 3, "retinbase": 5, "flaccids": 1, "nrtags": 7, "holdagainst": 251, "pupscomp": 18, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "jjpoole", "playing_as": "jjpoole", "stats": {"score": 51, "team": 2, "grabs": 17, "pops": 22, "drops": 15, "hold": 179, "pups": 6, "ndpops": 7, "returns": 6, "tags": 11, "prevent": 31, "captures": 2, "minutes": 10, "handoff": 7, "longholds": 2, "goodhandoff": 4, "quickret": 3, "retinbase": 3, "goregrab": 4, "flaccids": 7, "gohandoff": 1, "coregrab": 1, "nrtags": 5, "holdagainst": 251, "pupscomp": 18, "pm": 2} },
+            { "team": "Boostin Dynamo", "player_season": "yiss", "playing_as": "yiss", "stats": {"score": 40, "team": 1, "prevent": 103, "returns": 13, "tags": 14, "grabs": 7, "pops": 11, "drops": 5, "hold": 70, "ndpops": 6, "captures": 2, "pups": 1, "minutes": 10, "retinbase": 4, "goregrab": 3, "longholds": 1, "goodhandoff": 2, "handoff": 3, "gohandoff": 1, "flaccids": 1, "quickret": 4, "keyret": 1, "coregrab": 1, "nrtags": 1, "holdagainst": 366, "pupscomp": 18, "pm": -2} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 8", "team1": "Pequeños Pandas", "team2": "Whitecaps",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Whitecaps", "blue_team": "Pequeños Pandas", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Pequeños Pandas", "player_season": "Bal McCartny", "playing_as": "Bal McCartny", "stats": {"team": 2, "minutes": 10, "score": 54, "tags": 17, "pops": 5, "grabs": 3, "drops": 2, "hold": 24, "captures": 1, "prevent": 158, "returns": 15, "pups": 4, "holdagainst": 197, "pm": 1, "pupscomp": 27, "ndpops": 3, "nrtags": 2} },
+            { "team": "Pequeños Pandas", "player_season": "Bumballbee", "playing_as": "Bumballbee", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 6, "pops": 17, "grabs": 14, "drops": 13, "hold": 66, "captures": 1, "prevent": 17, "returns": 5, "pups": 5, "holdagainst": 197, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "Pequeños Pandas", "player_season": "C Bivvey", "playing_as": "C Bivvey", "stats": {"team": 1, "minutes": 10, "score": 51, "tags": 17, "pops": 11, "grabs": 8, "drops": 7, "hold": 30, "captures": 1, "prevent": 175, "returns": 14, "pups": 1, "holdagainst": 157, "pm": -1, "pupscomp": 27, "ndpops": 4, "nrtags": 3} },
+            { "team": "Pequeños Pandas", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 1, "minutes": 10, "score": 14, "tags": 3, "pops": 21, "grabs": 15, "drops": 15, "hold": 61, "captures": 0, "prevent": 32, "returns": 3, "pups": 2, "holdagainst": 157, "pm": -1, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "Destar", "playing_as": "Destar", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 4, "pops": 18, "grabs": 12, "drops": 11, "hold": 75, "captures": 1, "prevent": 3, "returns": 4, "pups": 4, "holdagainst": 157, "pm": -1, "pupscomp": 27, "ndpops": 7, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "q42", "playing_as": "q42", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 11, "pops": 5, "grabs": 4, "drops": 4, "hold": 13, "captures": 0, "prevent": 148, "returns": 11, "pups": 3, "holdagainst": 197, "pm": 1, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "Pequeños Pandas", "player_season": "veezy", "playing_as": "veezy", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 8, "pops": 20, "grabs": 16, "drops": 15, "hold": 54, "captures": 1, "prevent": 20, "returns": 5, "pups": 3, "holdagainst": 197, "pm": 1, "pupscomp": 27, "ndpops": 5, "nrtags": 3} },
+            { "team": "Pequeños Pandas", "player_season": "waterwheel", "playing_as": "waterwheel", "stats": {"team": 1, "minutes": 10, "score": 50, "tags": 14, "pops": 5, "grabs": 3, "drops": 3, "hold": 31, "captures": 0, "prevent": 229, "returns": 11, "pups": 5, "holdagainst": 157, "pm": -1, "pupscomp": 27, "ndpops": 2, "nrtags": 3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Pequeños Pandas", "blue_team": "Whitecaps", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Whitecaps", "player_season": "Bal McCartny", "playing_as": "Bal McCartny", "stats": {"team": 1, "minutes": 10, "score": 65, "tags": 21, "pops": 9, "grabs": 4, "drops": 3, "hold": 31, "captures": 1, "prevent": 143, "returns": 15, "pups": 11, "holdagainst": 225, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 6} },
+            { "team": "Whitecaps", "player_season": "Bumballbee", "playing_as": "Bumballbee", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 5, "pops": 17, "grabs": 12, "drops": 11, "hold": 88, "captures": 1, "prevent": 7, "returns": 5, "pups": 3, "holdagainst": 225, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "C Bivvey", "playing_as": "C Bivvey", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 21, "pops": 13, "grabs": 7, "drops": 7, "hold": 48, "captures": 0, "prevent": 159, "returns": 17, "pups": 2, "holdagainst": 241, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 4} },
+            { "team": "Whitecaps", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 2, "minutes": 10, "score": 26, "tags": 7, "pops": 18, "grabs": 14, "drops": 14, "hold": 107, "captures": 0, "prevent": 16, "returns": 7, "pups": 0, "holdagainst": 241, "pm": 0, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "Destar", "playing_as": "Destar", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 5, "pops": 16, "grabs": 15, "drops": 12, "hold": 46, "captures": 3, "prevent": 24, "returns": 5, "pups": 2, "holdagainst": 241, "pm": 0, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "q42", "playing_as": "q42", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 11, "pops": 12, "grabs": 6, "drops": 6, "hold": 33, "captures": 0, "prevent": 132, "returns": 9, "pups": 2, "holdagainst": 225, "pm": 0, "pupscomp": 27, "ndpops": 6, "nrtags": 2} },
+            { "team": "Whitecaps", "player_season": "veezy", "playing_as": "veezy", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 10, "pops": 17, "grabs": 15, "drops": 14, "hold": 89, "captures": 1, "prevent": 38, "returns": 7, "pups": 2, "holdagainst": 225, "pm": 0, "pupscomp": 27, "ndpops": 3, "nrtags": 3} },
+            { "team": "Whitecaps", "player_season": "waterwheel", "playing_as": "waterwheel", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 13, "pops": 11, "grabs": 4, "drops": 4, "hold": 24, "captures": 0, "prevent": 131, "returns": 4, "pups": 5, "holdagainst": 241, "pm": 0, "pupscomp": 27, "ndpops": 7, "nrtags": 9} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Pequeños Pandas", "blue_team": "Whitecaps", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Whitecaps", "player_season": "Bal McCartny", "playing_as": "Bal McCartny", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 16, "pops": 8, "grabs": 2, "drops": 2, "hold": 17, "captures": 0, "prevent": 163, "returns": 12, "pups": 4, "holdagainst": 230, "pm": 2, "pupscomp": 18, "ndpops": 6, "nrtags": 4} },
+            { "team": "Whitecaps", "player_season": "Bumballbee", "playing_as": "Bumballbee", "stats": {"team": 1, "minutes": 10, "score": 24, "tags": 5, "pops": 26, "grabs": 12, "drops": 11, "hold": 77, "captures": 1, "prevent": 14, "returns": 3, "pups": 1, "holdagainst": 230, "pm": 2, "pupscomp": 18, "ndpops": 15, "nrtags": 2} },
+            { "team": "Whitecaps", "player_season": "C Bivvey", "playing_as": "C Bivvey", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 21, "pops": 11, "grabs": 5, "drops": 5, "hold": 35, "captures": 0, "prevent": 232, "returns": 13, "pups": 1, "holdagainst": 166, "pm": -2, "pupscomp": 18, "ndpops": 6, "nrtags": 8} },
+            { "team": "Whitecaps", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 2, "minutes": 10, "score": 24, "tags": 11, "pops": 21, "grabs": 16, "drops": 16, "hold": 112, "captures": 0, "prevent": 11, "returns": 6, "pups": 1, "holdagainst": 166, "pm": -2, "pupscomp": 18, "ndpops": 5, "nrtags": 5} },
+            { "team": "Whitecaps", "player_season": "Destar", "playing_as": "Destar", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 14, "pops": 20, "grabs": 13, "drops": 12, "hold": 60, "captures": 0, "prevent": 37, "returns": 3, "pups": 3, "holdagainst": 166, "pm": -2, "pupscomp": 18, "ndpops": 8, "nrtags": 11} },
+            { "team": "Whitecaps", "player_season": "q42", "playing_as": "q42", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 21, "pops": 19, "grabs": 5, "drops": 5, "hold": 16, "captures": 0, "prevent": 163, "returns": 14, "pups": 2, "holdagainst": 230, "pm": 2, "pupscomp": 18, "ndpops": 14, "nrtags": 7} },
+            { "team": "Whitecaps", "player_season": "veezy", "playing_as": "veezy", "stats": {"team": 1, "minutes": 10, "score": 55, "tags": 12, "pops": 20, "grabs": 16, "drops": 14, "hold": 56, "captures": 2, "prevent": 21, "returns": 7, "pups": 4, "holdagainst": 230, "pm": 2, "pupscomp": 18, "ndpops": 6, "nrtags": 5} },
+            { "team": "Whitecaps", "player_season": "waterwheel", "playing_as": "waterwheel", "stats": {"team": 2, "minutes": 10, "score": 53, "tags": 20, "pops": 5, "grabs": 4, "drops": 3, "hold": 23, "captures": 1, "prevent": 226, "returns": 10, "pups": 2, "holdagainst": 166, "pm": -2, "pupscomp": 18, "ndpops": 2, "nrtags": 10} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Whitecaps", "blue_team": "Pequeños Pandas", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Pequeños Pandas", "player_season": "Bal McCartny", "playing_as": "Bal McCartny", "stats": {"team": 2, "minutes": 10, "score": 55, "tags": 19, "pops": 12, "grabs": 7, "drops": 6, "hold": 36, "captures": 1, "prevent": 159, "returns": 18, "pups": 4, "holdagainst": 243, "pm": 2, "pupscomp": 18, "ndpops": 6, "nrtags": 1} },
+            { "team": "Pequeños Pandas", "player_season": "Bumballbee", "playing_as": "Bumballbee", "stats": {"team": 2, "minutes": 10, "score": 24, "tags": 7, "pops": 20, "grabs": 17, "drops": 16, "hold": 98, "captures": 1, "prevent": 14, "returns": 3, "pups": 1, "holdagainst": 243, "pm": 2, "pupscomp": 18, "ndpops": 4, "nrtags": 4} },
+            { "team": "Pequeños Pandas", "player_season": "C Bivvey", "playing_as": "C Bivvey", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 21, "pops": 13, "grabs": 7, "drops": 7, "hold": 30, "captures": 0, "prevent": 156, "returns": 10, "pups": 4, "holdagainst": 249, "pm": -2, "pupscomp": 18, "ndpops": 6, "nrtags": 11} },
+            { "team": "Pequeños Pandas", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 1, "minutes": 10, "score": 33, "tags": 5, "pops": 23, "grabs": 20, "drops": 18, "hold": 148, "captures": 1, "prevent": 19, "returns": 4, "pups": 3, "holdagainst": 249, "pm": -2, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "Pequeños Pandas", "player_season": "Destar", "playing_as": "Destar", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 13, "pops": 14, "grabs": 12, "drops": 11, "hold": 64, "captures": 1, "prevent": 38, "returns": 9, "pups": 1, "holdagainst": 249, "pm": -2, "pupscomp": 18, "ndpops": 3, "nrtags": 4} },
+            { "team": "Pequeños Pandas", "player_season": "q42", "playing_as": "q42", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 17, "pops": 15, "grabs": 6, "drops": 5, "hold": 34, "captures": 0, "prevent": 158, "returns": 8, "pups": 4, "holdagainst": 243, "pm": 2, "pupscomp": 18, "ndpops": 10, "nrtags": 9} },
+            { "team": "Pequeños Pandas", "player_season": "veezy", "playing_as": "veezy", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 7, "pops": 14, "grabs": 13, "drops": 11, "hold": 81, "captures": 2, "prevent": 28, "returns": 6, "pups": 1, "holdagainst": 243, "pm": 2, "pupscomp": 18, "ndpops": 3, "nrtags": 1} },
+            { "team": "Pequeños Pandas", "player_season": "waterwheel", "playing_as": "waterwheel", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 18, "pops": 7, "grabs": 1, "drops": 1, "hold": 1, "captures": 0, "prevent": 220, "returns": 14, "pups": 0, "holdagainst": 249, "pm": -2, "pupscomp": 18, "ndpops": 6, "nrtags": 4} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 8", "team1": "The RePublicans", "team2": "London WASDs NA",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "London WASDs NA", "blue_team": "The RePublicans", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "The RePublicans", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"score": 46, "team": 1, "returns": 20, "tags": 29, "prevent": 146, "ndpops": 9, "pops": 14, "pups": 3, "grabs": 5, "drops": 5, "hold": 15, "minutes": 10, "quickret": 11, "retinbase": 12, "goregrab": 1, "gohandoff": 1, "handoff": 1, "flaccids": 1, "nrtags": 9, "holdagainst": 208, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 20, "team": 2, "grabs": 16, "pops": 20, "drops": 16, "hold": 66, "pups": 4, "prevent": 9, "ndpops": 4, "tags": 2, "returns": 1, "minutes": 10, "flaccids": 8, "handoff": 4, "goregrab": 3, "gohandoff": 3, "goodhandoff": 2, "quickret": 1, "retinbase": 1, "nrtags": 1, "holdagainst": 131, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"score": 53, "team": 2, "prevent": 212, "returns": 13, "tags": 18, "grabs": 2, "pops": 8, "drops": 2, "hold": 15, "pups": 7, "ndpops": 6, "minutes": 10, "handoff": 2, "quickret": 5, "retinbase": 6, "goodhandoff": 1, "nrtags": 5, "holdagainst": 131, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "Jump Ball", "playing_as": "Jump Ball", "stats": {"score": 41, "team": 1, "grabs": 10, "pops": 15, "drops": 9, "hold": 54, "returns": 2, "tags": 2, "captures": 1, "prevent": 40, "ndpops": 6, "pups": 4, "minutes": 10, "flaccids": 3, "handoff": 5, "goregrab": 2, "quickret": 1, "retinbase": 1, "goodhandoff": 1, "nrtags": 0, "holdagainst": 208, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "ZenWhisper", "playing_as": "ZenWhisper", "stats": {"score": 27, "team": 1, "prevent": 130, "grabs": 4, "pops": 10, "drops": 4, "hold": 22, "returns": 11, "tags": 11, "pups": 1, "ndpops": 6, "minutes": 10, "quickret": 4, "retinbase": 3, "handoff": 1, "goregrab": 1, "flaccids": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 208, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "eee", "playing_as": "eee", "stats": {"score": 55, "team": 2, "grabs": 18, "pops": 18, "drops": 17, "hold": 102, "pups": 5, "prevent": 24, "captures": 1, "returns": 2, "tags": 5, "ndpops": 1, "minutes": 10, "gohandoff": 3, "flaccids": 8, "longholds": 2, "handoff": 5, "goregrab": 2, "retinbase": 1, "goodhandoff": 1, "nrtags": 3, "holdagainst": 131, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "quibble", "playing_as": "quibble", "stats": {"score": 38, "team": 2, "prevent": 218, "returns": 10, "tags": 10, "pups": 1, "grabs": 4, "pops": 8, "drops": 4, "hold": 25, "ndpops": 4, "minutes": 10, "quickret": 3, "retinbase": 5, "gohandoff": 2, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 131, "pupscomp": 27, "pm": 0} },
+            { "team": "The RePublicans", "player_season": "toucansam", "playing_as": "toucansam", "stats": {"score": 20, "team": 1, "grabs": 10, "pops": 13, "drops": 10, "hold": 40, "pups": 2, "ndpops": 3, "prevent": 18, "returns": 4, "tags": 4, "minutes": 10, "gohandoff": 1, "goregrab": 2, "flaccids": 4, "goodhandoff": 2, "handoff": 2, "nrtags": 0, "holdagainst": 208, "pupscomp": 27, "pm": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The RePublicans", "blue_team": "London WASDs NA", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"score": 48, "team": 2, "ndpops": 6, "pops": 12, "prevent": 127, "returns": 17, "tags": 19, "pups": 4, "grabs": 6, "drops": 6, "hold": 18, "minutes": 10, "flaccids": 3, "retinbase": 4, "keyret": 1, "quickret": 2, "goregrab": 2, "gohandoff": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 2, "holdagainst": 255, "pupscomp": 27, "pm": -2} },
+            { "team": "London WASDs NA", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 35, "team": 1, "grabs": 15, "pops": 17, "drops": 13, "hold": 91, "captures": 2, "prevent": 20, "pups": 4, "tags": 5, "ndpops": 4, "returns": 3, "minutes": 10, "goodhandoff": 5, "handoff": 6, "goregrab": 5, "flaccids": 2, "coregrab": 1, "nrtags": 2, "holdagainst": 232, "pupscomp": 27, "pm": 2} },
+            { "team": "London WASDs NA", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"score": 37, "team": 1, "prevent": 137, "pups": 5, "ndpops": 3, "pops": 7, "returns": 10, "tags": 13, "grabs": 4, "drops": 4, "hold": 37, "minutes": 10, "retinbase": 5, "keyret": 1, "quickret": 4, "longholds": 1, "handoff": 2, "goregrab": 1, "goodhandoff": 1, "nrtags": 3, "holdagainst": 232, "pupscomp": 27, "pm": 2} },
+            { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball", "stats": {"score": 21, "team": 2, "grabs": 13, "pops": 18, "drops": 12, "hold": 57, "prevent": 19, "ndpops": 6, "pups": 2, "returns": 3, "tags": 3, "captures": 1, "minutes": 10, "gohandoff": 1, "quickret": 1, "retinbase": 1, "goregrab": 2, "goodhandoff": 3, "handoff": 3, "flaccids": 4, "nrtags": 0, "holdagainst": 255, "pupscomp": 27, "pm": -2} },
+            { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper", "stats": {"score": 33, "team": 2, "prevent": 126, "returns": 10, "tags": 11, "ndpops": 5, "pops": 11, "pups": 2, "grabs": 6, "drops": 6, "hold": 44, "minutes": 10, "quickret": 3, "retinbase": 3, "goregrab": 4, "goodhandoff": 2, "handoff": 3, "nrtags": 1, "holdagainst": 255, "pupscomp": 27, "pm": -2} },
+            { "team": "London WASDs NA", "player_season": "eee", "playing_as": "eee", "stats": {"score": 44, "team": 1, "grabs": 18, "pops": 19, "drops": 16, "hold": 127, "ndpops": 3, "pups": 4, "tags": 8, "captures": 2, "prevent": 11, "returns": 4, "minutes": 10, "flaccids": 5, "goregrab": 4, "goodhandoff": 3, "handoff": 4, "gohandoff": 3, "quickret": 1, "retinbase": 1, "keyret": 1, "longholds": 1, "nrtags": 4, "holdagainst": 232, "pupscomp": 27, "pm": 2} },
+            { "team": "London WASDs NA", "player_season": "quibble", "playing_as": "quibble", "stats": {"score": 52, "team": 1, "prevent": 176, "returns": 18, "tags": 18, "pups": 4, "ndpops": 4, "pops": 4, "minutes": 10, "retinbase": 6, "quickret": 5, "hold": 0, "nrtags": 0, "holdagainst": 232, "pupscomp": 27, "pm": 2} },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "toucansam", "stats": {"score": 29, "team": 2, "grabs": 13, "pops": 14, "drops": 12, "hold": 113, "returns": 3, "tags": 3, "prevent": 13, "captures": 1, "ndpops": 2, "pups": 2, "minutes": 10, "handoff": 6, "flaccids": 3, "quickret": 1, "retinbase": 1, "goregrab": 4, "coregrab": 1, "goodhandoff": 4, "longholds": 1, "nrtags": 0, "holdagainst": 255, "pupscomp": 27, "pm": -2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The RePublicans", "blue_team": "London WASDs NA", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"score": 41, "team": 2, "prevent": 114, "grabs": 9, "pops": 14, "drops": 9, "hold": 28, "ndpops": 5, "pups": 4, "tags": 15, "returns": 7, "minutes": 10, "goregrab": 3, "flaccids": 4, "handoff": 2, "goodhandoff": 1, "retinbase": 4, "keyret": 1, "quickret": 3, "nrtags": 8, "holdagainst": 322, "pupscomp": 18, "pm": 1} },
+            { "team": "London WASDs NA", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 22, "team": 1, "grabs": 15, "pops": 20, "drops": 14, "hold": 115, "tags": 7, "ndpops": 6, "captures": 1, "pups": 1, "returns": 4, "minutes": 10, "goregrab": 9, "goodhandoff": 4, "handoff": 6, "longholds": 1, "coregrab": 1, "flaccids": 3, "quickret": 1, "retinbase": 1, "gohandoff": 1, "prevent": 0, "nrtags": 3, "holdagainst": 276, "pupscomp": 18, "pm": -1} },
+            { "team": "London WASDs NA", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"score": 38, "team": 1, "grabs": 4, "pops": 13, "drops": 4, "hold": 37, "prevent": 148, "returns": 10, "tags": 20, "pups": 3, "ndpops": 9, "minutes": 10, "flaccids": 2, "retinbase": 5, "quickret": 5, "longholds": 1, "goodhandoff": 1, "handoff": 2, "goregrab": 2, "nrtags": 10, "holdagainst": 276, "pupscomp": 18, "pm": -1} },
+            { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball", "stats": {"score": 48, "team": 2, "grabs": 12, "captures": 2, "hold": 107, "prevent": 22, "tags": 18, "ndpops": 5, "pops": 15, "drops": 10, "returns": 12, "pups": 2, "minutes": 10, "goodhandoff": 3, "handoff": 4, "retinbase": 1, "gohandoff": 2, "goregrab": 2, "coregrab": 1, "longholds": 1, "flaccids": 3, "keyret": 1, "nrtags": 6, "holdagainst": 322, "pupscomp": 18, "pm": 1} },
+            { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper", "stats": {"score": 37, "team": 2, "returns": 11, "tags": 15, "prevent": 139, "grabs": 10, "pops": 15, "drops": 10, "hold": 28, "ndpops": 5, "pups": 3, "minutes": 10, "quickret": 5, "retinbase": 5, "gohandoff": 3, "flaccids": 6, "goregrab": 2, "goodhandoff": 2, "handoff": 2, "nrtags": 4, "holdagainst": 322, "pupscomp": 18, "pm": 1} },
+            { "team": "London WASDs NA", "player_season": "eee", "playing_as": "eee", "stats": {"score": 40, "team": 1, "grabs": 14, "pops": 19, "drops": 12, "hold": 151, "ndpops": 7, "prevent": 17, "captures": 2, "returns": 5, "tags": 5, "pups": 3, "minutes": 10, "flaccids": 4, "quickret": 2, "retinbase": 1, "handoff": 6, "longholds": 4, "goodhandoff": 5, "goregrab": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 276, "pupscomp": 18, "pm": -1} },
+            { "team": "London WASDs NA", "player_season": "quibble", "playing_as": "quibble", "stats": {"score": 46, "team": 1, "prevent": 169, "returns": 19, "tags": 22, "pups": 2, "ndpops": 8, "pops": 12, "grabs": 4, "drops": 4, "hold": 19, "minutes": 10, "quickret": 8, "retinbase": 8, "keyret": 2, "goregrab": 3, "goodhandoff": 2, "handoff": 2, "nrtags": 3, "holdagainst": 276, "pupscomp": 18, "pm": -1} },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "toucansam", "stats": {"score": 28, "team": 2, "grabs": 11, "pops": 16, "drops": 9, "hold": 113, "captures": 2, "prevent": 14, "tags": 5, "returns": 2, "ndpops": 7, "minutes": 10, "gohandoff": 3, "cohandoff": 1, "flaccids": 3, "longholds": 2, "handoff": 4, "goodhandoff": 2, "goregrab": 2, "nrtags": 3, "holdagainst": 322, "pupscomp": 18, "pm": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "London WASDs NA", "blue_team": "The RePublicans", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "The RePublicans", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"score": 51, "team": 1, "returns": 14, "tags": 19, "prevent": 223, "pups": 3, "grabs": 8, "captures": 1, "hold": 23, "pops": 11, "drops": 7, "ndpops": 4, "minutes": 10, "quickret": 8, "retinbase": 10, "goodhandoff": 2, "handoff": 2, "gohandoff": 1, "flaccids": 4, "goregrab": 1, "nrtags": 5, "holdagainst": 158, "pupscomp": 18, "pm": 5} },
+            { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 15, "team": 2, "grabs": 18, "pops": 26, "drops": 18, "hold": 46, "ndpops": 8, "tags": 13, "returns": 4, "pups": 2, "prevent": 20, "minutes": 10, "gohandoff": 1, "flaccids": 7, "goregrab": 4, "retinbase": 3, "handoff": 3, "quickret": 1, "goodhandoff": 1, "nrtags": 9, "holdagainst": 191, "pupscomp": 18, "pm": -5} },
+            { "team": "The RePublicans", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"score": 40, "team": 2, "prevent": 218, "returns": 17, "tags": 23, "ndpops": 6, "pops": 11, "pups": 2, "grabs": 5, "drops": 5, "hold": 19, "minutes": 10, "quickret": 11, "retinbase": 9, "flaccids": 2, "handoff": 3, "goodhandoff": 1, "goregrab": 1, "nrtags": 6, "holdagainst": 191, "pupscomp": 18, "pm": -5} },
+            { "team": "The RePublicans", "player_season": "Jump Ball", "playing_as": "Jump Ball", "stats": {"score": 62, "team": 1, "ndpops": 8, "pops": 16, "tags": 14, "grabs": 10, "drops": 8, "hold": 91, "returns": 9, "pups": 5, "prevent": 63, "captures": 2, "minutes": 10, "goregrab": 2, "handoff": 1, "retinbase": 3, "quickret": 1, "coregrab": 1, "gohandoff": 1, "flaccids": 2, "saves": 1, "longholds": 1, "nrtags": 5, "holdagainst": 158, "pupscomp": 18, "pm": 5} },
+            { "team": "The RePublicans", "player_season": "ZenWhisper", "playing_as": "ZenWhisper", "stats": {"score": 48, "team": 1, "prevent": 221, "tags": 21, "pups": 2, "returns": 12, "grabs": 7, "pops": 11, "drops": 6, "hold": 26, "ndpops": 5, "captures": 1, "minutes": 10, "quickret": 4, "retinbase": 6, "keyret": 1, "flaccids": 5, "goodhandoff": 1, "handoff": 1, "goregrab": 2, "coregrab": 1, "nrtags": 9, "holdagainst": 158, "pupscomp": 18, "pm": 5} },
+            { "team": "The RePublicans", "player_season": "eee", "playing_as": "eee", "stats": {"score": 9, "team": 2, "grabs": 11, "pops": 23, "drops": 11, "hold": 59, "ndpops": 12, "prevent": 52, "returns": 3, "tags": 3, "minutes": 10, "flaccids": 2, "gohandoff": 3, "goregrab": 1, "handoff": 2, "goodhandoff": 1, "nrtags": 0, "holdagainst": 191, "pupscomp": 18, "pm": -5} },
+            { "team": "The RePublicans", "player_season": "quibble", "playing_as": "quibble", "stats": {"score": 38, "team": 2, "prevent": 208, "grabs": 5, "pops": 11, "drops": 5, "hold": 34, "tags": 15, "returns": 9, "pups": 2, "ndpops": 6, "minutes": 10, "flaccids": 2, "quickret": 4, "retinbase": 4, "handoff": 3, "goodhandoff": 2, "goregrab": 1, "nrtags": 6, "holdagainst": 191, "pupscomp": 18, "pm": -5} },
+            { "team": "The RePublicans", "player_season": "toucansam", "playing_as": "toucansam", "stats": {"score": 37, "team": 1, "grabs": 13, "pops": 17, "drops": 12, "hold": 51, "prevent": 48, "ndpops": 5, "tags": 9, "pups": 2, "returns": 4, "captures": 1, "minutes": 10, "flaccids": 5, "goregrab": 1, "goodhandoff": 1, "handoff": 3, "gohandoff": 1, "nrtags": 5, "holdagainst": 158, "pupscomp": 18, "pm": 5} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "MLTP S14", "date": "2018-01-23", "week": "Week 8", "team1": "Tears", "team2": "A Blockwork Orange",
       "games": [
         {
@@ -3602,6 +4012,63 @@
             { "team": "TC Jukes", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "TC Jukes", "player_season": "boogie", "playing_as": "boogie" },
             { "team": "TC Jukes", "player_season": "side", "playing_as": "side" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S14", "date": "0000-00-00", "week": "Week 8", "team1": "Rollin' Golden Boulders", "team2": "21 Juke Street",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Rollin' Golden Boulders", "blue_team": "21 Juke Street", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 2, "pops": 20, "grabs": 15, "drops": 13, "hold": 96, "captures": 2, "prevent": 22, "returns": 2, "pups": 2, "holdagainst": 219, "pm": -2, "pupscomp": 27, "ndpops": 7, "nrtags": 0} },
+            { "team": "21 Juke Street", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 5, "pops": 10, "grabs": 4, "drops": 4, "hold": 31, "captures": 0, "prevent": 134, "returns": 4, "pups": 5, "holdagainst": 219, "pm": -2, "pupscomp": 27, "ndpops": 6, "nrtags": 1} },
+            { "team": "21 Juke Street", "player_season": "Genesis", "playing_as": "Genesis", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 10, "pops": 9, "grabs": 5, "drops": 5, "hold": 35, "captures": 0, "prevent": 114, "returns": 9, "pups": 2, "holdagainst": 223, "pm": 2, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "21 Juke Street", "player_season": "Iblis", "playing_as": "Iblis", "stats": {"team": 1, "minutes": 10, "score": 48, "tags": 20, "pops": 8, "grabs": 1, "drops": 1, "hold": 16, "captures": 0, "prevent": 120, "returns": 16, "pups": 4, "holdagainst": 223, "pm": 2, "pupscomp": 27, "ndpops": 7, "nrtags": 4} },
+            { "team": "21 Juke Street", "player_season": "Pnaoxt.", "playing_as": "Pnaoxt.", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 6, "pops": 17, "grabs": 11, "drops": 9, "hold": 73, "captures": 2, "prevent": 9, "returns": 4, "pups": 2, "holdagainst": 223, "pm": 2, "pupscomp": 27, "ndpops": 8, "nrtags": 2} },
+            { "team": "21 Juke Street", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 2, "minutes": 10, "score": 56, "tags": 19, "pops": 10, "grabs": 6, "drops": 6, "hold": 20, "captures": 0, "prevent": 147, "returns": 17, "pups": 6, "holdagainst": 219, "pm": -2, "pupscomp": 27, "ndpops": 4, "nrtags": 2} },
+            { "team": "21 Juke Street", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 2, "minutes": 10, "score": 20, "tags": 5, "pops": 17, "grabs": 12, "drops": 12, "hold": 76, "captures": 0, "prevent": 0, "returns": 2, "pups": 5, "holdagainst": 219, "pm": -2, "pupscomp": 27, "ndpops": 5, "nrtags": 3} },
+            { "team": "21 Juke Street", "player_season": "felon fred", "playing_as": "felon fred", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 4, "pops": 13, "grabs": 15, "drops": 13, "hold": 95, "captures": 2, "prevent": 31, "returns": 4, "pups": 1, "holdagainst": 223, "pm": 2, "pupscomp": 27, "ndpops": 0, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "Rollin' Golden Boulders", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Rollin' Golden Boulders", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 2, "pops": 17, "grabs": 16, "drops": 14, "hold": 85, "captures": 2, "prevent": 13, "returns": 2, "pups": 3, "holdagainst": 211, "pm": 5, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 16, "pops": 6, "grabs": 3, "drops": 3, "hold": 18, "captures": 0, "prevent": 147, "returns": 13, "pups": 4, "holdagainst": 211, "pm": 5, "pupscomp": 27, "ndpops": 3, "nrtags": 3} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 9, "pops": 7, "grabs": 2, "drops": 2, "hold": 1, "captures": 0, "prevent": 201, "returns": 9, "pups": 2, "holdagainst": 192, "pm": -5, "pupscomp": 27, "ndpops": 5, "nrtags": 0} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 14, "pops": 9, "grabs": 5, "drops": 5, "hold": 17, "captures": 0, "prevent": 170, "returns": 13, "pups": 5, "holdagainst": 192, "pm": -5, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Pnaoxt", "playing_as": "Pnaoxt", "stats": {"team": 2, "minutes": 10, "score": 21, "tags": 4, "pops": 20, "grabs": 18, "drops": 18, "hold": 87, "captures": 0, "prevent": 0, "returns": 4, "pups": 5, "holdagainst": 192, "pm": -5, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Rollin' Golden Boulders", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 1, "minutes": 10, "score": 50, "tags": 20, "pops": 3, "grabs": 2, "drops": 2, "hold": 11, "captures": 0, "prevent": 154, "returns": 17, "pups": 4, "holdagainst": 211, "pm": 5, "pupscomp": 27, "ndpops": 1, "nrtags": 3} },
+            { "team": "Rollin' Golden Boulders", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 1, "minutes": 10, "score": 62, "tags": 7, "pops": 11, "grabs": 15, "drops": 10, "hold": 78, "captures": 4, "prevent": 30, "returns": 7, "pups": 4, "holdagainst": 211, "pm": 5, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred", "stats": {"team": 2, "minutes": 10, "score": 18, "tags": 2, "pops": 19, "grabs": 15, "drops": 14, "hold": 106, "captures": 1, "prevent": 6, "returns": 2, "pups": 0, "holdagainst": 192, "pm": -5, "pupscomp": 27, "ndpops": 5, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "Rollin' Golden Boulders", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Rollin' Golden Boulders", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 10, "pops": 18, "grabs": 19, "drops": 16, "hold": 149, "captures": 3, "prevent": 22, "returns": 4, "pups": 2, "holdagainst": 280, "pm": 3, "pupscomp": 18, "ndpops": 2, "nrtags": 6} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 9, "pops": 11, "grabs": 7, "drops": 6, "hold": 40, "captures": 1, "prevent": 194, "returns": 8, "pups": 3, "holdagainst": 280, "pm": 3, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 9, "pops": 12, "grabs": 6, "drops": 6, "hold": 47, "captures": 0, "prevent": 152, "returns": 9, "pups": 3, "holdagainst": 336, "pm": -3, "pupscomp": 18, "ndpops": 6, "nrtags": 0} },
+            { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 24, "pops": 8, "grabs": 6, "drops": 5, "hold": 23, "captures": 1, "prevent": 142, "returns": 20, "pups": 1, "holdagainst": 336, "pm": -3, "pupscomp": 18, "ndpops": 3, "nrtags": 4} },
+            { "team": "Rollin' Golden Boulders", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 1, "minutes": 10, "score": 50, "tags": 19, "pops": 13, "grabs": 7, "drops": 6, "hold": 60, "captures": 1, "prevent": 168, "returns": 18, "pups": 2, "holdagainst": 280, "pm": 3, "pupscomp": 18, "ndpops": 7, "nrtags": 1} },
+            { "team": "Rollin' Golden Boulders", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 10, "pops": 21, "grabs": 13, "drops": 12, "hold": 87, "captures": 1, "prevent": 50, "returns": 5, "pups": 2, "holdagainst": 280, "pm": 3, "pupscomp": 18, "ndpops": 9, "nrtags": 5} },
+            { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 8, "pops": 19, "grabs": 16, "drops": 15, "hold": 118, "captures": 1, "prevent": 14, "returns": 6, "pups": 2, "holdagainst": 336, "pm": -3, "pupscomp": 18, "ndpops": 4, "nrtags": 2} },
+            { "team": "Rollin' Golden Boulders", "player_season": "melon head", "playing_as": "melon head", "stats": {"team": 2, "minutes": 10, "score": 28, "tags": 10, "pops": 16, "grabs": 13, "drops": 12, "hold": 92, "captures": 1, "prevent": 13, "returns": 4, "pups": 3, "holdagainst": 336, "pm": -3, "pupscomp": 18, "ndpops": 4, "nrtags": 6} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Rollin' Golden Boulders", "blue_team": "21 Juke Street", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "21 Juke Street", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 10, "pops": 24, "grabs": 21, "drops": 19, "hold": 115, "captures": 2, "prevent": 5, "returns": 7, "pups": 1, "holdagainst": 259, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 3} },
+            { "team": "21 Juke Street", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 20, "pops": 12, "grabs": 4, "drops": 4, "hold": 14, "captures": 0, "prevent": 201, "returns": 14, "pups": 2, "holdagainst": 259, "pm": 1, "pupscomp": 18, "ndpops": 8, "nrtags": 6} },
+            { "team": "21 Juke Street", "player_season": "Genesis", "playing_as": "Genesis", "stats": {"team": 1, "minutes": 10, "score": 56, "tags": 13, "pops": 7, "grabs": 7, "drops": 4, "hold": 36, "captures": 3, "prevent": 183, "returns": 8, "pups": 1, "holdagainst": 257, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 5} },
+            { "team": "21 Juke Street", "player_season": "Iblis", "playing_as": "Iblis", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 19, "pops": 12, "grabs": 8, "drops": 8, "hold": 31, "captures": 0, "prevent": 142, "returns": 16, "pups": 2, "holdagainst": 257, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 3} },
+            { "team": "21 Juke Street", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 20, "pops": 14, "grabs": 3, "drops": 2, "hold": 19, "captures": 1, "prevent": 176, "returns": 18, "pups": 4, "holdagainst": 259, "pm": 1, "pupscomp": 18, "ndpops": 12, "nrtags": 2} },
+            { "team": "21 Juke Street", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 6, "pops": 14, "grabs": 10, "drops": 9, "hold": 109, "captures": 1, "prevent": 25, "returns": 4, "pups": 2, "holdagainst": 259, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 2} },
+            { "team": "21 Juke Street", "player_season": "felon fred", "playing_as": "felon fred", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 14, "pops": 23, "grabs": 16, "drops": 16, "hold": 88, "captures": 0, "prevent": 25, "returns": 6, "pups": 4, "holdagainst": 257, "pm": -1, "pupscomp": 18, "ndpops": 7, "nrtags": 8} },
+            { "team": "21 Juke Street", "player_season": "melon head", "playing_as": "melon head", "stats": {"team": 1, "minutes": 10, "score": 24, "tags": 10, "pops": 19, "grabs": 17, "drops": 16, "hold": 104, "captures": 0, "prevent": 28, "returns": 2, "pups": 2, "holdagainst": 257, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 8} }
           ]
         }
       ]
@@ -3727,8 +4194,8 @@
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
-            { "team": "London WASDs NA", "player_season": "ToUcAnSaM", "playing_as": "ToucanSam" },
-            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" }
+            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "ToucanSam" }
           ]
         },
         {
@@ -3740,8 +4207,8 @@
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
-            { "team": "London WASDs NA", "player_season": "ToUcAnSaM", "playing_as": "ToucanSam" },
-            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" }
+            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "ToucanSam" }
           ]
         },
         {
@@ -3753,8 +4220,21 @@
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
-            { "team": "London WASDs NA", "player_season": "ToUcAnSaM", "playing_as": "ToucanSam" },
-            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" }
+            { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
+            { "team": "London WASDs NA", "player_season": "toucansam", "playing_as": "ToucanSam" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "London WASDs NA", "blue_team": "Ghostboosters", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 2, "pops": 20, "grabs": 20, "drops": 18, "hold": 129, "captures": 2, "prevent": 12, "returns": 2, "pups": 4, "holdagainst": 153, "pm": 4, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Ghostboosters", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 15, "pops": 12, "grabs": 10, "drops": 8, "hold": 37, "captures": 2, "prevent": 144, "returns": 14, "pups": 2, "holdagainst": 254, "pm": -4, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "Jump Ball", "playing_as": "Jump Ball", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 15, "pops": 9, "grabs": 3, "drops": 3, "hold": 16, "captures": 0, "prevent": 125, "returns": 11, "pups": 6, "holdagainst": 254, "pm": -4, "pupscomp": 27, "ndpops": 6, "nrtags": 4} },
+            { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 13, "pops": 4, "grabs": 2, "drops": 2, "hold": 1, "captures": 0, "prevent": 308, "returns": 10, "pups": 4, "holdagainst": 153, "pm": 4, "pupscomp": 27, "ndpops": 2, "nrtags": 3} },
+            { "team": "Ghostboosters", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 16, "pops": 1, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 327, "returns": 15, "pups": 1, "holdagainst": 153, "pm": 4, "pupscomp": 27, "ndpops": 1, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "moobear", "playing_as": "moobear", "stats": {"team": 1, "minutes": 10, "score": 20, "tags": 3, "pops": 14, "grabs": 13, "drops": 12, "hold": 45, "captures": 1, "prevent": 38, "returns": 2, "pups": 3, "holdagainst": 254, "pm": -4, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"team": 2, "minutes": 10, "score": 55, "tags": 7, "pops": 20, "grabs": 21, "drops": 15, "hold": 124, "captures": 6, "prevent": 20, "returns": 5, "pups": 5, "holdagainst": 153, "pm": 4, "pupscomp": 27, "ndpops": 5, "nrtags": 2} },
+            { "team": "Ghostboosters", "player_season": "toucansam", "playing_as": "ToucanSam", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 9, "pops": 10, "grabs": 11, "drops": 10, "hold": 55, "captures": 1, "prevent": 35, "returns": 8, "pups": 2, "holdagainst": 254, "pm": -4, "pupscomp": 27, "ndpops": 0, "nrtags": 1} }
           ]
         }
       ]
@@ -4015,6 +4495,19 @@
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "Centra of Attention", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Centra of Attention", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "minutes": 10, "score": 12, "tags": 5, "pops": 17, "grabs": 15, "drops": 15, "hold": 41, "captures": 0, "prevent": 6, "returns": 4, "pups": 2, "holdagainst": 340, "pm": -5, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Centra of Attention", "player_season": "Eashy.", "playing_as": "Eashy.", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 14, "pops": 12, "grabs": 7, "drops": 7, "hold": 42, "captures": 0, "prevent": 133, "returns": 13, "pups": 3, "holdagainst": 340, "pm": -5, "pupscomp": 27, "ndpops": 5, "nrtags": 1} },
+            { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 15, "pops": 5, "grabs": 4, "drops": 4, "hold": 14, "captures": 0, "prevent": 271, "returns": 15, "pups": 2, "holdagainst": 146, "pm": 5, "pupscomp": 27, "ndpops": 1, "nrtags": 0} },
+            { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye", "stats": {"team": 2, "minutes": 10, "score": 61, "tags": 6, "pops": 17, "grabs": 19, "drops": 16, "hold": 164, "captures": 3, "prevent": 11, "returns": 4, "pups": 5, "holdagainst": 146, "pm": 5, "pupscomp": 27, "ndpops": 1, "nrtags": 2} },
+            { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs", "stats": {"team": 2, "minutes": 10, "score": 58, "tags": 11, "pops": 14, "grabs": 14, "drops": 12, "hold": 154, "captures": 2, "prevent": 35, "returns": 4, "pups": 7, "holdagainst": 146, "pm": 5, "pupscomp": 27, "ndpops": 2, "nrtags": 7} },
+            { "team": "Centra of Attention", "player_season": "aardvark", "playing_as": "aardvark", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 13, "pops": 7, "grabs": 5, "drops": 5, "hold": 15, "captures": 0, "prevent": 130, "returns": 11, "pups": 3, "holdagainst": 340, "pm": -5, "pupscomp": 27, "ndpops": 2, "nrtags": 2} },
+            { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "minutes": 10, "score": 52, "tags": 17, "pops": 8, "grabs": 2, "drops": 2, "hold": 8, "captures": 0, "prevent": 275, "returns": 16, "pups": 3, "holdagainst": 146, "pm": 5, "pupscomp": 27, "ndpops": 6, "nrtags": 1} },
+            { "team": "Centra of Attention", "player_season": "danisk", "playing_as": "danisk", "stats": {"team": 1, "minutes": 10, "score": 14, "tags": 8, "pops": 16, "grabs": 12, "drops": 12, "hold": 48, "captures": 0, "prevent": 5, "returns": 7, "pups": 2, "holdagainst": 340, "pm": -5, "pupscomp": 27, "ndpops": 4, "nrtags": 1} }
           ]
         },
         {

@@ -64,19 +64,19 @@
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "BoldRoller", "playing_as": "BoldRoller" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "Crowman", "playing_as": "Crowman" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "MisterPeanut", "playing_as": "MisterPeanut" },
-    { "season": "NLTP B S15", "team": "Cap 22s", "player": "Rain", "playing_as": "Rain" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "ThePace", "playing_as": "ThePace" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "YaredyLost", "playing_as": "YaredyLost" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "gh0st", "playing_as": "gh0st" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "inthesomeday", "playing_as": "inthesomeday" },
     { "season": "NLTP B S15", "team": "Cap 22s", "player": "nanner", "playing_as": "nanner" },
+    { "season": "NLTP B S15", "team": "Cap 22s", "player": "rain", "playing_as": "rain" },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "K42larson", "playing_as": "K42larson" },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "NateH", "playing_as": "NateH" },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "Pigma", "playing_as": "Pigma" },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+    { "season": "NLTP B S15", "team": "Flairbnb", "player": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "WRIG", "playing_as": "WRIG" },
     { "season": "NLTP B S15", "team": "Flairbnb", "player": "slobonmyknob", "playing_as": "slobonmyknob" },
-    { "season": "NLTP B S15", "team": "Flairbnb", "player": "vapedolphin.", "playing_as": "vapedolphin." },
     { "season": "NLTP B S15", "team": "Hogwarts School", "player": "Bric", "playing_as": "Bric" },
     { "season": "NLTP B S15", "team": "Hogwarts School", "player": "Klox", "playing_as": "Klox" },
     { "season": "NLTP B S15", "team": "Hogwarts School", "player": "LifeOfBrian", "playing_as": "LifeOfBrian" },
@@ -102,10 +102,10 @@
     { "season": "NLTP B S15", "team": "Manipulation Station", "player": "i love HD", "playing_as": "i love HD" },
     { "season": "NLTP B S15", "team": "Manipulation Station", "player": "stevepotato", "playing_as": "stevepotato" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "360broscope", "playing_as": "360broscope" },
-    { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "Accel", "playing_as": "Accel" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "AlHarrington", "playing_as": "AlHarrington" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "Galvatron", "playing_as": "Galvatron" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "RAMMSTEIN", "playing_as": "RAMMSTEIN" },
+    { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "accel", "playing_as": "accel" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "kwib", "playing_as": "kwib" },
     { "season": "NLTP B S15", "team": "Over the Pants Handoffs", "player": "sweater", "playing_as": "sweater" },
     { "season": "NLTP B S15", "team": "Red Hot Chili Poppers", "player": "APthatsME.", "playing_as": "APthatsME." },
@@ -117,7 +117,7 @@
     { "season": "NLTP B S15", "team": "The Blokes", "player": "LogisticMap", "playing_as": "LogisticMap" },
     { "season": "NLTP B S15", "team": "The Blokes", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
     { "season": "NLTP B S15", "team": "The Blokes", "player": "TrevTrev", "playing_as": "TrevTrev" },
-    { "season": "NLTP B S15", "team": "The Blokes", "player": "bAIl-E", "playing_as": "bAIl-E" },
+    { "season": "NLTP B S15", "team": "The Blokes", "player": "bail-e", "playing_as": "bail-e" },
     { "season": "NLTP B S15", "team": "The Blokes", "player": "chaotiq", "playing_as": "chaotiq" },
     { "season": "NLTP B S15", "team": "The Blokes", "player": "nOice!!", "playing_as": "nOice!!" },
     { "season": "NLTP B S15", "team": "The Blokes", "player": "nightman", "playing_as": "nightman" },
@@ -255,8 +255,8 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "Rain" },
             { "team": "Cap 22s", "player_season": "YaredyLost", "playing_as": "YaredyLost" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "Rain" },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -268,8 +268,8 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "Rain" },
             { "team": "Cap 22s", "player_season": "YaredyLost", "playing_as": "YaredyLost" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "Rain" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -289,8 +289,8 @@
             { "team": "Leonardo NiceCaprio", "player_season": "[leo] 4skin", "playing_as": "[leo] 4skin" },
             { "team": "Leonardo NiceCaprio", "player_season": "sass", "playing_as": "sass" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -302,8 +302,8 @@
             { "team": "Leonardo NiceCaprio", "player_season": "[leo] 4skin", "playing_as": "[leo] 4skin" },
             { "team": "Leonardo NiceCaprio", "player_season": "sass", "playing_as": "sass" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
         },
@@ -327,8 +327,8 @@
             { "team": "Leonardo NiceCaprio", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Leonardo NiceCaprio", "player_season": "nanner", "playing_as": "nanner" },
             { "team": "Leonardo NiceCaprio", "player_season": "sass", "playing_as": "sass" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -418,7 +418,7 @@
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "Pigma", "playing_as": "Pigma" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." }
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." }
           ]
         },
         {
@@ -430,8 +430,8 @@
             { "team": "Blockhole Surfers", "player_season": "height", "playing_as": "height" },
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
-            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." }
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." },
+            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" }
           ]
         },
         {
@@ -798,9 +798,9 @@
         {
           "tagpro_eu": "2194012", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Over the Pants Handoffs", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 4,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "WCYDinos", "player_season": "DwarfFortres", "playing_as": "DwarfFortres" },
             { "team": "WCYDinos", "player_season": "HAKA II", "playing_as": "HAKA II" },
@@ -811,8 +811,8 @@
         {
           "tagpro_eu": "2194031", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "WCYDinos", "blue_team": "Over the Pants Handoffs", "team1_score": 4, "team2_score": 2,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" },
             { "team": "WCYDinos", "player_season": "HAKA II", "playing_as": "HAKA II" },
@@ -824,9 +824,9 @@
         {
           "tagpro_eu": "2194055", "game_in_match": "Game 2 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "WCYDinos", "blue_team": "Over the Pants Handoffs", "team1_score": 7, "team2_score": 1,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "WCYDinos", "player_season": "DwarfFortres", "playing_as": "DwarfFortres" },
             { "team": "WCYDinos", "player_season": "T-Swift!", "playing_as": "T-Swift!" },
@@ -914,8 +914,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -927,8 +927,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -940,8 +940,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -953,8 +953,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1088,8 +1088,8 @@
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -1102,8 +1102,8 @@
             { "team": "Ball My Life", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -1115,7 +1115,7 @@
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -1313,7 +1313,7 @@
           "tagpro_eu": "2198945", "game_in_match": "Game 1 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "The Blokes", "blue_team": "reCAPTCHA", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bAIl-E" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bAIl-E" },
             { "team": "The Blokes", "player_season": "chaotiq", "playing_as": "chaotiq" },
             { "team": "The Blokes", "player_season": "nightman", "playing_as": "nightman" },
             { "team": "reCAPTCHA", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf" },
@@ -1342,7 +1342,7 @@
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bAIl-E" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bAIl-E" },
             { "team": "reCAPTCHA", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
             { "team": "reCAPTCHA", "player_season": "juke dough", "playing_as": "juke dough" },
             { "team": "reCAPTCHA", "player_season": "narumii", "playing_as": "narumii" },
@@ -1354,7 +1354,7 @@
           "players": [
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bAIl-E" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bAIl-E" },
             { "team": "The Blokes", "player_season": "chaotiq", "playing_as": "chaotiq" },
             { "team": "reCAPTCHA", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
             { "team": "reCAPTCHA", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf" },
@@ -1488,8 +1488,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Under the Pants Rubgrabs", "player_season": "falc", "playing_as": "falc" },
@@ -1515,8 +1515,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "Pam Mueller", "playing_as": "Pam Mueller" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Under the Pants Rubgrabs", "player_season": "hellyea", "playing_as": "hellyea" },
@@ -1529,8 +1529,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Under the Pants Rubgrabs", "player_season": "infinity.", "playing_as": "infinity." },
@@ -1604,8 +1604,8 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
             { "team": "Whitecaps", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
@@ -1617,8 +1617,8 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
             { "team": "Whitecaps", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
@@ -1629,8 +1629,8 @@
           "tagpro_eu": "2204061", "game_in_match": "Game 2 Half 1", "map_name": "Lemon ", "map_id": 12836, "red_team": "Cap 22s", "blue_team": "Whitecaps", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -1643,7 +1643,7 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -1717,8 +1717,8 @@
           "tagpro_eu": "2203979", "game_in_match": "Game 1 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Over the Pants Handoffs", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 1,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "RAMMSTEIN", "playing_as": "RAMMSTEIN" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Blitzkrieg12", "playing_as": "Blitzkrieg12" },
@@ -1729,10 +1729,10 @@
         {
           "tagpro_eu": "2204007", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Red Hot Chili Poppers", "blue_team": "Over the Pants Handoffs", "team1_score": 14, "team2_score": 1,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
             { "team": "Over the Pants Handoffs", "player_season": "RAMMSTEIN", "playing_as": "RAMMSTEIN" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Dethos[MM]", "playing_as": "Dethos[MM]" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -1837,7 +1837,7 @@
             { "team": "Hogwarts School", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "BAIl-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "BAIl-e" },
             { "team": "The Blokes", "player_season": "chaotiq", "playing_as": "chaotiq" }
           ]
         },
@@ -1863,7 +1863,7 @@
             { "team": "Hogwarts School", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "BAIl-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "BAIl-e" },
             { "team": "The Blokes", "player_season": "nightman", "playing_as": "nightman" }
           ]
         },
@@ -2063,8 +2063,8 @@
           "tagpro_eu": "2209175", "game_in_match": "Game 1 Half 1", "map_name": "Lemon ", "map_id": 12836, "red_team": "Cap 22s", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 3,
           "players": [
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" },
             { "team": "Cap 22s", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
@@ -2077,8 +2077,8 @@
           "tagpro_eu": "2209190", "game_in_match": "Game 1 Half 2", "map_name": "Lemon ", "map_id": 12836, "red_team": "The Land Before Timers", "blue_team": "Cap 22s", "team1_score": 3, "team2_score": 0,
           "players": [
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
@@ -2089,9 +2089,9 @@
         {
           "tagpro_eu": "2209204", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Land Before Timers", "blue_team": "Cap 22s", "team1_score": 4, "team2_score": 1,
           "players": [
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "Cap 22s", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
@@ -2102,9 +2102,9 @@
         {
           "tagpro_eu": "2209216", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Cap 22s", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
           "players": [
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "Cap 22s", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "The Land Before Timers", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
             { "team": "The Land Before Timers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
@@ -2134,8 +2134,8 @@
           "tagpro_eu": "2209143", "game_in_match": "Game 1 Half 2", "map_name": "Lemon ", "map_id": 12836, "red_team": "Over the Pants Handoffs", "blue_team": "Under the Pants Rubgrabs", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Under the Pants Rubgrabs", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
             { "team": "Under the Pants Rubgrabs", "player_season": "fanseman", "playing_as": "fanseman" },
@@ -2146,9 +2146,9 @@
         {
           "tagpro_eu": "2209164", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Over the Pants Handoffs", "blue_team": "Under the Pants Rubgrabs", "team1_score": 5, "team2_score": 4,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" },
             { "team": "Under the Pants Rubgrabs", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
@@ -2159,9 +2159,9 @@
         {
           "tagpro_eu": "2209180", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Under the Pants Rubgrabs", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 2,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Under the Pants Rubgrabs", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
@@ -2352,7 +2352,7 @@
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bail-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bail-e" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -2378,7 +2378,7 @@
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bail-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bail-e" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "DENNISsystem", "playing_as": "DENNISsystem" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -2391,7 +2391,7 @@
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bail-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bail-e" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "DENNISsystem", "playing_as": "DENNISsystem" },
             { "team": "Whitecaps", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
@@ -2965,10 +2965,10 @@
             { "team": "Ball My Life", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "gh0st", "playing_as": "gh0st" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
-            { "team": "Cap 22s", "player_season": "kl", "playing_as": "kl" }
+            { "team": "Cap 22s", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" }
           ]
         }
       ]
@@ -3043,8 +3043,8 @@
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -3069,8 +3069,8 @@
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -3082,7 +3082,7 @@
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -3414,9 +3414,9 @@
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
             { "team": "Cap 22s", "player_season": "DYD", "playing_as": "DYD" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "Rain" },
             { "team": "Cap 22s", "player_season": "gh0st", "playing_as": "gh0st" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "Rain" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
@@ -3429,9 +3429,9 @@
             { "team": "Cap 22s", "player_season": "Crowman", "playing_as": "Crowman" },
             { "team": "Cap 22s", "player_season": "DYD", "playing_as": "DYD" },
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "Rain" },
             { "team": "Cap 22s", "player_season": "YaredyLost", "playing_as": "YaredyLost" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "Rain" },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -3452,8 +3452,8 @@
             { "team": "Leonardo NiceCaprio", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Leonardo NiceCaprio", "player_season": "nanner", "playing_as": "nanner" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "Galvatron", "playing_as": "Galvatron" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -3465,7 +3465,7 @@
             { "team": "Leonardo NiceCaprio", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Leonardo NiceCaprio", "player_season": "sass", "playing_as": "sass" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -3515,8 +3515,8 @@
             { "team": "Blockhole Surfers", "player_season": "TheIndian", "playing_as": "TheIndian" },
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "Pigma", "playing_as": "Pigma" },
-            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." }
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." },
+            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" }
           ]
         },
         {
@@ -3528,8 +3528,8 @@
             { "team": "Blockhole Surfers", "player_season": "Whiskey Jack", "playing_as": "Whiskey Jack" },
             { "team": "Flairbnb", "player_season": "Pigma", "playing_as": "Pigma" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
-            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "vapedolphin." }
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "vapedolphin." },
+            { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" }
           ]
         }
       ]
@@ -3586,7 +3586,7 @@
           "players": [
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "baIl-e" },
             { "team": "The Blokes", "player_season": "nOice!!", "playing_as": "nOice!!" },
             { "team": "The Flying Burrito Balls", "player_season": "Jukester", "playing_as": "Jukester" },
             { "team": "The Flying Burrito Balls", "player_season": "hellyea", "playing_as": "hellyea" },
@@ -3727,7 +3727,7 @@
           "tagpro_eu": "2194103", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Over the Pants Handoffs", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" },
             { "team": "WCYDinos", "player_season": "DwarfFortres", "playing_as": "DwarfFortres" },
@@ -3740,8 +3740,8 @@
           "tagpro_eu": "2194122", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "WCYDinos", "blue_team": "Over the Pants Handoffs", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "Accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" },
             { "team": "WCYDinos", "player_season": "DwarfFortres", "playing_as": "DwarfFortres" },
             { "team": "WCYDinos", "player_season": "HAKA II", "playing_as": "HAKA II" },
@@ -3790,8 +3790,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -3803,8 +3803,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Anthracite", "playing_as": "Anthracite" },
             { "team": "Red Hot Chili Poppers", "player_season": "KahnMan", "playing_as": "KahnMan" },
@@ -3886,8 +3886,8 @@
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
         },
@@ -3899,8 +3899,8 @@
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
         }
@@ -4023,7 +4023,7 @@
             { "team": "The Blokes", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bAIl-E" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bAIl-E" },
             { "team": "reCAPTCHA", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
             { "team": "reCAPTCHA", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf" },
             { "team": "reCAPTCHA", "player_season": "juke dough", "playing_as": "juke dough" },
@@ -4102,8 +4102,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Under the Pants Rubgrabs", "player_season": "ThePlaymaker", "playing_as": "ThePlaymaker" },
             { "team": "Under the Pants Rubgrabs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Under the Pants Rubgrabs", "player_season": "hellyea", "playing_as": "hellyea" },
@@ -4116,8 +4116,8 @@
           "players": [
             { "team": "Flairbnb", "player_season": "K42larson", "playing_as": "K42larson" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
+            { "team": "Flairbnb", "player_season": "VAPEDOLPHIN.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Flairbnb", "player_season": "vapedolphin.", "playing_as": "VAPEDOLPHIN." },
             { "team": "Under the Pants Rubgrabs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Under the Pants Rubgrabs", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Under the Pants Rubgrabs", "player_season": "hellyea", "playing_as": "hellyea" },
@@ -4177,8 +4177,8 @@
           "tagpro_eu": "2204101", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Cap 22s", "blue_team": "Whitecaps", "team1_score": 3, "team2_score": 3,
           "players": [
             { "team": "Cap 22s", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -4225,9 +4225,9 @@
         {
           "tagpro_eu": "2204053", "game_in_match": "Game 1 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Over the Pants Handoffs", "blue_team": "Red Hot Chili Poppers", "team1_score": 10, "team2_score": 3,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
             { "team": "Over the Pants Handoffs", "player_season": "RAMMSTEIN", "playing_as": "RAMMSTEIN" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Dethos[MM]", "playing_as": "Dethos[MM]" },
@@ -4239,8 +4239,8 @@
           "tagpro_eu": "2204075", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Red Hot Chili Poppers", "blue_team": "Over the Pants Handoffs", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Red Hot Chili Poppers", "player_season": "APthatsME.", "playing_as": "APthatsME." },
             { "team": "Red Hot Chili Poppers", "player_season": "Dethos[MM]", "playing_as": "Dethos[MM]" },
@@ -4293,7 +4293,7 @@
             { "team": "Hogwarts School", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "BAIl-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "BAIl-e" },
             { "team": "The Blokes", "player_season": "chaotiq", "playing_as": "chaotiq" }
           ]
         },
@@ -4414,7 +4414,7 @@
           "tagpro_eu": "2209233", "game_in_match": "Game 1 Half 1", "map_name": "Lemon ", "map_id": 12836, "red_team": "Cap 22s", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Cap 22s", "player_season": "MisterPeanut", "playing_as": "MisterPeanut" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" },
             { "team": "Cap 22s", "player_season": "slime_god", "playing_as": "slime_god" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
@@ -4458,8 +4458,8 @@
           "tagpro_eu": "2209210", "game_in_match": "Game 1 Half 2", "map_name": "Lemon ", "map_id": 12836, "red_team": "Over the Pants Handoffs", "blue_team": "Under the Pants Rubgrabs", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" },
             { "team": "Under the Pants Rubgrabs", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
             { "team": "Under the Pants Rubgrabs", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
@@ -4573,7 +4573,7 @@
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bail-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bail-e" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Whitecaps", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet" },
@@ -4586,7 +4586,7 @@
             { "team": "The Blokes", "player_season": "Comm1", "playing_as": "Comm1" },
             { "team": "The Blokes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Blokes", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "The Blokes", "player_season": "bAIl-E", "playing_as": "bail-e" },
+            { "team": "The Blokes", "player_season": "bail-e", "playing_as": "bail-e" },
             { "team": "Whitecaps", "player_season": "2rd", "playing_as": "2rd" },
             { "team": "Whitecaps", "player_season": "DENNISsystem", "playing_as": "DENNISsystem" },
             { "team": "Whitecaps", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
@@ -4886,9 +4886,9 @@
             { "team": "Ball My Life", "player_season": "fanseman", "playing_as": "fanseman" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Cap 22s", "player_season": "DYD", "playing_as": "DYD" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
             { "team": "Cap 22s", "player_season": "llamatron", "playing_as": "llamatron" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" }
           ]
         },
@@ -4900,8 +4900,8 @@
             { "team": "Ball My Life", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Ball My Life", "player_season": "whosagoodboy", "playing_as": "whosagoodboy" },
             { "team": "Cap 22s", "player_season": "DYD", "playing_as": "DYD" },
-            { "team": "Cap 22s", "player_season": "Rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Cap 22s", "player_season": "rain", "playing_as": "rain" },
             { "team": "Cap 22s", "player_season": "rolln papers", "playing_as": "rolln papers" }
           ]
         }
@@ -4948,8 +4948,8 @@
             { "team": "Flairbnb", "player_season": "Pam Mueller", "playing_as": "Pam Mueller" },
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
@@ -4962,8 +4962,8 @@
             { "team": "Flairbnb", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Flairbnb", "player_season": "slobonmyknob", "playing_as": "slobonmyknob" },
             { "team": "Over the Pants Handoffs", "player_season": "360broscope", "playing_as": "360broscope" },
-            { "team": "Over the Pants Handoffs", "player_season": "Accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "AlHarrington", "playing_as": "AlHarrington" },
+            { "team": "Over the Pants Handoffs", "player_season": "accel", "playing_as": "accel" },
             { "team": "Over the Pants Handoffs", "player_season": "sweater", "playing_as": "sweater" }
           ]
         }

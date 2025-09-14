@@ -62,7 +62,7 @@
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": ":\\", "playing_as": ":\\" },
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "Adarssh", "playing_as": "Adarssh" },
-    { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "Edd", "playing_as": "Edd" },
+    { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "EDD", "playing_as": "EDD" },
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "ballyball", "playing_as": "ballyball" },
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "haha kill me", "playing_as": "haha kill me" },
     { "season": "NLTP B S14", "team": "Over the Pants Handoffs", "player": "infinity.", "playing_as": "infinity." },
@@ -117,6 +117,7 @@
     { "season": "NLTP B S14", "team": "So Long and Thanks for All the Caps", "player": "inthesomeday", "playing_as": "inthesomeday" },
     { "season": "NLTP B S14", "team": "So Long and Thanks for All the Caps", "player": "mmmbogy", "playing_as": "mmmbogy" },
     { "season": "NLTP B S14", "team": "The Land Before Timers", "player": "45", "playing_as": "45" },
+    { "season": "NLTP B S14", "team": "The Land Before Timers", "player": "MisterPeanut", "playing_as": "MisterPeanut" },
     { "season": "NLTP B S14", "team": "The Land Before Timers", "player": "Trituin", "playing_as": "Trituin" },
     { "season": "NLTP B S14", "team": "The Land Before Timers", "player": "Zanthir", "playing_as": "Zanthir" },
     { "season": "NLTP B S14", "team": "The Land Before Timers", "player": "altf4", "playing_as": "altf4" },
@@ -552,8 +553,207 @@
       ]
     },
     {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 2", "team1": "So Long and Thanks for All the Caps", "team2": "POGGERS",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "POGGERS", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "So Long and Thanks for All the Caps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 50, "team": 1, "prevent": 267, "returns": 15, "tags": 16, "pups": 2, "ndpops": 4, "pops": 4, "minutes": 10, "quickret": 10, "retinbase": 12, "hold": 0, "nrtags": 1, "holdagainst": 192, "pupscomp": 27, "pm": 2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "DwarfFortres", "playing_as": "DwarfFortres", "stats": {"score": 38, "team": 1, "prevent": 182, "returns": 9, "tags": 12, "ndpops": 9, "pops": 13, "grabs": 4, "drops": 4, "hold": 23, "pups": 5, "minutes": 10, "flaccids": 3, "quickret": 3, "retinbase": 4, "handoff": 2, "goregrab": 1, "longholds": 1, "goodhandoff": 1, "nrtags": 3, "holdagainst": 192, "pupscomp": 27, "pm": 2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Jeremy Jamm", "playing_as": "Jeremy Jamm", "stats": {"score": 19, "team": 2, "grabs": 12, "pops": 18, "drops": 11, "hold": 42, "pups": 4, "tags": 8, "ndpops": 7, "prevent": 12, "returns": 3, "minutes": 10, "flaccids": 6, "goregrab": 2, "longholds": 1, "gohandoff": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 5, "holdagainst": 252, "pupscomp": 27, "pm": -2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Rain", "playing_as": "Rain", "stats": {"score": 40, "team": 2, "game_start": 193, "quit": false, "prevent": 120, "returns": 12, "tags": 19, "pups": 4, "ndpops": 7, "pops": 9, "grabs": 2, "drops": 2, "hold": 9, "minutes": 10, "quickret": 6, "retinbase": 6, "goodhandoff": 1, "handoff": 1, "flaccids": 1, "nrtags": 7, "holdagainst": 252, "pupscomp": 27, "pm": -2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "ThePace", "playing_as": "ThePace", "stats": {"score": 30, "team": 2, "prevent": 139, "returns": 7, "tags": 7, "grabs": 7, "pops": 11, "drops": 7, "hold": 28, "pups": 2, "ndpops": 4, "minutes": 10, "quickret": 2, "retinbase": 2, "flaccids": 2, "nrtags": 0, "holdagainst": 252, "pupscomp": 27, "pm": -2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "creta petram", "playing_as": "creta petram", "stats": {"score": 36, "team": 2, "game_start": 556, "quit": false, "prevent": 22, "ndpops": 8, "pops": 19, "grabs": 13, "drops": 11, "hold": 113, "returns": 3, "tags": 3, "captures": 2, "minutes": 10, "handoff": 2, "goregrab": 3, "flaccids": 6, "goodhandoff": 1, "coregrab": 1, "gohandoff": 1, "longholds": 1, "nrtags": 0, "holdagainst": 252, "pupscomp": 27, "pm": -2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "kl", "playing_as": "kl", "stats": {"score": 44, "team": 1, "ndpops": 9, "pops": 19, "grabs": 12, "drops": 10, "hold": 89, "captures": 2, "prevent": 28, "pups": 6, "tags": 8, "returns": 3, "minutes": 10, "flaccids": 3, "goodhandoff": 4, "handoff": 5, "goregrab": 3, "gohandoff": 1, "quickret": 1, "retinbase": 1, "nrtags": 5, "holdagainst": 192, "pupscomp": 27, "pm": 2} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "logi", "playing_as": "logi", "stats": {"score": 44, "team": 1, "grabs": 14, "pops": 14, "drops": 12, "hold": 140, "captures": 2, "prevent": 5, "pups": 4, "ndpops": 2, "tags": 2, "returns": 1, "minutes": 10, "gohandoff": 2, "flaccids": 2, "goregrab": 6, "longholds": 4, "coregrab": 1, "goodhandoff": 3, "handoff": 3, "quickret": 1, "retinbase": 1, "nrtags": 1, "holdagainst": 192, "pupscomp": 27, "pm": 2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "POGGERS", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "So Long and Thanks for All the Caps", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"score": 3, "team": 1, "ndpops": 7, "pops": 19, "grabs": 12, "drops": 12, "hold": 51, "returns": 1, "tags": 1, "minutes": 10, "flaccids": 5, "handoff": 5, "goodhandoff": 3, "saves": 1, "goregrab": 3, "prevent": 0, "nrtags": 0, "holdagainst": 287, "pupscomp": 27, "pm": -3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 16, "team": 1, "game_start": 14720, "quit": false, "prevent": 91, "pups": 1, "grabs": 1, "pops": 3, "drops": 1, "hold": 2, "returns": 3, "tags": 3, "ndpops": 2, "minutes": 6, "gohandoff": 1, "flaccids": 1, "quickret": 2, "retinbase": 1, "nrtags": 0, "holdagainst": 287, "pupscomp": 27, "pm": -3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Jarek", "playing_as": "Jarek", "stats": {"score": 20, "team": 1, "grabs": 10, "pops": 21, "drops": 10, "hold": 69, "ndpops": 11, "pups": 3, "returns": 5, "tags": 6, "prevent": 21, "minutes": 10, "gohandoff": 1, "goregrab": 3, "flaccids": 2, "handoff": 3, "quickret": 2, "retinbase": 2, "goodhandoff": 2, "nrtags": 1, "holdagainst": 287, "pupscomp": 27, "pm": -3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Jeremy Jamm", "playing_as": "Jeremy Jamm", "stats": {"score": 67, "team": 2, "grabs": 10, "pops": 9, "drops": 9, "hold": 164, "pups": 6, "returns": 6, "tags": 10, "prevent": 23, "captures": 1, "minutes": 10, "flaccids": 2, "longholds": 4, "goodhandoff": 1, "handoff": 1, "goregrab": 2, "gohandoff": 1, "nrtags": 4, "holdagainst": 186, "pupscomp": 27, "pm": 3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Rain", "playing_as": "Rain", "stats": {"score": 31, "team": 2, "game_start": 133, "quit": false, "prevent": 135, "pups": 4, "returns": 5, "tags": 6, "grabs": 4, "pops": 7, "drops": 4, "hold": 26, "ndpops": 3, "minutes": 10, "quickret": 2, "retinbase": 2, "goodhandoff": 1, "handoff": 1, "nrtags": 1, "holdagainst": 186, "pupscomp": 27, "pm": 3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "ThePace", "playing_as": "ThePace", "stats": {"score": 51, "team": 2, "prevent": 195, "returns": 12, "tags": 13, "ndpops": 3, "pops": 4, "pups": 6, "grabs": 1, "drops": 1, "hold": 1, "minutes": 10, "quickret": 5, "retinbase": 6, "goregrab": 1, "flaccids": 1, "nrtags": 1, "holdagainst": 186, "pupscomp": 27, "pm": 3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "creta petram", "playing_as": "creta petram", "stats": {"score": 62, "team": 2, "grabs": 13, "pops": 12, "drops": 10, "hold": 96, "returns": 4, "tags": 6, "prevent": 45, "ndpops": 2, "pups": 3, "captures": 2, "minutes": 10, "flaccids": 4, "longholds": 1, "quickret": 3, "retinbase": 3, "goregrab": 3, "coregrab": 2, "goodhandoff": 2, "handoff": 3, "nrtags": 2, "holdagainst": 186, "pupscomp": 27, "pm": 3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "rake", "playing_as": "rake", "stats": {"score": 39, "team": 1, "game_start": 142, "quit": false, "prevent": 146, "returns": 11, "tags": 11, "ndpops": 5, "pops": 10, "grabs": 5, "drops": 5, "hold": 64, "pups": 2, "minutes": 10, "quickret": 2, "retinbase": 3, "longholds": 1, "handoff": 2, "flaccids": 2, "goregrab": 1, "goodhandoff": 1, "nrtags": 0, "holdagainst": 287, "pupscomp": 27, "pm": -3} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "slime_god", "playing_as": "slime_god", "stats": {"score": 0, "team": 1, "prevent": 37, "returns": 3, "tags": 5, "ndpops": 4, "pops": 4, "pups": 2, "minutes": 4, "quit": true, "game_end": 14006, "quickret": 1, "retinbase": 1, "hold": 0, "nrtags": 2, "holdagainst": 287, "pupscomp": 27, "pm": -3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "POGGERS", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Belacqua", "playing_as": "Belacqua", "stats": {"score": 31, "team": 2, "prevent": 96, "grabs": 7, "pops": 11, "drops": 7, "hold": 35, "ndpops": 4, "returns": 7, "tags": 13, "pups": 3, "minutes": 10, "retinbase": 3, "flaccids": 2, "goodhandoff": 1, "handoff": 1, "quickret": 2, "nrtags": 6, "holdagainst": 314, "pupscomp": 18, "pm": -5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 38, "team": 1, "prevent": 222, "grabs": 5, "pops": 8, "drops": 5, "hold": 24, "pups": 3, "tags": 12, "returns": 11, "ndpops": 3, "minutes": 10, "goodhandoff": 3, "handoff": 3, "goregrab": 2, "quickret": 9, "retinbase": 9, "flaccids": 2, "keyret": 1, "nrtags": 1, "holdagainst": 245, "pupscomp": 18, "pm": 5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "DwarfFortres", "playing_as": "DwarfFortres", "stats": {"score": 58, "team": 1, "returns": 16, "tags": 20, "prevent": 205, "ndpops": 8, "pops": 11, "pups": 3, "grabs": 5, "drops": 3, "hold": 36, "captures": 2, "minutes": 10, "quickret": 11, "retinbase": 12, "goregrab": 3, "handoff": 3, "keyret": 1, "coregrab": 1, "goodhandoff": 1, "nrtags": 4, "holdagainst": 245, "pupscomp": 18, "pm": 5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Feels Like", "playing_as": "Feels Like", "stats": {"score": 21, "team": 2, "game_start": 650, "quit": false, "grabs": 14, "pops": 20, "drops": 14, "hold": 80, "returns": 11, "tags": 11, "ndpops": 6, "prevent": 35, "pups": 1, "minutes": 10, "quickret": 2, "retinbase": 4, "flaccids": 8, "goodhandoff": 2, "handoff": 3, "gohandoff": 2, "goregrab": 2, "keyret": 1, "longholds": 1, "nrtags": 0, "holdagainst": 314, "pupscomp": 18, "pm": -5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "ThePace", "playing_as": "ThePace", "stats": {"score": 33, "team": 2, "prevent": 144, "returns": 13, "tags": 13, "ndpops": 4, "pops": 12, "grabs": 8, "drops": 8, "hold": 56, "pups": 2, "minutes": 10, "quickret": 6, "retinbase": 7, "gohandoff": 1, "longholds": 1, "flaccids": 4, "goodhandoff": 1, "handoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 314, "pupscomp": 18, "pm": -5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "infinity.", "playing_as": "infinity.", "stats": {"score": 40, "team": 2, "grabs": 16, "pops": 14, "drops": 14, "hold": 74, "returns": 7, "tags": 13, "captures": 2, "prevent": 10, "pups": 2, "minutes": 10, "flaccids": 10, "gohandoff": 4, "cohandoff": 2, "goregrab": 2, "quickret": 1, "retinbase": 1, "saves": 1, "longholds": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 6, "holdagainst": 314, "pupscomp": 18, "pm": -5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "logi", "playing_as": "logi", "stats": {"score": 49, "team": 1, "ndpops": 2, "pops": 18, "returns": 11, "tags": 14, "grabs": 19, "drops": 16, "hold": 129, "pups": 3, "prevent": 11, "captures": 3, "minutes": 10, "goregrab": 9, "saves": 1, "flaccids": 5, "gohandoff": 1, "quickret": 2, "retinbase": 3, "goodhandoff": 5, "handoff": 6, "coregrab": 1, "longholds": 2, "nrtags": 3, "holdagainst": 245, "pupscomp": 18, "pm": 5} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "rake", "playing_as": "rake", "stats": {"score": 30, "team": 1, "game_start": 178, "quit": false, "grabs": 19, "pops": 22, "drops": 17, "hold": 125, "returns": 4, "tags": 4, "prevent": 44, "ndpops": 5, "captures": 2, "pups": 1, "minutes": 10, "flaccids": 5, "handoff": 6, "goregrab": 3, "quickret": 2, "retinbase": 2, "goodhandoff": 3, "gohandoff": 2, "cohandoff": 1, "nrtags": 0, "holdagainst": 245, "pupscomp": 18, "pm": 5} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "So Long and Thanks for All the Caps", "blue_team": "POGGERS", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "POGGERS", "player_season": "DwarfFortres", "playing_as": "DwarfFortres", "stats": {"score": 62, "team": 2, "returns": 18, "tags": 18, "prevent": 155, "grabs": 5, "captures": 2, "hold": 52, "pups": 4, "pops": 3, "drops": 3, "minutes": 10, "quickret": 10, "retinbase": 9, "gohandoff": 1, "goregrab": 2, "longholds": 1, "handoff": 1, "keyret": 1, "nrtags": 0, "holdagainst": 273, "pupscomp": 18, "pm": 4} },
+            { "team": "POGGERS", "player_season": "Feels Like", "playing_as": "Feels Like", "stats": {"score": 13, "team": 1, "game_start": 468, "quit": false, "grabs": 15, "pops": 16, "drops": 14, "hold": 75, "returns": 4, "tags": 4, "prevent": 17, "captures": 1, "ndpops": 2, "minutes": 10, "gohandoff": 3, "flaccids": 6, "keyret": 1, "goregrab": 3, "handoff": 2, "saves": 1, "nrtags": 0, "holdagainst": 310, "pupscomp": 18, "pm": -4} },
+            { "team": "POGGERS", "player_season": "Jarek", "playing_as": "Jarek", "stats": {"score": 32, "team": 2, "grabs": 19, "pops": 19, "drops": 15, "hold": 90, "prevent": 31, "pups": 2, "tags": 8, "returns": 5, "ndpops": 4, "captures": 3, "minutes": 10, "flaccids": 6, "goodhandoff": 5, "handoff": 6, "retinbase": 1, "goregrab": 6, "coregrab": 1, "quickret": 2, "gohandoff": 1, "nrtags": 3, "holdagainst": 273, "pupscomp": 18, "pm": 4} },
+            { "team": "POGGERS", "player_season": "bombsquad", "playing_as": "bombsquad", "stats": {"score": 34, "team": 1, "prevent": 120, "returns": 16, "tags": 16, "ndpops": 4, "pops": 12, "pups": 2, "grabs": 8, "drops": 8, "hold": 44, "minutes": 10, "quickret": 8, "retinbase": 8, "goodhandoff": 2, "handoff": 3, "flaccids": 2, "goregrab": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 310, "pupscomp": 18, "pm": -4} },
+            { "team": "POGGERS", "player_season": "infinity.", "playing_as": "infinity.", "stats": {"score": 38, "team": 1, "grabs": 16, "pops": 17, "drops": 14, "hold": 110, "returns": 10, "tags": 13, "prevent": 21, "ndpops": 3, "captures": 2, "pups": 3, "minutes": 10, "flaccids": 5, "quickret": 4, "retinbase": 4, "longholds": 1, "handoff": 5, "goodhandoff": 2, "gohandoff": 2, "goregrab": 1, "nrtags": 3, "holdagainst": 310, "pupscomp": 18, "pm": -4} },
+            { "team": "POGGERS", "player_season": "inthesomeday", "playing_as": "inthesomeday", "stats": {"score": 45, "team": 1, "prevent": 136, "returns": 10, "tags": 12, "ndpops": 3, "pops": 13, "grabs": 11, "drops": 10, "hold": 44, "captures": 1, "pups": 3, "minutes": 10, "quickret": 4, "retinbase": 6, "flaccids": 6, "goregrab": 1, "coregrab": 1, "gohandoff": 3, "keyret": 1, "nrtags": 2, "holdagainst": 310, "pupscomp": 18, "pm": -4} },
+            { "team": "POGGERS", "player_season": "kl", "playing_as": "kl", "stats": {"score": 36, "team": 2, "grabs": 24, "pops": 23, "drops": 21, "hold": 157, "prevent": 14, "pups": 2, "returns": 8, "tags": 8, "ndpops": 2, "captures": 3, "minutes": 10, "flaccids": 10, "goodhandoff": 6, "handoff": 7, "goregrab": 8, "longholds": 1, "coregrab": 2, "gohandoff": 1, "quickret": 1, "retinbase": 1, "nrtags": 0, "holdagainst": 273, "pupscomp": 18, "pm": 4} },
+            { "team": "POGGERS", "player_season": "slime_god", "playing_as": "slime_god", "stats": {"score": 40, "team": 2, "prevent": 202, "returns": 14, "tags": 14, "pups": 2, "grabs": 2, "pops": 3, "drops": 2, "hold": 11, "ndpops": 1, "minutes": 10, "quickret": 6, "retinbase": 5, "goregrab": 2, "flaccids": 1, "keyret": 1, "nrtags": 0, "holdagainst": 273, "pupscomp": 18, "pm": 4} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 2", "team1": "The Land Before Timers", "team2": "Doggy's Tile",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Doggy's Tile", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "-_Kaz_-", "playing_as": "-_Kaz_-", "stats": {"score": 18, "team": 1, "returns": 7, "tags": 7, "grabs": 14, "pops": 28, "drops": 14, "hold": 89, "ndpops": 14, "prevent": 19, "pups": 2, "minutes": 10, "handoff": 6, "quickret": 2, "retinbase": 3, "flaccids": 2, "goodhandoff": 3, "longholds": 1, "nrtags": 0, "holdagainst": 239, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "Boo Caw Key", "playing_as": "Boo Caw Key", "stats": {"score": 37, "team": 1, "prevent": 144, "returns": 11, "tags": 12, "ndpops": 9, "pops": 14, "pups": 4, "grabs": 5, "drops": 5, "hold": 24, "minutes": 10, "quickret": 7, "retinbase": 7, "flaccids": 1, "goodhandoff": 1, "handoff": 1, "goregrab": 2, "nrtags": 1, "holdagainst": 239, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"score": 36, "team": 2, "prevent": 110, "ndpops": 5, "pops": 9, "returns": 11, "tags": 12, "pups": 4, "grabs": 4, "drops": 4, "hold": 18, "minutes": 10, "retinbase": 6, "quickret": 4, "keyret": 1, "goregrab": 2, "flaccids": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 1, "holdagainst": 250, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"score": 47, "team": 2, "grabs": 13, "pops": 14, "drops": 11, "hold": 125, "prevent": 10, "ndpops": 3, "pups": 3, "captures": 2, "tags": 3, "returns": 2, "minutes": 10, "flaccids": 3, "goregrab": 2, "handoff": 3, "gohandoff": 1, "goodhandoff": 1, "longholds": 2, "nrtags": 1, "holdagainst": 250, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"score": 29, "team": 2, "prevent": 99, "grabs": 7, "pops": 12, "drops": 7, "hold": 38, "returns": 8, "tags": 9, "ndpops": 5, "pups": 3, "minutes": 10, "goodhandoff": 3, "handoff": 4, "retinbase": 1, "flaccids": 1, "goregrab": 1, "nrtags": 1, "holdagainst": 250, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "linux", "playing_as": "linux", "stats": {"score": 43, "team": 2, "grabs": 15, "pops": 16, "drops": 13, "hold": 58, "prevent": 20, "ndpops": 3, "returns": 7, "tags": 16, "pups": 5, "captures": 1, "minutes": 10, "flaccids": 6, "handoff": 4, "quickret": 1, "retinbase": 1, "goregrab": 4, "goodhandoff": 2, "coregrab": 1, "nrtags": 9, "holdagainst": 250, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "nanner", "playing_as": "nanner", "stats": {"score": 36, "team": 1, "prevent": 148, "returns": 9, "tags": 9, "pups": 4, "ndpops": 8, "pops": 10, "grabs": 2, "drops": 2, "hold": 8, "minutes": 10, "quickret": 2, "retinbase": 2, "goregrab": 1, "nrtags": 0, "holdagainst": 239, "pupscomp": 27, "pm": 0} },
+            { "team": "The Land Before Timers", "player_season": "off constant", "playing_as": "off constant", "stats": {"score": 55, "team": 1, "grabs": 13, "captures": 3, "hold": 129, "prevent": 24, "pops": 14, "drops": 10, "pups": 2, "ndpops": 4, "returns": 7, "tags": 7, "minutes": 10, "gohandoff": 1, "goregrab": 2, "coregrab": 1, "flaccids": 2, "longholds": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 239, "pupscomp": 27, "pm": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Land Before Timers", "blue_team": "Doggy's Tile", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Doggy's Tile", "player_season": "-_Kaz_-", "playing_as": "-_Kaz_-", "stats": {"score": 14, "team": 2, "ndpops": 11, "pops": 17, "grabs": 6, "drops": 6, "hold": 65, "prevent": 8, "returns": 5, "tags": 5, "minutes": 10, "flaccids": 2, "goodhandoff": 3, "handoff": 3, "quickret": 1, "retinbase": 2, "goregrab": 1, "longholds": 1, "nrtags": 0, "holdagainst": 373, "pupscomp": 27, "pm": -9} },
+            { "team": "Doggy's Tile", "player_season": "Boo Caw Key", "playing_as": "Boo Caw Key", "stats": {"score": 35, "team": 2, "prevent": 57, "returns": 7, "tags": 13, "grabs": 7, "pops": 11, "drops": 7, "hold": 41, "ndpops": 4, "pups": 6, "minutes": 10, "flaccids": 3, "retinbase": 3, "goodhandoff": 3, "handoff": 3, "quickret": 1, "gohandoff": 2, "nrtags": 6, "holdagainst": 373, "pupscomp": 27, "pm": -9} },
+            { "team": "Doggy's Tile", "player_season": "Rick G. #853", "playing_as": "Rick G. #853", "stats": {"score": 9, "team": 2, "game_start": 14352, "quit": false, "returns": 2, "tags": 2, "grabs": 8, "pops": 10, "drops": 8, "hold": 64, "prevent": 4, "pups": 1, "ndpops": 2, "minutes": 6, "gohandoff": 2, "goodhandoff": 1, "handoff": 2, "goregrab": 1, "longholds": 1, "flaccids": 2, "nrtags": 0, "holdagainst": 373, "pupscomp": 27, "pm": -9} },
+            { "team": "Doggy's Tile", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"score": 50, "team": 1, "prevent": 126, "returns": 7, "tags": 11, "pups": 7, "grabs": 3, "pops": 8, "drops": 3, "hold": 21, "ndpops": 5, "minutes": 10, "quickret": 4, "keyret": 2, "retinbase": 2, "handoff": 2, "goregrab": 1, "goodhandoff": 1, "nrtags": 4, "holdagainst": 208, "pupscomp": 27, "pm": 9} },
+            { "team": "Doggy's Tile", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"score": 54, "team": 1, "prevent": 242, "pups": 2, "returns": 10, "tags": 10, "ndpops": 6, "pops": 7, "grabs": 2, "captures": 1, "hold": 10, "drops": 1, "minutes": 10, "quickret": 4, "retinbase": 5, "handoff": 1, "nrtags": 0, "holdagainst": 208, "pupscomp": 27, "pm": 9} },
+            { "team": "Doggy's Tile", "player_season": "juulgang666", "playing_as": "juulgang666", "stats": {"score": 47, "team": 1, "grabs": 14, "pops": 13, "drops": 10, "hold": 133, "pups": 3, "ndpops": 3, "returns": 2, "tags": 4, "captures": 4, "prevent": 26, "minutes": 10, "goregrab": 7, "goodhandoff": 3, "handoff": 3, "longholds": 1, "coregrab": 3, "gohandoff": 1, "flaccids": 1, "nrtags": 2, "holdagainst": 208, "pupscomp": 27, "pm": 9} },
+            { "team": "Doggy's Tile", "player_season": "linux", "playing_as": "linux", "stats": {"score": 59, "team": 1, "ndpops": 9, "pops": 19, "grabs": 14, "drops": 10, "hold": 209, "captures": 4, "prevent": 15, "pups": 5, "tags": 5, "returns": 3, "minutes": 10, "flaccids": 3, "handoff": 3, "longholds": 4, "keyret": 1, "goodhandoff": 2, "goregrab": 2, "coregrab": 1, "gohandoff": 1, "nrtags": 2, "holdagainst": 208, "pupscomp": 27, "pm": 9} },
+            { "team": "Doggy's Tile", "player_season": "nanner", "playing_as": "nanner", "stats": {"score": 29, "team": 2, "prevent": 68, "returns": 6, "tags": 9, "pups": 3, "grabs": 2, "pops": 7, "drops": 2, "hold": 15, "ndpops": 5, "minutes": 10, "quickret": 2, "retinbase": 1, "flaccids": 1, "handoff": 1, "nrtags": 3, "holdagainst": 373, "pupscomp": 27, "pm": -9} },
+            { "team": "Doggy's Tile", "player_season": "off constant", "playing_as": "off constant", "stats": {"score": 0, "team": 2, "grabs": 2, "pops": 3, "drops": 2, "hold": 23, "returns": 1, "tags": 1, "prevent": 8, "ndpops": 1, "minutes": 4, "quit": true, "game_end": 13699, "gohandoff": 1, "handoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 373, "pupscomp": 27, "pm": -9} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The Land Before Timers", "blue_team": "Doggy's Tile", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Doggy's Tile", "player_season": "Boo Caw Key", "playing_as": "Boo Caw Key", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 18, "pops": 7, "grabs": 3, "drops": 3, "hold": 18, "captures": 0, "prevent": 153, "returns": 15, "pups": 4, "holdagainst": 224, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 3} },
+            { "team": "Doggy's Tile", "player_season": "Glizzy", "playing_as": "Glizzy", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 14, "pops": 19, "grabs": 18, "drops": 17, "hold": 56, "captures": 1, "prevent": 43, "returns": 12, "pups": 2, "holdagainst": 224, "pm": -1, "pupscomp": 18, "ndpops": 2, "nrtags": 2} },
+            { "team": "Doggy's Tile", "player_season": "Rick G. #853", "playing_as": "Rick G. #853", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 19, "pops": 13, "grabs": 9, "drops": 8, "hold": 43, "captures": 1, "prevent": 155, "returns": 15, "pups": 2, "holdagainst": 224, "pm": -1, "pupscomp": 18, "ndpops": 5, "nrtags": 4} },
+            { "team": "Doggy's Tile", "player_season": "Scuba Steve.", "playing_as": "Scuba Steve.", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 8, "pops": 15, "grabs": 11, "drops": 9, "hold": 50, "captures": 2, "prevent": 43, "returns": 5, "pups": 1, "holdagainst": 224, "pm": -1, "pupscomp": 18, "ndpops": 6, "nrtags": 3} },
+            { "team": "Doggy's Tile", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 21, "pops": 14, "grabs": 6, "drops": 5, "hold": 40, "captures": 1, "prevent": 220, "returns": 20, "pups": 3, "holdagainst": 167, "pm": 1, "pupscomp": 18, "ndpops": 9, "nrtags": 1} },
+            { "team": "Doggy's Tile", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 8, "pops": 11, "grabs": 9, "drops": 7, "hold": 29, "captures": 2, "prevent": 211, "returns": 8, "pups": 1, "holdagainst": 167, "pm": 1, "pupscomp": 18, "ndpops": 4, "nrtags": 0} },
+            { "team": "Doggy's Tile", "player_season": "juulgang666", "playing_as": "juulgang666", "stats": {"team": 1, "minutes": 10, "score": 23, "tags": 6, "pops": 22, "grabs": 19, "drops": 19, "hold": 60, "captures": 0, "prevent": 36, "returns": 4, "pups": 3, "holdagainst": 167, "pm": 1, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "Doggy's Tile", "player_season": "linux", "playing_as": "linux", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 8, "pops": 20, "grabs": 18, "drops": 16, "hold": 95, "captures": 2, "prevent": 76, "returns": 4, "pups": 2, "holdagainst": 167, "pm": 1, "pupscomp": 18, "ndpops": 4, "nrtags": 4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Doggy's Tile", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Boo Caw Key", "playing_as": "Boo Caw Key", "stats": {"score": 44, "team": 1, "prevent": 98, "returns": 11, "tags": 14, "ndpops": 5, "pops": 10, "grabs": 6, "drops": 5, "hold": 44, "pups": 2, "captures": 1, "minutes": 10, "retinbase": 3, "saves": 1, "flaccids": 2, "goodhandoff": 2, "handoff": 2, "longholds": 1, "quickret": 2, "goregrab": 1, "nrtags": 3, "holdagainst": 399, "pupscomp": 18, "pm": -3} },
+            { "team": "The Land Before Timers", "player_season": "Rick G. #853", "playing_as": "Rick G. #853", "stats": {"score": 28, "team": 1, "prevent": 100, "returns": 9, "tags": 9, "ndpops": 7, "pops": 14, "pups": 1, "grabs": 7, "drops": 7, "hold": 51, "minutes": 10, "gohandoff": 1, "flaccids": 3, "goodhandoff": 2, "handoff": 2, "goregrab": 1, "longholds": 1, "saves": 1, "nrtags": 0, "holdagainst": 399, "pupscomp": 18, "pm": -3} },
+            { "team": "The Land Before Timers", "player_season": "Scuba Steve.", "playing_as": "Scuba Steve.", "stats": {"score": 20, "team": 1, "grabs": 8, "pops": 13, "drops": 8, "hold": 78, "ndpops": 5, "returns": 8, "tags": 9, "prevent": 18, "pups": 2, "minutes": 10, "flaccids": 3, "goregrab": 2, "gohandoff": 1, "saves": 1, "goodhandoff": 2, "handoff": 3, "longholds": 2, "nrtags": 1, "holdagainst": 399, "pupscomp": 18, "pm": -3} },
+            { "team": "The Land Before Timers", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"score": 63, "team": 2, "returns": 12, "tags": 19, "prevent": 108, "pups": 6, "ndpops": 2, "pops": 6, "grabs": 5, "drops": 4, "hold": 57, "captures": 1, "minutes": 10, "quickret": 5, "retinbase": 4, "goregrab": 4, "handoff": 3, "longholds": 1, "goodhandoff": 2, "coregrab": 1, "nrtags": 7, "holdagainst": 307, "pupscomp": 18, "pm": 3} },
+            { "team": "The Land Before Timers", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"score": 42, "team": 2, "grabs": 15, "pops": 15, "drops": 14, "hold": 100, "prevent": 64, "pups": 2, "tags": 11, "ndpops": 1, "returns": 8, "captures": 1, "minutes": 10, "quickret": 3, "retinbase": 2, "goregrab": 7, "goodhandoff": 4, "handoff": 4, "flaccids": 2, "nrtags": 3, "holdagainst": 307, "pupscomp": 18, "pm": 3} },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"score": 53, "team": 2, "prevent": 172, "returns": 12, "tags": 12, "grabs": 4, "pops": 5, "drops": 3, "hold": 35, "pups": 1, "captures": 1, "ndpops": 2, "minutes": 10, "gohandoff": 1, "quickret": 6, "retinbase": 4, "goodhandoff": 3, "handoff": 3, "goregrab": 3, "coregrab": 1, "nrtags": 0, "holdagainst": 307, "pupscomp": 18, "pm": 3} },
+            { "team": "The Land Before Timers", "player_season": "linux", "playing_as": "linux", "stats": {"score": 39, "team": 2, "grabs": 11, "pops": 14, "drops": 10, "hold": 207, "pups": 4, "ndpops": 4, "prevent": 44, "captures": 1, "tags": 2, "minutes": 10, "goodhandoff": 5, "handoff": 7, "goregrab": 3, "coregrab": 1, "longholds": 2, "nrtags": 2, "holdagainst": 307, "pupscomp": 18, "pm": 3} },
+            { "team": "The Land Before Timers", "player_season": "off constant", "playing_as": "off constant", "stats": {"score": 10, "team": 1, "grabs": 13, "pops": 16, "drops": 13, "hold": 134, "prevent": 20, "returns": 3, "tags": 3, "ndpops": 3, "minutes": 10, "goodhandoff": 3, "handoff": 3, "flaccids": 6, "goregrab": 2, "longholds": 2, "gohandoff": 3, "nrtags": 0, "holdagainst": 399, "pupscomp": 18, "pm": -3} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 2", "team1": "WCYDinos", "team2": "The Probots",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "WCYDinos", "blue_team": "The Probots", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "The Probots", "player_season": "$T", "playing_as": "$T", "stats": {"score": 52, "team": 1, "grabs": 18, "pops": 18, "drops": 15, "hold": 170, "pups": 6, "returns": 3, "tags": 4, "prevent": 22, "captures": 3, "ndpops": 3, "minutes": 10, "goodhandoff": 4, "handoff": 9, "flaccids": 4, "longholds": 3, "goregrab": 2, "quickret": 1, "gohandoff": 1, "cohandoff": 1, "nrtags": 1, "holdagainst": 187, "pupscomp": 27, "pm": 4} },
+            { "team": "The Probots", "player_season": "CatPuke", "playing_as": "CatPuke", "stats": {"score": 57, "team": 1, "grabs": 15, "pops": 14, "drops": 11, "hold": 128, "pups": 4, "returns": 5, "tags": 7, "prevent": 30, "ndpops": 3, "captures": 3, "minutes": 10, "flaccids": 2, "goregrab": 6, "quickret": 2, "retinbase": 2, "longholds": 2, "coregrab": 1, "handoff": 4, "goodhandoff": 2, "saves": 1, "gohandoff": 1, "nrtags": 2, "holdagainst": 187, "pupscomp": 27, "pm": 4} },
+            { "team": "The Probots", "player_season": "HeyGUYS", "playing_as": "HeyGUYS", "stats": {"score": 49, "team": 1, "prevent": 229, "returns": 12, "tags": 18, "ndpops": 4, "pops": 6, "pups": 4, "grabs": 2, "drops": 2, "hold": 6, "minutes": 10, "quickret": 3, "retinbase": 4, "gohandoff": 1, "flaccids": 1, "nrtags": 6, "holdagainst": 187, "pupscomp": 27, "pm": 4} },
+            { "team": "The Probots", "player_season": "Kooler", "playing_as": "Kooler", "stats": {"score": 27, "team": 2, "prevent": 78, "grabs": 4, "pops": 12, "drops": 4, "hold": 20, "ndpops": 8, "returns": 11, "tags": 13, "pups": 2, "minutes": 10, "flaccids": 2, "goregrab": 1, "retinbase": 4, "quickret": 2, "gohandoff": 1, "nrtags": 2, "holdagainst": 308, "pupscomp": 27, "pm": -4} },
+            { "team": "The Probots", "player_season": "Makin Bacon", "playing_as": "Makin Bacon", "stats": {"score": 57, "team": 1, "prevent": 230, "returns": 14, "tags": 17, "pups": 4, "grabs": 2, "pops": 8, "drops": 2, "hold": 4, "ndpops": 6, "minutes": 10, "quickret": 9, "retinbase": 9, "flaccids": 1, "goregrab": 1, "nrtags": 3, "holdagainst": 187, "pupscomp": 27, "pm": 4} },
+            { "team": "The Probots", "player_season": "Poppy Cat", "playing_as": "Poppy Cat", "stats": {"score": 31, "team": 2, "prevent": 62, "returns": 7, "tags": 10, "grabs": 9, "pops": 13, "drops": 8, "hold": 44, "pups": 3, "ndpops": 5, "captures": 1, "minutes": 10, "quickret": 3, "retinbase": 3, "goregrab": 2, "flaccids": 5, "longholds": 1, "gohandoff": 1, "nrtags": 3, "holdagainst": 308, "pupscomp": 27, "pm": -4} },
+            { "team": "The Probots", "player_season": "PoppyBall", "playing_as": "PoppyBall", "stats": {"score": 2, "team": 2, "grabs": 12, "pops": 22, "drops": 12, "hold": 54, "returns": 3, "tags": 3, "ndpops": 10, "minutes": 10, "quickret": 1, "retinbase": 1, "goregrab": 2, "goodhandoff": 3, "handoff": 4, "flaccids": 5, "prevent": 0, "nrtags": 0, "holdagainst": 308, "pupscomp": 27, "pm": -4} },
+            { "team": "The Probots", "player_season": "sandisok", "playing_as": "sandisok", "stats": {"score": 26, "team": 2, "ndpops": 9, "pops": 20, "grabs": 12, "drops": 11, "hold": 69, "pups": 4, "prevent": 17, "returns": 6, "tags": 7, "captures": 1, "minutes": 10, "goodhandoff": 3, "handoff": 4, "goregrab": 2, "gohandoff": 1, "flaccids": 4, "quickret": 2, "retinbase": 2, "nrtags": 1, "holdagainst": 308, "pupscomp": 27, "pm": -4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Probots", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "WCYDinos", "player_season": "$T", "playing_as": "$T", "stats": {"score": 39, "team": 2, "grabs": 16, "pops": 21, "drops": 14, "hold": 152, "captures": 2, "prevent": 20, "pups": 5, "ndpops": 7, "returns": 4, "tags": 4, "minutes": 10, "flaccids": 4, "goodhandoff": 5, "handoff": 8, "longholds": 1, "saves": 1, "quickret": 2, "retinbase": 2, "nrtags": 0, "holdagainst": 274, "pupscomp": 27, "pm": 1} },
+            { "team": "WCYDinos", "player_season": "Bric", "playing_as": "Bric", "stats": {"score": 37, "team": 1, "grabs": 12, "pops": 12, "drops": 11, "hold": 117, "prevent": 30, "returns": 6, "tags": 9, "pups": 4, "captures": 1, "ndpops": 1, "minutes": 10, "flaccids": 4, "handoff": 5, "retinbase": 2, "goregrab": 4, "goodhandoff": 2, "longholds": 1, "gohandoff": 1, "quickret": 1, "keyret": 1, "nrtags": 3, "holdagainst": 280, "pupscomp": 27, "pm": -1} },
+            { "team": "WCYDinos", "player_season": "DENNISsystem", "playing_as": "DENNISsystem", "stats": {"score": 47, "team": 1, "returns": 13, "tags": 17, "prevent": 92, "ndpops": 7, "pops": 12, "pups": 7, "grabs": 5, "drops": 5, "hold": 42, "minutes": 10, "quickret": 6, "retinbase": 6, "handoff": 3, "keyret": 1, "goodhandoff": 2, "nrtags": 4, "holdagainst": 280, "pupscomp": 27, "pm": -1} },
+            { "team": "WCYDinos", "player_season": "ItDolph", "playing_as": "ItDolph", "stats": {"score": 46, "team": 2, "prevent": 163, "returns": 9, "tags": 12, "ndpops": 5, "pops": 11, "pups": 4, "grabs": 7, "drops": 6, "hold": 36, "captures": 1, "minutes": 10, "quickret": 4, "retinbase": 4, "flaccids": 2, "goodhandoff": 1, "handoff": 2, "gohandoff": 1, "goregrab": 4, "coregrab": 1, "nrtags": 3, "holdagainst": 274, "pupscomp": 27, "pm": 1} },
+            { "team": "WCYDinos", "player_season": "Jelly Rat", "playing_as": "Jelly Rat", "stats": {"score": 41, "team": 1, "prevent": 55, "pups": 3, "grabs": 4, "pops": 9, "drops": 4, "hold": 6, "returns": 17, "tags": 18, "ndpops": 5, "minutes": 10, "goregrab": 2, "flaccids": 3, "goodhandoff": 1, "handoff": 1, "quickret": 5, "retinbase": 4, "keyret": 1, "nrtags": 1, "holdagainst": 280, "pupscomp": 27, "pm": -1} },
+            { "team": "WCYDinos", "player_season": "Makin Bacon", "playing_as": "Makin Bacon", "stats": {"score": 37, "team": 2, "prevent": 167, "returns": 14, "tags": 15, "ndpops": 5, "pops": 10, "grabs": 5, "drops": 5, "hold": 10, "pups": 2, "minutes": 10, "quickret": 6, "retinbase": 7, "keyret": 1, "goodhandoff": 2, "handoff": 2, "flaccids": 3, "goregrab": 1, "nrtags": 1, "holdagainst": 274, "pupscomp": 27, "pm": 1} },
+            { "team": "WCYDinos", "player_season": "fanseman", "playing_as": "fanseman", "stats": {"score": 22, "team": 2, "grabs": 15, "pops": 17, "drops": 14, "hold": 82, "ndpops": 3, "returns": 2, "tags": 4, "captures": 1, "prevent": 4, "pups": 1, "minutes": 10, "goregrab": 6, "goodhandoff": 2, "handoff": 2, "quickret": 1, "flaccids": 4, "gohandoff": 2, "cohandoff": 1, "nrtags": 2, "holdagainst": 274, "pupscomp": 27, "pm": 1} },
+            { "team": "WCYDinos", "player_season": "sandisok", "playing_as": "sandisok", "stats": {"score": 31, "team": 1, "grabs": 15, "pops": 14, "drops": 13, "hold": 109, "prevent": 24, "ndpops": 1, "pups": 1, "captures": 2, "returns": 1, "tags": 1, "minutes": 10, "gohandoff": 3, "flaccids": 6, "goodhandoff": 4, "handoff": 5, "goregrab": 5, "longholds": 2, "quickret": 1, "retinbase": 1, "cohandoff": 1, "nrtags": 0, "holdagainst": 280, "pupscomp": 27, "pm": -1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The Probots", "blue_team": "WCYDinos", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "WCYDinos", "player_season": "$T", "playing_as": "$T", "stats": {"score": 43, "team": 2, "grabs": 19, "pops": 17, "drops": 16, "hold": 125, "pups": 4, "returns": 6, "tags": 6, "prevent": 29, "captures": 3, "ndpops": 1, "minutes": 10, "goregrab": 7, "handoff": 9, "flaccids": 7, "goodhandoff": 5, "quickret": 4, "retinbase": 4, "longholds": 2, "coregrab": 1, "saves": 1, "nrtags": 0, "holdagainst": 316, "pupscomp": 18, "pm": 4} },
+            { "team": "WCYDinos", "player_season": "Bric", "playing_as": "Bric", "stats": {"score": 29, "team": 1, "returns": 8, "tags": 8, "grabs": 14, "pops": 14, "drops": 12, "hold": 81, "prevent": 24, "pups": 2, "captures": 2, "ndpops": 2, "minutes": 10, "flaccids": 3, "goregrab": 5, "handoff": 7, "goodhandoff": 4, "quickret": 2, "retinbase": 2, "longholds": 1, "coregrab": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 317, "pupscomp": 18, "pm": -4} },
+            { "team": "WCYDinos", "player_season": "CatPuke", "playing_as": "CatPuke", "stats": {"score": 40, "team": 2, "grabs": 17, "pops": 19, "drops": 14, "hold": 122, "prevent": 74, "returns": 9, "tags": 11, "ndpops": 5, "captures": 3, "pups": 1, "minutes": 10, "longholds": 1, "goodhandoff": 3, "handoff": 4, "quickret": 6, "retinbase": 6, "gohandoff": 1, "cohandoff": 1, "flaccids": 5, "goregrab": 4, "nrtags": 2, "holdagainst": 316, "pupscomp": 18, "pm": 4} },
+            { "team": "WCYDinos", "player_season": "HeyGUYS", "playing_as": "HeyGUYS", "stats": {"score": 38, "team": 2, "prevent": 123, "returns": 15, "tags": 18, "grabs": 4, "pops": 10, "drops": 4, "hold": 26, "ndpops": 6, "pups": 2, "minutes": 10, "gohandoff": 1, "quickret": 6, "retinbase": 5, "handoff": 3, "goodhandoff": 2, "nrtags": 3, "holdagainst": 316, "pupscomp": 18, "pm": 4} },
+            { "team": "WCYDinos", "player_season": "Kooler", "playing_as": "Kooler", "stats": {"score": 45, "team": 1, "prevent": 152, "returns": 9, "tags": 15, "grabs": 7, "pops": 11, "drops": 6, "hold": 48, "pups": 4, "ndpops": 5, "captures": 1, "minutes": 10, "retinbase": 6, "goregrab": 1, "goodhandoff": 2, "handoff": 3, "quickret": 5, "gohandoff": 2, "saves": 1, "cohandoff": 1, "flaccids": 1, "nrtags": 6, "holdagainst": 317, "pupscomp": 18, "pm": -4} },
+            { "team": "WCYDinos", "player_season": "Poppy Cat", "playing_as": "Poppy Cat", "stats": {"score": 34, "team": 1, "prevent": 151, "grabs": 10, "pops": 12, "drops": 10, "hold": 74, "returns": 12, "tags": 12, "ndpops": 2, "pups": 1, "minutes": 10, "longholds": 1, "quickret": 7, "retinbase": 7, "gohandoff": 2, "flaccids": 4, "goregrab": 3, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 317, "pupscomp": 18, "pm": -4} },
+            { "team": "WCYDinos", "player_season": "PoppyBall", "playing_as": "PoppyBall", "stats": {"score": 33, "team": 1, "returns": 11, "tags": 14, "pups": 4, "grabs": 22, "pops": 21, "drops": 20, "hold": 113, "ndpops": 1, "prevent": 6, "captures": 1, "minutes": 10, "gohandoff": 5, "flaccids": 10, "goodhandoff": 6, "handoff": 7, "quickret": 2, "retinbase": 2, "goregrab": 6, "longholds": 1, "nrtags": 3, "holdagainst": 317, "pupscomp": 18, "pm": -4} },
+            { "team": "WCYDinos", "player_season": "Zig", "playing_as": "Zig", "stats": {"score": 38, "team": 2, "prevent": 112, "grabs": 11, "captures": 2, "hold": 44, "ndpops": 2, "pops": 10, "returns": 14, "tags": 14, "drops": 8, "minutes": 10, "goregrab": 3, "coregrab": 1, "retinbase": 4, "keyret": 2, "flaccids": 4, "quickret": 2, "goodhandoff": 2, "handoff": 2, "gohandoff": 1, "cohandoff": 1, "nrtags": 0, "holdagainst": 316, "pupscomp": 18, "pm": 4} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "WCYDinos", "blue_team": "The Probots", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "The Probots", "player_season": "CatPuke", "playing_as": "CatPuke", "stats": {"score": 25, "team": 1, "ndpops": 2, "pops": 22, "prevent": 34, "grabs": 21, "drops": 20, "hold": 128, "returns": 10, "tags": 10, "captures": 1, "minutes": 10, "flaccids": 6, "gohandoff": 3, "goodhandoff": 7, "handoff": 9, "goregrab": 3, "quickret": 1, "retinbase": 2, "nrtags": 0, "holdagainst": 433, "pupscomp": 18, "pm": -1} },
+            { "team": "The Probots", "player_season": "HeyGUYS", "playing_as": "HeyGUYS", "stats": {"score": 37, "team": 1, "prevent": 76, "returns": 11, "tags": 12, "grabs": 6, "pops": 10, "drops": 5, "hold": 43, "ndpops": 5, "pups": 4, "captures": 1, "minutes": 10, "retinbase": 3, "goregrab": 2, "handoff": 4, "goodhandoff": 2, "quickret": 3, "flaccids": 1, "nrtags": 1, "holdagainst": 433, "pupscomp": 18, "pm": -1} },
+            { "team": "The Probots", "player_season": "Jelly Rat", "playing_as": "Jelly Rat", "stats": {"score": 37, "team": 2, "prevent": 117, "returns": 13, "tags": 13, "grabs": 9, "pups": 2, "pops": 13, "drops": 9, "hold": 64, "ndpops": 4, "minutes": 10, "quickret": 5, "retinbase": 7, "keyret": 1, "goregrab": 5, "longholds": 1, "goodhandoff": 5, "handoff": 5, "flaccids": 1, "nrtags": 0, "holdagainst": 326, "pupscomp": 18, "pm": 1} },
+            { "team": "The Probots", "player_season": "Kooler", "playing_as": "Kooler", "stats": {"score": 71, "team": 2, "prevent": 157, "returns": 19, "tags": 21, "pups": 5, "grabs": 8, "pops": 6, "drops": 6, "hold": 97, "captures": 2, "minutes": 10, "quickret": 9, "retinbase": 9, "goodhandoff": 5, "handoff": 5, "keyret": 1, "gohandoff": 2, "longholds": 1, "saves": 1, "goregrab": 1, "flaccids": 1, "nrtags": 2, "holdagainst": 326, "pupscomp": 18, "pm": 1} },
+            { "team": "The Probots", "player_season": "PoppyBall", "playing_as": "PoppyBall", "stats": {"score": 27, "team": 2, "grabs": 17, "pops": 14, "drops": 14, "hold": 130, "captures": 2, "prevent": 20, "returns": 8, "tags": 8, "minutes": 10, "flaccids": 4, "handoff": 9, "goregrab": 9, "goodhandoff": 6, "coregrab": 1, "gohandoff": 1, "quickret": 2, "retinbase": 2, "longholds": 1, "nrtags": 0, "holdagainst": 326, "pupscomp": 18, "pm": 1} },
+            { "team": "The Probots", "player_season": "Zig", "playing_as": "Zig", "stats": {"score": 33, "team": 1, "prevent": 39, "returns": 15, "tags": 15, "grabs": 12, "pops": 12, "drops": 11, "hold": 81, "ndpops": 1, "captures": 1, "minutes": 10, "quit": false, "game_end": 32988, "game_start": 33317, "quickret": 6, "retinbase": 5, "goregrab": 6, "flaccids": 4, "handoff": 4, "goodhandoff": 2, "keyret": 1, "nrtags": 0, "holdagainst": 433, "pupscomp": 18, "pm": -1} },
+            { "team": "The Probots", "player_season": "fanseman", "playing_as": "fanseman", "stats": {"score": 33, "team": 1, "grabs": 17, "pops": 17, "drops": 15, "hold": 74, "prevent": 12, "pups": 3, "returns": 9, "tags": 9, "captures": 2, "ndpops": 2, "minutes": 10, "flaccids": 7, "handoff": 5, "goregrab": 10, "goodhandoff": 3, "gohandoff": 2, "coregrab": 2, "retinbase": 1, "nrtags": 0, "holdagainst": 433, "pupscomp": 18, "pm": -1} },
+            { "team": "The Probots", "player_season": "sandisok", "playing_as": "sandisok", "stats": {"score": 37, "team": 2, "grabs": 21, "pops": 21, "drops": 19, "hold": 142, "returns": 9, "tags": 10, "pups": 4, "ndpops": 2, "prevent": 24, "minutes": 10, "quit": false, "game_end": 10993, "game_start": 11128, "captures": 2, "quickret": 2, "retinbase": 2, "goodhandoff": 7, "handoff": 10, "flaccids": 4, "goregrab": 10, "coregrab": 1, "nrtags": 1, "holdagainst": 326, "pupscomp": 18, "pm": 1} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 2", "team1": "Return of the Jedi", "team2": "Ballsagna",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Ballsagna", "blue_team": "Return of the Jedi", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Return of the Jedi", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"score": 46, "team": 2, "grabs": 14, "pops": 14, "drops": 12, "hold": 113, "returns": 7, "tags": 7, "pups": 3, "prevent": 43, "ndpops": 2, "captures": 1, "minutes": 10, "goodhandoff": 4, "handoff": 5, "goregrab": 2, "quickret": 2, "retinbase": 2, "gohandoff": 2, "flaccids": 1, "nrtags": 0, "holdagainst": 246, "pupscomp": 27, "pm": 3} },
+            { "team": "Return of the Jedi", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"score": 67, "team": 2, "prevent": 185, "returns": 8, "tags": 10, "pups": 7, "ndpops": 4, "pops": 7, "grabs": 4, "drops": 3, "hold": 61, "captures": 1, "minutes": 10, "retinbase": 6, "quickret": 6, "goodhandoff": 1, "handoff": 2, "flaccids": 1, "goregrab": 1, "coregrab": 1, "longholds": 1, "nrtags": 2, "holdagainst": 246, "pupscomp": 27, "pm": 3} },
+            { "team": "Return of the Jedi", "player_season": "Scrapper8o", "playing_as": "Scrapper8o", "stats": {"score": 23, "team": 1, "prevent": 53, "returns": 8, "tags": 8, "ndpops": 5, "pops": 9, "grabs": 4, "drops": 4, "hold": 43, "pups": 2, "minutes": 10, "retinbase": 2, "goregrab": 2, "goodhandoff": 2, "handoff": 2, "quickret": 1, "nrtags": 0, "holdagainst": 316, "pupscomp": 27, "pm": -3} },
+            { "team": "Return of the Jedi", "player_season": "Some Ball 12", "playing_as": "Some Ball 12", "stats": {"score": 30, "team": 1, "prevent": 68, "ndpops": 6, "pops": 13, "grabs": 7, "drops": 7, "hold": 33, "returns": 9, "tags": 13, "pups": 3, "minutes": 10, "quickret": 3, "retinbase": 4, "goodhandoff": 3, "handoff": 3, "goregrab": 3, "flaccids": 2, "nrtags": 4, "holdagainst": 316, "pupscomp": 27, "pm": -3} },
+            { "team": "Return of the Jedi", "player_season": "T-Swift!", "playing_as": "T-Swift!", "stats": {"score": 37, "team": 2, "grabs": 16, "pops": 18, "drops": 15, "hold": 137, "captures": 1, "prevent": 12, "ndpops": 3, "returns": 4, "tags": 4, "pups": 3, "minutes": 10, "goodhandoff": 4, "handoff": 5, "goregrab": 7, "coregrab": 1, "gohandoff": 1, "flaccids": 1, "longholds": 1, "nrtags": 0, "holdagainst": 246, "pupscomp": 27, "pm": 3} },
+            { "team": "Return of the Jedi", "player_season": "i love HD", "playing_as": "i love HD", "stats": {"score": 46, "team": 2, "prevent": 166, "returns": 13, "tags": 15, "ndpops": 4, "pops": 6, "pups": 3, "grabs": 2, "drops": 2, "hold": 5, "minutes": 10, "quickret": 3, "retinbase": 3, "flaccids": 1, "nrtags": 2, "holdagainst": 246, "pupscomp": 27, "pm": 3} },
+            { "team": "Return of the Jedi", "player_season": "imagirl!", "playing_as": "imagirl!", "stats": {"score": 29, "team": 1, "game_start": 400, "quit": false, "grabs": 10, "pops": 14, "drops": 10, "hold": 92, "pups": 6, "tags": 9, "prevent": 9, "ndpops": 4, "returns": 5, "minutes": 10, "gohandoff": 1, "flaccids": 2, "goodhandoff": 2, "handoff": 4, "longholds": 2, "goregrab": 3, "nrtags": 4, "holdagainst": 316, "pupscomp": 27, "pm": -3} },
+            { "team": "Return of the Jedi", "player_season": "slobonmyknob", "playing_as": "slobonmyknob", "stats": {"score": 21, "team": 1, "returns": 7, "tags": 7, "grabs": 15, "pops": 18, "drops": 15, "hold": 78, "prevent": 15, "ndpops": 3, "minutes": 10, "flaccids": 7, "handoff": 6, "goregrab": 3, "goodhandoff": 3, "gohandoff": 1, "nrtags": 0, "holdagainst": 316, "pupscomp": 27, "pm": -3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Return of the Jedi", "blue_team": "Ballsagna", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Ballsagna", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle", "stats": {"score": 56, "team": 1, "prevent": 215, "returns": 16, "tags": 16, "grabs": 3, "pops": 5, "drops": 2, "hold": 45, "ndpops": 3, "captures": 1, "minutes": 10, "quickret": 7, "retinbase": 8, "goregrab": 1, "keyret": 1, "longholds": 1, "nrtags": 0, "holdagainst": 154, "pupscomp": 27, "pm": 9} },
+            { "team": "Ballsagna", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"score": 52, "team": 1, "game_start": 716, "quit": false, "returns": 4, "tags": 5, "grabs": 14, "captures": 4, "hold": 89, "prevent": 52, "pops": 15, "drops": 9, "ndpops": 6, "pups": 2, "minutes": 10, "goregrab": 4, "coregrab": 3, "goodhandoff": 2, "handoff": 3, "flaccids": 5, "gohandoff": 1, "longholds": 1, "quickret": 1, "retinbase": 1, "nrtags": 1, "holdagainst": 154, "pupscomp": 27, "pm": 9} },
+            { "team": "Ballsagna", "player_season": "DEIRF", "playing_as": "DEIRF", "stats": {"score": 14, "team": 2, "game_start": 485, "quit": false, "grabs": 14, "pops": 21, "drops": 14, "hold": 35, "pups": 5, "ndpops": 7, "prevent": 16, "returns": 3, "tags": 3, "minutes": 10, "flaccids": 6, "goodhandoff": 1, "handoff": 3, "goregrab": 1, "gohandoff": 2, "nrtags": 0, "holdagainst": 311, "pupscomp": 27, "pm": -9} },
+            { "team": "Ballsagna", "player_season": "Errmergerd", "playing_as": "Errmergerd", "stats": {"score": 20, "team": 2, "prevent": 122, "ndpops": 9, "pops": 14, "returns": 5, "tags": 7, "grabs": 5, "drops": 5, "hold": 27, "pups": 2, "minutes": 10, "quickret": 3, "retinbase": 3, "goregrab": 2, "flaccids": 2, "goodhandoff": 1, "handoff": 1, "nrtags": 2, "holdagainst": 311, "pupscomp": 27, "pm": -9} },
+            { "team": "Ballsagna", "player_season": "MarsWater", "playing_as": "MarsWater", "stats": {"score": 62, "team": 1, "grabs": 15, "pops": 13, "drops": 11, "hold": 125, "returns": 6, "tags": 12, "pups": 3, "ndpops": 2, "captures": 4, "prevent": 35, "minutes": 10, "flaccids": 4, "goregrab": 4, "gohandoff": 2, "handoff": 3, "cohandoff": 1, "coregrab": 2, "goodhandoff": 2, "longholds": 1, "quickret": 2, "retinbase": 3, "nrtags": 6, "holdagainst": 154, "pupscomp": 27, "pm": 9} },
+            { "team": "Ballsagna", "player_season": "Scrapper8o", "playing_as": "Scrapper8o", "stats": {"score": 34, "team": 2, "prevent": 116, "returns": 11, "tags": 11, "pups": 5, "ndpops": 13, "pops": 16, "grabs": 3, "drops": 3, "hold": 34, "minutes": 10, "quickret": 5, "retinbase": 6, "flaccids": 2, "longholds": 1, "handoff": 1, "nrtags": 0, "holdagainst": 311, "pupscomp": 27, "pm": -9} },
+            { "team": "Ballsagna", "player_season": "slobonmyknob", "playing_as": "slobonmyknob", "stats": {"score": 14, "team": 2, "grabs": 11, "pops": 18, "drops": 11, "hold": 58, "returns": 4, "tags": 7, "pups": 3, "ndpops": 7, "prevent": 8, "minutes": 10, "gohandoff": 1, "handoff": 4, "quickret": 1, "retinbase": 1, "goodhandoff": 1, "flaccids": 3, "nrtags": 3, "holdagainst": 311, "pupscomp": 27, "pm": -9} },
+            { "team": "Ballsagna", "player_season": "superdiglett", "playing_as": "superdiglett", "stats": {"score": 48, "team": 1, "prevent": 199, "pups": 7, "returns": 6, "tags": 16, "grabs": 4, "pops": 8, "drops": 4, "hold": 52, "ndpops": 4, "minutes": 10, "retinbase": 5, "flaccids": 1, "goodhandoff": 2, "handoff": 2, "goregrab": 2, "quickret": 3, "longholds": 1, "keyret": 1, "nrtags": 10, "holdagainst": 154, "pupscomp": 27, "pm": 9} }
+          ]
+        },
         {
           "tagpro_eu": "2097977", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Return of the Jedi", "blue_team": "Ballsagna", "team1_score": 11, "team2_score": 1,
           "players": [
@@ -578,6 +778,63 @@
             { "team": "Return of the Jedi", "player_season": "DAD.", "playing_as": "DAD." },
             { "team": "Return of the Jedi", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Return of the Jedi", "player_season": "i love HD", "playing_as": "i love HD" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 2", "team1": "Pi-Curious", "team2": "Flairbnb",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Pi-Curious", "blue_team": "Flairbnb", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Flairbnb", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"score": 43, "team": 2, "prevent": 78, "returns": 18, "tags": 18, "pups": 4, "ndpops": 4, "pops": 8, "grabs": 4, "drops": 4, "hold": 32, "minutes": 10, "quickret": 10, "retinbase": 10, "gohandoff": 1, "goodhandoff": 2, "handoff": 2, "goregrab": 2, "flaccids": 1, "nrtags": 0, "holdagainst": 300, "pupscomp": 27, "pm": -2} },
+            { "team": "Flairbnb", "player_season": "H.D.", "playing_as": "H.D.", "stats": {"score": 40, "team": 1, "prevent": 233, "returns": 13, "tags": 13, "grabs": 2, "pops": 6, "drops": 2, "hold": 4, "ndpops": 4, "minutes": 10, "quickret": 5, "retinbase": 5, "goregrab": 2, "flaccids": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 0, "holdagainst": 233, "pupscomp": 27, "pm": 2} },
+            { "team": "Flairbnb", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet", "stats": {"score": 35, "team": 1, "prevent": 105, "pups": 5, "grabs": 4, "pops": 10, "drops": 4, "hold": 44, "tags": 6, "ndpops": 6, "returns": 5, "minutes": 10, "gohandoff": 1, "flaccids": 1, "goregrab": 3, "longholds": 1, "goodhandoff": 1, "handoff": 1, "quickret": 1, "retinbase": 1, "nrtags": 1, "holdagainst": 233, "pupscomp": 27, "pm": 2} },
+            { "team": "Flairbnb", "player_season": "Mueller Time", "playing_as": "Mueller Time", "stats": {"score": 28, "team": 2, "prevent": 76, "returns": 9, "tags": 12, "pups": 3, "grabs": 2, "pops": 5, "drops": 2, "hold": 16, "ndpops": 3, "minutes": 10, "quickret": 3, "retinbase": 2, "handoff": 2, "goodhandoff": 1, "nrtags": 3, "holdagainst": 300, "pupscomp": 27, "pm": -2} },
+            { "team": "Flairbnb", "player_season": "OldCompte", "playing_as": "OldCompte", "stats": {"score": 24, "team": 2, "ndpops": 3, "pops": 12, "grabs": 9, "drops": 9, "hold": 77, "pups": 4, "returns": 6, "tags": 6, "prevent": 15, "minutes": 10, "flaccids": 3, "handoff": 6, "goregrab": 5, "goodhandoff": 5, "longholds": 1, "nrtags": 0, "holdagainst": 300, "pupscomp": 27, "pm": -2} },
+            { "team": "Flairbnb", "player_season": "foxyshazam", "playing_as": "foxyshazam", "stats": {"score": 58, "team": 1, "prevent": 12, "grabs": 18, "pops": 22, "drops": 17, "hold": 91, "returns": 8, "tags": 12, "pups": 5, "ndpops": 5, "captures": 1, "minutes": 10, "gohandoff": 3, "flaccids": 8, "goregrab": 3, "handoff": 7, "goodhandoff": 6, "quickret": 1, "retinbase": 1, "nrtags": 4, "holdagainst": 233, "pupscomp": 27, "pm": 2} },
+            { "team": "Flairbnb", "player_season": "htm", "playing_as": "htm", "stats": {"score": 21, "team": 2, "grabs": 14, "pops": 18, "drops": 14, "hold": 108, "pups": 4, "tags": 6, "prevent": 9, "ndpops": 4, "returns": 4, "minutes": 10, "goodhandoff": 2, "handoff": 2, "goregrab": 4, "longholds": 2, "flaccids": 3, "nrtags": 2, "holdagainst": 300, "pupscomp": 27, "pm": -2} },
+            { "team": "Flairbnb", "player_season": "naga", "playing_as": "naga", "stats": {"score": 50, "team": 1, "grabs": 17, "pops": 17, "drops": 16, "hold": 161, "prevent": 48, "returns": 2, "tags": 3, "ndpops": 1, "pups": 2, "captures": 1, "minutes": 10, "flaccids": 4, "goodhandoff": 4, "handoff": 4, "goregrab": 5, "longholds": 2, "nrtags": 1, "holdagainst": 233, "pupscomp": 27, "pm": 2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Flairbnb", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "DaddyLongLeg", "playing_as": "DaddyLongLeg", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 3, "pops": 17, "grabs": 14, "drops": 14, "hold": 108, "captures": 0, "prevent": 10, "returns": 3, "pups": 5, "holdagainst": 234, "pm": 1, "pupscomp": 25, "ndpops": 3, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "Dirty", "playing_as": "Dirty", "stats": {"team": 1, "minutes": 10, "score": 33, "tags": 11, "pops": 6, "grabs": 3, "drops": 3, "hold": 22, "captures": 0, "prevent": 152, "returns": 8, "pups": 3, "holdagainst": 216, "pm": -1, "pupscomp": 25, "ndpops": 3, "nrtags": 3} },
+            { "team": "Pi-Curious", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 11, "pops": 4, "grabs": 2, "drops": 2, "hold": 15, "captures": 0, "prevent": 71, "returns": 11, "pups": 1, "holdagainst": 234, "pm": 1, "pupscomp": 25, "ndpops": 2, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "Mueller Time", "playing_as": "Mueller Time", "stats": {"team": 1, "minutes": 10, "score": 45, "tags": 16, "pops": 4, "grabs": 2, "drops": 2, "hold": 17, "captures": 0, "prevent": 162, "returns": 16, "pups": 3, "holdagainst": 216, "pm": -1, "pupscomp": 25, "ndpops": 2, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 7, "pops": 1, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 230, "returns": 6, "pups": 1, "holdagainst": 234, "pm": 1, "pupscomp": 25, "ndpops": 1, "nrtags": 1} },
+            { "team": "Pi-Curious", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf", "stats": {"team": 2, "minutes": 10, "score": 79, "tags": 4, "pops": 14, "grabs": 12, "drops": 11, "hold": 93, "captures": 1, "prevent": 49, "returns": 1, "pups": 6, "holdagainst": 234, "pm": 1, "pupscomp": 25, "ndpops": 3, "nrtags": 3} },
+            { "team": "Pi-Curious", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 1, "minutes": 10, "score": 21, "tags": 2, "pops": 16, "grabs": 11, "drops": 11, "hold": 108, "captures": 0, "prevent": 9, "returns": 2, "pups": 2, "holdagainst": 216, "pm": -1, "pupscomp": 25, "ndpops": 5, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "htm", "playing_as": "htm", "stats": {"team": 1, "minutes": 10, "score": 18, "tags": 3, "pops": 18, "grabs": 13, "drops": 13, "hold": 87, "captures": 0, "prevent": 28, "returns": 3, "pups": 4, "holdagainst": 216, "pm": -1, "pupscomp": 25, "ndpops": 5, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Pi-Curious", "blue_team": "Flairbnb", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Flairbnb", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 15, "pops": 8, "grabs": 6, "drops": 6, "hold": 32, "captures": 0, "prevent": 75, "returns": 13, "pups": 2, "holdagainst": 445, "pm": -3, "pupscomp": 18, "ndpops": 2, "nrtags": 2} },
+            { "team": "Flairbnb", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 16, "pops": 10, "grabs": 6, "drops": 5, "hold": 51, "captures": 1, "prevent": 47, "returns": 16, "pups": 1, "holdagainst": 445, "pm": -3, "pupscomp": 18, "ndpops": 5, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "H.D.", "playing_as": "H.D.", "stats": {"team": 1, "minutes": 10, "score": 57, "tags": 23, "pops": 16, "grabs": 8, "drops": 8, "hold": 34, "captures": 0, "prevent": 144, "returns": 15, "pups": 6, "holdagainst": 348, "pm": 3, "pupscomp": 18, "ndpops": 8, "nrtags": 8} },
+            { "team": "Flairbnb", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 6, "pops": 8, "grabs": 7, "drops": 6, "hold": 53, "captures": 1, "prevent": 110, "returns": 6, "pups": 3, "holdagainst": 348, "pm": 3, "pupscomp": 18, "ndpops": 2, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "OldCompte", "playing_as": "OldCompte", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 6, "pops": 12, "grabs": 12, "drops": 11, "hold": 78, "captures": 1, "prevent": 37, "returns": 6, "pups": 2, "holdagainst": 445, "pm": -3, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 6, "pops": 17, "grabs": 15, "drops": 13, "hold": 187, "captures": 1, "prevent": 35, "returns": 6, "pups": 1, "holdagainst": 445, "pm": -3, "pupscomp": 18, "ndpops": 4, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "foxyshazam", "playing_as": "foxyshazam", "stats": {"team": 1, "minutes": 10, "score": 50, "tags": 8, "pops": 13, "grabs": 18, "drops": 13, "hold": 111, "captures": 4, "prevent": 30, "returns": 7, "pups": 3, "holdagainst": 348, "pm": 3, "pupscomp": 18, "ndpops": 0, "nrtags": 1} },
+            { "team": "Flairbnb", "player_season": "naga", "playing_as": "naga", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 5, "pops": 17, "grabs": 17, "drops": 16, "hold": 247, "captures": 1, "prevent": 38, "returns": 5, "pups": 0, "holdagainst": 348, "pm": 3, "pupscomp": 18, "ndpops": 1, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Flairbnb", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 11, "pops": 18, "grabs": 18, "drops": 14, "hold": 189, "captures": 4, "prevent": 14, "returns": 11, "pups": 0, "holdagainst": 326, "pm": 6, "pupscomp": 18, "ndpops": 4, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "DaddyLongLeg", "playing_as": "DaddyLongLeg", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 14, "pops": 12, "grabs": 13, "drops": 12, "hold": 140, "captures": 0, "prevent": 30, "returns": 6, "pups": 4, "holdagainst": 300, "pm": -6, "pupscomp": 18, "ndpops": 0, "nrtags": 8} },
+            { "team": "Pi-Curious", "player_season": "Dirty", "playing_as": "Dirty", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 12, "pops": 10, "grabs": 6, "drops": 6, "hold": 36, "captures": 0, "prevent": 135, "returns": 14, "pups": 1, "holdagainst": 326, "pm": 6, "pupscomp": 18, "ndpops": 4, "nrtags": -2} },
+            { "team": "Pi-Curious", "player_season": "IfYouSirClew", "playing_as": "IfYouSirClew", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 10, "pops": 10, "grabs": 8, "drops": 7, "hold": 46, "captures": 1, "prevent": 142, "returns": 9, "pups": 5, "holdagainst": 300, "pm": -6, "pupscomp": 18, "ndpops": 3, "nrtags": 1} },
+            { "team": "Pi-Curious", "player_season": "Mueller Time", "playing_as": "Mueller Time", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 9, "pops": 5, "grabs": 3, "drops": 2, "hold": 13, "captures": 1, "prevent": 176, "returns": 9, "pups": 0, "holdagainst": 326, "pm": 6, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "OldCompte", "playing_as": "OldCompte", "stats": {"team": 1, "minutes": 10, "score": 45, "tags": 10, "pops": 14, "grabs": 14, "drops": 10, "hold": 62, "captures": 3, "prevent": 67, "returns": 6, "pups": 3, "holdagainst": 326, "pm": 6, "pupscomp": 18, "ndpops": 4, "nrtags": 4} },
+            { "team": "Pi-Curious", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky", "stats": {"team": 2, "minutes": 10, "score": 29, "tags": 12, "pops": 10, "grabs": 6, "drops": 6, "hold": 13, "captures": 0, "prevent": 188, "returns": 12, "pups": 0, "holdagainst": 300, "pm": -6, "pupscomp": 18, "ndpops": 4, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 6, "pops": 21, "grabs": 19, "drops": 18, "hold": 127, "captures": 1, "prevent": 15, "returns": 3, "pups": 5, "holdagainst": 300, "pm": -6, "pupscomp": 18, "ndpops": 3, "nrtags": 3} }
           ]
         }
       ]
@@ -703,7 +960,7 @@
           "tagpro_eu": "2104248", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Land Before Timers", "blue_team": "Over the Pants Handoffs", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "Edd" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "Edd" },
             { "team": "Over the Pants Handoffs", "player_season": "Peach Fuzz", "playing_as": "Peach Fuzz" },
             { "team": "Over the Pants Handoffs", "player_season": "Trapsin", "playing_as": "Trapsin" },
             { "team": "The Land Before Timers", "player_season": "Harry  Kane", "playing_as": "Harry  Kane" },
@@ -716,7 +973,7 @@
           "tagpro_eu": "2104262", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Over the Pants Handoffs", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "Activ.", "playing_as": "Activ." },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "Edd" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "Edd" },
             { "team": "Over the Pants Handoffs", "player_season": "Trapsin", "playing_as": "Trapsin" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "The Land Before Timers", "player_season": "Zanthir", "playing_as": "Zanthir" },
@@ -1182,7 +1439,7 @@
             { "team": "Doggy's Tile", "player_season": "Boo Caw Key", "playing_as": "Boo Caw Key" },
             { "team": "Doggy's Tile", "player_season": "Jelly Rat", "playing_as": "Jelly Rat" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "Peach Fuzz", "playing_as": "Peach Fuzz" },
             { "team": "Over the Pants Handoffs", "player_season": "Trapsin", "playing_as": "Trapsin" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" }
@@ -1210,7 +1467,7 @@
             { "team": "Doggy's Tile", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "Hugo Ball", "playing_as": "Hugo Ball" }
           ]
         },
@@ -1222,7 +1479,7 @@
             { "team": "Doggy's Tile", "player_season": "Rick G. #853", "playing_as": "Rick G. #853" },
             { "team": "Doggy's Tile", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "Hugo Ball", "playing_as": "Hugo Ball" },
             { "team": "Over the Pants Handoffs", "player_season": "Peach Fuzz", "playing_as": "Peach Fuzz" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" }
@@ -1614,7 +1871,7 @@
             { "team": "Ballsagna", "player_season": "height", "playing_as": "height" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         },
@@ -1625,7 +1882,7 @@
             { "team": "Ballsagna", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
             { "team": "Ballsagna", "player_season": "T-Rex", "playing_as": "T-Rex" },
             { "team": "Ballsagna", "player_season": "height", "playing_as": "height" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
@@ -1653,7 +1910,7 @@
             { "team": "Ballsagna", "player_season": "height", "playing_as": "height" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
           ]
         }
@@ -1725,7 +1982,7 @@
           "tagpro_eu": "2123759", "game_in_match": "Game 1 Half 1", "map_name": "Apparition", "map_id": 8275, "red_team": "Over the Pants Handoffs", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Rain", "playing_as": "Rain" },
@@ -1738,7 +1995,7 @@
           "tagpro_eu": "2123776", "game_in_match": "Game 1 Half 2", "map_name": "Apparition", "map_id": 8275, "red_team": "So Long and Thanks for All the Caps", "blue_team": "Over the Pants Handoffs", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "ThePace", "playing_as": "ThePace" },
@@ -1764,7 +2021,7 @@
           "tagpro_eu": "2123807", "game_in_match": "Game 2 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Over the Pants Handoffs", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Rain", "playing_as": "Rain" },
@@ -1817,12 +2074,38 @@
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
             { "team": "The Land Before Timers", "player_season": "linux", "playing_as": "linux" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Ballsagna", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Harry  Kane", "playing_as": "Harry  Kane", "stats": {"team": 2, "minutes": 9, "score": 33, "tags": 16, "pops": 11, "grabs": 10, "drops": 10, "hold": 45, "captures": 0, "prevent": 98, "returns": 16, "pups": 3, "holdagainst": 296, "pm": -5, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Land Before Timers", "player_season": "MisterPeanut", "playing_as": "MisterPeanut", "stats": {"team": 2, "minutes": 9, "score": 25, "tags": 11, "pops": 16, "grabs": 13, "drops": 13, "hold": 51, "captures": 0, "prevent": 75, "returns": 11, "pups": 3, "holdagainst": 296, "pm": -5, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Land Before Timers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o", "stats": {"team": 1, "minutes": 9, "score": 55, "tags": 26, "pops": 6, "grabs": 6, "drops": 6, "hold": 39, "captures": 0, "prevent": 240, "returns": 17, "pups": 5, "holdagainst": 209, "pm": 5, "pupscomp": 18, "ndpops": 0, "nrtags": 9} },
+            { "team": "The Land Before Timers", "player_season": "Some Ball 12", "playing_as": "Some Ball 12", "stats": {"team": 1, "minutes": 9, "score": 50, "tags": 6, "pops": 23, "grabs": 26, "drops": 23, "hold": 92, "captures": 3, "prevent": 27, "returns": 5, "pups": 1, "holdagainst": 209, "pm": 5, "pupscomp": 18, "ndpops": 0, "nrtags": 1} },
+            { "team": "The Land Before Timers", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"team": 2, "minutes": 9, "score": 20, "tags": 15, "pops": 17, "grabs": 12, "drops": 12, "hold": 28, "captures": 0, "prevent": 114, "returns": 15, "pups": 0, "holdagainst": 296, "pm": -5, "pupscomp": 18, "ndpops": 5, "nrtags": 0} },
+            { "team": "The Land Before Timers", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"team": 2, "minutes": 9, "score": 25, "tags": 10, "pops": 18, "grabs": 15, "drops": 15, "hold": 85, "captures": 0, "prevent": 13, "returns": 10, "pups": 3, "holdagainst": 296, "pm": -5, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Land Before Timers", "player_season": "height", "playing_as": "height", "stats": {"team": 1, "minutes": 9, "score": 41, "tags": 21, "pops": 2, "grabs": 2, "drops": 2, "hold": 6, "captures": 0, "prevent": 310, "returns": 21, "pups": 0, "holdagainst": 209, "pm": 5, "pupscomp": 18, "ndpops": 0, "nrtags": 0} },
+            { "team": "The Land Before Timers", "player_season": "narumii", "playing_as": "narumii", "stats": {"team": 1, "minutes": 9, "score": 51, "tags": 9, "pops": 21, "grabs": 24, "drops": 21, "hold": 159, "captures": 2, "prevent": 33, "returns": 7, "pups": 3, "holdagainst": 209, "pm": 5, "pupscomp": 18, "ndpops": 0, "nrtags": 2} }
+          ]
         }
       ]
     },
     {
       "season": "NLTP B S14", "date": "2019-02-27", "week": "Week 6", "team1": "WCYDinos", "team2": "Return of the Jedi",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "WCYDinos", "blue_team": "Return of the Jedi", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Return of the Jedi", "player_season": "$T", "playing_as": "$T", "stats": {"team": 1, "minutes": 10, "score": 44, "tags": 9, "pops": 18, "grabs": 16, "drops": 15, "hold": 88, "captures": 1, "prevent": 30, "returns": 5, "pups": 5, "holdagainst": 258, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 4} },
+            { "team": "Return of the Jedi", "player_season": "CatPuke", "playing_as": "CatPuke", "stats": {"team": 1, "minutes": 10, "score": 15, "tags": 5, "pops": 20, "grabs": 17, "drops": 17, "hold": 119, "captures": 0, "prevent": 21, "returns": 5, "pups": 1, "holdagainst": 258, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "Return of the Jedi", "player_season": "Cheezedoodle", "playing_as": "Cheezedoodle", "stats": {"team": 2, "minutes": 10, "score": 57, "tags": 25, "pops": 5, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 183, "returns": 23, "pups": 2, "holdagainst": 280, "pm": 1, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "Return of the Jedi", "player_season": "DAD.", "playing_as": "DAD.", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 3, "pops": 13, "grabs": 13, "drops": 12, "hold": 81, "captures": 1, "prevent": 25, "returns": 3, "pups": 1, "holdagainst": 280, "pm": 1, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "Return of the Jedi", "player_season": "Jerry.", "playing_as": "Jerry.", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 9, "pops": 8, "grabs": 6, "drops": 5, "hold": 48, "captures": 1, "prevent": 182, "returns": 8, "pups": 1, "holdagainst": 258, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 1} },
+            { "team": "Return of the Jedi", "player_season": "T-Swift!", "playing_as": "T-Swift!", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 7, "pops": 17, "grabs": 14, "drops": 12, "hold": 126, "captures": 1, "prevent": 6, "returns": 2, "pups": 5, "holdagainst": 280, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 5} },
+            { "team": "Return of the Jedi", "player_season": "Zig", "playing_as": "Zig", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 11, "pops": 7, "grabs": 6, "drops": 6, "hold": 25, "captures": 0, "prevent": 166, "returns": 9, "pups": 1, "holdagainst": 258, "pm": -1, "pupscomp": 18, "ndpops": 1, "nrtags": 2} },
+            { "team": "Return of the Jedi", "player_season": "i love HD", "playing_as": "i love HD", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 14, "pops": 6, "grabs": 2, "drops": 1, "hold": 41, "captures": 1, "prevent": 132, "returns": 14, "pups": 2, "holdagainst": 280, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 0} }
+          ]
+        },
         {
           "tagpro_eu": "2123708", "game_in_match": "Game 1 Half 2", "map_name": "Apparition", "map_id": 8275, "red_team": "Return of the Jedi", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 4,
           "players": [
@@ -2284,7 +2567,7 @@
         {
           "tagpro_eu": "2129723", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Over the Pants Handoffs", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 8,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "haha kill me", "playing_as": "haha kill me" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
@@ -2312,7 +2595,7 @@
           "tagpro_eu": "2129759", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Over the Pants Handoffs", "blue_team": "Pi-Curious", "team1_score": 1, "team2_score": 8,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "haha kill me", "playing_as": "haha kill me" },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },
             { "team": "Pi-Curious", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
@@ -2355,6 +2638,99 @@
       ]
     },
     {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 8", "team1": "So Long and Thanks for All the Caps", "team2": "POGGERS",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "POGGERS", "blue_team": "So Long and Thanks for All the Caps", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "So Long and Thanks for All the Caps", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"score": 24, "team": 1, "prevent": 77, "returns": 7, "tags": 8, "ndpops": 8, "pops": 15, "grabs": 7, "drops": 7, "hold": 41, "pups": 1, "minutes": 10, "flaccids": 2, "handoff": 2, "goregrab": 3, "goodhandoff": 1, "gohandoff": 1, "nrtags": 1, "holdagainst": 427, "pupscomp": 27, "pm": -1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Belacqua", "playing_as": "Belacqua", "stats": {"score": 54, "team": 2, "prevent": 158, "returns": 12, "tags": 15, "pups": 4, "grabs": 2, "pops": 6, "drops": 2, "hold": 9, "ndpops": 4, "minutes": 10, "goodhandoff": 1, "handoff": 1, "retinbase": 4, "goregrab": 1, "flaccids": 1, "quickret": 2, "nrtags": 3, "holdagainst": 332, "pupscomp": 27, "pm": 1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "Jarek", "playing_as": "Jarek", "stats": {"score": 47, "team": 1, "game_start": 234, "quit": false, "grabs": 8, "pops": 12, "drops": 7, "hold": 78, "ndpops": 5, "returns": 8, "tags": 9, "pups": 3, "captures": 1, "prevent": 25, "minutes": 10, "gohandoff": 1, "flaccids": 2, "goregrab": 5, "goodhandoff": 3, "handoff": 4, "quickret": 1, "retinbase": 1, "longholds": 1, "coregrab": 1, "keyret": 1, "saves": 1, "nrtags": 1, "holdagainst": 427, "pupscomp": 27, "pm": -1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "bombsquad", "playing_as": "bombsquad", "stats": {"score": 49, "team": 2, "prevent": 141, "pups": 4, "tags": 13, "ndpops": 7, "pops": 8, "returns": 8, "grabs": 1, "drops": 1, "hold": 9, "minutes": 10, "quickret": 3, "retinbase": 4, "keyret": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 5, "holdagainst": 332, "pupscomp": 27, "pm": 1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "infinity.", "playing_as": "infinity.", "stats": {"score": 39, "team": 2, "grabs": 8, "pops": 10, "drops": 8, "hold": 134, "pups": 6, "tags": 15, "returns": 9, "prevent": 25, "ndpops": 2, "minutes": 10, "goodhandoff": 2, "handoff": 3, "goregrab": 5, "quickret": 2, "retinbase": 2, "longholds": 2, "nrtags": 6, "holdagainst": 332, "pupscomp": 27, "pm": 1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "inthesomeday", "playing_as": "inthesomeday", "stats": {"score": 64, "team": 2, "grabs": 12, "pops": 14, "drops": 10, "hold": 275, "captures": 2, "prevent": 25, "ndpops": 4, "returns": 1, "tags": 3, "pups": 5, "minutes": 10, "goregrab": 6, "longholds": 4, "goodhandoff": 6, "handoff": 6, "coregrab": 1, "retinbase": 1, "nrtags": 2, "holdagainst": 332, "pupscomp": 27, "pm": 1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "logi", "playing_as": "logi", "stats": {"score": 11, "team": 1, "grabs": 11, "pops": 16, "drops": 11, "hold": 104, "returns": 4, "tags": 4, "ndpops": 5, "prevent": 2, "pups": 1, "minutes": 10, "goodhandoff": 5, "handoff": 6, "flaccids": 1, "gohandoff": 2, "goregrab": 3, "retinbase": 1, "longholds": 1, "nrtags": 0, "holdagainst": 427, "pupscomp": 27, "pm": -1} },
+            { "team": "So Long and Thanks for All the Caps", "player_season": "rake", "playing_as": "rake", "stats": {"score": 13, "team": 1, "prevent": 27, "returns": 1, "tags": 2, "ndpops": 5, "pops": 14, "grabs": 9, "pups": 3, "drops": 9, "hold": 109, "minutes": 10, "goregrab": 4, "longholds": 3, "handoff": 5, "goodhandoff": 4, "flaccids": 2, "nrtags": 1, "holdagainst": 427, "pupscomp": 27, "pm": -1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "So Long and Thanks for All the Caps", "blue_team": "POGGERS", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "POGGERS", "player_season": "DwarfFortres", "playing_as": "DwarfFortres", "stats": {"score": 58, "team": 2, "prevent": 148, "ndpops": 5, "pops": 8, "returns": 14, "tags": 16, "pups": 5, "grabs": 4, "drops": 3, "hold": 58, "minutes": 10, "quickret": 6, "retinbase": 6, "longholds": 1, "goodhandoff": 2, "handoff": 3, "gohandoff": 2, "nrtags": 2, "holdagainst": 219, "pupscomp": 27, "pm": -2} },
+            { "team": "POGGERS", "player_season": "Jeremy Jamm", "playing_as": "Jeremy Jamm", "stats": {"score": 35, "team": 1, "prevent": 87, "returns": 14, "tags": 15, "ndpops": 8, "pops": 13, "grabs": 6, "drops": 5, "hold": 29, "pups": 3, "minutes": 10, "quickret": 2, "retinbase": 2, "saves": 2, "keyret": 2, "goregrab": 1, "handoff": 3, "gohandoff": 2, "flaccids": 1, "goodhandoff": 1, "nrtags": 1, "holdagainst": 312, "pupscomp": 27, "pm": 2} },
+            { "team": "POGGERS", "player_season": "bombsquad", "playing_as": "bombsquad", "stats": {"score": 17, "team": 1, "prevent": 71, "grabs": 5, "pops": 17, "drops": 5, "hold": 15, "returns": 6, "tags": 10, "pups": 2, "ndpops": 12, "minutes": 10, "goregrab": 2, "flaccids": 2, "quickret": 2, "retinbase": 2, "handoff": 1, "nrtags": 4, "holdagainst": 312, "pupscomp": 27, "pm": 2} },
+            { "team": "POGGERS", "player_season": "creta petram", "playing_as": "creta petram", "stats": {"score": 35, "team": 1, "grabs": 13, "pops": 17, "drops": 12, "hold": 69, "ndpops": 5, "prevent": 44, "pups": 1, "tags": 7, "returns": 5, "captures": 1, "minutes": 10, "flaccids": 6, "goodhandoff": 1, "handoff": 3, "quickret": 3, "retinbase": 4, "goregrab": 4, "nrtags": 2, "holdagainst": 312, "pupscomp": 27, "pm": 2} },
+            { "team": "POGGERS", "player_season": "inthesomeday", "playing_as": "inthesomeday", "stats": {"score": 49, "team": 1, "grabs": 12, "pops": 16, "drops": 10, "hold": 106, "ndpops": 6, "returns": 4, "tags": 4, "prevent": 22, "captures": 2, "pups": 3, "minutes": 10, "goregrab": 2, "quickret": 2, "retinbase": 2, "longholds": 1, "handoff": 3, "flaccids": 3, "goodhandoff": 2, "gohandoff": 1, "nrtags": 0, "holdagainst": 312, "pupscomp": 27, "pm": 2} },
+            { "team": "POGGERS", "player_season": "kl", "playing_as": "kl", "stats": {"score": 33, "team": 2, "pups": 5, "tags": 15, "grabs": 13, "pops": 17, "drops": 13, "hold": 85, "returns": 5, "prevent": 18, "ndpops": 4, "minutes": 10, "goregrab": 4, "goodhandoff": 4, "handoff": 5, "flaccids": 6, "quickret": 1, "retinbase": 1, "gohandoff": 1, "longholds": 1, "nrtags": 10, "holdagainst": 219, "pupscomp": 27, "pm": -2} },
+            { "team": "POGGERS", "player_season": "logi", "playing_as": "logi", "stats": {"score": 25, "team": 2, "ndpops": 3, "pops": 17, "grabs": 14, "drops": 14, "hold": 139, "pups": 4, "prevent": 30, "tags": 5, "returns": 2, "minutes": 10, "flaccids": 2, "longholds": 2, "goregrab": 5, "gohandoff": 1, "goodhandoff": 4, "handoff": 4, "quickret": 1, "retinbase": 1, "nrtags": 3, "holdagainst": 219, "pupscomp": 27, "pm": -2} },
+            { "team": "POGGERS", "player_season": "slime_god", "playing_as": "slime_god", "stats": {"score": 49, "team": 2, "prevent": 172, "returns": 8, "tags": 8, "ndpops": 7, "pops": 9, "pups": 4, "grabs": 3, "drops": 2, "hold": 30, "captures": 1, "minutes": 10, "quickret": 4, "retinbase": 4, "flaccids": 1, "goodhandoff": 1, "handoff": 1, "goregrab": 1, "nrtags": 0, "holdagainst": 219, "pupscomp": 27, "pm": -2} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 8", "team1": "The Land Before Timers", "team2": "Doggy's Tile",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Doggy's Tile", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Glizzy", "playing_as": "Glizzy", "stats": {"score": 28, "team": 1, "grabs": 10, "pops": 14, "drops": 10, "hold": 44, "pups": 5, "returns": 6, "tags": 6, "prevent": 36, "ndpops": 4, "minutes": 10, "flaccids": 5, "quickret": 2, "retinbase": 3, "handoff": 2, "nrtags": 0, "holdagainst": 252, "pupscomp": 27, "pm": -1} },
+            { "team": "The Land Before Timers", "player_season": "Rick G. #853", "playing_as": "Rick G. #853", "stats": {"score": 44, "team": 1, "ndpops": 3, "pops": 5, "prevent": 151, "returns": 18, "tags": 18, "grabs": 2, "drops": 2, "hold": 13, "pups": 1, "minutes": 10, "quickret": 7, "retinbase": 8, "goregrab": 1, "flaccids": 1, "nrtags": 0, "holdagainst": 252, "pupscomp": 27, "pm": -1} },
+            { "team": "The Land Before Timers", "player_season": "Scuba Steve.", "playing_as": "Scuba Steve.", "stats": {"score": 23, "team": 1, "grabs": 11, "pops": 17, "drops": 10, "hold": 34, "pups": 3, "tags": 4, "ndpops": 7, "returns": 2, "captures": 1, "prevent": 12, "minutes": 10, "flaccids": 4, "goodhandoff": 1, "handoff": 2, "goregrab": 1, "quickret": 1, "retinbase": 1, "nrtags": 2, "holdagainst": 252, "pupscomp": 27, "pm": -1} },
+            { "team": "The Land Before Timers", "player_season": "Trituin", "playing_as": "Trituin", "stats": {"score": 37, "team": 2, "prevent": 171, "returns": 7, "tags": 7, "ndpops": 9, "pops": 13, "pups": 4, "grabs": 4, "drops": 4, "hold": 16, "minutes": 10, "quickret": 4, "retinbase": 4, "goodhandoff": 1, "handoff": 1, "flaccids": 1, "nrtags": 0, "holdagainst": 113, "pupscomp": 27, "pm": 1} },
+            { "team": "The Land Before Timers", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"score": 26, "team": 2, "ndpops": 4, "pops": 17, "grabs": 14, "drops": 13, "hold": 87, "pups": 5, "prevent": 4, "tags": 1, "minutes": 10, "flaccids": 3, "goregrab": 5, "handoff": 5, "goodhandoff": 4, "gohandoff": 1, "nrtags": 1, "holdagainst": 113, "pupscomp": 27, "pm": 1} },
+            { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"score": 41, "team": 2, "returns": 9, "tags": 11, "prevent": 250, "ndpops": 7, "pops": 8, "pups": 3, "grabs": 1, "drops": 1, "hold": 3, "minutes": 10, "quickret": 4, "retinbase": 5, "nrtags": 2, "holdagainst": 113, "pupscomp": 27, "pm": 1} },
+            { "team": "The Land Before Timers", "player_season": "juulgang666", "playing_as": "juulgang666", "stats": {"score": 56, "team": 2, "ndpops": 8, "pops": 25, "grabs": 20, "drops": 17, "hold": 146, "returns": 3, "tags": 3, "prevent": 23, "pups": 2, "captures": 3, "minutes": 10, "flaccids": 8, "goodhandoff": 4, "handoff": 4, "goregrab": 6, "longholds": 1, "quickret": 1, "retinbase": 1, "coregrab": 1, "nrtags": 0, "holdagainst": 113, "pupscomp": 27, "pm": 1} },
+            { "team": "The Land Before Timers", "player_season": "nanner", "playing_as": "nanner", "stats": {"score": 45, "team": 1, "prevent": 117, "pups": 4, "tags": 13, "ndpops": 3, "pops": 3, "returns": 7, "grabs": 1, "captures": 1, "hold": 22, "minutes": 10, "quickret": 2, "retinbase": 2, "longholds": 1, "nrtags": 6, "holdagainst": 252, "pupscomp": 27, "pm": -1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Land Before Timers", "blue_team": "Doggy's Tile", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Doggy's Tile", "player_season": "Glizzy", "playing_as": "Glizzy", "stats": {"score": 28, "team": 2, "prevent": 116, "returns": 9, "tags": 14, "pups": 3, "ndpops": 10, "pops": 18, "grabs": 8, "drops": 8, "hold": 24, "minutes": 10, "retinbase": 5, "quickret": 4, "keyret": 1, "flaccids": 4, "goodhandoff": 1, "handoff": 1, "goregrab": 1, "gohandoff": 1, "nrtags": 5, "holdagainst": 344, "pupscomp": 27, "pm": -1} },
+            { "team": "Doggy's Tile", "player_season": "Rick G. #853", "playing_as": "Rick G. #853", "stats": {"score": 41, "team": 2, "grabs": 17, "pops": 16, "drops": 15, "hold": 153, "captures": 1, "returns": 8, "tags": 11, "prevent": 6, "pups": 1, "ndpops": 1, "minutes": 10, "flaccids": 4, "longholds": 3, "gohandoff": 2, "handoff": 7, "goregrab": 3, "goodhandoff": 3, "nrtags": 3, "holdagainst": 344, "pupscomp": 27, "pm": -1} },
+            { "team": "Doggy's Tile", "player_season": "Zanthir", "playing_as": "Zanthir", "stats": {"score": 57, "team": 1, "prevent": 91, "returns": 8, "tags": 11, "grabs": 5, "pops": 8, "drops": 4, "hold": 72, "pups": 7, "captures": 1, "ndpops": 4, "minutes": 10, "quickret": 2, "retinbase": 2, "goregrab": 2, "coregrab": 1, "longholds": 1, "goodhandoff": 1, "handoff": 1, "nrtags": 3, "holdagainst": 263, "pupscomp": 27, "pm": 1} },
+            { "team": "Doggy's Tile", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"score": 35, "team": 1, "prevent": 143, "returns": 12, "tags": 14, "pups": 2, "grabs": 5, "pops": 10, "drops": 5, "hold": 26, "ndpops": 5, "minutes": 10, "quickret": 6, "retinbase": 7, "flaccids": 2, "handoff": 3, "goodhandoff": 1, "goregrab": 1, "nrtags": 2, "holdagainst": 263, "pupscomp": 27, "pm": 1} },
+            { "team": "Doggy's Tile", "player_season": "juulgang666", "playing_as": "juulgang666", "stats": {"score": 31, "team": 1, "grabs": 13, "pops": 16, "drops": 13, "hold": 118, "ndpops": 3, "pups": 5, "returns": 7, "tags": 10, "prevent": 8, "minutes": 10, "handoff": 6, "goregrab": 5, "goodhandoff": 4, "quickret": 2, "retinbase": 1, "flaccids": 3, "longholds": 1, "nrtags": 3, "holdagainst": 263, "pupscomp": 27, "pm": 1} },
+            { "team": "Doggy's Tile", "player_season": "linux", "playing_as": "linux", "stats": {"score": 63, "team": 1, "grabs": 14, "pops": 20, "drops": 13, "hold": 128, "pups": 8, "ndpops": 7, "prevent": 31, "returns": 12, "tags": 15, "captures": 1, "minutes": 10, "goregrab": 5, "goodhandoff": 6, "handoff": 7, "longholds": 2, "keyret": 1, "flaccids": 1, "quickret": 5, "retinbase": 5, "gohandoff": 1, "nrtags": 3, "holdagainst": 263, "pupscomp": 27, "pm": 1} },
+            { "team": "Doggy's Tile", "player_season": "nanner", "playing_as": "nanner", "stats": {"score": 28, "team": 2, "prevent": 103, "returns": 9, "tags": 9, "grabs": 4, "pops": 11, "drops": 4, "hold": 23, "ndpops": 7, "minutes": 10, "goregrab": 3, "flaccids": 2, "goodhandoff": 1, "handoff": 1, "quickret": 1, "retinbase": 1, "nrtags": 0, "holdagainst": 344, "pupscomp": 27, "pm": -1} },
+            { "team": "Doggy's Tile", "player_season": "off constant", "playing_as": "off constant", "stats": {"score": 16, "team": 2, "ndpops": 4, "pops": 16, "grabs": 12, "drops": 12, "hold": 63, "prevent": 31, "returns": 5, "tags": 5, "pups": 1, "minutes": 10, "flaccids": 5, "goodhandoff": 3, "handoff": 5, "gohandoff": 2, "goregrab": 2, "saves": 1, "retinbase": 2, "quickret": 1, "longholds": 1, "nrtags": 0, "holdagainst": 344, "pupscomp": 27, "pm": -1} }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 8", "team1": "WCYDinos", "team2": "The Probots",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "WCYDinos", "blue_team": "The Probots", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "The Probots", "player_season": "$T", "playing_as": "$T", "stats": {"score": 40, "team": 1, "grabs": 15, "pops": 15, "drops": 15, "hold": 163, "pups": 4, "returns": 9, "tags": 9, "prevent": 33, "minutes": 10, "flaccids": 3, "goodhandoff": 3, "handoff": 3, "goregrab": 4, "retinbase": 4, "quickret": 3, "longholds": 2, "nrtags": 0, "holdagainst": 217, "pupscomp": 27, "pm": -1} },
+            { "team": "The Probots", "player_season": "Bric", "playing_as": "Bric", "stats": {"score": 34, "team": 2, "game_start": 380, "quit": false, "grabs": 10, "pops": 13, "drops": 9, "hold": 64, "prevent": 11, "pups": 4, "returns": 3, "tags": 3, "captures": 1, "ndpops": 4, "minutes": 10, "flaccids": 3, "goregrab": 4, "goodhandoff": 2, "handoff": 3, "coregrab": 1, "keyret": 1, "nrtags": 0, "holdagainst": 272, "pupscomp": 27, "pm": 1} },
+            { "team": "The Probots", "player_season": "DENNISsystem", "playing_as": "DENNISsystem", "stats": {"score": 25, "team": 2, "prevent": 165, "returns": 8, "tags": 10, "ndpops": 8, "pops": 12, "grabs": 4, "drops": 4, "hold": 2, "pups": 1, "minutes": 10, "goregrab": 1, "flaccids": 4, "quickret": 4, "retinbase": 4, "goodhandoff": 1, "handoff": 2, "nrtags": 2, "holdagainst": 272, "pupscomp": 27, "pm": 1} },
+            { "team": "The Probots", "player_season": "ItDolph", "playing_as": "ItDolph", "stats": {"score": 61, "team": 1, "game_start": 52, "quit": false, "prevent": 175, "returns": 10, "tags": 10, "pups": 4, "ndpops": 6, "pops": 10, "grabs": 5, "drops": 4, "hold": 36, "captures": 1, "minutes": 10, "quickret": 4, "retinbase": 4, "goregrab": 3, "gohandoff": 1, "cohandoff": 1, "nrtags": 0, "holdagainst": 217, "pupscomp": 27, "pm": -1} },
+            { "team": "The Probots", "player_season": "Jelly Rat", "playing_as": "Jelly Rat", "stats": {"score": 39, "team": 2, "prevent": 124, "returns": 15, "tags": 16, "pups": 4, "ndpops": 6, "pops": 9, "grabs": 3, "drops": 3, "hold": 6, "minutes": 10, "quickret": 5, "retinbase": 5, "gohandoff": 1, "flaccids": 1, "nrtags": 1, "holdagainst": 272, "pupscomp": 27, "pm": 1} },
+            { "team": "The Probots", "player_season": "Makin Bacon", "playing_as": "Makin Bacon", "stats": {"score": 38, "team": 1, "prevent": 207, "ndpops": 3, "pops": 6, "returns": 10, "tags": 10, "grabs": 3, "drops": 3, "hold": 22, "pups": 4, "minutes": 10, "retinbase": 7, "quickret": 4, "longholds": 1, "goodhandoff": 1, "handoff": 1, "flaccids": 2, "nrtags": 0, "holdagainst": 217, "pupscomp": 27, "pm": -1} },
+            { "team": "The Probots", "player_season": "fanseman", "playing_as": "fanseman", "stats": {"score": 23, "team": 1, "grabs": 10, "pops": 17, "drops": 10, "hold": 51, "pups": 4, "ndpops": 7, "tags": 10, "returns": 4, "prevent": 29, "minutes": 10, "gohandoff": 1, "flaccids": 4, "goregrab": 3, "goodhandoff": 7, "handoff": 7, "retinbase": 3, "quickret": 1, "nrtags": 6, "holdagainst": 217, "pupscomp": 27, "pm": -1} },
+            { "team": "The Probots", "player_season": "sandisok", "playing_as": "sandisok", "stats": {"score": 40, "team": 2, "grabs": 20, "captures": 1, "hold": 145, "prevent": 3, "pops": 19, "drops": 19, "pups": 2, "tags": 8, "returns": 5, "minutes": 10, "flaccids": 4, "goodhandoff": 4, "handoff": 5, "goregrab": 2, "gohandoff": 1, "longholds": 1, "nrtags": 3, "holdagainst": 272, "pupscomp": 27, "pm": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Probots", "blue_team": "WCYDinos", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "WCYDinos", "player_season": "$T", "playing_as": "$T", "stats": {"score": 52, "team": 2, "grabs": 18, "pops": 20, "drops": 16, "hold": 149, "pups": 7, "prevent": 22, "captures": 2, "tags": 14, "returns": 6, "ndpops": 4, "minutes": 10, "flaccids": 6, "goodhandoff": 5, "handoff": 7, "goregrab": 6, "longholds": 3, "keyret": 1, "quickret": 3, "retinbase": 3, "gohandoff": 1, "nrtags": 8, "holdagainst": 208, "pupscomp": 27, "pm": 6} },
+            { "team": "WCYDinos", "player_season": "Bric", "playing_as": "Bric", "stats": {"score": 10, "team": 1, "returns": 3, "tags": 3, "ndpops": 7, "pops": 19, "grabs": 12, "drops": 12, "hold": 52, "prevent": 4, "pups": 2, "minutes": 10, "gohandoff": 2, "goodhandoff": 2, "handoff": 5, "flaccids": 5, "goregrab": 1, "saves": 1, "nrtags": 0, "holdagainst": 319, "pupscomp": 27, "pm": -6} },
+            { "team": "WCYDinos", "player_season": "CatPuke", "playing_as": "CatPuke", "stats": {"score": 50, "team": 2, "ndpops": 3, "pops": 14, "grabs": 14, "drops": 11, "hold": 131, "pups": 5, "prevent": 34, "tags": 3, "returns": 2, "captures": 3, "minutes": 10, "gohandoff": 2, "goodhandoff": 4, "handoff": 5, "goregrab": 6, "quickret": 2, "retinbase": 2, "keyret": 1, "flaccids": 2, "coregrab": 1, "longholds": 1, "nrtags": 1, "holdagainst": 208, "pupscomp": 27, "pm": 6} },
+            { "team": "WCYDinos", "player_season": "DENNISsystem", "playing_as": "DENNISsystem", "stats": {"score": 40, "team": 1, "prevent": 110, "returns": 9, "tags": 11, "grabs": 7, "pops": 12, "drops": 6, "hold": 54, "pups": 5, "captures": 1, "ndpops": 6, "minutes": 10, "quickret": 5, "retinbase": 5, "handoff": 2, "longholds": 1, "flaccids": 2, "gohandoff": 2, "goodhandoff": 1, "nrtags": 2, "holdagainst": 319, "pupscomp": 27, "pm": -6} },
+            { "team": "WCYDinos", "player_season": "Makin Bacon", "playing_as": "Makin Bacon", "stats": {"score": 56, "team": 2, "prevent": 153, "pups": 2, "grabs": 2, "pops": 8, "drops": 1, "hold": 13, "ndpops": 7, "returns": 23, "tags": 23, "captures": 1, "minutes": 10, "gohandoff": 1, "cohandoff": 1, "quickret": 9, "retinbase": 13, "keyret": 1, "nrtags": 0, "holdagainst": 208, "pupscomp": 27, "pm": 6} },
+            { "team": "WCYDinos", "player_season": "Poppy Cat", "playing_as": "Poppy Cat", "stats": {"score": 27, "team": 1, "prevent": 87, "returns": 11, "tags": 16, "grabs": 11, "pops": 19, "drops": 11, "hold": 47, "pups": 2, "ndpops": 8, "minutes": 10, "flaccids": 4, "goodhandoff": 2, "handoff": 3, "quickret": 5, "retinbase": 5, "goregrab": 2, "nrtags": 5, "holdagainst": 319, "pupscomp": 27, "pm": -6} },
+            { "team": "WCYDinos", "player_season": "PoppyBall", "playing_as": "PoppyBall", "stats": {"score": 13, "team": 1, "grabs": 16, "pops": 21, "drops": 16, "hold": 55, "prevent": 16, "returns": 4, "tags": 4, "pups": 2, "ndpops": 5, "minutes": 10, "gohandoff": 6, "goodhandoff": 3, "handoff": 5, "goregrab": 2, "flaccids": 8, "quickret": 1, "retinbase": 1, "saves": 1, "nrtags": 0, "holdagainst": 319, "pupscomp": 27, "pm": -6} },
+            { "team": "WCYDinos", "player_season": "Zig", "playing_as": "Zig", "stats": {"score": 51, "team": 2, "prevent": 183, "returns": 10, "tags": 14, "grabs": 5, "captures": 1, "hold": 26, "ndpops": 4, "pops": 8, "drops": 4, "pups": 2, "minutes": 10, "quickret": 4, "retinbase": 4, "goregrab": 2, "coregrab": 1, "goodhandoff": 2, "handoff": 3, "flaccids": 3, "nrtags": 4, "holdagainst": 208, "pupscomp": 27, "pm": 6} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 8", "team1": "Return of the Jedi", "team2": "Ballsagna",
       "games": [
         {
@@ -2381,6 +2757,37 @@
             { "team": "Return of the Jedi", "player_season": "T-Swift!", "playing_as": "T-Swift!" },
             { "team": "Return of the Jedi", "player_season": "i love HD", "playing_as": "i love HD" },
             { "team": "Return of the Jedi", "player_season": "superdiglett", "playing_as": "superdiglett" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP B S14", "date": "2019-01-30", "week": "Week 8", "team1": "Pi-Curious", "team2": "Flairbnb",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Pi-Curious", "blue_team": "Flairbnb", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Flairbnb", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 15, "pops": 2, "grabs": 1, "drops": 1, "hold": 5, "captures": 0, "prevent": 136, "returns": 11, "pups": 3, "holdagainst": 242, "pm": -4, "pupscomp": 27, "ndpops": 1, "nrtags": 4} },
+            { "team": "Flairbnb", "player_season": "Dirty", "playing_as": "Dirty", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 14, "pops": 7, "grabs": 2, "drops": 1, "hold": 19, "captures": 1, "prevent": 147, "returns": 13, "pups": 2, "holdagainst": 242, "pm": -4, "pupscomp": 27, "ndpops": 6, "nrtags": 1} },
+            { "team": "Flairbnb", "player_season": "H.D.", "playing_as": "H.D.", "stats": {"team": 1, "minutes": 10, "score": 48, "tags": 23, "pops": 10, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 234, "returns": 21, "pups": 1, "holdagainst": 166, "pm": 4, "pupscomp": 27, "ndpops": 10, "nrtags": 2} },
+            { "team": "Flairbnb", "player_season": "Jed Bartlet", "playing_as": "Jed Bartlet", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 4, "pops": 10, "grabs": 3, "drops": 2, "hold": 9, "captures": 1, "prevent": 164, "returns": 4, "pups": 3, "holdagainst": 166, "pm": 4, "pupscomp": 27, "ndpops": 8, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "Victor messi", "playing_as": "Victor messi", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 6, "pops": 16, "grabs": 13, "drops": 12, "hold": 50, "captures": 1, "prevent": 15, "returns": 6, "pups": 2, "holdagainst": 242, "pm": -4, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "foxyshazam", "playing_as": "foxyshazam", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 5, "pops": 20, "grabs": 19, "drops": 17, "hold": 107, "captures": 2, "prevent": 19, "returns": 5, "pups": 4, "holdagainst": 166, "pm": 4, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Flairbnb", "player_season": "htm", "playing_as": "htm", "stats": {"team": 2, "minutes": 10, "score": 21, "tags": 12, "pops": 25, "grabs": 20, "drops": 20, "hold": 92, "captures": 0, "prevent": 14, "returns": 5, "pups": 3, "holdagainst": 242, "pm": -4, "pupscomp": 27, "ndpops": 5, "nrtags": 7} },
+            { "team": "Flairbnb", "player_season": "naga", "playing_as": "naga", "stats": {"team": 1, "minutes": 10, "score": 54, "tags": 4, "pops": 18, "grabs": 19, "drops": 16, "hold": 126, "captures": 3, "prevent": 12, "returns": 2, "pups": 9, "holdagainst": 166, "pm": 4, "pupscomp": 27, "ndpops": 2, "nrtags": 2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Flairbnb", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Pi-Curious", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 8, "pops": 17, "grabs": 12, "drops": 11, "hold": 121, "captures": 1, "prevent": 1, "returns": 8, "pups": 3, "holdagainst": 219, "pm": 1, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "DaddyLongLeg", "playing_as": "DaddyLongLeg", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 5, "pops": 13, "grabs": 13, "drops": 12, "hold": 116, "captures": 1, "prevent": 29, "returns": 3, "pups": 7, "holdagainst": 376, "pm": -1, "pupscomp": 27, "ndpops": 1, "nrtags": 2} },
+            { "team": "Pi-Curious", "player_season": "Dirty", "playing_as": "Dirty", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 10, "pops": 10, "grabs": 4, "drops": 4, "hold": 33, "captures": 0, "prevent": 93, "returns": 9, "pups": 1, "holdagainst": 219, "pm": 1, "pupscomp": 27, "ndpops": 6, "nrtags": 1} },
+            { "team": "Pi-Curious", "player_season": "IfYouSirClew", "playing_as": "IfYouSirClew", "stats": {"team": 2, "minutes": 10, "score": 57, "tags": 11, "pops": 12, "grabs": 6, "drops": 5, "hold": 54, "captures": 1, "prevent": 105, "returns": 10, "pups": 9, "holdagainst": 376, "pm": -1, "pupscomp": 27, "ndpops": 7, "nrtags": 1} },
+            { "team": "Pi-Curious", "player_season": "Mueller Time", "playing_as": "Mueller Time", "stats": {"team": 1, "minutes": 10, "score": 47, "tags": 12, "pops": 6, "grabs": 5, "drops": 4, "hold": 48, "captures": 1, "prevent": 118, "returns": 11, "pups": 1, "holdagainst": 219, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 1} },
+            { "team": "Pi-Curious", "player_season": "OldCompte", "playing_as": "OldCompte", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 4, "pops": 13, "grabs": 11, "drops": 9, "hold": 80, "captures": 1, "prevent": 43, "returns": 4, "pups": 5, "holdagainst": 219, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 5, "pops": 6, "grabs": 6, "drops": 6, "hold": 49, "captures": 0, "prevent": 189, "returns": 5, "pups": 0, "holdagainst": 376, "pm": -1, "pupscomp": 27, "ndpops": 0, "nrtags": 0} },
+            { "team": "Pi-Curious", "player_season": "TheYoungWolf", "playing_as": "TheYoungWolf", "stats": {"team": 1, "minutes": 10, "score": 25, "tags": 10, "pops": 15, "grabs": 14, "drops": 13, "hold": 94, "captures": 0, "prevent": 33, "returns": 8, "pups": 1, "holdagainst": 219, "pm": 1, "pupscomp": 27, "ndpops": 2, "nrtags": 2} }
           ]
         }
       ]
@@ -2598,7 +3005,7 @@
             { "team": "Doggy's Tile", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" }
           ]
         },
@@ -2611,7 +3018,7 @@
             { "team": "Doggy's Tile", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" }
           ]
         }
@@ -2940,7 +3347,7 @@
             { "team": "Ballsagna", "player_season": "Some Ball 12", "playing_as": "Some Ball 12" },
             { "team": "Ballsagna", "player_season": "T-Rex", "playing_as": "T-Rex" },
             { "team": "Ballsagna", "player_season": "height", "playing_as": "height" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" }
@@ -3000,7 +3407,7 @@
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
             { "team": "Over the Pants Handoffs", "player_season": "Adarssh", "playing_as": "Adarssh" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Rain", "playing_as": "Rain" },
             { "team": "So Long and Thanks for All the Caps", "player_season": "Trapsin", "playing_as": "Trapsin" },
@@ -3311,7 +3718,7 @@
           "tagpro_eu": "2129775", "game_in_match": "Game 1 Half 1", "map_name": "Market", "map_id": 3996, "red_team": "Over the Pants Handoffs", "blue_team": "Pi-Curious", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Over the Pants Handoffs", "player_season": "11th Cmndmnt", "playing_as": "11th Cmndmnt" },
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Pi-Curious", "player_season": "DaddyLongLeg", "playing_as": "DaddyLongLeg" },
@@ -3323,7 +3730,7 @@
         {
           "tagpro_eu": "2129791", "game_in_match": "Game 1 Half 2", "map_name": "Market", "map_id": 3996, "red_team": "Pi-Curious", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 5,
           "players": [
-            { "team": "Over the Pants Handoffs", "player_season": "Edd", "playing_as": "EDD" },
+            { "team": "Over the Pants Handoffs", "player_season": "EDD", "playing_as": "EDD" },
             { "team": "Over the Pants Handoffs", "player_season": "ballyball", "playing_as": "ballyball" },
             { "team": "Over the Pants Handoffs", "player_season": "infinity.", "playing_as": "infinity." },
             { "team": "Over the Pants Handoffs", "player_season": "kwib", "playing_as": "kwib" },

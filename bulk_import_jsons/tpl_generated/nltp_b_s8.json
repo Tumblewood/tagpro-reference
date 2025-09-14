@@ -155,6 +155,7 @@
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "A$AP Tanador", "playing_as": "A$AP Tanador" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "Bric", "playing_as": "Bric" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "FragrantFowl", "playing_as": "FragrantFowl" },
+    { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "Ken M.", "playing_as": "Ken M." },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "Klovar", "playing_as": "Klovar" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "LemonPledge", "playing_as": "LemonPledge" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "LittlePrince", "playing_as": "LittlePrince" },
@@ -162,7 +163,6 @@
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "Morpheus_", "playing_as": "Morpheus_" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "OG_Diddles", "playing_as": "OG_Diddles" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "Taq", "playing_as": "Taq" },
-    { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "ken m.", "playing_as": "ken m." },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "markam", "playing_as": "markam" },
     { "season": "NLTP B S8", "team": "The Pointless Warriors", "player": "slightlydead", "playing_as": "slightlydead" },
     { "season": "NLTP B S8", "team": "The Team About Nothing", "player": "///AMG", "playing_as": "///AMG" },
@@ -206,10 +206,10 @@
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "Chaos", "playing_as": "Chaos" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "Clydas", "playing_as": "Clydas" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "Herbert.", "playing_as": "Herbert." },
+    { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "Korso", "playing_as": "Korso" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "RAZGRIZ", "playing_as": "RAZGRIZ" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "Ron Hextball", "playing_as": "Ron Hextball" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "bicycle", "playing_as": "bicycle" },
-    { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "korso", "playing_as": "korso" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "mrpieface", "playing_as": "mrpieface" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "panther", "playing_as": "panther" },
     { "season": "NLTP B S8", "team": "Tyle Boyz", "player": "shipmypants", "playing_as": "shipmypants" },
@@ -510,6 +510,19 @@
             { "team": "CircleJukers", "player_season": "L S X", "playing_as": "L S X" },
             { "team": "CircleJukers", "player_season": "Music", "playing_as": "Music" },
             { "team": "CircleJukers", "player_season": "zy", "playing_as": "zy" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "CircleJukers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "CircleJukers", "player_season": "Aunt Jemima", "playing_as": "Aunt Jemima", "stats": {"team": 2, "minutes": 4, "score": 16, "tags": 3, "pops": 7, "grabs": 6, "drops": 4, "hold": 3, "captures": 1, "prevent": 11, "returns": 1, "pups": 1, "holdagainst": 86, "pm": 1, "pupscomp": 6, "ndpops": 3, "nrtags": 2, "flaccids": 4} },
+            { "team": "CircleJukers", "player_season": "Willie", "playing_as": "Willie", "stats": {"team": 2, "minutes": 4, "score": 30, "tags": 7, "pops": 4, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 81, "returns": 7, "pups": 0, "holdagainst": 86, "pm": 1, "pupscomp": 6, "ndpops": 4, "nrtags": 0, "quickret": 3, "retinbase": 3} },
+            { "team": "CircleJukers", "player_season": "archedrapier", "playing_as": "archedrapier", "stats": {"team": 1, "minutes": 4, "score": 106, "tags": 7, "pops": 6, "grabs": 7, "drops": 6, "hold": 31, "captures": 1, "prevent": 2, "returns": 0, "pups": 3, "holdagainst": 7, "pm": -1, "pupscomp": 6, "ndpops": 0, "nrtags": 7, "flaccids": 3, "goregrab": 4, "coregrab": 1, "goodhandoff": 2, "handoff": 3} },
+            { "team": "CircleJukers", "player_season": "eigenvector", "playing_as": "eigenvector", "stats": {"team": 1, "minutes": 4, "score": 41, "tags": 3, "pops": 1, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 158, "returns": 0, "pups": 2, "holdagainst": 7, "pm": -1, "pupscomp": 6, "ndpops": 1, "nrtags": 3} },
+            { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic", "stats": {"team": 2, "minutes": 4, "score": 29, "tags": 6, "pops": 4, "grabs": 1, "drops": 1, "hold": 3, "captures": 0, "prevent": 78, "returns": 6, "pups": 0, "holdagainst": 86, "pm": 1, "pupscomp": 6, "ndpops": 3, "nrtags": 0, "quickret": 4, "retinbase": 4} },
+            { "team": "CircleJukers", "player_season": "ramp", "playing_as": "ramp", "stats": {"team": 1, "minutes": 4, "score": 21, "tags": 0, "pops": 10, "grabs": 10, "drops": 10, "hold": 55, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 7, "pm": -1, "pupscomp": 6, "ndpops": 0, "nrtags": 0, "flaccids": 4, "goregrab": 2, "goodhandoff": 3, "handoff": 3, "gohandoff": 1} },
+            { "team": "CircleJukers", "player_season": "smurf l0rd", "playing_as": "smurf l0rd", "stats": {"team": 1, "minutes": 4, "score": 58, "tags": 7, "pops": 2, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 167, "returns": 7, "pups": 0, "holdagainst": 7, "pm": -1, "pupscomp": 6, "ndpops": 2, "nrtags": 0, "quickret": 6, "retinbase": 6} },
+            { "team": "CircleJukers", "player_season": "sweatypete", "playing_as": "sweatypete", "stats": {"team": 2, "minutes": 4, "score": -1, "tags": 0, "pops": 5, "grabs": 3, "drops": 2, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 86, "pm": 1, "pupscomp": 6, "ndpops": 3, "nrtags": 0, "flaccids": 2} }
           ]
         },
         {
@@ -1399,9 +1412,9 @@
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
             { "team": "Primordial Clam Chowder", "player_season": "I Am Zeus", "playing_as": "I Am Zeus" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "LittlePrince", "playing_as": "LittlePrince" },
             { "team": "The Pointless Warriors", "player_season": "Taq", "playing_as": "Taq" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -1412,9 +1425,9 @@
             { "team": "Primordial Clam Chowder", "player_season": "Gryts", "playing_as": "Gryts" },
             { "team": "Primordial Clam Chowder", "player_season": "I Am Zeus", "playing_as": "I Am Zeus" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "LittlePrince", "playing_as": "LittlePrince" },
             { "team": "The Pointless Warriors", "player_season": "Taq", "playing_as": "Taq" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -1425,9 +1438,9 @@
             { "team": "Primordial Clam Chowder", "player_season": "Gryts", "playing_as": "Gryts" },
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
             { "team": "The Pointless Warriors", "player_season": "LittlePrince", "playing_as": "LittlePrince" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
         },
@@ -1443,6 +1456,20 @@
             { "team": "The Pointless Warriors", "player_season": "Taq", "playing_as": "Taq" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Overtime", "map_name": null, "map_id": null, "red_team": "Primordial Clam Chowder", "blue_team": "The Pointless Warriors", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "The Pointless Warriors", "player_season": "Grommit", "playing_as": "Grommit", "stats": {"team": 1, "minutes": 4, "score": 26, "tags": 1, "pops": 6, "grabs": 5, "drops": 5, "hold": 99, "captures": 0, "prevent": 1, "returns": 1, "pups": 2, "holdagainst": 138, "pm": -1, "pupscomp": 12, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "Gryts", "playing_as": "Gryts", "stats": {"team": 1, "minutes": 4, "score": 49, "tags": 5, "pops": 1, "grabs": 1, "drops": 1, "hold": 2, "captures": 0, "prevent": 87, "returns": 5, "pups": 2, "holdagainst": 138, "pm": -1, "pupscomp": 12, "ndpops": 0, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "Hjalpa", "playing_as": "Hjalpa", "stats": {"team": 1, "minutes": 4, "score": 3, "tags": 0, "pops": 7, "grabs": 6, "drops": 6, "hold": 51, "captures": 0, "prevent": 2, "returns": 0, "pups": 2, "holdagainst": 138, "pm": -1, "pupscomp": 12, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "JohnHurt", "playing_as": "JohnHurt", "stats": {"team": 1, "minutes": 4, "score": 36, "tags": 3, "pops": 2, "grabs": 1, "drops": 1, "hold": 11, "captures": 0, "prevent": 77, "returns": 3, "pups": 1, "holdagainst": 138, "pm": -1, "pupscomp": 12, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar", "stats": {"team": 2, "minutes": 4, "score": 98, "tags": 5, "pops": 1, "grabs": 2, "drops": 1, "hold": 30, "captures": 1, "prevent": 10, "returns": 5, "pups": 2, "holdagainst": 163, "pm": 1, "pupscomp": 12, "ndpops": 0, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "LittlePrince", "playing_as": "LittlePrince", "stats": {"team": 2, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 5, "returns": 0, "pups": 0, "holdagainst": 163, "pm": 1, "pupscomp": 12, "ndpops": 0, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "Taq", "playing_as": "Taq", "stats": {"team": 2, "minutes": 4, "score": 29, "tags": 2, "pops": 3, "grabs": 4, "drops": 3, "hold": 52, "captures": 0, "prevent": 0, "returns": 2, "pups": 1, "holdagainst": 163, "pm": 1, "pupscomp": 12, "ndpops": 0, "nrtags": 0} },
+            { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam", "stats": {"team": 2, "minutes": 4, "score": 39, "tags": 6, "pops": 2, "grabs": 2, "drops": 2, "hold": 8, "captures": 0, "prevent": 27, "returns": 5, "pups": 1, "holdagainst": 163, "pm": 1, "pupscomp": 12, "ndpops": 0, "nrtags": 1} },
+            { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead", "stats": {"team": 2, "minutes": 4, "score": 19, "tags": 1, "pops": 3, "grabs": 3, "drops": 3, "hold": 48, "captures": 0, "prevent": 22, "returns": 1, "pups": 1, "holdagainst": 163, "pm": 1, "pupscomp": 12, "ndpops": 0, "nrtags": 0} }
+          ]
         }
       ]
     },
@@ -1457,9 +1484,9 @@
             { "team": "Attack the Block", "player_season": "Infinite Sky", "playing_as": "Infinite Sky" },
             { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" },
             { "team": "Tyle Boyz", "player_season": "Bomberguy", "playing_as": "Bomberguy" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "bicycle", "playing_as": "bicycle" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" }
+            { "team": "Tyle Boyz", "player_season": "bicycle", "playing_as": "bicycle" }
           ]
         },
         {
@@ -1470,8 +1497,8 @@
             { "team": "Attack the Block", "player_season": "refined", "playing_as": "refined" },
             { "team": "Attack the Block", "player_season": "sandisok", "playing_as": "sandisok" },
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" }
           ]
         },
@@ -1685,8 +1712,8 @@
             { "team": "Coup d'Ecap", "player_season": "Pharaoh", "playing_as": "Pharaoh" },
             { "team": "Coup d'Ecap", "player_season": "RollinStoned", "playing_as": "RollinStoned" },
             { "team": "Coup d'Ecap", "player_season": "Trituin", "playing_as": "Trituin" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -1698,8 +1725,8 @@
             { "team": "Coup d'Ecap", "player_season": "Trituin", "playing_as": "Trituin" },
             { "team": "Coup d'Ecap", "player_season": "cirez D", "playing_as": "cirez D" },
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -1711,9 +1738,9 @@
             { "team": "Coup d'Ecap", "player_season": "Pharaoh", "playing_as": "Pharaoh" },
             { "team": "Coup d'Ecap", "player_season": "RollinStoned", "playing_as": "RollinStoned" },
             { "team": "Coup d'Ecap", "player_season": "Trituin", "playing_as": "Trituin" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
             { "team": "The Pointless Warriors", "player_season": "Master88", "playing_as": "Master88" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -1725,8 +1752,8 @@
             { "team": "Coup d'Ecap", "player_season": "Trituin", "playing_as": "Trituin" },
             { "team": "Coup d'Ecap", "player_season": "cirez D", "playing_as": "cirez D" },
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -2158,7 +2185,7 @@
             { "team": "Coup d'Ecap", "player_season": "Lumberjack", "playing_as": "Lumberjack" },
             { "team": "Coup d'Ecap", "player_season": "cirez D", "playing_as": "cirez D" },
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" },
             { "team": "Tyle Boyz", "player_season": "superdiglett", "playing_as": "superdiglett" }
@@ -2184,9 +2211,9 @@
             { "team": "Coup d'Ecap", "player_season": "Pharaoh", "playing_as": "Pharaoh" },
             { "team": "Coup d'Ecap", "player_season": "RollinStoned", "playing_as": "RollinStoned" },
             { "team": "Coup d'Ecap", "player_season": "Trituin", "playing_as": "Trituin" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "RAZGRIZ", "playing_as": "RAZGRIZ" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
         },
@@ -2345,8 +2372,8 @@
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Master88", "playing_as": "Master88" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -2359,8 +2386,8 @@
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "The Pointless Warriors", "player_season": "----)", "playing_as": "----)" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
-            { "team": "The Pointless Warriors", "player_season": "Master88", "playing_as": "Master88" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." }
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
+            { "team": "The Pointless Warriors", "player_season": "Master88", "playing_as": "Master88" }
           ]
         },
         {
@@ -2371,8 +2398,8 @@
             { "team": "Soviet Ballers", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -2689,8 +2716,8 @@
             { "team": "Scrub Lyfe", "player_season": "chuck mcgill", "playing_as": "chuck mcgill" },
             { "team": "Scrub Lyfe", "player_season": "fortytwo", "playing_as": "fortytwo" },
             { "team": "Scrub Lyfe", "player_season": "knife dawg", "playing_as": "knife dawg" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -2703,8 +2730,8 @@
             { "team": "Scrub Lyfe", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
             { "team": "Scrub Lyfe", "player_season": "Socialism", "playing_as": "Socialism" },
             { "team": "Scrub Lyfe", "player_season": "Toobis", "playing_as": "Toobis" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" },
             { "team": "The Pointless Warriors", "player_season": "slightlydead", "playing_as": "slightlydead" }
           ]
@@ -2717,9 +2744,9 @@
             { "team": "Scrub Lyfe", "player_season": "fortytwo", "playing_as": "fortytwo" },
             { "team": "Scrub Lyfe", "player_season": "knife dawg", "playing_as": "knife dawg" },
             { "team": "The Pointless Warriors", "player_season": "FragrantFowl", "playing_as": "FragrantFowl" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "Klovar", "playing_as": "Klovar" },
             { "team": "The Pointless Warriors", "player_season": "Master88", "playing_as": "Master88" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -2872,8 +2899,8 @@
           "tagpro_eu": "1174000", "game_in_match": "Game 1 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "Whitecaps", "blue_team": "Tyle Boyz", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Whitecaps", "player_season": "Flaccid Trip", "playing_as": "Flaccid Trip" },
             { "team": "Whitecaps", "player_season": "LarryLuciano", "playing_as": "LarryLuciano" },
@@ -2885,8 +2912,8 @@
           "tagpro_eu": "1174039", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Whitecaps", "blue_team": "Tyle Boyz", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Whitecaps", "player_season": "Hermy", "playing_as": "Hermy" },
             { "team": "Whitecaps", "player_season": "Karamat", "playing_as": "Karamat" },
@@ -2897,8 +2924,8 @@
         {
           "tagpro_eu": "1174068", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tyle Boyz", "blue_team": "Whitecaps", "team1_score": 0, "team2_score": 1,
           "players": [
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "mrpieface", "playing_as": "mrpieface" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Whitecaps", "player_season": "Flaccid Trip", "playing_as": "Flaccid Trip" },
@@ -2912,8 +2939,8 @@
           "tagpro_eu": "1174077", "game_in_match": "Game 2 Overtime", "map_name": "EMERALD", "map_id": 9, "red_team": "Tyle Boyz", "blue_team": "Whitecaps", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Whitecaps", "player_season": "Hermy", "playing_as": "Hermy" },
             { "team": "Whitecaps", "player_season": "Karamat", "playing_as": "Karamat" },
@@ -3336,8 +3363,8 @@
             { "team": "CircleJukers", "player_season": "Carys", "playing_as": "Carys" },
             { "team": "CircleJukers", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "LemonPledge", "playing_as": "LemonPledge" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         }
@@ -3354,7 +3381,7 @@
             { "team": "Insane Cap Posse", "player_season": "HowDoiStop", "playing_as": "HowDoiStop" },
             { "team": "Insane Cap Posse", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -3367,7 +3394,7 @@
             { "team": "Insane Cap Posse", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Insane Cap Posse", "player_season": "smol", "playing_as": "smol" },
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -3393,7 +3420,7 @@
             { "team": "Insane Cap Posse", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "Insane Cap Posse", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -3406,7 +3433,7 @@
             { "team": "Insane Cap Posse", "player_season": "LifeOfBrian", "playing_as": "LifeOfBrian" },
             { "team": "Insane Cap Posse", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Tyle Boyz", "player_season": "Chaos", "playing_as": "Chaos" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "Korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "Korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -3855,9 +3882,9 @@
             { "team": "ThunderCaps", "player_season": "Juke Dough", "playing_as": "Juke Dough" },
             { "team": "ThunderCaps", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "RAZGRIZ", "playing_as": "RAZGRIZ" },
-            { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" }
+            { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" }
           ]
         },
         {
@@ -3868,8 +3895,8 @@
             { "team": "ThunderCaps", "player_season": "Jerry.", "playing_as": "Jerry." },
             { "team": "ThunderCaps", "player_season": "Kornbeef", "playing_as": "Kornbeef" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "Ron Hextball", "playing_as": "Ron Hextball" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" }
           ]
         }
@@ -4074,8 +4101,8 @@
             { "team": "Coup d'Ecap", "player_season": "YNLONG", "playing_as": "YNLONG" },
             { "team": "Coup d'Ecap", "player_season": "cirez D", "playing_as": "cirez D" },
             { "team": "The Pointless Warriors", "player_season": "----)", "playing_as": "----)" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -4087,8 +4114,8 @@
             { "team": "Coup d'Ecap", "player_season": "YNLONG", "playing_as": "YNLONG" },
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
             { "team": "The Pointless Warriors", "player_season": "----)", "playing_as": "----)" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "markam", "playing_as": "markam" }
           ]
         },
@@ -4100,9 +4127,9 @@
             { "team": "Coup d'Ecap", "player_season": "RollinStoned", "playing_as": "RollinStoned" },
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
             { "team": "The Pointless Warriors", "player_season": "----)", "playing_as": "----)" },
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
             { "team": "The Pointless Warriors", "player_season": "LemonPledge", "playing_as": "LemonPledge" },
-            { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." }
+            { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" }
           ]
         },
         {
@@ -4127,8 +4154,8 @@
             { "team": "Coup d'Ecap", "player_season": "seek", "playing_as": "seek" },
             { "team": "The Pointless Warriors", "player_season": "----)", "playing_as": "----)" },
             { "team": "The Pointless Warriors", "player_season": "Bric", "playing_as": "Bric" },
-            { "team": "The Pointless Warriors", "player_season": "LemonPledge", "playing_as": "LemonPledge" },
-            { "team": "The Pointless Warriors", "player_season": "ken m.", "playing_as": "Ken M." }
+            { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "Ken M." },
+            { "team": "The Pointless Warriors", "player_season": "LemonPledge", "playing_as": "LemonPledge" }
           ]
         }
       ]
@@ -4316,8 +4343,8 @@
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
             { "team": "Soviet Ballers", "player_season": "Willie", "playing_as": "Willie" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "RAZGRIZ", "playing_as": "RAZGRIZ" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" }
           ]
         },
@@ -4329,8 +4356,8 @@
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
             { "team": "Soviet Ballers", "player_season": "Willie", "playing_as": "Willie" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "RAZGRIZ", "playing_as": "RAZGRIZ" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -4343,7 +4370,7 @@
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
             { "team": "Soviet Ballers", "player_season": "Willie", "playing_as": "Willie" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]
@@ -4356,7 +4383,7 @@
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
             { "team": "Soviet Ballers", "player_season": "Willie", "playing_as": "Willie" },
             { "team": "Tyle Boyz", "player_season": "Clydas", "playing_as": "Clydas" },
-            { "team": "Tyle Boyz", "player_season": "korso", "playing_as": "korso" },
+            { "team": "Tyle Boyz", "player_season": "Korso", "playing_as": "korso" },
             { "team": "Tyle Boyz", "player_season": "panther", "playing_as": "panther" },
             { "team": "Tyle Boyz", "player_season": "shipmypants", "playing_as": "shipmypants" }
           ]

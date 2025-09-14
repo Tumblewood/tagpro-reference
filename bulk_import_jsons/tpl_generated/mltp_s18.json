@@ -19,6 +19,7 @@
     { "season": "MLTP S18", "team": null, "player": "Jimin", "playing_as": "Jimin" },
     { "season": "MLTP S18", "team": null, "player": "Mina Hyoui", "playing_as": "Mina Hyoui" },
     { "season": "MLTP S18", "team": null, "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "MLTP S18", "team": null, "player": "beast mode", "playing_as": "beast mode" },
     { "season": "MLTP S18", "team": null, "player": "mostholdMLTP", "playing_as": "mostholdMLTP" },
     { "season": "MLTP S18", "team": null, "player": "team", "playing_as": "team" },
     { "season": "MLTP S18", "team": null, "player": "tng.", "playing_as": "tng." },
@@ -83,6 +84,32 @@
     {
       "season": "MLTP S18", "date": "2019-05-05", "week": "Week 1", "team1": "Red Hot Chili Poppers", "team2": "The Toronto Captors",
       "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 10, "pops": 16, "grabs": 13, "drops": 11, "hold": 89, "captures": 2, "prevent": 52, "returns": 3, "pups": 1, "holdagainst": 191, "pm": 4, "pupscomp": 18, "ndpops": 5, "nrtags": 7} },
+            { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32", "stats": {"team": 2, "minutes": 10, "score": 40, "tags": 13, "pops": 12, "grabs": 7, "drops": 7, "hold": 20, "captures": 0, "prevent": 174, "returns": 7, "pups": 5, "holdagainst": 196, "pm": -4, "pupscomp": 18, "ndpops": 5, "nrtags": 6} },
+            { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 15, "pops": 12, "grabs": 3, "drops": 3, "hold": 12, "captures": 0, "prevent": 166, "returns": 10, "pups": 4, "holdagainst": 196, "pm": -4, "pupscomp": 18, "ndpops": 9, "nrtags": 5} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Spjork", "playing_as": "Spjork", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 15, "pops": 10, "grabs": 5, "drops": 3, "hold": 39, "captures": 2, "prevent": 170, "returns": 13, "pups": 0, "holdagainst": 191, "pm": 4, "pupscomp": 18, "ndpops": 7, "nrtags": 2} },
+            { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 7, "pops": 18, "grabs": 14, "drops": 13, "hold": 39, "captures": 1, "prevent": 30, "returns": 3, "pups": 5, "holdagainst": 196, "pm": -4, "pupscomp": 18, "ndpops": 5, "nrtags": 4} },
+            { "team": "Red Hot Chili Poppers", "player_season": "WarriOrs", "playing_as": "WarriOrs", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 9, "pops": 17, "grabs": 17, "drops": 14, "hold": 120, "captures": 3, "prevent": 39, "returns": 6, "pups": 1, "holdagainst": 196, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 3} },
+            { "team": "Red Hot Chili Poppers", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 15, "pops": 9, "grabs": 6, "drops": 5, "hold": 33, "captures": 1, "prevent": 158, "returns": 14, "pups": 1, "holdagainst": 191, "pm": 4, "pupscomp": 18, "ndpops": 4, "nrtags": 1} },
+            { "team": "Red Hot Chili Poppers", "player_season": "tng.", "playing_as": "tng.", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 12, "pops": 12, "grabs": 10, "drops": 7, "hold": 35, "captures": 3, "prevent": 110, "returns": 7, "pups": 1, "holdagainst": 191, "pm": 4, "pupscomp": 18, "ndpops": 5, "nrtags": 5} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 11, "pops": 11, "grabs": 8, "drops": 6, "hold": 98, "captures": 2, "prevent": 10, "returns": 5, "pups": 4, "holdagainst": 266, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 6} },
+            { "team": "The Toronto Captors", "player_season": "GLTPVet32", "playing_as": "GLTPVet32", "stats": {"team": 1, "minutes": 10, "score": 56, "tags": 20, "pops": 10, "grabs": 7, "drops": 6, "hold": 78, "captures": 1, "prevent": 144, "returns": 11, "pups": 3, "holdagainst": 223, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 9} },
+            { "team": "The Toronto Captors", "player_season": "RacgiMan", "playing_as": "RacgiMan", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 10, "pops": 13, "grabs": 4, "drops": 4, "hold": 24, "captures": 0, "prevent": 145, "returns": 9, "pups": 1, "holdagainst": 223, "pm": -1, "pupscomp": 18, "ndpops": 9, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "Spjork", "playing_as": "Spjork", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 17, "pops": 12, "grabs": 5, "drops": 5, "hold": 19, "captures": 0, "prevent": 146, "returns": 13, "pups": 2, "holdagainst": 266, "pm": 1, "pupscomp": 18, "ndpops": 7, "nrtags": 4} },
+            { "team": "The Toronto Captors", "player_season": "Tantrew", "playing_as": "Tantrew", "stats": {"team": 1, "minutes": 10, "score": 34, "tags": 4, "pops": 15, "grabs": 13, "drops": 12, "hold": 96, "captures": 1, "prevent": 13, "returns": 2, "pups": 1, "holdagainst": 223, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "The Toronto Captors", "player_season": "WarriOrs", "playing_as": "WarriOrs", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 11, "pops": 17, "grabs": 15, "drops": 13, "hold": 68, "captures": 1, "prevent": 25, "returns": 6, "pups": 4, "holdagainst": 223, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 5} },
+            { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 10, "pops": 10, "grabs": 3, "drops": 3, "hold": 17, "captures": 0, "prevent": 174, "returns": 10, "pups": 2, "holdagainst": 266, "pm": 1, "pupscomp": 18, "ndpops": 7, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng.", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 10, "pops": 23, "grabs": 16, "drops": 14, "hold": 89, "captures": 2, "prevent": 21, "returns": 6, "pups": 1, "holdagainst": 266, "pm": 1, "pupscomp": 18, "ndpops": 9, "nrtags": 4} }
+          ]
+        },
         {
           "tagpro_eu": "2179683", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Red Hot Chili Poppers", "blue_team": "The Toronto Captors", "team1_score": 4, "team2_score": 3,
           "players": [
@@ -910,6 +937,19 @@
             { "team": "Roller Bears", "player_season": "toaster.", "playing_as": "toaster." },
             { "team": "Roller Bears", "player_season": "toasty", "playing_as": "toasty" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Roller Bears", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Roller Bears", "player_season": "Cheetosrule", "playing_as": "Cheetosrule", "stats": {"score": 77, "team": 1, "prevent": 214, "grabs": 5, "captures": 1, "hold": 18, "returns": 13, "tags": 13, "ndpops": 6, "pops": 10, "drops": 4, "minutes": 11, "gohandoff": 3, "cohandoff": 1, "quickret": 6, "retinbase": 6, "flaccids": 2, "goregrab": 1, "nrtags": 0, "holdagainst": 175, "pupscomp": 18, "pm": 2} },
+            { "team": "Roller Bears", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 47, "team": 1, "grabs": 18, "pops": 20, "drops": 16, "hold": 64, "captures": 2, "prevent": 10, "ndpops": 4, "returns": 4, "tags": 7, "minutes": 11, "flaccids": 8, "goregrab": 4, "coregrab": 2, "goodhandoff": 6, "handoff": 7, "quickret": 3, "retinbase": 3, "nrtags": 3, "holdagainst": 175, "pupscomp": 18, "pm": 2, "pups": 1, "gohandoff": 1} },
+            { "team": "Roller Bears", "player_season": "DanP", "playing_as": "DanP", "stats": {"score": 63, "team": 2, "returns": 7, "tags": 12, "grabs": 15, "pops": 14, "drops": 12, "hold": 51, "prevent": 14, "ndpops": 2, "pups": 2, "minutes": 11, "flaccids": 4, "gohandoff": 2, "goregrab": 4, "quickret": 1, "retinbase": 1, "goodhandoff": 3, "handoff": 3, "nrtags": 5, "holdagainst": 294, "pupscomp": 18, "pm": -2, "captures": 1, "coregrab": 1} },
+            { "team": "Roller Bears", "player_season": "Mike Trout", "playing_as": "Mike Trout", "stats": {"score": 67, "team": 1, "prevent": 295, "pups": 2, "returns": 10, "tags": 10, "grabs": 4, "pops": 8, "drops": 3, "hold": 4, "ndpops": 5, "minutes": 11, "retinbase": 7, "goregrab": 2, "flaccids": 2, "quickret": 6, "handoff": 1, "nrtags": 0, "holdagainst": 175, "pupscomp": 18, "pm": 2} },
+            { "team": "Roller Bears", "player_season": "anduin", "playing_as": "anduin", "stats": {"score": 73, "team": 2, "prevent": 153, "returns": 11, "tags": 11, "ndpops": 6, "pops": 10, "pups": 3, "grabs": 5, "drops": 4, "hold": 24, "captures": 1, "minutes": 11, "quickret": 6, "retinbase": 8, "gohandoff": 2, "flaccids": 2, "cohandoff": 1, "handoff": 2, "nrtags": 0, "holdagainst": 294, "pupscomp": 18, "pm": -2, "goregrab": 1} },
+            { "team": "Roller Bears", "player_season": "gg!", "playing_as": "gg!", "stats": {"score": 88, "team": 1, "grabs": 19, "pops": 21, "drops": 17, "hold": 208, "returns": 11, "tags": 11, "ndpops": 4, "captures": 2, "prevent": 9, "pups": 3, "minutes": 11, "longholds": 3, "retinbase": 5, "goregrab": 4, "goodhandoff": 3, "handoff": 3, "flaccids": 6, "keyret": 2, "quickret": 2, "saves": 1, "gohandoff": 2, "nrtags": 0, "holdagainst": 175, "pupscomp": 18, "pm": 2} },
+            { "team": "Roller Bears", "player_season": "toaster.", "playing_as": "toaster.", "stats": {"score": 98, "team": 2, "prevent": 156, "grabs": 7, "pops": 6, "drops": 6, "hold": 31, "returns": 10, "tags": 10, "pups": 1, "minutes": 11, "gohandoff": 2, "flaccids": 5, "quickret": 8, "retinbase": 8, "handoff": 1, "nrtags": 0, "holdagainst": 294, "pupscomp": 18, "pm": -2, "captures": 1, "cohandoff": 1} },
+            { "team": "Roller Bears", "player_season": "toasty", "playing_as": "toasty", "stats": {"score": 90, "team": 2, "grabs": 17, "pops": 20, "drops": 17, "hold": 69, "pups": 6, "returns": 11, "tags": 17, "prevent": 34, "ndpops": 3, "minutes": 11, "flaccids": 7, "goodhandoff": 5, "handoff": 7, "quickret": 3, "retinbase": 5, "gohandoff": 2, "keyret": 1, "nrtags": 6, "holdagainst": 294, "pupscomp": 18, "pm": -2, "goregrab": 1} }
+          ]
         }
       ]
     },
@@ -1124,6 +1164,19 @@
             { "team": "The Toronto Captors", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game" },
             { "team": "The Toronto Captors", "player_season": "swerve", "playing_as": "swerve" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "The Holy Seehawks", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 9, "pops": 20, "grabs": 19, "drops": 17, "hold": 95, "captures": 2, "prevent": 24, "returns": 9, "pups": 0, "holdagainst": 252, "pm": 0, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Holy Seehawks", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 15, "pops": 20, "grabs": 7, "drops": 7, "hold": 9, "captures": 0, "prevent": 156, "returns": 15, "pups": 1, "holdagainst": 252, "pm": 0, "pupscomp": 18, "ndpops": 13, "nrtags": 0} },
+            { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 19, "pops": 9, "grabs": 8, "drops": 8, "hold": 18, "captures": 0, "prevent": 154, "returns": 14, "pups": 3, "holdagainst": 200, "pm": 0, "pupscomp": 18, "ndpops": 1, "nrtags": 5} },
+            { "team": "The Holy Seehawks", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE", "stats": {"team": 2, "minutes": 10, "score": 29, "tags": 9, "pops": 16, "grabs": 15, "drops": 14, "hold": 86, "captures": 1, "prevent": 36, "returns": 7, "pups": 1, "holdagainst": 200, "pm": 0, "pupscomp": 18, "ndpops": 2, "nrtags": 2} },
+            { "team": "The Holy Seehawks", "player_season": "King's Crown", "playing_as": "King's Crown", "stats": {"team": 2, "minutes": 10, "score": 55, "tags": 23, "pops": 7, "grabs": 7, "drops": 6, "hold": 47, "captures": 1, "prevent": 176, "returns": 23, "pups": 3, "holdagainst": 200, "pm": 0, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 13, "pops": 18, "grabs": 20, "drops": 18, "hold": 101, "captures": 2, "prevent": 32, "returns": 8, "pups": 5, "holdagainst": 200, "pm": 0, "pupscomp": 18, "ndpops": 0, "nrtags": 5} },
+            { "team": "The Holy Seehawks", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 14, "pops": 15, "grabs": 9, "drops": 9, "hold": 14, "captures": 0, "prevent": 143, "returns": 14, "pups": 2, "holdagainst": 252, "pm": 0, "pupscomp": 18, "ndpops": 6, "nrtags": 0} },
+            { "team": "The Holy Seehawks", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 8, "pops": 20, "grabs": 21, "drops": 19, "hold": 82, "captures": 2, "prevent": 9, "returns": 8, "pups": 3, "holdagainst": 252, "pm": 0, "pupscomp": 18, "ndpops": 1, "nrtags": 0} }
           ]
         },
         {
@@ -1494,6 +1547,63 @@
       ]
     },
     {
+      "season": "MLTP S18", "date": "0000-00-00", "week": "Week 5", "team1": "The Toronto Captors", "team2": "Roller Bears",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Roller Bears", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 10, "pops": 10, "grabs": 5, "drops": 5, "hold": 25, "captures": 0, "prevent": 137, "returns": 9, "pups": 1, "holdagainst": 189, "pm": 2, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "DanP", "playing_as": "DanP", "stats": {"team": 1, "minutes": 10, "score": 18, "tags": 5, "pops": 21, "grabs": 18, "drops": 18, "hold": 102, "captures": 0, "prevent": 16, "returns": 5, "pups": 1, "holdagainst": 189, "pm": -2, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 9, "pops": 19, "grabs": 14, "drops": 13, "hold": 83, "captures": 1, "prevent": 13, "returns": 6, "pups": 5, "holdagainst": 189, "pm": 2, "pupscomp": 18, "ndpops": 6, "nrtags": 3} },
+            { "team": "The Toronto Captors", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 16, "pops": 1, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 182, "returns": 16, "pups": 0, "holdagainst": 189, "pm": -2, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 18, "pops": 8, "grabs": 5, "drops": 5, "hold": 20, "captures": 0, "prevent": 214, "returns": 18, "pups": 0, "holdagainst": 189, "pm": 2, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 4, "pops": 17, "grabs": 16, "drops": 14, "hold": 61, "captures": 2, "prevent": 20, "returns": 3, "pups": 3, "holdagainst": 189, "pm": 2, "pupscomp": 18, "ndpops": 3, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "toaster.", "playing_as": "toaster.", "stats": {"team": 1, "minutes": 10, "score": 44, "tags": 19, "pops": 10, "grabs": 6, "drops": 6, "hold": 25, "captures": 0, "prevent": 135, "returns": 11, "pups": 5, "holdagainst": 189, "pm": -2, "pupscomp": 18, "ndpops": 4, "nrtags": 8} },
+            { "team": "The Toronto Captors", "player_season": "toasty", "playing_as": "toasty", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 6, "pops": 15, "grabs": 15, "drops": 13, "hold": 62, "captures": 1, "prevent": 19, "returns": 5, "pups": 3, "holdagainst": 189, "pm": -2, "pupscomp": 18, "ndpops": 2, "nrtags": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Roller Bears", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Roller Bears", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 16, "pops": 7, "grabs": 2, "drops": 2, "hold": 1, "captures": 0, "prevent": 199, "returns": 14, "pups": 2, "holdagainst": 140, "pm": 1, "pupscomp": 18, "ndpops": 5, "nrtags": 2} },
+            { "team": "Roller Bears", "player_season": "DanP", "playing_as": "DanP", "stats": {"team": 2, "minutes": 10, "score": 16, "tags": 5, "pops": 17, "grabs": 17, "drops": 16, "hold": 37, "captures": 1, "prevent": 15, "returns": 3, "pups": 1, "holdagainst": 206, "pm": -1, "pupscomp": 18, "ndpops": 1, "nrtags": 2} },
+            { "team": "Roller Bears", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 10, "score": 49, "tags": 2, "pops": 17, "grabs": 19, "drops": 16, "hold": 127, "captures": 3, "prevent": 16, "returns": 2, "pups": 4, "holdagainst": 140, "pm": 1, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 14, "pops": 2, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 199, "returns": 13, "pups": 1, "holdagainst": 206, "pm": -1, "pupscomp": 18, "ndpops": 2, "nrtags": 1} },
+            { "team": "Roller Bears", "player_season": "anduin", "playing_as": "anduin", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 17, "pops": 7, "grabs": 6, "drops": 4, "hold": 32, "captures": 1, "prevent": 137, "returns": 11, "pups": 4, "holdagainst": 206, "pm": -1, "pupscomp": 18, "ndpops": 3, "nrtags": 6} },
+            { "team": "Roller Bears", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 16, "pops": 7, "grabs": 4, "drops": 4, "hold": 8, "captures": 0, "prevent": 241, "returns": 14, "pups": 2, "holdagainst": 140, "pm": 1, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "Roller Bears", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 2, "pops": 20, "grabs": 18, "drops": 16, "hold": 70, "captures": 2, "prevent": 13, "returns": 2, "pups": 2, "holdagainst": 140, "pm": 1, "pupscomp": 18, "ndpops": 4, "nrtags": 0} },
+            { "team": "Roller Bears", "player_season": "toasty", "playing_as": "toasty", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 11, "pops": 15, "grabs": 15, "drops": 13, "hold": 71, "captures": 2, "prevent": 31, "returns": 11, "pups": 2, "holdagainst": 206, "pm": -1, "pupscomp": 18, "ndpops": 2, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Roller Bears", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Roller Bears", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 8, "pops": 11, "grabs": 12, "drops": 9, "hold": 51, "captures": 3, "prevent": 137, "returns": 7, "pups": 2, "holdagainst": 314, "pm": 1, "pupscomp": 18, "ndpops": 2, "nrtags": 1} },
+            { "team": "Roller Bears", "player_season": "DanP", "playing_as": "DanP", "stats": {"team": 2, "minutes": 10, "score": 29, "tags": 6, "pops": 13, "grabs": 14, "drops": 13, "hold": 115, "captures": 1, "prevent": 23, "returns": 4, "pups": 3, "holdagainst": 301, "pm": -1, "pupscomp": 18, "ndpops": 0, "nrtags": 2} },
+            { "team": "Roller Bears", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 10, "score": 25, "tags": 10, "pops": 20, "grabs": 20, "drops": 19, "hold": 149, "captures": 0, "prevent": 37, "returns": 9, "pups": 2, "holdagainst": 314, "pm": 1, "pupscomp": 18, "ndpops": 1, "nrtags": 1} },
+            { "team": "Roller Bears", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 2, "minutes": 10, "score": 57, "tags": 27, "pops": 3, "grabs": 1, "drops": 1, "hold": 14, "captures": 0, "prevent": 168, "returns": 27, "pups": 0, "holdagainst": 301, "pm": -1, "pupscomp": 18, "ndpops": 2, "nrtags": 0} },
+            { "team": "Roller Bears", "player_season": "anduin", "playing_as": "anduin", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 12, "pops": 8, "grabs": 6, "drops": 4, "hold": 23, "captures": 2, "prevent": 106, "returns": 10, "pups": 2, "holdagainst": 301, "pm": -1, "pupscomp": 18, "ndpops": 4, "nrtags": 2} },
+            { "team": "Roller Bears", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 11, "pops": 9, "grabs": 8, "drops": 7, "hold": 27, "captures": 1, "prevent": 144, "returns": 11, "pups": 3, "holdagainst": 314, "pm": 1, "pupscomp": 18, "ndpops": 2, "nrtags": 0} },
+            { "team": "Roller Bears", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 1, "pops": 16, "grabs": 15, "drops": 13, "hold": 74, "captures": 2, "prevent": 22, "returns": 1, "pups": 3, "holdagainst": 314, "pm": 1, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "Roller Bears", "player_season": "toasty", "playing_as": "toasty", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 6, "pops": 12, "grabs": 13, "drops": 11, "hold": 162, "captures": 2, "prevent": 20, "returns": 6, "pups": 3, "holdagainst": 301, "pm": -1, "pupscomp": 18, "ndpops": 1, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Roller Bears", "blue_team": "The Toronto Captors", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 18, "pops": 8, "grabs": 5, "drops": 4, "hold": 7, "captures": 0, "prevent": 196, "returns": 16, "pups": 3, "holdagainst": 203, "pm": 4, "pupscomp": 18, "ndpops": 4, "nrtags": 2} },
+            { "team": "The Toronto Captors", "player_season": "DanP", "playing_as": "DanP", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 5, "pops": 20, "grabs": 19, "drops": 18, "hold": 89, "captures": 1, "prevent": 29, "returns": 2, "pups": 1, "holdagainst": 229, "pm": -4, "pupscomp": 18, "ndpops": 2, "nrtags": 3} },
+            { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 5, "pops": 23, "grabs": 21, "drops": 18, "hold": 154, "captures": 3, "prevent": 34, "returns": 5, "pups": 3, "holdagainst": 203, "pm": 4, "pupscomp": 18, "ndpops": 5, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "Syniikal", "playing_as": "Syniikal", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 22, "pops": 4, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 184, "returns": 21, "pups": 1, "holdagainst": 229, "pm": -4, "pupscomp": 18, "ndpops": 4, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 18, "pops": 6, "grabs": 4, "drops": 3, "hold": 10, "captures": 1, "prevent": 234, "returns": 18, "pups": 3, "holdagainst": 203, "pm": 4, "pupscomp": 18, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 9, "pops": 20, "grabs": 20, "drops": 18, "hold": 58, "captures": 2, "prevent": 23, "returns": 5, "pups": 3, "holdagainst": 203, "pm": 4, "pupscomp": 18, "ndpops": 2, "nrtags": 4} },
+            { "team": "The Toronto Captors", "player_season": "toaster.", "playing_as": "toaster.", "stats": {"team": 1, "minutes": 10, "score": 17, "tags": 7, "pops": 5, "grabs": 4, "drops": 4, "hold": 20, "captures": 0, "prevent": 97, "returns": 7, "pups": 0, "holdagainst": 229, "pm": -4, "pupscomp": 18, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "toasty", "playing_as": "toasty", "stats": {"team": 1, "minutes": 10, "score": 37, "tags": 10, "pops": 20, "grabs": 19, "drops": 17, "hold": 94, "captures": 1, "prevent": 29, "returns": 6, "pups": 4, "holdagainst": 229, "pm": -4, "pupscomp": 18, "ndpops": 3, "nrtags": 4} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "MLTP S18", "date": "2019-06-11", "week": "Week 5", "team1": "Mickey Mouse Poperation", "team2": "Hard Block Life",
       "games": [
         {
@@ -1547,6 +1657,11 @@
             { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT" },
             { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Overtime", "map_name": null, "map_id": null, "red_team": "Hard Block Life", "blue_team": "Mickey Mouse Poperation", "team1_score": 0, "team2_score": 0,
+          "players": [
           ]
         }
       ]
@@ -1846,6 +1961,19 @@
             { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
             { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "Mickey Mouse Poperation", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13", "stats": {"team": 2, "minutes": 10, "score": 54, "tags": 10, "pops": 7, "grabs": 7, "drops": 5, "hold": 37, "captures": 2, "prevent": 108, "returns": 10, "pups": 3, "holdagainst": 171, "pm": -1, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT", "stats": {"team": 2, "minutes": 10, "score": 33, "tags": 7, "pops": 21, "grabs": 19, "drops": 18, "hold": 83, "captures": 1, "prevent": 22, "returns": 7, "pups": 3, "holdagainst": 171, "pm": -1, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Mickey Mouse Poperation", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 16, "pops": 8, "grabs": 4, "drops": 4, "hold": 22, "captures": 0, "prevent": 111, "returns": 16, "pups": 4, "holdagainst": 212, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Mickey Mouse Poperation", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "minutes": 10, "score": 26, "tags": 6, "pops": 13, "grabs": 10, "drops": 9, "hold": 36, "captures": 1, "prevent": 29, "returns": 6, "pups": 2, "holdagainst": 212, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 0} },
+            { "team": "Mickey Mouse Poperation", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "minutes": 10, "score": 59, "tags": 18, "pops": 7, "grabs": 6, "drops": 4, "hold": 35, "captures": 2, "prevent": 120, "returns": 14, "pups": 6, "holdagainst": 212, "pm": 1, "pupscomp": 27, "ndpops": 3, "nrtags": 4} },
+            { "team": "Mickey Mouse Poperation", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 10, "pops": 21, "grabs": 18, "drops": 17, "hold": 78, "captures": 1, "prevent": 25, "returns": 8, "pups": 1, "holdagainst": 212, "pm": 1, "pupscomp": 27, "ndpops": 4, "nrtags": 2} },
+            { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 6, "pops": 23, "grabs": 18, "drops": 18, "hold": 72, "captures": 0, "prevent": 20, "returns": 6, "pups": 2, "holdagainst": 171, "pm": -1, "pupscomp": 27, "ndpops": 5, "nrtags": 0} },
+            { "team": "Mickey Mouse Poperation", "player_season": "refined", "playing_as": "refined", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 9, "pops": 15, "grabs": 7, "drops": 7, "hold": 20, "captures": 0, "prevent": 90, "returns": 16, "pups": 6, "holdagainst": 171, "pm": -1, "pupscomp": 27, "ndpops": 8, "nrtags": -7} }
+          ]
         }
       ]
     },
@@ -1907,6 +2035,76 @@
       ]
     },
     {
+      "season": "MLTP S18", "date": "2019-06-23", "week": "Week 7", "team1": "The Toronto Captors", "team2": "Origin Ducks in 3D",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 10, "pops": 8, "grabs": 2, "drops": 2, "hold": 16, "captures": 0, "prevent": 112, "returns": 10, "pups": 1, "holdagainst": 227, "pm": -2, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 2, "pops": 16, "grabs": 15, "drops": 12, "hold": 55, "captures": 3, "prevent": 19, "returns": 1, "pups": 4, "holdagainst": 261, "pm": 2, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 8, "pops": 17, "grabs": 17, "drops": 16, "hold": 125, "captures": 1, "prevent": 11, "returns": 7, "pups": 3, "holdagainst": 227, "pm": -2, "pupscomp": 27, "ndpops": 1, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "minutes": 10, "score": 53, "tags": 15, "pops": 7, "grabs": 5, "drops": 4, "hold": 68, "captures": 1, "prevent": 111, "returns": 14, "pups": 5, "holdagainst": 261, "pm": 2, "pupscomp": 27, "ndpops": 3, "nrtags": 1} },
+            { "team": "The Toronto Captors", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 10, "pops": 9, "grabs": 3, "drops": 3, "hold": 11, "captures": 0, "prevent": 93, "returns": 10, "pups": 3, "holdagainst": 261, "pm": 2, "pupscomp": 27, "ndpops": 6, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 13, "pops": 17, "grabs": 15, "drops": 14, "hold": 93, "captures": 1, "prevent": 29, "returns": 9, "pups": 3, "holdagainst": 261, "pm": 2, "pupscomp": 27, "ndpops": 3, "nrtags": 4} },
+            { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 13, "pops": 8, "grabs": 6, "drops": 6, "hold": 40, "captures": 0, "prevent": 160, "returns": 11, "pups": 2, "holdagainst": 227, "pm": -2, "pupscomp": 27, "ndpops": 2, "nrtags": 2} },
+            { "team": "The Toronto Captors", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 4, "pops": 13, "grabs": 13, "drops": 11, "hold": 80, "captures": 2, "prevent": 13, "returns": 3, "pups": 6, "holdagainst": 227, "pm": -2, "pupscomp": 27, "ndpops": 2, "nrtags": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Origin Ducks in 3D", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 18, "pops": 8, "grabs": 5, "drops": 5, "hold": 29, "captures": 0, "prevent": 75, "returns": 9, "pups": 5, "holdagainst": 254, "pm": 2, "pupscomp": 27, "ndpops": 3, "nrtags": 9} },
+            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 3, "pops": 17, "grabs": 10, "drops": 9, "hold": 70, "captures": 1, "prevent": 27, "returns": 3, "pups": 0, "holdagainst": 215, "pm": -2, "pupscomp": 27, "ndpops": 8, "nrtags": 0} },
+            { "team": "Origin Ducks in 3D", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 5, "pops": 13, "grabs": 11, "drops": 10, "hold": 51, "captures": 1, "prevent": 13, "returns": 5, "pups": 3, "holdagainst": 254, "pm": 2, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "minutes": 10, "score": 42, "tags": 11, "pops": 9, "grabs": 6, "drops": 6, "hold": 53, "captures": 0, "prevent": 182, "returns": 10, "pups": 3, "holdagainst": 215, "pm": -2, "pupscomp": 27, "ndpops": 3, "nrtags": 1} },
+            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 13, "pops": 7, "grabs": 5, "drops": 5, "hold": 22, "captures": 0, "prevent": 135, "returns": 11, "pups": 7, "holdagainst": 215, "pm": -2, "pupscomp": 27, "ndpops": 2, "nrtags": 2} },
+            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 8, "pops": 22, "grabs": 15, "drops": 15, "hold": 109, "captures": 0, "prevent": 22, "returns": 4, "pups": 3, "holdagainst": 215, "pm": -2, "pupscomp": 27, "ndpops": 7, "nrtags": 4} },
+            { "team": "Origin Ducks in 3D", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 17, "pops": 7, "grabs": 5, "drops": 5, "hold": 32, "captures": 0, "prevent": 108, "returns": 14, "pups": 4, "holdagainst": 254, "pm": 2, "pupscomp": 27, "ndpops": 2, "nrtags": 3} },
+            { "team": "Origin Ducks in 3D", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 10, "score": 49, "tags": 2, "pops": 15, "grabs": 14, "drops": 11, "hold": 103, "captures": 2, "prevent": 11, "returns": 2, "pups": 2, "holdagainst": 254, "pm": 2, "pupscomp": 27, "ndpops": 4, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Origin Ducks in 3D", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 15, "score": 66, "tags": 21, "pops": 14, "grabs": 7, "drops": 7, "hold": 31, "captures": 0, "prevent": 120, "returns": 12, "pups": 8, "holdagainst": 393, "pm": -1, "pupscomp": 39, "ndpops": 7, "nrtags": 9} },
+            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "minutes": 15, "score": 73, "tags": 8, "pops": 26, "grabs": 20, "drops": 16, "hold": 116, "captures": 3, "prevent": 34, "returns": 6, "pups": 1, "holdagainst": 330, "pm": 1, "pupscomp": 39, "ndpops": 10, "nrtags": 2} },
+            { "team": "Origin Ducks in 3D", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 15, "score": 59, "tags": 6, "pops": 21, "grabs": 20, "drops": 17, "hold": 108, "captures": 2, "prevent": 18, "returns": 6, "pups": 3, "holdagainst": 393, "pm": -1, "pupscomp": 39, "ndpops": 4, "nrtags": 0} },
+            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "minutes": 15, "score": 85, "tags": 18, "pops": 11, "grabs": 8, "drops": 8, "hold": 71, "captures": 0, "prevent": 245, "returns": 17, "pups": 5, "holdagainst": 330, "pm": 1, "pupscomp": 39, "ndpops": 3, "nrtags": 1} },
+            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "minutes": 15, "score": 110, "tags": 20, "pops": 8, "grabs": 7, "drops": 6, "hold": 39, "captures": 1, "prevent": 200, "returns": 18, "pups": 10, "holdagainst": 330, "pm": 1, "pupscomp": 39, "ndpops": 2, "nrtags": 2} },
+            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "minutes": 15, "score": 79, "tags": 18, "pops": 28, "grabs": 21, "drops": 20, "hold": 167, "captures": 1, "prevent": 27, "returns": 11, "pups": 6, "holdagainst": 330, "pm": 1, "pupscomp": 39, "ndpops": 8, "nrtags": 7} },
+            { "team": "Origin Ducks in 3D", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 15, "score": 64, "tags": 22, "pops": 18, "grabs": 11, "drops": 11, "hold": 50, "captures": 0, "prevent": 164, "returns": 19, "pups": 4, "holdagainst": 393, "pm": -1, "pupscomp": 39, "ndpops": 7, "nrtags": 3} },
+            { "team": "Origin Ducks in 3D", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 15, "score": 64, "tags": 6, "pops": 27, "grabs": 23, "drops": 20, "hold": 141, "captures": 2, "prevent": 21, "returns": 6, "pups": 2, "holdagainst": 393, "pm": -1, "pupscomp": 39, "ndpops": 7, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "The Toronto Captors", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 20, "pops": 13, "grabs": 3, "drops": 3, "hold": 2, "captures": 0, "prevent": 120, "returns": 13, "pups": 2, "holdagainst": 305, "pm": 4, "pupscomp": 18, "ndpops": 10, "nrtags": 7} },
+            { "team": "The Toronto Captors", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "minutes": 10, "score": 27, "tags": 12, "pops": 20, "grabs": 15, "drops": 15, "hold": 81, "captures": 0, "prevent": 30, "returns": 5, "pups": 4, "holdagainst": 281, "pm": -4, "pupscomp": 18, "ndpops": 5, "nrtags": 7} },
+            { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 10, "pops": 13, "grabs": 13, "drops": 10, "hold": 116, "captures": 3, "prevent": 29, "returns": 8, "pups": 2, "holdagainst": 305, "pm": 4, "pupscomp": 18, "ndpops": 3, "nrtags": 2} },
+            { "team": "The Toronto Captors", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 20, "pops": 14, "grabs": 8, "drops": 8, "hold": 63, "captures": 0, "prevent": 118, "returns": 15, "pups": 3, "holdagainst": 281, "pm": -4, "pupscomp": 18, "ndpops": 6, "nrtags": 5} },
+            { "team": "The Toronto Captors", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 13, "pops": 11, "grabs": 5, "drops": 5, "hold": 26, "captures": 0, "prevent": 151, "returns": 10, "pups": 2, "holdagainst": 281, "pm": -4, "pupscomp": 18, "ndpops": 6, "nrtags": 3} },
+            { "team": "The Toronto Captors", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 10, "pops": 19, "grabs": 17, "drops": 15, "hold": 135, "captures": 2, "prevent": 30, "returns": 5, "pups": 1, "holdagainst": 281, "pm": -4, "pupscomp": 18, "ndpops": 4, "nrtags": 5} },
+            { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 13, "pops": 16, "grabs": 9, "drops": 8, "hold": 93, "captures": 1, "prevent": 126, "returns": 13, "pups": 1, "holdagainst": 305, "pm": 4, "pupscomp": 18, "ndpops": 8, "nrtags": 0} },
+            { "team": "The Toronto Captors", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 2, "minutes": 10, "score": 40, "tags": 14, "pops": 21, "grabs": 17, "drops": 14, "hold": 70, "captures": 2, "prevent": 27, "returns": 8, "pups": 3, "holdagainst": 305, "pm": 4, "pupscomp": 18, "ndpops": 7, "nrtags": 6} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Origin Ducks in 3D", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "minutes": 10, "score": 38, "tags": 22, "pops": 9, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 127, "returns": 12, "pups": 3, "holdagainst": 196, "pm": 1, "pupscomp": 16, "ndpops": 7, "nrtags": 10} },
+            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "minutes": 10, "score": 49, "tags": 10, "pops": 17, "grabs": 13, "drops": 11, "hold": 97, "captures": 2, "prevent": 36, "returns": 7, "pups": 3, "holdagainst": 278, "pm": -1, "pupscomp": 16, "ndpops": 6, "nrtags": 3} },
+            { "team": "Origin Ducks in 3D", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 9, "pops": 20, "grabs": 18, "drops": 18, "hold": 159, "captures": 0, "prevent": 16, "returns": 7, "pups": 2, "holdagainst": 196, "pm": 1, "pupscomp": 16, "ndpops": 2, "nrtags": 2} },
+            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 16, "pops": 16, "grabs": 5, "drops": 5, "hold": 27, "captures": 0, "prevent": 136, "returns": 8, "pups": 3, "holdagainst": 278, "pm": -1, "pupscomp": 16, "ndpops": 11, "nrtags": 8} },
+            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "minutes": 10, "score": 48, "tags": 15, "pops": 9, "grabs": 4, "drops": 4, "hold": 55, "captures": 0, "prevent": 161, "returns": 14, "pups": 3, "holdagainst": 278, "pm": -1, "pupscomp": 16, "ndpops": 5, "nrtags": 1} },
+            { "team": "Origin Ducks in 3D", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 2, "minutes": 10, "score": 4, "tags": 1, "pops": 3, "grabs": 4, "drops": 3, "hold": 17, "captures": 0, "prevent": 4, "returns": 1, "pups": 0, "holdagainst": 278, "pm": -1, "pupscomp": 16, "ndpops": 0, "nrtags": 0} },
+            { "team": "Origin Ducks in 3D", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "minutes": 10, "score": 63, "tags": 10, "pops": 6, "grabs": 6, "drops": 3, "hold": 58, "captures": 3, "prevent": 150, "returns": 8, "pups": 1, "holdagainst": 196, "pm": 1, "pupscomp": 16, "ndpops": 3, "nrtags": 2} },
+            { "team": "Origin Ducks in 3D", "player_season": "swerve", "playing_as": "swerve", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 11, "pops": 15, "grabs": 12, "drops": 11, "hold": 51, "captures": 0, "prevent": 44, "returns": 5, "pups": 1, "holdagainst": 196, "pm": 1, "pupscomp": 16, "ndpops": 4, "nrtags": 6} }
+          ]
+        }
+      ]
+    },
+    {
       "season": "MLTP S18", "date": "2019-06-23", "week": "Week 7", "team1": "Holdin' Gate Warriors", "team2": "The Holy Seehawks",
       "games": [
         {
@@ -1946,6 +2144,19 @@
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
             { "team": "The Holy Seehawks", "player_season": "bright", "playing_as": "bright" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule", "stats": {"score": 50, "team": 2, "prevent": 145, "returns": 16, "tags": 22, "pups": 2, "grabs": 6, "pops": 9, "drops": 6, "hold": 17, "minutes": 10, "flaccids": 3, "quickret": 6, "retinbase": 6, "keyret": 1, "nrtags": 6, "holdagainst": 302, "pupscomp": 17, "pm": -3, "ndpops": 3, "quit": true, "game_end": 25945, "goregrab": 1, "goodhandoff": 1, "handoff": 3} },
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry", "stats": {"score": 38, "team": 2, "prevent": 176, "returns": 14, "tags": 17, "grabs": 8, "pops": 11, "drops": 8, "hold": 33, "minutes": 10, "quickret": 4, "retinbase": 5, "flaccids": 4, "goodhandoff": 2, "handoff": 3, "nrtags": 3, "holdagainst": 302, "pupscomp": 17, "pm": -3, "ndpops": 3, "quit": true, "game_end": 25936, "goregrab": 1, "gohandoff": 1} },
+            { "team": "Holdin' Gate Warriors", "player_season": "DEAD NAN", "playing_as": "DEAD NAN", "stats": {"score": 83, "team": 1, "prevent": 120, "returns": 16, "tags": 17, "ndpops": 10, "pops": 13, "grabs": 4, "drops": 3, "hold": 45, "minutes": 10, "retinbase": 5, "quickret": 7, "saves": 1, "nrtags": 1, "holdagainst": 271, "pupscomp": 17, "pm": 3, "pups": 3, "captures": 1, "goregrab": 2, "longholds": 1, "goodhandoff": 1, "handoff": 1, "coregrab": 1} },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"score": 37, "team": 1, "prevent": 125, "returns": 12, "tags": 18, "ndpops": 5, "pops": 11, "pups": 4, "grabs": 6, "drops": 6, "hold": 32, "minutes": 10, "quickret": 7, "retinbase": 6, "gohandoff": 2, "flaccids": 1, "nrtags": 6, "holdagainst": 271, "pupscomp": 17, "pm": 3, "quit": true, "game_end": 25882, "goodhandoff": 1, "handoff": 1, "goregrab": 1, "keyret": 1} },
+            { "team": "Holdin' Gate Warriors", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE", "stats": {"score": 70, "team": 1, "grabs": 15, "pops": 23, "drops": 14, "hold": 60, "returns": 12, "tags": 17, "ndpops": 9, "pups": 3, "prevent": 22, "minutes": 10, "goregrab": 3, "flaccids": 7, "nrtags": 5, "holdagainst": 271, "pupscomp": 17, "pm": 3, "captures": 1, "handoff": 5, "gohandoff": 1, "coregrab": 1, "goodhandoff": 2, "quickret": 2, "retinbase": 2} },
+            { "team": "Holdin' Gate Warriors", "player_season": "bright", "playing_as": "bright", "stats": {"score": 65, "team": 1, "grabs": 16, "pops": 14, "drops": 12, "hold": 165, "pups": 2, "tags": 7, "captures": 3, "prevent": 21, "returns": 6, "ndpops": 2, "minutes": 10, "flaccids": 4, "goregrab": 6, "coregrab": 2, "nrtags": 1, "holdagainst": 271, "pupscomp": 17, "pm": 3, "quit": true, "game_end": 25738, "gohandoff": 1, "handoff": 3, "longholds": 2, "quickret": 2, "retinbase": 1, "goodhandoff": 2} },
+            { "team": "Holdin' Gate Warriors", "player_season": "d0pe", "playing_as": "d0pe", "stats": {"score": 9, "team": 2, "ndpops": 10, "pops": 26, "tags": 8, "grabs": 17, "drops": 16, "hold": 129, "prevent": 9, "minutes": 10, "flaccids": 5, "gohandoff": 2, "handoff": 4, "goodhandoff": 2, "goregrab": 4, "nrtags": 6, "holdagainst": 302, "pupscomp": 17, "pm": -3, "captures": 1, "pups": 2, "returns": 2, "quit": true, "game_end": 25855, "longholds": 2} },
+            { "team": "Holdin' Gate Warriors", "player_season": "gg!", "playing_as": "gg!", "stats": {"score": 47, "team": 2, "grabs": 18, "pops": 17, "drops": 16, "hold": 92, "returns": 3, "tags": 5, "prevent": 13, "captures": 1, "minutes": 9, "flaccids": 6, "gohandoff": 3, "quickret": 2, "retinbase": 2, "goregrab": 4, "goodhandoff": 1, "handoff": 2, "coregrab": 1, "nrtags": 2, "holdagainst": 302, "pupscomp": 17, "pm": -3, "pups": 1, "ndpops": 1, "quit": true, "game_end": 19983} }
           ]
         }
       ]

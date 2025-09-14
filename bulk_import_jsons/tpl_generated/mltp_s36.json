@@ -35,17 +35,17 @@
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "BallsToYou.", "playing_as": "BallsToYou." },
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Button", "playing_as": "Button" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Ceremony", "playing_as": "Ceremony" },
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Spjork", "playing_as": "Spjork" },
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Wraith", "playing_as": "Wraith" },
-    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "ceremony", "playing_as": "ceremony" },
     { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "deku", "playing_as": "deku" },
+    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "ASAP", "playing_as": "ASAP" },
     { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "Kep", "playing_as": "Kep" },
     { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "Vader", "playing_as": "Vader" },
-    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "asap", "playing_as": "asap" },
     { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "bbb", "playing_as": "bbb" },
     { "season": "MLTP S36", "team": "The Blockettes", "player": "NameLEss", "playing_as": "NameLEss" },
     { "season": "MLTP S36", "team": "The Blockettes", "player": "Spheroid.", "playing_as": "Spheroid." },
-    { "season": "MLTP S36", "team": "The Blockettes", "player": "baIl-E", "playing_as": "baIl-E" },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "baIl-e", "playing_as": "baIl-e" },
     { "season": "MLTP S36", "team": "The Blockettes", "player": "joy.", "playing_as": "joy." },
     { "season": "MLTP S36", "team": "The Blockettes", "player": "rina", "playing_as": "rina" },
     { "season": "MLTP S36", "team": "The Land Before Timers", "player": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -60,9 +60,9 @@
         {
           "tagpro_eu": "3973119", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 2, "team2_score": 8,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
@@ -73,9 +73,9 @@
         {
           "tagpro_eu": "3973100", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Blockettes", "blue_team": "Returns of the Jedi", "team1_score": 6, "team2_score": 4,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
@@ -86,9 +86,9 @@
         {
           "tagpro_eu": "3973083", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 5, "team2_score": 9,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
@@ -99,9 +99,9 @@
         {
           "tagpro_eu": "3973063", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Blockettes", "blue_team": "Returns of the Jedi", "team1_score": 12, "team2_score": 2,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
@@ -112,9 +112,9 @@
         {
           "tagpro_eu": "3973047", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 6, "team2_score": 8,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "asap" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
@@ -275,8 +275,8 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
           ]
         },
@@ -288,8 +288,8 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
           ]
         },
@@ -301,8 +301,8 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
           ]
         },
@@ -314,8 +314,8 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
           ]
         },
@@ -327,8 +327,8 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
           ]
         }
@@ -348,6 +348,19 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "Harlem Globebotters", "blue_team": "3000 Split Club", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"team": 2, "minutes": 10, "score": 98, "tags": 13, "pops": 7, "grabs": 5, "drops": 4, "hold": 50, "captures": 1, "prevent": 150, "returns": 11, "pups": 1, "holdagainst": 298, "pm": 0, "pupscomp": 18, "ndpops": 3, "nrtags": 2, "quickret": 1, "retinbase": 1} },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka", "stats": {"team": 2, "minutes": 10, "score": 65, "tags": 13, "pops": 13, "grabs": 15, "drops": 13, "hold": 90, "captures": 2, "prevent": 41, "returns": 11, "pups": 4, "holdagainst": 298, "pm": 0, "pupscomp": 18, "ndpops": 0, "nrtags": 2, "retinbase": 1} },
+            { "team": "3000 Split Club", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 1, "minutes": 9, "score": 133, "tags": 15, "pops": 12, "grabs": 12, "drops": 10, "hold": 57, "captures": 2, "prevent": 150, "returns": 14, "pups": 2, "holdagainst": 275, "pm": 0, "pupscomp": 18, "ndpops": 2, "nrtags": 1, "gohandoff": 1, "flaccids": 1, "retinbase": 2, "quickret": 2, "keyret": 1} },
+            { "team": "3000 Split Club", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"team": 1, "minutes": 10, "score": 121, "tags": 10, "pops": 18, "grabs": 18, "drops": 16, "hold": 128, "captures": 1, "prevent": 54, "returns": 8, "pups": 2, "holdagainst": 275, "pm": 0, "pupscomp": 18, "ndpops": 2, "nrtags": 2, "flaccids": 2, "goregrab": 2, "goodhandoff": 1, "handoff": 1} },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi", "stats": {"team": 2, "minutes": 10, "score": 86, "tags": 13, "pops": 12, "grabs": 9, "drops": 9, "hold": 45, "captures": 0, "prevent": 147, "returns": 13, "pups": 2, "holdagainst": 298, "pm": 0, "pupscomp": 18, "ndpops": 3, "nrtags": 0, "quickret": 2, "retinbase": 3, "gohandoff": 1, "flaccids": 1} },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty", "stats": {"team": 2, "minutes": 10, "score": 89, "tags": 15, "pops": 12, "grabs": 14, "drops": 12, "hold": 90, "captures": 2, "prevent": 76, "returns": 9, "pups": 5, "holdagainst": 298, "pm": 0, "pupscomp": 18, "ndpops": 0, "nrtags": 6, "flaccids": 1, "quickret": 1, "retinbase": 1} },
+            { "team": "3000 Split Club", "player_season": "aaron", "playing_as": "aaron", "stats": {"team": 1, "minutes": 10, "score": 104, "tags": 12, "pops": 8, "grabs": 3, "drops": 3, "hold": 8, "captures": 0, "prevent": 189, "returns": 11, "pups": 1, "holdagainst": 275, "pm": 0, "pupscomp": 18, "ndpops": 5, "nrtags": 1} },
+            { "team": "3000 Split Club", "player_season": "king krule", "playing_as": "king krule", "stats": {"team": 1, "minutes": 10, "score": 104, "tags": 7, "pops": 17, "grabs": 17, "drops": 15, "hold": 105, "captures": 2, "prevent": 36, "returns": 5, "pups": 1, "holdagainst": 275, "pm": 0, "pupscomp": 18, "ndpops": 2, "nrtags": 2, "goodhandoff": 1, "handoff": 1, "flaccids": 1} }
           ]
         },
         {
@@ -538,11 +551,11 @@
           "tagpro_eu": "3978884", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -551,11 +564,11 @@
           "tagpro_eu": "3978900", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Blockettes", "blue_team": "I Saw the TP Glow", "team1_score": 4, "team2_score": 7,
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -564,11 +577,11 @@
           "tagpro_eu": "3978917", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 9,
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -577,11 +590,11 @@
           "tagpro_eu": "3978931", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Blockettes", "blue_team": "I Saw the TP Glow", "team1_score": 2, "team2_score": 10,
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -590,11 +603,11 @@
           "tagpro_eu": "3978942", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 9,
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -753,7 +766,7 @@
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -766,7 +779,7 @@
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -820,11 +833,11 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -833,11 +846,11 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -846,11 +859,11 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -859,11 +872,11 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -872,11 +885,11 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         }
@@ -890,8 +903,8 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
             { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
@@ -903,8 +916,8 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
             { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
@@ -916,8 +929,8 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
             { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
@@ -929,8 +942,8 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
             { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
@@ -942,8 +955,8 @@
           "players": [
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
             { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
             { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
@@ -1032,9 +1045,9 @@
             { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
           ]
         },
@@ -1045,9 +1058,9 @@
             { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
           ]
         },
@@ -1058,9 +1071,9 @@
             { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
           ]
         },
@@ -1071,9 +1084,9 @@
             { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
           ]
         },
@@ -1084,9 +1097,9 @@
             { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
           ]
         }
@@ -1103,7 +1116,7 @@
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1116,7 +1129,7 @@
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1129,7 +1142,7 @@
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1142,7 +1155,7 @@
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1155,7 +1168,7 @@
             { "team": "3000 Split Club", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1244,8 +1257,8 @@
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1257,8 +1270,8 @@
             { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1270,8 +1283,8 @@
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1283,8 +1296,8 @@
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1296,8 +1309,8 @@
             { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         }
       ]
@@ -1312,9 +1325,9 @@
             { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1325,9 +1338,9 @@
             { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1338,9 +1351,9 @@
             { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1351,9 +1364,9 @@
             { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1364,9 +1377,9 @@
             { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         }
@@ -1383,7 +1396,7 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1396,7 +1409,7 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1409,7 +1422,7 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1422,7 +1435,7 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1435,7 +1448,7 @@
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1520,7 +1533,7 @@
           "tagpro_eu": "4008299", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -1533,7 +1546,7 @@
           "tagpro_eu": "4008309", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "The Blockettes", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -1546,7 +1559,7 @@
           "tagpro_eu": "4008320", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 3,
           "players": [
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -1559,7 +1572,7 @@
           "tagpro_eu": "4008329", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "The Blockettes", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -1572,7 +1585,7 @@
           "tagpro_eu": "4008343", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -1593,9 +1606,9 @@
             { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1606,9 +1619,9 @@
             { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1619,9 +1632,9 @@
             { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1632,9 +1645,9 @@
             { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         },
@@ -1645,9 +1658,9 @@
             { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
           ]
         }
@@ -1665,8 +1678,8 @@
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1678,8 +1691,8 @@
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1691,8 +1704,8 @@
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1704,8 +1717,8 @@
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1717,8 +1730,8 @@
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         }
       ]
@@ -1729,9 +1742,9 @@
         {
           "tagpro_eu": "4012029", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 4, "team2_score": 3,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
@@ -1742,9 +1755,9 @@
         {
           "tagpro_eu": "4012044", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Returns of the Jedi", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
@@ -1755,9 +1768,9 @@
         {
           "tagpro_eu": "4012062", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 2, "team2_score": 4,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
@@ -1768,9 +1781,9 @@
         {
           "tagpro_eu": "4012079", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Returns of the Jedi", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 7,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
@@ -1781,9 +1794,9 @@
         {
           "tagpro_eu": "4012093", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 3,
           "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
             { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
-            { "team": "Returns of the Jedi", "player_season": "asap", "playing_as": "ASAP" },
             { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
             { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
@@ -1805,8 +1818,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1818,8 +1831,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1831,8 +1844,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1844,8 +1857,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1857,8 +1870,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         },
         {
@@ -1870,8 +1883,8 @@
             { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
-            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
-            { "team": "I Saw the TP Glow", "player_season": "ceremony", "playing_as": "Ceremony" }
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
           ]
         }
       ]
@@ -1887,7 +1900,7 @@
             { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1900,7 +1913,7 @@
             { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1913,7 +1926,7 @@
             { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1926,7 +1939,7 @@
             { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1939,7 +1952,7 @@
             { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
             { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "The Blockettes", "player_season": "baIl-E", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
             { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
             { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
           ]
@@ -1973,6 +1986,19 @@
             { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
             { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "Arctag IceCaps", "blue_team": "Harlem Globebotters", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Bamboozler", "playing_as": "Bamboozler", "stats": {"team": 1, "minutes": 9, "score": 70, "tags": 7, "pops": 8, "grabs": 6, "drops": 6, "hold": 60, "captures": 0, "prevent": 97, "returns": 7, "pups": 2, "holdagainst": 325, "pm": 5, "pupscomp": 16, "ndpops": 2, "nrtags": 0, "flaccids": 1, "gohandoff": 1, "goodhandoff": 1, "handoff": 2, "saves": 1, "goregrab": 2, "longholds": 1, "quickret": 1, "retinbase": 2} },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman", "stats": {"team": 2, "minutes": 9, "score": 117, "tags": 16, "pops": 12, "grabs": 9, "drops": 9, "hold": 30, "captures": 0, "prevent": 102, "returns": 16, "pups": 1, "holdagainst": 346, "pm": -5, "pupscomp": 16, "ndpops": 3, "nrtags": 0, "quickret": 2, "retinbase": 3, "goodhandoff": 1, "handoff": 2, "flaccids": 3} },
+            { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32", "stats": {"team": 1, "minutes": 9, "score": 87, "tags": 11, "pops": 15, "grabs": 12, "drops": 11, "hold": 78, "captures": 1, "prevent": 35, "returns": 10, "pups": 2, "holdagainst": 325, "pm": 5, "pupscomp": 16, "ndpops": 4, "nrtags": 1, "goodhandoff": 3, "handoff": 3, "goregrab": 2, "longholds": 1, "gohandoff": 2, "cohandoff": 1, "retinbase": 4, "quickret": 3} },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 2, "minutes": 9, "score": 97, "tags": 9, "pops": 15, "grabs": 16, "drops": 15, "hold": 147, "captures": 1, "prevent": 24, "returns": 9, "pups": 3, "holdagainst": 346, "pm": -5, "pupscomp": 16, "ndpops": 0, "nrtags": 0, "flaccids": 3, "goregrab": 4, "coregrab": 1, "quickret": 2, "retinbase": 4, "goodhandoff": 3, "handoff": 3, "longholds": 1, "gohandoff": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"team": 2, "minutes": 9, "score": 47, "tags": 5, "pops": 14, "grabs": 13, "drops": 12, "hold": 102, "captures": 0, "prevent": 14, "returns": 4, "pups": 1, "holdagainst": 346, "pm": -5, "pupscomp": 16, "ndpops": 2, "nrtags": 1, "longholds": 2, "goregrab": 2, "goodhandoff": 3, "handoff": 3, "gohandoff": 1, "flaccids": 2} },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron", "stats": {"team": 2, "minutes": 9, "score": 75, "tags": 10, "pops": 6, "grabs": 6, "drops": 5, "hold": 46, "captures": 1, "prevent": 83, "returns": 5, "pups": 3, "holdagainst": 346, "pm": -5, "pupscomp": 16, "ndpops": 1, "nrtags": 5, "quickret": 1, "retinbase": 1, "goregrab": 1, "longholds": 1, "goodhandoff": 1, "handoff": 1, "flaccids": 2, "gohandoff": 1} },
+            { "team": "Harlem Globebotters", "player_season": "okthen", "playing_as": "okthen", "stats": {"team": 1, "minutes": 9, "score": 169, "tags": 7, "pops": 10, "grabs": 15, "drops": 9, "hold": 137, "captures": 5, "prevent": 43, "returns": 7, "pups": 3, "holdagainst": 325, "pm": 5, "pupscomp": 16, "ndpops": 1, "nrtags": 0, "flaccids": 2, "longholds": 2, "handoff": 2, "goregrab": 1, "goodhandoff": 1, "quickret": 2, "retinbase": 2} },
+            { "team": "Harlem Globebotters", "player_season": "vic", "playing_as": "vic", "stats": {"team": 1, "minutes": 9, "score": 135, "tags": 15, "pops": 14, "grabs": 10, "drops": 9, "hold": 71, "captures": 1, "prevent": 109, "returns": 15, "pups": 1, "holdagainst": 325, "pm": 5, "pupscomp": 16, "ndpops": 5, "nrtags": 0, "quickret": 4, "retinbase": 4, "keyret": 1, "flaccids": 2, "gohandoff": 1, "goodhandoff": 2, "handoff": 5, "goregrab": 3, "coregrab": 1} }
           ]
         },
         {

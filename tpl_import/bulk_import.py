@@ -34,6 +34,9 @@ with open("bulk_import_jsons/tpl_api_links.json", encoding="utf-8") as f:
 with open("bulk_import_jsons/all_team_seasons.json", encoding="utf-8") as f:
     all_team_seasons = json.load(f)
 
+with open("tpl_import/schedules.json") as f:
+    schedules = json.load(f)
+
 seasons: Dict[str, List[Dict[str, Any]]] = {}
 for g in tpl_api_games:
     season_name = f"{g['league']} S{g['season']}"
@@ -76,35 +79,44 @@ class DetectJoinHandler(tagpro_eu.PlayerEventHandler):
         self.team = new_team
 
 
-def get_t1_is_red(g: Dict[str, Any], player_teams: Dict[str, Dict[str, int]]) -> bool:
+def get_t1_is_red(m: Optional[tagpro_eu.Match], g: Dict[str, Any], player_teams: Dict[str, Dict[str, int]]) -> bool:
     # Get team info from all_team_seasons
     t1_abbr, _, t1_roster, _ = get_team_info(g['team1'], season_name)
     t2_abbr, _, t2_roster, _ = get_team_info(g['team2'], season_name)
 
-    # Determine which team was red
-    red_name: str = m.team_red.name
-    blue_name: str = m.team_blue.name
     t1_is_red = 0
-    if red_name.strip().lower().endswith(t1_abbr.lower()):
-        t1_is_red += 9
-    elif red_name.strip().lower().endswith(t2_abbr.lower()):
-        t1_is_red -= 9
-    if blue_name.strip().lower().endswith(t1_abbr.lower()):
-        t1_is_red -= 9
-    elif red_name.strip().lower().endswith(t2_abbr.lower()):
-        t1_is_red += 9
-    for p in m.players:
-        if p.team is None:
-            handler = DetectJoinHandler()
-            p.parse_events(handler)
-            p_is_red = 2 if handler.team.name == "red" else -2
-        else:
-            p_is_red = 2 if p.team.name == red_name else -2
-        if p.name.lower() in [o.lower() for o in t1_roster]:
-            t1_is_red += p_is_red
-        elif p.name.lower() in [o.lower() for o in t2_roster]:
-            t1_is_red -= p_is_red
-        t1_is_red += 1/16 * p_is_red * (player_teams[p.name.lower()][g['team1']] - player_teams[p.name.lower()][g['team2']])
+    if m is None:
+        for p in g['stats']:
+            p_is_red = 2 if g['stats'][p]['team'] == 1 else -2 if g['stats'][p]['team'] == 2 else 0
+            if p.lower() in [o.lower() for o in t1_roster]:
+                t1_is_red += p_is_red
+            elif p.lower() in [o.lower() for o in t2_roster]:
+                t1_is_red -= p_is_red
+            t1_is_red += 1/16 * p_is_red * (player_teams[p.lower()][g['team1']] - player_teams[p.lower()][g['team2']])
+    else:
+        red_name: str = m.team_red.name
+        blue_name: str = m.team_blue.name
+        if red_name.strip().lower().endswith(t1_abbr.lower()):
+            t1_is_red += 9
+        elif red_name.strip().lower().endswith(t2_abbr.lower()):
+            t1_is_red -= 9
+        if blue_name.strip().lower().endswith(t1_abbr.lower()):
+            t1_is_red -= 9
+        elif red_name.strip().lower().endswith(t2_abbr.lower()):
+            t1_is_red += 9
+
+        for p in m.players:
+            if p.team is None:
+                handler = DetectJoinHandler()
+                p.parse_events(handler)
+                p_is_red = 2 if handler.team.name == "red" else -2
+            else:
+                p_is_red = 2 if p.team.name == red_name else -2
+            if p.name.lower() in [o.lower() for o in t1_roster]:
+                t1_is_red += p_is_red
+            elif p.name.lower() in [o.lower() for o in t2_roster]:
+                t1_is_red -= p_is_red
+            t1_is_red += 1/16 * p_is_red * (player_teams[p.name.lower()][g['team1']] - player_teams[p.name.lower()][g['team2']])
     
     return t1_is_red > 0
 
@@ -120,6 +132,47 @@ def get_player_season_name(name: str, capitalization: Dict[str, Dict[str, int]])
     return best_name
 
 
+def do_player_first_pass(g: Dict[str, Any], capitalization: Dict[str, Dict[str, int]], player_teams: Dict[str, Dict[str, int]]):
+    m: Optional[tagpro_eu.Match] = match_from_links(g)
+    if "stats" not in g:
+        print(g)
+        1/0
+    if m is None:
+        for p in g['stats']:
+            # Find the most used capitalization for players who change it during the season
+            if p.lower() not in capitalization:
+                capitalization[p.lower()] = {}
+            if p not in capitalization[p.lower()]:
+                capitalization[p.lower()][p] = 0
+            capitalization[p.lower()][p] += 1
+
+            if p.lower() not in player_teams:
+                player_teams[p.lower()] = {}
+            if g['team1'] not in player_teams[p.lower()]:
+                player_teams[p.lower()][g['team1']] = 0
+            if g['team2'] not in player_teams[p.lower()]:
+                player_teams[p.lower()][g['team2']] = 0
+            player_teams[p.lower()][g['team1']] += 1
+            player_teams[p.lower()][g['team2']] += 1
+    else:
+        for p in m.players:
+            # Find the most used capitalization for players who change it during the season
+            if p.name.lower() not in capitalization:
+                capitalization[p.name.lower()] = {}
+            if p.name not in capitalization[p.name.lower()]:
+                capitalization[p.name.lower()][p.name] = 0
+            capitalization[p.name.lower()][p.name] += 1
+
+            if p.name.lower() not in player_teams:
+                player_teams[p.name.lower()] = {}
+            if g['team1'] not in player_teams[p.name.lower()]:
+                player_teams[p.name.lower()][g['team1']] = 0
+            if g['team2'] not in player_teams[p.name.lower()]:
+                player_teams[p.name.lower()][g['team2']] = 0
+            player_teams[p.name.lower()][g['team1']] += 1
+            player_teams[p.name.lower()][g['team2']] += 1
+
+
 for season_name in seasons:
     teams: Dict[str, Any] = {}
     players: Dict[str, Any] = {}
@@ -132,10 +185,23 @@ for season_name in seasons:
             match_mapping[match_key] = []
         match_mapping[match_key].append(g)
 
-    # Approximate season rosters (helps if rosters are missing)
     player_capitalization: Dict[str, Dict[str, int]] = {}
     player_teams = {}
+
     for games in match_mapping.values():
+        # Attach stats and scores to each game
+        for m2 in schedules[season_name]:
+            if m2['week_num'] == games[0]['week']\
+                    and m2['team_1'] == games[0]['team1']\
+                    and m2['team_2'] == games[0]['team2']:
+                for g in games:
+                    game_key = f"g{g['game'][-1]}"
+                    half_key = "ot" if g['half'] == "Overtime" else f"h{g['half'][-1]}"
+                    g['stats'] = m2[f'{game_key}{half_key}_stats']
+                    g['team1_score'] = m2[f't1{game_key}{half_key}']
+                    g['team2_score'] = m2[f't2{game_key}{half_key}']
+                    g['date'] = m2['date']
+
         # From S27-31, they played 5-game regular season matches but entered it like two games of
         # two halves with G1H2 or G2H2 having two EUs.
         if games[0]['season'] >= 27\
@@ -174,34 +240,13 @@ for season_name in seasons:
             i += 1
 
         for g in games:
-            m: Optional[tagpro_eu.Match] = match_from_links(g)
-            if m is None:
-                continue
-
-            for p in m.players:
-                # Find the most used capitalization for players who change it during the season
-                if p.name.lower() not in player_capitalization:
-                    player_capitalization[p.name.lower()] = {}
-                    if p.name not in player_capitalization[p.name.lower()]:
-                        player_capitalization[p.name.lower()][p.name] = 0
-                    player_capitalization[p.name.lower()][p.name] += 1
-
-                if p.name.lower() not in player_teams:
-                    player_teams[p.name.lower()] = {}
-                if g['team1'] not in player_teams[p.name.lower()]:
-                    player_teams[p.name.lower()][g['team1']] = 0
-                if g['team2'] not in player_teams[p.name.lower()]:
-                    player_teams[p.name.lower()][g['team2']] = 0
-                player_teams[p.name.lower()][g['team1']] += 1
-                player_teams[p.name.lower()][g['team2']] += 1
+            do_player_first_pass(g, player_capitalization, player_teams)
     
     # Now actually add all the info
     for games in match_mapping.values():
         match_object = None
         for g in games:
             m: Optional[tagpro_eu.Match] = match_from_links(g)
-            if m is None:
-                continue
 
             # Get team info from all_team_seasons
             t1_abbr, t1_maps_to, t1_roster, t1_captain = get_team_info(g['team1'], season_name)
@@ -228,32 +273,43 @@ for season_name in seasons:
             if match_object is None:
                 match_object = {
                     'season': season_name,
-                    'date': (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d"),  # Convert from UTC to PST
+                    'date': g['date'] if m is None else (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d"),  # Convert from UTC to PST
                     'week': f"Week {g['week']}",
                     'team1': t1_maps_to,
                     'team2': t2_maps_to,
                     'games': []
                 }
+            elif m is not None and match_object['date'] == "0000-00-00":
+                # If the 1st game in the match can't be parsed, the schedule might have the date 0000-00-00
+                # so replace it when we get a parseable match
+                match_object['date'] = (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d")
 
-            t1_is_red = get_t1_is_red(g, player_teams)
-            red_name: str = m.team_red.name
-            blue_name: str = m.team_blue.name
+            t1_is_red = get_t1_is_red(m, g, player_teams)
 
             game_players = []
-            for p in m.players:
-                if p.team is None:
-                    handler = DetectJoinHandler()
-                    p.parse_events(handler)
-                    p_is_red = handler.team.name == "red"
+            for p in (m.players if m else g['stats']):
+                if m:
+                    if p.team is None:
+                        handler = DetectJoinHandler()
+                        p.parse_events(handler)
+                        p_is_red = handler.team.name == "red"
+                    else:
+                        p_is_red = p.team.name == m.team_red.name
                 else:
-                    p_is_red = p.team.name == red_name
+                    # If the player's team isn't known, assume it's whatever team they played for more
+                    if g['stats'][p] == 0:
+                        p_is_red = player_teams[p.lower()][g['team1']] > player_teams[p.lower()][g['team2']]
+                    p_is_red = g['stats'][p] == 1
 
-                player_season_name = get_player_season_name(p.name, player_capitalization)
-                game_players.append({
+                player_season_name = get_player_season_name(p.name if m else p, player_capitalization)
+                player_object = {
                     'team': t1_maps_to if p_is_red == t1_is_red else t2_maps_to,
                     'player_season': player_season_name,
-                    'playing_as': p.name
-                })
+                    'playing_as': p.name if m else p
+                }
+                if m is None:
+                    player_object['stats'] = g['stats'][p]
+                game_players.append(player_object)
 
                 if player_season_name not in players:
                     players[player_season_name] = {
@@ -274,19 +330,25 @@ for season_name in seasons:
 
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
             has_halves = any([g2['half'] != "Half 1" for g2 in games])
+            if m:
+                team1_score = m.team_red.score if t1_is_red else m.team_blue.score
+                team2_score = m.team_red.score if not t1_is_red else m.team_blue.score
+            else:
+                team1_score = g['team1_score']
+                team2_score = g['team2_score']
             game_object = {
-                'tagpro_eu': str(m.match_id),
+                'tagpro_eu': str(m.match_id) if m else None,
                 'game_in_match': f"{g['game']} {g['half']}" if has_halves else g['game'],
-                'map_name': m.map.get("name", None),
-                'map_id': m.map_id,
+                'map_name': m.map.get("name", None) if m else None,
+                'map_id': m.map_id if m else None,
                 'red_team': t1_maps_to if t1_is_red else t2_maps_to,
                 'blue_team': t1_maps_to if not t1_is_red else t2_maps_to,
-                'team1_score': m.team_red.score if t1_is_red else m.team_blue.score,
-                'team2_score': m.team_red.score if not t1_is_red else m.team_blue.score,
+                'team1_score': team1_score,
+                'team2_score': team2_score,
                 'players': game_players
             }
             # Note if there was a second EU link
-            if len(g['links']) == 2:
+            if len(g['links']) == 2 and all("tagpro.eu" in link for link in g['links']):
                 game_object['second_eu'] = g['links'][1].split("=")[1]
                 game_object['switch_time'] = 60 * (10 - bulkmatches[game_object['second_eu']].timeLimit)
             match_object['games'].append(game_object)

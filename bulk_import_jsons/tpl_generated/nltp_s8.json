@@ -31,8 +31,9 @@
     { "season": "NLTP S8", "team": "A Blockwork Orange", "player": "bigbadball", "playing_as": "bigbadball" },
     { "season": "NLTP S8", "team": "A Blockwork Orange", "player": "ess", "playing_as": "ess" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
-    { "season": "NLTP S8", "team": "Attack the Block", "player": "3.1 Thor", "playing_as": "3.1 Thor" },
+    { "season": "NLTP S8", "team": "Attack the Block", "player": "3.1 thor", "playing_as": "3.1 thor" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "Alaska", "playing_as": "Alaska" },
+    { "season": "NLTP S8", "team": "Attack the Block", "player": "Devious", "playing_as": "Devious" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "Dope Francis", "playing_as": "Dope Francis" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "FragrantFowl", "playing_as": "FragrantFowl" },
     { "season": "NLTP S8", "team": "Attack the Block", "player": "G1nseng", "playing_as": "G1nseng" },
@@ -67,19 +68,19 @@
     { "season": "NLTP S8", "team": "Insane Cap Posse", "player": "wmwtso", "playing_as": "wmwtso" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Button", "playing_as": "Button" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "CalcPie314", "playing_as": "CalcPie314" },
+    { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Dethos", "playing_as": "Dethos" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Grommit", "playing_as": "Grommit" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Hjalpa", "playing_as": "Hjalpa" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "I Am Zeus", "playing_as": "I Am Zeus" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "JohnHurt", "playing_as": "JohnHurt" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Jump Ball", "playing_as": "Jump Ball" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "LoweJ", "playing_as": "LoweJ" },
-    { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "STRONK", "playing_as": "STRONK" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Some Man 7", "playing_as": "Some Man 7" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "Taurus", "playing_as": "Taurus" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "WheelinTimmy", "playing_as": "WheelinTimmy" },
-    { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "dethos", "playing_as": "dethos" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "hugh honey", "playing_as": "hugh honey" },
     { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "mP", "playing_as": "mP" },
+    { "season": "NLTP S8", "team": "Primordial Clam Chowder", "player": "stronk", "playing_as": "stronk" },
     { "season": "NLTP S8", "team": "Scrub Lyfe", "player": "Atomic", "playing_as": "Atomic" },
     { "season": "NLTP S8", "team": "Scrub Lyfe", "player": "BC, Canada", "playing_as": "BC, Canada" },
     { "season": "NLTP S8", "team": "Scrub Lyfe", "player": "Carp", "playing_as": "Carp" },
@@ -103,7 +104,6 @@
     { "season": "NLTP S8", "team": "Soviet Ballers", "player": "gspoon", "playing_as": "gspoon" },
     { "season": "NLTP S8", "team": "Soviet Ballers", "player": "johnsooun", "playing_as": "johnsooun" },
     { "season": "NLTP S8", "team": "The Aristocaps", "player": "BallsToYou.", "playing_as": "BallsToYou." },
-    { "season": "NLTP S8", "team": "The Aristocaps", "player": "Devious", "playing_as": "Devious" },
     { "season": "NLTP S8", "team": "The Aristocaps", "player": "Fats", "playing_as": "Fats" },
     { "season": "NLTP S8", "team": "The Aristocaps", "player": "Hawaii", "playing_as": "Hawaii" },
     { "season": "NLTP S8", "team": "The Aristocaps", "player": "Knight&Day", "playing_as": "Knight&Day" },
@@ -263,6 +263,19 @@
             { "team": "Whitecaps", "player_season": "Adarssh", "playing_as": "Adarssh" },
             { "team": "Whitecaps", "player_season": "Heisy", "playing_as": "Heisy" },
             { "team": "Whitecaps", "player_season": "Micaso", "playing_as": "Micaso" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "Whitecaps", "blue_team": "Soviet Ballers", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Soviet Ballers", "player_season": "Acapuck", "playing_as": "Acapuck", "stats": {"team": 1, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "Adarssh", "playing_as": "Adarssh", "stats": {"team": 1, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 0, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "ChelseaFc", "playing_as": "ChelseaFC", "stats": {"team": 2, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "Heisy", "playing_as": "Heisy", "stats": {"team": 1, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "Micaso", "playing_as": "Micaso", "stats": {"team": 1, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian", "stats": {"team": 2, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "gspoon", "playing_as": "gspoon", "stats": {"team": 2, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} },
+            { "team": "Soviet Ballers", "player_season": "wassa", "playing_as": "wassa", "stats": {"team": 2, "minutes": 0, "score": 0, "tags": 0, "pops": 0, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": -1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
           ]
         },
         {
@@ -599,9 +612,9 @@
           "tagpro_eu": "1079457", "game_in_match": "Game 1 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "Primordial Clam Chowder", "blue_team": "The Team About Nothing", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Rattpack", "playing_as": "Rattpack" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "Puggins", "playing_as": "Puggins" },
             { "team": "The Team About Nothing", "player_season": "WhiteBallker", "playing_as": "WhiteBallker" },
@@ -613,9 +626,9 @@
           "tagpro_eu": "1079494", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Primordial Clam Chowder", "blue_team": "The Team About Nothing", "team1_score": 2, "team2_score": 7,
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Rattpack", "playing_as": "Rattpack" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "Puggins", "playing_as": "Puggins" },
             { "team": "The Team About Nothing", "player_season": "lil baot", "playing_as": "lil baot" },
@@ -626,9 +639,9 @@
           "tagpro_eu": "1079528", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Team About Nothing", "blue_team": "Primordial Clam Chowder", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Rattpack", "playing_as": "Rattpack" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "Puggins", "playing_as": "Puggins" },
             { "team": "The Team About Nothing", "player_season": "lil baot", "playing_as": "lil baot" },
@@ -832,10 +845,10 @@
         {
           "tagpro_eu": "1095465", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Primordial Clam Chowder", "blue_team": "White Blockers", "team1_score": 0, "team2_score": 0,
           "players": [
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -846,9 +859,9 @@
           "tagpro_eu": "1095435", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "White Blockers", "blue_team": "Primordial Clam Chowder", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -861,7 +874,7 @@
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -872,9 +885,9 @@
           "tagpro_eu": "1095523", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "White Blockers", "blue_team": "Primordial Clam Chowder", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -1318,10 +1331,10 @@
         {
           "tagpro_eu": "1110721", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Pointless Warriors", "blue_team": "Primordial Clam Chowder", "team1_score": 2, "team2_score": 3,
           "players": [
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Pointless Warriors", "player_season": "LittlePrince", "playing_as": "LittlePrince" },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
             { "team": "The Pointless Warriors", "player_season": "STRFKR", "playing_as": "STRFKR" },
@@ -1331,10 +1344,10 @@
         {
           "tagpro_eu": "1110754", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Primordial Clam Chowder", "blue_team": "The Pointless Warriors", "team1_score": 4, "team2_score": 2,
           "players": [
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
             { "team": "The Pointless Warriors", "player_season": "Ken M.", "playing_as": "ken m." },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
@@ -1345,10 +1358,10 @@
         {
           "tagpro_eu": "1110815", "game_in_match": "Game 2 Half 1", "map_name": "Constriction", "map_id": 1, "red_team": "The Pointless Warriors", "blue_team": "Primordial Clam Chowder", "team1_score": 2, "team2_score": 1,
           "players": [
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
             { "team": "The Pointless Warriors", "player_season": "STRFKR", "playing_as": "STRFKR" },
@@ -1358,10 +1371,10 @@
         {
           "tagpro_eu": "1110857", "game_in_match": "Game 2 Half 2", "map_name": "Constriction", "map_id": 1, "red_team": "Primordial Clam Chowder", "blue_team": "The Pointless Warriors", "team1_score": 3, "team2_score": 6,
           "players": [
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Pointless Warriors", "player_season": "A$AP Tanador", "playing_as": "A$AP Tanador" },
             { "team": "The Pointless Warriors", "player_season": "OG_Diddles", "playing_as": "OG_Diddles" },
             { "team": "The Pointless Warriors", "player_season": "STRFKR", "playing_as": "STRFKR" },
@@ -1722,9 +1735,9 @@
             { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
             { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
             { "team": "Insane Cap Posse", "player_season": "ball.i.am", "playing_as": "ball.i.am" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Rattpack", "playing_as": "Rattpack" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" }
           ]
         },
@@ -1735,9 +1748,9 @@
             { "team": "Insane Cap Posse", "player_season": "Kibo", "playing_as": "Kibo" },
             { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
             { "team": "Insane Cap Posse", "player_season": "ball.i.am", "playing_as": "ball.i.am" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Rattpack", "playing_as": "Rattpack" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" }
           ]
         },
@@ -2509,10 +2522,10 @@
             { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
             { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
             { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
             { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" },
-            { "team": "Primordial Clam Chowder", "player_season": "mP", "playing_as": "mP" }
+            { "team": "Primordial Clam Chowder", "player_season": "mP", "playing_as": "mP" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         },
         {
@@ -2522,11 +2535,11 @@
             { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
             { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
             { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Some Man 7", "playing_as": "Some Man 7" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
-            { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" }
+            { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         },
         {
@@ -2536,11 +2549,11 @@
             { "team": "CircleJukers", "player_season": "THE DOT", "playing_as": "THE DOT" },
             { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
             { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" },
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "evanw4", "playing_as": "evanw4" },
-            { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" }
+            { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         },
         {
@@ -2551,9 +2564,9 @@
             { "team": "CircleJukers", "player_season": "popsic", "playing_as": "popsic" },
             { "team": "CircleJukers", "player_season": "wassa", "playing_as": "wassa" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "hugh honey", "playing_as": "hugh honey" },
-            { "team": "Primordial Clam Chowder", "player_season": "mP", "playing_as": "mP" }
+            { "team": "Primordial Clam Chowder", "player_season": "mP", "playing_as": "mP" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         }
       ]
@@ -2740,10 +2753,10 @@
         {
           "tagpro_eu": "1172137", "game_in_match": "Game 1 Half 1", "map_name": "IRON", "map_id": 11, "red_team": "Primordial Clam Chowder", "blue_team": "White Blockers", "team1_score": 3, "team2_score": 0,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "WheelinTimmy", "playing_as": "WheelinTimmy" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "White Blockers", "player_season": "Caduke", "playing_as": "Caduke" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
@@ -2754,10 +2767,10 @@
         {
           "tagpro_eu": "1172176", "game_in_match": "Game 1 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "White Blockers", "blue_team": "Primordial Clam Chowder", "team1_score": 2, "team2_score": 0,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "WheelinTimmy", "playing_as": "WheelinTimmy" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -2767,10 +2780,10 @@
         {
           "tagpro_eu": "1172210", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "White Blockers", "blue_team": "Primordial Clam Chowder", "team1_score": 4, "team2_score": 5,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "WheelinTimmy", "playing_as": "WheelinTimmy" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "White Blockers", "player_season": "Caduke", "playing_as": "Caduke" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
@@ -2781,10 +2794,10 @@
         {
           "tagpro_eu": "1172257", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Primordial Clam Chowder", "blue_team": "White Blockers", "team1_score": 4, "team2_score": 8,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Primordial Clam Chowder", "player_season": "WheelinTimmy", "playing_as": "WheelinTimmy" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
             { "team": "White Blockers", "player_season": "ballparts", "playing_as": "ballparts" },
             { "team": "White Blockers", "player_season": "bluejays", "playing_as": "bluejays" },
             { "team": "White Blockers", "player_season": "boogie", "playing_as": "boogie" },
@@ -3462,10 +3475,10 @@
         {
           "tagpro_eu": "1184761", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Primordial Clam Chowder", "blue_team": "Soviet Ballers", "team1_score": 3, "team2_score": 9,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
@@ -3475,10 +3488,10 @@
         {
           "tagpro_eu": "1184793", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Soviet Ballers", "blue_team": "Primordial Clam Chowder", "team1_score": 2, "team2_score": 0,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
@@ -3488,10 +3501,10 @@
         {
           "tagpro_eu": "1184827", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Soviet Ballers", "blue_team": "Primordial Clam Chowder", "team1_score": 3, "team2_score": 1,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "Soviet Ballers", "player_season": "Sadness", "playing_as": "Sadness" },
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
@@ -3501,10 +3514,10 @@
         {
           "tagpro_eu": "1184862", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Primordial Clam Chowder", "blue_team": "Soviet Ballers", "team1_score": 1, "team2_score": 1,
           "players": [
+            { "team": "Primordial Clam Chowder", "player_season": "Dethos", "playing_as": "Dethos" },
             { "team": "Primordial Clam Chowder", "player_season": "Grommit", "playing_as": "Grommit" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
-            { "team": "Primordial Clam Chowder", "player_season": "dethos", "playing_as": "Dethos" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "Soviet Ballers", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Soviet Ballers", "player_season": "Snekster", "playing_as": "Snekster" },
             { "team": "Soviet Ballers", "player_season": "TheIndian", "playing_as": "TheIndian" },
@@ -3719,8 +3732,8 @@
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Button", "playing_as": "Button" },
             { "team": "Primordial Clam Chowder", "player_season": "LoweJ", "playing_as": "LoweJ" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "The Team About Nothing", "player_season": "evanw4", "playing_as": "evanw4" },
@@ -3732,8 +3745,8 @@
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
             { "team": "Primordial Clam Chowder", "player_season": "LoweJ", "playing_as": "LoweJ" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "stronk" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "stronk" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "The Team About Nothing", "player_season": "evanw4", "playing_as": "evanw4" },
@@ -3745,8 +3758,8 @@
           "players": [
             { "team": "Primordial Clam Chowder", "player_season": "CalcPie314", "playing_as": "CalcPie314" },
             { "team": "Primordial Clam Chowder", "player_season": "LoweJ", "playing_as": "LoweJ" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
             { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "The Team About Nothing", "player_season": "evanw4", "playing_as": "evanw4" },
@@ -3759,7 +3772,7 @@
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
             { "team": "Primordial Clam Chowder", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "Primordial Clam Chowder", "player_season": "LoweJ", "playing_as": "LoweJ" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" },
             { "team": "The Team About Nothing", "player_season": "Cooostanza", "playing_as": "Cooostanza" },
             { "team": "The Team About Nothing", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "The Team About Nothing", "player_season": "evanw4", "playing_as": "evanw4" },
@@ -3915,13 +3928,26 @@
           "tagpro_eu": "1196691", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Attack the Block", "blue_team": "The Aristocaps", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
-            { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Attack the Block", "player_season": "3.1 thor", "playing_as": "3.1 Thor" },
             { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng" },
             { "team": "The Aristocaps", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "The Aristocaps", "player_season": "fxu", "playing_as": "fxu" },
             { "team": "The Aristocaps", "player_season": "nipplefart", "playing_as": "nipplefart" },
             { "team": "The Aristocaps", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Aristocaps", "blue_team": "Attack the Block", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 2, "minutes": 10, "score": 27, "tags": 8, "pops": 21, "grabs": 21, "drops": 20, "hold": 182, "captures": 1, "prevent": 7, "returns": 7, "pups": 5, "holdagainst": 494, "pm": -5, "pupscomp": 27, "ndpops": 1, "nrtags": 1} },
+            { "team": "Attack the Block", "player_season": "3.1 thor", "playing_as": "3.1 Thor", "stats": {"team": 2, "minutes": 10, "score": 11, "tags": 9, "pops": 19, "grabs": 15, "drops": 15, "hold": 101, "captures": 0, "prevent": 3, "returns": 8, "pups": 1, "holdagainst": 494, "pm": -5, "pupscomp": 27, "ndpops": 4, "nrtags": 1} },
+            { "team": "Attack the Block", "player_season": "Devious", "playing_as": "Devious", "stats": {"team": 1, "minutes": 10, "score": 43, "tags": 14, "pops": 8, "grabs": 7, "drops": 6, "hold": 83, "captures": 1, "prevent": 37, "returns": 14, "pups": 3, "holdagainst": 421, "pm": 5, "pupscomp": 27, "ndpops": 2, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto", "stats": {"team": 2, "minutes": 10, "score": 20, "tags": 10, "pops": 14, "grabs": 9, "drops": 9, "hold": 57, "captures": 0, "prevent": 30, "returns": 9, "pups": 2, "holdagainst": 494, "pm": -5, "pupscomp": 27, "ndpops": 5, "nrtags": 1} },
+            { "team": "Attack the Block", "player_season": "fxu", "playing_as": "fxu", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 18, "pops": 16, "grabs": 14, "drops": 13, "hold": 138, "captures": 1, "prevent": 25, "returns": 18, "pups": 3, "holdagainst": 421, "pm": 5, "pupscomp": 27, "ndpops": 3, "nrtags": 0} },
+            { "team": "Attack the Block", "player_season": "gin$eng", "playing_as": "gin$eng", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 18, "pops": 12, "grabs": 9, "drops": 9, "hold": 81, "captures": 0, "prevent": 45, "returns": 15, "pups": 3, "holdagainst": 494, "pm": -5, "pupscomp": 27, "ndpops": 3, "nrtags": 3} },
+            { "team": "Attack the Block", "player_season": "nipplefart", "playing_as": "nipplefart", "stats": {"team": 1, "minutes": 10, "score": 46, "tags": 17, "pops": 12, "grabs": 10, "drops": 10, "hold": 112, "captures": 0, "prevent": 69, "returns": 12, "pups": 4, "holdagainst": 421, "pm": 5, "pupscomp": 27, "ndpops": 2, "nrtags": 5} },
+            { "team": "Attack the Block", "player_season": "pulpo", "playing_as": "pulpo", "stats": {"team": 1, "minutes": 10, "score": 76, "tags": 14, "pops": 13, "grabs": 14, "drops": 10, "hold": 161, "captures": 4, "prevent": 42, "returns": 9, "pups": 6, "holdagainst": 421, "pm": 5, "pupscomp": 27, "ndpops": 3, "nrtags": 5} }
           ]
         }
       ]
@@ -4124,7 +4150,7 @@
             { "team": "Primordial Clam Chowder", "player_season": "Button", "playing_as": "Button" },
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
             { "team": "Primordial Clam Chowder", "player_season": "JohnHurt", "playing_as": "JohnHurt" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" }
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         },
         {
@@ -4136,8 +4162,8 @@
             { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
             { "team": "Primordial Clam Chowder", "player_season": "Button", "playing_as": "Button" },
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
-            { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" }
+            { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         },
         {
@@ -4149,8 +4175,8 @@
             { "team": "Insane Cap Posse", "player_season": "TagProfessor", "playing_as": "TagProfessor" },
             { "team": "Primordial Clam Chowder", "player_season": "Button", "playing_as": "Button" },
             { "team": "Primordial Clam Chowder", "player_season": "Hjalpa", "playing_as": "Hjalpa" },
-            { "team": "Primordial Clam Chowder", "player_season": "STRONK", "playing_as": "STRONK" },
-            { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" }
+            { "team": "Primordial Clam Chowder", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "Primordial Clam Chowder", "player_season": "stronk", "playing_as": "STRONK" }
           ]
         }
       ]
@@ -4335,7 +4361,7 @@
           "tagpro_eu": "1216509", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Attack the Block", "blue_team": "CircleJukers", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
-            { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 thor" },
+            { "team": "Attack the Block", "player_season": "3.1 thor", "playing_as": "3.1 thor" },
             { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Attack the Block", "player_season": "d1hanow", "playing_as": "d1hanow" },
             { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
@@ -4348,7 +4374,7 @@
           "tagpro_eu": "1216542", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "CircleJukers", "blue_team": "Attack the Block", "team1_score": 1, "team2_score": 11,
           "players": [
             { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
-            { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 thor" },
+            { "team": "Attack the Block", "player_season": "3.1 thor", "playing_as": "3.1 thor" },
             { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Attack the Block", "player_season": "d1hanow", "playing_as": "d1hanow" },
             { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },
@@ -4361,7 +4387,7 @@
           "tagpro_eu": "1216574", "game_in_match": "Game 2 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "CircleJukers", "blue_team": "Attack the Block", "team1_score": 0, "team2_score": 5,
           "players": [
             { "team": "Attack the Block", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
-            { "team": "Attack the Block", "player_season": "3.1 Thor", "playing_as": "3.1 thor" },
+            { "team": "Attack the Block", "player_season": "3.1 thor", "playing_as": "3.1 thor" },
             { "team": "Attack the Block", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Attack the Block", "player_season": "d1hanow", "playing_as": "d1hanow" },
             { "team": "CircleJukers", "player_season": "BusinessBird", "playing_as": "BusinessBird" },

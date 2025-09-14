@@ -21,7 +21,9 @@
     { "season": "NLTP S6", "team": null, "player": "&G1nseng", "playing_as": "&G1nseng" },
     { "season": "NLTP S6", "team": null, "player": "Apidae", "playing_as": "Apidae" },
     { "season": "NLTP S6", "team": null, "player": "Blue Dream", "playing_as": "Blue Dream" },
+    { "season": "NLTP S6", "team": null, "player": "Faye!", "playing_as": "Faye!" },
     { "season": "NLTP S6", "team": null, "player": "Ferret!", "playing_as": "Ferret!" },
+    { "season": "NLTP S6", "team": null, "player": "Halophile", "playing_as": "Halophile" },
     { "season": "NLTP S6", "team": null, "player": "Him<3", "playing_as": "Him<3" },
     { "season": "NLTP S6", "team": null, "player": "Jorge118", "playing_as": "Jorge118" },
     { "season": "NLTP S6", "team": null, "player": "KIutchin", "playing_as": "KIutchin" },
@@ -39,10 +41,8 @@
     { "season": "NLTP S6", "team": null, "player": "boogy", "playing_as": "boogy" },
     { "season": "NLTP S6", "team": null, "player": "dok", "playing_as": "dok" },
     { "season": "NLTP S6", "team": null, "player": "endna", "playing_as": "endna" },
-    { "season": "NLTP S6", "team": null, "player": "faye!", "playing_as": "faye!" },
     { "season": "NLTP S6", "team": null, "player": "flos", "playing_as": "flos" },
     { "season": "NLTP S6", "team": null, "player": "frostie", "playing_as": "frostie" },
-    { "season": "NLTP S6", "team": null, "player": "halophile", "playing_as": "halophile" },
     { "season": "NLTP S6", "team": null, "player": "no name", "playing_as": "no name" },
     { "season": "NLTP S6", "team": null, "player": "pingu.", "playing_as": "pingu." },
     { "season": "NLTP S6", "team": null, "player": "rndmwhitekid", "playing_as": "rndmwhitekid" },
@@ -53,12 +53,8 @@
     { "season": "NLTP S6", "team": "21 Juke Street", "player": "ZenWhisper", "playing_as": "ZenWhisper" },
     { "season": "NLTP S6", "team": "21 Juke Street", "player": "superdiglett", "playing_as": "superdiglett" },
     { "season": "NLTP S6", "team": "21 Juke Street", "player": "thick shady", "playing_as": "thick shady" },
-    { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "Dance", "playing_as": "Dance" },
     { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "HammerTime", "playing_as": "HammerTime" },
-    { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "Papa John", "playing_as": "Papa John" },
-    { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "STEEZ", "playing_as": "STEEZ" },
     { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "Thanos", "playing_as": "Thanos" },
-    { "season": "NLTP S6", "team": "A Blockwork Orange", "player": "notevenmex", "playing_as": "notevenmex" },
     { "season": "NLTP S6", "team": "Balladega Nights", "player": "Devious", "playing_as": "Devious" },
     { "season": "NLTP S6", "team": "Balladega Nights", "player": "Jormungand", "playing_as": "Jormungand" },
     { "season": "NLTP S6", "team": "Balladega Nights", "player": "Jubjubs", "playing_as": "Jubjubs" },
@@ -169,10 +165,14 @@
     { "season": "NLTP S6", "team": "Warden and the Inmates", "player": "d0pe", "playing_as": "d0pe" },
     { "season": "NLTP S6", "team": "Warden and the Inmates", "player": "intrepid", "playing_as": "intrepid" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "Acapuck", "playing_as": "Acapuck" },
+    { "season": "NLTP S6", "team": "Whitecaps", "player": "Dance", "playing_as": "Dance" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "H.D.", "playing_as": "H.D." },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "JDoeMonopoly", "playing_as": "JDoeMonopoly" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "KidClutch", "playing_as": "KidClutch" },
+    { "season": "NLTP S6", "team": "Whitecaps", "player": "NotEvenMex", "playing_as": "NotEvenMex" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "P0P", "playing_as": "P0P" },
+    { "season": "NLTP S6", "team": "Whitecaps", "player": "Papa John", "playing_as": "Papa John" },
+    { "season": "NLTP S6", "team": "Whitecaps", "player": "STEEZ", "playing_as": "STEEZ" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "bigbadball", "playing_as": "bigbadball" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "eltenelliott", "playing_as": "eltenelliott" },
     { "season": "NLTP S6", "team": "Whitecaps", "player": "shaszam", "playing_as": "shaszam" }
@@ -242,9 +242,9 @@
           "tagpro_eu": "449482", "game_in_match": "Game 1 Half 1", "map_name": "Boombox", "map_id": 19, "red_team": "Balladega Nights", "blue_team": "A Blockwork Orange", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "notevenmex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "notevenmex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -255,9 +255,9 @@
           "tagpro_eu": "449529", "game_in_match": "Game 1 Half 2", "map_name": "Boombox", "map_id": 19, "red_team": "A Blockwork Orange", "blue_team": "Balladega Nights", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh" },
@@ -268,9 +268,9 @@
           "tagpro_eu": "449547", "game_in_match": "Game 1 Overtime", "map_name": "Boombox", "map_id": 19, "red_team": "Balladega Nights", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -281,9 +281,9 @@
           "tagpro_eu": "449584", "game_in_match": "Game 2 Half 1", "map_name": "IRON", "map_id": 11, "red_team": "A Blockwork Orange", "blue_team": "Balladega Nights", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh" },
@@ -294,9 +294,9 @@
           "tagpro_eu": "449625", "game_in_match": "Game 2 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "Balladega Nights", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh" },
@@ -387,11 +387,11 @@
             { "team": "Black Flag", "player_season": "Vader.", "playing_as": "Vader." },
             { "team": "Black Flag", "player_season": "whiteflame", "playing_as": "whiteflame" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" },
             { "team": "The Chudley Flaggons", "player_season": "boogieidm", "playing_as": "boogieidm" },
-            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy" }
           ]
         },
         {
@@ -402,9 +402,9 @@
             { "team": "Black Flag", "player_season": "Vader.", "playing_as": "Vader." },
             { "team": "Black Flag", "player_season": "whiteflame", "playing_as": "whiteflame" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
-            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" }
           ]
         },
         {
@@ -415,9 +415,9 @@
             { "team": "Black Flag", "player_season": "Vader.", "playing_as": "Vader." },
             { "team": "Black Flag", "player_season": "whiteflame", "playing_as": "whiteflame" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
-            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" }
           ]
         },
         {
@@ -428,9 +428,9 @@
             { "team": "Black Flag", "player_season": "Vader.", "playing_as": "Vader." },
             { "team": "Black Flag", "player_season": "whiteflame", "playing_as": "whiteflame" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
-            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "KIutchin", "playing_as": "KIutchin" }
           ]
         }
       ]
@@ -694,6 +694,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Balladega Nights", "blue_team": "ThunderCaps", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "ThunderCaps", "player_season": "Devious", "playing_as": "Devious", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 12, "pops": 9, "grabs": 1, "drops": 1, "hold": 15, "captures": 0, "prevent": 204, "returns": 10, "pups": 0, "holdagainst": 202, "pm": -1, "pupscomp": 30, "ndpops": 8, "nrtags": 2, "retinbase": 1} },
+            { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 15, "pops": 8, "grabs": 2, "drops": 2, "hold": 2, "captures": 0, "prevent": 51, "returns": 9, "pups": 4, "holdagainst": 381, "pm": 1, "pupscomp": 30, "ndpops": 6, "nrtags": 6} },
+            { "team": "ThunderCaps", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh", "stats": {"team": 1, "minutes": 10, "score": 22, "tags": 7, "pops": 13, "grabs": 14, "drops": 12, "hold": 168, "captures": 2, "prevent": 10, "returns": 2, "pups": 5, "holdagainst": 202, "pm": -1, "pupscomp": 30, "ndpops": 1, "nrtags": 5, "goregrab": 2, "goodhandoff": 1, "handoff": 1} },
+            { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT", "stats": {"team": 2, "minutes": 10, "score": 22, "tags": 6, "pops": 11, "grabs": 13, "drops": 11, "hold": 87, "captures": 2, "prevent": 3, "returns": 6, "pups": 1, "holdagainst": 381, "pm": 1, "pupscomp": 30, "ndpops": 0, "nrtags": 0, "goregrab": 1, "gohandoff": 1} },
+            { "team": "ThunderCaps", "player_season": "Tantrew", "playing_as": "tantrew", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 4, "pops": 16, "grabs": 11, "drops": 11, "hold": 132, "captures": 0, "prevent": 43, "returns": 2, "pups": 5, "holdagainst": 202, "pm": -1, "pupscomp": 30, "ndpops": 5, "nrtags": 2, "handoff": 3, "longholds": 1, "goodhandoff": 2, "goregrab": 1} },
+            { "team": "ThunderCaps", "player_season": "d0pe", "playing_as": "d0pe", "stats": {"team": 2, "minutes": 10, "score": 69, "tags": 10, "pops": 13, "grabs": 9, "drops": 8, "hold": 82, "captures": 1, "prevent": 5, "returns": 5, "pups": 6, "holdagainst": 381, "pm": 1, "pupscomp": 30, "ndpops": 5, "nrtags": 5, "quickret": 1, "retinbase": 1, "goodhandoff": 2, "handoff": 2, "flaccids": 1} },
+            { "team": "ThunderCaps", "player_season": "honeybear", "playing_as": "honeybear", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 10, "pops": 7, "grabs": 2, "drops": 2, "hold": 31, "captures": 0, "prevent": 50, "returns": 8, "pups": 4, "holdagainst": 381, "pm": 1, "pupscomp": 30, "ndpops": 5, "nrtags": 2, "keyret": 1} },
+            { "team": "ThunderCaps", "player_season": "solf", "playing_as": "solf", "stats": {"team": 1, "minutes": 10, "score": 53, "tags": 10, "pops": 9, "grabs": 4, "drops": 4, "hold": 66, "captures": 0, "prevent": 139, "returns": 8, "pups": 5, "holdagainst": 202, "pm": -1, "pupscomp": 30, "ndpops": 5, "nrtags": 2, "gohandoff": 1, "flaccids": 1, "quickret": 1, "retinbase": 1} }
+          ]
+        },
+        {
           "tagpro_eu": "465833", "game_in_match": "Game 1 Overtime", "map_name": "IRON", "map_id": 11, "red_team": "ThunderCaps", "blue_team": "Balladega Nights", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
@@ -741,9 +754,9 @@
           "tagpro_eu": "465850", "game_in_match": "Game 1 Half 1", "map_name": "IRON", "map_id": 11, "red_team": "A Blockwork Orange", "blue_team": "Balls on Parade", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balls on Parade", "player_season": "Lou Williams", "playing_as": "Lou Williams" },
             { "team": "Balls on Parade", "player_season": "Pinsatr", "playing_as": "Pinsatr" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
@@ -754,9 +767,9 @@
           "tagpro_eu": "465888", "game_in_match": "Game 1 Half 2", "map_name": "IRON", "map_id": 11, "red_team": "Balls on Parade", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balls on Parade", "player_season": "Lou Williams", "playing_as": "Lou Williams" },
             { "team": "Balls on Parade", "player_season": "Pinstar", "playing_as": "Pinstar" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
@@ -1070,9 +1083,9 @@
             { "team": "21 Juke Street", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid" },
             { "team": "21 Juke Street", "player_season": "toastymangoz", "playing_as": "toastymangoz" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "Faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "Faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1083,9 +1096,9 @@
             { "team": "21 Juke Street", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid" },
             { "team": "21 Juke Street", "player_season": "toastymangoz", "playing_as": "toastymangoz" },
             { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "Faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "Faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1095,10 +1108,10 @@
             { "team": "21 Juke Street", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "21 Juke Street", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid" },
             { "team": "21 Juke Street", "player_season": "toastymangoz", "playing_as": "toastymangoz" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "Faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "Faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1108,10 +1121,10 @@
             { "team": "21 Juke Street", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "21 Juke Street", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid" },
             { "team": "21 Juke Street", "player_season": "toastymangoz", "playing_as": "toastymangoz" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "Faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "Faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1121,10 +1134,10 @@
             { "team": "21 Juke Street", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "21 Juke Street", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid" },
             { "team": "21 Juke Street", "player_season": "toastymangoz", "playing_as": "toastymangoz" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "Faye!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "Faye!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         }
       ]
@@ -1250,9 +1263,9 @@
           "tagpro_eu": "481716", "game_in_match": "Game 1 Half 1", "map_name": "Fiend", "map_id": 1034, "red_team": "Block the Capsbah", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Block the Capsbah", "player_season": "Allegiant.", "playing_as": "Allegiant." },
             { "team": "Block the Capsbah", "player_season": "Crossover", "playing_as": "Crossover" },
             { "team": "Block the Capsbah", "player_season": "Doris", "playing_as": "Doris" },
@@ -1263,9 +1276,9 @@
           "tagpro_eu": "481749", "game_in_match": "Game 1 Half 2", "map_name": "Fiend", "map_id": 1034, "red_team": "A Blockwork Orange", "blue_team": "Block the Capsbah", "team1_score": 8, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Block the Capsbah", "player_season": "Allegiant.", "playing_as": "Allegiant." },
             { "team": "Block the Capsbah", "player_season": "Crossover", "playing_as": "Crossover" },
             { "team": "Block the Capsbah", "player_season": "Doris", "playing_as": "Doris" },
@@ -1276,9 +1289,9 @@
           "tagpro_eu": "481780", "game_in_match": "Game 2 Half 1", "map_name": "Velocity", "map_id": 16, "red_team": "Block the Capsbah", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Block the Capsbah", "player_season": "Allegiant.", "playing_as": "Allegiant." },
             { "team": "Block the Capsbah", "player_season": "Crossover", "playing_as": "Crossover" },
             { "team": "Block the Capsbah", "player_season": "Doris", "playing_as": "Doris" },
@@ -1289,9 +1302,9 @@
           "tagpro_eu": "481811", "game_in_match": "Game 2 Half 2", "map_name": "Velocity", "map_id": 16, "red_team": "A Blockwork Orange", "blue_team": "Block the Capsbah", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Block the Capsbah", "player_season": "Allegiant.", "playing_as": "Allegiant." },
             { "team": "Block the Capsbah", "player_season": "Crossover", "playing_as": "Crossover" },
             { "team": "Block the Capsbah", "player_season": "Doris", "playing_as": "Doris" },
@@ -1509,10 +1522,10 @@
             { "team": "Insane Cap Posse", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "Insane Cap Posse", "player_season": "Chancho Jomp", "playing_as": "Chancho Jomp" },
             { "team": "Insane Cap Posse", "player_season": "Krieger", "playing_as": "Krieger" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "FAYE!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "FAYE!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1522,10 +1535,10 @@
             { "team": "Insane Cap Posse", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "Insane Cap Posse", "player_season": "Chancho Jomp", "playing_as": "Chancho Jomp" },
             { "team": "Insane Cap Posse", "player_season": "Krieger", "playing_as": "Krieger" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "FAYE!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "FAYE!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         },
         {
@@ -1535,10 +1548,10 @@
             { "team": "Insane Cap Posse", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "Insane Cap Posse", "player_season": "Chancho Jomp", "playing_as": "Chancho Jomp" },
             { "team": "Insane Cap Posse", "player_season": "Krieger", "playing_as": "Krieger" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "FAYE!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "FAYE!" }
+            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy" }
           ]
         },
         {
@@ -1548,10 +1561,10 @@
             { "team": "Insane Cap Posse", "player_season": "Brainiac", "playing_as": "Brainiac" },
             { "team": "Insane Cap Posse", "player_season": "Chancho Jomp", "playing_as": "Chancho Jomp" },
             { "team": "Insane Cap Posse", "player_season": "Krieger", "playing_as": "Krieger" },
+            { "team": "The Chudley Flaggons", "player_season": "Faye!", "playing_as": "FAYE!" },
             { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!" },
             { "team": "The Chudley Flaggons", "player_season": "Him<3", "playing_as": "Him<3" },
-            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" },
-            { "team": "The Chudley Flaggons", "player_season": "faye!", "playing_as": "FAYE!" }
+            { "team": "The Chudley Flaggons", "player_season": "Klutchin", "playing_as": "Klutchin" }
           ]
         }
       ]
@@ -1735,9 +1748,9 @@
           "tagpro_eu": "507617", "game_in_match": "Game 1 Half 1", "map_name": "Velocity", "map_id": 16, "red_team": "Soviet Ballers", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
             { "team": "Soviet Ballers", "player_season": "Fozzy", "playing_as": "Fozzy" },
@@ -1748,9 +1761,9 @@
           "tagpro_eu": "507648", "game_in_match": "Game 1 Half 2", "map_name": "Velocity", "map_id": 16, "red_team": "A Blockwork Orange", "blue_team": "Soviet Ballers", "team1_score": 6, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
             { "team": "Soviet Ballers", "player_season": "Fozzy", "playing_as": "Fozzy" },
@@ -1761,9 +1774,9 @@
           "tagpro_eu": "507690", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "A Blockwork Orange", "blue_team": "Soviet Ballers", "team1_score": 6, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
             { "team": "Soviet Ballers", "player_season": "Fozzy", "playing_as": "Fozzy" },
@@ -1774,9 +1787,9 @@
           "tagpro_eu": "507733", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Soviet Ballers", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
             { "team": "Soviet Ballers", "player_season": "Fozzy", "playing_as": "Fozzy" },
@@ -1827,6 +1840,20 @@
             { "team": "ThunderCaps", "player_season": "Hat Tricks", "playing_as": "Hat Tricks" },
             { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT" },
             { "team": "ThunderCaps", "player_season": "honeybear", "playing_as": "honeybear" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Block the Capsbah", "blue_team": "ThunderCaps", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "ThunderCaps", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "minutes": 10, "score": 41, "tags": 20, "pops": 13, "grabs": 14, "drops": 13, "hold": 86, "captures": 1, "prevent": 24, "returns": 6, "pups": 6, "holdagainst": 329, "pm": -2, "pupscomp": 31, "ndpops": 0, "nrtags": 14, "gohandoff": 2, "goregrab": 7, "goodhandoff": 2, "handoff": 3, "coregrab": 1, "flaccids": 3, "retinbase": 1} },
+            { "team": "ThunderCaps", "player_season": "Allegiant.", "playing_as": "Allegiant.", "stats": {"team": 1, "minutes": 10, "score": 50, "tags": 14, "pops": 15, "grabs": 8, "drops": 7, "hold": 60, "captures": 1, "prevent": 121, "returns": 13, "pups": 1, "holdagainst": 278, "pm": 2, "pupscomp": 31, "ndpops": 8, "nrtags": 1, "goregrab": 4, "quickret": 6, "goodhandoff": 4, "handoff": 5, "retinbase": 4, "coregrab": 1, "keyret": 1} },
+            { "team": "ThunderCaps", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 1, "minutes": 10, "score": 51, "tags": 10, "pops": 18, "grabs": 18, "drops": 14, "hold": 127, "captures": 3, "prevent": 14, "returns": 7, "pups": 4, "holdagainst": 278, "pm": 2, "pupscomp": 31, "ndpops": 4, "nrtags": 3, "goodhandoff": 7, "handoff": 9, "goregrab": 7, "quickret": 1, "retinbase": 1, "gohandoff": 1, "cohandoff": 1, "coregrab": 1} },
+            { "team": "ThunderCaps", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "minutes": 2, "score": 1, "tags": 0, "pops": 3, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 30, "returns": 0, "pups": 0, "holdagainst": 27, "pm": -1, "pupscomp": 7, "ndpops": 3, "nrtags": 0} },
+            { "team": "ThunderCaps", "player_season": "Hat Tricks", "playing_as": "Hat Tricks", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 10, "pops": 7, "grabs": 3, "drops": 3, "hold": 0, "captures": 0, "prevent": 140, "returns": 10, "pups": 2, "holdagainst": 329, "pm": -2, "pupscomp": 31, "ndpops": 4, "nrtags": 0, "goregrab": 2, "goodhandoff": 1, "handoff": 2, "quickret": 1, "retinbase": 1, "flaccids": 1} },
+            { "team": "ThunderCaps", "player_season": "Some Man 7", "playing_as": "Some Man 7", "stats": {"score": 31, "team": 1, "pups": 3, "grabs": 11, "pops": 12, "drops": 11, "hold": 108, "tags": 10, "returns": 8, "prevent": 25, "ndpops": 1, "minutes": 8, "goregrab": 8, "longholds": 1, "goodhandoff": 5, "handoff": 5, "flaccids": 2, "saves": 1, "nrtags": 2, "holdagainst": 251, "pupscomp": 24, "pm": 3} },
+            { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 5, "pops": 15, "grabs": 16, "drops": 15, "hold": 162, "captures": 1, "prevent": 8, "returns": 4, "pups": 5, "holdagainst": 329, "pm": -2, "pupscomp": 31, "ndpops": 0, "nrtags": 1, "handoff": 6, "goregrab": 3, "longholds": 3, "flaccids": 4, "quickret": 1, "retinbase": 1, "goodhandoff": 2} },
+            { "team": "ThunderCaps", "player_season": "TurdFerguson", "playing_as": "TurdFerguson", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 9, "pops": 13, "grabs": 4, "drops": 4, "hold": 34, "captures": 0, "prevent": 152, "returns": 9, "pups": 4, "holdagainst": 278, "pm": 2, "pupscomp": 31, "ndpops": 9, "nrtags": 0, "retinbase": 3, "goregrab": 3, "flaccids": 1, "quickret": 3} },
+            { "team": "ThunderCaps", "player_season": "honeybear", "playing_as": "honeybear", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 14, "pops": 12, "grabs": 5, "drops": 5, "hold": 30, "captures": 0, "prevent": 117, "returns": 12, "pups": 6, "holdagainst": 329, "pm": -2, "pupscomp": 31, "ndpops": 7, "nrtags": 2, "quickret": 1, "retinbase": 2, "flaccids": 2, "goodhandoff": 2, "handoff": 2, "longholds": 1} }
           ]
         }
       ]
@@ -2173,6 +2200,20 @@
             { "team": "Soviet Ballers", "player_season": "JukesOfHazrd", "playing_as": "JukesOfHazrd" },
             { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Soviet Ballers", "blue_team": "Balladega Nights", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Balladega Nights", "player_season": "#Frozen", "playing_as": "#Frozen", "stats": {"team": 1, "minutes": 10, "score": 85, "tags": 23, "pops": 11, "grabs": 4, "drops": 4, "hold": 10, "captures": 0, "prevent": 58, "returns": 16, "pups": 7, "holdagainst": 260, "pm": 4, "pupscomp": 33, "ndpops": 7, "nrtags": 7, "retinbase": 2, "flaccids": 2, "goregrab": 1} },
+            { "team": "Balladega Nights", "player_season": "Fozzy", "playing_as": "Fozzy", "stats": {"team": 1, "minutes": 10, "score": 62, "tags": 12, "pops": 11, "grabs": 4, "drops": 4, "hold": 4, "captures": 0, "prevent": 107, "returns": 12, "pups": 1, "holdagainst": 260, "pm": 4, "pupscomp": 33, "ndpops": 7, "nrtags": 0, "quickret": 1, "retinbase": 2, "gohandoff": 1, "flaccids": 1, "keyret": 1} },
+            { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs", "stats": {"team": 2, "minutes": 10, "score": 65, "tags": 8, "pops": 8, "grabs": 4, "drops": 3, "hold": 0, "captures": 1, "prevent": 140, "returns": 8, "pups": 3, "holdagainst": 253, "pm": -4, "pupscomp": 33, "ndpops": 5, "nrtags": 0, "gohandoff": 1, "quickret": 1, "retinbase": 1, "keyret": 1} },
+            { "team": "Balladega Nights", "player_season": "JukesOfHazrd", "playing_as": "JukesOfHazrd", "stats": {"team": 1, "minutes": 10, "score": 86, "tags": 6, "pops": 15, "grabs": 13, "drops": 8, "hold": 110, "captures": 3, "prevent": 4, "returns": 3, "pups": 3, "holdagainst": 260, "pm": 4, "pupscomp": 33, "ndpops": 7, "nrtags": 3, "goregrab": 2} },
+            { "team": "Balladega Nights", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh", "stats": {"team": 2, "minutes": 6, "score": 18, "tags": 8, "pops": 17, "grabs": 12, "drops": 12, "hold": 41, "captures": 0, "prevent": 0, "returns": 1, "pups": 4, "holdagainst": 188, "pm": -4, "pupscomp": 21, "ndpops": 5, "nrtags": 7} },
+            { "team": "Balladega Nights", "player_season": "Sheldon", "playing_as": "Sheldon", "stats": {"team": 1, "minutes": 10, "score": 92, "tags": 8, "pops": 15, "grabs": 18, "drops": 14, "hold": 129, "captures": 4, "prevent": 14, "returns": 5, "pups": 6, "holdagainst": 260, "pm": 4, "pupscomp": 33, "ndpops": 1, "nrtags": 3, "handoff": 1, "gohandoff": 1, "flaccids": 1} },
+            { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew", "stats": {"score": 49, "team": 2, "pups": 4, "grabs": 7, "pops": 10, "drops": 6, "hold": 38, "ndpops": 4, "tags": 4, "captures": 1, "returns": 3, "prevent": 6, "minutes": 4, "flaccids": 1, "goregrab": 4, "goodhandoff": 4, "handoff": 4, "coregrab": 1, "quickret": 3, "retinbase": 2, "nrtags": 1, "holdagainst": 65, "pupscomp": 12, "pm": 0} },
+            { "team": "Balladega Nights", "player_season": "dok", "playing_as": "dok", "stats": {"team": 2, "minutes": 10, "score": 84, "tags": 14, "pops": 11, "grabs": 3, "drops": 3, "hold": 24, "captures": 0, "prevent": 177, "returns": 11, "pups": 3, "holdagainst": 253, "pm": -4, "pupscomp": 33, "ndpops": 8, "nrtags": 3, "retinbase": 1} },
+            { "team": "Balladega Nights", "player_season": "solf", "playing_as": "solf", "stats": {"team": 2, "minutes": 10, "score": 60, "tags": 8, "pops": 17, "grabs": 14, "drops": 13, "hold": 157, "captures": 1, "prevent": 10, "returns": 6, "pups": 2, "holdagainst": 253, "pm": -4, "pupscomp": 33, "ndpops": 4, "nrtags": 2, "handoff": 4, "retinbase": 2, "gohandoff": 1, "goodhandoff": 2, "goregrab": 2, "longholds": 1} }
+          ]
         }
       ]
     },
@@ -2184,8 +2225,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Gate Registration", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy" },
             { "team": "Gate Registration", "player_season": "ThadCastle", "playing_as": "ThadCastle" },
@@ -2197,8 +2238,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Gate Registration", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy" },
             { "team": "Gate Registration", "player_season": "ThadCastle", "playing_as": "ThadCastle" },
@@ -2210,8 +2251,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Gate Registration", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy" },
             { "team": "Gate Registration", "player_season": "ThadCastle", "playing_as": "ThadCastle" },
@@ -2223,8 +2264,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Gate Registration", "player_season": "Destar", "playing_as": "Destar" },
             { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy" },
             { "team": "Gate Registration", "player_season": "ThadCastle", "playing_as": "ThadCastle" },
@@ -2633,6 +2674,20 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Balladega Nights", "blue_team": "Block the Capsbah", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Block the Capsbah", "player_season": "Allegiant.", "playing_as": "Allegiant.", "stats": {"team": 2, "minutes": 11, "score": 23, "tags": 16, "pops": 13, "grabs": 3, "drops": 3, "hold": 14, "captures": 0, "prevent": 119, "returns": 14, "pups": 2, "holdagainst": 358, "pm": -6, "pupscomp": 38, "ndpops": 10, "nrtags": 2, "retinbase": 4, "quickret": 2, "goodhandoff": 1, "handoff": 1} },
+            { "team": "Block the Capsbah", "player_season": "Crossover", "playing_as": "Crossover", "stats": {"team": 2, "minutes": 11, "score": 17, "tags": 5, "pops": 17, "grabs": 10, "drops": 9, "hold": 0, "captures": 1, "prevent": 140, "returns": 4, "pups": 5, "holdagainst": 358, "pm": -6, "pupscomp": 38, "ndpops": 8, "nrtags": 1, "flaccids": 2, "goregrab": 1} },
+            { "team": "Block the Capsbah", "player_season": "Jormungand", "playing_as": "Jormungand", "stats": {"score": 55, "team": 1, "prevent": 148, "grabs": 1, "pops": 4, "drops": 1, "hold": 4, "returns": 11, "tags": 12, "pups": 1, "ndpops": 3, "minutes": 7, "goregrab": 1, "quickret": 4, "retinbase": 6, "keyret": 1, "nrtags": 1, "holdagainst": 58, "pupscomp": 21, "pm": 4} },
+            { "team": "Block the Capsbah", "player_season": "Jubjubs", "playing_as": "Jubjubs", "stats": {"team": 1, "minutes": 4, "score": 35, "tags": 4, "pops": 2, "grabs": 1, "drops": 1, "hold": 3, "captures": 0, "prevent": 28, "returns": 4, "pups": 2, "holdagainst": 19, "pm": 2, "pupscomp": 17, "ndpops": 1, "nrtags": 0} },
+            { "team": "Block the Capsbah", "player_season": "Randy  Marsh", "playing_as": "Randy  Marsh", "stats": {"team": 1, "minutes": 11, "score": 140, "tags": 10, "pops": 24, "grabs": 30, "drops": 22, "hold": 247, "captures": 6, "prevent": 7, "returns": 2, "pups": 10, "holdagainst": 77, "pm": 6, "pupscomp": 38, "ndpops": 2, "nrtags": 8, "goregrab": 6, "goodhandoff": 2, "handoff": 3, "longholds": 2, "coregrab": 2, "quickret": 1, "retinbase": 1, "gohandoff": 1, "cohandoff": 1, "flaccids": 3} },
+            { "team": "Block the Capsbah", "player_season": "Some Man 7", "playing_as": "Some Man 7", "stats": {"team": 2, "minutes": 11, "score": 55, "tags": 7, "pops": 18, "grabs": 15, "drops": 13, "hold": 55, "captures": 1, "prevent": 14, "returns": 5, "pups": 3, "holdagainst": 358, "pm": -6, "pupscomp": 38, "ndpops": 5, "nrtags": 2, "quit": false, "game_end": 6340, "game_start": 6821, "flaccids": 6, "handoff": 3, "goregrab": 1, "goodhandoff": 1, "quickret": 2, "retinbase": 2} },
+            { "team": "Block the Capsbah", "player_season": "Tantrew", "playing_as": "Tantrew", "stats": {"team": 1, "minutes": 11, "score": 58, "tags": 11, "pops": 16, "grabs": 14, "drops": 12, "hold": 99, "captures": 2, "prevent": 11, "returns": 3, "pups": 9, "holdagainst": 77, "pm": 6, "pupscomp": 38, "ndpops": 4, "nrtags": 8, "goodhandoff": 2, "handoff": 3, "goregrab": 2, "quickret": 1, "keyret": 1, "flaccids": 1} },
+            { "team": "Block the Capsbah", "player_season": "TurdFerguson", "playing_as": "TurdFerguson", "stats": {"team": 2, "minutes": 11, "score": 9, "tags": 7, "pops": 11, "grabs": 2, "drops": 2, "hold": 8, "captures": 0, "prevent": 15, "returns": 6, "pups": 2, "holdagainst": 358, "pm": -6, "pupscomp": 38, "ndpops": 9, "nrtags": 1, "goregrab": 1, "gohandoff": 1} },
+            { "team": "Block the Capsbah", "player_season": "dok", "playing_as": "dok", "stats": {"team": 1, "minutes": 11, "score": 36, "tags": 14, "pops": 5, "grabs": 2, "drops": 1, "hold": 5, "captures": 0, "prevent": 115, "returns": 7, "pups": 4, "holdagainst": 77, "pm": 6, "pupscomp": 38, "ndpops": 4, "nrtags": 7, "quickret": 2, "retinbase": 2} }
+          ]
+        },
+        {
           "tagpro_eu": "556233", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Balladega Nights", "blue_team": "Block the Capsbah", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Balladega Nights", "player_season": "Jormungand", "playing_as": "Jormungand" },
@@ -2667,9 +2722,9 @@
           "tagpro_eu": "556196", "game_in_match": "Game 1 Half 1", "map_name": "Smirk", "map_id": 13, "red_team": "Whitecaps", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Whitecaps", "player_season": "Acapuck", "playing_as": "Acapuck" },
             { "team": "Whitecaps", "player_season": "JDoeMonopoly", "playing_as": "JDoeMonopoly" },
             { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P" },
@@ -2680,9 +2735,9 @@
           "tagpro_eu": "556224", "game_in_match": "Game 1 Half 2", "map_name": "Smirk", "map_id": 13, "red_team": "A Blockwork Orange", "blue_team": "Whitecaps", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Whitecaps", "player_season": "Acapuck", "playing_as": "Acapuck" },
             { "team": "Whitecaps", "player_season": "JDoeMonopoly", "playing_as": "JDoeMonopoly" },
             { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P" },
@@ -2693,9 +2748,9 @@
           "tagpro_eu": "556262", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "A Blockwork Orange", "blue_team": "Whitecaps", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Whitecaps", "player_season": "Acapuck", "playing_as": "Acapuck" },
             { "team": "Whitecaps", "player_season": "JDoeMonopoly", "playing_as": "JDoeMonopoly" },
             { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P" },
@@ -2706,9 +2761,9 @@
           "tagpro_eu": "556294", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Whitecaps", "blue_team": "A Blockwork Orange", "team1_score": 11, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
             { "team": "A Blockwork Orange", "player_season": "Thanos", "playing_as": "Thanos" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Whitecaps", "player_season": "Acapuck", "playing_as": "Acapuck" },
             { "team": "Whitecaps", "player_season": "JDoeMonopoly", "playing_as": "JDoeMonopoly" },
             { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P" },
@@ -2788,8 +2843,8 @@
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
             { "team": "Soviet Ballers", "player_season": "Fozzy", "playing_as": "Fozzy" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -2801,8 +2856,8 @@
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -2814,8 +2869,8 @@
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -2827,8 +2882,8 @@
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -2840,8 +2895,8 @@
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -2853,8 +2908,8 @@
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         }
       ]
@@ -3110,8 +3165,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -3123,8 +3178,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -3136,8 +3191,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -3149,8 +3204,8 @@
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
             { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balladega Nights", "player_season": "Devious", "playing_as": "Devious" },
             { "team": "Balladega Nights", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
             { "team": "Balladega Nights", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -3228,8 +3283,8 @@
             { "team": "Block the Capsbah", "player_season": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -3241,8 +3296,8 @@
             { "team": "Block the Capsbah", "player_season": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -3254,8 +3309,8 @@
             { "team": "Block the Capsbah", "player_season": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -3267,8 +3322,8 @@
             { "team": "Block the Capsbah", "player_season": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         }
       ]
@@ -3383,6 +3438,19 @@
             { "team": "The Holy Seehawks", "player_season": "gh0st", "playing_as": "gh0st" },
             { "team": "The Holy Seehawks", "player_season": "mnp", "playing_as": "mnp" },
             { "team": "The Holy Seehawks", "player_season": "teddybear", "playing_as": "teddybear" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Holy Seehawks", "blue_team": "Insane Cap Posse", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "Insane Cap Posse", "player_season": "2P1S", "playing_as": "2P1S", "stats": {"team": 2, "minutes": 10, "score": 23, "tags": 5, "pops": 14, "grabs": 11, "drops": 10, "hold": 111, "captures": 0, "prevent": 19, "returns": 5, "pups": 5, "holdagainst": 338, "pm": -4, "pupscomp": 30, "ndpops": 4, "nrtags": 0} },
+            { "team": "Insane Cap Posse", "player_season": "Brainiac", "playing_as": "Brainiac", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 13, "pops": 4, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 83, "returns": 11, "pups": 2, "holdagainst": 338, "pm": -4, "pupscomp": 30, "ndpops": 2, "nrtags": 2} },
+            { "team": "Insane Cap Posse", "player_season": "Chancho Jomp", "playing_as": "Chancho Jomp", "stats": {"team": 2, "minutes": 10, "score": 30, "tags": 8, "pops": 14, "grabs": 14, "drops": 14, "hold": 149, "captures": 0, "prevent": 3, "returns": 4, "pups": 5, "holdagainst": 338, "pm": -4, "pupscomp": 30, "ndpops": 0, "nrtags": 4} },
+            { "team": "Insane Cap Posse", "player_season": "Krieger", "playing_as": "Krieger", "stats": {"team": 2, "minutes": 10, "score": 36, "tags": 11, "pops": 7, "grabs": 6, "drops": 6, "hold": 25, "captures": 0, "prevent": 81, "returns": 9, "pups": 5, "holdagainst": 338, "pm": -4, "pupscomp": 30, "ndpops": 1, "nrtags": 2} },
+            { "team": "Insane Cap Posse", "player_season": "ccga4", "playing_as": "ccga4", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 0, "pops": 14, "grabs": 14, "drops": 12, "hold": 152, "captures": 2, "prevent": 15, "returns": 0, "pups": 0, "holdagainst": 295, "pm": 4, "pupscomp": 30, "ndpops": 2, "nrtags": 0} },
+            { "team": "Insane Cap Posse", "player_season": "gh0st", "playing_as": "gh0st", "stats": {"team": 1, "minutes": 10, "score": 57, "tags": 20, "pops": 5, "grabs": 4, "drops": 3, "hold": 33, "captures": 0, "prevent": 109, "returns": 19, "pups": 5, "holdagainst": 295, "pm": 4, "pupscomp": 30, "ndpops": 2, "nrtags": 1} },
+            { "team": "Insane Cap Posse", "player_season": "mnp", "playing_as": "mnp", "stats": {"team": 1, "minutes": 10, "score": 44, "tags": 2, "pops": 13, "grabs": 11, "drops": 9, "hold": 129, "captures": 2, "prevent": 27, "returns": 2, "pups": 3, "holdagainst": 295, "pm": 4, "pupscomp": 30, "ndpops": 4, "nrtags": 0} },
+            { "team": "Insane Cap Posse", "player_season": "teddybear", "playing_as": "teddybear", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 14, "pops": 10, "grabs": 6, "drops": 6, "hold": 24, "captures": 0, "prevent": 91, "returns": 11, "pups": 5, "holdagainst": 295, "pm": 4, "pupscomp": 30, "ndpops": 4, "nrtags": 3} }
           ]
         }
       ]
@@ -3636,9 +3704,9 @@
           "tagpro_eu": "587528", "game_in_match": "Game 1 Half 1", "map_name": "Constriction", "map_id": 1, "red_team": "ThunderCaps", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "ThunderCaps", "player_season": "Atrazine", "playing_as": "Atrazine" },
             { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua" },
             { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT" },
@@ -3649,9 +3717,9 @@
           "tagpro_eu": "587575", "game_in_match": "Game 1 Half 2", "map_name": "Constriction", "map_id": 1, "red_team": "A Blockwork Orange", "blue_team": "ThunderCaps", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "ThunderCaps", "player_season": "Atrazine", "playing_as": "Atrazine" },
             { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua" },
             { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT" },
@@ -3662,9 +3730,9 @@
           "tagpro_eu": "587620", "game_in_match": "Game 2 Half 1", "map_name": "GeoKoala", "map_id": 10, "red_team": "ThunderCaps", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "ThunderCaps", "player_season": "Atrazine", "playing_as": "Atrazine" },
             { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua" },
             { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT" },
@@ -3675,9 +3743,9 @@
           "tagpro_eu": "587668", "game_in_match": "Game 2 Half 2", "map_name": "GeoKoala", "map_id": 10, "red_team": "A Blockwork Orange", "blue_team": "ThunderCaps", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "ThunderCaps", "player_season": "Atrazine", "playing_as": "Atrazine" },
             { "team": "ThunderCaps", "player_season": "Gargantua", "playing_as": "Gargantua" },
             { "team": "ThunderCaps", "player_season": "THE DOT", "playing_as": "THE DOT" },
@@ -3698,8 +3766,8 @@
             { "team": "Balls on Parade", "player_season": "yearofme", "playing_as": "yearofme" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "JukesOfHazrd", "playing_as": "JukesOfHazrd" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "JukesOfHazrd", "playing_as": "JukesOfHazrd" }
           ]
         },
         {
@@ -3711,8 +3779,8 @@
             { "team": "Balls on Parade", "player_season": "denna", "playing_as": "denna" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -3724,8 +3792,8 @@
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         },
         {
@@ -3737,8 +3805,8 @@
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "Soviet Ballers", "player_season": "#Frozen", "playing_as": "#Frozen" },
             { "team": "Soviet Ballers", "player_season": "First", "playing_as": "First" },
-            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" },
-            { "team": "Soviet Ballers", "player_season": "halophile", "playing_as": "Halophile" }
+            { "team": "Soviet Ballers", "player_season": "Halophile", "playing_as": "Halophile" },
+            { "team": "Soviet Ballers", "player_season": "Sheldon", "playing_as": "Sheldon" }
           ]
         }
       ]
@@ -4107,9 +4175,9 @@
           "tagpro_eu": "602355", "game_in_match": "Game 1 Half 1", "map_name": "GeoKoala", "map_id": 10, "red_team": "Balls on Parade", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "NotEvenMex" },
             { "team": "Balls on Parade", "player_season": "Oz God", "playing_as": "Oz God" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Balls on Parade", "player_season": "denna", "playing_as": "denna" },
@@ -4117,12 +4185,26 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Balls on Parade", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Dance", "playing_as": "Dance", "stats": {"score": 84, "team": 1, "pups": 4, "ndpops": 7, "pops": 16, "grabs": 11, "drops": 9, "hold": 89, "returns": 3, "tags": 6, "minutes": 10, "flaccids": 1, "goodhandoff": 3, "handoff": 3, "goregrab": 2, "keyret": 1, "gohandoff": 1, "longholds": 1, "prevent": 0, "nrtags": 3, "holdagainst": 216, "pupscomp": 28, "pm": 3, "captures": 2} },
+            { "team": "Balls on Parade", "player_season": "NotEvenMex", "playing_as": "notevenmex", "stats": {"score": 57, "team": 1, "pups": 3, "ndpops": 10, "pops": 14, "tags": 12, "returns": 9, "prevent": 186, "grabs": 4, "drops": 4, "hold": 33, "minutes": 10, "retinbase": 4, "quickret": 2, "goregrab": 2, "longholds": 1, "flaccids": 1, "nrtags": 3, "holdagainst": 216, "pupscomp": 28, "pm": 3, "captures": 0} },
+            { "team": "Balls on Parade", "player_season": "Oz God", "playing_as": "Oz God", "stats": {"score": 79, "team": 2, "ndpops": 5, "pops": 12, "prevent": 22, "grabs": 8, "pups": 5, "drops": 7, "hold": 92, "captures": 1, "tags": 8, "returns": 2, "minutes": 10, "goodhandoff": 3, "handoff": 3, "goregrab": 2, "gohandoff": 1, "quickret": 1, "retinbase": 1, "longholds": 1, "nrtags": 6, "holdagainst": 272, "pupscomp": 28, "pm": -3} },
+            { "team": "Balls on Parade", "player_season": "Papa John", "playing_as": "Papa John", "stats": {"score": 73, "team": 1, "prevent": 201, "returns": 10, "tags": 10, "pups": 3, "grabs": 4, "pops": 9, "drops": 3, "hold": 24, "ndpops": 6, "minutes": 10, "quickret": 4, "retinbase": 2, "goregrab": 1, "gohandoff": 1, "nrtags": 0, "holdagainst": 216, "pupscomp": 28, "pm": 3, "captures": 0} },
+            { "team": "Balls on Parade", "player_season": "STEEZ", "playing_as": "STEEZ", "stats": {"score": 126, "team": 1, "grabs": 11, "pops": 11, "drops": 9, "hold": 126, "pups": 3, "ndpops": 2, "captures": 2, "prevent": 36, "tags": 8, "minutes": 10, "flaccids": 4, "gohandoff": 1, "longholds": 1, "goodhandoff": 2, "handoff": 4, "goregrab": 1, "nrtags": 5, "holdagainst": 216, "pupscomp": 28, "pm": 3, "returns": 3} },
+            { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk", "stats": {"score": 44, "team": 2, "prevent": 119, "returns": 10, "tags": 11, "pups": 3, "grabs": 3, "pops": 5, "drops": 3, "hold": 16, "ndpops": 2, "minutes": 7, "quickret": 3, "retinbase": 4, "goregrab": 1, "goodhandoff": 1, "handoff": 2, "flaccids": 2, "nrtags": 1, "holdagainst": 184, "pupscomp": 28, "pm": 0} },
+            { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto", "stats": {"score": 53, "team": 2, "ndpops": 7, "pops": 10, "prevent": 201, "returns": 5, "tags": 10, "grabs": 4, "drops": 3, "hold": 13, "pups": 1, "minutes": 10, "quickret": 2, "retinbase": 1, "goregrab": 3, "goodhandoff": 1, "handoff": 1, "flaccids": 1, "nrtags": 5, "holdagainst": 272, "pupscomp": 28, "pm": -3, "captures": 0} },
+            { "team": "Balls on Parade", "player_season": "denna", "playing_as": "denna", "stats": {"team": 1, "minutes": 3, "score": 26, "tags": 1, "pops": 5, "grabs": 1, "drops": 1, "hold": 0, "captures": 0, "prevent": 54, "returns": 1, "pups": 0, "holdagainst": 88, "pm": -3, "pupscomp": 0, "ndpops": 4, "nrtags": 0} },
+            { "team": "Balls on Parade", "player_season": "pulpo", "playing_as": "pulpo", "stats": {"score": 59, "team": 2, "pups": 6, "tags": 8, "grabs": 11, "pops": 18, "drops": 11, "hold": 95, "ndpops": 7, "returns": 4, "prevent": 27, "minutes": 10, "flaccids": 3, "goregrab": 2, "longholds": 2, "retinbase": 1, "handoff": 1, "nrtags": 4, "holdagainst": 272, "pupscomp": 28, "pm": -3, "captures": 0} }
+          ]
+        },
+        {
           "tagpro_eu": "602405", "game_in_match": "Game 1 Overtime", "map_name": "GeoKoala", "map_id": 10, "red_team": "Balls on Parade", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "notevenmex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "notevenmex" },
             { "team": "Balls on Parade", "player_season": "Oz God", "playing_as": "Oz God" },
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
@@ -4133,9 +4215,9 @@
           "tagpro_eu": "602465", "game_in_match": "Game 2 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "Balls on Parade", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "notevenmex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "notevenmex" },
             { "team": "Balls on Parade", "player_season": "Oz God", "playing_as": "Oz God" },
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
@@ -4146,9 +4228,9 @@
           "tagpro_eu": "602505", "game_in_match": "Game 2 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "A Blockwork Orange", "blue_team": "Balls on Parade", "team1_score": 4, "team2_score": 0,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance" },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "notevenmex" },
             { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John" },
             { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ" },
-            { "team": "A Blockwork Orange", "player_season": "notevenmex", "playing_as": "notevenmex" },
             { "team": "Balls on Parade", "player_season": "GARBO", "playing_as": "GARBO" },
             { "team": "Balls on Parade", "player_season": "Oz God", "playing_as": "Oz God" },
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
@@ -4171,6 +4253,19 @@
             { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy" },
             { "team": "Gate Registration", "player_season": "Opponent", "playing_as": "Opponent" },
             { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Block the Capsbah", "blue_team": "Gate Registration", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Gate Registration", "player_season": "Allegiant.", "playing_as": "Allegiant.", "stats": {"score": 55, "team": 1, "grabs": 16, "pops": 20, "drops": 16, "hold": 46, "pups": 6, "ndpops": 4, "tags": 2, "captures": 1, "prevent": 2, "minutes": 10, "flaccids": 3, "goregrab": 1, "coregrab": 1, "nrtags": 1, "holdagainst": 178, "pupscomp": 42, "pm": 2, "returns": 1} },
+            { "team": "Gate Registration", "player_season": "Destar", "playing_as": "Destar", "stats": {"score": 17, "team": 2, "pups": 4, "tags": 2, "grabs": 12, "pops": 21, "drops": 12, "hold": 75, "minutes": 10, "flaccids": 2, "handoff": 1, "prevent": 20, "nrtags": 1, "holdagainst": 87, "pupscomp": 42, "pm": -2, "captures": 0, "returns": 1, "ndpops": 9} },
+            { "team": "Gate Registration", "player_season": "Fuzzywuzzy", "playing_as": "Fuzzywuzzy", "stats": {"score": 19, "team": 2, "prevent": 252, "ndpops": 3, "pops": 7, "returns": 14, "tags": 16, "pups": 7, "grabs": 4, "drops": 4, "hold": 12, "minutes": 10, "quickret": 1, "retinbase": 1, "flaccids": 1, "nrtags": 2, "holdagainst": 87, "pupscomp": 42, "pm": -2, "captures": 0} },
+            { "team": "Gate Registration", "player_season": "Opponent", "playing_as": "Opponent", "stats": {"score": 33, "team": 2, "prevent": 269, "returns": 10, "tags": 12, "pups": 3, "ndpops": 4, "pops": 7, "minutes": 10, "quickret": 2, "retinbase": 1, "hold": 6, "nrtags": 2, "holdagainst": 87, "pupscomp": 42, "pm": -2, "grabs": 3, "drops": 3, "captures": 0} },
+            { "team": "Gate Registration", "player_season": "Rexer", "playing_as": "Rexer", "stats": {"score": 50, "team": 1, "pups": 7, "ndpops": 11, "pops": 11, "prevent": 145, "returns": 12, "tags": 16, "grabs": 0, "minutes": 10, "quickret": 3, "retinbase": 2, "hold": 0, "nrtags": 4, "holdagainst": 178, "pupscomp": 42, "pm": 2, "drops": 0, "captures": 0} },
+            { "team": "Gate Registration", "player_season": "Some Man 7", "playing_as": "Some Man 7", "stats": {"score": 62, "team": 1, "ndpops": 4, "pops": 15, "returns": 3, "tags": 3, "grabs": 13, "drops": 11, "hold": 39, "prevent": 15, "pups": 2, "captures": 1, "minutes": 10, "quickret": 1, "nrtags": 0, "holdagainst": 178, "pupscomp": 42, "pm": 2} },
+            { "team": "Gate Registration", "player_season": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx", "stats": {"score": 46, "team": 1, "pups": 6, "prevent": 194, "returns": 13, "tags": 14, "ndpops": 6, "pops": 7, "minutes": 10, "retinbase": 2, "quickret": 1, "hold": 2, "nrtags": 1, "holdagainst": 178, "pupscomp": 42, "pm": 2, "grabs": 1, "drops": 1, "captures": 0} },
+            { "team": "Gate Registration", "player_season": "beast  mode", "playing_as": "beast  mode", "stats": {"score": 17, "team": 2, "grabs": 14, "pops": 27, "drops": 14, "hold": 85, "prevent": 40, "ndpops": 13, "pups": 7, "tags": 14, "minutes": 10, "flaccids": 2, "handoff": 1, "gohandoff": 1, "nrtags": 11, "holdagainst": 87, "pupscomp": 42, "pm": -2, "captures": 0, "returns": 3} }
           ]
         },
         {
@@ -4460,6 +4555,19 @@
           ]
         },
         {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "21 Juke Street", "blue_team": "The Chudley Flaggons", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "The Chudley Flaggons", "player_season": "Crook", "playing_as": "Crook", "stats": {"team": 1, "minutes": 10, "score": 27, "tags": 4, "pops": 17, "grabs": 8, "drops": 7, "hold": 96, "captures": 1, "prevent": 40, "returns": 2, "pups": 3, "holdagainst": 34, "pm": -1, "pupscomp": 40, "ndpops": 10, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "Fapst3r", "playing_as": "Fapst3r", "stats": {"team": 2, "minutes": 10, "score": -1, "tags": 2, "pops": 17, "grabs": 9, "drops": 8, "hold": 26, "captures": 1, "prevent": 27, "returns": 1, "pups": 3, "holdagainst": 180, "pm": 1, "pupscomp": 40, "ndpops": 9, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "Ferret!", "playing_as": "Ferret!", "stats": {"team": 2, "minutes": 10, "score": 38, "tags": 11, "pops": 6, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 214, "returns": 9, "pups": 3, "holdagainst": 180, "pm": 1, "pupscomp": 40, "ndpops": 6, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "Fowlball", "playing_as": "Fowlball", "stats": {"team": 2, "minutes": 10, "score": 11, "tags": 7, "pops": 11, "grabs": 3, "drops": 3, "hold": 8, "captures": 0, "prevent": 159, "returns": 5, "pups": 6, "holdagainst": 180, "pm": 1, "pupscomp": 40, "ndpops": 8, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "ZenWhisper", "playing_as": "ZenWhisper", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 7, "pops": 8, "grabs": 0, "drops": 0, "hold": 0, "captures": 0, "prevent": 224, "returns": 7, "pups": 4, "holdagainst": 34, "pm": -1, "pupscomp": 40, "ndpops": 8, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy", "stats": {"team": 2, "minutes": 10, "score": 68, "tags": 14, "pops": 13, "grabs": 13, "drops": 10, "hold": 0, "captures": 3, "prevent": 140, "returns": 5, "pups": 6, "holdagainst": 180, "pm": 1, "pupscomp": 40, "ndpops": 3, "nrtags": 9} },
+            { "team": "The Chudley Flaggons", "player_season": "rndmwhitekid", "playing_as": "rndmwhitekid", "stats": {"team": 1, "minutes": 10, "score": 67, "tags": 10, "pops": 15, "grabs": 15, "drops": 13, "hold": 74, "captures": 2, "prevent": 14, "returns": 2, "pups": 5, "holdagainst": 34, "pm": -1, "pupscomp": 40, "ndpops": 2, "nrtags": 8} },
+            { "team": "The Chudley Flaggons", "player_season": "thick shady", "playing_as": "thick shady", "stats": {"team": 1, "minutes": 10, "score": 61, "tags": 13, "pops": 9, "grabs": 3, "drops": 3, "hold": 10, "captures": 0, "prevent": 180, "returns": 9, "pups": 10, "holdagainst": 34, "pm": -1, "pupscomp": 40, "ndpops": 6, "nrtags": 4} }
+          ]
+        },
+        {
           "tagpro_eu": "602554", "game_in_match": "Game 2 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "The Chudley Flaggons", "blue_team": "21 Juke Street", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "21 Juke Street", "player_season": "Crook", "playing_as": "Crook" },
@@ -4542,6 +4650,63 @@
             { "team": "Balls on Parade", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
             { "team": "Balls on Parade", "player_season": "Tonto", "playing_as": "Tonto" },
             { "team": "Balls on Parade", "player_season": "yearofme", "playing_as": "yearofme" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S6", "date": "", "week": "Week 10", "team1": "A Blockwork Orange", "team2": "Whitecaps",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Whitecaps", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Whitecaps", "player_season": "Dance", "playing_as": "Dance", "stats": {"team": 1, "minutes": 10, "score": 7, "tags": 3, "pops": 17, "grabs": 14, "drops": 14, "hold": 89, "captures": 0, "prevent": 7, "returns": 3, "pups": 0, "holdagainst": 501, "pm": -3, "pupscomp": 0, "ndpops": 3, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "NotEvenMex", "playing_as": "NotEvenMex", "stats": {"team": 1, "minutes": 10, "score": 18, "tags": 5, "pops": 15, "grabs": 7, "drops": 7, "hold": 78, "captures": 0, "prevent": 38, "returns": 5, "pups": 0, "holdagainst": 501, "pm": -3, "pupscomp": 0, "ndpops": 8, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 13, "pops": 14, "grabs": 7, "drops": 6, "hold": 104, "captures": 0, "prevent": 119, "returns": 13, "pups": 0, "holdagainst": 395, "pm": 3, "pupscomp": 0, "ndpops": 8, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "Papa John", "playing_as": "Papa John", "stats": {"team": 1, "minutes": 10, "score": 47, "tags": 24, "pops": 12, "grabs": 7, "drops": 7, "hold": 79, "captures": 0, "prevent": 33, "returns": 19, "pups": 0, "holdagainst": 501, "pm": -3, "pupscomp": 0, "ndpops": 5, "nrtags": 5} },
+            { "team": "Whitecaps", "player_season": "STEEZ", "playing_as": "STEEZ", "stats": {"team": 1, "minutes": 10, "score": 14, "tags": 4, "pops": 16, "grabs": 15, "drops": 15, "hold": 149, "captures": 0, "prevent": 2, "returns": 2, "pups": 0, "holdagainst": 501, "pm": -3, "pupscomp": 0, "ndpops": 1, "nrtags": 2} },
+            { "team": "Whitecaps", "player_season": "bigbadball", "playing_as": "bigbadball", "stats": {"team": 2, "minutes": 10, "score": 49, "tags": 15, "pops": 14, "grabs": 12, "drops": 11, "hold": 195, "captures": 1, "prevent": 19, "returns": 10, "pups": 0, "holdagainst": 395, "pm": 3, "pupscomp": 0, "ndpops": 3, "nrtags": 5} },
+            { "team": "Whitecaps", "player_season": "eltenelliott", "playing_as": "eltenelliott", "stats": {"team": 2, "minutes": 10, "score": 58, "tags": 16, "pops": 9, "grabs": 5, "drops": 5, "hold": 43, "captures": 0, "prevent": 104, "returns": 15, "pups": 0, "holdagainst": 395, "pm": 3, "pupscomp": 0, "ndpops": 4, "nrtags": 1} },
+            { "team": "Whitecaps", "player_season": "shaszam", "playing_as": "shaszam", "stats": {"team": 2, "minutes": 10, "score": 63, "tags": 4, "pops": 12, "grabs": 13, "drops": 11, "hold": 159, "captures": 2, "prevent": 37, "returns": 4, "pups": 0, "holdagainst": 395, "pm": 3, "pupscomp": 0, "ndpops": 1, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Whitecaps", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "HammerTime", "playing_as": "HammerTime", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 3, "pops": 14, "grabs": 15, "drops": 12, "hold": 158, "captures": 2, "prevent": 13, "returns": 3, "pups": 1, "holdagainst": 385, "pm": 4, "pupscomp": 30, "ndpops": 2, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex", "stats": {"team": 2, "minutes": 10, "score": 66, "tags": 26, "pops": 7, "grabs": 3, "drops": 2, "hold": 41, "captures": 1, "prevent": 74, "returns": 22, "pups": 3, "holdagainst": 385, "pm": 4, "pupscomp": 30, "ndpops": 5, "nrtags": 4} },
+            { "team": "A Blockwork Orange", "player_season": "P0P", "playing_as": "P0P", "stats": {"team": 1, "minutes": 10, "score": 31, "tags": 8, "pops": 13, "grabs": 10, "drops": 10, "hold": 91, "captures": 0, "prevent": 67, "returns": 8, "pups": 4, "holdagainst": 440, "pm": -4, "pupscomp": 30, "ndpops": 3, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 9, "pops": 10, "grabs": 5, "drops": 5, "hold": 34, "captures": 0, "prevent": 81, "returns": 9, "pups": 3, "holdagainst": 385, "pm": 4, "pupscomp": 30, "ndpops": 5, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 6, "pops": 15, "grabs": 12, "drops": 11, "hold": 207, "captures": 1, "prevent": 13, "returns": 6, "pups": 5, "holdagainst": 385, "pm": 4, "pupscomp": 30, "ndpops": 4, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball", "stats": {"team": 1, "minutes": 10, "score": 14, "tags": 1, "pops": 20, "grabs": 17, "drops": 17, "hold": 178, "captures": 0, "prevent": 11, "returns": 1, "pups": 3, "holdagainst": 440, "pm": -4, "pupscomp": 30, "ndpops": 3, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "eltenelliott", "playing_as": "eltenelliott", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 18, "pops": 8, "grabs": 3, "drops": 3, "hold": 13, "captures": 0, "prevent": 79, "returns": 12, "pups": 6, "holdagainst": 440, "pm": -4, "pupscomp": 30, "ndpops": 5, "nrtags": 6} },
+            { "team": "A Blockwork Orange", "player_season": "shaszam", "playing_as": "shaszam", "stats": {"team": 1, "minutes": 10, "score": 25, "tags": 10, "pops": 16, "grabs": 14, "drops": 14, "hold": 103, "captures": 0, "prevent": 13, "returns": 8, "pups": 5, "holdagainst": 440, "pm": -4, "pupscomp": 30, "ndpops": 2, "nrtags": 2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Whitecaps", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Dance", "playing_as": "Dance", "stats": {"team": 2, "minutes": 10, "score": 39, "tags": 3, "pops": 12, "grabs": 12, "drops": 10, "hold": 149, "captures": 2, "prevent": 11, "returns": 2, "pups": 0, "holdagainst": 406, "pm": 0, "pupscomp": 29, "ndpops": 2, "nrtags": 1} },
+            { "team": "A Blockwork Orange", "player_season": "NotEvenMex", "playing_as": "NotEvenMex", "stats": {"team": 2, "minutes": 10, "score": 52, "tags": 20, "pops": 4, "grabs": 1, "drops": 1, "hold": 3, "captures": 0, "prevent": 68, "returns": 15, "pups": 6, "holdagainst": 406, "pm": 0, "pupscomp": 29, "ndpops": 3, "nrtags": 5} },
+            { "team": "A Blockwork Orange", "player_season": "P0P", "playing_as": "P0P", "stats": {"team": 1, "minutes": 10, "score": 49, "tags": 18, "pops": 6, "grabs": 2, "drops": 2, "hold": 77, "captures": 0, "prevent": 70, "returns": 10, "pups": 5, "holdagainst": 379, "pm": 0, "pupscomp": 29, "ndpops": 4, "nrtags": 8} },
+            { "team": "A Blockwork Orange", "player_season": "Papa John", "playing_as": "Papa John", "stats": {"team": 2, "minutes": 10, "score": 24, "tags": 5, "pops": 11, "grabs": 5, "drops": 5, "hold": 27, "captures": 0, "prevent": 70, "returns": 4, "pups": 4, "holdagainst": 406, "pm": 0, "pupscomp": 29, "ndpops": 6, "nrtags": 1} },
+            { "team": "A Blockwork Orange", "player_season": "STEEZ", "playing_as": "STEEZ", "stats": {"team": 2, "minutes": 10, "score": 22, "tags": 7, "pops": 13, "grabs": 9, "drops": 9, "hold": 200, "captures": 0, "prevent": 0, "returns": 2, "pups": 4, "holdagainst": 406, "pm": 0, "pupscomp": 29, "ndpops": 4, "nrtags": 5} },
+            { "team": "A Blockwork Orange", "player_season": "bigbadball", "playing_as": "bigbadball", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 4, "pops": 11, "grabs": 11, "drops": 10, "hold": 141, "captures": 1, "prevent": 7, "returns": 4, "pups": 1, "holdagainst": 379, "pm": 0, "pupscomp": 29, "ndpops": 1, "nrtags": 0} },
+            { "team": "A Blockwork Orange", "player_season": "eltenelliott", "playing_as": "eltenelliott", "stats": {"team": 1, "minutes": 10, "score": 39, "tags": 10, "pops": 6, "grabs": 2, "drops": 2, "hold": 22, "captures": 0, "prevent": 76, "returns": 8, "pups": 2, "holdagainst": 379, "pm": 0, "pupscomp": 29, "ndpops": 4, "nrtags": 2} },
+            { "team": "A Blockwork Orange", "player_season": "shaszam", "playing_as": "shaszam", "stats": {"team": 1, "minutes": 10, "score": 42, "tags": 6, "pops": 14, "grabs": 12, "drops": 10, "hold": 166, "captures": 1, "prevent": 4, "returns": 3, "pups": 7, "holdagainst": 379, "pm": 0, "pupscomp": 29, "ndpops": 4, "nrtags": 3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Whitecaps", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Whitecaps", "player_season": "Dance", "playing_as": "Dance", "stats": {"team": 1, "minutes": 10, "score": 36, "tags": 10, "pops": 10, "grabs": 10, "drops": 9, "hold": 65, "captures": 1, "prevent": 17, "returns": 8, "pups": 4, "holdagainst": 429, "pm": -1, "pupscomp": 29, "ndpops": 1, "nrtags": 2} },
+            { "team": "Whitecaps", "player_season": "NotEvenMex", "playing_as": "NotEvenMex", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 17, "pops": 7, "grabs": 5, "drops": 5, "hold": 75, "captures": 0, "prevent": 55, "returns": 17, "pups": 2, "holdagainst": 429, "pm": -1, "pupscomp": 29, "ndpops": 2, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "P0P", "playing_as": "P0P", "stats": {"team": 2, "minutes": 10, "score": 51, "tags": 7, "pops": 7, "grabs": 6, "drops": 5, "hold": 68, "captures": 1, "prevent": 154, "returns": 6, "pups": 4, "holdagainst": 303, "pm": 1, "pupscomp": 29, "ndpops": 2, "nrtags": 1} },
+            { "team": "Whitecaps", "player_season": "Papa John", "playing_as": "Papa John", "stats": {"team": 1, "minutes": 10, "score": 21, "tags": 4, "pops": 9, "grabs": 7, "drops": 7, "hold": 54, "captures": 0, "prevent": 40, "returns": 4, "pups": 6, "holdagainst": 429, "pm": -1, "pupscomp": 29, "ndpops": 2, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "STEEZ", "playing_as": "STEEZ", "stats": {"team": 1, "minutes": 10, "score": 20, "tags": 3, "pops": 10, "grabs": 11, "drops": 9, "hold": 109, "captures": 1, "prevent": 2, "returns": 3, "pups": 1, "holdagainst": 429, "pm": -1, "pupscomp": 29, "ndpops": 1, "nrtags": 0} },
+            { "team": "Whitecaps", "player_season": "bigbadball", "playing_as": "bigbadball", "stats": {"team": 2, "minutes": 10, "score": 34, "tags": 7, "pops": 12, "grabs": 13, "drops": 12, "hold": 200, "captures": 1, "prevent": 36, "returns": 6, "pups": 0, "holdagainst": 303, "pm": 1, "pupscomp": 29, "ndpops": 0, "nrtags": 1} },
+            { "team": "Whitecaps", "player_season": "eltenelliott", "playing_as": "eltenelliott", "stats": {"team": 2, "minutes": 10, "score": 46, "tags": 12, "pops": 5, "grabs": 4, "drops": 4, "hold": 29, "captures": 0, "prevent": 180, "returns": 10, "pups": 2, "holdagainst": 303, "pm": 1, "pupscomp": 29, "ndpops": 1, "nrtags": 2} },
+            { "team": "Whitecaps", "player_season": "shaszam", "playing_as": "shaszam", "stats": {"team": 2, "minutes": 10, "score": 52, "tags": 9, "pops": 11, "grabs": 12, "drops": 11, "hold": 132, "captures": 1, "prevent": 61, "returns": 7, "pups": 10, "holdagainst": 303, "pm": 1, "pupscomp": 29, "ndpops": 0, "nrtags": 2} }
           ]
         }
       ]
@@ -4783,6 +4948,63 @@
             { "team": "Knockin' Boosts", "player_season": "Gramps", "playing_as": "Gramps" },
             { "team": "Knockin' Boosts", "player_season": "Psychic", "playing_as": "Psychic" },
             { "team": "Knockin' Boosts", "player_season": "bubbles.", "playing_as": "bubbles." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "NLTP S6", "date": "", "week": "Week 10", "team1": "Warden and the Inmates", "team2": "The Chudley Flaggons",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Warden and the Inmates", "blue_team": "The Chudley Flaggons", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "The Chudley Flaggons", "player_season": "----)", "playing_as": "----)", "stats": {"team": 2, "minutes": 10, "score": 35, "tags": 14, "pops": 12, "grabs": 10, "drops": 10, "hold": 60, "captures": 0, "prevent": 64, "returns": 14, "pups": 4, "holdagainst": 391, "pm": -2, "pupscomp": 30, "ndpops": 2, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Creo", "playing_as": "Creo", "stats": {"team": 1, "minutes": 10, "score": 47, "tags": 15, "pops": 7, "grabs": 6, "drops": 6, "hold": 32, "captures": 0, "prevent": 111, "returns": 13, "pups": 5, "holdagainst": 397, "pm": 2, "pupscomp": 30, "ndpops": 1, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "Donkey Kong", "playing_as": "Donkey Kong", "stats": {"team": 2, "minutes": 10, "score": 18, "tags": 7, "pops": 17, "grabs": 12, "drops": 12, "hold": 79, "captures": 0, "prevent": 7, "returns": 7, "pups": 3, "holdagainst": 391, "pm": -2, "pupscomp": 30, "ndpops": 5, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Fowlball", "playing_as": "Fowlball", "stats": {"team": 2, "minutes": 10, "score": 25, "tags": 8, "pops": 10, "grabs": 6, "drops": 6, "hold": 63, "captures": 0, "prevent": 103, "returns": 8, "pups": 0, "holdagainst": 391, "pm": -2, "pupscomp": 30, "ndpops": 4, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Renegade", "playing_as": "Renegade", "stats": {"team": 1, "minutes": 10, "score": 44, "tags": 6, "pops": 17, "grabs": 16, "drops": 15, "hold": 154, "captures": 1, "prevent": 10, "returns": 6, "pups": 2, "holdagainst": 397, "pm": 2, "pupscomp": 30, "ndpops": 2, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Skwid", "playing_as": "Skwid", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 5, "pops": 16, "grabs": 16, "drops": 15, "hold": 159, "captures": 0, "prevent": 20, "returns": 4, "pups": 7, "holdagainst": 397, "pm": 2, "pupscomp": 30, "ndpops": 1, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "Warden", "playing_as": "Warden", "stats": {"team": 1, "minutes": 10, "score": 70, "tags": 13, "pops": 6, "grabs": 5, "drops": 4, "hold": 46, "captures": 1, "prevent": 99, "returns": 12, "pups": 7, "holdagainst": 397, "pm": 2, "pupscomp": 30, "ndpops": 2, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "boogieidm", "playing_as": "boogieidm", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 9, "pops": 15, "grabs": 16, "drops": 15, "hold": 195, "captures": 0, "prevent": 43, "returns": 9, "pups": 2, "holdagainst": 391, "pm": -2, "pupscomp": 30, "ndpops": 0, "nrtags": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Chudley Flaggons", "blue_team": "Warden and the Inmates", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Warden and the Inmates", "player_season": "----)", "playing_as": "----)", "stats": {"team": 1, "minutes": 10, "score": 27, "tags": 12, "pops": 10, "grabs": 5, "drops": 5, "hold": 11, "captures": 0, "prevent": 129, "returns": 11, "pups": 2, "holdagainst": 321, "pm": -2, "pupscomp": 30, "ndpops": 5, "nrtags": 1} },
+            { "team": "Warden and the Inmates", "player_season": "Creo", "playing_as": "Creo", "stats": {"team": 2, "minutes": 10, "score": 29, "tags": 8, "pops": 10, "grabs": 4, "drops": 4, "hold": 11, "captures": 0, "prevent": 131, "returns": 8, "pups": 1, "holdagainst": 274, "pm": 2, "pupscomp": 30, "ndpops": 6, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Donkey Kong", "playing_as": "Donkey Kong", "stats": {"team": 1, "minutes": 10, "score": 19, "tags": 4, "pops": 17, "grabs": 13, "drops": 13, "hold": 95, "captures": 0, "prevent": 15, "returns": 4, "pups": 4, "holdagainst": 321, "pm": -2, "pupscomp": 30, "ndpops": 4, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Fowlball", "playing_as": "Fowlball", "stats": {"team": 1, "minutes": 10, "score": 40, "tags": 18, "pops": 12, "grabs": 7, "drops": 7, "hold": 82, "captures": 0, "prevent": 101, "returns": 17, "pups": 2, "holdagainst": 321, "pm": -2, "pupscomp": 30, "ndpops": 5, "nrtags": 1} },
+            { "team": "Warden and the Inmates", "player_season": "Renegade", "playing_as": "Renegade", "stats": {"team": 2, "minutes": 10, "score": 31, "tags": 7, "pops": 24, "grabs": 19, "drops": 18, "hold": 135, "captures": 1, "prevent": 6, "returns": 7, "pups": 3, "holdagainst": 274, "pm": 2, "pupscomp": 30, "ndpops": 6, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Skwid", "playing_as": "Skwid", "stats": {"team": 2, "minutes": 10, "score": 69, "tags": 10, "pops": 18, "grabs": 18, "drops": 15, "hold": 136, "captures": 3, "prevent": 33, "returns": 6, "pups": 9, "holdagainst": 274, "pm": 2, "pupscomp": 30, "ndpops": 3, "nrtags": 4} },
+            { "team": "Warden and the Inmates", "player_season": "Warden", "playing_as": "Warden", "stats": {"team": 2, "minutes": 10, "score": 32, "tags": 11, "pops": 5, "grabs": 4, "drops": 4, "hold": 39, "captures": 0, "prevent": 141, "returns": 11, "pups": 1, "holdagainst": 274, "pm": 2, "pupscomp": 30, "ndpops": 1, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "boogy", "playing_as": "boogy", "stats": {"team": 1, "minutes": 10, "score": 53, "tags": 10, "pops": 12, "grabs": 12, "drops": 10, "hold": 86, "captures": 2, "prevent": 20, "returns": 8, "pups": 8, "holdagainst": 321, "pm": -2, "pupscomp": 30, "ndpops": 2, "nrtags": 2} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The Chudley Flaggons", "blue_team": "Warden and the Inmates", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Warden and the Inmates", "player_season": "----)", "playing_as": "----)", "stats": {"team": 1, "minutes": 10, "score": 29, "tags": 4, "pops": 7, "grabs": 7, "drops": 6, "hold": 152, "captures": 0, "prevent": 35, "returns": 4, "pups": 3, "holdagainst": 442, "pm": -3, "pupscomp": 28, "ndpops": 1, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Bliss", "playing_as": "Bliss", "stats": {"team": 2, "minutes": 10, "score": 45, "tags": 10, "pops": 4, "grabs": 1, "drops": 1, "hold": 41, "captures": 0, "prevent": 57, "returns": 9, "pups": 3, "holdagainst": 441, "pm": 3, "pupscomp": 28, "ndpops": 3, "nrtags": 1} },
+            { "team": "Warden and the Inmates", "player_season": "Donkey Kong", "playing_as": "Donkey Kong", "stats": {"team": 1, "minutes": 10, "score": 17, "tags": 4, "pops": 12, "grabs": 11, "drops": 11, "hold": 129, "captures": 0, "prevent": 20, "returns": 4, "pups": 2, "holdagainst": 442, "pm": -3, "pupscomp": 28, "ndpops": 1, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Fowlball", "playing_as": "Fowlball", "stats": {"team": 1, "minutes": 10, "score": 35, "tags": 11, "pops": 6, "grabs": 6, "drops": 6, "hold": 105, "captures": 0, "prevent": 25, "returns": 8, "pups": 4, "holdagainst": 442, "pm": -3, "pupscomp": 28, "ndpops": 0, "nrtags": 3} },
+            { "team": "Warden and the Inmates", "player_season": "Renegade", "playing_as": "Renegade", "stats": {"team": 2, "minutes": 10, "score": 37, "tags": 2, "pops": 11, "grabs": 11, "drops": 10, "hold": 180, "captures": 1, "prevent": 0, "returns": 2, "pups": 3, "holdagainst": 441, "pm": 3, "pupscomp": 28, "ndpops": 1, "nrtags": 0} },
+            { "team": "Warden and the Inmates", "player_season": "Skwid", "playing_as": "Skwid", "stats": {"team": 2, "minutes": 10, "score": 65, "tags": 8, "pops": 9, "grabs": 10, "drops": 8, "hold": 188, "captures": 2, "prevent": 4, "returns": 7, "pups": 5, "holdagainst": 441, "pm": 3, "pupscomp": 28, "ndpops": 1, "nrtags": 1} },
+            { "team": "Warden and the Inmates", "player_season": "Warden", "playing_as": "Warden", "stats": {"team": 2, "minutes": 10, "score": 44, "tags": 15, "pops": 5, "grabs": 3, "drops": 2, "hold": 33, "captures": 0, "prevent": 39, "returns": 14, "pups": 2, "holdagainst": 441, "pm": 3, "pupscomp": 28, "ndpops": 3, "nrtags": 1} },
+            { "team": "Warden and the Inmates", "player_season": "boogy", "playing_as": "boogy", "stats": {"team": 1, "minutes": 10, "score": 28, "tags": 8, "pops": 10, "grabs": 9, "drops": 9, "hold": 55, "captures": 0, "prevent": 13, "returns": 5, "pups": 6, "holdagainst": 442, "pm": -3, "pupscomp": 28, "ndpops": 1, "nrtags": 3} }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Warden and the Inmates", "blue_team": "The Chudley Flaggons", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "The Chudley Flaggons", "player_season": "----)", "playing_as": "----)", "stats": {"team": 2, "minutes": 10, "score": 47, "tags": 10, "pops": 7, "grabs": 7, "drops": 7, "hold": 53, "captures": 0, "prevent": 153, "returns": 9, "pups": 7, "holdagainst": 330, "pm": 3, "pupscomp": 30, "ndpops": 0, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "Bliss", "playing_as": "Bliss", "stats": {"team": 1, "minutes": 10, "score": 30, "tags": 10, "pops": 8, "grabs": 5, "drops": 5, "hold": 55, "captures": 0, "prevent": 76, "returns": 10, "pups": 1, "holdagainst": 372, "pm": -3, "pupscomp": 30, "ndpops": 3, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Fowlball", "playing_as": "Fowlball", "stats": {"team": 2, "minutes": 10, "score": 37, "tags": 10, "pops": 9, "grabs": 7, "drops": 7, "hold": 52, "captures": 0, "prevent": 124, "returns": 9, "pups": 3, "holdagainst": 330, "pm": 3, "pupscomp": 30, "ndpops": 2, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "Renegade", "playing_as": "Renegade", "stats": {"team": 1, "minutes": 10, "score": 41, "tags": 8, "pops": 13, "grabs": 14, "drops": 11, "hold": 133, "captures": 2, "prevent": 6, "returns": 7, "pups": 5, "holdagainst": 372, "pm": -3, "pupscomp": 30, "ndpops": 2, "nrtags": 1} },
+            { "team": "The Chudley Flaggons", "player_season": "Skwid", "playing_as": "Skwid", "stats": {"team": 1, "minutes": 10, "score": 20, "tags": 6, "pops": 11, "grabs": 10, "drops": 10, "hold": 79, "captures": 0, "prevent": 52, "returns": 6, "pups": 2, "holdagainst": 372, "pm": -3, "pupscomp": 30, "ndpops": 1, "nrtags": 0} },
+            { "team": "The Chudley Flaggons", "player_season": "Warden", "playing_as": "Warden", "stats": {"team": 1, "minutes": 10, "score": 32, "tags": 11, "pops": 4, "grabs": 4, "drops": 4, "hold": 63, "captures": 0, "prevent": 50, "returns": 9, "pups": 2, "holdagainst": 372, "pm": -3, "pupscomp": 30, "ndpops": 0, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "boogieidm", "playing_as": "boogieidm", "stats": {"team": 2, "minutes": 10, "score": 52, "tags": 5, "pops": 9, "grabs": 13, "drops": 9, "hold": 133, "captures": 3, "prevent": 25, "returns": 3, "pups": 6, "holdagainst": 330, "pm": 3, "pupscomp": 30, "ndpops": 0, "nrtags": 2} },
+            { "team": "The Chudley Flaggons", "player_season": "boogy", "playing_as": "boogy", "stats": {"team": 2, "minutes": 10, "score": 43, "tags": 9, "pops": 10, "grabs": 11, "drops": 9, "hold": 134, "captures": 2, "prevent": 9, "returns": 9, "pups": 4, "holdagainst": 330, "pm": 3, "pupscomp": 30, "ndpops": 1, "nrtags": 0} }
           ]
         }
       ]
