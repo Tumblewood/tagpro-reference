@@ -93,6 +93,19 @@
       "season": "mLTP S18", "date": "2019-05-06", "week": "Week 1", "team1": "The Balltastics", "team2": "Clout 9",
       "games": [
         {
+          "tagpro_eu": "2180489", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Clout 9", "blue_team": "The Balltastics", "team1_score": 0, "team2_score": 2, "second_eu": "2180508", "switch_time": 60,
+          "players": [
+            { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Clout 9", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Clout 9", "player_season": "[leo] sass", "playing_as": "[leo] sass" },
+            { "team": "Clout 9", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "The Balltastics", "player_season": "HERB", "playing_as": "HERB" },
+            { "team": "The Balltastics", "player_season": "Snowball", "playing_as": "Snowball" },
+            { "team": "The Balltastics", "player_season": "Some Paul", "playing_as": "Some Paul" },
+            { "team": "The Balltastics", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
           "tagpro_eu": "2180530", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Balltastics", "blue_team": "Clout 9", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "Clout 9", "player_season": "El Sacko", "playing_as": "El Sacko" },
@@ -867,6 +880,19 @@
       "games": [
         {
           "tagpro_eu": "2192543", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Respawnsiballs", "blue_team": "TC Jukes", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
+            { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Respawnsiballs", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Respawnsiballs", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "TC Jukes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "TC Jukes", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "TC Jukes", "player_season": "refined", "playing_as": "refined" },
+            { "team": "TC Jukes", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2192551", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "TC Jukes", "blue_team": "Respawnsiballs", "team1_score": 1, "team2_score": 0, "second_eu": "2192565", "switch_time": 240,
           "players": [
             { "team": "Respawnsiballs", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
             { "team": "Respawnsiballs", "player_season": "Poeticalto", "playing_as": "Poeticalto" },

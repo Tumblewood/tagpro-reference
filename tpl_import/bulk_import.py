@@ -42,13 +42,20 @@ for g in tpl_api_games:
     seasons[season_name].append(g)
 
 def match_from_links(g: Dict[str, Any]) -> Optional[tagpro_eu.Match]:
-    if len(g['links']) != 1:
+    if len(g['links']) not in [1, 2]:
         return None
-    if "tagpro.eu" not in g['links'][0]:
+    if not all("tagpro.eu" in link for link in g['links']):
         return None
     eu_id = g['links'][0].split("=")[1]
     if eu_id not in bulkmatches:
         return None
+    # If there is a second tagpro.eu link, that's ok as long as its time limit is <10
+    if len(g['links']) > 1:
+        eu_id2 = g['links'][1].split("=")[1]
+        if eu_id2 not in bulkmatches:
+            return None
+        if bulkmatches[eu_id2].timeLimit >= 10:
+            return None
     return bulkmatches[eu_id]
 
 def get_team_info(team_name: str, season_name: str) -> Tuple[str, str, Optional[List[str]], Optional[str]]:
@@ -267,7 +274,7 @@ for season_name in seasons:
 
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
             has_halves = any([g2['half'] != "Half 1" for g2 in games])
-            match_object['games'].append({
+            game_object = {
                 'tagpro_eu': str(m.match_id),
                 'game_in_match': f"{g['game']} {g['half']}" if has_halves else g['game'],
                 'map_name': m.map.get("name", None),
@@ -277,7 +284,12 @@ for season_name in seasons:
                 'team1_score': m.team_red.score if t1_is_red else m.team_blue.score,
                 'team2_score': m.team_red.score if not t1_is_red else m.team_blue.score,
                 'players': game_players
-            })
+            }
+            # Note if there was a second EU link
+            if len(g['links']) == 2:
+                game_object['second_eu'] = g['links'][1].split("=")[1]
+                game_object['switch_time'] = 60 * (10 - bulkmatches[game_object['second_eu']].timeLimit)
+            match_object['games'].append(game_object)
         
         if match_object is not None:
             matches.append(match_object)
