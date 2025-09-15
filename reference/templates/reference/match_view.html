@@ -47,7 +47,7 @@
                     </td>
                     {% for game_data in box_score_games %}
                     <td class="score-cell {% if game_data.winner == 'team1' %}winning-score{% endif %} {% if game_data.team1_is_red %}red-team{% elif game_data.team1_is_blue %}blue-team{% endif %}">
-                        {{ game_data.team1_score }}{% if game_data.is_overtime %}<span class="overtime">OT</span>{% endif %}
+                        {{ game_data.team1_score }}{% if game_data.is_overtime and game_data.winner == "team1" %}<span class="overtime">OT</span>{% endif %}
                     </td>
                     {% endfor %}
                     <td class="total-cell {% if match_winner == 'team1' %}winning-total{% endif %}">
@@ -65,7 +65,7 @@
                     </td>
                     {% for game_data in box_score_games %}
                     <td class="score-cell {% if game_data.winner == 'team2' %}winning-score{% endif %} {% if not game_data.team1_is_red %}red-team{% elif not game_data.team1_is_blue %}blue-team{% endif %}">
-                        {{ game_data.team2_score }}{% if game_data.is_overtime %}<span class="overtime">OT</span>{% endif %}
+                        {{ game_data.team2_score }}{% if game_data.is_overtime and game_data.winner == "team2" %}<span class="overtime">OT</span>{% endif %}
                     </td>
                     {% endfor %}
                     <td class="total-cell {% if match_winner == 'team2' %}winning-total{% endif %}">
