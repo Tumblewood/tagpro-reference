@@ -7,7 +7,7 @@ from django.db import models
 import json
 import re
 from datetime import datetime, date
-from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayerWeekStats, PlayerSeasonStats, League, PlayoffSeries, Franchise
+from ..models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, League, PlayoffSeries, Franchise
 import tagpro_eu
 
 

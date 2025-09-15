@@ -168,7 +168,7 @@ class PlayerGameLog(models.Model):
     def __str__(self):
         return f"{self.player_season.playing_as} in {self.game}"
 
-class PlayerGameStats(models.Model):
+class PlayerStats(models.Model):
     """
     Represents an individual player's stats in a single game.
     """
@@ -204,7 +204,7 @@ class PlayerGameStats(models.Model):
     def __str__(self):
         return f"Stats for {self.player_gamelog}"
 
-class PlayerRegulationGameStats(models.Model):
+class PlayerRegulationStats(models.Model):
     """
     Represents an individual player's stats in a single game that are considered "regulation".
     Excludes OT stats and games played on "home maps".
@@ -241,79 +241,6 @@ class PlayerRegulationGameStats(models.Model):
 
     def __str__(self):
         return f"Regulation game stats for {self.player_gamelog}"
-    
-class PlayerWeekStats(models.Model):
-    """
-    Represents an individual player's total stats in a single week of a season.
-    """
-    player_season = models.ForeignKey(PlayerSeason, on_delete=models.CASCADE, related_name="weekly_stats")
-    week = models.CharField(max_length=100)
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
-    tags = models.IntegerField(blank=True, null=True)
-    pops = models.IntegerField(blank=True, null=True)
-    grabs = models.IntegerField(blank=True, null=True)
-    drops = models.IntegerField(blank=True, null=True)
-    hold = models.IntegerField(blank=True, null=True, help_text="Hold time in ticks (1/60th of a second)")
-    captures = models.IntegerField(blank=True, null=True)
-    prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
-    returns = models.IntegerField(blank=True, null=True)
-    powerups = models.IntegerField(blank=True, null=True)
-    caps_for = models.IntegerField(blank=True, null=True)
-    caps_against = models.IntegerField(blank=True, null=True)
-    total_pups_in_game = models.IntegerField(blank=True, null=True)
-    grabs_off_handoffs = models.IntegerField(blank=True, null=True)
-    caps_off_handoffs = models.IntegerField(blank=True, null=True)
-    grabs_off_regrab = models.IntegerField(blank=True, null=True)
-    caps_off_regrab = models.IntegerField(blank=True, null=True)
-    long_holds = models.IntegerField(blank=True, null=True)
-    flaccids = models.IntegerField(blank=True, null=True)
-    handoffs = models.IntegerField(blank=True, null=True)
-    good_handoffs = models.IntegerField(blank=True, null=True)
-    quick_returns = models.IntegerField(blank=True, null=True)
-    returns_in_base = models.IntegerField(blank=True, null=True)
-    saves = models.IntegerField(blank=True, null=True)
-    key_returns = models.IntegerField(blank=True, null=True)
-    hold_against = models.IntegerField(blank=True, null=True)
-    kept_flags = models.IntegerField(blank=True, null=True)
-
-    def __str__(self):
-        return f"Stats for {self.player_season.playing_as} in {self.week} of {self.player_season.season.name}"
-
-class PlayerSeasonStats(models.Model):
-    """
-    Represents an individual player's total stats in a season.
-    """
-    player_season = models.OneToOneField(PlayerSeason, on_delete=models.CASCADE, related_name="stats")
-    time_played = models.IntegerField(blank=True, null=True, help_text="Time played in ticks (1/60th of a second)")
-    tags = models.IntegerField(blank=True, null=True)
-    pops = models.IntegerField(blank=True, null=True)
-    grabs = models.IntegerField(blank=True, null=True)
-    drops = models.IntegerField(blank=True, null=True)
-    hold = models.IntegerField(blank=True, null=True, help_text="Hold time in ticks (1/60th of a second)")
-    captures = models.IntegerField(blank=True, null=True)
-    prevent = models.IntegerField(blank=True, null=True, help_text="Prevent time in ticks (1/60th of a second)")
-    returns = models.IntegerField(blank=True, null=True)
-    powerups = models.IntegerField(blank=True, null=True)
-    caps_for = models.IntegerField(blank=True, null=True)
-    caps_against = models.IntegerField(blank=True, null=True)
-    total_pups_in_game = models.IntegerField(blank=True, null=True)
-    grabs_off_handoffs = models.IntegerField(blank=True, null=True)
-    caps_off_handoffs = models.IntegerField(blank=True, null=True)
-    grabs_off_regrab = models.IntegerField(blank=True, null=True)
-    caps_off_regrab = models.IntegerField(blank=True, null=True)
-    long_holds = models.IntegerField(blank=True, null=True)
-    flaccids = models.IntegerField(blank=True, null=True)
-    handoffs = models.IntegerField(blank=True, null=True)
-    good_handoffs = models.IntegerField(blank=True, null=True)
-    quick_returns = models.IntegerField(blank=True, null=True)
-    returns_in_base = models.IntegerField(blank=True, null=True)
-    saves = models.IntegerField(blank=True, null=True)
-    key_returns = models.IntegerField(blank=True, null=True)
-    hold_against = models.IntegerField(blank=True, null=True)
-    kept_flags = models.IntegerField(blank=True, null=True)
-
-    def __str__(self):
-        return f"Stats for {self.player_season.playing_as} in {self.player_season.season.name}"
 
 class AwardType(models.Model):
     """

@@ -10,7 +10,7 @@ from datetime import datetime, date
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, reaggregate_stats, update_standings, load_eu_match_object
+from .stat_collection import process_game_stats, update_standings, load_eu_match_object
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries
 
 

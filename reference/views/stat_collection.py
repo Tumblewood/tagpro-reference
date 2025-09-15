@@ -1,7 +1,7 @@
 from django.db import models, transaction
 from typing import Dict, Tuple
 from math import ceil
-from ..models import Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerSeason, PlayerWeekStats, PlayerSeasonStats, Season, TeamSeason, Match, PlayoffSeries
+from ..models import Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, PlayerSeason, Season, TeamSeason, Match, PlayoffSeries
 import tagpro_eu
 from django.conf import settings
 
@@ -413,11 +413,11 @@ def process_game_stats(game: Game):
             stat: ps_before_ot[p][stat]
             for stat in STAT_FIELDS
         }
-        game_stats, _ = PlayerGameStats.objects.update_or_create(
+        game_stats, _ = PlayerStats.objects.update_or_create(
             player_gamelog=players[p],
             defaults=player_stat_defaults
         )
-        regulation_game_stats, _ = PlayerRegulationGameStats.objects.update_or_create(
+        regulation_game_stats, _ = PlayerRegulationStats.objects.update_or_create(
             player_gamelog=players[p],
             defaults=player_regulation_stat_defaults
         )
@@ -425,35 +425,7 @@ def process_game_stats(game: Game):
         regulation_game_stats.save()
 
 
-def reaggregate_stats(player_season: PlayerSeason):
-    """Re-aggregate week and season stat totals for all players in the game."""
-    weeks_in_season = Match.objects.filter(
-        season=player_season.season
-    ).values_list('week', flat=True).distinct()
-    for week in weeks_in_season:
-        prgs_this_week = PlayerRegulationGameStats.objects.filter(
-            player_gamelog__player_season=player_season,
-            player_gamelog__game__match__week=week
-        )
-        player_week_stats, _ = PlayerWeekStats.objects.update_or_create(
-            player_season=player_season,
-            week=week,
-            defaults=aggregate_stats(prgs_this_week)
-        )
-        player_week_stats.save()
-
-        pws_this_season = PlayerWeekStats.objects.filter(
-            player_season=player_season,
-            week__startswith="Week"
-        )
-        player_season_stats, _ = PlayerSeasonStats.objects.update_or_create(
-            player_season=player_season,
-            defaults=aggregate_stats(pws_this_season)
-        )
-        player_season_stats.save()
-
-
-def aggregate_stats(pgs: models.QuerySet[PlayerGameStats]) -> Dict[str, int]:
+def aggregate_stats(pgs: models.QuerySet[PlayerStats]) -> Dict[str, int]:
     """
     Return a dict usable as default for a PlayerGameStats model where the values are the totals of all
     the stats in the records in pgs.
