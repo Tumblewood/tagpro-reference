@@ -869,8 +869,6 @@ def import_from_eus(request):
                 })
 
 
-
-
 def preprocess_eu_links(request):
     """Form where user can paste EU links and get back JSON data."""
     if request.method == 'GET':
@@ -932,9 +930,3 @@ def import_from_json(request):
         except Exception as e:
             messages.error(request, f"Error importing JSON: {str(e)}")
             return render(request, 'reference/import_json.html')
-
-
-
-
-
-

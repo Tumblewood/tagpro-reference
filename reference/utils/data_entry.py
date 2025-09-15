@@ -485,14 +485,30 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             franchise, _ = Franchise.objects.get_or_create(name=franchise_name)
             franchises_cache[franchise_name] = franchise
         
+        # Handle captain and co_captain
+        captain = None
+        co_captain = None
+        if ts_data.get('captain'):
+            captain, _ = Player.objects.get_or_create(name=ts_data['captain'])
+            players_cache[ts_data['captain']] = captain
+        if ts_data.get('co_captain'):
+            co_captain, _ = Player.objects.get_or_create(name=ts_data['co_captain'])
+            players_cache[ts_data['co_captain']] = co_captain
+        
         # Get or create team season
+        defaults = {
+            'franchise': franchises_cache[franchise_name],
+            'abbr': ts_data['abbr']
+        }
+        if captain:
+            defaults['captain'] = captain
+        if co_captain:
+            defaults['co_captain'] = co_captain
+            
         team_season, _ = TeamSeason.objects.get_or_create(
             season=season,
             name=ts_data['name'],
-            defaults={
-                'franchise': franchises_cache[franchise_name],
-                'abbr': ts_data['abbr']
-            }
+            defaults=defaults
         )
         team_seasons_cache[f"{season.name}_{ts_data['name']}"] = team_season
     
@@ -559,18 +575,31 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 skipped_count += 1
                 continue
 
-            # Create game
-            game = Game.objects.create(
-                match=match,
-                red_team=red_team,
-                blue_team=blue_team,
-                team1_score=game_data['team1_score'],
-                team2_score=game_data['team2_score'],
-                map_name=game_data['map_name'],
-                map_id=game_data['map_id'] if game_data['map_id'] else None,
-                game_in_match=f"Game {game_in_match}",
-                tagpro_eu=game_data['tagpro_eu']
-            )
+            # Create game with additional fields
+            game_fields = {
+                'match': match,
+                'red_team': red_team,
+                'blue_team': blue_team,
+                'team1_score': game_data.get('team1_score', 0),
+                'team2_score': game_data.get('team2_score', 0),
+                'map_name': game_data['map_name'],
+                'map_id': game_data['map_id'] if game_data['map_id'] else None,
+                'game_in_match': f"Game {game_in_match}",
+                'tagpro_eu': game_data['tagpro_eu']
+            }
+            
+            # Add optional fields if present
+            if game_data.get('second_eu'):
+                game_fields['resumed_tagpro_eu'] = game_data['second_eu']
+            if game_data.get('switch_time') is not None:
+                game_fields['paused_time'] = game_data['switch_time']
+                game_fields['resumed_stats_count_until'] = 600 - game_data['switch_time']
+            if game_data.get('replay'):
+                game_fields['replay'] = game_data['replay']
+            if game_data.get('vod'):
+                game_fields['vod'] = game_data['vod']
+                
+            game = Game.objects.create(**game_fields)
 
             # Create player game logs
             for player_data in game_data['players']:
