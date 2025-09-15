@@ -1,7 +1,7 @@
 from typing import List
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models
-from reference.utils.display_info import aggregate_player_stats, get_team_standings
+from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats
 from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, League, PlayoffSeries, Franchise
 
 
@@ -308,64 +308,7 @@ def season_schedule(req, season_id):
             
             # Build box score data
             if games:
-                # Calculate totals
-                team1_total = 0
-                team2_total = 0
-                is_playoff = hasattr(match, 'playoff_series') and match.playoff_series
-                
-                game_results = []
-                for game in games:
-                    # Determine scores and winner
-                    team1_score = game.team1_score
-                    team2_score = game.team2_score
-                    
-                    # Check if overtime
-                    is_overtime = game.outcome in ["OTW", "OTL"] if game.outcome else False
-                    
-                    # Determine game winner
-                    if team1_score > team2_score:
-                        game_winner = "team1"
-                        if not is_playoff:
-                            team1_total += game.team1_standing_points or 0
-                            team2_total += game.team2_standing_points or 0
-                        else:
-                            team1_total += 1
-                    elif team2_score > team1_score:
-                        game_winner = "team2"
-                        if not is_playoff:
-                            team1_total += game.team1_standing_points or 0
-                            team2_total += game.team2_standing_points or 0
-                        else:
-                            team2_total += 1
-                    else:
-                        game_winner = "tie"
-                        if not is_playoff:
-                            team1_total += game.team1_standing_points or 0
-                            team2_total += game.team2_standing_points or 0
-                    
-                    game_results.append({
-                        'team1_score': team1_score,
-                        'team2_score': team2_score,
-                        'winner': game_winner,
-                        'is_overtime': is_overtime,
-                        'game_number': game.game_in_match
-                    })
-                
-                # Determine match winner
-                if is_playoff:
-                    match_winner = 'team1' if team1_total > team2_total else 'team2' if team2_total > team1_total else 'tie'
-                else:
-                    match_winner = 'team1' if team1_total > team2_total else 'team2' if team2_total > team1_total else 'tie'
-                
-                match_data = {
-                    'match': match,
-                    'games': game_results,
-                    'team1_total': team1_total,
-                    'team2_total': team2_total,
-                    'match_winner': match_winner,
-                    'is_playoff': is_playoff,
-                    'has_games': True
-                }
+                match_data = calculate_match_box_score(match, games)
             else:
                 match_data = {
                     'match': match,
@@ -413,7 +356,7 @@ def season_stats(req, season_id):
     for week in sorted_weeks:
         week_options.append({ 'value': week, 'label': week })
     
-    stats = aggregate_player_stats(by_player_season=True, season=season, week=week_filter)
+    stats = aggregate_player_stats(season=season, week=week_filter)
     template_stats = []
     for player_stat in stats:
         stat_row = {
@@ -497,7 +440,7 @@ def player_history(req, player_id):
         player_seasons_query = player_seasons_query.filter(season__league__gamemode="CTF")
     
     # Build history data
-    history_data = [ps for ps in aggregate_player_stats(by_player_season=True, player=player)]
+    history_data = aggregate_player_stats(player=player)
     
     return render(req, "reference/player_history.html", {
         'player': player,
@@ -517,82 +460,16 @@ def team_season(req, team_id):
     rank = team.seed if team.seed else "—"
     playoff_finish = team.playoff_finish if team.playoff_finish else "—"
     
-    # Calculate team record (W-OTW-OTL-L)
-    team_games = Game.objects.filter(
-        models.Q(red_team=team) | models.Q(blue_team=team),
-        match__season=season,
-        match__week__startswith="Week"
-    )
-    
-    wins = ot_wins = ot_losses = losses = 0
-    for game in team_games:
-        is_team1 = (team == game.match.team1)
-        
-        if game.outcome:
-            if is_team1:
-                outcome = game.outcome
-            else:
-                outcome_map = {'W': 'L', 'OTW': 'OTL', 'L': 'W', 'OTL': 'OTW', 'T': 'T'}
-                outcome = outcome_map.get(game.outcome, game.outcome)
-            
-            if outcome == 'W':
-                wins += 1
-            elif outcome == 'OTW':
-                ot_wins += 1
-            elif outcome == 'OTL':
-                ot_losses += 1
-            elif outcome == 'L':
-                losses += 1
-        else:
-            # Determine by score if outcome not set
-            team_score = game.team1_score if is_team1 else game.team2_score
-            opponent_score = game.team2_score if is_team1 else game.team1_score
-            
-            if team_score > opponent_score:
-                wins += 1
-            elif team_score < opponent_score:
-                losses += 1
-    
-    record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"
+    # Get team standings data (includes record)
+    team_standings = get_team_standings(team)
+    record = team_standings['record']
     
     # Get roster
     players = team.players.all().order_by('player__name')
     
-    # Get player season stats for this team
-    player_season_stats = PlayerSeasonStats.objects.filter(
-        player_season__team=team
-    ).select_related(
-        'player_season__player'
-    )
-    
-    # Convert to final stats list
-    team_stats = []
-    for stat in player_season_stats:
-        player_season = stat.player_season
-        
-        stats_data = {
-            'player': player_season.player,
-            'time_played': stat.time_played or 0,
-            'tags': stat.tags or 0,
-            'pops': stat.pops or 0,
-            'grabs': stat.grabs or 0,
-            'drops': stat.drops or 0,
-            'hold': stat.hold or 0,
-            'captures': stat.captures or 0,
-            'prevent': stat.prevent or 0,
-            'returns': stat.returns or 0,
-            'powerups': stat.powerups or 0,
-        }
-        
-        # Convert time fields
-        stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
-        stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
-        stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
-        
-        team_stats.append(stats_data)
-    
-    # Sort by time played (descending)
-    team_stats.sort(key=lambda x: -x['time_played'])
+    # Get player season stats for this team using aggregate_player_stats
+    team_player_stats = aggregate_player_stats(season=season)
+    team_stats = [stat for stat in team_player_stats if stat['team'] == team]
     
     # Get schedule data
     matches = Match.objects.filter(
@@ -608,64 +485,7 @@ def team_season(req, team_id):
         
         # Build box score data
         if games:
-            # Calculate totals
-            team1_total = 0
-            team2_total = 0
-            is_playoff = hasattr(match, 'playoff_series') and match.playoff_series
-            
-            game_results = []
-            for game in games:
-                # Determine scores and winner
-                team1_score = game.team1_score
-                team2_score = game.team2_score
-                
-                # Check if overtime
-                is_overtime = game.outcome in ['OTW', 'OTL'] if game.outcome else False
-                
-                # Determine game winner
-                if team1_score > team2_score:
-                    game_winner = 'team1'
-                    if not is_playoff:
-                        team1_total += game.team1_standing_points or 0
-                        team2_total += game.team2_standing_points or 0
-                    else:
-                        team1_total += 1
-                elif team2_score > team1_score:
-                    game_winner = 'team2'
-                    if not is_playoff:
-                        team1_total += game.team1_standing_points or 0
-                        team2_total += game.team2_standing_points or 0
-                    else:
-                        team2_total += 1
-                else:
-                    game_winner = 'tie'
-                    if not is_playoff:
-                        team1_total += game.team1_standing_points or 0
-                        team2_total += game.team2_standing_points or 0
-                
-                game_results.append({
-                    'team1_score': team1_score,
-                    'team2_score': team2_score,
-                    'winner': game_winner,
-                    'is_overtime': is_overtime,
-                    'game_number': game.game_in_match
-                })
-            
-            # Determine match winner
-            if is_playoff:
-                match_winner = 'team1' if team1_total > team2_total else 'team2' if team2_total > team1_total else 'tie'
-            else:
-                match_winner = 'team1' if team1_total > team2_total else 'team2' if team2_total > team1_total else 'tie'
-            
-            match_data = {
-                'match': match,
-                'games': game_results,
-                'team1_total': team1_total,
-                'team2_total': team2_total,
-                'match_winner': match_winner,
-                'is_playoff': is_playoff,
-                'has_games': True
-            }
+            match_data = calculate_match_box_score(match, games)
         else:
             match_data = {
                 'match': match,
@@ -701,7 +521,7 @@ def franchise_history(req, franchise_id):
     # Get all team seasons for this franchise
     team_seasons_query = TeamSeason.objects.filter(franchise=franchise).select_related(
         'season__league', 'captain', 'co_captain'
-    ).prefetch_related('season__teams')
+    )
     
     # Apply league filter
     if league_filter != 'all':
@@ -725,52 +545,13 @@ def franchise_history(req, franchise_id):
         rank = team.seed if team.seed else "—"
         playoff_finish = team.playoff_finish if team.playoff_finish else "—"
         
-        # Calculate team record (W-OTW-OTL-L)
-        team_games = Game.objects.filter(
-            models.Q(red_team=team) | models.Q(blue_team=team),
-            match__season=season,
-            match__week__startswith="Week"
-        )
-        
-        wins = ot_wins = ot_losses = losses = 0
-        for game in team_games:
-            is_team1 = (team == game.match.team1)
-            
-            if game.outcome:
-                if is_team1:
-                    outcome = game.outcome
-                else:
-                    outcome_map = {'W': 'L', 'OTW': 'OTL', 'L': 'W', 'OTL': 'OTW', 'T': 'T'}
-                    outcome = outcome_map.get(game.outcome, game.outcome)
-                
-                if outcome == 'W':
-                    wins += 1
-                elif outcome == 'OTW':
-                    ot_wins += 1
-                elif outcome == 'OTL':
-                    ot_losses += 1
-                elif outcome == 'L':
-                    losses += 1
-            else:
-                # Determine by score if outcome not set
-                team_score = game.team1_score if is_team1 else game.team2_score
-                opponent_score = game.team2_score if is_team1 else game.team1_score
-                
-                if team_score > opponent_score:
-                    wins += 1
-                elif team_score < opponent_score:
-                    losses += 1
-        
-        record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"
+        # Get team record from standings
+        team_standings = get_team_standings(team)
+        record = team_standings['record']
         
         # Find player with most minutes
-        try:
-            most_minutes_stat = PlayerSeasonStats.objects.filter(
-                player_season__team=team
-            ).select_related('player_season__player').order_by('-time_played').first()
-            most_minutes_player = most_minutes_stat.player_season.player if most_minutes_stat else None
-        except PlayerSeasonStats.DoesNotExist:
-            most_minutes_player = None
+        team_player_stats = aggregate_player_stats(season=season, franchise=franchise)
+        most_minutes_player = team_player_stats[0]['player'] if team_player_stats else None
         
         history_data.append({
             'season': season,
@@ -783,63 +564,52 @@ def franchise_history(req, franchise_id):
             'most_minutes_player': most_minutes_player,
         })
     
-    # Get all-time player stats for this franchise (with same league filtering)
-    franchise_team_ids = [ts.id for ts in team_seasons]
-    
-    if franchise_team_ids:
-        franchise_season_stats = PlayerSeasonStats.objects.filter(
-            player_season__team__id__in=franchise_team_ids
-        ).select_related(
-            'player_season__player'
-        )
-        
-        # Aggregate stats by player across all seasons for this franchise
-        player_aggregates = {}
-        for stat in franchise_season_stats:
-            player = stat.player_season.player
-            
-            if player not in player_aggregates:
-                player_aggregates[player] = {
-                    'player': player,
-                    'time_played': 0,
-                    'tags': 0,
-                    'pops': 0,
-                    'grabs': 0,
-                    'drops': 0,
-                    'hold': 0,
-                    'captures': 0,
-                    'prevent': 0,
-                    'returns': 0,
-                    'powerups': 0,
-                }
-            
-            # Aggregate each stat field
-            agg = player_aggregates[player]
-            agg['time_played'] += stat.time_played or 0
-            agg['tags'] += stat.tags or 0
-            agg['pops'] += stat.pops or 0
-            agg['grabs'] += stat.grabs or 0
-            agg['drops'] += stat.drops or 0
-            agg['hold'] += stat.hold or 0
-            agg['captures'] += stat.captures or 0
-            agg['prevent'] += stat.prevent or 0
-            agg['returns'] += stat.returns or 0
-            agg['powerups'] += stat.powerups or 0
-        
-        # Convert time fields and prepare final stats list
-        all_time_stats = []
-        for agg in player_aggregates.values():
-            # Convert time fields
-            agg['time_played_min'] = round(agg['time_played'] / 3600) if agg['time_played'] else 0
-            agg['hold_sec'] = round(agg['hold'] / 60) if agg['hold'] else 0
-            agg['prevent_sec'] = round(agg['prevent'] / 60) if agg['prevent'] else 0
-            
-            all_time_stats.append(agg)
-        
-        # Sort by time played (descending)
-        all_time_stats.sort(key=lambda x: -x['time_played'])
+    # Get all-time player stats for this franchise using aggregate_player_stats
+    if league_filter != 'all':
+        try:
+            league_id = int(league_filter)
+            league = League.objects.get(id=league_id)
+            franchise_stats = aggregate_player_stats(franchise=franchise, league=league)
+        except (ValueError, League.DoesNotExist):
+            franchise_stats = aggregate_player_stats(franchise=franchise)
     else:
-        all_time_stats = []
+        franchise_stats = aggregate_player_stats(franchise=franchise)
+    
+    # Aggregate by player across all their seasons with this franchise
+    player_aggregates = {}
+    for stat in franchise_stats:
+        player = stat['player']
+        
+        if player not in player_aggregates:
+            player_aggregates[player] = {
+                'player': player,
+                'time_played_min': 0,
+                'tags': 0,
+                'pops': 0,
+                'grabs': 0,
+                'drops': 0,
+                'hold_sec': 0,
+                'captures': 0,
+                'prevent_sec': 0,
+                'returns': 0,
+                'powerups': 0,
+            }
+        
+        # Aggregate each stat field
+        agg = player_aggregates[player]
+        agg['time_played_min'] += stat['time_played_min']
+        agg['tags'] += stat['tags']
+        agg['pops'] += stat['pops']
+        agg['grabs'] += stat['grabs']
+        agg['drops'] += stat['drops']
+        agg['hold_sec'] += stat['hold_sec']
+        agg['captures'] += stat['captures']
+        agg['prevent_sec'] += stat['prevent_sec']
+        agg['returns'] += stat['returns']
+        agg['powerups'] += stat['powerups']
+    
+    # Convert to list and sort by time played (descending)
+    all_time_stats = sorted(player_aggregates.values(), key=lambda x: -x['time_played_min'])
     
     return render(req, 'reference/franchise_history.html', {
         'franchise': franchise,
@@ -860,52 +630,7 @@ def match_view(req, match_id):
         'red_team__franchise', 'blue_team__franchise'
     ).order_by('game_in_match')
     
-    # Calculate box score data
-    team1_total_score = 0
-    team2_total_score = 0
-    team1_total_caps = 0
-    team2_total_caps = 0
-    
-    box_score_games = []
-    for game in games:
-        # Determine if team1 was red or blue in this game
-        team1_is_red = (game.red_team == match.team1)
-        team1_is_blue = (game.blue_team == match.team1)
-        
-        # Determine winner and if OT
-        is_overtime = game.outcome in ['OTW', 'OTL']
-        if game.team1_score > game.team2_score:
-            winner = 'team1'
-        elif game.team2_score > game.team1_score:
-            winner = 'team2'
-        else:
-            winner = 'tie'
-        
-        # Add to totals
-        team1_total_score += game.team1_standing_points
-        team2_total_score += game.team2_standing_points
-        
-        # Calculate caps (scores) for the series
-        team1_total_caps += game.team1_score
-        team2_total_caps += game.team2_score
-        
-        box_score_games.append({
-            'game': game,
-            'team1_score': game.team1_score,
-            'team2_score': game.team2_score,
-            'team1_is_red': team1_is_red,
-            'team1_is_blue': team1_is_blue,
-            'winner': winner,
-            'is_overtime': is_overtime,
-        })
-    
-    # Determine match winner
-    if team1_total_score > team2_total_score:
-        match_winner = 'team1'
-    elif team2_total_score > team1_total_score:
-        match_winner = 'team2'
-    else:
-        match_winner = 'tie'
+    box_score_data = calculate_match_box_score(match, games, include_details=True)
     
     # Get player stats for all games (default view)
     selected_game = req.GET.get('game', 'all')
@@ -923,85 +648,9 @@ def match_view(req, match_id):
             stats_games = games
             show_map_info = False
     
-    # Get player stats for both teams
-    def get_team_stats(team, games_filter):
-        # If showing all games, use PlayerWeekStats for the match week
-        if selected_game == 'all':
-            # Get all player_seasons who actually played for this team in this match
-            match_games = Game.objects.filter(match=match)
-            player_seasons_in_match = PlayerGameLog.objects.filter(
-                game__in=match_games,
-                team=team
-            ).values_list('player_season', flat=True).distinct()
-            
-            # Get week stats for players who actually played in the match
-            week_stats = PlayerWeekStats.objects.filter(
-                player_season__in=player_seasons_in_match,
-                week=match.week
-            ).select_related('player_season__player')
-            
-            team_stats = []
-            for stat in week_stats:
-                player_season = stat.player_season
-                stats_data = {
-                    'player_season__player__id': player_season.player.id,
-                    'player_season__player__name': player_season.player.name,
-                    'player_season__playing_as': player_season.playing_as,
-                    'time_played': stat.time_played or 0,
-                    'tags': stat.tags or 0,
-                    'pops': stat.pops or 0,
-                    'grabs': stat.grabs or 0,
-                    'drops': stat.drops or 0,
-                    'hold': stat.hold or 0,
-                    'captures': stat.captures or 0,
-                    'prevent': stat.prevent or 0,
-                    'returns': stat.returns or 0,
-                    'powerups': stat.powerups or 0,
-                }
-                
-                # Convert time fields
-                stats_data['time_played_min'] = round(stats_data['time_played'] / 3600) if stats_data['time_played'] else 0
-                stats_data['hold_sec'] = round(stats_data['hold'] / 60) if stats_data['hold'] else 0
-                stats_data['prevent_sec'] = round(stats_data['prevent'] / 60) if stats_data['prevent'] else 0
-                
-                team_stats.append(stats_data)
-            
-            # Sort by time played (descending)
-            team_stats.sort(key=lambda x: -x['time_played'])
-        else:
-            # For specific games, aggregate from PlayerGameLog
-            player_logs = PlayerGameLog.objects.filter(
-                game__in=games_filter,
-                team=team
-            ).select_related('player_season__player').values(
-                'player_season__player__id',
-                'player_season__player__name',
-                'player_season__playing_as',
-            ).annotate(
-                time_played=models.Sum('stats__time_played'),
-                tags=models.Sum('stats__tags'),
-                pops=models.Sum('stats__pops'),
-                grabs=models.Sum('stats__grabs'),
-                drops=models.Sum('stats__drops'),
-                hold=models.Sum('stats__hold'),
-                captures=models.Sum('stats__captures'),
-                prevent=models.Sum('stats__prevent'),
-                returns=models.Sum('stats__returns'),
-                powerups=models.Sum('stats__powerups'),
-            ).order_by('-time_played')
-            
-            team_stats = []
-            for log in player_logs:
-                # Convert time fields from seconds to minutes
-                log['time_played_min'] = round(log['time_played'] / 3600) if log['time_played'] else 0
-                log['hold_sec'] = round(log['hold'] / 60) if log['hold'] else 0
-                log['prevent_sec'] = round(log['prevent'] / 60) if log['prevent'] else 0
-                team_stats.append(log)
-        
-        return team_stats
-    
-    team1_stats = get_team_stats(match.team1, stats_games)
-    team2_stats = get_team_stats(match.team2, stats_games)
+    # Get player stats for both teams using utility function
+    team1_stats = get_match_team_stats(match, match.team1, selected_game)
+    team2_stats = get_match_team_stats(match, match.team2, selected_game)
     
     # Get available games for dropdown
     game_options = [{'value': 'all', 'label': 'All Games'}]
@@ -1032,12 +681,12 @@ def match_view(req, match_id):
     return render(req, 'reference/match_view.html', {
         'match': match,
         'season': season,
-        'box_score_games': box_score_games,
-        'team1_total_score': team1_total_score,
-        'team2_total_score': team2_total_score,
-        'team1_total_caps': team1_total_caps,
-        'team2_total_caps': team2_total_caps,
-        'match_winner': match_winner,
+        'box_score_games': box_score_data['box_score_games'],
+        'team1_total_score': box_score_data['team1_total'],
+        'team2_total_score': box_score_data['team2_total'],
+        'team1_total_caps': box_score_data['team1_total_caps'],
+        'team2_total_caps': box_score_data['team2_total_caps'],
+        'match_winner': box_score_data['match_winner'],
         'team1_stats': team1_stats,
         'team2_stats': team2_stats,
         'game_options': game_options,
