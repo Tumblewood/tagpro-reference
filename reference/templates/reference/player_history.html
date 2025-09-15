@@ -42,8 +42,8 @@
                 {% for history in history_data %}
                 <tr>
                     <td class="team-name">
-                        <a href="{% url 'season_home' history.season.id %}">
-                            {{ history.season.name }}
+                        <a href="{% url 'season_home' history.player_season.season.id %}">
+                            {{ history.player_season.season.name }}
                         </a>
                     </td>
                     <td class="team-name">
@@ -55,9 +55,9 @@
                             —
                         {% endif %}
                     </td>
-                    <td>{{ history.rank }}</td>
-                    <td>{{ history.playoff_finish }}</td>
-                    <td>{{ history.minutes_played }}</td>
+                    <td>{{ history.team.seed|default:"—" }}</td>
+                    <td>{{ history.team.playoff_finish|default:"—" }}</td>
+                    <td>{{ history.time_played_min }}</td>
                     <td>{{ history.captures }}</td>
                     <td>{{ history.hold_sec }}</td>
                     <td>{{ history.prevent_sec }}</td>

@@ -6,7 +6,7 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from django.db import models
 from datetime import datetime, date
-from ..models import Game, League, PlayerSeason, Season, Franchise, Player, PlayerStats, TeamSeason, PlayerGameLog
+from ..models import Game, League, PlayerRegulationStats, PlayerSeason, Season, Franchise, Player, PlayerStats, TeamSeason, PlayerGameLog
 
 
 STAT_FIELDS = [
@@ -42,7 +42,7 @@ def aggregate_player_stats(
     from django.db import models
     
     # Start with base query
-    stats_query = PlayerStats.objects.select_related(
+    stats_query = PlayerRegulationStats.objects.select_related(
         'player_gamelog__player_season__player',
         'player_gamelog__player_season__team',
         'player_gamelog__game__match'
@@ -211,13 +211,12 @@ def get_match_team_stats(match, team, selected_game='all'):
         ).values_list('player_season', flat=True).distinct()
         
         # Get week stats for players who actually played in the match
-        week_stats = aggregate_player_stats(season=match.season, week=match.week)
+        week_stats = aggregate_player_stats(season=match.season, week=match.week, franchise=team.franchise)
         
         # Filter to only players who played for this team in this match
         team_stats = []
         for stat in week_stats:
-            if (stat['player_season'].id in player_seasons_in_match and 
-                stat['team'] == team):
+            if stat['player_season'].id in player_seasons_in_match:
                 team_stats.append({
                     'player_season__player__id': stat['player'].id,
                     'player_season__player__name': stat['player'].name,

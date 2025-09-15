@@ -447,7 +447,7 @@ def player_history(req, player_id):
         player_seasons_query = player_seasons_query.filter(season__league__gamemode="CTF")
     
     # Build history data
-    history_data = aggregate_player_stats(player=player)
+    history_data = aggregate_player_stats(player=player, week="all_regular_season")
     
     return render(req, "reference/player_history.html", {
         'player': player,
@@ -576,11 +576,11 @@ def franchise_history(req, franchise_id):
         try:
             league_id = int(league_filter)
             league = League.objects.get(id=league_id)
-            franchise_stats = aggregate_player_stats(franchise=franchise, league=league)
+            franchise_stats = aggregate_player_stats(franchise=franchise, league=league, week="all_regular_season")
         except (ValueError, League.DoesNotExist):
-            franchise_stats = aggregate_player_stats(franchise=franchise)
+            franchise_stats = aggregate_player_stats(franchise=franchise, week="all_regular_season")
     else:
-        franchise_stats = aggregate_player_stats(franchise=franchise)
+        franchise_stats = aggregate_player_stats(franchise=franchise, week="all_regular_season")
     
     # Aggregate by player across all their seasons with this franchise
     player_aggregates = {}
