@@ -1,5 +1,4 @@
 from django.urls import path
-from .views import data_entry
 from . import views
 
 urlpatterns = [
@@ -14,7 +13,7 @@ urlpatterns = [
     path('team/<int:team_id>/', views.team_season, name='team_season'),
     path('franchise/<int:franchise_id>/', views.franchise_history, name='franchise_history'),
     path('match/<int:match_id>/', views.match_view, name='match_view'),
-    path('import/eu/', data_entry.import_from_eus, name='import_data'),
-    path('import/preprocess/', data_entry.preprocess_eu_links, name='preprocess_eu_links'),
-    path('import/json/', data_entry.import_from_json, name='import_from_json'),
+    path('import/eu/', views.import_from_eus, name='import_data'),
+    path('import/preprocess/', views.preprocess_eu_links, name='preprocess_eu_links'),
+    path('import/json/', views.import_from_json, name='import_from_json'),
 ]

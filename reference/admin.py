@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, AwardType, AwardReceived, Transaction
-from .views import stat_collection
-from .views.data_entry import infer_playoff_series
+from .utils import stat_collection
+from .views import infer_playoff_series
 
 
 @admin.action(description="Reprocess stats from the game")

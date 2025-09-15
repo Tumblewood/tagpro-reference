@@ -16,7 +16,8 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tagproref.settings')
 django.setup()
 
 from reference.models import Season, TeamSeason
-from reference.views.data_entry import infer_team, infer_season, infer_player, format_compact_json
+from reference.utils.data_entry import infer_team, infer_season, infer_player
+from reference.views import format_compact_json
 import tagpro_eu
 
 def load_tpl_api_links():

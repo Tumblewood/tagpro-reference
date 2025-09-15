@@ -12,7 +12,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tagproref.settings')
 django.setup()
 
-from reference.views.data_entry import format_compact_json
+from reference.views import format_compact_json
 
 with open("tpl_import/league_maps.json") as f:
     bulkmaps = json.load(f)
