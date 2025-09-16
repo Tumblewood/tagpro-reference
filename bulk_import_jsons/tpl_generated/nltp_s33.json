@@ -5,7 +5,7 @@
     { "season": "NLTP S33", "franchise": "Holdman Sachs", "name": "Holdman Sachs", "abbr": "HSG", "captain": null },
     { "season": "NLTP S33", "franchise": "Jukakke", "name": "Jukakke", "abbr": "JKK", "captain": null },
     { "season": "NLTP S33", "franchise": "Microphone Hawks", "name": "Microphone Hawks", "abbr": "MIC", "captain": "NameLEss" },
-    { "season": "NLTP S33", "franchise": "OD Gambit: Nubstep Variation", "name": "OD Gambit: Nubstep Variation", "abbr": "ODG", "captain": null },
+    { "season": "NLTP S33", "franchise": "OD Gambit: The Nubstep Variation", "name": "OD Gambit: The Nubstep Variation", "abbr": "ODG", "captain": null },
     { "season": "NLTP S33", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": "Tinderfella" },
     { "season": "NLTP S33", "franchise": "The Swipe Rights", "name": "The Swipe Rights", "abbr": "TSR", "captain": null }
   ],
@@ -44,11 +44,11 @@
     { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Robiny", "playing_as": "Robiny" },
     { "season": "NLTP S33", "team": "Microphone Hawks", "player": "Spheroid.", "playing_as": "Spheroid." },
     { "season": "NLTP S33", "team": "Microphone Hawks", "player": "undyingderp", "playing_as": "undyingderp" },
-    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": ".__.", "playing_as": ".__." },
-    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Morpheus", "playing_as": "Morpheus" },
-    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Phreek", "playing_as": "Phreek" },
-    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "Theslightest", "playing_as": "Theslightest" },
-    { "season": "NLTP S33", "team": "OD Gambit: Nubstep Variation", "player": "dyd", "playing_as": "dyd" },
+    { "season": "NLTP S33", "team": "OD Gambit: The Nubstep Variation", "player": ".__.", "playing_as": ".__." },
+    { "season": "NLTP S33", "team": "OD Gambit: The Nubstep Variation", "player": "Morpheus", "playing_as": "Morpheus" },
+    { "season": "NLTP S33", "team": "OD Gambit: The Nubstep Variation", "player": "Phreek", "playing_as": "Phreek" },
+    { "season": "NLTP S33", "team": "OD Gambit: The Nubstep Variation", "player": "Theslightest", "playing_as": "Theslightest" },
+    { "season": "NLTP S33", "team": "OD Gambit: The Nubstep Variation", "player": "dyd", "playing_as": "dyd" },
     { "season": "NLTP S33", "team": "The Land Before Timers", "player": "Gnas", "playing_as": "Gnas" },
     { "season": "NLTP S33", "team": "The Land Before Timers", "player": "SOLF", "playing_as": "SOLF" },
     { "season": "NLTP S33", "team": "The Land Before Timers", "player": "Sorry l suck", "playing_as": "Sorry l suck" },
@@ -63,71 +63,71 @@
   ],
   "matches": [
     {
-      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "OD Gambit: Nubstep Variation", "team2": "Boosting Ballacudas",
+      "season": "NLTP S33", "date": "2024-06-05", "week": "Week 1", "team1": "OD Gambit: The Nubstep Variation", "team2": "Boosting Ballacudas",
       "games": [
         {
-          "tagpro_eu": "3661840", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3661840", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
             { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3661847", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 1, "team2_score": 7,
+          "tagpro_eu": "3661847", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 1, "team2_score": 7,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
             { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3661857", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 16, "team2_score": 2,
+          "tagpro_eu": "3661857", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 16, "team2_score": 2,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
             { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3661869", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 1,
+          "tagpro_eu": "3661869", "game_in_match": "Game 4", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "G.O.A.T.", "playing_as": "G.O.A.T." },
             { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
             { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
             { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3661879", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "3661879", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Boosting Ballacudas", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "Bazooted", "playing_as": "Bazooted" },
             { "team": "Boosting Ballacudas", "player_season": "TheChowMein", "playing_as": "TheChowMein" },
             { "team": "Boosting Ballacudas", "player_season": "hue", "playing_as": "hue" },
             { "team": "Boosting Ballacudas", "player_season": "stee", "playing_as": "stee" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         }
       ]
@@ -414,15 +414,15 @@
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "The Land Before Timers", "team2": "OD Gambit: Nubstep Variation",
+      "season": "NLTP S33", "date": "2024-06-12", "week": "Week 2", "team1": "The Land Before Timers", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3665031", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 0, "team2_score": 7,
+          "tagpro_eu": "3665031", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 0, "team2_score": 7,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
             { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -430,12 +430,12 @@
           ]
         },
         {
-          "tagpro_eu": "3665048", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 4,
+          "tagpro_eu": "3665048", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 4,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
             { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
             { "team": "The Land Before Timers", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
@@ -443,12 +443,12 @@
           ]
         },
         {
-          "tagpro_eu": "3665064", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 6, "team2_score": 0,
+          "tagpro_eu": "3665064", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 6, "team2_score": 0,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
             { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -456,12 +456,12 @@
           ]
         },
         {
-          "tagpro_eu": "3665077", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3665077", "game_in_match": "Game 4", "map_name": "Thicket 2", "map_id": 14752, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 4,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
             { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -469,12 +469,12 @@
           ]
         },
         {
-          "tagpro_eu": "3665088", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 9, "team2_score": 3,
+          "tagpro_eu": "3665088", "game_in_match": "Game 5", "map_name": "Thicket 2", "map_id": 14752, "red_team": "The Land Before Timers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 9, "team2_score": 3,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
             { "team": "The Land Before Timers", "player_season": "Gnas", "playing_as": "Gnas" },
             { "team": "The Land Before Timers", "player_season": "SOLF", "playing_as": "SOLF" },
             { "team": "The Land Before Timers", "player_season": "gh0st", "playing_as": "gh0st" },
@@ -835,71 +835,71 @@
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "OD Gambit: Nubstep Variation", "team2": "Arctag IceCaps",
+      "season": "NLTP S33", "date": "2024-06-19", "week": "Week 3", "team1": "OD Gambit: The Nubstep Variation", "team2": "Arctag IceCaps",
       "games": [
         {
-          "tagpro_eu": "3668049", "game_in_match": "Game 1", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "3668049", "game_in_match": "Game 1", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Arctag IceCaps", "player_season": "Some Ball 8", "playing_as": "Some Ball 8" },
             { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3668061", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3668061", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
             { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3668070", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 6,
+          "tagpro_eu": "3668070", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 6,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Arctag IceCaps", "player_season": "Some Ball 7", "playing_as": "Some Ball 7" },
             { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3668079", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 8,
+          "tagpro_eu": "3668079", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 8,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Arctag IceCaps", "player_season": "Some Ball 6", "playing_as": "Some Ball 6" },
             { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3668095", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3668095", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Arctag IceCaps", "player_season": "Corduroy", "playing_as": "Corduroy" },
             { "team": "Arctag IceCaps", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
             { "team": "Arctag IceCaps", "player_season": "Some Ball 8", "playing_as": "Some Ball 8" },
             { "team": "Arctag IceCaps", "player_season": "k-rent", "playing_as": "k-rent" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Avsy26", "playing_as": "Avsy26" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         }
       ]
@@ -1046,71 +1046,71 @@
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-06-26", "week": "Week 4", "team1": "OD Gambit: Nubstep Variation", "team2": "Microphone Hawks",
+      "season": "NLTP S33", "date": "2024-06-26", "week": "Week 4", "team1": "OD Gambit: The Nubstep Variation", "team2": "Microphone Hawks",
       "games": [
         {
-          "tagpro_eu": "3671200", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3671200", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Microphone Hawks", "player_season": "BamBi", "playing_as": "BamBi" },
             { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
             { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3671206", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3671206", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Microphone Hawks", "player_season": "BamBi", "playing_as": "BamBi" },
             { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
             { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
           ]
         },
         {
-          "tagpro_eu": "3671214", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 8, "team2_score": 7,
+          "tagpro_eu": "3671214", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 8, "team2_score": 7,
           "players": [
             { "team": "Microphone Hawks", "player_season": "BamBi", "playing_as": "BamBi" },
             { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
             { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3671221", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3671221", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Microphone Hawks", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Avsy26", "playing_as": "Avsy26" },
             { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
             { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
             { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3671232", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3671232", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Microphone Hawks", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Microphone Hawks", "player_season": "Moosen", "playing_as": "Moosen" },
             { "team": "Microphone Hawks", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Microphone Hawks", "player_season": "Spheroid.", "playing_as": "Spheroid." },
             { "team": "Microphone Hawks", "player_season": "undyingderp", "playing_as": "undyingderp" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         }
       ]
@@ -1396,71 +1396,71 @@
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Jukakke", "team2": "OD Gambit: Nubstep Variation",
+      "season": "NLTP S33", "date": "2024-07-03", "week": "Week 5", "team1": "Jukakke", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3674050", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 2, "team2_score": 9,
+          "tagpro_eu": "3674050", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Jukakke", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 2, "team2_score": 9,
           "players": [
             { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
             { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
             { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" }
           ]
         },
         {
-          "tagpro_eu": "3674062", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3674062", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Jukakke", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
             { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3674070", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Jukakke", "team1_score": 11, "team2_score": 1,
+          "tagpro_eu": "3674070", "game_in_match": "Game 3", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Jukakke", "team1_score": 11, "team2_score": 1,
           "players": [
             { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
             { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Theslightest", "playing_as": "Theslightest" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3674080", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Jukakke", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 6,
+          "tagpro_eu": "3674080", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Jukakke", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 6,
           "players": [
             { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Jukakke", "player_season": "Megablocks", "playing_as": "Megablocks" },
             { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3674092", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Jukakke", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "3674092", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Jukakke", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Jukakke", "player_season": "AgnusFortis", "playing_as": "AgnusFortis" },
             { "team": "Jukakke", "player_season": "Caius", "playing_as": "Caius" },
             { "team": "Jukakke", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
             { "team": "Jukakke", "player_season": "jkxs", "playing_as": "jkxs" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         }
       ]
@@ -1664,81 +1664,81 @@
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-06-30", "week": "Week 6", "team1": "OD Gambit: Nubstep Variation", "team2": "Holdman Sachs",
+      "season": "NLTP S33", "date": "2024-06-30", "week": "Week 6", "team1": "OD Gambit: The Nubstep Variation", "team2": "Holdman Sachs",
       "games": [
         {
-          "tagpro_eu": "3672591", "game_in_match": "Game 1", "map_name": "Moai ", "map_id": 17630, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3672591", "game_in_match": "Game 1", "map_name": "Moai ", "map_id": 17630, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
             { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
             { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3672598", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 8, "team2_score": 3,
+          "tagpro_eu": "3672598", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 8, "team2_score": 3,
           "players": [
             { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
             { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
             { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3672606", "game_in_match": "Game 3", "map_name": "Pine", "map_id": 14289, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3672606", "game_in_match": "Game 3", "map_name": "Pine", "map_id": 14289, "red_team": "Holdman Sachs", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
             { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
             { "team": "Holdman Sachs", "player_season": "zachhhh32", "playing_as": "zachhhh32" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" }
           ]
         },
         {
-          "tagpro_eu": "3672612", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3672612", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Holdman Sachs", "player_season": "AJ.", "playing_as": "AJ." },
             { "team": "Holdman Sachs", "player_season": "Glizzy", "playing_as": "Glizzy" },
             { "team": "Holdman Sachs", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "zachhhh32", "playing_as": "zachhhh32" }
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 5", "map_name": null, "map_id": null, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 5", "map_name": null, "map_id": null, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Holdman Sachs", "team1_score": 4, "team2_score": 0,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__.", "stats": {"team": 1, "score": 74, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 88, "captures": 1, "prevent": 81, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus", "stats": {"team": 1, "score": 52, "tags": 14, "pops": 8, "grabs": 6, "drops": 6, "hold": 46, "captures": 0, "prevent": 81, "returns": 11, "ndpops": 2, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek", "stats": {"team": 1, "score": 60, "tags": 13, "pops": 13, "grabs": 15, "drops": 13, "hold": 119, "captures": 2, "prevent": 40, "returns": 10, "ndpops": 0, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd", "stats": {"team": 1, "score": 49, "tags": 11, "pops": 10, "grabs": 10, "drops": 9, "hold": 98, "captures": 1, "prevent": 42, "returns": 8, "ndpops": 1, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__.", "stats": {"team": 1, "score": 74, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 88, "captures": 1, "prevent": 81, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus", "stats": {"team": 1, "score": 52, "tags": 14, "pops": 8, "grabs": 6, "drops": 6, "hold": 46, "captures": 0, "prevent": 81, "returns": 11, "ndpops": 2, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek", "stats": {"team": 1, "score": 60, "tags": 13, "pops": 13, "grabs": 15, "drops": 13, "hold": 119, "captures": 2, "prevent": 40, "returns": 10, "ndpops": 0, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd", "stats": {"team": 1, "score": 49, "tags": 11, "pops": 10, "grabs": 10, "drops": 9, "hold": 98, "captures": 1, "prevent": 42, "returns": 8, "ndpops": 1, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 0, "plus_minus": 4, "total_pups_in_game": 11} }
           ]
         }
       ]
     },
     {
-      "season": "NLTP S33", "date": "2024-07-02", "week": "Week 7", "team1": "The Swipe Rights", "team2": "OD Gambit: Nubstep Variation",
+      "season": "NLTP S33", "date": "2024-07-02", "week": "Week 7", "team1": "The Swipe Rights", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3673616", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 0, "team2_score": 6,
+          "tagpro_eu": "3673616", "game_in_match": "Game 1", "map_name": "Willow ", "map_id": 14107, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 0, "team2_score": 6,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
             { "team": "The Swipe Rights", "player_season": "phlasid", "playing_as": "phlasid" },
@@ -1746,12 +1746,12 @@
           ]
         },
         {
-          "tagpro_eu": "3673627", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3673627", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
@@ -1759,12 +1759,12 @@
           ]
         },
         {
-          "tagpro_eu": "3673635", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 7,
+          "tagpro_eu": "3673635", "game_in_match": "Game 3", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 2, "team2_score": 7,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },
             { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
@@ -1772,12 +1772,12 @@
           ]
         },
         {
-          "tagpro_eu": "3673644", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 6,
+          "tagpro_eu": "3673644", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Swipe Rights", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 6,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "The Swipe Rights", "player_season": "o o l e r", "playing_as": "o o l e r" },
@@ -1785,12 +1785,12 @@
           ]
         },
         {
-          "tagpro_eu": "3673655", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 5, "team2_score": 8,
+          "tagpro_eu": "3673655", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "The Swipe Rights", "team1_score": 5, "team2_score": 8,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Phreek", "playing_as": "Phreek" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "dyd", "playing_as": "dyd" },
             { "team": "The Swipe Rights", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "The Swipe Rights", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "The Swipe Rights", "player_season": "itagpro", "playing_as": "itagpro" },

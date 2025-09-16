@@ -1,6 +1,6 @@
 {
   "teamSeasons": [
-    { "season": "mLTP S36", "franchise": "FWO", "name": "FWO", "abbr": "FWO", "captain": null },
+    { "season": "mLTP S36", "franchise": "Fastest Way Only", "name": "Fastest Way Only", "abbr": "FWO", "captain": null },
     { "season": "mLTP S36", "franchise": "Furballers", "name": "Furballers", "abbr": "FUR", "captain": null },
     { "season": "mLTP S36", "franchise": "Harlem Globebotters", "name": "Harlem Globebotters", "abbr": "HGB", "captain": null },
     { "season": "mLTP S36", "franchise": "Over the Pants Handoffs", "name": "Over the Pants Handoffs", "abbr": "OPH", "captain": null },
@@ -10,11 +10,11 @@
     { "season": "mLTP S36", "franchise": "The Way of Pings", "name": "The Way of Pings", "abbr": "WOP", "captain": null }
   ],
   "playerSeasons": [
-    { "season": "mLTP S36", "team": "FWO", "player": "MarcusYallow", "playing_as": "MarcusYallow" },
-    { "season": "mLTP S36", "team": "FWO", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-    { "season": "mLTP S36", "team": "FWO", "player": "jazzz", "playing_as": "jazzz" },
-    { "season": "mLTP S36", "team": "FWO", "player": "the buttons", "playing_as": "the buttons" },
-    { "season": "mLTP S36", "team": "FWO", "player": "yungdggrdick", "playing_as": "yungdggrdick" },
+    { "season": "mLTP S36", "team": "Fastest Way Only", "player": "MarcusYallow", "playing_as": "MarcusYallow" },
+    { "season": "mLTP S36", "team": "Fastest Way Only", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+    { "season": "mLTP S36", "team": "Fastest Way Only", "player": "jazzz", "playing_as": "jazzz" },
+    { "season": "mLTP S36", "team": "Fastest Way Only", "player": "the buttons", "playing_as": "the buttons" },
+    { "season": "mLTP S36", "team": "Fastest Way Only", "player": "yungdggrdick", "playing_as": "yungdggrdick" },
     { "season": "mLTP S36", "team": "Furballers", "player": "CT Crunch", "playing_as": "CT Crunch" },
     { "season": "mLTP S36", "team": "Furballers", "player": "Moto Moto", "playing_as": "Moto Moto" },
     { "season": "mLTP S36", "team": "Furballers", "player": "Toidi", "playing_as": "Toidi" },
@@ -58,15 +58,15 @@
   ],
   "matches": [
     {
-      "season": "mLTP S36", "date": "2025-05-18", "week": "Week 1", "team1": "The Mad Splatters", "team2": "FWO",
+      "season": "mLTP S36", "date": "2025-05-18", "week": "Week 1", "team1": "The Mad Splatters", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "3978860", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Mad Splatters", "blue_team": "FWO", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3978860", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Mad Splatters", "blue_team": "Fastest Way Only", "team1_score": 5, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Mad Splatters", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "The Mad Splatters", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Mad Splatters", "player_season": "Russ", "playing_as": "Russ" },
@@ -74,12 +74,12 @@
           ]
         },
         {
-          "tagpro_eu": "3978878", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "FWO", "blue_team": "The Mad Splatters", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "3978878", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Fastest Way Only", "blue_team": "The Mad Splatters", "team1_score": 3, "team2_score": 7,
           "players": [
-            { "team": "FWO", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Mad Splatters", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "The Mad Splatters", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Mad Splatters", "player_season": "Russ", "playing_as": "Russ" },
@@ -87,12 +87,12 @@
           ]
         },
         {
-          "tagpro_eu": "3978894", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Mad Splatters", "blue_team": "FWO", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3978894", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Mad Splatters", "blue_team": "Fastest Way Only", "team1_score": 5, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Mad Splatters", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "The Mad Splatters", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Mad Splatters", "player_season": "Russ", "playing_as": "Russ" },
@@ -100,12 +100,12 @@
           ]
         },
         {
-          "tagpro_eu": "3978910", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "The Mad Splatters", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3978910", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Fastest Way Only", "blue_team": "The Mad Splatters", "team1_score": 3, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Mad Splatters", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "The Mad Splatters", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Mad Splatters", "player_season": "Russ", "playing_as": "Russ" },
@@ -113,12 +113,12 @@
           ]
         },
         {
-          "tagpro_eu": "3978927", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Mad Splatters", "blue_team": "FWO", "team1_score": 7, "team2_score": 6,
+          "tagpro_eu": "3978927", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Mad Splatters", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Mad Splatters", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "The Mad Splatters", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "The Mad Splatters", "player_season": "Russ", "playing_as": "Russ" },
@@ -549,15 +549,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "2025-06-19", "week": "Week 2", "team1": "Over the Pants Handoffs", "team2": "FWO",
+      "season": "mLTP S36", "date": "2025-06-19", "week": "Week 2", "team1": "Over the Pants Handoffs", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "4004293", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Over the Pants Handoffs", "blue_team": "FWO", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "4004293", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Over the Pants Handoffs", "blue_team": "Fastest Way Only", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "Over the Pants Handoffs", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -565,12 +565,12 @@
           ]
         },
         {
-          "tagpro_eu": "4004312", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "4004312", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Fastest Way Only", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "Over the Pants Handoffs", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -578,12 +578,12 @@
           ]
         },
         {
-          "tagpro_eu": "4004329", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Over the Pants Handoffs", "blue_team": "FWO", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "4004329", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Over the Pants Handoffs", "blue_team": "Fastest Way Only", "team1_score": 4, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "Over the Pants Handoffs", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -591,12 +591,12 @@
           ]
         },
         {
-          "tagpro_eu": "4004347", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "Over the Pants Handoffs", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "4004347", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Fastest Way Only", "blue_team": "Over the Pants Handoffs", "team1_score": 5, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "Over the Pants Handoffs", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -604,12 +604,12 @@
           ]
         },
         {
-          "tagpro_eu": "4004366", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Over the Pants Handoffs", "blue_team": "FWO", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "4004366", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Over the Pants Handoffs", "blue_team": "Fastest Way Only", "team1_score": 3, "team2_score": 7,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "Over the Pants Handoffs", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -759,15 +759,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "2025-06-09", "week": "Week 3", "team1": "FWO", "team2": "The Way of Pings",
+      "season": "mLTP S36", "date": "2025-06-09", "week": "Week 3", "team1": "Fastest Way Only", "team2": "The Way of Pings",
       "games": [
         {
-          "tagpro_eu": "3995921", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 1,
+          "tagpro_eu": "3995921", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Fastest Way Only", "blue_team": "The Way of Pings", "team1_score": 5, "team2_score": 1,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Way of Pings", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
             { "team": "The Way of Pings", "player_season": "Spjork", "playing_as": "Spjork" },
             { "team": "The Way of Pings", "player_season": "Taurus", "playing_as": "Taurus" },
@@ -775,12 +775,12 @@
           ]
         },
         {
-          "tagpro_eu": "3995941", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Way of Pings", "blue_team": "FWO", "team1_score": 8, "team2_score": 4,
+          "tagpro_eu": "3995941", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Way of Pings", "blue_team": "Fastest Way Only", "team1_score": 8, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Way of Pings", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
             { "team": "The Way of Pings", "player_season": "Spjork", "playing_as": "Spjork" },
             { "team": "The Way of Pings", "player_season": "Taurus", "playing_as": "Taurus" },
@@ -788,12 +788,12 @@
           ]
         },
         {
-          "tagpro_eu": "3995959", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "FWO", "blue_team": "The Way of Pings", "team1_score": 6, "team2_score": 0,
+          "tagpro_eu": "3995959", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "Fastest Way Only", "blue_team": "The Way of Pings", "team1_score": 6, "team2_score": 0,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Way of Pings", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
             { "team": "The Way of Pings", "player_season": "Spjork", "playing_as": "Spjork" },
             { "team": "The Way of Pings", "player_season": "Taurus", "playing_as": "Taurus" },
@@ -801,12 +801,12 @@
           ]
         },
         {
-          "tagpro_eu": "3995975", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Way of Pings", "blue_team": "FWO", "team1_score": 7, "team2_score": 0,
+          "tagpro_eu": "3995975", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Way of Pings", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 0,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Way of Pings", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
             { "team": "The Way of Pings", "player_season": "Spjork", "playing_as": "Spjork" },
             { "team": "The Way of Pings", "player_season": "Taurus", "playing_as": "Taurus" },
@@ -814,12 +814,12 @@
           ]
         },
         {
-          "tagpro_eu": "3995994", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "FWO", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": "3995994", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "Fastest Way Only", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Way of Pings", "player_season": "Anti_Social", "playing_as": "Anti_Social" },
             { "team": "The Way of Pings", "player_season": "Spjork", "playing_as": "Spjork" },
             { "team": "The Way of Pings", "player_season": "Taurus", "playing_as": "Taurus" },
@@ -1109,15 +1109,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "", "week": "Week 4", "team1": "FWO", "team2": "The Ping Opaque",
+      "season": "mLTP S36", "date": "", "week": "Week 4", "team1": "Fastest Way Only", "team2": "The Ping Opaque",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "AJ.", "playing_as": "AJ.", "stats": {"team": 1, "score": 0, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 69, "captures": 1, "prevent": 112, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "BallsToYou.", "playing_as": "BallsToYou.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 129, "captures": 1, "prevent": 39, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 10, "grabs": 10, "drops": 9, "hold": 97, "captures": 1, "prevent": 63, "returns": 8, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
@@ -1125,12 +1125,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "AJ.", "playing_as": "AJ.", "stats": {"team": 1, "score": 0, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 69, "captures": 1, "prevent": 112, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "BallsToYou.", "playing_as": "BallsToYou.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 129, "captures": 1, "prevent": 39, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 10, "grabs": 10, "drops": 9, "hold": 97, "captures": 1, "prevent": 63, "returns": 8, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
@@ -1138,12 +1138,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "AJ.", "playing_as": "AJ.", "stats": {"team": 1, "score": 0, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 69, "captures": 1, "prevent": 112, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "BallsToYou.", "playing_as": "BallsToYou.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 129, "captures": 1, "prevent": 39, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 10, "grabs": 10, "drops": 9, "hold": 97, "captures": 1, "prevent": 63, "returns": 8, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
@@ -1151,12 +1151,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 4", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 4", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "AJ.", "playing_as": "AJ.", "stats": {"team": 1, "score": 0, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 69, "captures": 1, "prevent": 112, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "BallsToYou.", "playing_as": "BallsToYou.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 129, "captures": 1, "prevent": 39, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 10, "grabs": 10, "drops": 9, "hold": 97, "captures": 1, "prevent": 63, "returns": 8, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
@@ -1164,12 +1164,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 5", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 5", "map_name": null, "map_id": null, "red_team": "The Ping Opaque", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow", "stats": {"team": 2, "score": 0, "tags": 16, "pops": 9, "grabs": 7, "drops": 5, "hold": 68, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"team": 2, "score": 0, "tags": 13, "pops": 8, "grabs": 6, "drops": 5, "hold": 49, "captures": 1, "prevent": 98, "returns": 10, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"team": 2, "score": 0, "tags": 12, "pops": 13, "grabs": 11, "drops": 9, "hold": 88, "captures": 2, "prevent": 67, "returns": 8, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick", "stats": {"team": 2, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 114, "captures": 2, "prevent": 40, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 369, "plus_minus": 3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "AJ.", "playing_as": "AJ.", "stats": {"team": 1, "score": 0, "tags": 16, "pops": 10, "grabs": 8, "drops": 7, "hold": 69, "captures": 1, "prevent": 112, "returns": 13, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "BallsToYou.", "playing_as": "BallsToYou.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 11, "grabs": 12, "drops": 10, "hold": 129, "captures": 1, "prevent": 39, "returns": 7, "ndpops": 1, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
             { "team": "The Ping Opaque", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"team": 1, "score": 0, "tags": 9, "pops": 10, "grabs": 10, "drops": 9, "hold": 97, "captures": 1, "prevent": 63, "returns": 8, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 319, "plus_minus": -3, "total_pups_in_game": 22} },
@@ -1376,15 +1376,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "2025-07-02", "week": "Week 5", "team1": "Harlem Globebotters", "team2": "FWO",
+      "season": "mLTP S36", "date": "2025-07-02", "week": "Week 5", "team1": "Harlem Globebotters", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "4014472", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "FWO", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "4014472", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "Fastest Way Only", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Harlem Globebotters", "player_season": "Alpha jr.", "playing_as": "Alpha jr." },
             { "team": "Harlem Globebotters", "player_season": "Halah", "playing_as": "Halah" },
             { "team": "Harlem Globebotters", "player_season": "Wraith", "playing_as": "Wraith" },
@@ -1392,12 +1392,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014485", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "FWO", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "4014485", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Fastest Way Only", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Harlem Globebotters", "player_season": "Alpha jr.", "playing_as": "Alpha jr." },
             { "team": "Harlem Globebotters", "player_season": "Halah", "playing_as": "Halah" },
             { "team": "Harlem Globebotters", "player_season": "Wraith", "playing_as": "Wraith" },
@@ -1405,12 +1405,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014501", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "FWO", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "4014501", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "Fastest Way Only", "team1_score": 4, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Harlem Globebotters", "player_season": "Alpha jr.", "playing_as": "Alpha jr." },
             { "team": "Harlem Globebotters", "player_season": "Halah", "playing_as": "Halah" },
             { "team": "Harlem Globebotters", "player_season": "Wraith", "playing_as": "Wraith" },
@@ -1418,12 +1418,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014511", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "FWO", "blue_team": "Harlem Globebotters", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "4014511", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Fastest Way Only", "blue_team": "Harlem Globebotters", "team1_score": 1, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Harlem Globebotters", "player_season": "Alpha jr.", "playing_as": "Alpha jr." },
             { "team": "Harlem Globebotters", "player_season": "Halah", "playing_as": "Halah" },
             { "team": "Harlem Globebotters", "player_season": "Wraith", "playing_as": "Wraith" },
@@ -1431,12 +1431,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014517", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "FWO", "team1_score": 0, "team2_score": 1, "second_eu": "4014531", "switch_time": 60,
+          "tagpro_eu": "4014517", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "Fastest Way Only", "team1_score": 0, "team2_score": 1, "second_eu": "4014531", "switch_time": 60,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Harlem Globebotters", "player_season": "Alpha jr.", "playing_as": "Alpha jr." },
             { "team": "Harlem Globebotters", "player_season": "Halah", "playing_as": "Halah" },
             { "team": "Harlem Globebotters", "player_season": "Wraith", "playing_as": "Wraith" },
@@ -1516,15 +1516,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "2025-06-30", "week": "Week 6", "team1": "FWO", "team2": "The Land Before Timers",
+      "season": "mLTP S36", "date": "2025-06-30", "week": "Week 6", "team1": "Fastest Way Only", "team2": "The Land Before Timers",
       "games": [
         {
-          "tagpro_eu": "4012839", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 1,
+          "tagpro_eu": "4012839", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Fastest Way Only", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 1,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Land Before Timers", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "The Land Before Timers", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1532,12 +1532,12 @@
           ]
         },
         {
-          "tagpro_eu": "4012850", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "4012850", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "Fastest Way Only", "team1_score": 6, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Land Before Timers", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "The Land Before Timers", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1545,12 +1545,12 @@
           ]
         },
         {
-          "tagpro_eu": "4012870", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "4012870", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Fastest Way Only", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Land Before Timers", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "The Land Before Timers", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1558,12 +1558,12 @@
           ]
         },
         {
-          "tagpro_eu": "4012888", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "4012888", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "Fastest Way Only", "team1_score": 5, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Land Before Timers", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "The Land Before Timers", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1571,12 +1571,12 @@
           ]
         },
         {
-          "tagpro_eu": "4012904", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "4012904", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "Fastest Way Only", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "The Land Before Timers", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "The Land Before Timers", "player_season": "Squeeb", "playing_as": "Squeeb" },
             { "team": "The Land Before Timers", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -1796,15 +1796,15 @@
       ]
     },
     {
-      "season": "mLTP S36", "date": "2025-07-07", "week": "Week 7", "team1": "FWO", "team2": "Furballers",
+      "season": "mLTP S36", "date": "2025-07-07", "week": "Week 7", "team1": "Fastest Way Only", "team2": "Furballers",
       "games": [
         {
-          "tagpro_eu": "4017244", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "Furballers", "team1_score": 6, "team2_score": 0,
+          "tagpro_eu": "4017244", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "Fastest Way Only", "blue_team": "Furballers", "team1_score": 6, "team2_score": 0,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Furballers", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
             { "team": "Furballers", "player_season": "Toidi", "playing_as": "Toidi" },
             { "team": "Furballers", "player_season": "Witcher", "playing_as": "Witcher" },
@@ -1812,12 +1812,12 @@
           ]
         },
         {
-          "tagpro_eu": "4017266", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Furballers", "blue_team": "FWO", "team1_score": 9, "team2_score": 3,
+          "tagpro_eu": "4017266", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Furballers", "blue_team": "Fastest Way Only", "team1_score": 9, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Furballers", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
             { "team": "Furballers", "player_season": "Toidi", "playing_as": "Toidi" },
             { "team": "Furballers", "player_season": "Witcher", "playing_as": "Witcher" },
@@ -1825,12 +1825,12 @@
           ]
         },
         {
-          "tagpro_eu": "4017279", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "FWO", "blue_team": "Furballers", "team1_score": 13, "team2_score": 6,
+          "tagpro_eu": "4017279", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Fastest Way Only", "blue_team": "Furballers", "team1_score": 13, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Furballers", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
             { "team": "Furballers", "player_season": "Toidi", "playing_as": "Toidi" },
             { "team": "Furballers", "player_season": "Witcher", "playing_as": "Witcher" },
@@ -1838,12 +1838,12 @@
           ]
         },
         {
-          "tagpro_eu": "4017301", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Furballers", "blue_team": "FWO", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "4017301", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Furballers", "blue_team": "Fastest Way Only", "team1_score": 6, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Furballers", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
             { "team": "Furballers", "player_season": "Toidi", "playing_as": "Toidi" },
             { "team": "Furballers", "player_season": "Witcher", "playing_as": "Witcher" },
@@ -1851,12 +1851,12 @@
           ]
         },
         {
-          "tagpro_eu": "4017315", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "FWO", "blue_team": "Furballers", "team1_score": 9, "team2_score": 0,
+          "tagpro_eu": "4017315", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "Fastest Way Only", "blue_team": "Furballers", "team1_score": 9, "team2_score": 0,
           "players": [
-            { "team": "FWO", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "jazzz", "playing_as": "jazzz" },
-            { "team": "FWO", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Fastest Way Only", "player_season": "MarcusYallow", "playing_as": "MarcusYallow" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Fastest Way Only", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
             { "team": "Furballers", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
             { "team": "Furballers", "player_season": "Toidi", "playing_as": "Toidi" },
             { "team": "Furballers", "player_season": "Witcher", "playing_as": "Witcher" },

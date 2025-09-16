@@ -1,6 +1,6 @@
 {
   "teamSeasons": [
-    { "season": "NLTP S36", "franchise": "FWO", "name": "FWO", "abbr": "FWO", "captain": null },
+    { "season": "NLTP S36", "franchise": "Fastest Way Only", "name": "Fastest Way Only", "abbr": "FWO", "captain": null },
     { "season": "NLTP S36", "franchise": "Flag Nabbit", "name": "Flag Nabbit", "abbr": "FNB", "captain": null },
     { "season": "NLTP S36", "franchise": "Heart of the Hold", "name": "Heart of the Hold", "abbr": "HOH", "captain": null },
     { "season": "NLTP S36", "franchise": "Mercury Revolutions", "name": "Mercury Revolutions", "abbr": "MRV", "captain": null },
@@ -8,15 +8,15 @@
     { "season": "NLTP S36", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": null }
   ],
   "playerSeasons": [
-    { "season": "NLTP S36", "team": "FWO", "player": "Belacqua", "playing_as": "Belacqua" },
-    { "season": "NLTP S36", "team": "FWO", "player": "Moto Moto", "playing_as": "Moto Moto" },
-    { "season": "NLTP S36", "team": "FWO", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-    { "season": "NLTP S36", "team": "FWO", "player": "Rayn", "playing_as": "Rayn" },
-    { "season": "NLTP S36", "team": "FWO", "player": "Snekster", "playing_as": "Snekster" },
-    { "season": "NLTP S36", "team": "FWO", "player": "havok", "playing_as": "havok" },
-    { "season": "NLTP S36", "team": "FWO", "player": "o o l e r", "playing_as": "o o l e r" },
-    { "season": "NLTP S36", "team": "FWO", "player": "tag.youre.it", "playing_as": "tag.youre.it" },
-    { "season": "NLTP S36", "team": "FWO", "player": "the buttons", "playing_as": "the buttons" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "Belacqua", "playing_as": "Belacqua" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "Moto Moto", "playing_as": "Moto Moto" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "Rayn", "playing_as": "Rayn" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "Snekster", "playing_as": "Snekster" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "havok", "playing_as": "havok" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "o o l e r", "playing_as": "o o l e r" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "tag.youre.it", "playing_as": "tag.youre.it" },
+    { "season": "NLTP S36", "team": "Fastest Way Only", "player": "the buttons", "playing_as": "the buttons" },
     { "season": "NLTP S36", "team": "Flag Nabbit", "player": "Avsy26", "playing_as": "Avsy26" },
     { "season": "NLTP S36", "team": "Flag Nabbit", "player": "Pickle Ball", "playing_as": "Pickle Ball" },
     { "season": "NLTP S36", "team": "Flag Nabbit", "player": "PotatoPotato", "playing_as": "PotatoPotato" },
@@ -121,15 +121,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-05-28", "week": "Week 1", "team1": "FWO", "team2": "That Time I Got Reincarnated as a Ball",
+      "season": "NLTP S36", "date": "2025-05-28", "week": "Week 1", "team1": "Fastest Way Only", "team2": "That Time I Got Reincarnated as a Ball",
       "games": [
         {
-          "tagpro_eu": "3986714", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 10, "team2_score": 4,
+          "tagpro_eu": "3986714", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Fastest Way Only", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 10, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
@@ -137,12 +137,12 @@
           ]
         },
         {
-          "tagpro_eu": "3986733", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 2, "team2_score": 9,
+          "tagpro_eu": "3986733", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Fastest Way Only", "team1_score": 2, "team2_score": 9,
           "players": [
-            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
@@ -150,12 +150,12 @@
           ]
         },
         {
-          "tagpro_eu": "3986749", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3986749", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Fastest Way Only", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 3, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Avsy26", "playing_as": "Avsy26" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
@@ -163,12 +163,12 @@
           ]
         },
         {
-          "tagpro_eu": "3986783", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 6, "team2_score": 5,
+          "tagpro_eu": "3986783", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Fastest Way Only", "team1_score": 6, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "Belacqua", "playing_as": "Belacqua" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "Belacqua", "playing_as": "Belacqua" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
@@ -176,12 +176,12 @@
           ]
         },
         {
-          "tagpro_eu": "3986803", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "3986803", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Fastest Way Only", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 2, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Tumblewood", "playing_as": "Tumblewood" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "dyd" },
@@ -261,15 +261,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-06-04", "week": "Week 2", "team1": "Mercury Revolutions", "team2": "FWO",
+      "season": "NLTP S36", "date": "2025-06-04", "week": "Week 2", "team1": "Mercury Revolutions", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "3992295", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3992295", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 1, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
             { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
@@ -277,12 +277,12 @@
           ]
         },
         {
-          "tagpro_eu": "3992307", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 11, "team2_score": 3,
+          "tagpro_eu": "3992307", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Fastest Way Only", "blue_team": "Mercury Revolutions", "team1_score": 11, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
             { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
@@ -290,12 +290,12 @@
           ]
         },
         {
-          "tagpro_eu": "3992320", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3992320", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 4, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
             { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
@@ -303,12 +303,12 @@
           ]
         },
         {
-          "tagpro_eu": "3992336", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 9, "team2_score": 2,
+          "tagpro_eu": "3992336", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Fastest Way Only", "blue_team": "Mercury Revolutions", "team1_score": 9, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
             { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
@@ -316,12 +316,12 @@
           ]
         },
         {
-          "tagpro_eu": "3992352", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 7, "team2_score": 2,
+          "tagpro_eu": "3992352", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
             { "team": "Mercury Revolutions", "player_season": "i am zeus", "playing_as": "i am zeus" },
@@ -612,15 +612,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-06-11", "week": "Week 3", "team1": "The Land Before Timers", "team2": "FWO",
+      "season": "NLTP S36", "date": "2025-06-11", "week": "Week 3", "team1": "The Land Before Timers", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "3997776", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 4, "team2_score": 7,
+          "tagpro_eu": "3997776", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Fastest Way Only", "team1_score": 4, "team2_score": 7,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -628,12 +628,12 @@
           ]
         },
         {
-          "tagpro_eu": "3997795", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3997795", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Fastest Way Only", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -641,12 +641,12 @@
           ]
         },
         {
-          "tagpro_eu": "3997816", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3997816", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "Fastest Way Only", "team1_score": 5, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -654,12 +654,12 @@
           ]
         },
         {
-          "tagpro_eu": "3997833", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "FWO", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "3997833", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "Fastest Way Only", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -667,12 +667,12 @@
           ]
         },
         {
-          "tagpro_eu": "3997847", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "FWO", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "3997847", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "Fastest Way Only", "team1_score": 3, "team2_score": 1,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "The Land Before Timers", "player_season": "DiegoOnMac", "playing_as": "DiegoOnMac" },
             { "team": "The Land Before Timers", "player_season": "Karasu", "playing_as": "Karasu" },
             { "team": "The Land Before Timers", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -822,15 +822,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-06-18", "week": "Week 4", "team1": "FWO", "team2": "Flag Nabbit",
+      "season": "NLTP S36", "date": "2025-06-18", "week": "Week 4", "team1": "Fastest Way Only", "team2": "Flag Nabbit",
       "games": [
         {
-          "tagpro_eu": "4003414", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "4003414", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Fastest Way Only", "blue_team": "Flag Nabbit", "team1_score": 2, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
             { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
             { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
             { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
@@ -838,12 +838,12 @@
           ]
         },
         {
-          "tagpro_eu": "4003430", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Flag Nabbit", "blue_team": "FWO", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "4003430", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Flag Nabbit", "blue_team": "Fastest Way Only", "team1_score": 1, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
             { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
             { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
@@ -851,12 +851,12 @@
           ]
         },
         {
-          "tagpro_eu": "4003455", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "4003455", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Fastest Way Only", "blue_team": "Flag Nabbit", "team1_score": 6, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
             { "team": "Flag Nabbit", "player_season": "Rayn", "playing_as": "Rayn" },
             { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
@@ -864,12 +864,12 @@
           ]
         },
         {
-          "tagpro_eu": "4003473", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Flag Nabbit", "blue_team": "FWO", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": "4003473", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Flag Nabbit", "blue_team": "Fastest Way Only", "team1_score": 7, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
             { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
             { "team": "Flag Nabbit", "player_season": "cazador", "playing_as": "cazador" },
@@ -877,12 +877,12 @@
           ]
         },
         {
-          "tagpro_eu": "4003495", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "FWO", "blue_team": "Flag Nabbit", "team1_score": 11, "team2_score": 3,
+          "tagpro_eu": "4003495", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Fastest Way Only", "blue_team": "Flag Nabbit", "team1_score": 11, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Flag Nabbit", "player_season": "Pickle Ball", "playing_as": "Pickle Ball" },
             { "team": "Flag Nabbit", "player_season": "PotatoPotato", "playing_as": "PotatoPotato" },
             { "team": "Flag Nabbit", "player_season": "bleast", "playing_as": "bleast" },
@@ -1033,15 +1033,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-06-25", "week": "Week 5", "team1": "FWO", "team2": "Heart of the Hold",
+      "season": "NLTP S36", "date": "2025-06-25", "week": "Week 5", "team1": "Fastest Way Only", "team2": "Heart of the Hold",
       "games": [
         {
-          "tagpro_eu": "4009084", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 5, "team2_score": 11,
+          "tagpro_eu": "4009084", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Fastest Way Only", "blue_team": "Heart of the Hold", "team1_score": 5, "team2_score": 11,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
             { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
@@ -1049,12 +1049,12 @@
           ]
         },
         {
-          "tagpro_eu": "4009113", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Heart of the Hold", "blue_team": "FWO", "team1_score": 2, "team2_score": 10,
+          "tagpro_eu": "4009113", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Heart of the Hold", "blue_team": "Fastest Way Only", "team1_score": 2, "team2_score": 10,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
             { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
@@ -1062,12 +1062,12 @@
           ]
         },
         {
-          "tagpro_eu": "4009132", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "4009132", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Fastest Way Only", "blue_team": "Heart of the Hold", "team1_score": 4, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
             { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
@@ -1075,12 +1075,12 @@
           ]
         },
         {
-          "tagpro_eu": "4009152", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Heart of the Hold", "blue_team": "FWO", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "4009152", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Heart of the Hold", "blue_team": "Fastest Way Only", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
             { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
             { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
@@ -1088,12 +1088,12 @@
           ]
         },
         {
-          "tagpro_eu": "4009168", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "FWO", "blue_team": "Heart of the Hold", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "4009168", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Fastest Way Only", "blue_team": "Heart of the Hold", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "Heart of the Hold", "player_season": "LiddiLidd", "playing_as": "LiddiLidd" },
             { "team": "Heart of the Hold", "player_season": "RandyB0Bandy", "playing_as": "RandyB0Bandy" },
             { "team": "Heart of the Hold", "player_season": "josh61616", "playing_as": "josh61616" },
@@ -1173,15 +1173,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-07-02", "week": "Week 6", "team1": "That Time I Got Reincarnated as a Ball", "team2": "FWO",
+      "season": "NLTP S36", "date": "2025-07-02", "week": "Week 6", "team1": "That Time I Got Reincarnated as a Ball", "team2": "Fastest Way Only",
       "games": [
         {
-          "tagpro_eu": "4014405", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "4014405", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Fastest Way Only", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
@@ -1189,12 +1189,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014421", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "4014421", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Fastest Way Only", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 4, "team2_score": 2,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "dyd", "playing_as": "DYD" },
@@ -1202,12 +1202,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014438", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 6, "team2_score": 5,
+          "tagpro_eu": "4014438", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Fastest Way Only", "team1_score": 6, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Glimmer", "playing_as": "Glimmer" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
@@ -1216,12 +1216,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014455", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "4014455", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "Fastest Way Only", "blue_team": "That Time I Got Reincarnated as a Ball", "team1_score": 5, "team2_score": 3,
           "players": [
-            { "team": "FWO", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
@@ -1229,12 +1229,12 @@
           ]
         },
         {
-          "tagpro_eu": "4014469", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "FWO", "team1_score": 8, "team2_score": 6,
+          "tagpro_eu": "4014469", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "That Time I Got Reincarnated as a Ball", "blue_team": "Fastest Way Only", "team1_score": 8, "team2_score": 6,
           "players": [
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "o o l e r", "playing_as": "o o l e r" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
-            { "team": "FWO", "player_season": "the buttons", "playing_as": "the buttons" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "o o l e r", "playing_as": "o o l e r" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "the buttons", "playing_as": "the buttons" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "LOWTIERBALL", "playing_as": "LOWTIERBALL" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Mueller", "playing_as": "Mueller" },
             { "team": "That Time I Got Reincarnated as a Ball", "player_season": "Secondskin", "playing_as": "Secondskin" },
@@ -1314,15 +1314,15 @@
       ]
     },
     {
-      "season": "NLTP S36", "date": "2025-07-09", "week": "Week 7", "team1": "FWO", "team2": "Mercury Revolutions",
+      "season": "NLTP S36", "date": "2025-07-09", "week": "Week 7", "team1": "Fastest Way Only", "team2": "Mercury Revolutions",
       "games": [
         {
-          "tagpro_eu": "4018834", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 3, "team2_score": 9,
+          "tagpro_eu": "4018834", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "Fastest Way Only", "blue_team": "Mercury Revolutions", "team1_score": 3, "team2_score": 9,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
@@ -1330,12 +1330,12 @@
           ]
         },
         {
-          "tagpro_eu": "4018852", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 10,
+          "tagpro_eu": "4018852", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 1, "team2_score": 10,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
@@ -1343,12 +1343,12 @@
           ]
         },
         {
-          "tagpro_eu": "4018863", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 5, "team2_score": 12,
+          "tagpro_eu": "4018863", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 5, "team2_score": 12,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
@@ -1356,12 +1356,12 @@
           ]
         },
         {
-          "tagpro_eu": "4018878", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "FWO", "team1_score": 1, "team2_score": 12,
+          "tagpro_eu": "4018878", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Mercury Revolutions", "blue_team": "Fastest Way Only", "team1_score": 1, "team2_score": 12,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "anom", "playing_as": "anom" },
@@ -1369,12 +1369,12 @@
           ]
         },
         {
-          "tagpro_eu": "4018900", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "FWO", "blue_team": "Mercury Revolutions", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "4018900", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "Fastest Way Only", "blue_team": "Mercury Revolutions", "team1_score": 1, "team2_score": 5,
           "players": [
-            { "team": "FWO", "player_season": "Rayn", "playing_as": "Rayn" },
-            { "team": "FWO", "player_season": "Snekster", "playing_as": "Snekster" },
-            { "team": "FWO", "player_season": "havok", "playing_as": "havok" },
-            { "team": "FWO", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
+            { "team": "Fastest Way Only", "player_season": "Rayn", "playing_as": "Rayn" },
+            { "team": "Fastest Way Only", "player_season": "Snekster", "playing_as": "Snekster" },
+            { "team": "Fastest Way Only", "player_season": "havok", "playing_as": "havok" },
+            { "team": "Fastest Way Only", "player_season": "tag.youre.it", "playing_as": "tag.youre.it" },
             { "team": "Mercury Revolutions", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
             { "team": "Mercury Revolutions", "player_season": "Riley_2025", "playing_as": "Riley_2025" },
             { "team": "Mercury Revolutions", "player_season": "Robiny", "playing_as": "Robiny" },

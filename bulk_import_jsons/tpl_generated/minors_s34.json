@@ -5,7 +5,7 @@
     { "season": "mLTP S34", "franchise": "Beef Sloppy-O's", "name": "Beef Sloppy-O's", "abbr": "SLP", "captain": null },
     { "season": "mLTP S34", "franchise": "Harlem Globebotters", "name": "Harlem Globebotters", "abbr": "HGB", "captain": "Prime" },
     { "season": "mLTP S34", "franchise": "Legends of the Splittin Temple", "name": "Legends of the Splittin Temple", "abbr": "LST", "captain": "Sadness" },
-    { "season": "mLTP S34", "franchise": "OD Gambit: Nubstep Variation", "name": "OD Gambit: Nubstep Variation", "abbr": "ODG", "captain": null },
+    { "season": "mLTP S34", "franchise": "OD Gambit: The Nubstep Variation", "name": "OD Gambit: The Nubstep Variation", "abbr": "ODG", "captain": null },
     { "season": "mLTP S34", "franchise": "Pi-Curious", "name": "Pi-Curious", "abbr": "PIC", "captain": "Sgt. Ducky" },
     { "season": "mLTP S34", "franchise": "Portland Tile Blazers", "name": "Portland Tile Blazers", "abbr": "PTB", "captain": null },
     { "season": "mLTP S34", "franchise": "Trilobytes Per Second", "name": "Trilobytes Per Second", "abbr": "TPS", "captain": null },
@@ -44,11 +44,11 @@
     { "season": "mLTP S34", "team": "Legends of the Splittin Temple", "player": "Scrapper8o", "playing_as": "Scrapper8o" },
     { "season": "mLTP S34", "team": "Legends of the Splittin Temple", "player": "llamatron", "playing_as": "llamatron" },
     { "season": "mLTP S34", "team": "Legends of the Splittin Temple", "player": "vic", "playing_as": "vic" },
-    { "season": "mLTP S34", "team": "OD Gambit: Nubstep Variation", "player": ".__.", "playing_as": ".__." },
-    { "season": "mLTP S34", "team": "OD Gambit: Nubstep Variation", "player": "KING KRULE", "playing_as": "KING KRULE" },
-    { "season": "mLTP S34", "team": "OD Gambit: Nubstep Variation", "player": "Morpheus", "playing_as": "Morpheus" },
-    { "season": "mLTP S34", "team": "OD Gambit: Nubstep Variation", "player": "Trapsin", "playing_as": "Trapsin" },
-    { "season": "mLTP S34", "team": "OD Gambit: Nubstep Variation", "player": "redbull", "playing_as": "redbull" },
+    { "season": "mLTP S34", "team": "OD Gambit: The Nubstep Variation", "player": ".__.", "playing_as": ".__." },
+    { "season": "mLTP S34", "team": "OD Gambit: The Nubstep Variation", "player": "KING KRULE", "playing_as": "KING KRULE" },
+    { "season": "mLTP S34", "team": "OD Gambit: The Nubstep Variation", "player": "Morpheus", "playing_as": "Morpheus" },
+    { "season": "mLTP S34", "team": "OD Gambit: The Nubstep Variation", "player": "Trapsin", "playing_as": "Trapsin" },
+    { "season": "mLTP S34", "team": "OD Gambit: The Nubstep Variation", "player": "redbull", "playing_as": "redbull" },
     { "season": "mLTP S34", "team": "Pi-Curious", "player": "Kep", "playing_as": "Kep" },
     { "season": "mLTP S34", "team": "Pi-Curious", "player": "Spheroid.", "playing_as": "Spheroid." },
     { "season": "mLTP S34", "team": "Pi-Curious", "player": "Xx360NoSwagx", "playing_as": "Xx360NoSwagx" },
@@ -210,15 +210,15 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-09-16", "week": "Week 1", "team1": "Trilobytes Per Second", "team2": "OD Gambit: Nubstep Variation",
+      "season": "mLTP S34", "date": "2024-09-16", "week": "Week 1", "team1": "Trilobytes Per Second", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3726865", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 7,
+          "tagpro_eu": "3726865", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 7,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
             { "team": "Trilobytes Per Second", "player_season": "ALEX JONES", "playing_as": "ALEX JONES" },
             { "team": "Trilobytes Per Second", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "Trilobytes Per Second", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -226,12 +226,12 @@
           ]
         },
         {
-          "tagpro_eu": "3726889", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Trilobytes Per Second", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3726889", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Trilobytes Per Second", "team1_score": 5, "team2_score": 2,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
             { "team": "Trilobytes Per Second", "player_season": "ALEX JONES", "playing_as": "ALEX JONES" },
             { "team": "Trilobytes Per Second", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "Trilobytes Per Second", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -239,12 +239,12 @@
           ]
         },
         {
-          "tagpro_eu": "3726910", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 8, "team2_score": 0,
+          "tagpro_eu": "3726910", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 8, "team2_score": 0,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
             { "team": "Trilobytes Per Second", "player_season": "ALEX JONES", "playing_as": "ALEX JONES" },
             { "team": "Trilobytes Per Second", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "Trilobytes Per Second", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -252,12 +252,12 @@
           ]
         },
         {
-          "tagpro_eu": "3726937", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Trilobytes Per Second", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3726937", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Trilobytes Per Second", "team1_score": 2, "team2_score": 3,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
             { "team": "Trilobytes Per Second", "player_season": "ALEX JONES", "playing_as": "ALEX JONES" },
             { "team": "Trilobytes Per Second", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "Trilobytes Per Second", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -265,12 +265,12 @@
           ]
         },
         {
-          "tagpro_eu": "3726957", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3726957", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Trilobytes Per Second", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "REDbull" },
             { "team": "Trilobytes Per Second", "player_season": "ALEX JONES", "playing_as": "ALEX JONES" },
             { "team": "Trilobytes Per Second", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
             { "team": "Trilobytes Per Second", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
@@ -631,71 +631,71 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-09-23", "week": "Week 2", "team1": "OD Gambit: Nubstep Variation", "team2": "Legends of the Splittin Temple",
+      "season": "mLTP S34", "date": "2024-09-23", "week": "Week 2", "team1": "OD Gambit: The Nubstep Variation", "team2": "Legends of the Splittin Temple",
       "games": [
         {
-          "tagpro_eu": "3734471", "game_in_match": "Game 1", "map_name": "Oriole", "map_id": 17585, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3734471", "game_in_match": "Game 1", "map_name": "Oriole", "map_id": 17585, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Helen Keller", "playing_as": "Helen Keller" },
             { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Legends of the Splittin Temple", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Legends of the Splittin Temple", "player_season": "vic", "playing_as": "vic" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3734492", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 11, "team2_score": 5,
+          "tagpro_eu": "3734492", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 11, "team2_score": 5,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Helen Keller", "playing_as": "Helen Keller" },
             { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Legends of the Splittin Temple", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Legends of the Splittin Temple", "player_season": "vic", "playing_as": "vic" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3734511", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 7, "team2_score": 6,
+          "tagpro_eu": "3734511", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 7, "team2_score": 6,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Helen Keller", "playing_as": "Helen Keller" },
             { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Legends of the Splittin Temple", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Legends of the Splittin Temple", "player_season": "vic", "playing_as": "vic" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3734530", "game_in_match": "Game 4", "map_name": "Blackhawk", "map_id": 17705, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3734530", "game_in_match": "Game 4", "map_name": "Blackhawk", "map_id": 17705, "red_team": "Legends of the Splittin Temple", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Helen Keller", "playing_as": "Helen Keller" },
             { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Legends of the Splittin Temple", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Legends of the Splittin Temple", "player_season": "vic", "playing_as": "vic" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3734553", "game_in_match": "Game 5", "map_name": "Blackhawk", "map_id": 17705, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 5, "team2_score": 9,
+          "tagpro_eu": "3734553", "game_in_match": "Game 5", "map_name": "Blackhawk", "map_id": 17705, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Legends of the Splittin Temple", "team1_score": 5, "team2_score": 9,
           "players": [
             { "team": "Legends of the Splittin Temple", "player_season": "Helen Keller", "playing_as": "Helen Keller" },
             { "team": "Legends of the Splittin Temple", "player_season": "Scrapper8o", "playing_as": "Scrapper8o" },
             { "team": "Legends of the Splittin Temple", "player_season": "llamatron", "playing_as": "llamatron" },
             { "team": "Legends of the Splittin Temple", "player_season": "vic", "playing_as": "vic" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         }
       ]
@@ -771,71 +771,71 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-09-30", "week": "Week 3", "team1": "Ballin' on a Budget (Gnas took all my money)", "team2": "OD Gambit: Nubstep Variation",
+      "season": "mLTP S34", "date": "2024-09-30", "week": "Week 3", "team1": "Ballin' on a Budget (Gnas took all my money)", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3742441", "game_in_match": "Game 1", "map_name": "Strawberry! ", "map_id": 17737, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "3742441", "game_in_match": "Game 1", "map_name": "Strawberry! ", "map_id": 17737, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Sweg'", "playing_as": "Sweg'" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "omni", "playing_as": "omni" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3742460", "game_in_match": "Game 2", "map_name": "Milano 2", "map_id": 17063, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Ballin' on a Budget (Gnas took all my money)", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3742460", "game_in_match": "Game 2", "map_name": "Milano 2", "map_id": 17063, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Ballin' on a Budget (Gnas took all my money)", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Sweg'", "playing_as": "Sweg'" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "omni", "playing_as": "omni" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3742481", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "3742481", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Sweg'", "playing_as": "Sweg'" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "omni", "playing_as": "omni" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3742500", "game_in_match": "Game 4", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Ballin' on a Budget (Gnas took all my money)", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "3742500", "game_in_match": "Game 4", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Ballin' on a Budget (Gnas took all my money)", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Sweg'", "playing_as": "Sweg'" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "omni", "playing_as": "omni" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3742518", "game_in_match": "Game 5", "map_name": "Sardonica", "map_id": 17290, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 1, "team2_score": 6,
+          "tagpro_eu": "3742518", "game_in_match": "Game 5", "map_name": "Sardonica", "map_id": 17290, "red_team": "Ballin' on a Budget (Gnas took all my money)", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 1, "team2_score": 6,
           "players": [
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Ball of Fame", "playing_as": "Ball of Fame" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Borgus", "playing_as": "Borgus" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "Sweg'", "playing_as": "Sweg'" },
             { "team": "Ballin' on a Budget (Gnas took all my money)", "player_season": "omni", "playing_as": "omni" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Morpheus", "playing_as": "Morpheus" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         }
       ]
@@ -1401,71 +1401,71 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-10-07", "week": "Week 4", "team1": "OD Gambit: Nubstep Variation", "team2": "Balls",
+      "season": "mLTP S34", "date": "2024-10-07", "week": "Week 4", "team1": "OD Gambit: The Nubstep Variation", "team2": "Balls",
       "games": [
         {
-          "tagpro_eu": "3750333", "game_in_match": "Game 1", "map_name": "FILO", "map_id": 17620, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Balls", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3750333", "game_in_match": "Game 1", "map_name": "FILO", "map_id": 17620, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Balls", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Balls", "player_season": "Button", "playing_as": "Button" },
             { "team": "Balls", "player_season": "huuuuuuuuuuu", "playing_as": "huuuuuuuuuuu" },
             { "team": "Balls", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Balls", "player_season": "kutrebar", "playing_as": "kutrebar" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3750359", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Balls", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "3750359", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Balls", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 7,
           "players": [
             { "team": "Balls", "player_season": "Button", "playing_as": "Button" },
             { "team": "Balls", "player_season": "huuuuuuuuuuu", "playing_as": "huuuuuuuuuuu" },
             { "team": "Balls", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Balls", "player_season": "kutrebar", "playing_as": "kutrebar" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3750388", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Balls", "team1_score": 4, "team2_score": 9,
+          "tagpro_eu": "3750388", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Balls", "team1_score": 4, "team2_score": 9,
           "players": [
             { "team": "Balls", "player_season": "Button", "playing_as": "Button" },
             { "team": "Balls", "player_season": "huuuuuuuuuuu", "playing_as": "huuuuuuuuuuu" },
             { "team": "Balls", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Balls", "player_season": "kutrebar", "playing_as": "kutrebar" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3750413", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Balls", "team1_score": 4, "team2_score": 6,
+          "tagpro_eu": "3750413", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Balls", "team1_score": 4, "team2_score": 6,
           "players": [
             { "team": "Balls", "player_season": "Button", "playing_as": "Button" },
             { "team": "Balls", "player_season": "huuuuuuuuuuu", "playing_as": "huuuuuuuuuuu" },
             { "team": "Balls", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Balls", "player_season": "kutrebar", "playing_as": "kutrebar" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3750432", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Balls", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "3750432", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Balls", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 7,
           "players": [
             { "team": "Balls", "player_season": "Button", "playing_as": "Button" },
             { "team": "Balls", "player_season": "huuuuuuuuuuu", "playing_as": "huuuuuuuuuuu" },
             { "team": "Balls", "player_season": "jazzz", "playing_as": "jazzz" },
             { "team": "Balls", "player_season": "kutrebar", "playing_as": "kutrebar" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         }
       ]
@@ -1681,15 +1681,15 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-10-14", "week": "Week 5", "team1": "Portland Tile Blazers", "team2": "OD Gambit: Nubstep Variation",
+      "season": "mLTP S34", "date": "2024-10-14", "week": "Week 5", "team1": "Portland Tile Blazers", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3758046", "game_in_match": "Game 1", "map_name": "Cold and Eaten", "map_id": 17339, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3758046", "game_in_match": "Game 1", "map_name": "Cold and Eaten", "map_id": 17339, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 5, "team2_score": 3,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
             { "team": "Portland Tile Blazers", "player_season": "Batman.", "playing_as": "Batman." },
             { "team": "Portland Tile Blazers", "player_season": "karma", "playing_as": "karma" },
             { "team": "Portland Tile Blazers", "player_season": "meowza", "playing_as": "meowza" },
@@ -1697,12 +1697,12 @@
           ]
         },
         {
-          "tagpro_eu": "3758067", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 0,
+          "tagpro_eu": "3758067", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 0,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
             { "team": "Portland Tile Blazers", "player_season": "Batman.", "playing_as": "Batman." },
             { "team": "Portland Tile Blazers", "player_season": "karma", "playing_as": "karma" },
             { "team": "Portland Tile Blazers", "player_season": "meowza", "playing_as": "meowza" },
@@ -1710,12 +1710,12 @@
           ]
         },
         {
-          "tagpro_eu": "3758089", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3758089", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 5, "team2_score": 4,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
             { "team": "Portland Tile Blazers", "player_season": "Batman.", "playing_as": "Batman." },
             { "team": "Portland Tile Blazers", "player_season": "karma", "playing_as": "karma" },
             { "team": "Portland Tile Blazers", "player_season": "meowza", "playing_as": "meowza" },
@@ -1723,12 +1723,12 @@
           ]
         },
         {
-          "tagpro_eu": "3758099", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 0,
+          "tagpro_eu": "3758099", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Portland Tile Blazers", "team1_score": 4, "team2_score": 0,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
             { "team": "Portland Tile Blazers", "player_season": "Batman.", "playing_as": "Batman." },
             { "team": "Portland Tile Blazers", "player_season": "karma", "playing_as": "karma" },
             { "team": "Portland Tile Blazers", "player_season": "meowza", "playing_as": "meowza" },
@@ -1736,12 +1736,12 @@
           ]
         },
         {
-          "tagpro_eu": "3758123", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 9, "team2_score": 3,
+          "tagpro_eu": "3758123", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Portland Tile Blazers", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 9, "team2_score": 3,
           "players": [
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" },
             { "team": "Portland Tile Blazers", "player_season": "Batman.", "playing_as": "Batman." },
             { "team": "Portland Tile Blazers", "player_season": "karma", "playing_as": "karma" },
             { "team": "Portland Tile Blazers", "player_season": "meowza", "playing_as": "meowza" },
@@ -1821,71 +1821,71 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-10-21", "week": "Week 6", "team1": "Beef Sloppy-O's", "team2": "OD Gambit: Nubstep Variation",
+      "season": "mLTP S34", "date": "2024-10-21", "week": "Week 6", "team1": "Beef Sloppy-O's", "team2": "OD Gambit: The Nubstep Variation",
       "games": [
         {
-          "tagpro_eu": "3765516", "game_in_match": "Game 1", "map_name": "Crawfish Boil", "map_id": 17778, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3765516", "game_in_match": "Game 1", "map_name": "Crawfish Boil", "map_id": 17778, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Beef Sloppy-O's", "player_season": "beef", "playing_as": "beef" },
             { "team": "Beef Sloppy-O's", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Beef Sloppy-O's", "player_season": "jake from sf", "playing_as": "jake from sf" },
             { "team": "Beef Sloppy-O's", "player_season": "pk", "playing_as": "pk" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3765534", "game_in_match": "Game 2", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Beef Sloppy-O's", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "3765534", "game_in_match": "Game 2", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Beef Sloppy-O's", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Beef Sloppy-O's", "player_season": "beef", "playing_as": "beef" },
             { "team": "Beef Sloppy-O's", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Beef Sloppy-O's", "player_season": "jake from sf", "playing_as": "jake from sf" },
             { "team": "Beef Sloppy-O's", "player_season": "pk", "playing_as": "pk" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3765553", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3765553", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Beef Sloppy-O's", "player_season": "beef", "playing_as": "beef" },
             { "team": "Beef Sloppy-O's", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Beef Sloppy-O's", "player_season": "jake from sf", "playing_as": "jake from sf" },
             { "team": "Beef Sloppy-O's", "player_season": "pk", "playing_as": "pk" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3765572", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Beef Sloppy-O's", "team1_score": 4, "team2_score": 9,
+          "tagpro_eu": "3765572", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Beef Sloppy-O's", "team1_score": 4, "team2_score": 9,
           "players": [
             { "team": "Beef Sloppy-O's", "player_season": "beef", "playing_as": "beef" },
             { "team": "Beef Sloppy-O's", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Beef Sloppy-O's", "player_season": "jake from sf", "playing_as": "jake from sf" },
             { "team": "Beef Sloppy-O's", "player_season": "pk", "playing_as": "pk" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3765590", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 7, "team2_score": 9,
+          "tagpro_eu": "3765590", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Beef Sloppy-O's", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 7, "team2_score": 9,
           "players": [
             { "team": "Beef Sloppy-O's", "player_season": "beef", "playing_as": "beef" },
             { "team": "Beef Sloppy-O's", "player_season": "clew3", "playing_as": "clew3" },
             { "team": "Beef Sloppy-O's", "player_season": "jake from sf", "playing_as": "jake from sf" },
             { "team": "Beef Sloppy-O's", "player_season": "pk", "playing_as": "pk" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": ".__.", "playing_as": ".__." },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "king krule" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         }
       ]
@@ -2452,71 +2452,71 @@
       ]
     },
     {
-      "season": "mLTP S34", "date": "2024-10-28", "week": "Week 7", "team1": "OD Gambit: Nubstep Variation", "team2": "Harlem Globebotters",
+      "season": "mLTP S34", "date": "2024-10-28", "week": "Week 7", "team1": "OD Gambit: The Nubstep Variation", "team2": "Harlem Globebotters",
       "games": [
         {
-          "tagpro_eu": "3774323", "game_in_match": "Game 1", "map_name": "Flume", "map_id": 17681, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3774323", "game_in_match": "Game 1", "map_name": "Flume", "map_id": 17681, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Harlem Globebotters", "player_season": "Gamma", "playing_as": "Gamma" },
             { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Harlem Globebotters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
             { "team": "Harlem Globebotters", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3774341", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3774341", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Harlem Globebotters", "player_season": "Gamma", "playing_as": "Gamma" },
             { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Harlem Globebotters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
             { "team": "Harlem Globebotters", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3774360", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3774360", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Harlem Globebotters", "player_season": "Gamma", "playing_as": "Gamma" },
             { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Harlem Globebotters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
             { "team": "Harlem Globebotters", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3774393", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13909, "red_team": "Harlem Globebotters", "blue_team": "OD Gambit: Nubstep Variation", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3774393", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13909, "red_team": "Harlem Globebotters", "blue_team": "OD Gambit: The Nubstep Variation", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Harlem Globebotters", "player_season": "Gamma", "playing_as": "Gamma" },
             { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Harlem Globebotters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
             { "team": "Harlem Globebotters", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         },
         {
-          "tagpro_eu": "3774422", "game_in_match": "Game 5", "map_name": "Catch-24", "map_id": 13909, "red_team": "OD Gambit: Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3774422", "game_in_match": "Game 5", "map_name": "Catch-24", "map_id": 13909, "red_team": "OD Gambit: The Nubstep Variation", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "Harlem Globebotters", "player_season": "Gamma", "playing_as": "Gamma" },
             { "team": "Harlem Globebotters", "player_season": "Jer32", "playing_as": "Jer32" },
             { "team": "Harlem Globebotters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
             { "team": "Harlem Globebotters", "player_season": "Phreek", "playing_as": "Phreek" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
-            { "team": "OD Gambit: Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "KING KRULE", "playing_as": "KING KRULE" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Sgt Ducky", "playing_as": "Sgt Ducky" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "OD Gambit: The Nubstep Variation", "player_season": "redbull", "playing_as": "redbull" }
           ]
         }
       ]
