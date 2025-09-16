@@ -132,6 +132,32 @@ def get_player_season_name(name: str, capitalization: Dict[str, Dict[str, int]])
     return best_name
 
 
+STAT_MAPPING = {
+    'minutes': "time_played",
+    'pups': "powerups",
+    'holdagainst': "hold_against",
+    'pm': "plus_minus",
+    'pupscomp': "total_pups_in_game",
+    'quickret': "quick_returns",
+    'retinbase': "returns_in_base",
+    'keyret': "key_returns",
+    'handoff': "handoffs",
+    'goodhandoff': "good_handoffs",
+    'goregrab': "grabs_off_handoffs",
+    'goregrab': "grabs_off_regrab",
+    'coregrab': "caps_off_handoffs",
+    'coregrab': "caps_off_regrab",
+    'longholds': "long_holds",
+}
+
+def rename_stats(stats: Dict[str, int]) -> Dict[str, int]:
+    for stat in STAT_MAPPING:
+        if stat in stats:
+            stats[STAT_MAPPING[stat]] = stats[stat]
+            del(stats[stat])
+    return stats
+
+
 def do_player_first_pass(g: Dict[str, Any], capitalization: Dict[str, Dict[str, int]], player_teams: Dict[str, Dict[str, int]]):
     m: Optional[tagpro_eu.Match] = match_from_links(g)
     if "stats" not in g:
@@ -198,6 +224,8 @@ for season_name in seasons:
                     game_key = f"g{g['game'][-1]}"
                     half_key = "ot" if g['half'] == "Overtime" else f"h{g['half'][-1]}"
                     g['stats'] = m2[f'{game_key}{half_key}_stats']
+                    for p in g['stats']:
+                        g['stats'][p] = rename_stats(g['stats'][p])
                     g['team1_score'] = m2[f't1{game_key}{half_key}']
                     g['team2_score'] = m2[f't2{game_key}{half_key}']
                     g['date'] = m2['date']
