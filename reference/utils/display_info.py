@@ -114,6 +114,56 @@ def aggregate_player_stats(
     return result
 
 
+def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
+    """Calculate rate stats and add them to player stats dictionaries."""
+    for player_stat in player_stats:
+        minutes = player_stat['time_played_min']
+        grabs = player_stat['grabs']
+        captures = player_stat['captures']
+        hold_sec = player_stat['hold_sec']
+        tags = player_stat['tags']
+        pops = player_stat['pops']
+        returns = player_stat['returns']
+        prevent_sec = player_stat['prevent_sec']
+        hold_against_sec = player_stat['hold_against_sec']
+        handoffs = player_stat['handoffs']
+        good_handoffs = player_stat['good_handoffs']
+        flaccids = player_stat['flaccids']
+        caps_off_regrab = player_stat['caps_off_regrab']
+        quick_returns = player_stat['quick_returns']
+        returns_in_base = player_stat['returns_in_base']
+        caps_for = player_stat['caps_for']
+        caps_against = player_stat['caps_against']
+        drops = player_stat['drops']
+        powerups = player_stat['powerups']
+        total_pups_in_game = player_stat['total_pups_in_game']
+        
+        # Add calculated rate stats to player_stat dict
+        player_stat['gpm'] = round(grabs / minutes, 2) if minutes > 0 else 0
+        player_stat['cpm'] = round(captures / minutes, 2) if minutes > 0 else 0
+        player_stat['hpm'] = round(hold_sec / minutes, 2) if minutes > 0 else 0
+        player_stat['tpm'] = round(tags / minutes, 2) if minutes > 0 else 0
+        player_stat['rpm'] = round(returns / minutes, 2) if minutes > 0 else 0
+        player_stat['ppm'] = round(prevent_sec / minutes, 2) if minutes > 0 else 0
+        player_stat['ham'] = round(hold_against_sec / minutes, 2) if minutes > 0 else 0
+        player_stat['hold_per_grab'] = round(hold_sec / grabs, 2) if grabs > 0 else 0
+        player_stat['score_percent'] = round((captures / grabs) * 100, 1) if grabs > 0 else 0
+        player_stat['chain_percent'] = round((good_handoffs / handoffs) * 100, 1) if handoffs > 0 else 0
+        player_stat['flaccid_percent'] = round((flaccids / grabs) * 100, 1) if grabs > 0 else 0
+        player_stat['spark_percent'] = round(((captures - caps_off_regrab) / captures) * 100, 1) if captures > 0 else 0
+        player_stat['prevent_per_return'] = round(prevent_sec / returns, 2) if returns > 0 else 0
+        player_stat['prevent_per_hold_against'] = round(prevent_sec / hold_against_sec, 2) if hold_against_sec > 0 else 0
+        player_stat['rib_percent'] = round((returns_in_base / returns) * 100, 1) if returns > 0 else 0
+        player_stat['qr_percent'] = round((quick_returns / returns) * 100, 1) if returns > 0 else 0
+        player_stat['plus_minus'] = caps_for - caps_against
+        player_stat['kd_ratio'] = round(tags / pops, 2) if pops > 0 else 0
+        player_stat['non_return_tags'] = tags - returns
+        player_stat['non_drop_pops'] = pops - drops
+        player_stat['pup_percent'] = round((powerups / total_pups_in_game) * 100, 1) if total_pups_in_game > 0 else 0
+    
+    return player_stats
+
+
 def calculate_match_box_score(match, games, include_details=False):
     """Calculate box score data for a match with its games."""
     team1_total = 0

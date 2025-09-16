@@ -6,7 +6,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib import messages
-from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats
+from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
 from reference.utils.stat_collection import update_standings
 from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, League, Franchise
@@ -364,6 +364,7 @@ def season_stats(req, season_id):
         week_options.append({ 'value': week, 'label': week })
     
     stats = aggregate_player_stats(season=season, week=week_filter)
+    stats = calculate_rate_stats(stats)
     template_stats = []
     for player_stat in stats:
         stat_row = {
