@@ -6,7 +6,8 @@ import tagpro_eu
 from typing import Optional, List, Dict, Any
 
 from .stat_collection import process_game_stats, update_standings, load_eu_match_object
-from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries
+from .display_info import STAT_FIELDS
+from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries, PlayerStats, PlayerRegulationStats
 
 
 def extract_game_data(eu_url: str) -> Dict:
@@ -619,12 +620,36 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 ).first()
                 
                 if not existing_pgl:
-                    PlayerGameLog.objects.create(
+                    pgl = PlayerGameLog.objects.create(
                         game=game,
                         player_season=player_season,
-                        playing_as=player_data['playing_as'],
+                        playing_as=player_data["playing_as"],
                         team=team
                     )
+                    
+                    # Create PlayerStats if stats are provided in JSON
+                    if "stats" in player_data:
+                        stats_data = player_data["stats"]
+                        
+                        # Create stats dict with 0 defaults for all stat fields
+                        player_stats = {field: 0 for field in STAT_FIELDS}
+                        
+                        # Update with actual values from JSON (only known stat fields)
+                        for key, value in stats_data.items():
+                            if key in STAT_FIELDS:
+                                player_stats[key] = value or 0
+                        
+                        # Create PlayerStats object
+                        PlayerStats.objects.create(
+                            player_gamelog=pgl,
+                            **player_stats
+                        )
+                        
+                        # Create PlayerRegulationStats (same data for manually entered stats)
+                        PlayerRegulationStats.objects.create(
+                            player_gamelog=pgl,
+                            **player_stats
+                        )
             
             # Process game stats
             created_count += 1

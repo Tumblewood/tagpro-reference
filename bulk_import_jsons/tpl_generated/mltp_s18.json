@@ -4,7 +4,7 @@
     { "season": "MLTP S18", "franchise": "Hard Block Life", "name": "Hard Block Life", "abbr": "HBL", "captain": "Ty" },
     { "season": "MLTP S18", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW", "captain": "Curry" },
     { "season": "MLTP S18", "franchise": "Mickey Mouse Poperation", "name": "Mickey Mouse Poperation", "abbr": "MMP", "captain": "CB13" },
-    { "season": "MLTP S18", "franchise": "Origin Ducks in 3D", "name": "Origin Ducks in 3D", "abbr": "OD", "captain": "Eashy" },
+    { "season": "MLTP S18", "franchise": "Origin Ducks", "name": "Origin Ducks", "abbr": "OD", "captain": "Eashy" },
     { "season": "MLTP S18", "franchise": "Over the Pants Handoffs", "name": "Over the Pants Handoffs", "abbr": "OPH", "captain": "IfYouSeekAmy" },
     { "season": "MLTP S18", "franchise": "Red Hot Chili Poppers", "name": "Red Hot Chili Poppers", "abbr": "RHCP", "captain": "Tantrew" },
     { "season": "MLTP S18", "franchise": "Roller Bears", "name": "Roller Bears", "abbr": "RLB", "captain": "toasty" },
@@ -46,13 +46,13 @@
     { "season": "MLTP S18", "team": "Mickey Mouse Poperation", "player": "Spjork", "playing_as": "Spjork" },
     { "season": "MLTP S18", "team": "Mickey Mouse Poperation", "player": "boogie", "playing_as": "boogie" },
     { "season": "MLTP S18", "team": "Mickey Mouse Poperation", "player": "refined", "playing_as": "refined" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "Dank Sniper", "playing_as": "Dank Sniper" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "Doris", "playing_as": "Doris" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "Eashy", "playing_as": "Eashy" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "NEB.", "playing_as": "NEB." },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "OD God", "playing_as": "OD God" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "badger", "playing_as": "badger" },
-    { "season": "MLTP S18", "team": "Origin Ducks in 3D", "player": "okthenXD", "playing_as": "okthenXD" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "Dank Sniper", "playing_as": "Dank Sniper" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "Doris", "playing_as": "Doris" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "Eashy", "playing_as": "Eashy" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "NEB.", "playing_as": "NEB." },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "OD God", "playing_as": "OD God" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "badger", "playing_as": "badger" },
+    { "season": "MLTP S18", "team": "Origin Ducks", "player": "okthenXD", "playing_as": "okthenXD" },
     { "season": "MLTP S18", "team": "Over the Pants Handoffs", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
     { "season": "MLTP S18", "team": "Over the Pants Handoffs", "player": "Bal McCartny", "playing_as": "Bal McCartny" },
     { "season": "MLTP S18", "team": "Over the Pants Handoffs", "player": "Homie", "playing_as": "Homie" },
@@ -139,85 +139,85 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-05-05", "week": "Week 1", "team1": "Holdin' Gate Warriors", "team2": "Origin Ducks in 3D",
+      "season": "MLTP S18", "date": "2019-05-05", "week": "Week 1", "team1": "Holdin' Gate Warriors", "team2": "Origin Ducks",
       "games": [
         {
-          "tagpro_eu": "2179644", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Origin Ducks in 3D", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 4,
+          "tagpro_eu": "2179644", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Origin Ducks", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "gg!", "playing_as": "gg!" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2179654", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks in 3D", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "2179654", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2179663", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks in 3D", "team1_score": 1, "team2_score": 1,
+          "tagpro_eu": "2179663", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks", "team1_score": 1, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2179668", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks in 3D", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "2179668", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2179670", "game_in_match": "Game 2 Overtime", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks in 3D", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "2179670", "game_in_match": "Game 2 Overtime", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2179675", "game_in_match": "Game 2 Overtime 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks in 3D", "team1_score": 1, "team2_score": 7,
+          "tagpro_eu": "2179675", "game_in_match": "Game 2 Overtime 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Origin Ducks", "team1_score": 1, "team2_score": 7,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
             { "team": "Holdin' Gate Warriors", "player_season": "pulpo", "playing_as": "pulpo" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         }
       ]
@@ -586,58 +586,58 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-05-12", "week": "Week 2", "team1": "Origin Ducks in 3D", "team2": "Hard Block Life",
+      "season": "MLTP S18", "date": "2019-05-12", "week": "Week 2", "team1": "Origin Ducks", "team2": "Hard Block Life",
       "games": [
         {
-          "tagpro_eu": "2186248", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Hard Block Life", "blue_team": "Origin Ducks in 3D", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "2186248", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Hard Block Life", "blue_team": "Origin Ducks", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Hard Block Life", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Hard Block Life", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "Hard Block Life", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Hard Block Life", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "OD God", "playing_as": "OD God" },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2186266", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks in 3D", "blue_team": "Hard Block Life", "team1_score": 6, "team2_score": 1,
+          "tagpro_eu": "2186266", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Origin Ducks", "blue_team": "Hard Block Life", "team1_score": 6, "team2_score": 1,
           "players": [
             { "team": "Hard Block Life", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Hard Block Life", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "Hard Block Life", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Hard Block Life", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "OD God", "playing_as": "OD God" },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2186283", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Origin Ducks in 3D", "blue_team": "Hard Block Life", "team1_score": 4, "team2_score": 4,
+          "tagpro_eu": "2186283", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Origin Ducks", "blue_team": "Hard Block Life", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Hard Block Life", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Hard Block Life", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "Hard Block Life", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Hard Block Life", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "OD God", "playing_as": "OD God" },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         },
         {
-          "tagpro_eu": "2186294", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Hard Block Life", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "2186294", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Hard Block Life", "blue_team": "Origin Ducks", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Hard Block Life", "player_season": "Armbranch", "playing_as": "Armbranch" },
             { "team": "Hard Block Life", "player_season": "BallAnka", "playing_as": "BallAnka" },
             { "team": "Hard Block Life", "player_season": "Taurus", "playing_as": "Taurus" },
             { "team": "Hard Block Life", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "OD God", "playing_as": "OD God" },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" }
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "OD God", "playing_as": "OD God" },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" }
           ]
         }
       ]
@@ -954,15 +954,15 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-05-19", "week": "Week 3", "team1": "Origin Ducks in 3D", "team2": "Over the Pants Handoffs",
+      "season": "MLTP S18", "date": "2019-05-19", "week": "Week 3", "team1": "Origin Ducks", "team2": "Over the Pants Handoffs",
       "games": [
         {
-          "tagpro_eu": "2191644", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Origin Ducks in 3D", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 0,
+          "tagpro_eu": "2191644", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Origin Ducks", "blue_team": "Over the Pants Handoffs", "team1_score": 3, "team2_score": 0,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Over the Pants Handoffs", "player_season": "Doris", "playing_as": "Doris" },
@@ -970,12 +970,12 @@
           ]
         },
         {
-          "tagpro_eu": "2191657", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Over the Pants Handoffs", "blue_team": "Origin Ducks in 3D", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "2191657", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 12469, "red_team": "Over the Pants Handoffs", "blue_team": "Origin Ducks", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Over the Pants Handoffs", "player_season": "Doris", "playing_as": "Doris" },
@@ -983,12 +983,12 @@
           ]
         },
         {
-          "tagpro_eu": "2191669", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Over the Pants Handoffs", "blue_team": "Origin Ducks in 3D", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "2191669", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Over the Pants Handoffs", "blue_team": "Origin Ducks", "team1_score": 4, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Over the Pants Handoffs", "player_season": "Doris", "playing_as": "Doris" },
@@ -996,12 +996,12 @@
           ]
         },
         {
-          "tagpro_eu": "2191682", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks in 3D", "blue_team": "Over the Pants Handoffs", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "2191682", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks", "blue_team": "Over the Pants Handoffs", "team1_score": 7, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "Jimin", "playing_as": "Jimin" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "Jimin", "playing_as": "Jimin" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Over the Pants Handoffs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
             { "team": "Over the Pants Handoffs", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Over the Pants Handoffs", "player_season": "Doris", "playing_as": "Doris" },
@@ -1068,15 +1068,15 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-06-02", "week": "Week 4", "team1": "Red Hot Chili Poppers", "team2": "Origin Ducks in 3D",
+      "season": "MLTP S18", "date": "2019-06-02", "week": "Week 4", "team1": "Red Hot Chili Poppers", "team2": "Origin Ducks",
       "games": [
         {
-          "tagpro_eu": "2201580", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks in 3D", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "2201580", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -1084,12 +1084,12 @@
           ]
         },
         {
-          "tagpro_eu": "2201587", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks in 3D", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "2201587", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks", "team1_score": 1, "team2_score": 4,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -1097,12 +1097,12 @@
           ]
         },
         {
-          "tagpro_eu": "2201594", "game_in_match": "Game 1 Overtime", "map_name": "Rush", "map_id": 627, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks in 3D", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": "2201594", "game_in_match": "Game 1 Overtime", "map_name": "Rush", "map_id": 627, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks", "team1_score": 0, "team2_score": 0,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew" },
@@ -1110,12 +1110,12 @@
           ]
         },
         {
-          "tagpro_eu": "2201597", "game_in_match": "Game 1 Overtime 2", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks in 3D", "blue_team": "Red Hot Chili Poppers", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "2201597", "game_in_match": "Game 1 Overtime 2", "map_name": "Rush", "map_id": 627, "red_team": "Origin Ducks", "blue_team": "Red Hot Chili Poppers", "team1_score": 0, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "SCORPION-", "playing_as": "SCORPION-" },
@@ -1123,12 +1123,12 @@
           ]
         },
         {
-          "tagpro_eu": "2201601", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks in 3D", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "2201601", "game_in_match": "Game 2 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 5,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "SCORPION-", "playing_as": "SCORPION-" },
@@ -1136,12 +1136,12 @@
           ]
         },
         {
-          "tagpro_eu": "2201610", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks in 3D", "team1_score": 4, "team2_score": 4,
+          "tagpro_eu": "2201610", "game_in_match": "Game 2 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Red Hot Chili Poppers", "blue_team": "Origin Ducks", "team1_score": 4, "team2_score": 4,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "Red Hot Chili Poppers", "player_season": "GLTPVet32", "playing_as": "GLTPVet32" },
             { "team": "Red Hot Chili Poppers", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
             { "team": "Red Hot Chili Poppers", "player_season": "SCORPION-", "playing_as": "SCORPION-" },
@@ -1437,16 +1437,16 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-06-09", "week": "Week 5", "team1": "Origin Ducks in 3D", "team2": "The Holy Seehawks",
+      "season": "MLTP S18", "date": "2019-06-09", "week": "Week 5", "team1": "Origin Ducks", "team2": "The Holy Seehawks",
       "games": [
         {
-          "tagpro_eu": "2206813", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks in 3D", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "2206813", "game_in_match": "Game 1 Half 1", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 3,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "mostholdMLTP", "playing_as": "mostholdMLTP" },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "mostholdMLTP", "playing_as": "mostholdMLTP" },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1454,12 +1454,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206826", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks in 3D", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "2206826", "game_in_match": "Game 1 Half 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks", "team1_score": 1, "team2_score": 2,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1467,12 +1467,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206832", "game_in_match": "Game 1 Overtime", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "2206832", "game_in_match": "Game 1 Overtime", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks", "team1_score": 3, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1480,12 +1480,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206838", "game_in_match": "Game 1 Overtime 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks in 3D", "blue_team": "The Holy Seehawks", "team1_score": 0, "team2_score": 2,
+          "tagpro_eu": "2206838", "game_in_match": "Game 1 Overtime 2", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks", "blue_team": "The Holy Seehawks", "team1_score": 0, "team2_score": 2,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1493,12 +1493,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206844", "game_in_match": "Game 1 Overtime 3", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks in 3D", "blue_team": "The Holy Seehawks", "team1_score": 1, "team2_score": 1,
+          "tagpro_eu": "2206844", "game_in_match": "Game 1 Overtime 3", "map_name": "Catch-22", "map_id": 12861, "red_team": "Origin Ducks", "blue_team": "The Holy Seehawks", "team1_score": 1, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1506,12 +1506,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206851", "game_in_match": "Game 1 Overtime 4", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "2206851", "game_in_match": "Game 1 Overtime 4", "map_name": "Catch-22", "map_id": 12861, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks", "team1_score": 3, "team2_score": 2,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1519,12 +1519,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206863", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks in 3D", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "2206863", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Origin Ducks", "team1_score": 1, "team2_score": 3,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1532,12 +1532,12 @@
           ]
         },
         {
-          "tagpro_eu": "2206876", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Origin Ducks in 3D", "blue_team": "The Holy Seehawks", "team1_score": 6, "team2_score": 5,
+          "tagpro_eu": "2206876", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Origin Ducks", "blue_team": "The Holy Seehawks", "team1_score": 6, "team2_score": 5,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Origin Ducks in 3D", "player_season": "okthenXD", "playing_as": "okthenXD" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Origin Ducks", "player_season": "okthenXD", "playing_as": "okthenXD" },
             { "team": "The Holy Seehawks", "player_season": "DEAD NAN", "playing_as": "DEAD NAN" },
             { "team": "The Holy Seehawks", "player_season": "GOOBR", "playing_as": "GOOBR" },
             { "team": "The Holy Seehawks", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
@@ -1921,58 +1921,58 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-06-18", "week": "Week 6", "team1": "Origin Ducks in 3D", "team2": "Mickey Mouse Poperation",
+      "season": "MLTP S18", "date": "2019-06-18", "week": "Week 6", "team1": "Origin Ducks", "team2": "Mickey Mouse Poperation",
       "games": [
         {
-          "tagpro_eu": "2213361", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Origin Ducks in 3D", "blue_team": "Mickey Mouse Poperation", "team1_score": 9, "team2_score": 6,
+          "tagpro_eu": "2213361", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Origin Ducks", "blue_team": "Mickey Mouse Poperation", "team1_score": 9, "team2_score": 6,
           "players": [
             { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT" },
             { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie" },
             { "team": "Mickey Mouse Poperation", "player_season": "refined", "playing_as": "refined" },
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger" }
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger" }
           ]
         },
         {
-          "tagpro_eu": "2213376", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Mickey Mouse Poperation", "blue_team": "Origin Ducks in 3D", "team1_score": 7, "team2_score": 6,
+          "tagpro_eu": "2213376", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Mickey Mouse Poperation", "blue_team": "Origin Ducks", "team1_score": 7, "team2_score": 6,
           "players": [
             { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT" },
             { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie" },
             { "team": "Mickey Mouse Poperation", "player_season": "refined", "playing_as": "refined" },
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger" }
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger" }
           ]
         },
         {
-          "tagpro_eu": "2213390", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Mickey Mouse Poperation", "blue_team": "Origin Ducks in 3D", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "2213390", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Mickey Mouse Poperation", "blue_team": "Origin Ducks", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13" },
             { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT" },
             { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie" },
             { "team": "Mickey Mouse Poperation", "player_season": "refined", "playing_as": "refined" },
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger" }
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper" },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger" }
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "Mickey Mouse Poperation", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "Origin Ducks", "blue_team": "Mickey Mouse Poperation", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Mickey Mouse Poperation", "player_season": "CB13", "playing_as": "CB13", "stats": {"team": 2, "score": 54, "tags": 10, "pops": 7, "grabs": 7, "drops": 5, "hold": 37, "captures": 2, "prevent": 108, "returns": 10, "ndpops": 2, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 171, "plus_minus": -1, "total_pups_in_game": 27} },
             { "team": "Mickey Mouse Poperation", "player_season": "DT", "playing_as": "DT", "stats": {"team": 2, "score": 33, "tags": 7, "pops": 21, "grabs": 19, "drops": 18, "hold": 83, "captures": 1, "prevent": 22, "returns": 7, "ndpops": 3, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 171, "plus_minus": -1, "total_pups_in_game": 27} },
             { "team": "Mickey Mouse Poperation", "player_season": "boogie", "playing_as": "boogie", "stats": {"team": 2, "score": 25, "tags": 6, "pops": 23, "grabs": 18, "drops": 18, "hold": 72, "captures": 0, "prevent": 20, "returns": 6, "ndpops": 5, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 171, "plus_minus": -1, "total_pups_in_game": 27} },
             { "team": "Mickey Mouse Poperation", "player_season": "refined", "playing_as": "refined", "stats": {"team": 2, "score": 38, "tags": 9, "pops": 15, "grabs": 7, "drops": 7, "hold": 20, "captures": 0, "prevent": 90, "returns": 16, "ndpops": 8, "nrtags": -7, "time_played": 10, "powerups": 6, "hold_against": 171, "plus_minus": -1, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 39, "tags": 16, "pops": 8, "grabs": 4, "drops": 4, "hold": 22, "captures": 0, "prevent": 111, "returns": 16, "ndpops": 4, "nrtags": 0, "time_played": 10, "powerups": 4, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 26, "tags": 6, "pops": 13, "grabs": 10, "drops": 9, "hold": 36, "captures": 1, "prevent": 29, "returns": 6, "ndpops": 4, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 59, "tags": 18, "pops": 7, "grabs": 6, "drops": 4, "hold": 35, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 3, "nrtags": 4, "time_played": 10, "powerups": 6, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 31, "tags": 10, "pops": 21, "grabs": 18, "drops": 17, "hold": 78, "captures": 1, "prevent": 25, "returns": 8, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 1, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} }
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 39, "tags": 16, "pops": 8, "grabs": 4, "drops": 4, "hold": 22, "captures": 0, "prevent": 111, "returns": 16, "ndpops": 4, "nrtags": 0, "time_played": 10, "powerups": 4, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 26, "tags": 6, "pops": 13, "grabs": 10, "drops": 9, "hold": 36, "captures": 1, "prevent": 29, "returns": 6, "ndpops": 4, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 59, "tags": 18, "pops": 7, "grabs": 6, "drops": 4, "hold": 35, "captures": 2, "prevent": 120, "returns": 14, "ndpops": 3, "nrtags": 4, "time_played": 10, "powerups": 6, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 31, "tags": 10, "pops": 21, "grabs": 18, "drops": 17, "hold": 78, "captures": 1, "prevent": 25, "returns": 8, "ndpops": 4, "nrtags": 2, "time_played": 10, "powerups": 1, "hold_against": 212, "plus_minus": 1, "total_pups_in_game": 27} }
           ]
         }
       ]
@@ -2035,15 +2035,15 @@
       ]
     },
     {
-      "season": "MLTP S18", "date": "2019-06-23", "week": "Week 7", "team1": "The Toronto Captors", "team2": "Origin Ducks in 3D",
+      "season": "MLTP S18", "date": "2019-06-23", "week": "Week 7", "team1": "The Toronto Captors", "team2": "Origin Ducks",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 5,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 38, "tags": 2, "pops": 16, "grabs": 15, "drops": 12, "hold": 55, "captures": 3, "prevent": 19, "returns": 1, "ndpops": 4, "nrtags": 1, "time_played": 10, "powerups": 4, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 53, "tags": 15, "pops": 7, "grabs": 5, "drops": 4, "hold": 68, "captures": 1, "prevent": 111, "returns": 14, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 5, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 28, "tags": 10, "pops": 9, "grabs": 3, "drops": 3, "hold": 11, "captures": 0, "prevent": 93, "returns": 10, "ndpops": 6, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 36, "tags": 13, "pops": 17, "grabs": 15, "drops": 14, "hold": 93, "captures": 1, "prevent": 29, "returns": 9, "ndpops": 3, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 38, "tags": 2, "pops": 16, "grabs": 15, "drops": 12, "hold": 55, "captures": 3, "prevent": 19, "returns": 1, "ndpops": 4, "nrtags": 1, "time_played": 10, "powerups": 4, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 53, "tags": 15, "pops": 7, "grabs": 5, "drops": 4, "hold": 68, "captures": 1, "prevent": 111, "returns": 14, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 5, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 28, "tags": 10, "pops": 9, "grabs": 3, "drops": 3, "hold": 11, "captures": 0, "prevent": 93, "returns": 10, "ndpops": 6, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 36, "tags": 13, "pops": 17, "grabs": 15, "drops": 14, "hold": 93, "captures": 1, "prevent": 29, "returns": 9, "ndpops": 3, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 261, "plus_minus": 2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "score": 36, "tags": 10, "pops": 8, "grabs": 2, "drops": 2, "hold": 16, "captures": 0, "prevent": 112, "returns": 10, "ndpops": 6, "nrtags": 0, "time_played": 10, "powerups": 1, "hold_against": 227, "plus_minus": -2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "score": 30, "tags": 8, "pops": 17, "grabs": 17, "drops": 16, "hold": 125, "captures": 1, "prevent": 11, "returns": 7, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 227, "plus_minus": -2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "score": 44, "tags": 13, "pops": 8, "grabs": 6, "drops": 6, "hold": 40, "captures": 0, "prevent": 160, "returns": 11, "ndpops": 2, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 227, "plus_minus": -2, "total_pups_in_game": 27} },
@@ -2051,12 +2051,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks", "team1_score": 3, "team2_score": 1,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 27, "tags": 3, "pops": 17, "grabs": 10, "drops": 9, "hold": 70, "captures": 1, "prevent": 27, "returns": 3, "ndpops": 8, "nrtags": 0, "time_played": 10, "powerups": 0, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 42, "tags": 11, "pops": 9, "grabs": 6, "drops": 6, "hold": 53, "captures": 0, "prevent": 182, "returns": 10, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 46, "tags": 13, "pops": 7, "grabs": 5, "drops": 5, "hold": 22, "captures": 0, "prevent": 135, "returns": 11, "ndpops": 2, "nrtags": 2, "time_played": 10, "powerups": 7, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "score": 23, "tags": 8, "pops": 22, "grabs": 15, "drops": 15, "hold": 109, "captures": 0, "prevent": 22, "returns": 4, "ndpops": 7, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 27, "tags": 3, "pops": 17, "grabs": 10, "drops": 9, "hold": 70, "captures": 1, "prevent": 27, "returns": 3, "ndpops": 8, "nrtags": 0, "time_played": 10, "powerups": 0, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 42, "tags": 11, "pops": 9, "grabs": 6, "drops": 6, "hold": 53, "captures": 0, "prevent": 182, "returns": 10, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 46, "tags": 13, "pops": 7, "grabs": 5, "drops": 5, "hold": 22, "captures": 0, "prevent": 135, "returns": 11, "ndpops": 2, "nrtags": 2, "time_played": 10, "powerups": 7, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "score": 23, "tags": 8, "pops": 22, "grabs": 15, "drops": 15, "hold": 109, "captures": 0, "prevent": 22, "returns": 4, "ndpops": 7, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 215, "plus_minus": -2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "score": 38, "tags": 18, "pops": 8, "grabs": 5, "drops": 5, "hold": 29, "captures": 0, "prevent": 75, "returns": 9, "ndpops": 3, "nrtags": 9, "time_played": 10, "powerups": 5, "hold_against": 254, "plus_minus": 2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "score": 32, "tags": 5, "pops": 13, "grabs": 11, "drops": 10, "hold": 51, "captures": 1, "prevent": 13, "returns": 5, "ndpops": 3, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 254, "plus_minus": 2, "total_pups_in_game": 27} },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "score": 43, "tags": 17, "pops": 7, "grabs": 5, "drops": 5, "hold": 32, "captures": 0, "prevent": 108, "returns": 14, "ndpops": 2, "nrtags": 3, "time_played": 10, "powerups": 4, "hold_against": 254, "plus_minus": 2, "total_pups_in_game": 27} },
@@ -2064,12 +2064,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks", "team1_score": 4, "team2_score": 5,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 73, "tags": 8, "pops": 26, "grabs": 20, "drops": 16, "hold": 116, "captures": 3, "prevent": 34, "returns": 6, "ndpops": 10, "nrtags": 2, "time_played": 15, "powerups": 1, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 85, "tags": 18, "pops": 11, "grabs": 8, "drops": 8, "hold": 71, "captures": 0, "prevent": 245, "returns": 17, "ndpops": 3, "nrtags": 1, "time_played": 15, "powerups": 5, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 110, "tags": 20, "pops": 8, "grabs": 7, "drops": 6, "hold": 39, "captures": 1, "prevent": 200, "returns": 18, "ndpops": 2, "nrtags": 2, "time_played": 15, "powerups": 10, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "score": 79, "tags": 18, "pops": 28, "grabs": 21, "drops": 20, "hold": 167, "captures": 1, "prevent": 27, "returns": 11, "ndpops": 8, "nrtags": 7, "time_played": 15, "powerups": 6, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 73, "tags": 8, "pops": 26, "grabs": 20, "drops": 16, "hold": 116, "captures": 3, "prevent": 34, "returns": 6, "ndpops": 10, "nrtags": 2, "time_played": 15, "powerups": 1, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 85, "tags": 18, "pops": 11, "grabs": 8, "drops": 8, "hold": 71, "captures": 0, "prevent": 245, "returns": 17, "ndpops": 3, "nrtags": 1, "time_played": 15, "powerups": 5, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 110, "tags": 20, "pops": 8, "grabs": 7, "drops": 6, "hold": 39, "captures": 1, "prevent": 200, "returns": 18, "ndpops": 2, "nrtags": 2, "time_played": 15, "powerups": 10, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger", "stats": {"team": 2, "score": 79, "tags": 18, "pops": 28, "grabs": 21, "drops": 20, "hold": 167, "captures": 1, "prevent": 27, "returns": 11, "ndpops": 8, "nrtags": 7, "time_played": 15, "powerups": 6, "hold_against": 330, "plus_minus": 1, "total_pups_in_game": 39} },
             { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "score": 66, "tags": 21, "pops": 14, "grabs": 7, "drops": 7, "hold": 31, "captures": 0, "prevent": 120, "returns": 12, "ndpops": 7, "nrtags": 9, "time_played": 15, "powerups": 8, "hold_against": 393, "plus_minus": -1, "total_pups_in_game": 39} },
             { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "score": 59, "tags": 6, "pops": 21, "grabs": 20, "drops": 17, "hold": 108, "captures": 2, "prevent": 18, "returns": 6, "ndpops": 4, "nrtags": 0, "time_played": 15, "powerups": 3, "hold_against": 393, "plus_minus": -1, "total_pups_in_game": 39} },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "score": 64, "tags": 22, "pops": 18, "grabs": 11, "drops": 11, "hold": 50, "captures": 0, "prevent": 164, "returns": 19, "ndpops": 7, "nrtags": 3, "time_played": 15, "powerups": 4, "hold_against": 393, "plus_minus": -1, "total_pups_in_game": 39} },
@@ -2077,12 +2077,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks in 3D", "blue_team": "The Toronto Captors", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Origin Ducks", "blue_team": "The Toronto Captors", "team1_score": 6, "team2_score": 2,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 27, "tags": 12, "pops": 20, "grabs": 15, "drops": 15, "hold": 81, "captures": 0, "prevent": 30, "returns": 5, "ndpops": 5, "nrtags": 7, "time_played": 10, "powerups": 4, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 41, "tags": 20, "pops": 14, "grabs": 8, "drops": 8, "hold": 63, "captures": 0, "prevent": 118, "returns": 15, "ndpops": 6, "nrtags": 5, "time_played": 10, "powerups": 3, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 32, "tags": 13, "pops": 11, "grabs": 5, "drops": 5, "hold": 26, "captures": 0, "prevent": 151, "returns": 10, "ndpops": 6, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
-            { "team": "Origin Ducks in 3D", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 40, "tags": 10, "pops": 19, "grabs": 17, "drops": 15, "hold": 135, "captures": 2, "prevent": 30, "returns": 5, "ndpops": 4, "nrtags": 5, "time_played": 10, "powerups": 1, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 1, "score": 27, "tags": 12, "pops": 20, "grabs": 15, "drops": 15, "hold": 81, "captures": 0, "prevent": 30, "returns": 5, "ndpops": 5, "nrtags": 7, "time_played": 10, "powerups": 4, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 1, "score": 41, "tags": 20, "pops": 14, "grabs": 8, "drops": 8, "hold": 63, "captures": 0, "prevent": 118, "returns": 15, "ndpops": 6, "nrtags": 5, "time_played": 10, "powerups": 3, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 1, "score": 32, "tags": 13, "pops": 11, "grabs": 5, "drops": 5, "hold": 26, "captures": 0, "prevent": 151, "returns": 10, "ndpops": 6, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
+            { "team": "Origin Ducks", "player_season": "badger", "playing_as": "badger", "stats": {"team": 1, "score": 40, "tags": 10, "pops": 19, "grabs": 17, "drops": 15, "hold": 135, "captures": 2, "prevent": 30, "returns": 5, "ndpops": 4, "nrtags": 5, "time_played": 10, "powerups": 1, "hold_against": 281, "plus_minus": -4, "total_pups_in_game": 18} },
             { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "score": 34, "tags": 20, "pops": 13, "grabs": 3, "drops": 3, "hold": 2, "captures": 0, "prevent": 120, "returns": 13, "ndpops": 10, "nrtags": 7, "time_played": 10, "powerups": 2, "hold_against": 305, "plus_minus": 4, "total_pups_in_game": 18} },
             { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 2, "score": 47, "tags": 10, "pops": 13, "grabs": 13, "drops": 10, "hold": 116, "captures": 3, "prevent": 29, "returns": 8, "ndpops": 3, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 305, "plus_minus": 4, "total_pups_in_game": 18} },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 2, "score": 39, "tags": 13, "pops": 16, "grabs": 9, "drops": 8, "hold": 93, "captures": 1, "prevent": 126, "returns": 13, "ndpops": 8, "nrtags": 0, "time_played": 10, "powerups": 1, "hold_against": 305, "plus_minus": 4, "total_pups_in_game": 18} },
@@ -2090,12 +2090,12 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks in 3D", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": null, "game_in_match": "Game 2 Half 2", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Origin Ducks", "team1_score": 3, "team2_score": 2,
           "players": [
-            { "team": "Origin Ducks in 3D", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 49, "tags": 10, "pops": 17, "grabs": 13, "drops": 11, "hold": 97, "captures": 2, "prevent": 36, "returns": 7, "ndpops": 6, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
-            { "team": "Origin Ducks in 3D", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 35, "tags": 16, "pops": 16, "grabs": 5, "drops": 5, "hold": 27, "captures": 0, "prevent": 136, "returns": 8, "ndpops": 11, "nrtags": 8, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
-            { "team": "Origin Ducks in 3D", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 48, "tags": 15, "pops": 9, "grabs": 4, "drops": 4, "hold": 55, "captures": 0, "prevent": 161, "returns": 14, "ndpops": 5, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
-            { "team": "Origin Ducks in 3D", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 2, "score": 4, "tags": 1, "pops": 3, "grabs": 4, "drops": 3, "hold": 17, "captures": 0, "prevent": 4, "returns": 1, "ndpops": 0, "nrtags": 0, "time_played": 10, "powerups": 0, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
+            { "team": "Origin Ducks", "player_season": "Dank Sniper", "playing_as": "Dank Sniper", "stats": {"team": 2, "score": 49, "tags": 10, "pops": 17, "grabs": 13, "drops": 11, "hold": 97, "captures": 2, "prevent": 36, "returns": 7, "ndpops": 6, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
+            { "team": "Origin Ducks", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 35, "tags": 16, "pops": 16, "grabs": 5, "drops": 5, "hold": 27, "captures": 0, "prevent": 136, "returns": 8, "ndpops": 11, "nrtags": 8, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
+            { "team": "Origin Ducks", "player_season": "Eashy", "playing_as": "Eashy", "stats": {"team": 2, "score": 48, "tags": 15, "pops": 9, "grabs": 4, "drops": 4, "hold": 55, "captures": 0, "prevent": 161, "returns": 14, "ndpops": 5, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
+            { "team": "Origin Ducks", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"team": 2, "score": 4, "tags": 1, "pops": 3, "grabs": 4, "drops": 3, "hold": 17, "captures": 0, "prevent": 4, "returns": 1, "ndpops": 0, "nrtags": 0, "time_played": 10, "powerups": 0, "hold_against": 278, "plus_minus": -1, "total_pups_in_game": 16} },
             { "team": "The Toronto Captors", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 1, "score": 38, "tags": 22, "pops": 9, "grabs": 2, "drops": 2, "hold": 10, "captures": 0, "prevent": 127, "returns": 12, "ndpops": 7, "nrtags": 10, "time_played": 10, "powerups": 3, "hold_against": 196, "plus_minus": 1, "total_pups_in_game": 16} },
             { "team": "The Toronto Captors", "player_season": "Djinni", "playing_as": "Djinni", "stats": {"team": 1, "score": 28, "tags": 9, "pops": 20, "grabs": 18, "drops": 18, "hold": 159, "captures": 0, "prevent": 16, "returns": 7, "ndpops": 2, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 196, "plus_minus": 1, "total_pups_in_game": 16} },
             { "team": "The Toronto Captors", "player_season": "new to game", "playing_as": "new to game", "stats": {"team": 1, "score": 63, "tags": 10, "pops": 6, "grabs": 6, "drops": 3, "hold": 58, "captures": 3, "prevent": 150, "returns": 8, "ndpops": 3, "nrtags": 2, "time_played": 10, "powerups": 1, "hold_against": 196, "plus_minus": 1, "total_pups_in_game": 16} },

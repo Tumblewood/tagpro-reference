@@ -13,7 +13,7 @@
     { "season": "MLTP S14", "franchise": "Rollin' Golden Boulders", "name": "Rollin' Golden Boulders", "abbr": "RGB", "captain": "mudkip" },
     { "season": "MLTP S14", "franchise": "Someballian Pirates", "name": "Someballian Pirates", "abbr": "SBP", "captain": "Gem" },
     { "season": "MLTP S14", "franchise": "TC Jukes", "name": "TC Jukes", "abbr": "TCJ", "captain": "Ron Hextball" },
-    { "season": "MLTP S14", "franchise": "Tears", "name": "Tears", "abbr": "TRS", "captain": "yank" },
+    { "season": "MLTP S14", "franchise": "Tears for Spheres", "name": "Tears for Spheres", "abbr": "TRS", "captain": "yank" },
     { "season": "MLTP S14", "franchise": "The RePublicans", "name": "The RePublicans", "abbr": "REP", "captain": "eee" },
     { "season": "MLTP S14", "franchise": "Whitecaps", "name": "Whitecaps", "abbr": "WHC", "captain": "C Bivvey" }
   ],
@@ -111,10 +111,10 @@
     { "season": "MLTP S14", "team": "TC Jukes", "player": "Ty", "playing_as": "Ty" },
     { "season": "MLTP S14", "team": "TC Jukes", "player": "boogie", "playing_as": "boogie" },
     { "season": "MLTP S14", "team": "TC Jukes", "player": "side", "playing_as": "side" },
-    { "season": "MLTP S14", "team": "Tears", "player": "BigBird", "playing_as": "BigBird" },
-    { "season": "MLTP S14", "team": "Tears", "player": "GOOBR", "playing_as": "GOOBR" },
-    { "season": "MLTP S14", "team": "Tears", "player": "ccga's mom", "playing_as": "ccga's mom" },
-    { "season": "MLTP S14", "team": "Tears", "player": "yank", "playing_as": "yank" },
+    { "season": "MLTP S14", "team": "Tears for Spheres", "player": "BigBird", "playing_as": "BigBird" },
+    { "season": "MLTP S14", "team": "Tears for Spheres", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S14", "team": "Tears for Spheres", "player": "ccga's mom", "playing_as": "ccga's mom" },
+    { "season": "MLTP S14", "team": "Tears for Spheres", "player": "yank", "playing_as": "yank" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "Curry", "playing_as": "Curry" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "EndTheFed", "playing_as": "EndTheFed" },
     { "season": "MLTP S14", "team": "The RePublicans", "player": "Gman8181", "playing_as": "Gman8181" },
@@ -247,58 +247,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2017-11-12", "week": "Week 1", "team1": "Rollin' Golden Boulders", "team2": "Tears",
+      "season": "MLTP S14", "date": "2017-11-12", "week": "Week 1", "team1": "Rollin' Golden Boulders", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "1663782", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Tears", "blue_team": "Rollin' Golden Boulders", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "1663782", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Tears for Spheres", "blue_team": "Rollin' Golden Boulders", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Pnaoxt", "playing_as": "Pnaoxt" },
             { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1663800", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Rollin' Golden Boulders", "blue_team": "Tears", "team1_score": 4, "team2_score": 6,
+          "tagpro_eu": "1663800", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Rollin' Golden Boulders", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 6,
           "players": [
             { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Pnaoxt", "playing_as": "Pnaoxt" },
             { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1663815", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Rollin' Golden Boulders", "blue_team": "Tears", "team1_score": 8, "team2_score": 4,
+          "tagpro_eu": "1663815", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Rollin' Golden Boulders", "blue_team": "Tears for Spheres", "team1_score": 8, "team2_score": 4,
           "players": [
             { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Pnaoxt", "playing_as": "Pnaoxt" },
             { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1663825", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears", "blue_team": "Rollin' Golden Boulders", "team1_score": 5, "team2_score": 7,
+          "tagpro_eu": "1663825", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears for Spheres", "blue_team": "Rollin' Golden Boulders", "team1_score": 5, "team2_score": 7,
           "players": [
             { "team": "Rollin' Golden Boulders", "player_season": "Genesis", "playing_as": "Genesis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Rollin' Golden Boulders", "player_season": "Pnaoxt", "playing_as": "Pnaoxt" },
             { "team": "Rollin' Golden Boulders", "player_season": "felon fred", "playing_as": "felon fred" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -790,85 +790,85 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2017-11-19", "week": "Week 2", "team1": "Tears", "team2": "Centra of Attention",
+      "season": "MLTP S14", "date": "2017-11-19", "week": "Week 2", "team1": "Tears for Spheres", "team2": "Centra of Attention",
       "games": [
         {
-          "tagpro_eu": "1673472", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears", "blue_team": "Centra of Attention", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "1673472", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears for Spheres", "blue_team": "Centra of Attention", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1673490", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "Tears", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "1673490", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Centra of Attention", "blue_team": "Tears for Spheres", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Pandora", "playing_as": "Pandora" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1673505", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "Tears", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "1673505", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "Tears for Spheres", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1673518", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "1673518", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears for Spheres", "blue_team": "Centra of Attention", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1673528", "game_in_match": "Game 2 Overtime", "map_name": "Rush", "map_id": 627, "red_team": "Tears", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "1673528", "game_in_match": "Game 2 Overtime", "map_name": "Rush", "map_id": 627, "red_team": "Tears for Spheres", "blue_team": "Centra of Attention", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1673534", "game_in_match": "Game 2 Overtime 2", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "Tears", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "1673534", "game_in_match": "Game 2 Overtime 2", "map_name": "Rush", "map_id": 627, "red_team": "Centra of Attention", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Centra of Attention", "player_season": "Frozen", "playing_as": "Frozen" },
             { "team": "Centra of Attention", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Centra of Attention", "player_season": "WarriOrs", "playing_as": "WarriOrs" },
             { "team": "Centra of Attention", "player_season": "badger", "playing_as": "badger" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -1273,58 +1273,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2017-12-03", "week": "Week 3", "team1": "Tears", "team2": "877CAPSNOW",
+      "season": "MLTP S14", "date": "2017-12-03", "week": "Week 3", "team1": "Tears for Spheres", "team2": "877CAPSNOW",
       "games": [
         {
-          "tagpro_eu": "1690755", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "877CAPSNOW", "blue_team": "Tears", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "1690755", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "877CAPSNOW", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "877CAPSNOW", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
             { "team": "877CAPSNOW", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "877CAPSNOW", "player_season": "Mufro", "playing_as": "Mufro" },
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1690776", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears", "blue_team": "877CAPSNOW", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "1690776", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears for Spheres", "blue_team": "877CAPSNOW", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "877CAPSNOW", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
             { "team": "877CAPSNOW", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "877CAPSNOW", "player_season": "Mufro", "playing_as": "Mufro" },
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1690794", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Tears", "blue_team": "877CAPSNOW", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "1690794", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Tears for Spheres", "blue_team": "877CAPSNOW", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "877CAPSNOW", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
             { "team": "877CAPSNOW", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "877CAPSNOW", "player_season": "Mufro", "playing_as": "Mufro" },
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1690808", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "877CAPSNOW", "blue_team": "Tears", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "1690808", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "877CAPSNOW", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "877CAPSNOW", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
             { "team": "877CAPSNOW", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "877CAPSNOW", "player_season": "Mufro", "playing_as": "Mufro" },
             { "team": "877CAPSNOW", "player_season": "Weed", "playing_as": "Weed" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -1558,58 +1558,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2017-12-10", "week": "Week 4", "team1": "Ghostboosters", "team2": "Tears",
+      "season": "MLTP S14", "date": "2017-12-10", "week": "Week 4", "team1": "Ghostboosters", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "1700236", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Ghostboosters", "blue_team": "Tears", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "1700236", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Ghostboosters", "blue_team": "Tears for Spheres", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
             { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed" },
             { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho" },
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Tears", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 7,
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Tears for Spheres", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 7,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron", "stats": {"team": 2, "score": 36, "tags": 13, "pops": 13, "grabs": 12, "drops": 10, "hold": 80, "captures": 1, "prevent": 39, "returns": 5, "ndpops": 3, "nrtags": 8, "time_played": 10, "powerups": 6, "hold_against": 330, "plus_minus": -3, "total_pups_in_game": 27} },
             { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed", "stats": {"team": 2, "score": 53, "tags": 17, "pops": 10, "grabs": 9, "drops": 7, "hold": 87, "captures": 2, "prevent": 128, "returns": 13, "ndpops": 3, "nrtags": 4, "time_played": 10, "powerups": 6, "hold_against": 330, "plus_minus": -3, "total_pups_in_game": 27} },
             { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho", "stats": {"team": 2, "score": 37, "tags": 11, "pops": 16, "grabs": 10, "drops": 9, "hold": 28, "captures": 1, "prevent": 148, "returns": 10, "ndpops": 7, "nrtags": 1, "time_played": 10, "powerups": 2, "hold_against": 330, "plus_minus": -3, "total_pups_in_game": 27} },
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag", "stats": {"team": 2, "score": 21, "tags": 9, "pops": 18, "grabs": 15, "drops": 15, "hold": 92, "captures": 0, "prevent": 14, "returns": 8, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 330, "plus_minus": -3, "total_pups_in_game": 27} },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird", "stats": {"team": 1, "score": 35, "tags": 14, "pops": 12, "grabs": 7, "drops": 7, "hold": 37, "captures": 0, "prevent": 168, "returns": 14, "ndpops": 5, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"team": 1, "score": 45, "tags": 12, "pops": 14, "grabs": 16, "drops": 12, "hold": 135, "captures": 4, "prevent": 39, "returns": 8, "ndpops": 2, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom", "stats": {"team": 1, "score": 22, "tags": 10, "pops": 20, "grabs": 16, "drops": 14, "hold": 101, "captures": 1, "prevent": 23, "returns": 6, "ndpops": 6, "nrtags": 4, "time_played": 10, "powerups": 2, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank", "stats": {"team": 1, "score": 51, "tags": 17, "pops": 7, "grabs": 5, "drops": 3, "hold": 57, "captures": 2, "prevent": 147, "returns": 13, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 2, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird", "stats": {"team": 1, "score": 35, "tags": 14, "pops": 12, "grabs": 7, "drops": 7, "hold": 37, "captures": 0, "prevent": 168, "returns": 14, "ndpops": 5, "nrtags": 0, "time_played": 10, "powerups": 3, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR", "stats": {"team": 1, "score": 45, "tags": 12, "pops": 14, "grabs": 16, "drops": 12, "hold": 135, "captures": 4, "prevent": 39, "returns": 8, "ndpops": 2, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom", "stats": {"team": 1, "score": 22, "tags": 10, "pops": 20, "grabs": 16, "drops": 14, "hold": 101, "captures": 1, "prevent": 23, "returns": 6, "ndpops": 6, "nrtags": 4, "time_played": 10, "powerups": 2, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank", "stats": {"team": 1, "score": 51, "tags": 17, "pops": 7, "grabs": 5, "drops": 3, "hold": 57, "captures": 2, "prevent": 147, "returns": 13, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 2, "hold_against": 287, "plus_minus": 3, "total_pups_in_game": 27} }
           ]
         },
         {
-          "tagpro_eu": "1700268", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Ghostboosters", "blue_team": "Tears", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "1700268", "game_in_match": "Game 2 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Ghostboosters", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
             { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed" },
             { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho" },
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1700283", "game_in_match": "Game 2 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Tears", "blue_team": "Ghostboosters", "team1_score": 0, "team2_score": 5,
+          "tagpro_eu": "1700283", "game_in_match": "Game 2 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "Tears for Spheres", "blue_team": "Ghostboosters", "team1_score": 0, "team2_score": 5,
           "players": [
             { "team": "Ghostboosters", "player_season": "A-A-ron", "playing_as": "A-A-ron" },
             { "team": "Ghostboosters", "player_season": "EndTheFed", "playing_as": "EndTheFed" },
             { "team": "Ghostboosters", "player_season": "Sherrattinho", "playing_as": "Sherrattinho" },
             { "team": "Ghostboosters", "player_season": "protag", "playing_as": "protag" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -2260,15 +2260,15 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2017-12-17", "week": "Week 5", "team1": "The RePublicans", "team2": "Tears",
+      "season": "MLTP S14", "date": "2017-12-17", "week": "Week 5", "team1": "The RePublicans", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "1708882", "game_in_match": "Game 1 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Tears", "blue_team": "The RePublicans", "team1_score": 2, "team2_score": 9,
+          "tagpro_eu": "1708882", "game_in_match": "Game 1 Half 1", "map_name": "Cache", "map_id": 8534, "red_team": "Tears for Spheres", "blue_team": "The RePublicans", "team1_score": 2, "team2_score": 9,
           "players": [
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" },
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" },
             { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "The RePublicans", "player_season": "Gman8181", "playing_as": "Gman8181" },
             { "team": "The RePublicans", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL" },
@@ -2276,12 +2276,12 @@
           ]
         },
         {
-          "tagpro_eu": "1708909", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "The RePublicans", "blue_team": "Tears", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "1708909", "game_in_match": "Game 1 Half 2", "map_name": "Cache", "map_id": 8534, "red_team": "The RePublicans", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 1,
           "players": [
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" },
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" },
             { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "The RePublicans", "player_season": "Gman8181", "playing_as": "Gman8181" },
             { "team": "The RePublicans", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL" },
@@ -2289,12 +2289,12 @@
           ]
         },
         {
-          "tagpro_eu": "1708934", "game_in_match": "Game 2 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "The RePublicans", "blue_team": "Tears", "team1_score": 6, "team2_score": 8,
+          "tagpro_eu": "1708934", "game_in_match": "Game 2 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "The RePublicans", "blue_team": "Tears for Spheres", "team1_score": 6, "team2_score": 8,
           "players": [
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" },
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" },
             { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "The RePublicans", "player_season": "Gman8181", "playing_as": "Gman8181" },
             { "team": "The RePublicans", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL" },
@@ -2302,12 +2302,12 @@
           ]
         },
         {
-          "tagpro_eu": "1708951", "game_in_match": "Game 2 Half 2", "map_name": "gfy", "map_id": 8905, "red_team": "Tears", "blue_team": "The RePublicans", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "1708951", "game_in_match": "Game 2 Half 2", "map_name": "gfy", "map_id": 8905, "red_team": "Tears for Spheres", "blue_team": "The RePublicans", "team1_score": 2, "team2_score": 3,
           "players": [
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" },
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" },
             { "team": "The RePublicans", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "The RePublicans", "player_season": "Gman8181", "playing_as": "Gman8181" },
             { "team": "The RePublicans", "player_season": "PK SMURFBALL", "playing_as": "PK SMURFBALL" },
@@ -2856,112 +2856,112 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2018-01-11", "week": "Week 6", "team1": "Tears", "team2": "Red Hot Chili Poppers",
+      "season": "MLTP S14", "date": "2018-01-11", "week": "Week 6", "team1": "Tears for Spheres", "team2": "Red Hot Chili Poppers",
       "games": [
         {
-          "tagpro_eu": "1735226", "game_in_match": "Game 1 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "Tears", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "1735226", "game_in_match": "Game 1 Half 1", "map_name": "gfy", "map_id": 8905, "red_team": "Tears for Spheres", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735243", "game_in_match": "Game 1 Half 2", "map_name": "gfy", "map_id": 8905, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "1735243", "game_in_match": "Game 1 Half 2", "map_name": "gfy", "map_id": 8905, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735257", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "1735257", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735277", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "1735277", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "Red Hot Chili Poppers", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "Tantrew", "playing_as": "Tantrew" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735285", "game_in_match": "Game 2 Overtime", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "1735285", "game_in_match": "Game 2 Overtime", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735295", "game_in_match": "Game 2 Overtime 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 0,
+          "tagpro_eu": "1735295", "game_in_match": "Game 2 Overtime 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 0,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735301", "game_in_match": "Game 2 Overtime 3", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "1735301", "game_in_match": "Game 2 Overtime 3", "map_name": "Scorpio", "map_id": 2031, "red_team": "Red Hot Chili Poppers", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1735307", "game_in_match": "Game 2 Overtime 4", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "1735307", "game_in_match": "Game 2 Overtime 4", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Red Hot Chili Poppers", "player_season": "Misaki", "playing_as": "Misaki" },
             { "team": "Red Hot Chili Poppers", "player_season": "NEUhusky", "playing_as": "NEUhusky" },
             { "team": "Red Hot Chili Poppers", "player_season": "Pie Cat", "playing_as": "Pie Cat" },
             { "team": "Red Hot Chili Poppers", "player_season": "toasty.", "playing_as": "toasty." },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -3419,58 +3419,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2018-01-17", "week": "Week 7", "team1": "Tears", "team2": "London WASDs NA",
+      "season": "MLTP S14", "date": "2018-01-17", "week": "Week 7", "team1": "Tears for Spheres", "team2": "London WASDs NA",
       "games": [
         {
-          "tagpro_eu": "1742151", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "London WASDs NA", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "1742151", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "London WASDs NA", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1742163", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "London WASDs NA", "blue_team": "Tears", "team1_score": 9, "team2_score": 2,
+          "tagpro_eu": "1742163", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "London WASDs NA", "blue_team": "Tears for Spheres", "team1_score": 9, "team2_score": 2,
           "players": [
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1742175", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "London WASDs NA", "blue_team": "Tears", "team1_score": 3, "team2_score": 3,
+          "tagpro_eu": "1742175", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "London WASDs NA", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 3,
           "players": [
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1742189", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Tears", "blue_team": "London WASDs NA", "team1_score": 9, "team2_score": 0,
+          "tagpro_eu": "1742189", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Tears for Spheres", "blue_team": "London WASDs NA", "team1_score": 9, "team2_score": 0,
           "players": [
             { "team": "London WASDs NA", "player_season": "Arbybear", "playing_as": "Arbybear" },
             { "team": "London WASDs NA", "player_season": "Jump Ball", "playing_as": "Jump Ball" },
             { "team": "London WASDs NA", "player_season": "ZenWhisper", "playing_as": "ZenWhisper" },
             { "team": "London WASDs NA", "player_season": "moobear", "playing_as": "moobear" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -3903,58 +3903,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2018-01-23", "week": "Week 8", "team1": "Tears", "team2": "A Blockwork Orange",
+      "season": "MLTP S14", "date": "2018-01-23", "week": "Week 8", "team1": "Tears for Spheres", "team2": "A Blockwork Orange",
       "games": [
         {
-          "tagpro_eu": "1749526", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Tears", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 3,
+          "tagpro_eu": "1749526", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Tears for Spheres", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous" },
             { "team": "A Blockwork Orange", "player_season": "FLY", "playing_as": "FLY" },
             { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX" },
             { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1749543", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "A Blockwork Orange", "blue_team": "Tears", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "1749543", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "A Blockwork Orange", "blue_team": "Tears for Spheres", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous" },
             { "team": "A Blockwork Orange", "player_season": "FLY", "playing_as": "FLY" },
             { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX" },
             { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1749565", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "A Blockwork Orange", "blue_team": "Tears", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "1749565", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "A Blockwork Orange", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous" },
             { "team": "A Blockwork Orange", "player_season": "FLY", "playing_as": "FLY" },
             { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX" },
             { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1749582", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears", "blue_team": "A Blockwork Orange", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "1749582", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears for Spheres", "blue_team": "A Blockwork Orange", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Calamitous", "playing_as": "Calamitous" },
             { "team": "A Blockwork Orange", "player_season": "FLY", "playing_as": "FLY" },
             { "team": "A Blockwork Orange", "player_season": "MEX", "playing_as": "MEX" },
             { "team": "A Blockwork Orange", "player_season": "fuckthecrc", "playing_as": "fuckthecrc" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]
@@ -4412,58 +4412,58 @@
       ]
     },
     {
-      "season": "MLTP S14", "date": "2018-01-28", "week": "Week 9", "team1": "Tears", "team2": "A Developmental Lad",
+      "season": "MLTP S14", "date": "2018-01-28", "week": "Week 9", "team1": "Tears for Spheres", "team2": "A Developmental Lad",
       "games": [
         {
-          "tagpro_eu": "1755606", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears", "blue_team": "A Developmental Lad", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "1755606", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears for Spheres", "blue_team": "A Developmental Lad", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "A Developmental Lad", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH" },
             { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119" },
             { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1755626", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "A Developmental Lad", "blue_team": "Tears", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "1755626", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "A Developmental Lad", "blue_team": "Tears for Spheres", "team1_score": 6, "team2_score": 2,
           "players": [
             { "team": "A Developmental Lad", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH" },
             { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119" },
             { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1755647", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "A Developmental Lad", "blue_team": "Tears", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "1755647", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "A Developmental Lad", "blue_team": "Tears for Spheres", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "A Developmental Lad", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH" },
             { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119" },
             { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         },
         {
-          "tagpro_eu": "1755671", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tears", "blue_team": "A Developmental Lad", "team1_score": 6, "team2_score": 7,
+          "tagpro_eu": "1755671", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tears for Spheres", "blue_team": "A Developmental Lad", "team1_score": 6, "team2_score": 7,
           "players": [
             { "team": "A Developmental Lad", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Developmental Lad", "player_season": "MONSTAH", "playing_as": "MONSTAH" },
             { "team": "A Developmental Lad", "player_season": "Will1119", "playing_as": "Will1119" },
             { "team": "A Developmental Lad", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "Tears", "player_season": "BigBird", "playing_as": "BigBird" },
-            { "team": "Tears", "player_season": "GOOBR", "playing_as": "GOOBR" },
-            { "team": "Tears", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
-            { "team": "Tears", "player_season": "yank", "playing_as": "yank" }
+            { "team": "Tears for Spheres", "player_season": "BigBird", "playing_as": "BigBird" },
+            { "team": "Tears for Spheres", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Tears for Spheres", "player_season": "ccga's mom", "playing_as": "ccga's mom" },
+            { "team": "Tears for Spheres", "player_season": "yank", "playing_as": "yank" }
           ]
         }
       ]

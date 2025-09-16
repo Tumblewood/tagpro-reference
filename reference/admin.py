@@ -79,6 +79,7 @@ class SeasonAdmin(admin.ModelAdmin):
 
 class FranchiseAdmin(admin.ModelAdmin):
     search_fields = ['name', 'abbr']
+    list_display = ["name", "abbr"]
     actions = [add_logo_path]
     inlines = [TeamSeasonInline]
 
