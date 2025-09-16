@@ -1,0 +1,225 @@
+{% extends "reference/base.html" %}
+
+{% block title %}Edit Rosters - {{ season.name }} - TagPro Reference{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Edit Rosters - {{ season.name }}</h1>
+
+<!-- Management Forms -->
+<div class="form-section">
+    <div class="form-row">
+        <!-- Merge Player Seasons -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="merge_playerseasons">
+            <strong>Merge Player Seasons:</strong>
+            <select name="to_merge_playerseason" required>
+                <option value="">From (delete)...</option>
+                {% for ps in season_playerseasons %}
+                    <option value="{{ ps.id }}">{{ ps.playing_as }}</option>
+                {% endfor %}
+            </select>
+            <select name="target_playerseason" required>
+                <option value="">To (keep)...</option>
+                {% for ps in season_playerseasons %}
+                    <option value="{{ ps.id }}">{{ ps.playing_as }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Merge</button>
+        </form>
+
+        <!-- Rename Player Season -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="rename_playerseason">
+            <strong>Rename Player Season:</strong>
+            <select name="playerseason_id" required>
+                <option value="">Select player...</option>
+                {% for data in roster_data %}
+                    <option value="{{ data.playerseason.id }}">{{ data.playerseason.playing_as }}</option>
+                {% endfor %}
+            </select>
+            <input type="text" name="new_playing_as" placeholder="New name" required>
+            <button type="submit">Rename</button>
+        </form>
+
+        <!-- Change Team -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_team">
+            <strong>Change Team:</strong>
+            <select name="playerseason_id" required>
+                <option value="">Select player...</option>
+                {% for data in roster_data %}
+                    <option value="{{ data.playerseason.id }}">{{ data.playerseason.playing_as }}</option>
+                {% endfor %}
+            </select>
+            <select name="new_team_id">
+                <option value="">[unrostered]</option>
+                {% for team in teams %}
+                    <option value="{{ team.id }}">{{ team.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Change</button>
+        </form>
+    </div>
+    
+    <div class="form-row">
+        <!-- Merge Players -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="merge_players">
+            <strong>Merge Players:</strong>
+            <select name="to_merge_player" required>
+                <option value="">From (delete)...</option>
+                {% for player in all_players %}
+                    <option value="{{ player.id }}">{{ player.name }}</option>
+                {% endfor %}
+            </select>
+            <select name="target_player" required>
+                <option value="">To (keep)...</option>
+                {% for player in all_players %}
+                    <option value="{{ player.id }}">{{ player.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Merge</button>
+        </form>
+
+        <!-- Rename Player -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="rename_player">
+            <strong>Rename Player:</strong>
+            <select name="player_id" required>
+                <option value="">Select player...</option>
+                {% for player in all_players %}
+                    <option value="{{ player.id }}">{{ player.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="text" name="new_player_name" placeholder="New name" required>
+            <button type="submit">Rename</button>
+        </form>
+        
+        <!-- Change Position -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_position">
+            <strong>Change Position:</strong>
+            <select name="playerseason_id" required>
+                <option value="">Select player...</option>
+                {% for data in roster_data %}
+                    <option value="{{ data.playerseason.id }}">{{ data.playerseason.playing_as }}</option>
+                {% endfor %}
+            </select>
+            <select name="new_position" required>
+                {% for choice in position_choices %}
+                    <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Change</button>
+        </form>
+    </div>
+</div>
+
+<!-- Roster Table -->
+<div class="roster-table-container">
+    <table class="roster-table" style="width: 100%; font-size: 0.9rem;">
+        <thead>
+            <tr>
+                <th>Player Season Name</th>
+                <th>Player Name</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>Minutes</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in roster_data %}
+            <tr>
+                <td>{{ data.playerseason.playing_as }}</td>
+                <td><a href="{% url 'player_history' data.playerseason.player.id %}">{{ data.playerseason.player.name }}</a></td>
+                <td>
+                    {% if data.playerseason.team %}
+                        <a href="{% url 'team_season' data.playerseason.team.id %}">{{ data.playerseason.team.name }}</a>
+                    {% else %}
+                        &mdash;
+                    {% endif %}
+                </td>
+                <td>{{ data.playerseason.get_position_display }}</td>
+                <td>{{ data.minutes }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<style>
+.form-section {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 5px;
+}
+
+.form-col {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.form-col select, .form-col input {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.form-col button {
+    background-color: #007cba;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.form-col button:hover {
+    background-color: #005a87;
+}
+
+.roster-table {
+    border-collapse: collapse;
+}
+
+.roster-table th, .roster-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.roster-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.roster-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.roster-table tbody tr:hover {
+    background: #e6f3ff;
+}
+</style>
+
+{% endblock %}

@@ -9,6 +9,7 @@ from django.contrib import messages
 from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
 from reference.utils.stat_collection import update_standings
+from reference.utils.data_correction import merge_players, merge_player_seasons
 from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, League, Franchise
 
 
@@ -930,3 +931,128 @@ def import_from_json(request):
         except Exception as e:
             messages.error(request, f"Error importing JSON: {str(e)}")
             return render(request, 'reference/import_json.html')
+
+
+@staff_member_required
+def edit_rosters(request, season_id):
+    """Edit rosters view with player and playerseason management forms."""
+    season = get_object_or_404(Season, id=season_id)
+    
+    # Handle form submissions
+    if request.method == "POST":
+        action = request.POST.get("action")
+        
+        if action == "merge_players":
+            try:
+                to_merge_id = request.POST.get("to_merge_player")
+                target_id = request.POST.get("target_player")
+                to_merge = Player.objects.get(id=to_merge_id)
+                target = Player.objects.get(id=target_id)
+                merge_players(to_merge, target)
+                messages.success(request, f"Successfully merged {to_merge.name} into {target.name}")
+            except Exception as e:
+                messages.error(request, f"Error merging players: {str(e)}")
+                
+        elif action == "merge_playerseasons":
+            try:
+                to_merge_id = request.POST.get("to_merge_playerseason")
+                target_id = request.POST.get("target_playerseason")
+                to_merge = PlayerSeason.objects.get(id=to_merge_id)
+                target = PlayerSeason.objects.get(id=target_id)
+                merge_player_seasons(to_merge, target)
+                messages.success(request, f"Successfully merged {to_merge} into {target}")
+            except Exception as e:
+                messages.error(request, f"Error merging player seasons: {str(e)}")
+                
+        elif action == "change_team":
+            try:
+                playerseason_id = request.POST.get("playerseason_id")
+                new_team_id = request.POST.get("new_team_id") or None
+                playerseason = PlayerSeason.objects.get(id=playerseason_id)
+                old_team = playerseason.team
+                
+                if new_team_id:
+                    new_team = TeamSeason.objects.get(id=new_team_id)
+                    playerseason.team = new_team
+                else:
+                    new_team = None
+                    playerseason.team = None
+                    
+                playerseason.save()
+                old_team_name = old_team.name if old_team else "Unrostered"
+                new_team_name = new_team.name if new_team else "Unrostered"
+                messages.success(request, f"Changed {playerseason.playing_as} team from {old_team_name} to {new_team_name}")
+            except Exception as e:
+                messages.error(request, f"Error changing team: {str(e)}")
+                
+        elif action == "change_position":
+            try:
+                playerseason_id = request.POST.get("playerseason_id")
+                new_position = request.POST.get("new_position")
+                playerseason = PlayerSeason.objects.get(id=playerseason_id)
+                old_position = playerseason.position
+                playerseason.position = new_position
+                playerseason.save()
+                messages.success(request, f"Changed {playerseason.playing_as} position from {old_position} to {new_position}")
+            except Exception as e:
+                messages.error(request, f"Error changing position: {str(e)}")
+                
+        elif action == "rename_playerseason":
+            try:
+                playerseason_id = request.POST.get("playerseason_id")
+                new_name = request.POST.get("new_playing_as")
+                playerseason = PlayerSeason.objects.get(id=playerseason_id)
+                old_name = playerseason.playing_as
+                playerseason.playing_as = new_name
+                playerseason.save()
+                messages.success(request, f"Renamed player season from {old_name} to {new_name}")
+            except Exception as e:
+                messages.error(request, f"Error renaming player season: {str(e)}")
+                
+        elif action == "rename_player":
+            try:
+                player_id = request.POST.get("player_id")
+                new_name = request.POST.get("new_player_name")
+                player = Player.objects.get(id=player_id)
+                old_name = player.name
+                player.name = new_name
+                player.save()
+                messages.success(request, f"Renamed player from {old_name} to {new_name}")
+            except Exception as e:
+                messages.error(request, f"Error renaming player: {str(e)}")
+        
+        return redirect("edit_rosters", season_id=season.id)
+    
+    # Get all player seasons with stats for display
+    player_seasons = PlayerSeason.objects.filter(season=season).select_related(
+        "player", "team"
+    ).order_by("team__name", "player__name")
+    
+    # Get aggregated stats for minutes played
+    stats = aggregate_player_stats(season=season)
+    stats_dict = {stat["player_season"].id: stat for stat in stats}
+    
+    # Prepare roster data
+    roster_data = []
+    for ps in player_seasons:
+        stat = stats_dict.get(ps.id, {})
+        roster_data.append({
+            "playerseason": ps,
+            "minutes": stat.get("time_played_min", 0),
+        })
+    
+    # Get all teams for dropdowns
+    teams = TeamSeason.objects.filter(season=season).order_by("name")
+    
+    # Get all players and playerseasons for merge dropdowns
+    all_players = Player.objects.all().order_by("name")
+    season_playerseasons = PlayerSeason.objects.filter(season=season).select_related("player").order_by("playing_as")
+    
+    return render(request, "reference/edit_rosters.html", {
+        "season": season,
+        "roster_data": roster_data,
+        "teams": teams,
+        "all_players": all_players,
+        "season_playerseasons": season_playerseasons,
+        "position_choices": PlayerSeason._meta.get_field("position").choices,
+    })

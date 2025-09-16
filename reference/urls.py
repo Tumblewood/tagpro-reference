@@ -16,4 +16,5 @@ urlpatterns = [
     path('import/eu/', views.import_from_eus, name='import_data'),
     path('import/preprocess/', views.preprocess_eu_links, name='preprocess_eu_links'),
     path('import/json/', views.import_from_json, name='import_from_json'),
+    path('edit/rosters/<int:season_id>/', views.edit_rosters, name='edit_rosters'),
 ]
