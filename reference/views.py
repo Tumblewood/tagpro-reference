@@ -474,9 +474,8 @@ def team_season(req, team_id):
     # Get roster
     players = team.players.all().order_by('player__name')
     
-    # Get player season stats for this team using aggregate_player_stats
-    team_player_stats = aggregate_player_stats(season=season)
-    team_stats = [stat for stat in team_player_stats if stat['team'] == team]
+    # Get player stats
+    player_stats = aggregate_player_stats(season=season, franchise=team.franchise)
     
     # Get schedule data
     matches = Match.objects.filter(
@@ -510,7 +509,7 @@ def team_season(req, team_id):
         'playoff_finish': playoff_finish,
         'record': record,
         'players': players,
-        'team_stats': team_stats,
+        'team_stats': player_stats,
         'schedule_data': schedule_data,
     })
 

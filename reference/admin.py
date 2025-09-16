@@ -19,29 +19,19 @@ def reprocess(modeladmin, request, queryset):
 def reaggregate_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
-        # Update season standings
         stat_collection.update_standings(season)
-        
-        # Infer playoff series
-        infer_playoff_series(season)
+        stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Re-process stats for the season")
 def reprocess_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
-        # Get all games for this season
         games = Game.objects.filter(match__season=season)
-        
-        # Re-aggregate each game
         for game in games:
             stat_collection.process_game_stats(game)
-        
-        # Update season standings
         stat_collection.update_standings(season)
-        
-        # Infer playoff series
-        infer_playoff_series(season)
+        stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Add logo path")
