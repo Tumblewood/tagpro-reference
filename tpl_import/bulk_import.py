@@ -158,6 +158,120 @@ def rename_stats(stats: Dict[str, int]) -> Dict[str, int]:
     return stats
 
 
+def group_matches_by_date(matches: List[Dict], season_name: str) -> List[Dict]:
+    """Group matches played between same teams on same date and handle NLTP S10 week renaming."""
+    # Group matches played between same teams on same date
+    grouped_matches = {}
+    for match in matches:
+        # Create a key for grouping: team1, team2, date (normalize team order)
+        team1, team2 = sorted([match['team1'], match['team2']])
+        match_key = f"{team1}_{team2}_{match['date']}"
+        
+        if match_key not in grouped_matches:
+            grouped_matches[match_key] = []
+        grouped_matches[match_key].append(match)
+    
+    # Process grouped matches
+    new_matches = []
+    for match_group in grouped_matches.values():
+        if len(match_group) == 1:
+            # Single match, no grouping needed
+            new_matches.append(match_group[0])
+        else:
+            # Multiple matches on same date - group them
+            # Sort by week (extract number) then by original match order
+            def week_sort_key(m):
+                week_str = m['week']
+                if 'Week' in week_str:
+                    try:
+                        return int(week_str.split()[1])
+                    except:
+                        return 999
+                return 999
+            
+            match_group.sort(key=week_sort_key)
+            
+            # Use the earliest match as the base
+            base_match = match_group[0].copy()
+            all_games = []
+            
+            # Collect all games from all matches
+            for match in match_group:
+                for game in match['games']:
+                    game['original_week'] = week_sort_key(match)
+                    all_games.append(game)
+            
+            # Sort games by original week, then by game name
+            def game_sort_key(g):
+                week_num = g['original_week']
+                game_name = g['game_in_match']
+                # Extract game and half numbers for proper sorting
+                try:
+                    if 'Game' in game_name and 'Half' in game_name:
+                        parts = game_name.split()
+                        game_num = int(parts[1])
+                        half_num = int(parts[3])
+                        return (week_num, game_num, half_num)
+                    elif 'Game' in game_name:
+                        game_num = int(game_name.split()[1])
+                        return (week_num, game_num, 1)
+                    else:
+                        return (week_num, 999, 999)
+                except:
+                    return (week_num, 999, 999)
+            
+            all_games.sort(key=game_sort_key)
+            
+            # Rename games sequentially
+            current_game_num = 1
+            half_num = 1
+            
+            for i, game in enumerate(all_games):
+                original_name = game['game_in_match']
+                
+                if 'Overtime' in original_name:
+                    # Overtime games keep the same game number as previous game
+                    if 'Overtime 2' in original_name or 'Overtime 3' in original_name or 'Overtime 4' in original_name:
+                        # Multiple overtimes - extract the overtime number
+                        ot_parts = original_name.split()
+                        if len(ot_parts) >= 2 and ot_parts[-1].isdigit():
+                            ot_num = ot_parts[-1]
+                            game['game_in_match'] = f"Game {current_game_num} Overtime {ot_num}"
+                        else:
+                            game['game_in_match'] = f"Game {current_game_num} Overtime"
+                    else:
+                        game['game_in_match'] = f"Game {current_game_num} Overtime"
+                else:
+                    # Regular game
+                    if half_num > 2:
+                        # We've finished a game (after Half 1, Half 2, potentially overtimes)
+                        current_game_num += 1
+                        half_num = 1
+                    
+                    game['game_in_match'] = f"Game {current_game_num} Half {half_num}"
+                    half_num += 1
+                
+                # Remove the temporary sorting field
+                del game['original_week']
+            
+            base_match['games'] = all_games
+            new_matches.append(base_match)
+    
+    # Handle NLTP S10 week renaming
+    if season_name in ["NLTP S10", "NLTP B S10"]:
+        for match in new_matches:
+            week_str = match['week']
+            if 'Week' in week_str:
+                try:
+                    week_num = int(week_str.split()[1])
+                    new_week_num = (week_num + 2) // 3
+                    match['week'] = f"Week {new_week_num}"
+                except:
+                    pass
+    
+    return new_matches
+
+
 def do_player_first_pass(g: Dict[str, Any], capitalization: Dict[str, Dict[str, int]], player_teams: Dict[str, Dict[str, int]]):
     m: Optional[tagpro_eu.Match] = match_from_links(g)
     if "stats" not in g:
@@ -357,7 +471,7 @@ for season_name in seasons:
                     players[player_season_name]['team'] = t1_maps_to if p_is_red == t1_is_red else t2_maps_to
 
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
-            has_halves = any([g2['half'] != "Half 1" for g2 in games])
+            has_halves = any([g2['half'] == "Half 2" for g2 in games])
             if m:
                 team1_score = m.team_red.score if t1_is_red else m.team_blue.score
                 team2_score = m.team_red.score if not t1_is_red else m.team_blue.score
@@ -389,6 +503,9 @@ for season_name in seasons:
         'playerSeasons': sorted([p for p in players.values()], key=lambda p: (p['team'] or "", p['player'])),
         'matches': matches
     }
+    
+    # Group matches by date and handle special week renaming
+    final_object['matches'] = group_matches_by_date(final_object['matches'], season_name)
     if season_name.startswith("mLTP"):
         season_name = "Minors " + season_name.split(" ")[1]
     season_name = season_name.lower().replace(" ", "_")
