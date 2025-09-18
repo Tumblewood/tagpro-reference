@@ -20,7 +20,7 @@ def reaggregate_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
         stat_collection.update_standings(season)
-        stat_collection.infer_playoff_series(season)
+        # stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Re-process stats for the season")
@@ -31,7 +31,7 @@ def reprocess_season(modeladmin, request, queryset):
         for game in games:
             stat_collection.process_game_stats(game)
         stat_collection.update_standings(season)
-        stat_collection.infer_playoff_series(season)
+        # stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Add logo path")
