@@ -1050,6 +1050,7 @@ def edit_rosters(request, season_id):
     
     return render(request, "reference/edit_rosters.html", {
         "season": season,
+        "all_seasons": Season.objects.all().order_by("-id"),
         "roster_data": roster_data,
         "teams": teams,
         "all_players": all_players,

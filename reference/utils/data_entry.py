@@ -540,6 +540,7 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         player_seasons_cache[f"{season.name}_{ps_data['playing_as']}"] = player_season
     
     # Process matches and games
+    last_valid_date = None
     for match_data in json_data.get('matches', []):
         season = seasons_cache.get(match_data['season'])
         if not season:
@@ -549,13 +550,24 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         team2 = team_seasons_cache.get(f"{season.name}_{match_data['team2']}")
         if not team1 or not team2:
             continue
+        
+        # Handle empty date by using the most recently imported match date
+        match_date = match_data['date']
+        if not match_date or match_date == "":
+            if last_valid_date:
+                match_date = last_valid_date
+            else:
+                # Skip this match if no valid date and no previous date to use
+                continue
+        else:
+            last_valid_date = match_date
             
         # Get or create match
         match, _ = Match.objects.get_or_create(
             season=season,
             team1=team1,
             team2=team2,
-            date=match_data['date'],
+            date=match_date,
             defaults={'week': match_data['week']}
         )
 
@@ -563,6 +575,10 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         
         # Process games in this match
         for game_data in match_data['games']:
+            # Skip games with no players
+            if not game_data.get('players') or len(game_data['players']) == 0:
+                continue
+                
             game_in_match += 1
             red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
             blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
