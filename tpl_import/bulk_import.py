@@ -421,7 +421,7 @@ for season_name in seasons:
                     'team2': t2_maps_to,
                     'games': []
                 }
-            elif m is not None and match_object['date'] == "0000-00-00":
+            elif m is not None and match_object['date'] in ["0000-00-00", ""]:
                 # If the 1st game in the match can't be parsed, the schedule might have the date 0000-00-00
                 # so replace it when we get a parseable match
                 match_object['date'] = (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d")

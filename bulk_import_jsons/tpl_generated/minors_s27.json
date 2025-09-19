@@ -955,7 +955,7 @@
       ]
     },
     {
-      "season": "mLTP S27", "date": "", "week": "Week 2", "team1": "PupStonks", "team2": "Young Hotties",
+      "season": "mLTP S27", "date": "2022-05-09", "week": "Week 2", "team1": "PupStonks", "team2": "Young Hotties",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "PupStonks", "blue_team": "Young Hotties", "team1_score": 0, "team2_score": 11,
@@ -1378,7 +1378,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Microphone Hunt", "team2": "Young Hotties",
       "games": [
         {
-          "tagpro_eu": "3195793", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3195793", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham" },
             { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy" },
@@ -1391,7 +1391,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195818", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Young Hotties", "blue_team": "Microphone Hunt", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3195818", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Young Hotties", "blue_team": "Microphone Hunt", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham" },
             { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy" },
@@ -1404,20 +1404,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 3, "team2_score": 11, "second_eu": "3195853", "switch_time": 600,
+          "tagpro_eu": "3195839", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham", "stats": {"score": 61, "team": 1, "prevent": 248, "returns": 22, "tags": 23, "grabs": 14, "pops": 22, "drops": 14, "hold": 47, "ndpops": 8, "gohandoff": 2, "flaccids": 8, "nrtags": 1, "time_played": 20, "powerups": 5, "hold_against": 651, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 9, "returns_in_base": 7, "handoffs": 3, "good_handoffs": 1, "grabs_off_regrab": 3} },
-            { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy", "stats": {"score": 69, "team": 1, "tags": 26, "returns": 20, "grabs": 28, "pops": 35, "drops": 25, "hold": 184, "prevent": 47, "ndpops": 10, "captures": 3, "flaccids": 8, "gohandoff": 4, "saves": 1, "nrtags": 6, "time_played": 20, "powerups": 3, "hold_against": 651, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 4, "handoffs": 10, "good_handoffs": 5, "grabs_off_regrab": 4, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Microphone Hunt", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"score": 34, "team": 1, "grabs": 32, "pops": 40, "drops": 31, "hold": 136, "prevent": 47, "returns": 15, "tags": 21, "ndpops": 9, "flaccids": 11, "nrtags": 6, "gohandoff": 1, "time_played": 20, "powerups": 4, "hold_against": 651, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 3, "handoffs": 8, "good_handoffs": 6, "grabs_off_regrab": 12} },
-            { "team": "Microphone Hunt", "player_season": "St. Bernard", "playing_as": "St. Bernard", "stats": {"score": 47, "team": 1, "prevent": 214, "grabs": 13, "pops": 20, "drops": 13, "hold": 150, "returns": 17, "tags": 19, "ndpops": 7, "gohandoff": 1, "flaccids": 4, "nrtags": 2, "time_played": 20, "powerups": 1, "hold_against": 651, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 4, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 3, "long_holds": 3} },
-            { "team": "Young Hotties", "player_season": "Bluefoot", "playing_as": "Bluefoot", "stats": {"score": 107, "team": 2, "prevent": 371, "returns": 28, "tags": 37, "grabs": 12, "pops": 15, "drops": 9, "hold": 93, "captures": 3, "ndpops": 6, "gohandoff": 3, "flaccids": 3, "nrtags": 9, "time_played": 20, "powerups": 3, "hold_against": 517, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 13, "returns_in_base": 18, "key_returns": 1, "handoffs": 6, "good_handoffs": 3, "grabs_off_regrab": 5, "caps_off_regrab": 3, "long_holds": 1} },
-            { "team": "Young Hotties", "player_season": "HYPE", "playing_as": "HYPE", "stats": {"score": 96, "team": 2, "prevent": 355, "returns": 22, "tags": 30, "grabs": 9, "pops": 13, "drops": 8, "hold": 55, "ndpops": 5, "gohandoff": 1, "flaccids": 3, "nrtags": 8, "captures": 1, "time_played": 20, "powerups": 5, "hold_against": 517, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 12, "key_returns": 1, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 1} },
-            { "team": "Young Hotties", "player_season": "Overkill", "playing_as": "Overkill", "stats": {"score": 100, "team": 2, "ndpops": 2, "pops": 29, "grabs": 32, "drops": 27, "hold": 238, "returns": 16, "tags": 23, "prevent": 81, "captures": 5, "saves": 2, "flaccids": 10, "nrtags": 7, "gohandoff": 2, "time_played": 20, "powerups": 7, "hold_against": 517, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 2, "key_returns": 2, "handoffs": 8, "good_handoffs": 5, "grabs_off_regrab": 11, "caps_off_regrab": 3, "long_holds": 3} },
-            { "team": "Young Hotties", "player_season": "hz", "playing_as": "hz", "stats": {"score": 87, "team": 2, "grabs": 32, "pops": 33, "drops": 30, "hold": 265, "prevent": 127, "returns": 17, "tags": 26, "captures": 2, "ndpops": 3, "flaccids": 7, "gohandoff": 1, "nrtags": 9, "time_played": 20, "powerups": 8, "hold_against": 517, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 7, "key_returns": 2, "handoffs": 8, "good_handoffs": 5, "grabs_off_regrab": 8, "long_holds": 3} }
+            { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham" },
+            { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "Microphone Hunt", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hunt", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Young Hotties", "player_season": "Bluefoot", "playing_as": "Bluefoot" },
+            { "team": "Young Hotties", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Young Hotties", "player_season": "Overkill", "playing_as": "Overkill" },
+            { "team": "Young Hotties", "player_season": "hz", "playing_as": "hz" }
           ]
         },
         {
-          "tagpro_eu": "3195869", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3195853", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Young Hotties", "blue_team": "Microphone Hunt", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham" },
+            { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy" },
+            { "team": "Microphone Hunt", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "Microphone Hunt", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Young Hotties", "player_season": "Bluefoot", "playing_as": "Bluefoot" },
+            { "team": "Young Hotties", "player_season": "HYPE", "playing_as": "HYPE" },
+            { "team": "Young Hotties", "player_season": "Overkill", "playing_as": "Overkill" },
+            { "team": "Young Hotties", "player_season": "hz", "playing_as": "hz" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195869", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Microphone Hunt", "blue_team": "Young Hotties", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Microphone Hunt", "player_season": "Haytham", "playing_as": "Haytham" },
             { "team": "Microphone Hunt", "player_season": "Killjoy", "playing_as": "Killjoy" },
@@ -1435,7 +1448,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "ThunderCaps", "team2": "PupStonks",
       "games": [
         {
-          "tagpro_eu": "3195710", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 4, "team2_score": 0,
+          "tagpro_eu": "3195710", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 4, "team2_score": 0,
           "players": [
             { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)" },
@@ -1448,7 +1461,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195729", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "PupStonks", "blue_team": "ThunderCaps", "team1_score": 7, "team2_score": 2,
+          "tagpro_eu": "3195729", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "PupStonks", "blue_team": "ThunderCaps", "team1_score": 7, "team2_score": 2,
           "players": [
             { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)" },
@@ -1461,20 +1474,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 10, "team2_score": 9, "second_eu": "3195786", "switch_time": 600,
+          "tagpro_eu": "3195757", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 8, "team2_score": 7,
           "players": [
-            { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony", "stats": {"score": 78, "team": 2, "grabs": 42, "pops": 41, "drops": 37, "hold": 251, "returns": 16, "tags": 19, "prevent": 49, "captures": 4, "ndpops": 4, "flaccids": 10, "gohandoff": 2, "saves": 1, "nrtags": 3, "time_played": 20, "powerups": 3, "hold_against": 647, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 2, "key_returns": 1, "handoffs": 15, "good_handoffs": 11, "grabs_off_regrab": 11, "caps_off_regrab": 1, "long_holds": 3} },
-            { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)", "stats": {"score": 59, "team": 2, "grabs": 28, "captures": 3, "hold": 159, "prevent": 69, "returns": 18, "tags": 24, "pops": 28, "drops": 25, "ndpops": 3, "flaccids": 6, "gohandoff": 1, "nrtags": 6, "time_played": 20, "powerups": 4, "hold_against": 647, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 6, "handoffs": 9, "good_handoffs": 5, "grabs_off_regrab": 5, "caps_off_regrab": 1} },
-            { "team": "PupStonks", "player_season": "UNIT-01", "playing_as": "UNIT-01", "stats": {"score": 64, "team": 2, "prevent": 237, "grabs": 15, "pops": 20, "drops": 14, "hold": 74, "returns": 24, "tags": 26, "captures": 1, "ndpops": 6, "flaccids": 5, "gohandoff": 2, "cohandoff": 1, "nrtags": 2, "time_played": 20, "powerups": 6, "hold_against": 647, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 13, "handoffs": 8, "good_handoffs": 3, "grabs_off_regrab": 7} },
-            { "team": "PupStonks", "player_season": "Zoomie", "playing_as": "Zoomie", "stats": {"score": 63, "team": 2, "prevent": 228, "returns": 26, "tags": 32, "grabs": 18, "pops": 21, "drops": 17, "hold": 105, "ndpops": 4, "captures": 1, "gohandoff": 3, "nrtags": 6, "flaccids": 4, "time_played": 20, "powerups": 4, "hold_against": 647, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 13, "key_returns": 4, "handoffs": 7, "good_handoffs": 5, "grabs_off_regrab": 7, "caps_off_regrab": 1} },
-            { "team": "ThunderCaps", "player_season": "Acuraun", "playing_as": "Acuraun", "stats": {"score": 89, "team": 1, "prevent": 320, "grabs": 10, "pops": 15, "drops": 9, "hold": 77, "returns": 24, "tags": 29, "ndpops": 6, "flaccids": 2, "nrtags": 5, "captures": 1, "gohandoff": 1, "cohandoff": 1, "time_played": 20, "powerups": 4, "hold_against": 589, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 9, "key_returns": 1, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 2, "long_holds": 1} },
-            { "team": "ThunderCaps", "player_season": "DiNgBaT", "playing_as": "DiNgBaT", "stats": {"score": 98, "team": 1, "prevent": 339, "returns": 45, "tags": 46, "grabs": 15, "pops": 22, "drops": 15, "hold": 84, "ndpops": 7, "saves": 2, "flaccids": 5, "gohandoff": 1, "nrtags": 1, "time_played": 20, "powerups": 7, "hold_against": 589, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 18, "returns_in_base": 18, "key_returns": 1, "handoffs": 7, "good_handoffs": 4, "grabs_off_regrab": 4} },
-            { "team": "ThunderCaps", "player_season": "jazzz", "playing_as": "jazzz", "stats": {"score": 71, "team": 1, "grabs": 32, "pops": 32, "drops": 29, "hold": 147, "returns": 15, "tags": 17, "captures": 3, "prevent": 114, "flaccids": 14, "gohandoff": 1, "nrtags": 2, "ndpops": 3, "saves": 1, "time_played": 20, "powerups": 5, "hold_against": 589, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 1, "returns_in_base": 4, "handoffs": 7, "good_handoffs": 3, "grabs_off_regrab": 6} },
-            { "team": "ThunderCaps", "player_season": "spacetiger", "playing_as": "spacetiger", "stats": {"score": 80, "team": 1, "grabs": 39, "captures": 6, "hold": 339, "prevent": 54, "pops": 34, "drops": 32, "returns": 7, "tags": 13, "gohandoff": 3, "flaccids": 6, "cohandoff": 1, "nrtags": 6, "ndpops": 2, "time_played": 20, "powerups": 3, "hold_against": 589, "plus_minus": 1, "total_pups_in_game": 36, "returns_in_base": 1, "key_returns": 1, "handoffs": 10, "good_handoffs": 7, "grabs_off_regrab": 12, "caps_off_regrab": 3, "long_holds": 4} }
+            { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)" },
+            { "team": "PupStonks", "player_season": "UNIT-01", "playing_as": "UNIT-01" },
+            { "team": "PupStonks", "player_season": "Zoomie", "playing_as": "Zoomie" },
+            { "team": "ThunderCaps", "player_season": "Acuraun", "playing_as": "Acuraun" },
+            { "team": "ThunderCaps", "player_season": "DiNgBaT", "playing_as": "DiNgBaT" },
+            { "team": "ThunderCaps", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "ThunderCaps", "player_season": "spacetiger", "playing_as": "spacetiger" }
           ]
         },
         {
-          "tagpro_eu": "3195807", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3195786", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "PupStonks", "blue_team": "ThunderCaps", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony" },
+            { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)" },
+            { "team": "PupStonks", "player_season": "UNIT-01", "playing_as": "UNIT-01" },
+            { "team": "PupStonks", "player_season": "Zoomie", "playing_as": "Zoomie" },
+            { "team": "ThunderCaps", "player_season": "Acuraun", "playing_as": "Acuraun" },
+            { "team": "ThunderCaps", "player_season": "DiNgBaT", "playing_as": "DiNgBaT" },
+            { "team": "ThunderCaps", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "ThunderCaps", "player_season": "spacetiger", "playing_as": "spacetiger" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195807", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "ThunderCaps", "blue_team": "PupStonks", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "PupStonks", "player_season": "Irony", "playing_as": "Irony" },
             { "team": "PupStonks", "player_season": "Mr awesome:)", "playing_as": "Mr awesome:)" },
@@ -1492,7 +1518,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Centra Limit Theorem", "team2": "Jack in the Blocks",
       "games": [
         {
-          "tagpro_eu": "3195752", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "3195752", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13" },
             { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE" },
@@ -1505,7 +1531,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195770", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Jack in the Blocks", "blue_team": "Centra Limit Theorem", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "3195770", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Jack in the Blocks", "blue_team": "Centra Limit Theorem", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13" },
             { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE" },
@@ -1518,20 +1544,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 11, "team2_score": 10, "second_eu": "3195811", "switch_time": 600,
+          "tagpro_eu": "3195788", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 7, "team2_score": 6,
           "players": [
-            { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13", "stats": {"score": 86, "team": 1, "prevent": 273, "returns": 21, "tags": 26, "ndpops": 9, "pops": 20, "grabs": 12, "drops": 11, "hold": 93, "gohandoff": 1, "flaccids": 4, "nrtags": 5, "captures": 1, "time_played": 20, "powerups": 7, "hold_against": 616, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 4, "key_returns": 1, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 3, "caps_off_regrab": 1} },
-            { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE", "stats": {"score": 60, "team": 1, "grabs": 27, "pops": 29, "drops": 24, "hold": 203, "captures": 3, "prevent": 87, "returns": 14, "tags": 18, "ndpops": 5, "flaccids": 2, "nrtags": 4, "time_played": 20, "powerups": 4, "hold_against": 616, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 2, "handoffs": 12, "good_handoffs": 10, "grabs_off_regrab": 12, "caps_off_regrab": 2} },
-            { "team": "Centra Limit Theorem", "player_season": "bergieberg", "playing_as": "bergieberg", "stats": {"score": 88, "team": 1, "prevent": 284, "returns": 26, "tags": 30, "ndpops": 10, "pops": 22, "grabs": 14, "drops": 12, "hold": 141, "captures": 2, "flaccids": 4, "gohandoff": 2, "nrtags": 4, "time_played": 20, "powerups": 3, "hold_against": 616, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 8, "returns_in_base": 11, "handoffs": 4, "good_handoffs": 4, "grabs_off_regrab": 6, "caps_off_regrab": 2, "long_holds": 2} },
-            { "team": "Centra Limit Theorem", "player_season": "king krule", "playing_as": "king krule", "stats": {"score": 80, "team": 1, "grabs": 28, "captures": 5, "hold": 242, "prevent": 95, "pops": 30, "drops": 22, "ndpops": 8, "returns": 22, "tags": 24, "flaccids": 8, "nrtags": 2, "time_played": 20, "powerups": 3, "hold_against": 616, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 5, "key_returns": 1, "handoffs": 10, "good_handoffs": 7, "grabs_off_regrab": 15, "caps_off_regrab": 2, "long_holds": 3} },
-            { "team": "Jack in the Blocks", "player_season": "Adarssh", "playing_as": "Adarssh", "stats": {"score": 63, "team": 2, "grabs": 34, "pops": 35, "drops": 31, "hold": 236, "prevent": 71, "tags": 22, "returns": 19, "captures": 2, "ndpops": 4, "gohandoff": 2, "flaccids": 5, "nrtags": 3, "time_played": 20, "powerups": 4, "hold_against": 679, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 6, "key_returns": 3, "handoffs": 12, "good_handoffs": 8, "grabs_off_regrab": 10, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Jack in the Blocks", "player_season": "Omnivore", "playing_as": "Omnivore", "stats": {"score": 56, "team": 2, "grabs": 33, "pops": 33, "drops": 31, "hold": 202, "returns": 14, "tags": 21, "prevent": 70, "ndpops": 2, "captures": 2, "flaccids": 9, "saves": 2, "gohandoff": 2, "nrtags": 7, "time_played": 20, "powerups": 7, "hold_against": 679, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 1, "returns_in_base": 1, "handoffs": 17, "good_handoffs": 9, "grabs_off_regrab": 11, "caps_off_regrab": 1} },
-            { "team": "Jack in the Blocks", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob", "stats": {"score": 76, "team": 2, "returns": 18, "tags": 23, "prevent": 224, "ndpops": 5, "pops": 19, "grabs": 17, "drops": 14, "hold": 117, "captures": 3, "flaccids": 4, "nrtags": 5, "saves": 1, "gohandoff": 1, "time_played": 20, "powerups": 2, "hold_against": 679, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 8, "returns_in_base": 5, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 6, "caps_off_regrab": 2, "long_holds": 2} },
-            { "team": "Jack in the Blocks", "player_season": "chucky", "playing_as": "chucky", "stats": {"score": 91, "team": 2, "prevent": 238, "returns": 18, "tags": 30, "grabs": 10, "captures": 3, "hold": 61, "pops": 13, "drops": 7, "ndpops": 6, "gohandoff": 2, "flaccids": 1, "nrtags": 12, "cohandoff": 1, "time_played": 20, "powerups": 6, "hold_against": 679, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 3, "handoffs": 2, "good_handoffs": 2, "grabs_off_regrab": 3, "caps_off_regrab": 1} }
+            { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE" },
+            { "team": "Centra Limit Theorem", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "Centra Limit Theorem", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Jack in the Blocks", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Jack in the Blocks", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Jack in the Blocks", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
+            { "team": "Jack in the Blocks", "player_season": "chucky", "playing_as": "chucky" }
           ]
         },
         {
-          "tagpro_eu": "3195836", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3195811", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Jack in the Blocks", "blue_team": "Centra Limit Theorem", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13" },
+            { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE" },
+            { "team": "Centra Limit Theorem", "player_season": "bergieberg", "playing_as": "bergieberg" },
+            { "team": "Centra Limit Theorem", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Jack in the Blocks", "player_season": "Adarssh", "playing_as": "Adarssh" },
+            { "team": "Jack in the Blocks", "player_season": "Omnivore", "playing_as": "Omnivore" },
+            { "team": "Jack in the Blocks", "player_season": "TheEpicBlob", "playing_as": "TheEpicBlob" },
+            { "team": "Jack in the Blocks", "player_season": "chucky", "playing_as": "chucky" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195836", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Centra Limit Theorem", "blue_team": "Jack in the Blocks", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Centra Limit Theorem", "player_season": "JH13", "playing_as": "JH13" },
             { "team": "Centra Limit Theorem", "player_season": "STEEZE", "playing_as": "STEEZE" },
