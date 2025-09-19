@@ -570,7 +570,7 @@
       "season": "NLTP S29", "date": "2023-02-01", "week": "Week 2", "team1": "Respawnsiballs", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": "3375871", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3375871", "game_in_match": "Game 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Miami Ballphins", "player_season": "CaptainJack", "playing_as": "CaptainJack" },
             { "team": "Miami Ballphins", "player_season": "Spheroid.", "playing_as": "Spheroid." },
@@ -583,36 +583,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 9, "team2_score": 6, "second_eu": "3375905", "switch_time": 0,
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 4, "second_eu": "3375885", "switch_time": 600,
           "players": [
-            { "team": "Miami Ballphins", "player_season": "Spheroid.", "playing_as": "Spheroid.", "stats": {"score": 93, "team": 2, "prevent": 278, "returns": 35, "tags": 37, "grabs": 18, "pops": 21, "drops": 17, "hold": 115, "captures": 1, "ndpops": 4, "saves": 1, "flaccids": 4, "nrtags": 2, "time_played": 20, "powerups": 4, "hold_against": 627, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 18, "handoffs": 8, "good_handoffs": 4, "grabs_off_regrab": 3, "long_holds": 1} },
-            { "team": "Miami Ballphins", "player_season": "SrFn TbGGn", "playing_as": "SrFn TbGGn", "stats": {"score": 37, "team": 2, "grabs": 15, "pops": 15, "drops": 14, "hold": 139, "prevent": 9, "returns": 7, "tags": 7, "captures": 1, "ndpops": 1, "flaccids": 6, "gohandoff": 2, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 315, "plus_minus": 3, "total_pups_in_game": 18, "quick_returns": 2, "returns_in_base": 2, "handoffs": 2, "good_handoffs": 1, "grabs_off_regrab": 2, "long_holds": 3} },
-            { "team": "Miami Ballphins", "player_season": "Yeet Pizza", "playing_as": "Yeet Pizza", "stats": {"score": 23, "team": 2, "ndpops": 6, "pops": 13, "returns": 6, "tags": 6, "prevent": 108, "grabs": 7, "drops": 7, "hold": 18, "saves": 1, "gohandoff": 1, "flaccids": 3, "nrtags": 0, "time_played": 10, "powerups": 1, "hold_against": 315, "plus_minus": 3, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 3, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 2} },
-            { "team": "Miami Ballphins", "player_season": "dethos[mm]", "playing_as": "dethos[mm]", "stats": {"score": 53, "team": 2, "grabs": 23, "captures": 3, "hold": 130, "prevent": 100, "returns": 15, "tags": 15, "pops": 29, "drops": 20, "ndpops": 9, "flaccids": 4, "saves": 1, "gohandoff": 2, "nrtags": 0, "time_played": 20, "powerups": 1, "hold_against": 627, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 4, "handoffs": 7, "good_handoffs": 5, "grabs_off_regrab": 10, "caps_off_regrab": 1} },
-            { "team": "Miami Ballphins", "player_season": "o_O", "playing_as": "o_O", "stats": {"score": 33, "team": 2, "game_start": 244, "quit": false, "prevent": 111, "returns": 11, "tags": 14, "grabs": 9, "pops": 14, "drops": 9, "hold": 105, "ndpops": 5, "flaccids": 1, "gohandoff": 1, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 341, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 3, "returns_in_base": 4, "handoffs": 7, "good_handoffs": 5, "long_holds": 1} },
-            { "team": "Miami Ballphins", "player_season": "rc", "playing_as": "rc", "stats": {"score": 52, "team": 2, "grabs": 31, "pops": 34, "drops": 30, "hold": 164, "returns": 11, "tags": 14, "prevent": 67, "captures": 1, "ndpops": 4, "flaccids": 9, "gohandoff": 1, "cohandoff": 1, "nrtags": 3, "time_played": 20, "powerups": 7, "hold_against": 627, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 1, "returns_in_base": 3, "handoffs": 10, "good_handoffs": 5, "grabs_off_regrab": 7, "long_holds": 1} },
-            { "team": "Respawnsiballs", "player_season": "Circules", "playing_as": "Circules", "stats": {"score": 33, "team": 1, "grabs": 16, "pops": 17, "drops": 15, "hold": 91, "prevent": 58, "captures": 1, "returns": 5, "tags": 8, "ndpops": 2, "flaccids": 4, "gohandoff": 1, "nrtags": 3, "time_played": 10, "powerups": 4, "hold_against": 278, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 1, "handoffs": 6, "good_handoffs": 4, "grabs_off_regrab": 3, "long_holds": 1} },
-            { "team": "Respawnsiballs", "player_season": "Moto Moto", "playing_as": "Moto Moto", "stats": {"score": 86, "team": 1, "ndpops": 6, "pops": 30, "grabs": 26, "drops": 24, "hold": 220, "returns": 21, "tags": 21, "prevent": 125, "flaccids": 5, "gohandoff": 4, "nrtags": 0, "captures": 2, "time_played": 20, "powerups": 5, "hold_against": 593, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 6, "handoffs": 11, "good_handoffs": 6, "grabs_off_regrab": 2, "long_holds": 3} },
-            { "team": "Respawnsiballs", "player_season": "Rumpski", "playing_as": "Rumpski", "stats": {"score": 103, "team": 1, "prevent": 174, "returns": 25, "tags": 30, "grabs": 19, "pops": 19, "drops": 14, "hold": 139, "captures": 5, "ndpops": 5, "gohandoff": 3, "cohandoff": 2, "saves": 2, "nrtags": 5, "flaccids": 1, "time_played": 20, "powerups": 3, "hold_against": 593, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 3, "key_returns": 1, "handoffs": 7, "good_handoffs": 2, "grabs_off_regrab": 6, "caps_off_regrab": 1} },
-            { "team": "Respawnsiballs", "player_season": "Scary terry", "playing_as": "Scary terry", "stats": {"score": 40, "team": 1, "prevent": 190, "grabs": 4, "pops": 7, "drops": 4, "hold": 20, "returns": 17, "tags": 17, "ndpops": 3, "flaccids": 1, "nrtags": 0, "time_played": 10, "powerups": 1, "hold_against": 278, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 7, "returns_in_base": 7, "key_returns": 1, "handoffs": 2, "grabs_off_regrab": 2} },
-            { "team": "Respawnsiballs", "player_season": "jkxs", "playing_as": "jkxs", "stats": {"score": 47, "team": 1, "prevent": 70, "grabs": 8, "pops": 10, "drops": 7, "hold": 79, "tags": 8, "ndpops": 3, "returns": 3, "captures": 1, "flaccids": 1, "saves": 1, "gohandoff": 1, "nrtags": 5, "time_played": 10, "powerups": 6, "hold_against": 286, "plus_minus": -3, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 1, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 3, "caps_off_regrab": 1, "long_holds": 2} }
+            { "team": "Miami Ballphins", "player_season": "CaptainJack", "playing_as": "CaptainJack", "stats": {"score": 30, "team": 2, "grabs": 12, "captures": 2, "hold": 124, "prevent": 38, "pops": 13, "drops": 10, "ndpops": 3, "returns": 3, "tags": 3, "flaccids": 1, "nrtags": 0, "time_played": 10, "hold_against": 316, "plus_minus": -2, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 2, "handoffs": 4, "good_handoffs": 3, "grabs_off_regrab": 5, "caps_off_regrab": 1, "long_holds": 3} },
+            { "team": "Miami Ballphins", "player_season": "jkxs", "playing_as": "jkxs", "stats": {"score": 60, "team": 2, "prevent": 87, "returns": 12, "tags": 22, "ndpops": 3, "pops": 6, "grabs": 3, "drops": 3, "hold": 22, "flaccids": 1, "nrtags": 10, "time_played": 10, "powerups": 7, "hold_against": 316, "plus_minus": -2, "total_pups_in_game": 18, "quick_returns": 4, "returns_in_base": 4, "handoffs": 2, "good_handoffs": 1, "grabs_off_regrab": 1} },
+            { "team": "Miami Ballphins", "player_season": "o_O", "playing_as": "o_O", "stats": {"score": 49, "team": 2, "prevent": 70, "returns": 12, "tags": 15, "grabs": 9, "captures": 1, "hold": 108, "ndpops": 4, "pops": 12, "drops": 8, "gohandoff": 1, "nrtags": 3, "time_played": 10, "powerups": 5, "hold_against": 316, "plus_minus": -2, "total_pups_in_game": 18, "quick_returns": 4, "returns_in_base": 5, "handoffs": 2, "good_handoffs": 2, "grabs_off_regrab": 4, "caps_off_regrab": 1, "long_holds": 2} },
+            { "team": "Miami Ballphins", "player_season": "rc", "playing_as": "rc", "stats": {"score": 35, "team": 2, "grabs": 13, "captures": 1, "hold": 89, "pops": 14, "drops": 12, "returns": 7, "tags": 7, "prevent": 20, "ndpops": 2, "flaccids": 2, "gohandoff": 1, "nrtags": 0, "time_played": 10, "powerups": 4, "hold_against": 316, "plus_minus": -2, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 2, "handoffs": 4, "good_handoffs": 2, "grabs_off_regrab": 2, "caps_off_regrab": 1, "long_holds": 1} },
+            { "team": "Respawnsiballs", "player_season": "Circules", "playing_as": "Circules", "stats": {"score": 31, "team": 1, "grabs": 12, "pops": 16, "drops": 11, "hold": 82, "ndpops": 5, "prevent": 28, "returns": 10, "tags": 12, "captures": 1, "flaccids": 4, "nrtags": 2, "time_played": 10, "powerups": 1, "hold_against": 343, "plus_minus": 2, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 2, "handoffs": 5, "good_handoffs": 2, "grabs_off_regrab": 3, "long_holds": 1} },
+            { "team": "Respawnsiballs", "player_season": "Moto Moto", "playing_as": "Moto Moto", "stats": {"score": 41, "team": 1, "grabs": 14, "pops": 15, "drops": 11, "hold": 125, "prevent": 48, "returns": 5, "tags": 8, "captures": 3, "ndpops": 4, "flaccids": 1, "gohandoff": 1, "nrtags": 3, "time_played": 10, "powerups": 1, "hold_against": 343, "plus_minus": 2, "total_pups_in_game": 18, "returns_in_base": 1, "handoffs": 4, "good_handoffs": 4, "grabs_off_regrab": 4, "caps_off_regrab": 1, "long_holds": 1} },
+            { "team": "Respawnsiballs", "player_season": "Scary terry", "playing_as": "Scary terry", "stats": {"score": 22, "team": 1, "prevent": 100, "ndpops": 5, "pops": 9, "returns": 10, "tags": 10, "grabs": 4, "drops": 4, "hold": 14, "flaccids": 2, "nrtags": 0, "time_played": 10, "hold_against": 343, "plus_minus": 2, "total_pups_in_game": 18, "quick_returns": 3, "returns_in_base": 6, "key_returns": 2, "grabs_off_regrab": 1} },
+            { "team": "Respawnsiballs", "player_season": "SrFn TbGGn", "playing_as": "SrFn TbGGn", "stats": {"score": 31, "team": 1, "prevent": 53, "ndpops": 4, "pops": 14, "grabs": 13, "captures": 2, "hold": 95, "returns": 7, "tags": 7, "drops": 10, "saves": 1, "gohandoff": 1, "flaccids": 3, "nrtags": 0, "time_played": 10, "hold_against": 343, "plus_minus": 2, "total_pups_in_game": 18, "returns_in_base": 1, "key_returns": 1, "handoffs": 4, "good_handoffs": 3, "grabs_off_regrab": 4, "long_holds": 1} }
           ]
         },
         {
-          "tagpro_eu": "3375885", "game_in_match": "Game 1 Overtime", "map_name": "Jardim", "map_id": 14756, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "3375905", "game_in_match": "Game 3", "map_name": "Catch-24", "map_id": 13912, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Spheroid.", "playing_as": "Spheroid." },
             { "team": "Miami Ballphins", "player_season": "dethos[mm]", "playing_as": "dethos[mm]" },
-            { "team": "Miami Ballphins", "player_season": "o_O", "playing_as": "o_O" },
+            { "team": "Miami Ballphins", "player_season": "jkxs", "playing_as": "jkxs" },
             { "team": "Miami Ballphins", "player_season": "rc", "playing_as": "rc" },
-            { "team": "Respawnsiballs", "player_season": "Circules", "playing_as": "Circules" },
             { "team": "Respawnsiballs", "player_season": "Moto Moto", "playing_as": "Moto Moto" },
             { "team": "Respawnsiballs", "player_season": "Rumpski", "playing_as": "Rumpski" },
-            { "team": "Respawnsiballs", "player_season": "Scary terry", "playing_as": "Scary terry" }
+            { "team": "Respawnsiballs", "player_season": "SrFn TbGGn", "playing_as": "SrFn TbGGn" },
+            { "team": "Respawnsiballs", "player_season": "Yeet Pizza", "playing_as": "Yeet Pizza" }
           ]
         },
         {
-          "tagpro_eu": "3375928", "game_in_match": "Game 2 Half 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "3375928", "game_in_match": "Game 4", "map_name": "Catch-24", "map_id": 13912, "red_team": "Respawnsiballs", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "CaptainJack", "playing_as": "CaptainJack" },
             { "team": "Miami Ballphins", "player_season": "jkxs", "playing_as": "jkxs" },
@@ -625,7 +622,7 @@
           ]
         },
         {
-          "tagpro_eu": "3375947", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 8, "team2_score": 4,
+          "tagpro_eu": "3375947", "game_in_match": "Game 5", "map_name": "Jardim", "map_id": 14756, "red_team": "Miami Ballphins", "blue_team": "Respawnsiballs", "team1_score": 8, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "CaptainJack", "playing_as": "CaptainJack" },
             { "team": "Miami Ballphins", "player_season": "dethos[mm]", "playing_as": "dethos[mm]" },
@@ -1656,7 +1653,7 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Returns of the Jedi", "blue_team": "Nuclear Jukes", "team1_score": 5, "team2_score": 6, "second_eu": "3395563", "switch_time": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Returns of the Jedi", "blue_team": "Nuclear Jukes", "team1_score": 5, "team2_score": 6, "second_eu": "3395563", "switch_time": 600,
           "players": [
             { "team": "Nuclear Jukes", "player_season": ".__.", "playing_as": ".__.", "stats": {"score": 60, "team": 2, "prevent": 178, "returns": 15, "tags": 19, "ndpops": 8, "pops": 25, "grabs": 18, "drops": 17, "hold": 134, "captures": 1, "flaccids": 4, "nrtags": 4, "gohandoff": 3, "time_played": 20, "powerups": 3, "hold_against": 710, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 2, "returns_in_base": 2, "handoffs": 12, "good_handoffs": 8, "grabs_off_regrab": 8, "long_holds": 1} },
             { "team": "Nuclear Jukes", "player_season": "Bambi", "playing_as": "Bambi", "stats": {"score": 62, "team": 2, "grabs": 30, "pops": 36, "drops": 29, "hold": 224, "prevent": 93, "tags": 15, "returns": 13, "ndpops": 7, "flaccids": 11, "nrtags": 2, "captures": 1, "gohandoff": 2, "time_played": 20, "powerups": 6, "hold_against": 710, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 3, "returns_in_base": 3, "handoffs": 10, "good_handoffs": 5, "grabs_off_regrab": 13, "caps_off_regrab": 1, "long_holds": 2} },

@@ -493,6 +493,9 @@ for season_name in seasons:
             if len(g['links']) == 2 and all("tagpro.eu" in link for link in g['links']):
                 game_object['second_eu'] = g['links'][1].split("=")[1]
                 game_object['switch_time'] = 60 * (10 - bulkmatches[game_object['second_eu']].timeLimit)
+                # If the second EU has a time limit of 10 or 20 minutes, it's probably an overtime period
+                if bulkmatches[game_object['second_eu']].timeLimit >= 10:
+                    game_object['switch_time'] = 600
             match_object['games'].append(game_object)
         
         if match_object is not None:
