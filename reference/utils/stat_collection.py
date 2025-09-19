@@ -4,6 +4,8 @@ from math import ceil
 from ..models import Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, PlayerSeason, Season, TeamSeason, Match, PlayoffSeries
 import tagpro_eu
 from django.conf import settings
+import os
+import sys
 
 
 STAT_FIELDS = [
@@ -32,10 +34,10 @@ if settings.DEBUG:
     i = 1
     while True:
         try:
-            with open(f"data/league_matches{i}.json") as f:
+            with open(f"tpl_import/league_matches{i}.json") as f:
                 all_league_matches += [m for m in tagpro_eu.bulk.load_matches(
                     f,
-                    tagpro_eu.bulk.load_maps(open("data/league_maps.json", encoding="utf-8"))
+                    tagpro_eu.bulk.load_maps(open("tpl_import/league_maps.json", encoding="utf-8"))
                 )]
             i += 1
         except FileNotFoundError:
@@ -46,7 +48,7 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
     relevant_matches = all_league_matches
     if not settings.DEBUG:
         try:
-            with open(f"data/league_matches{ceil(int(game_id) / 500000)}.json") as f1, open("data/league_maps.json", encoding="utf-8") as f2:
+            with open(f"tpl_import/league_matches{ceil(int(game_id) / 500000)}.json") as f1, open("tpl_import/league_maps.json", encoding="utf-8") as f2:
                 relevant_matches = [m for m in tagpro_eu.bulk.load_matches(
                     f1,
                     tagpro_eu.bulk.load_maps(f2)
@@ -54,12 +56,13 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
         except FileNotFoundError:
             pass
     try:
-        m: tagpro_eu.Match = [g for g in relevant_matches if g.match_id == game_id][0]
+        m: tagpro_eu.Match = [g for g in relevant_matches if str(g.match_id) == str(game_id)][0]
     except IndexError:
         # if no match found in bulkmatches, download from tagpro.eu
         # when we use download_match, map_id field will not be present, so set it to None
         m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
         m.map_id = None
+    return m
 
 
 def parse_stats_from_eu_match(
