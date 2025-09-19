@@ -425,7 +425,7 @@
       "season": "NLTP S27", "date": "2022-05-11", "week": "Week 2", "team1": "Holdin' Gate Warriors", "team2": "Ree Gees",
       "games": [
         {
-          "tagpro_eu": "3191991", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Ree Gees", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3191991", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Ree Gees", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Farva", "playing_as": "Farva" },
             { "team": "Holdin' Gate Warriors", "player_season": "RAMOS", "playing_as": "RAMOS" },
@@ -438,22 +438,7 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Ree Gees", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 13, "second_eu": "3192027", "switch_time": 600,
-          "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Farva", "playing_as": "Farva", "stats": {"score": 32, "team": 2, "grabs": 18, "pops": 21, "drops": 16, "hold": 147, "prevent": 43, "returns": 3, "tags": 4, "ndpops": 5, "captures": 2, "gohandoff": 1, "cohandoff": 1, "nrtags": 1, "time_played": 10, "powerups": 1, "hold_against": 251, "plus_minus": 0, "total_pups_in_game": 27, "quick_returns": 1, "returns_in_base": 1, "handoffs": 8, "good_handoffs": 2, "grabs_off_regrab": 3, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Holdin' Gate Warriors", "player_season": "STINK", "playing_as": "STINK", "stats": {"score": 59, "team": 2, "prevent": 368, "ndpops": 14, "pops": 31, "returns": 15, "tags": 17, "grabs": 17, "drops": 17, "hold": 72, "flaccids": 6, "gohandoff": 4, "nrtags": 2, "time_played": 20, "powerups": 2, "hold_against": 444, "plus_minus": -1, "total_pups_in_game": 54, "quick_returns": 5, "returns_in_base": 7, "key_returns": 1, "handoffs": 4, "good_handoffs": 2, "grabs_off_regrab": 6} },
-            { "team": "Holdin' Gate Warriors", "player_season": "ThanOs Ball", "playing_as": "ThanOs Ball", "stats": {"score": 82, "team": 2, "grabs": 43, "returns": 10, "tags": 19, "pops": 46, "drops": 37, "hold": 225, "ndpops": 9, "prevent": 21, "captures": 4, "gohandoff": 5, "nrtags": 9, "flaccids": 4, "cohandoff": 1, "time_played": 20, "powerups": 13, "hold_against": 444, "plus_minus": -1, "total_pups_in_game": 54, "quick_returns": 2, "returns_in_base": 3, "handoffs": 16, "good_handoffs": 13, "grabs_off_regrab": 9, "caps_off_regrab": 1} },
-            { "team": "Holdin' Gate Warriors", "player_season": "swagstein", "playing_as": "swagstein", "stats": {"score": 28, "team": 2, "prevent": 198, "returns": 8, "tags": 8, "grabs": 2, "pops": 8, "drops": 2, "hold": 5, "ndpops": 6, "flaccids": 1, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 251, "plus_minus": 0, "total_pups_in_game": 27, "quick_returns": 1, "returns_in_base": 2, "key_returns": 1, "handoffs": 2, "good_handoffs": 1} },
-            { "team": "Ree Gees", "player_season": "NateH", "playing_as": "NateH", "stats": {"score": 90, "team": 1, "prevent": 257, "returns": 32, "tags": 37, "grabs": 6, "pops": 10, "drops": 4, "hold": 42, "ndpops": 6, "nrtags": 5, "captures": 2, "flaccids": 1, "gohandoff": 1, "cohandoff": 1, "time_played": 20, "powerups": 8, "hold_against": 575, "plus_minus": 1, "total_pups_in_game": 54, "quick_returns": 6, "returns_in_base": 13, "handoffs": 2, "good_handoffs": 1, "grabs_off_regrab": 2, "caps_off_regrab": 1} },
-            { "team": "Ree Gees", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG", "stats": {"score": 75, "team": 1, "tags": 25, "grabs": 17, "pops": 16, "drops": 14, "hold": 126, "returns": 15, "captures": 3, "prevent": 80, "ndpops": 2, "flaccids": 4, "nrtags": 10, "time_played": 20, "powerups": 6, "hold_against": 575, "plus_minus": 1, "total_pups_in_game": 54, "quick_returns": 4, "returns_in_base": 3, "key_returns": 2, "handoffs": 6, "good_handoffs": 4, "grabs_off_regrab": 1, "long_holds": 2} },
-            { "team": "Ree Gees", "player_season": "RAMOS", "playing_as": "RAMOS", "stats": {"score": 30, "team": 1, "prevent": 190, "ndpops": 6, "pops": 11, "grabs": 5, "drops": 5, "hold": 40, "returns": 12, "tags": 12, "gohandoff": 1, "flaccids": 2, "saves": 1, "nrtags": 0, "time_played": 10, "hold_against": 193, "plus_minus": -1, "total_pups_in_game": 27, "quick_returns": 4, "returns_in_base": 6, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 1, "long_holds": 1} },
-            { "team": "Ree Gees", "player_season": "Raja", "playing_as": "Raja", "stats": {"score": 80, "team": 1, "grabs": 22, "returns": 16, "tags": 31, "pops": 23, "drops": 19, "hold": 190, "captures": 3, "prevent": 64, "ndpops": 4, "flaccids": 3, "nrtags": 15, "gohandoff": 2, "cohandoff": 1, "time_played": 20, "powerups": 9, "hold_against": 575, "plus_minus": 1, "total_pups_in_game": 54, "quick_returns": 2, "returns_in_base": 2, "handoffs": 3, "good_handoffs": 1, "grabs_off_regrab": 4, "long_holds": 3} },
-            { "team": "Ree Gees", "player_season": "SilentOne", "playing_as": "SilentOne", "stats": {"score": 81, "team": 1, "prevent": 190, "returns": 21, "tags": 30, "grabs": 15, "pops": 18, "drops": 13, "hold": 86, "ndpops": 5, "captures": 2, "flaccids": 5, "gohandoff": 1, "nrtags": 9, "time_played": 20, "powerups": 8, "hold_against": 575, "plus_minus": 1, "total_pups_in_game": 54, "quick_returns": 4, "returns_in_base": 3, "key_returns": 3, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 4} },
-            { "team": "Ree Gees", "player_season": "dyd", "playing_as": "dyd", "stats": {"score": 43, "team": 1, "grabs": 12, "pops": 17, "drops": 9, "hold": 86, "ndpops": 8, "prevent": 55, "returns": 2, "tags": 5, "captures": 3, "flaccids": 3, "gohandoff": 1, "cohandoff": 1, "nrtags": 3, "time_played": 10, "powerups": 5, "hold_against": 193, "plus_minus": -1, "total_pups_in_game": 27, "returns_in_base": 1, "key_returns": 1, "handoffs": 3, "good_handoffs": 1, "grabs_off_regrab": 3} }
-          ]
-        },
-        {
-          "tagpro_eu": "3192014", "game_in_match": "Game 1 Overtime", "map_name": "Transilio 2022", "map_id": 15080, "red_team": "Ree Gees", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "3192006", "game_in_match": "Game 2", "map_name": "Transilio 2022", "map_id": 15080, "red_team": "Ree Gees", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 4, "second_eu": "3192014", "switch_time": 540,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Farva", "playing_as": "Farva" },
             { "team": "Holdin' Gate Warriors", "player_season": "STINK", "playing_as": "STINK" },
@@ -466,7 +451,20 @@
           ]
         },
         {
-          "tagpro_eu": "3192042", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15080, "red_team": "Ree Gees", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3192027", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15080, "red_team": "Holdin' Gate Warriors", "blue_team": "Ree Gees", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "RAMOS", "playing_as": "RAMOS" },
+            { "team": "Holdin' Gate Warriors", "player_season": "STINK", "playing_as": "STINK" },
+            { "team": "Holdin' Gate Warriors", "player_season": "ThanOs Ball", "playing_as": "ThanOs Ball" },
+            { "team": "Holdin' Gate Warriors", "player_season": "dyd", "playing_as": "dyd" },
+            { "team": "Ree Gees", "player_season": "NateH", "playing_as": "NateH" },
+            { "team": "Ree Gees", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Ree Gees", "player_season": "Raja", "playing_as": "Raja" },
+            { "team": "Ree Gees", "player_season": "SilentOne", "playing_as": "SilentOne" }
+          ]
+        },
+        {
+          "tagpro_eu": "3192042", "game_in_match": "Game 4", "map_name": "Transilio 2022", "map_id": 15080, "red_team": "Ree Gees", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Farva", "playing_as": "Farva" },
             { "team": "Holdin' Gate Warriors", "player_season": "STINK", "playing_as": "STINK" },
@@ -479,7 +477,7 @@
           ]
         },
         {
-          "tagpro_eu": "3192053", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Ree Gees", "team1_score": 5, "team2_score": 8,
+          "tagpro_eu": "3192053", "game_in_match": "Game 5", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Ree Gees", "team1_score": 5, "team2_score": 8,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "RAMOS", "playing_as": "RAMOS" },
             { "team": "Holdin' Gate Warriors", "player_season": "ThanOs Ball", "playing_as": "ThanOs Ball" },
@@ -991,7 +989,7 @@
       "season": "NLTP S27", "date": "2022-05-26", "week": "Week 4", "team1": "Novice World Order", "team2": "American Corner Story",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "American Corner Story", "blue_team": "Novice World Order", "team1_score": 2, "team2_score": 5,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "American Corner Story", "blue_team": "Novice World Order", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "American Corner Story", "player_season": "MC Ride", "playing_as": "MC Ride", "stats": {"team": 1, "score": 46, "tags": 14, "pops": 7, "grabs": 4, "drops": 3, "hold": 16, "captures": 1, "prevent": 213, "returns": 14, "ndpops": 4, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 252, "plus_minus": 3, "total_pups_in_game": 27} },
             { "team": "American Corner Story", "player_season": "PrincessLeia", "playing_as": "PrincessLeia", "stats": {"team": 1, "score": 53, "tags": 27, "pops": 8, "grabs": 3, "drops": 3, "hold": 33, "captures": 0, "prevent": 177, "returns": 12, "ndpops": 5, "nrtags": 15, "time_played": 10, "powerups": 8, "hold_against": 252, "plus_minus": 3, "total_pups_in_game": 27} },
@@ -1004,22 +1002,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Novice World Order", "blue_team": "American Corner Story", "team1_score": 9, "team2_score": 8, "second_eu": "3203671", "switch_time": 600,
+          "tagpro_eu": "3203654", "game_in_match": "Game 2", "map_name": "Some Ring", "map_id": 15105, "red_team": "Novice World Order", "blue_team": "American Corner Story", "team1_score": 2, "team2_score": 7,
           "players": [
-            { "team": "American Corner Story", "player_season": "MC Ride", "playing_as": "MC Ride", "stats": {"score": 51, "team": 2, "prevent": 64, "returns": 11, "tags": 17, "ndpops": 4, "pops": 12, "grabs": 10, "drops": 8, "hold": 148, "captures": 2, "saves": 1, "flaccids": 1, "nrtags": 6, "time_played": 10, "powerups": 5, "hold_against": 257, "plus_minus": 5, "total_pups_in_game": 27, "key_returns": 1, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 4, "caps_off_regrab": 2, "long_holds": 3} },
-            { "team": "American Corner Story", "player_season": "first slime", "playing_as": "first slime", "stats": {"score": 61, "team": 2, "grabs": 14, "captures": 4, "hold": 116, "pops": 12, "drops": 10, "returns": 5, "tags": 16, "prevent": 60, "ndpops": 2, "flaccids": 1, "nrtags": 11, "time_played": 10, "powerups": 5, "hold_against": 257, "plus_minus": 5, "total_pups_in_game": 27, "quick_returns": 2, "returns_in_base": 2, "handoffs": 5, "good_handoffs": 5, "grabs_off_regrab": 8, "caps_off_regrab": 2} },
-            { "team": "American Corner Story", "player_season": "handro", "playing_as": "handro", "stats": {"score": 65, "team": 2, "prevent": 230, "returns": 24, "tags": 26, "grabs": 12, "pops": 21, "drops": 12, "hold": 74, "ndpops": 9, "flaccids": 4, "nrtags": 2, "time_played": 20, "powerups": 5, "hold_against": 602, "plus_minus": 5, "total_pups_in_game": 54, "quick_returns": 7, "returns_in_base": 9, "key_returns": 3, "handoffs": 4, "good_handoffs": 4, "grabs_off_regrab": 7} },
-            { "team": "American Corner Story", "player_season": "kelvin", "playing_as": "kelvin", "stats": {"score": 78, "team": 2, "grabs": 27, "pops": 29, "drops": 24, "hold": 258, "returns": 17, "tags": 21, "prevent": 121, "ndpops": 5, "captures": 2, "flaccids": 3, "gohandoff": 3, "nrtags": 4, "cohandoff": 1, "time_played": 20, "powerups": 5, "hold_against": 602, "plus_minus": 5, "total_pups_in_game": 54, "quick_returns": 6, "returns_in_base": 7, "handoffs": 12, "good_handoffs": 10, "grabs_off_regrab": 3, "long_holds": 2} },
-            { "team": "Novice World Order", "player_season": "Bambi", "playing_as": "Bambi", "stats": {"score": 55, "team": 1, "game_start": 9, "quit": false, "grabs": 12, "pops": 19, "drops": 12, "hold": 77, "returns": 10, "tags": 15, "prevent": 229, "ndpops": 7, "flaccids": 5, "gohandoff": 1, "nrtags": 5, "time_played": 20, "powerups": 3, "hold_against": 729, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 3, "returns_in_base": 5, "handoffs": 5, "good_handoffs": 4, "long_holds": 1} },
-            { "team": "Novice World Order", "player_season": "Feels Like", "playing_as": "Feels Like", "stats": {"score": 70, "team": 1, "grabs": 32, "pops": 32, "drops": 28, "hold": 283, "captures": 4, "prevent": 23, "tags": 23, "ndpops": 4, "returns": 12, "gohandoff": 3, "cohandoff": 1, "flaccids": 4, "nrtags": 11, "time_played": 20, "powerups": 8, "hold_against": 729, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 1, "returns_in_base": 1, "handoffs": 8, "good_handoffs": 6, "grabs_off_regrab": 9, "caps_off_regrab": 1, "long_holds": 4} },
-            { "team": "Novice World Order", "player_season": "PrincessLeia", "playing_as": "PrincessLeia", "stats": {"score": 43, "team": 1, "prevent": 87, "returns": 11, "tags": 12, "grabs": 6, "captures": 2, "hold": 47, "ndpops": 5, "pops": 9, "drops": 4, "saves": 1, "flaccids": 1, "gohandoff": 1, "nrtags": 1, "time_played": 10, "powerups": 4, "hold_against": 345, "plus_minus": 0, "total_pups_in_game": 27, "quick_returns": 1, "returns_in_base": 3, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 3, "caps_off_regrab": 2, "long_holds": 1} },
-            { "team": "Novice World Order", "player_season": "Sorry l suck", "playing_as": "Sorry l suck", "stats": {"score": 63, "team": 1, "grabs": 23, "pops": 28, "drops": 21, "hold": 146, "returns": 18, "tags": 26, "prevent": 71, "ndpops": 7, "captures": 2, "gohandoff": 2, "flaccids": 3, "nrtags": 8, "time_played": 20, "powerups": 5, "hold_against": 729, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 2, "returns_in_base": 3, "handoffs": 9, "good_handoffs": 6, "grabs_off_regrab": 9, "long_holds": 1} },
-            { "team": "Novice World Order", "player_season": "Stedman", "playing_as": "Stedman", "stats": {"score": 27, "team": 1, "grabs": 12, "pops": 15, "drops": 11, "hold": 86, "prevent": 19, "returns": 7, "tags": 8, "ndpops": 4, "captures": 1, "flaccids": 4, "gohandoff": 1, "nrtags": 1, "time_played": 10, "powerups": 3, "hold_against": 345, "plus_minus": 0, "total_pups_in_game": 27, "quick_returns": 2, "returns_in_base": 2, "key_returns": 1, "handoffs": 6, "good_handoffs": 6, "grabs_off_regrab": 6, "long_holds": 1} },
-            { "team": "Novice World Order", "player_season": "black magic", "playing_as": "black magic", "stats": {"score": 86, "team": 1, "prevent": 217, "returns": 29, "tags": 34, "grabs": 15, "pops": 21, "drops": 14, "hold": 96, "ndpops": 7, "flaccids": 6, "nrtags": 5, "gohandoff": 1, "saves": 1, "time_played": 20, "powerups": 11, "hold_against": 729, "plus_minus": -5, "total_pups_in_game": 54, "quick_returns": 8, "returns_in_base": 10, "key_returns": 1, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 4, "long_holds": 1} }
+            { "team": "American Corner Story", "player_season": "MC Ride", "playing_as": "MC Ride" },
+            { "team": "American Corner Story", "player_season": "first slime", "playing_as": "first slime" },
+            { "team": "American Corner Story", "player_season": "handro", "playing_as": "handro" },
+            { "team": "American Corner Story", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Novice World Order", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Novice World Order", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Novice World Order", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Novice World Order", "player_season": "black magic", "playing_as": "black magic" }
           ]
         },
         {
-          "tagpro_eu": "3203714", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15079, "red_team": "Novice World Order", "blue_team": "American Corner Story", "team1_score": 3, "team2_score": 3,
+          "tagpro_eu": "3203671", "game_in_match": "Game 3", "map_name": "Some Ring", "map_id": 15105, "red_team": "American Corner Story", "blue_team": "Novice World Order", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "American Corner Story", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
+            { "team": "American Corner Story", "player_season": "Stedman", "playing_as": "Stedman" },
+            { "team": "American Corner Story", "player_season": "handro", "playing_as": "handro" },
+            { "team": "American Corner Story", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Novice World Order", "player_season": "Bambi", "playing_as": "Bambi" },
+            { "team": "Novice World Order", "player_season": "Feels Like", "playing_as": "Feels Like" },
+            { "team": "Novice World Order", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
+            { "team": "Novice World Order", "player_season": "black magic", "playing_as": "black magic" }
+          ]
+        },
+        {
+          "tagpro_eu": "3203714", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15079, "red_team": "Novice World Order", "blue_team": "American Corner Story", "team1_score": 3, "team2_score": 3, "second_eu": "3203724", "switch_time": 600,
           "players": [
             { "team": "American Corner Story", "player_season": "MC Ride", "playing_as": "MC Ride" },
             { "team": "American Corner Story", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
@@ -1032,25 +1041,12 @@
           ]
         },
         {
-          "tagpro_eu": "3203742", "game_in_match": "Game 2 Half 2", "map_name": "OTI MERALD", "map_id": 15079, "red_team": "American Corner Story", "blue_team": "Novice World Order", "team1_score": 5, "team2_score": 1,
+          "tagpro_eu": "3203742", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15079, "red_team": "American Corner Story", "blue_team": "Novice World Order", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "American Corner Story", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
             { "team": "American Corner Story", "player_season": "Stedman", "playing_as": "Stedman" },
             { "team": "American Corner Story", "player_season": "first slime", "playing_as": "first slime" },
             { "team": "American Corner Story", "player_season": "handro", "playing_as": "handro" },
-            { "team": "Novice World Order", "player_season": "Bambi", "playing_as": "Bambi" },
-            { "team": "Novice World Order", "player_season": "Feels Like", "playing_as": "Feels Like" },
-            { "team": "Novice World Order", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },
-            { "team": "Novice World Order", "player_season": "black magic", "playing_as": "black magic" }
-          ]
-        },
-        {
-          "tagpro_eu": "3203724", "game_in_match": "Game 2 Overtime", "map_name": "OTI MERALD", "map_id": 15079, "red_team": "Novice World Order", "blue_team": "American Corner Story", "team1_score": 0, "team2_score": 1,
-          "players": [
-            { "team": "American Corner Story", "player_season": "MC Ride", "playing_as": "MC Ride" },
-            { "team": "American Corner Story", "player_season": "PrincessLeia", "playing_as": "PrincessLeia" },
-            { "team": "American Corner Story", "player_season": "first slime", "playing_as": "first slime" },
-            { "team": "American Corner Story", "player_season": "kelvin", "playing_as": "kelvin" },
             { "team": "Novice World Order", "player_season": "Bambi", "playing_as": "Bambi" },
             { "team": "Novice World Order", "player_season": "Feels Like", "playing_as": "Feels Like" },
             { "team": "Novice World Order", "player_season": "Sorry l suck", "playing_as": "Sorry l suck" },

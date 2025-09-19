@@ -1588,7 +1588,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "The Protagonists", "team2": "Get Re or Die Tryin'",
       "games": [
         {
-          "tagpro_eu": "3195695", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 4, "team2_score": 4,
+          "tagpro_eu": "3195695", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
             { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
@@ -1601,7 +1601,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195715", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Get Re or Die Tryin'", "blue_team": "The Protagonists", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "3195715", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Get Re or Die Tryin'", "blue_team": "The Protagonists", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
             { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
@@ -1614,20 +1614,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 7, "team2_score": 4, "second_eu": "3195751", "switch_time": 600,
+          "tagpro_eu": "3195737", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 4, "team2_score": 3,
           "players": [
-            { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic", "stats": {"score": 69, "team": 2, "grabs": 29, "pops": 28, "drops": 28, "hold": 285, "returns": 14, "tags": 17, "prevent": 49, "saves": 1, "gohandoff": 1, "flaccids": 2, "nrtags": 3, "captures": 1, "time_played": 20, "powerups": 5, "hold_against": 539, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 4, "key_returns": 1, "handoffs": 10, "good_handoffs": 9, "grabs_off_regrab": 12, "caps_off_regrab": 1, "long_holds": 3} },
-            { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy", "stats": {"score": 83, "team": 2, "returns": 21, "tags": 24, "prevent": 353, "grabs": 12, "pops": 16, "drops": 12, "hold": 119, "ndpops": 4, "flaccids": 3, "nrtags": 3, "gohandoff": 1, "time_played": 20, "powerups": 7, "hold_against": 539, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 8, "handoffs": 7, "good_handoffs": 5, "grabs_off_regrab": 3, "long_holds": 2} },
-            { "team": "Get Re or Die Tryin'", "player_season": "RemoSlice", "playing_as": "RemoSlice", "stats": {"score": 63, "team": 2, "grabs": 34, "pops": 37, "drops": 31, "hold": 203, "ndpops": 6, "prevent": 58, "returns": 7, "tags": 10, "captures": 2, "flaccids": 10, "gohandoff": 1, "nrtags": 3, "time_played": 20, "powerups": 8, "hold_against": 539, "plus_minus": -3, "total_pups_in_game": 36, "returns_in_base": 1, "handoffs": 13, "good_handoffs": 11, "grabs_off_regrab": 14, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Get Re or Die Tryin'", "player_season": "im a goat", "playing_as": "im a goat", "stats": {"score": 85, "team": 2, "prevent": 353, "grabs": 11, "captures": 1, "hold": 38, "returns": 23, "tags": 27, "pops": 15, "drops": 10, "ndpops": 5, "flaccids": 5, "gohandoff": 2, "nrtags": 4, "time_played": 20, "powerups": 5, "hold_against": 539, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 10, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 3, "caps_off_regrab": 1} },
-            { "team": "The Protagonists", "player_season": "Catalyst", "playing_as": "Catalyst", "stats": {"score": 87, "team": 1, "prevent": 268, "grabs": 9, "pops": 10, "drops": 8, "hold": 50, "returns": 25, "tags": 29, "captures": 1, "ndpops": 2, "flaccids": 2, "gohandoff": 3, "cohandoff": 1, "nrtags": 4, "time_played": 20, "powerups": 4, "hold_against": 645, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 8, "returns_in_base": 5, "handoffs": 4, "good_handoffs": 2, "grabs_off_regrab": 3} },
-            { "team": "The Protagonists", "player_season": "Hibana", "playing_as": "Hibana", "stats": {"score": 84, "team": 1, "prevent": 276, "returns": 28, "tags": 29, "grabs": 11, "pops": 17, "drops": 8, "hold": 50, "ndpops": 9, "captures": 2, "flaccids": 5, "nrtags": 1, "time_played": 20, "powerups": 2, "hold_against": 645, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 8, "returns_in_base": 8, "handoffs": 2, "good_handoffs": 2, "grabs_off_regrab": 3, "caps_off_regrab": 1} },
-            { "team": "The Protagonists", "player_season": "NameLEss", "playing_as": "NameLEss", "stats": {"score": 80, "team": 1, "grabs": 25, "pops": 25, "drops": 22, "hold": 155, "returns": 17, "tags": 22, "prevent": 46, "captures": 3, "ndpops": 3, "flaccids": 6, "nrtags": 5, "time_played": 20, "powerups": 3, "hold_against": 645, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 1, "handoffs": 13, "good_handoffs": 11, "grabs_off_regrab": 8, "caps_off_regrab": 1} },
-            { "team": "The Protagonists", "player_season": "drewfa", "playing_as": "drewfa", "stats": {"score": 48, "team": 1, "grabs": 28, "returns": 11, "tags": 15, "pops": 29, "drops": 27, "hold": 284, "captures": 1, "prevent": 69, "ndpops": 2, "flaccids": 5, "nrtags": 4, "time_played": 20, "powerups": 2, "hold_against": 645, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 2, "key_returns": 2, "handoffs": 8, "good_handoffs": 5, "grabs_off_regrab": 10, "caps_off_regrab": 1, "long_holds": 4} }
+            { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Get Re or Die Tryin'", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Get Re or Die Tryin'", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "The Protagonists", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "The Protagonists", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "The Protagonists", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Protagonists", "player_season": "drewfa", "playing_as": "drewfa" }
           ]
         },
         {
-          "tagpro_eu": "3195768", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3195751", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Get Re or Die Tryin'", "blue_team": "The Protagonists", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
+            { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
+            { "team": "Get Re or Die Tryin'", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Get Re or Die Tryin'", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "The Protagonists", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "The Protagonists", "player_season": "Hibana", "playing_as": "Hibana" },
+            { "team": "The Protagonists", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Protagonists", "player_season": "drewfa", "playing_as": "drewfa" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195768", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Protagonists", "blue_team": "Get Re or Die Tryin'", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Get Re or Die Tryin'", "player_season": "BigDickVic", "playing_as": "BigDickVic" },
             { "team": "Get Re or Die Tryin'", "player_season": "IfYouSeekAmy", "playing_as": "IfYouSeekAmy" },
@@ -1645,7 +1658,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Big Cap Rescue", "team2": "Rap Snitch tNISHes",
       "games": [
         {
-          "tagpro_eu": "3195753", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3195753", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb" },
@@ -1658,7 +1671,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195772", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Rap Snitch tNISHes", "blue_team": "Big Cap Rescue", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3195772", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Rap Snitch tNISHes", "blue_team": "Big Cap Rescue", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb" },
@@ -1671,20 +1684,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 10, "team2_score": 13, "second_eu": "3195815", "switch_time": 600,
+          "tagpro_eu": "3195792", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 4, "team2_score": 4,
           "players": [
-            { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella", "stats": {"score": 66, "team": 1, "grabs": 28, "pops": 31, "drops": 25, "hold": 217, "tags": 21, "captures": 3, "prevent": 110, "returns": 14, "ndpops": 6, "flaccids": 9, "nrtags": 7, "gohandoff": 1, "saves": 1, "time_played": 20, "powerups": 4, "hold_against": 642, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 3, "key_returns": 1, "handoffs": 4, "good_handoffs": 4, "grabs_off_regrab": 9, "caps_off_regrab": 2, "long_holds": 2} },
-            { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb", "stats": {"score": 70, "team": 1, "prevent": 284, "returns": 20, "tags": 22, "ndpops": 7, "pops": 19, "grabs": 13, "drops": 12, "hold": 116, "flaccids": 3, "nrtags": 2, "captures": 1, "gohandoff": 1, "time_played": 20, "powerups": 5, "hold_against": 642, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 7, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 5, "caps_off_regrab": 1, "long_holds": 2} },
-            { "team": "Big Cap Rescue", "player_season": "flaccid trip", "playing_as": "flaccid trip", "stats": {"score": 63, "team": 1, "grabs": 30, "pops": 33, "drops": 25, "hold": 159, "ndpops": 8, "captures": 4, "returns": 11, "tags": 25, "prevent": 24, "flaccids": 12, "gohandoff": 2, "nrtags": 14, "saves": 1, "time_played": 20, "powerups": 6, "hold_against": 642, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 4, "handoffs": 7, "good_handoffs": 6, "grabs_off_regrab": 5, "caps_off_regrab": 1} },
-            { "team": "Big Cap Rescue", "player_season": "kolmogorov", "playing_as": "kolmogorov", "stats": {"score": 82, "team": 1, "prevent": 264, "returns": 29, "tags": 33, "grabs": 13, "pops": 22, "drops": 11, "hold": 108, "ndpops": 11, "captures": 2, "nrtags": 4, "flaccids": 4, "time_played": 20, "powerups": 4, "hold_against": 642, "plus_minus": -3, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 10, "key_returns": 2, "handoffs": 4, "good_handoffs": 3, "grabs_off_regrab": 4, "long_holds": 2} },
-            { "team": "Rap Snitch tNISHes", "player_season": "2P1S", "playing_as": "2P1S", "stats": {"score": 75, "team": 2, "grabs": 33, "pops": 31, "drops": 27, "hold": 268, "returns": 11, "tags": 14, "prevent": 77, "ndpops": 4, "captures": 6, "flaccids": 6, "saves": 2, "nrtags": 3, "gohandoff": 1, "cohandoff": 1, "time_played": 20, "powerups": 4, "hold_against": 600, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 5, "handoffs": 13, "good_handoffs": 8, "grabs_off_regrab": 7, "caps_off_regrab": 1, "long_holds": 2} },
-            { "team": "Rap Snitch tNISHes", "player_season": "Boo", "playing_as": "Boo", "stats": {"score": 89, "team": 2, "prevent": 319, "returns": 24, "tags": 32, "ndpops": 9, "pops": 22, "grabs": 15, "drops": 13, "hold": 98, "captures": 2, "flaccids": 4, "nrtags": 8, "time_played": 20, "powerups": 4, "hold_against": 600, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 7, "returns_in_base": 7, "key_returns": 4, "handoffs": 6, "good_handoffs": 4, "grabs_off_regrab": 4, "caps_off_regrab": 1} },
-            { "team": "Rap Snitch tNISHes", "player_season": "Chrysalis", "playing_as": "Chrysalis", "stats": {"score": 71, "team": 2, "prevent": 312, "ndpops": 12, "pops": 23, "tags": 30, "grabs": 13, "drops": 11, "hold": 48, "returns": 24, "nrtags": 6, "captures": 1, "flaccids": 5, "gohandoff": 1, "cohandoff": 1, "time_played": 20, "powerups": 3, "hold_against": 600, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 13, "key_returns": 2, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 7} },
-            { "team": "Rap Snitch tNISHes", "player_season": "beast mode", "playing_as": "beast mode", "stats": {"score": 84, "team": 2, "grabs": 28, "pops": 26, "drops": 23, "hold": 228, "prevent": 55, "returns": 14, "tags": 29, "captures": 4, "ndpops": 3, "gohandoff": 4, "flaccids": 4, "nrtags": 15, "saves": 1, "time_played": 20, "powerups": 6, "hold_against": 600, "plus_minus": 3, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 5, "handoffs": 8, "good_handoffs": 6, "grabs_off_regrab": 12, "caps_off_regrab": 2, "long_holds": 1} }
+            { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Big Cap Rescue", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
+            { "team": "Big Cap Rescue", "player_season": "kolmogorov", "playing_as": "kolmogorov" },
+            { "team": "Rap Snitch tNISHes", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Rap Snitch tNISHes", "player_season": "Boo", "playing_as": "Boo" },
+            { "team": "Rap Snitch tNISHes", "player_season": "Chrysalis", "playing_as": "Chrysalis" },
+            { "team": "Rap Snitch tNISHes", "player_season": "beast mode", "playing_as": "beast mode" }
           ]
         },
         {
-          "tagpro_eu": "3195837", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3195815", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Rap Snitch tNISHes", "blue_team": "Big Cap Rescue", "team1_score": 6, "team2_score": 9,
+          "players": [
+            { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Big Cap Rescue", "player_season": "flaccid trip", "playing_as": "flaccid trip" },
+            { "team": "Big Cap Rescue", "player_season": "kolmogorov", "playing_as": "kolmogorov" },
+            { "team": "Rap Snitch tNISHes", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Rap Snitch tNISHes", "player_season": "Boo", "playing_as": "Boo" },
+            { "team": "Rap Snitch tNISHes", "player_season": "Chrysalis", "playing_as": "Chrysalis" },
+            { "team": "Rap Snitch tNISHes", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195837", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Big Cap Rescue", "blue_team": "Rap Snitch tNISHes", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Big Cap Rescue", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
             { "team": "Big Cap Rescue", "player_season": "bbb", "playing_as": "bbb" },
@@ -1702,7 +1728,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Sussy Blockas", "team2": "Catalytic Cap Converters",
       "games": [
         {
-          "tagpro_eu": "3195704", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "3195704", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope" },
             { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
@@ -1715,7 +1741,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195720", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Catalytic Cap Converters", "blue_team": "Sussy Blockas", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3195720", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Catalytic Cap Converters", "blue_team": "Sussy Blockas", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope" },
             { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
@@ -1728,20 +1754,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 12, "team2_score": 5, "second_eu": "3195758", "switch_time": 600,
+          "tagpro_eu": "3195741", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 7, "team2_score": 3,
           "players": [
-            { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope", "stats": {"score": 76, "team": 2, "prevent": 276, "grabs": 12, "pops": 18, "drops": 11, "hold": 99, "returns": 29, "tags": 35, "ndpops": 7, "flaccids": 4, "gohandoff": 4, "nrtags": 6, "captures": 1, "time_played": 20, "powerups": 2, "hold_against": 584, "plus_minus": -7, "total_pups_in_game": 36, "quick_returns": 12, "returns_in_base": 13, "key_returns": 1, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 3, "long_holds": 1} },
-            { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay", "stats": {"score": 51, "team": 2, "grabs": 26, "pops": 32, "drops": 26, "hold": 111, "prevent": 51, "returns": 12, "tags": 19, "ndpops": 6, "flaccids": 13, "gohandoff": 1, "saves": 1, "nrtags": 7, "time_played": 20, "powerups": 7, "hold_against": 584, "plus_minus": -7, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 2, "handoffs": 8, "good_handoffs": 4, "grabs_off_regrab": 9} },
-            { "team": "Catalytic Cap Converters", "player_season": "JSwan", "playing_as": "JSwan", "stats": {"score": 62, "team": 2, "grabs": 46, "pops": 47, "drops": 43, "hold": 174, "captures": 2, "prevent": 52, "returns": 16, "tags": 30, "ndpops": 4, "gohandoff": 3, "flaccids": 21, "nrtags": 14, "saves": 1, "time_played": 20, "powerups": 6, "hold_against": 584, "plus_minus": -7, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 4, "key_returns": 1, "handoffs": 7, "good_handoffs": 6, "grabs_off_regrab": 6, "caps_off_regrab": 2, "long_holds": 1} },
-            { "team": "Catalytic Cap Converters", "player_season": "Perpetualist", "playing_as": "Perpetualist", "stats": {"score": 70, "team": 2, "prevent": 284, "returns": 22, "tags": 25, "grabs": 18, "pops": 24, "drops": 15, "hold": 95, "ndpops": 9, "captures": 2, "flaccids": 6, "gohandoff": 4, "saves": 2, "nrtags": 3, "time_played": 20, "powerups": 3, "hold_against": 584, "plus_minus": -7, "total_pups_in_game": 36, "quick_returns": 9, "returns_in_base": 11, "handoffs": 5, "good_handoffs": 4, "grabs_off_regrab": 2, "long_holds": 1} },
-            { "team": "Sussy Blockas", "player_season": "BoldRoller", "playing_as": "BoldRoller", "stats": {"score": 93, "team": 1, "prevent": 376, "returns": 38, "tags": 38, "grabs": 19, "pops": 23, "drops": 17, "hold": 108, "ndpops": 6, "captures": 2, "flaccids": 7, "gohandoff": 2, "nrtags": 0, "time_played": 20, "powerups": 3, "hold_against": 479, "plus_minus": 7, "total_pups_in_game": 36, "quick_returns": 26, "returns_in_base": 29, "key_returns": 2, "handoffs": 4, "good_handoffs": 4, "grabs_off_regrab": 7, "caps_off_regrab": 1} },
-            { "team": "Sussy Blockas", "player_season": "Jer32", "playing_as": "Jer32", "stats": {"score": 84, "team": 1, "grabs": 33, "pops": 34, "drops": 28, "hold": 193, "captures": 4, "prevent": 80, "returns": 18, "tags": 25, "ndpops": 6, "flaccids": 9, "gohandoff": 2, "nrtags": 7, "time_played": 20, "powerups": 6, "hold_against": 479, "plus_minus": 7, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 5, "key_returns": 1, "handoffs": 6, "good_handoffs": 3, "grabs_off_regrab": 8, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Sussy Blockas", "player_season": "KahnMan", "playing_as": "KahnMan", "stats": {"score": 75, "team": 1, "returns": 27, "tags": 40, "prevent": 350, "grabs": 12, "pops": 25, "drops": 10, "hold": 60, "ndpops": 15, "captures": 1, "flaccids": 3, "nrtags": 13, "time_played": 20, "powerups": 3, "hold_against": 479, "plus_minus": 7, "total_pups_in_game": 36, "quick_returns": 12, "returns_in_base": 15, "handoffs": 9, "good_handoffs": 8, "grabs_off_regrab": 5} },
-            { "team": "Sussy Blockas", "player_season": "MikeJones", "playing_as": "MikeJones", "stats": {"score": 89, "team": 1, "grabs": 30, "pops": 29, "drops": 25, "hold": 223, "prevent": 102, "returns": 11, "tags": 16, "ndpops": 4, "captures": 5, "flaccids": 7, "gohandoff": 2, "cohandoff": 2, "nrtags": 5, "time_played": 20, "powerups": 6, "hold_against": 479, "plus_minus": 7, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 2, "key_returns": 1, "handoffs": 11, "good_handoffs": 7, "grabs_off_regrab": 7, "caps_off_regrab": 1, "long_holds": 1} }
+            { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
+            { "team": "Catalytic Cap Converters", "player_season": "JSwan", "playing_as": "JSwan" },
+            { "team": "Catalytic Cap Converters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
+            { "team": "Sussy Blockas", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Sussy Blockas", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Sussy Blockas", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Sussy Blockas", "player_season": "MikeJones", "playing_as": "MikeJones" }
           ]
         },
         {
-          "tagpro_eu": "3195777", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3195758", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Catalytic Cap Converters", "blue_team": "Sussy Blockas", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope" },
+            { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
+            { "team": "Catalytic Cap Converters", "player_season": "JSwan", "playing_as": "JSwan" },
+            { "team": "Catalytic Cap Converters", "player_season": "Perpetualist", "playing_as": "Perpetualist" },
+            { "team": "Sussy Blockas", "player_season": "BoldRoller", "playing_as": "BoldRoller" },
+            { "team": "Sussy Blockas", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Sussy Blockas", "player_season": "KahnMan", "playing_as": "KahnMan" },
+            { "team": "Sussy Blockas", "player_season": "MikeJones", "playing_as": "MikeJones" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195777", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Sussy Blockas", "blue_team": "Catalytic Cap Converters", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Catalytic Cap Converters", "player_season": "360broscope", "playing_as": "360broscope" },
             { "team": "Catalytic Cap Converters", "player_season": "EphewSeakay", "playing_as": "EphewSeakay" },
@@ -1759,7 +1798,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "3195748", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "3195748", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
             { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
@@ -1772,7 +1811,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195779", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Tears for Spheres", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3195779", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Tears for Spheres", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
             { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
@@ -1785,20 +1824,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 7, "team2_score": 8, "second_eu": "3195812", "switch_time": 600,
+          "tagpro_eu": "3195797", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 2,
           "players": [
-            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First", "stats": {"score": 92, "team": 1, "prevent": 253, "tags": 22, "returns": 18, "ndpops": 6, "pops": 16, "grabs": 13, "captures": 3, "hold": 142, "drops": 10, "nrtags": 4, "gohandoff": 1, "flaccids": 3, "time_played": 20, "powerups": 4, "hold_against": 651, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 7, "key_returns": 1, "handoffs": 5, "good_handoffs": 5, "grabs_off_regrab": 4, "caps_off_regrab": 1, "long_holds": 3} },
-            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY", "stats": {"score": 56, "team": 1, "grabs": 26, "pops": 31, "drops": 25, "hold": 141, "prevent": 86, "ndpops": 6, "returns": 20, "tags": 20, "captures": 1, "flaccids": 10, "gohandoff": 1, "nrtags": 0, "saves": 1, "time_played": 20, "powerups": 3, "hold_against": 651, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 7, "key_returns": 1, "handoffs": 8, "good_handoffs": 7, "grabs_off_regrab": 5, "caps_off_regrab": 1, "long_holds": 1} },
-            { "team": "Miami Ballphins", "player_season": "SoulCake", "playing_as": "SoulCake", "stats": {"score": 74, "team": 1, "prevent": 234, "returns": 27, "tags": 28, "grabs": 24, "pops": 28, "drops": 23, "hold": 163, "ndpops": 5, "flaccids": 8, "nrtags": 1, "gohandoff": 1, "time_played": 20, "powerups": 6, "hold_against": 651, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 10, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 9, "long_holds": 1} },
-            { "team": "Miami Ballphins", "player_season": "astor", "playing_as": "astor", "stats": {"score": 59, "team": 1, "grabs": 23, "pops": 28, "drops": 20, "hold": 78, "prevent": 100, "ndpops": 8, "tags": 21, "returns": 16, "flaccids": 12, "saves": 1, "nrtags": 5, "captures": 3, "gohandoff": 2, "cohandoff": 1, "time_played": 20, "powerups": 5, "hold_against": 651, "plus_minus": -1, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 4, "handoffs": 6, "good_handoffs": 4, "grabs_off_regrab": 4} },
-            { "team": "Tears for Spheres", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"score": 89, "team": 2, "grabs": 32, "pops": 30, "drops": 28, "hold": 177, "prevent": 136, "tags": 22, "returns": 15, "captures": 4, "ndpops": 2, "flaccids": 10, "nrtags": 7, "gohandoff": 2, "time_played": 20, "powerups": 7, "hold_against": 524, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 3, "handoffs": 12, "good_handoffs": 10, "grabs_off_regrab": 8, "caps_off_regrab": 2} },
-            { "team": "Tears for Spheres", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum", "stats": {"score": 66, "team": 2, "returns": 20, "tags": 25, "prevent": 354, "grabs": 11, "pops": 16, "drops": 11, "hold": 66, "nrtags": 5, "ndpops": 5, "flaccids": 4, "gohandoff": 1, "time_played": 20, "powerups": 4, "hold_against": 524, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 11, "key_returns": 2, "handoffs": 5, "good_handoffs": 2, "grabs_off_regrab": 3} },
-            { "team": "Tears for Spheres", "player_season": "Squeeb", "playing_as": "Squeeb", "stats": {"score": 87, "team": 2, "prevent": 361, "returns": 27, "tags": 32, "grabs": 18, "pops": 20, "drops": 17, "hold": 122, "ndpops": 3, "flaccids": 4, "nrtags": 5, "captures": 1, "gohandoff": 2, "time_played": 20, "powerups": 4, "hold_against": 524, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 13, "returns_in_base": 17, "key_returns": 1, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 11, "long_holds": 1} },
-            { "team": "Tears for Spheres", "player_season": "depptonic", "playing_as": "depptonic", "stats": {"score": 76, "team": 2, "grabs": 29, "pops": 26, "drops": 25, "hold": 286, "ndpops": 1, "prevent": 107, "returns": 16, "tags": 23, "captures": 3, "saves": 1, "gohandoff": 5, "flaccids": 7, "cohandoff": 2, "nrtags": 7, "time_played": 20, "powerups": 3, "hold_against": 524, "plus_minus": 1, "total_pups_in_game": 36, "quick_returns": 5, "returns_in_base": 4, "handoffs": 11, "good_handoffs": 6, "grabs_off_regrab": 5, "caps_off_regrab": 1, "long_holds": 5} }
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "SoulCake", "playing_as": "SoulCake" },
+            { "team": "Miami Ballphins", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Tears for Spheres", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Tears for Spheres", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Tears for Spheres", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Tears for Spheres", "player_season": "depptonic", "playing_as": "depptonic" }
           ]
         },
         {
-          "tagpro_eu": "3195833", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3195812", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Tears for Spheres", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
+            { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
+            { "team": "Miami Ballphins", "player_season": "SoulCake", "playing_as": "SoulCake" },
+            { "team": "Miami Ballphins", "player_season": "astor", "playing_as": "astor" },
+            { "team": "Tears for Spheres", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Tears for Spheres", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Tears for Spheres", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Tears for Spheres", "player_season": "depptonic", "playing_as": "depptonic" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195833", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
             { "team": "Miami Ballphins", "player_season": "JARVISLANDRY", "playing_as": "JARVISLANDRY" },
@@ -1816,7 +1868,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Blue Suede Poosts", "team2": "Harlem Globebotters",
       "games": [
         {
-          "tagpro_eu": "3195747", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Blue Suede Poosts", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3195747", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Blue Suede Poosts", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -1829,7 +1881,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195765", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Harlem Globebotters", "blue_team": "Blue Suede Poosts", "team1_score": 2, "team2_score": 9,
+          "tagpro_eu": "3195765", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Harlem Globebotters", "blue_team": "Blue Suede Poosts", "team1_score": 2, "team2_score": 9,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -1842,20 +1894,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Harlem Globebotters", "blue_team": "Blue Suede Poosts", "team1_score": 3, "team2_score": 11, "second_eu": "3195804", "switch_time": 600,
+          "tagpro_eu": "3195785", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Harlem Globebotters", "blue_team": "Blue Suede Poosts", "team1_score": 3, "team2_score": 4,
           "players": [
-            { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel", "stats": {"score": 51, "team": 2, "grabs": 25, "pops": 31, "drops": 25, "hold": 176, "ndpops": 6, "prevent": 82, "returns": 17, "tags": 19, "flaccids": 8, "gohandoff": 1, "nrtags": 2, "time_played": 20, "powerups": 6, "hold_against": 618, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 8, "returns_in_base": 9, "key_returns": 1, "handoffs": 6, "good_handoffs": 5, "grabs_off_regrab": 5, "long_holds": 2} },
-            { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap", "stats": {"score": 74, "team": 2, "prevent": 179, "returns": 34, "tags": 36, "ndpops": 5, "pops": 17, "grabs": 14, "captures": 2, "hold": 64, "drops": 12, "flaccids": 4, "gohandoff": 1, "cohandoff": 1, "nrtags": 2, "saves": 1, "time_played": 20, "powerups": 2, "hold_against": 618, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 13, "returns_in_base": 17, "key_returns": 1, "handoffs": 5, "good_handoffs": 4, "grabs_off_regrab": 2} },
-            { "team": "Blue Suede Poosts", "player_season": "RedKillTiger", "playing_as": "RedKillTiger", "stats": {"score": 67, "team": 2, "prevent": 259, "returns": 30, "tags": 36, "grabs": 7, "pops": 12, "drops": 7, "hold": 15, "ndpops": 5, "flaccids": 4, "nrtags": 6, "gohandoff": 1, "time_played": 20, "powerups": 5, "hold_against": 618, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 10, "grabs_off_regrab": 1} },
-            { "team": "Blue Suede Poosts", "player_season": "kl", "playing_as": "kl", "stats": {"score": 40, "team": 2, "grabs": 38, "pops": 47, "drops": 37, "hold": 142, "ndpops": 10, "tags": 22, "prevent": 37, "returns": 20, "captures": 1, "flaccids": 17, "nrtags": 2, "gohandoff": 3, "time_played": 20, "powerups": 3, "hold_against": 618, "plus_minus": -8, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 3, "handoffs": 9, "good_handoffs": 7, "grabs_off_regrab": 5} },
-            { "team": "Harlem Globebotters", "player_season": "BertAndBort", "playing_as": "BertAndBort", "stats": {"score": 72, "team": 1, "grabs": 38, "pops": 39, "drops": 37, "hold": 239, "prevent": 151, "tags": 19, "returns": 15, "ndpops": 2, "flaccids": 11, "gohandoff": 2, "nrtags": 4, "captures": 1, "time_played": 20, "powerups": 3, "hold_against": 397, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 4, "returns_in_base": 4, "handoffs": 15, "good_handoffs": 7, "grabs_off_regrab": 9, "long_holds": 1} },
-            { "team": "Harlem Globebotters", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy", "stats": {"score": 88, "team": 1, "prevent": 435, "returns": 28, "tags": 28, "grabs": 13, "captures": 2, "hold": 55, "pops": 16, "drops": 11, "ndpops": 5, "gohandoff": 2, "cohandoff": 1, "flaccids": 6, "nrtags": 0, "time_played": 20, "powerups": 2, "hold_against": 397, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 18, "returns_in_base": 18, "key_returns": 1, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 3} },
-            { "team": "Harlem Globebotters", "player_season": "Prime", "playing_as": "Prime", "stats": {"score": 116, "team": 1, "grabs": 42, "captures": 7, "hold": 236, "prevent": 90, "pops": 39, "drops": 35, "tags": 25, "returns": 14, "ndpops": 4, "flaccids": 13, "gohandoff": 5, "nrtags": 11, "cohandoff": 1, "time_played": 20, "powerups": 9, "hold_against": 397, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 1, "returns_in_base": 3, "handoffs": 14, "good_handoffs": 9, "grabs_off_regrab": 14, "caps_off_regrab": 5, "long_holds": 1} },
-            { "team": "Harlem Globebotters", "player_season": "wet bat", "playing_as": "wet bat", "stats": {"score": 92, "team": 1, "prevent": 398, "returns": 23, "tags": 32, "grabs": 20, "pops": 20, "drops": 18, "hold": 88, "ndpops": 2, "flaccids": 5, "saves": 1, "gohandoff": 3, "nrtags": 9, "captures": 1, "time_played": 20, "powerups": 6, "hold_against": 397, "plus_minus": 8, "total_pups_in_game": 36, "quick_returns": 9, "returns_in_base": 9, "key_returns": 2, "handoffs": 4, "good_handoffs": 2, "grabs_off_regrab": 2} }
+            { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
+            { "team": "Blue Suede Poosts", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Blue Suede Poosts", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Harlem Globebotters", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "Harlem Globebotters", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Harlem Globebotters", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Harlem Globebotters", "player_season": "wet bat", "playing_as": "wet bat" }
           ]
         },
         {
-          "tagpro_eu": "3195825", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Blue Suede Poosts", "blue_team": "Harlem Globebotters", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3195804", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Blue Suede Poosts", "blue_team": "Harlem Globebotters", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
+            { "team": "Blue Suede Poosts", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Blue Suede Poosts", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Harlem Globebotters", "player_season": "BertAndBort", "playing_as": "BertAndBort" },
+            { "team": "Harlem Globebotters", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Harlem Globebotters", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Harlem Globebotters", "player_season": "wet bat", "playing_as": "wet bat" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195825", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Blue Suede Poosts", "blue_team": "Harlem Globebotters", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -1873,7 +1938,7 @@
       "season": "mLTP S27", "date": "2022-05-16", "week": "Week 3", "team1": "Holdin' Gate Warriors", "team2": "Returns of the Jedi",
       "games": [
         {
-          "tagpro_eu": "3195684", "game_in_match": "Game 1 Half 1", "map_name": "Pine", "map_id": 14289, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3195684", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
@@ -1886,7 +1951,7 @@
           ]
         },
         {
-          "tagpro_eu": "3195699", "game_in_match": "Game 1 Half 2", "map_name": "Pine", "map_id": 14289, "red_team": "Returns of the Jedi", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3195699", "game_in_match": "Game 2", "map_name": "Pine", "map_id": 14289, "red_team": "Returns of the Jedi", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
@@ -1899,20 +1964,33 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 2 Half 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 7, "second_eu": "3195734", "switch_time": 600,
+          "tagpro_eu": "3195713", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 2, "team2_score": 4,
           "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto", "stats": {"score": 65, "team": 1, "prevent": 169, "returns": 15, "tags": 16, "grabs": 16, "pops": 24, "drops": 16, "hold": 161, "ndpops": 8, "saves": 1, "gohandoff": 2, "flaccids": 3, "nrtags": 1, "time_played": 20, "powerups": 5, "hold_against": 731, "plus_minus": -2, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 2, "key_returns": 2, "handoffs": 9, "good_handoffs": 7, "grabs_off_regrab": 5, "long_holds": 3} },
-            { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk", "stats": {"score": 80, "team": 1, "grabs": 29, "pops": 33, "drops": 26, "hold": 179, "prevent": 54, "returns": 19, "tags": 26, "ndpops": 7, "captures": 3, "flaccids": 8, "saves": 1, "gohandoff": 2, "nrtags": 7, "time_played": 20, "powerups": 7, "hold_against": 731, "plus_minus": -2, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 6, "key_returns": 2, "handoffs": 13, "good_handoffs": 6, "grabs_off_regrab": 7, "caps_off_regrab": 2, "long_holds": 1} },
-            { "team": "Holdin' Gate Warriors", "player_season": "anti-re", "playing_as": "anti-re", "stats": {"score": 68, "team": 1, "grabs": 32, "pops": 33, "drops": 30, "hold": 186, "prevent": 57, "returns": 23, "tags": 28, "ndpops": 3, "flaccids": 10, "gohandoff": 5, "nrtags": 5, "captures": 1, "time_played": 20, "powerups": 6, "hold_against": 731, "plus_minus": -2, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 11, "key_returns": 1, "handoffs": 10, "good_handoffs": 8, "grabs_off_regrab": 9, "caps_off_regrab": 1, "long_holds": 2} },
-            { "team": "Holdin' Gate Warriors", "player_season": "naga", "playing_as": "naga", "stats": {"score": 73, "team": 1, "prevent": 145, "returns": 27, "tags": 33, "grabs": 18, "pops": 23, "drops": 17, "hold": 110, "ndpops": 6, "gohandoff": 3, "flaccids": 5, "nrtags": 6, "captures": 1, "time_played": 20, "powerups": 6, "hold_against": 731, "plus_minus": -2, "total_pups_in_game": 36, "quick_returns": 9, "returns_in_base": 10, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 7, "caps_off_regrab": 1} },
-            { "team": "Returns of the Jedi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat", "stats": {"score": 70, "team": 2, "grabs": 38, "pops": 36, "drops": 34, "hold": 286, "returns": 20, "tags": 21, "captures": 4, "prevent": 27, "flaccids": 8, "gohandoff": 5, "nrtags": 1, "ndpops": 2, "cohandoff": 1, "time_played": 20, "hold_against": 636, "plus_minus": 2, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 1, "handoffs": 11, "good_handoffs": 7, "grabs_off_regrab": 9, "caps_off_regrab": 1, "long_holds": 3} },
-            { "team": "Returns of the Jedi", "player_season": "Mike Trout", "playing_as": "Mike Trout", "stats": {"score": 102, "team": 2, "prevent": 316, "returns": 31, "tags": 32, "ndpops": 3, "pops": 9, "grabs": 9, "drops": 6, "hold": 53, "captures": 2, "nrtags": 1, "gohandoff": 1, "flaccids": 2, "time_played": 20, "powerups": 2, "hold_against": 636, "plus_minus": 2, "total_pups_in_game": 36, "quick_returns": 12, "returns_in_base": 6, "key_returns": 1, "handoffs": 5, "good_handoffs": 5, "grabs_off_regrab": 3, "long_holds": 1} },
-            { "team": "Returns of the Jedi", "player_season": "WRIG", "playing_as": "WRIG", "stats": {"score": 78, "team": 2, "prevent": 176, "returns": 12, "tags": 21, "grabs": 20, "pops": 30, "drops": 19, "hold": 197, "ndpops": 11, "captures": 1, "gohandoff": 2, "nrtags": 9, "flaccids": 4, "time_played": 20, "powerups": 5, "hold_against": 636, "plus_minus": 2, "total_pups_in_game": 36, "quick_returns": 1, "returns_in_base": 1, "key_returns": 2, "handoffs": 10, "good_handoffs": 4, "grabs_off_regrab": 9, "long_holds": 2} },
-            { "team": "Returns of the Jedi", "player_season": "boogie", "playing_as": "boogie", "stats": {"score": 65, "team": 2, "grabs": 26, "pops": 29, "drops": 26, "hold": 195, "prevent": 135, "returns": 25, "tags": 34, "ndpops": 3, "gohandoff": 4, "flaccids": 13, "nrtags": 9, "saves": 1, "time_played": 20, "powerups": 5, "hold_against": 636, "plus_minus": 2, "total_pups_in_game": 36, "quick_returns": 10, "returns_in_base": 9, "key_returns": 1, "handoffs": 7, "good_handoffs": 4, "grabs_off_regrab": 9, "long_holds": 4} }
+            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
+            { "team": "Holdin' Gate Warriors", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Holdin' Gate Warriors", "player_season": "naga", "playing_as": "naga" },
+            { "team": "Returns of the Jedi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Returns of the Jedi", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
+            { "team": "Returns of the Jedi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Returns of the Jedi", "player_season": "boogie", "playing_as": "boogie" }
           ]
         },
         {
-          "tagpro_eu": "3195749", "game_in_match": "Game 2 Half 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 0, "team2_score": 11,
+          "tagpro_eu": "3195734", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Returns of the Jedi", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
+            { "team": "Holdin' Gate Warriors", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Holdin' Gate Warriors", "player_season": "naga", "playing_as": "naga" },
+            { "team": "Returns of the Jedi", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Returns of the Jedi", "player_season": "Mike Trout", "playing_as": "Mike Trout" },
+            { "team": "Returns of the Jedi", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Returns of the Jedi", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "3195749", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "Returns of the Jedi", "team1_score": 0, "team2_score": 11,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
             { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
@@ -3751,7 +3829,7 @@
       "season": "mLTP S27", "date": "2022-06-06", "week": "Week 6", "team1": "Holdin' Gate Warriors", "team2": "Blue Suede Poosts",
       "games": [
         {
-          "tagpro_eu": "3214977", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3214977", "game_in_match": "Game 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 3, "team2_score": 4, "second_eu": "3214985", "switch_time": 600,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -3764,20 +3842,7 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Blue Suede Poosts", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 10, "second_eu": "3215036", "switch_time": 600,
-          "players": [
-            { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel", "stats": {"score": 75, "team": 1, "returns": 21, "tags": 25, "prevent": 203, "ndpops": 5, "pops": 19, "grabs": 16, "drops": 14, "hold": 91, "flaccids": 3, "nrtags": 4, "captures": 1, "gohandoff": 1, "time_played": 20, "powerups": 5, "hold_against": 556, "plus_minus": 5, "total_pups_in_game": 36, "quick_returns": 7, "returns_in_base": 8, "key_returns": 3, "handoffs": 7, "good_handoffs": 6, "grabs_off_regrab": 6, "long_holds": 1} },
-            { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap", "stats": {"score": 74, "team": 1, "grabs": 22, "pops": 25, "drops": 20, "hold": 201, "prevent": 123, "tags": 25, "captures": 2, "ndpops": 5, "returns": 20, "flaccids": 6, "nrtags": 5, "gohandoff": 2, "cohandoff": 1, "time_played": 20, "powerups": 3, "hold_against": 556, "plus_minus": 5, "total_pups_in_game": 36, "quick_returns": 6, "returns_in_base": 9, "key_returns": 1, "handoffs": 9, "good_handoffs": 6, "grabs_off_regrab": 8, "long_holds": 3} },
-            { "team": "Blue Suede Poosts", "player_season": "RedKillTiger", "playing_as": "RedKillTiger", "stats": {"score": 93, "team": 1, "prevent": 247, "returns": 21, "tags": 22, "ndpops": 4, "pops": 12, "grabs": 11, "drops": 8, "hold": 59, "flaccids": 2, "gohandoff": 2, "nrtags": 1, "captures": 2, "saves": 1, "time_played": 20, "powerups": 6, "hold_against": 556, "plus_minus": 5, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 11, "handoffs": 5, "good_handoffs": 3, "grabs_off_regrab": 4, "caps_off_regrab": 1} },
-            { "team": "Blue Suede Poosts", "player_season": "kl", "playing_as": "kl", "stats": {"score": 109, "team": 1, "grabs": 25, "pops": 22, "drops": 20, "hold": 263, "prevent": 142, "captures": 5, "returns": 18, "tags": 23, "flaccids": 3, "gohandoff": 1, "nrtags": 5, "ndpops": 2, "time_played": 20, "powerups": 5, "hold_against": 556, "plus_minus": 5, "total_pups_in_game": 36, "quick_returns": 11, "returns_in_base": 11, "key_returns": 1, "handoffs": 9, "good_handoffs": 7, "grabs_off_regrab": 9, "caps_off_regrab": 1, "long_holds": 3} },
-            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto", "stats": {"score": 82, "team": 2, "prevent": 250, "grabs": 17, "pops": 23, "drops": 17, "hold": 112, "returns": 26, "tags": 27, "ndpops": 6, "flaccids": 6, "nrtags": 1, "gohandoff": 3, "time_played": 20, "powerups": 6, "hold_against": 614, "plus_minus": -5, "total_pups_in_game": 36, "quick_returns": 9, "returns_in_base": 10, "key_returns": 1, "handoffs": 9, "good_handoffs": 8, "grabs_off_regrab": 3} },
-            { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk", "stats": {"score": 49, "team": 2, "grabs": 28, "pops": 31, "drops": 24, "hold": 157, "prevent": 44, "ndpops": 7, "quit": false, "game_end": 5445, "game_start": 14727, "captures": 4, "returns": 3, "tags": 3, "flaccids": 11, "gohandoff": 3, "nrtags": 0, "cohandoff": 1, "time_played": 17, "powerups": 4, "hold_against": 614, "plus_minus": -5, "total_pups_in_game": 36, "handoffs": 6, "good_handoffs": 5, "grabs_off_regrab": 5, "long_holds": 1} },
-            { "team": "Holdin' Gate Warriors", "player_season": "anti-re", "playing_as": "anti-re", "stats": {"score": 54, "team": 2, "grabs": 30, "pops": 35, "drops": 29, "hold": 172, "prevent": 121, "ndpops": 6, "returns": 12, "tags": 16, "gohandoff": 4, "flaccids": 11, "nrtags": 4, "captures": 1, "saves": 1, "time_played": 20, "powerups": 4, "hold_against": 614, "plus_minus": -5, "total_pups_in_game": 36, "quick_returns": 2, "returns_in_base": 4, "handoffs": 9, "good_handoffs": 7, "grabs_off_regrab": 9, "long_holds": 1} },
-            { "team": "Holdin' Gate Warriors", "player_season": "naga", "playing_as": "naga", "stats": {"score": 66, "team": 2, "prevent": 261, "returns": 17, "tags": 21, "ndpops": 9, "pops": 24, "grabs": 15, "drops": 15, "hold": 115, "flaccids": 7, "nrtags": 4, "time_played": 20, "powerups": 3, "hold_against": 614, "plus_minus": -5, "total_pups_in_game": 36, "quick_returns": 3, "returns_in_base": 5, "handoffs": 6, "good_handoffs": 5, "grabs_off_regrab": 5, "long_holds": 3} }
-          ]
-        },
-        {
-          "tagpro_eu": "3214985", "game_in_match": "Game 1 Overtime", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 1, "team2_score": 0,
+          "tagpro_eu": "3215010", "game_in_match": "Game 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Blue Suede Poosts", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -3790,7 +3855,7 @@
           ]
         },
         {
-          "tagpro_eu": "3215057", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 14756, "red_team": "Blue Suede Poosts", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3215036", "game_in_match": "Game 3", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 4, "team2_score": 6,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
@@ -3803,7 +3868,20 @@
           ]
         },
         {
-          "tagpro_eu": "3215077", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 7, "team2_score": 8,
+          "tagpro_eu": "3215057", "game_in_match": "Game 4", "map_name": "Jardim", "map_id": 14756, "red_team": "Blue Suede Poosts", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
+            { "team": "Blue Suede Poosts", "player_season": "RedKillTiger", "playing_as": "RedKillTiger" },
+            { "team": "Blue Suede Poosts", "player_season": "kl", "playing_as": "kl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Sir Cle Jerk", "playing_as": "Sir Cle Jerk" },
+            { "team": "Holdin' Gate Warriors", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Holdin' Gate Warriors", "player_season": "naga", "playing_as": "naga" }
+          ]
+        },
+        {
+          "tagpro_eu": "3215077", "game_in_match": "Game 5", "map_name": "Jardim", "map_id": 14756, "red_team": "Holdin' Gate Warriors", "blue_team": "Blue Suede Poosts", "team1_score": 7, "team2_score": 8,
           "players": [
             { "team": "Blue Suede Poosts", "player_season": "Cel", "playing_as": "Cel" },
             { "team": "Blue Suede Poosts", "player_season": "LogisticMap", "playing_as": "LogisticMap" },

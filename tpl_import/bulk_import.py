@@ -52,12 +52,10 @@ def match_from_links(g: Dict[str, Any]) -> Optional[tagpro_eu.Match]:
     eu_id = g['links'][0].split("=")[1]
     if eu_id not in bulkmatches:
         return None
-    # If there is a second tagpro.eu link, that's ok as long as its time limit is <10
+    # If there is a second tagpro.eu link, that's ok (though look into ones where the time limit is >10)
     if len(g['links']) > 1:
         eu_id2 = g['links'][1].split("=")[1]
         if eu_id2 not in bulkmatches:
-            return None
-        if bulkmatches[eu_id2].timeLimit >= 10:
             return None
     return bulkmatches[eu_id]
 
@@ -354,6 +352,16 @@ for season_name in seasons:
             games.insert(2, games[1].copy())
             games[2]['links'] = [games[1]['links'][1]]
             games[1]['links'] = [games[1]['links'][0]]
+            for i in range(5):
+                games[i]['game'] = f"Game {i + 1}"
+                games[i]['half'] = f"Half 1"
+        elif games[0]['season'] in [27, 29]\
+                and len(games) == 4\
+                and len(games[2]['links']) == 2:
+            games: List[Dict] = games
+            games.insert(3, games[2].copy())
+            games[3]['links'] = [games[2]['links'][1]]
+            games[2]['links'] = [games[2]['links'][0]]
             for i in range(5):
                 games[i]['game'] = f"Game {i + 1}"
                 games[i]['half'] = f"Half 1"
