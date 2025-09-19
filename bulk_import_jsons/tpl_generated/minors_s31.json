@@ -218,7 +218,7 @@
       "season": "mLTP S31", "date": "2023-09-25", "week": "Week 1", "team1": "Boosting Ballacudas", "team2": "The Way of Pings",
       "games": [
         {
-          "tagpro_eu": "3524654", "game_in_match": "Game 1 Half 1", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3524654", "game_in_match": "Game 1", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32" },
@@ -231,20 +231,7 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Boosting Ballacudas", "team1_score": 10, "team2_score": 7, "second_eu": "3524689", "switch_time": 0,
-          "players": [
-            { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor", "stats": {"score": 67, "team": 2, "prevent": 309, "returns": 26, "tags": 33, "ndpops": 6, "pops": 21, "pups": 4, "grabs": 15, "drops": 15, "hold": 101, "minutes": 20, "quickret": 11, "retinbase": 10, "handoff": 4, "gohandoff": 2, "flaccids": 5, "nrtags": 7, "holdagainst": 526, "pupscomp": 36, "pm": 3, "goregrab": 2, "longholds": 1} },
-            { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32", "stats": {"score": 94, "team": 2, "grabs": 40, "captures": 8, "hold": 231, "prevent": 51, "pops": 35, "drops": 31, "pups": 3, "tags": 17, "returns": 13, "ndpops": 4, "minutes": 20, "goodhandoff": 12, "handoff": 14, "goregrab": 6, "flaccids": 11, "gohandoff": 4, "cohandoff": 2, "quickret": 3, "retinbase": 4, "nrtags": 4, "holdagainst": 526, "pupscomp": 36, "pm": 3, "longholds": 1, "coregrab": 1, "keyret": 1} },
-            { "team": "Boosting Ballacudas", "player_season": "Porps", "playing_as": "Porps", "stats": {"score": 87, "team": 2, "prevent": 301, "pups": 7, "returns": 31, "tags": 38, "grabs": 17, "pops": 19, "drops": 16, "hold": 61, "captures": 1, "ndpops": 3, "minutes": 20, "quickret": 13, "retinbase": 10, "gohandoff": 5, "cohandoff": 1, "goodhandoff": 3, "handoff": 3, "keyret": 1, "goregrab": 3, "flaccids": 4, "nrtags": 7, "holdagainst": 526, "pupscomp": 36, "pm": 3} },
-            { "team": "Boosting Ballacudas", "player_season": "Some Ball 21", "playing_as": "Some Ball 21", "stats": {"score": 40, "team": 2, "grabs": 35, "pops": 45, "drops": 34, "hold": 134, "prevent": 51, "returns": 12, "tags": 17, "ndpops": 11, "minutes": 20, "goregrab": 7, "handoff": 14, "flaccids": 14, "goodhandoff": 6, "retinbase": 1, "saves": 1, "gohandoff": 5, "nrtags": 5, "holdagainst": 526, "pupscomp": 36, "pm": 3, "captures": 1, "pups": 2} },
-            { "team": "The Way of Pings", "player_season": "Button", "playing_as": "Button", "stats": {"score": 66, "team": 1, "returns": 13, "tags": 21, "grabs": 36, "pops": 37, "drops": 33, "hold": 224, "prevent": 49, "pups": 4, "captures": 3, "minutes": 20, "flaccids": 9, "gohandoff": 4, "retinbase": 6, "goodhandoff": 5, "handoff": 14, "goregrab": 4, "coregrab": 2, "quickret": 4, "nrtags": 8, "holdagainst": 527, "pupscomp": 36, "pm": -3, "ndpops": 4, "longholds": 1, "cohandoff": 1} },
-            { "team": "The Way of Pings", "player_season": "GtR", "playing_as": "GtR", "stats": {"score": 105, "team": 1, "prevent": 401, "returns": 42, "tags": 44, "pups": 7, "grabs": 6, "pops": 10, "drops": 5, "hold": 18, "ndpops": 5, "captures": 1, "minutes": 20, "retinbase": 19, "quickret": 16, "gohandoff": 2, "saves": 1, "cohandoff": 1, "nrtags": 2, "holdagainst": 527, "pupscomp": 36, "pm": -3, "goodhandoff": 2, "handoff": 2, "goregrab": 2, "flaccids": 2, "keyret": 1} },
-            { "team": "The Way of Pings", "player_season": "OD GOD", "playing_as": "OD GOD", "stats": {"score": 90, "team": 1, "prevent": 312, "returns": 30, "tags": 40, "grabs": 14, "pops": 19, "drops": 13, "hold": 128, "ndpops": 6, "pups": 5, "captures": 1, "minutes": 20, "goregrab": 3, "flaccids": 6, "quickret": 13, "retinbase": 13, "longholds": 2, "keyret": 1, "nrtags": 10, "holdagainst": 527, "pupscomp": 36, "pm": -3, "handoff": 4, "gohandoff": 1, "goodhandoff": 2} },
-            { "team": "The Way of Pings", "player_season": "Sweg'", "playing_as": "Sweg'", "stats": {"score": 51, "team": 1, "prevent": 83, "grabs": 34, "pops": 42, "drops": 32, "hold": 156, "ndpops": 10, "returns": 9, "tags": 9, "pups": 4, "minutes": 20, "flaccids": 11, "gohandoff": 3, "goregrab": 13, "longholds": 1, "goodhandoff": 4, "handoff": 5, "nrtags": 0, "holdagainst": 527, "pupscomp": 36, "pm": -3, "captures": 2, "coregrab": 2, "quickret": 1, "retinbase": 1} }
-          ]
-        },
-        {
-          "tagpro_eu": "3524692", "game_in_match": "Game 1 Overtime", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 1, "team2_score": 0,
+          "tagpro_eu": "3524665", "game_in_match": "Game 2", "map_name": "Oak", "map_id": 15154, "red_team": "The Way of Pings", "blue_team": "Boosting Ballacudas", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32" },
@@ -257,7 +244,7 @@
           ]
         },
         {
-          "tagpro_eu": "3524697", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3524689", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 4, "second_eu": "3524692", "switch_time": 600,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32" },
@@ -270,7 +257,20 @@
           ]
         },
         {
-          "tagpro_eu": "3524704", "game_in_match": "Game 2 Half 2", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3524697", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Boosting Ballacudas", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
+            { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Boosting Ballacudas", "player_season": "Porps", "playing_as": "Porps" },
+            { "team": "Boosting Ballacudas", "player_season": "Some Ball 21", "playing_as": "Some Ball 21" },
+            { "team": "The Way of Pings", "player_season": "Button", "playing_as": "Button" },
+            { "team": "The Way of Pings", "player_season": "GtR", "playing_as": "GtR" },
+            { "team": "The Way of Pings", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "The Way of Pings", "player_season": "Sweg'", "playing_as": "Sweg'" }
+          ]
+        },
+        {
+          "tagpro_eu": "3524704", "game_in_match": "Game 5", "map_name": "Oak", "map_id": 15154, "red_team": "Boosting Ballacudas", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Boosting Ballacudas", "player_season": "3.1 Thor", "playing_as": "3.1 Thor" },
             { "team": "Boosting Ballacudas", "player_season": "Jer32", "playing_as": "Jer32" },
@@ -2108,7 +2108,7 @@
       "season": "mLTP S31", "date": "2023-10-16", "week": "Week 5", "team1": "Linoleum Tile", "team2": "Nuclear Jukes",
       "games": [
         {
-          "tagpro_eu": "3536353", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3536353", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon" },
             { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace" },
@@ -2121,20 +2121,7 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Nuclear Jukes", "blue_team": "Linoleum Tile", "team1_score": 2, "team2_score": 6, "second_eu": "3536390", "switch_time": 0,
-          "players": [
-            { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon", "stats": {"score": 63, "team": 2, "grabs": 27, "pops": 33, "drops": 27, "hold": 217, "prevent": 107, "returns": 18, "tags": 19, "pups": 6, "ndpops": 6, "minutes": 20, "handoff": 14, "longholds": 2, "goodhandoff": 10, "flaccids": 6, "quickret": 4, "retinbase": 6, "gohandoff": 3, "goregrab": 3, "nrtags": 1, "holdagainst": 609, "pupscomp": 36, "pm": -4} },
-            { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace", "stats": {"score": 96, "team": 2, "prevent": 177, "returns": 23, "tags": 26, "pups": 4, "grabs": 18, "pops": 19, "drops": 16, "hold": 137, "ndpops": 3, "captures": 2, "minutes": 20, "quickret": 6, "retinbase": 9, "goodhandoff": 6, "handoff": 11, "longholds": 1, "flaccids": 1, "nrtags": 3, "holdagainst": 609, "pupscomp": 36, "pm": -4, "saves": 1, "gohandoff": 3, "cohandoff": 1, "goregrab": 1} },
-            { "team": "Linoleum Tile", "player_season": "gc", "playing_as": "gc", "stats": {"score": 63, "team": 2, "grabs": 27, "returns": 10, "tags": 12, "pops": 28, "drops": 25, "hold": 175, "prevent": 80, "pups": 3, "ndpops": 3, "minutes": 20, "goregrab": 9, "handoff": 11, "gohandoff": 5, "goodhandoff": 5, "longholds": 1, "flaccids": 3, "nrtags": 2, "holdagainst": 609, "pupscomp": 36, "pm": -4, "retinbase": 1, "saves": 1, "keyret": 1} },
-            { "team": "Linoleum Tile", "player_season": "king krule", "playing_as": "king krule", "stats": {"score": 68, "team": 2, "pups": 7, "tags": 20, "grabs": 18, "pops": 20, "drops": 18, "hold": 134, "prevent": 156, "returns": 14, "ndpops": 2, "minutes": 20, "goodhandoff": 2, "handoff": 4, "goregrab": 9, "quickret": 6, "retinbase": 7, "keyret": 1, "flaccids": 1, "nrtags": 6, "holdagainst": 609, "pupscomp": 36, "pm": -4, "longholds": 1} },
-            { "team": "Nuclear Jukes", "player_season": "Cel", "playing_as": "Cel", "stats": {"score": 85, "team": 1, "prevent": 166, "ndpops": 5, "pops": 13, "returns": 26, "tags": 30, "grabs": 8, "drops": 8, "hold": 147, "pups": 6, "minutes": 20, "goregrab": 3, "goodhandoff": 4, "handoff": 6, "retinbase": 4, "quickret": 4, "longholds": 2, "keyret": 2, "nrtags": 4, "holdagainst": 663, "pupscomp": 36, "pm": 4, "gohandoff": 1} },
-            { "team": "Nuclear Jukes", "player_season": "LogisticMap", "playing_as": "LogisticMap", "stats": {"score": 78, "team": 1, "prevent": 161, "grabs": 24, "pops": 25, "drops": 20, "hold": 103, "ndpops": 5, "returns": 23, "tags": 25, "captures": 2, "pups": 3, "minutes": 20, "goodhandoff": 6, "handoff": 12, "flaccids": 8, "goregrab": 2, "quickret": 3, "retinbase": 5, "nrtags": 2, "holdagainst": 663, "pupscomp": 36, "pm": 4} },
-            { "team": "Nuclear Jukes", "player_season": "Penis Wings", "playing_as": "Penis Wings", "stats": {"score": 79, "team": 1, "grabs": 25, "pops": 27, "drops": 22, "hold": 156, "returns": 13, "tags": 14, "prevent": 65, "ndpops": 5, "pups": 5, "captures": 3, "minutes": 20, "goregrab": 11, "flaccids": 8, "longholds": 1, "goodhandoff": 5, "handoff": 6, "quickret": 1, "retinbase": 3, "coregrab": 2, "nrtags": 1, "holdagainst": 663, "pupscomp": 36, "pm": 4, "gohandoff": 1} },
-            { "team": "Nuclear Jukes", "player_season": "bubblez", "playing_as": "bubblez", "stats": {"score": 65, "team": 1, "grabs": 19, "returns": 22, "tags": 26, "pops": 23, "drops": 18, "hold": 203, "ndpops": 5, "prevent": 81, "pups": 2, "captures": 1, "minutes": 20, "longholds": 4, "goregrab": 5, "retinbase": 5, "goodhandoff": 4, "handoff": 4, "gohandoff": 4, "keyret": 2, "flaccids": 1, "cohandoff": 1, "quickret": 3, "nrtags": 4, "holdagainst": 663, "pupscomp": 36, "pm": 4} }
-          ]
-        },
-        {
-          "tagpro_eu": "3536392", "game_in_match": "Game 1 Overtime", "map_name": "Willow ", "map_id": 14107, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "3536368", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Nuclear Jukes", "blue_team": "Linoleum Tile", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon" },
             { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace" },
@@ -2147,7 +2134,7 @@
           ]
         },
         {
-          "tagpro_eu": "3536413", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Nuclear Jukes", "blue_team": "Linoleum Tile", "team1_score": 3, "team2_score": 6,
+          "tagpro_eu": "3536390", "game_in_match": "Game 3", "map_name": "Willow ", "map_id": 14107, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 2, "team2_score": 1, "second_eu": "3536392", "switch_time": 600,
           "players": [
             { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon" },
             { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace" },
@@ -2160,7 +2147,20 @@
           ]
         },
         {
-          "tagpro_eu": "3536426", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3536413", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Nuclear Jukes", "blue_team": "Linoleum Tile", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon" },
+            { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace" },
+            { "team": "Linoleum Tile", "player_season": "gc", "playing_as": "gc" },
+            { "team": "Linoleum Tile", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Nuclear Jukes", "player_season": "Cel", "playing_as": "Cel" },
+            { "team": "Nuclear Jukes", "player_season": "LogisticMap", "playing_as": "LogisticMap" },
+            { "team": "Nuclear Jukes", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Nuclear Jukes", "player_season": "bubblez", "playing_as": "bubblez" }
+          ]
+        },
+        {
+          "tagpro_eu": "3536426", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Linoleum Tile", "blue_team": "Nuclear Jukes", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Linoleum Tile", "player_season": "J24gordon", "playing_as": "J24gordon" },
             { "team": "Linoleum Tile", "player_season": "ThePace", "playing_as": "ThePace" },

@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerGameStats, PlayerRegulationGameStats, PlayerWeekStats, PlayerSeasonStats, AwardType, AwardReceived, Transaction
-from .views import stat_collection
-from .views.data_entry import infer_playoff_series
+from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, AwardType, AwardReceived, Transaction
+from .utils import stat_collection
 
 
 @admin.action(description="Reprocess stats from the game")
@@ -20,36 +19,19 @@ def reprocess(modeladmin, request, queryset):
 def reaggregate_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
-        # Get all games for this season
-        player_seasons = PlayerSeason.objects.filter(season=season)
-        
-        # Re-aggregate each game
-        for ps in player_seasons:
-            stat_collection.reaggregate_stats(ps)
-        
-        # Update season standings
         stat_collection.update_standings(season)
-        
-        # Infer playoff series
-        infer_playoff_series(season)
+        # stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Re-process stats for the season")
 def reprocess_season(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
-        # Get all games for this season
         games = Game.objects.filter(match__season=season)
-        
-        # Re-aggregate each game
         for game in games:
             stat_collection.process_game_stats(game)
-        
-        # Update season standings
         stat_collection.update_standings(season)
-        
-        # Infer playoff series
-        infer_playoff_series(season)
+        # stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Add logo path")
@@ -87,6 +69,7 @@ class SeasonAdmin(admin.ModelAdmin):
 
 class FranchiseAdmin(admin.ModelAdmin):
     search_fields = ['name', 'abbr']
+    list_display = ["name", "abbr"]
     actions = [add_logo_path]
     inlines = [TeamSeasonInline]
 
@@ -126,9 +109,7 @@ admin.site.register([
     League,
     Player,
     PlayoffSeries,
-    PlayerGameStats,
-    PlayerWeekStats,
-    PlayerSeasonStats,
+    PlayerStats,
     AwardType,
     AwardReceived,
     Transaction
@@ -141,4 +122,4 @@ admin.site.register(Match, MatchAdmin)
 admin.site.register(Game, GameAdmin)
 admin.site.register(PlayerSeason, PlayerSeasonAdmin)
 admin.site.register(PlayerGameLog, PlayerGameLogAdmin)
-admin.site.register(PlayerRegulationGameStats, PlayerRegulationGameStatsAdmin)
+admin.site.register(PlayerRegulationStats, PlayerRegulationGameStatsAdmin)

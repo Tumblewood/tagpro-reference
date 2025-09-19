@@ -41,7 +41,7 @@
             <h3 class="team-name">
                 <a href="{% url 'team_season' roster_data.team.id %}">
                     {% if roster_data.team.franchise.logo %}
-                        <img src="/static/reference/{{ roster_data.team.franchise.logo }}" alt="{{ roster_data.team.franchise.name }} logo" class="team-logo-medium">
+                        <img src="/static/reference/{{ roster_data.team.franchise.logo }}" alt="{{ roster_data.team.franchise.abbr }}" class="team-logo-medium">
                     {% endif %}
                     {{ roster_data.team.name }}
                 </a>

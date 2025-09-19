@@ -12,7 +12,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tagproref.settings')
 django.setup()
 
-from reference.views.data_entry import format_compact_json
+from reference.views import format_compact_json
 
 with open("tpl_import/league_maps.json") as f:
     bulkmaps = json.load(f)
@@ -52,12 +52,10 @@ def match_from_links(g: Dict[str, Any]) -> Optional[tagpro_eu.Match]:
     eu_id = g['links'][0].split("=")[1]
     if eu_id not in bulkmatches:
         return None
-    # If there is a second tagpro.eu link, that's ok as long as its time limit is <10
+    # If there is a second tagpro.eu link, that's ok (though look into ones where the time limit is >10)
     if len(g['links']) > 1:
         eu_id2 = g['links'][1].split("=")[1]
         if eu_id2 not in bulkmatches:
-            return None
-        if bulkmatches[eu_id2].timeLimit >= 10:
             return None
     return bulkmatches[eu_id]
 
@@ -132,6 +130,146 @@ def get_player_season_name(name: str, capitalization: Dict[str, Dict[str, int]])
     return best_name
 
 
+STAT_MAPPING = {
+    'minutes': "time_played",
+    'pups': "powerups",
+    'holdagainst': "hold_against",
+    'pm': "plus_minus",
+    'pupscomp': "total_pups_in_game",
+    'quickret': "quick_returns",
+    'retinbase': "returns_in_base",
+    'keyret': "key_returns",
+    'handoff': "handoffs",
+    'goodhandoff': "good_handoffs",
+    'goregrab': "grabs_off_handoffs",
+    'goregrab': "grabs_off_regrab",
+    'coregrab': "caps_off_handoffs",
+    'coregrab': "caps_off_regrab",
+    'longholds': "long_holds",
+}
+
+def rename_stats(stats: Dict[str, int]) -> Dict[str, int]:
+    for stat in STAT_MAPPING:
+        if stat in stats:
+            stats[STAT_MAPPING[stat]] = stats[stat]
+            del(stats[stat])
+    return stats
+
+
+def group_matches_by_date(matches: List[Dict], season_name: str) -> List[Dict]:
+    """Group matches played between same teams on same date and handle NLTP S10 week renaming."""
+    # Group matches played between same teams on same date
+    grouped_matches = {}
+    for match in matches:
+        # Create a key for grouping: team1, team2, date (normalize team order)
+        team1, team2 = sorted([match['team1'], match['team2']])
+        match_key = f"{team1}_{team2}_{match['date']}"
+        
+        if match_key not in grouped_matches:
+            grouped_matches[match_key] = []
+        grouped_matches[match_key].append(match)
+    
+    # Process grouped matches
+    new_matches = []
+    for match_group in grouped_matches.values():
+        if len(match_group) == 1:
+            # Single match, no grouping needed
+            new_matches.append(match_group[0])
+        else:
+            # Multiple matches on same date - group them
+            # Sort by week (extract number) then by original match order
+            def week_sort_key(m):
+                week_str = m['week']
+                if 'Week' in week_str:
+                    try:
+                        return int(week_str.split()[1])
+                    except:
+                        return 999
+                return 999
+            
+            match_group.sort(key=week_sort_key)
+            
+            # Use the earliest match as the base
+            base_match = match_group[0].copy()
+            all_games = []
+            
+            # Collect all games from all matches
+            for match in match_group:
+                for game in match['games']:
+                    game['original_week'] = week_sort_key(match)
+                    all_games.append(game)
+            
+            # Sort games by original week, then by game name
+            def game_sort_key(g):
+                week_num = g['original_week']
+                game_name = g['game_in_match']
+                # Extract game and half numbers for proper sorting
+                try:
+                    if 'Game' in game_name and 'Half' in game_name:
+                        parts = game_name.split()
+                        game_num = int(parts[1])
+                        half_num = int(parts[3])
+                        return (week_num, game_num, half_num)
+                    elif 'Game' in game_name:
+                        game_num = int(game_name.split()[1])
+                        return (week_num, game_num, 1)
+                    else:
+                        return (week_num, 999, 999)
+                except:
+                    return (week_num, 999, 999)
+            
+            all_games.sort(key=game_sort_key)
+            
+            # Rename games sequentially
+            current_game_num = 1
+            half_num = 1
+            
+            for i, game in enumerate(all_games):
+                original_name = game['game_in_match']
+                
+                if 'Overtime' in original_name:
+                    # Overtime games keep the same game number as previous game
+                    if 'Overtime 2' in original_name or 'Overtime 3' in original_name or 'Overtime 4' in original_name:
+                        # Multiple overtimes - extract the overtime number
+                        ot_parts = original_name.split()
+                        if len(ot_parts) >= 2 and ot_parts[-1].isdigit():
+                            ot_num = ot_parts[-1]
+                            game['game_in_match'] = f"Game {current_game_num} Overtime {ot_num}"
+                        else:
+                            game['game_in_match'] = f"Game {current_game_num} Overtime"
+                    else:
+                        game['game_in_match'] = f"Game {current_game_num} Overtime"
+                else:
+                    # Regular game
+                    if half_num > 2:
+                        # We've finished a game (after Half 1, Half 2, potentially overtimes)
+                        current_game_num += 1
+                        half_num = 1
+                    
+                    game['game_in_match'] = f"Game {current_game_num} Half {half_num}"
+                    half_num += 1
+                
+                # Remove the temporary sorting field
+                del game['original_week']
+            
+            base_match['games'] = all_games
+            new_matches.append(base_match)
+    
+    # Handle NLTP S10 week renaming
+    if season_name in ["NLTP S10", "NLTP B S10"]:
+        for match in new_matches:
+            week_str = match['week']
+            if 'Week' in week_str:
+                try:
+                    week_num = int(week_str.split()[1])
+                    new_week_num = (week_num + 2) // 3
+                    match['week'] = f"Week {new_week_num}"
+                except:
+                    pass
+    
+    return new_matches
+
+
 def do_player_first_pass(g: Dict[str, Any], capitalization: Dict[str, Dict[str, int]], player_teams: Dict[str, Dict[str, int]]):
     m: Optional[tagpro_eu.Match] = match_from_links(g)
     if "stats" not in g:
@@ -198,6 +336,8 @@ for season_name in seasons:
                     game_key = f"g{g['game'][-1]}"
                     half_key = "ot" if g['half'] == "Overtime" else f"h{g['half'][-1]}"
                     g['stats'] = m2[f'{game_key}{half_key}_stats']
+                    for p in g['stats']:
+                        g['stats'][p] = rename_stats(g['stats'][p])
                     g['team1_score'] = m2[f't1{game_key}{half_key}']
                     g['team2_score'] = m2[f't2{game_key}{half_key}']
                     g['date'] = m2['date']
@@ -212,6 +352,16 @@ for season_name in seasons:
             games.insert(2, games[1].copy())
             games[2]['links'] = [games[1]['links'][1]]
             games[1]['links'] = [games[1]['links'][0]]
+            for i in range(5):
+                games[i]['game'] = f"Game {i + 1}"
+                games[i]['half'] = f"Half 1"
+        elif games[0]['season'] in [27, 29]\
+                and len(games) == 4\
+                and len(games[2]['links']) == 2:
+            games: List[Dict] = games
+            games.insert(3, games[2].copy())
+            games[3]['links'] = [games[2]['links'][1]]
+            games[2]['links'] = [games[2]['links'][0]]
             for i in range(5):
                 games[i]['game'] = f"Game {i + 1}"
                 games[i]['half'] = f"Half 1"
@@ -279,7 +429,7 @@ for season_name in seasons:
                     'team2': t2_maps_to,
                     'games': []
                 }
-            elif m is not None and match_object['date'] == "0000-00-00":
+            elif m is not None and match_object['date'] in ["0000-00-00", ""]:
                 # If the 1st game in the match can't be parsed, the schedule might have the date 0000-00-00
                 # so replace it when we get a parseable match
                 match_object['date'] = (m.date - timedelta(0, 8 * 60 * 60)).date().strftime("%Y-%m-%d")
@@ -329,7 +479,7 @@ for season_name in seasons:
                     players[player_season_name]['team'] = t1_maps_to if p_is_red == t1_is_red else t2_maps_to
 
             game_players = sorted(game_players, key=lambda p: (p['team'], p['player_season']))
-            has_halves = any([g2['half'] != "Half 1" for g2 in games])
+            has_halves = any([g2['half'] == "Half 2" for g2 in games])
             if m:
                 team1_score = m.team_red.score if t1_is_red else m.team_blue.score
                 team2_score = m.team_red.score if not t1_is_red else m.team_blue.score
@@ -351,6 +501,9 @@ for season_name in seasons:
             if len(g['links']) == 2 and all("tagpro.eu" in link for link in g['links']):
                 game_object['second_eu'] = g['links'][1].split("=")[1]
                 game_object['switch_time'] = 60 * (10 - bulkmatches[game_object['second_eu']].timeLimit)
+                # If the second EU has a time limit of 10 or 20 minutes, it's probably an overtime period
+                if bulkmatches[game_object['second_eu']].timeLimit >= 10:
+                    game_object['switch_time'] = 600
             match_object['games'].append(game_object)
         
         if match_object is not None:
@@ -361,6 +514,9 @@ for season_name in seasons:
         'playerSeasons': sorted([p for p in players.values()], key=lambda p: (p['team'] or "", p['player'])),
         'matches': matches
     }
+    
+    # Group matches by date and handle special week renaming
+    final_object['matches'] = group_matches_by_date(final_object['matches'], season_name)
     if season_name.startswith("mLTP"):
         season_name = "Minors " + season_name.split(" ")[1]
     season_name = season_name.lower().replace(" ", "_")

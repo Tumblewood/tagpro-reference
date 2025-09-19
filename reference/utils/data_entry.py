@@ -1,8 +1,3 @@
-from django.shortcuts import render, redirect, get_object_or_404
-from django.contrib.admin.views.decorators import staff_member_required
-from django.contrib import messages
-from django.http import JsonResponse
-from django.views.decorators.http import require_http_methods
 from django.db import models, transaction
 import json
 import re
@@ -10,8 +5,9 @@ from datetime import datetime, date
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, reaggregate_stats, update_standings, load_eu_match_object
-from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries
+from .stat_collection import process_game_stats, update_standings, load_eu_match_object
+from .display_info import STAT_FIELDS
+from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries, PlayerStats, PlayerRegulationStats
 
 
 def extract_game_data(eu_url: str) -> Dict:
@@ -343,176 +339,6 @@ def enter_confirmed_data(
     
     # Collect and store stats from the game
     process_game_stats(game)
-    for p in players:
-        reaggregate_stats(p['player_season'])
-
-
-@staff_member_required
-def import_from_eus(request):
-    """Render page where user can paste a list of tagpro.eus and start importing matches."""
-    if request.method == 'GET':
-        return render(request, 'reference/data_import.html')
-    
-    elif request.method == 'POST':
-        # Handle initial form submission with season filter and URLs  
-        if 'season_filter_string' in request.POST and 'submit_game_data' not in request.POST:
-            season_filter_string = request.POST.get('season_filter_string', '').strip()
-            eu_urls = [url.strip() for url in request.POST.get('eu_urls', '').strip().split('\n') if url.strip()]
-            
-            if not season_filter_string:
-                messages.error(request, "Please enter a season filter string.")
-                return render(request, 'reference/data_import.html')
-            
-            if not eu_urls:
-                messages.error(request, "Please enter at least one tagpro.eu URL.")
-                return render(request, 'reference/data_import.html')
-            
-            try:
-                # Get season group
-                season_group = [s for s in Season.objects.all() if season_filter_string in s.name]
-                if not season_group:
-                    messages.error(request, f"No seasons found matching '{season_filter_string}'")
-                    return render(request, 'reference/data_import.html')
-                
-                # Process first URL
-                current_url = eu_urls[0]
-                remaining_urls = eu_urls[1:]
-                
-                form_data = prepopulate_form(season_filter_string, current_url)
-                
-                # Get dropdown options
-                team_seasons = TeamSeason.objects.filter(season__in=season_group)
-                matches = Match.objects.filter(season__in=season_group)
-                player_seasons = PlayerSeason.objects.filter(season__in=season_group)
-                all_players = Player.objects.all()
-                
-                return render(request, 'reference/data_import_form.html', {
-                    'form_data': form_data,
-                    'team_seasons': team_seasons,
-                    'matches': matches,
-                    'player_seasons': player_seasons,
-                    'all_players': all_players,
-                    'season_filter_string': season_filter_string,
-                    'current_url': current_url,
-                    'remaining_urls': remaining_urls,
-                    'total_urls': len(eu_urls),
-                    'current_index': 1
-                })
-                
-            except Exception as e:
-                messages.error(request, f"Error processing URL: {str(e)}")
-                return render(request, 'reference/data_import.html')
-        
-        # Handle game data submission
-        elif 'submit_game_data' in request.POST:
-            try:
-                # Extract form data
-                red_team_id = request.POST.get('red_team')
-                blue_team_id = request.POST.get('blue_team')
-                match_id = request.POST.get('match')
-                week = request.POST.get('week')
-                game_in_match = request.POST.get('game_in_match')
-                
-                # Get objects
-                red_team = TeamSeason.objects.get(id=red_team_id) if red_team_id else None
-                blue_team = TeamSeason.objects.get(id=blue_team_id) if blue_team_id else None
-                match = Match.objects.get(id=match_id) if match_id else None
-                
-                # Get game data from form
-                eu_url = request.POST.get('eu_url')
-                red_team_raw_name = request.POST.get('red_team_raw_name')
-                blue_team_raw_name = request.POST.get('blue_team_raw_name')
-                score_red = int(request.POST.get('red_team_score'))
-                score_blue = int(request.POST.get('blue_team_score'))
-                map_name = request.POST.get('map_name')
-                map_id = int(request.POST.get('map_id'))
-                date_str = request.POST.get('date')
-                date = datetime.strptime(date_str, '%Y-%m-%d').date()
-                
-                # Extract player data
-                players = []
-                player_count = 0
-                while f'player_season_{player_count}' in request.POST:
-                    player_season_id = request.POST.get(f'player_season_{player_count}')
-                    player_id = request.POST.get(f'player_{player_count}')
-                    season_team_id = request.POST.get(f'season_team_{player_count}')
-                    
-                    player_data = {
-                        'player_season': PlayerSeason.objects.get(id=player_season_id) if player_season_id else None,
-                        'player': Player.objects.get(id=player_id) if player_id else None,
-                        'player_username': request.POST.get(f'player_username_{player_count}', ''),
-                        'season_username': request.POST.get(f'season_username_{player_count}', ''),
-                        'season_team': TeamSeason.objects.get(id=season_team_id) if season_team_id else None,
-                        'game_username': request.POST.get(f'game_username_{player_count}', ''),
-                        'game_team': request.POST.get(f'game_team_{player_count}', ''),
-                    }
-                    players.append(player_data)
-                    player_count += 1
-                
-                # Submit data
-                enter_confirmed_data(
-                    red_team=red_team,
-                    blue_team=blue_team,
-                    red_team_raw_name=red_team_raw_name,
-                    blue_team_raw_name=blue_team_raw_name,
-                    match=match,
-                    week=week,
-                    game_in_match=game_in_match,
-                    eu_url=eu_url,
-                    score_red=score_red,
-                    score_blue=score_blue,
-                    map_name=map_name,
-                    map_id=map_id,
-                    date=date,
-                    players=players
-                )
-                update_standings(red_team.season)
-                
-                messages.success(request, f"Game data saved successfully for {eu_url}")
-                
-                # Check if there are more URLs to process
-                season_filter_string = request.POST.get('season_filter_string')
-                remaining_urls = [url for url in request.POST.get('remaining_urls', '').split('|||') if url.strip()]
-                
-                if remaining_urls:
-                    # Process next URL
-                    current_url = remaining_urls[0]
-                    remaining_urls = remaining_urls[1:]
-                    current_index = int(request.POST.get('current_index', 1)) + 1
-                    total_urls = int(request.POST.get('total_urls', 1))
-                    
-                    form_data = prepopulate_form(season_filter_string, current_url)
-                    
-                    # Get dropdown options
-                    season_group = [s for s in Season.objects.all() if season_filter_string in s.name]
-                    team_seasons = TeamSeason.objects.filter(season__in=season_group)
-                    matches = Match.objects.filter(season__in=season_group)
-                    player_seasons = PlayerSeason.objects.filter(season__in=season_group)
-                    all_players = Player.objects.all()
-                    
-                    return render(request, 'reference/data_import_form.html', {
-                        'form_data': form_data,
-                        'team_seasons': team_seasons,
-                        'matches': matches,
-                        'player_seasons': player_seasons,
-                        'all_players': all_players,
-                        'season_filter_string': season_filter_string,
-                        'current_url': current_url,
-                        'remaining_urls': remaining_urls,
-                        'total_urls': total_urls,
-                        'current_index': current_index
-                    })
-                else:
-                    messages.success(request, "All URLs processed successfully!")
-                    return redirect('import_data')
-                    
-            except Exception as e:
-                messages.error(request, f"Error saving game data: {str(e)}")
-                # Return to form with error
-                return render(request, 'reference/data_import_form.html', {
-                    'error': str(e),
-                    'form_data': request.POST
-                })
 
 
 def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> Dict:
@@ -632,69 +458,6 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
     }
 
 
-def preprocess_eu_links(request):
-    """Form where user can paste EU links and get back JSON data."""
-    if request.method == 'GET':
-        return render(request, 'reference/preprocess_eu_links.html')
-    
-    elif request.method == 'POST':
-        season_filter_string = request.POST.get('season_filter_string', '').strip()
-        eu_input = request.POST.get('eu_urls', '').strip()
-        
-        # Extract all numbers from the input using regex (these should be EU IDs)
-        eu_ids = re.findall(r'\b(\d+)\b', eu_input)
-        eu_urls = [f"https://tagpro.eu/?match={eu_id}" for eu_id in eu_ids]
-        
-        if not season_filter_string:
-            messages.error(request, "Please enter a season filter string.")
-            return render(request, 'reference/preprocess_eu_links.html')
-        
-        if not eu_urls:
-            messages.error(request, "Please enter at least one tagpro.eu URL.")
-            return render(request, 'reference/preprocess_eu_links.html')
-        
-        try:
-            json_data = process_multiple_eu_links(season_filter_string,sorted(eu_urls))
-            return render(request, 'reference/preprocess_results.html', {
-                'json_data': format_compact_json(json_data),
-                'url_count': len(eu_urls)
-            })
-        except Exception as e:
-            messages.error(request, f"Error processing URLs: {str(e)}")
-            return render(request, 'reference/preprocess_eu_links.html')
-
-
-@staff_member_required
-@transaction.atomic
-def import_from_json(request):
-    """Form where user can paste JSON data to import into database."""
-    if request.method == 'GET':
-        return render(request, 'reference/import_json.html')
-    
-    elif request.method == 'POST':
-        json_data_str = request.POST.get('json_data', '').strip()
-        
-        if not json_data_str:
-            messages.error(request, "Please enter JSON data.")
-            return render(request, 'reference/import_json.html')
-        
-        try:
-            json_data = json.loads(json_data_str)
-            
-            # Import data idempotently
-            import_results = import_json_data_to_db(json_data)
-            
-            messages.success(request, f"Import completed: {import_results['created_count']} new games, {import_results['skipped_count']} already existed")
-            return render(request, 'reference/import_json.html')
-            
-        except json.JSONDecodeError as e:
-            messages.error(request, f"Invalid JSON: {str(e)}")
-            return render(request, 'reference/import_json.html')
-        except Exception as e:
-            messages.error(request, f"Error importing JSON: {str(e)}")
-            return render(request, 'reference/import_json.html')
-
-
 def import_json_data_to_db(json_data: Dict) -> Dict:
     """Import JSON data into database idempotently."""
     created_count = 0
@@ -723,14 +486,30 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             franchise, _ = Franchise.objects.get_or_create(name=franchise_name)
             franchises_cache[franchise_name] = franchise
         
+        # Handle captain and co_captain
+        captain = None
+        co_captain = None
+        if ts_data.get('captain'):
+            captain, _ = Player.objects.get_or_create(name=ts_data['captain'])
+            players_cache[ts_data['captain']] = captain
+        if ts_data.get('co_captain'):
+            co_captain, _ = Player.objects.get_or_create(name=ts_data['co_captain'])
+            players_cache[ts_data['co_captain']] = co_captain
+        
         # Get or create team season
+        defaults = {
+            'franchise': franchises_cache[franchise_name],
+            'abbr': ts_data['abbr']
+        }
+        if captain:
+            defaults['captain'] = captain
+        if co_captain:
+            defaults['co_captain'] = co_captain
+            
         team_season, _ = TeamSeason.objects.get_or_create(
             season=season,
             name=ts_data['name'],
-            defaults={
-                'franchise': franchises_cache[franchise_name],
-                'abbr': ts_data['abbr']
-            }
+            defaults=defaults
         )
         team_seasons_cache[f"{season.name}_{ts_data['name']}"] = team_season
     
@@ -761,6 +540,7 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         player_seasons_cache[f"{season.name}_{ps_data['playing_as']}"] = player_season
     
     # Process matches and games
+    last_valid_date = None
     for match_data in json_data.get('matches', []):
         season = seasons_cache.get(match_data['season'])
         if not season:
@@ -770,13 +550,24 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         team2 = team_seasons_cache.get(f"{season.name}_{match_data['team2']}")
         if not team1 or not team2:
             continue
+        
+        # Handle empty date by using the most recently imported match date
+        match_date = match_data['date']
+        if not match_date or match_date == "":
+            if last_valid_date:
+                match_date = last_valid_date
+            else:
+                # Skip this match if no valid date and no previous date to use
+                continue
+        else:
+            last_valid_date = match_date
             
         # Get or create match
         match, _ = Match.objects.get_or_create(
             season=season,
             team1=team1,
             team2=team2,
-            date=match_data['date'],
+            date=match_date,
             defaults={'week': match_data['week']}
         )
 
@@ -784,6 +575,10 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         
         # Process games in this match
         for game_data in match_data['games']:
+            # Skip games with no players
+            if not game_data.get('players') or len(game_data['players']) == 0:
+                continue
+                
             game_in_match += 1
             red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
             blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
@@ -797,18 +592,31 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 skipped_count += 1
                 continue
 
-            # Create game
-            game = Game.objects.create(
-                match=match,
-                red_team=red_team,
-                blue_team=blue_team,
-                team1_score=game_data['team1_score'],
-                team2_score=game_data['team2_score'],
-                map_name=game_data['map_name'],
-                map_id=game_data['map_id'] if game_data['map_id'] else None,
-                game_in_match=f"Game {game_in_match}",
-                tagpro_eu=game_data['tagpro_eu']
-            )
+            # Create game with additional fields
+            game_fields = {
+                'match': match,
+                'red_team': red_team,
+                'blue_team': blue_team,
+                'team1_score': game_data.get('team1_score', 0),
+                'team2_score': game_data.get('team2_score', 0),
+                'map_name': game_data['map_name'],
+                'map_id': game_data['map_id'] if game_data['map_id'] else None,
+                'game_in_match': f"Game {game_in_match}",
+                'tagpro_eu': game_data['tagpro_eu']
+            }
+            
+            # Add optional fields if present
+            if game_data.get('second_eu'):
+                game_fields['resumed_tagpro_eu'] = game_data['second_eu']
+            if game_data.get('switch_time') is not None:
+                game_fields['paused_time'] = game_data['switch_time']
+                game_fields['resumed_stats_count_until'] = 600 - game_data['switch_time']
+            if game_data.get('replay'):
+                game_fields['replay'] = game_data['replay']
+            if game_data.get('vod'):
+                game_fields['vod'] = game_data['vod']
+                
+            game = Game.objects.create(**game_fields)
 
             # Create player game logs
             for player_data in game_data['players']:
@@ -828,12 +636,36 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 ).first()
                 
                 if not existing_pgl:
-                    PlayerGameLog.objects.create(
+                    pgl = PlayerGameLog.objects.create(
                         game=game,
                         player_season=player_season,
-                        playing_as=player_data['playing_as'],
+                        playing_as=player_data["playing_as"],
                         team=team
                     )
+                    
+                    # Create PlayerStats if stats are provided in JSON
+                    if "stats" in player_data:
+                        stats_data = player_data["stats"]
+                        
+                        # Create stats dict with 0 defaults for all stat fields
+                        player_stats = {field: 0 for field in STAT_FIELDS}
+                        
+                        # Update with actual values from JSON (only known stat fields)
+                        for key, value in stats_data.items():
+                            if key in STAT_FIELDS:
+                                player_stats[key] = value or 0
+                        
+                        # Create PlayerStats object
+                        PlayerStats.objects.create(
+                            player_gamelog=pgl,
+                            **player_stats
+                        )
+                        
+                        # Create PlayerRegulationStats (same data for manually entered stats)
+                        PlayerRegulationStats.objects.create(
+                            player_gamelog=pgl,
+                            **player_stats
+                        )
             
             # Process game stats
             created_count += 1
@@ -843,66 +675,6 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
 
 def format_compact_json(data):
     """Format JSON with scalar fields on one line, arrays/objects multi-line."""
-    def format_value(obj, indent_level=0):
-        indent = "  " * indent_level
-        
-        if isinstance(obj, dict):
-            # Check if this object has any array/object values
-            has_complex_values = any(isinstance(v, (list, dict)) for v in obj.values())
-            
-            if not has_complex_values:
-                # All scalar values - put on one line
-                pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in obj.items()]
-                return "{ " + ", ".join(pairs) + " }"
-            else:
-                # Has complex values - use multi-line format
-                lines = ["{"]
-                for k, v in obj.items():
-                    if isinstance(v, (list, dict)):
-                        lines.append(f'{indent}  "{k}": {format_value(v, indent_level + 1)},')
-                    else:
-                        # Scalar field - format inline
-                        scalar_pairs = [(k, v)]
-                        # Collect consecutive scalar fields
-                        items = list(obj.items())
-                        current_idx = items.index((k, v))
-                        while (current_idx + 1 < len(items) and 
-                               not isinstance(items[current_idx + 1][1], (list, dict))):
-                            current_idx += 1
-                            scalar_pairs.append(items[current_idx])
-                        
-                        if len(scalar_pairs) > 1:
-                            # Multiple scalars - put them together on one line
-                            formatted_pairs = [f'"{pk}": {json.dumps(pv, ensure_ascii=False)}' for pk, pv in scalar_pairs]
-                            lines.append(f'{indent}  {", ".join(formatted_pairs)},')
-                            # Skip the ones we just processed
-                            for _ in range(len(scalar_pairs) - 1):
-                                next(iter(obj.items()))
-                        else:
-                            lines.append(f'{indent}  "{k}": {json.dumps(v, ensure_ascii=False)},')
-                
-                # Remove trailing comma from last line
-                if lines[-1].endswith(','):
-                    lines[-1] = lines[-1][:-1]
-                lines.append(indent + "}")
-                return "\n".join(lines)
-                
-        elif isinstance(obj, list):
-            if not obj:
-                return "[]"
-            lines = ["["]
-            for i, item in enumerate(obj):
-                comma = "," if i < len(obj) - 1 else ""
-                formatted_item = format_value(item, indent_level + 1)
-                if isinstance(item, dict):
-                    lines.append(f"{indent}  {formatted_item}{comma}")
-                else:
-                    lines.append(f"{indent}  {json.dumps(item, ensure_ascii=False)}{comma}")
-            lines.append(indent + "]")
-            return "\n".join(lines)
-        else:
-            return json.dumps(obj, ensure_ascii=False)
-    
     # Simplified approach - format each top-level section
     result_lines = ["{"]
     

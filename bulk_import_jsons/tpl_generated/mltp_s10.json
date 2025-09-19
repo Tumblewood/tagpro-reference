@@ -14,7 +14,7 @@
     { "season": "MLTP S10", "franchise": "Origin Ducks", "name": "Origin Ducks", "abbr": "OD", "captain": "okthen" },
     { "season": "MLTP S10", "franchise": "ProBots", "name": "ProBots", "abbr": "PRO", "captain": "SIDE" },
     { "season": "MLTP S10", "franchise": "Pup 'N Suds", "name": "Pup 'N Suds", "abbr": "PNS", "captain": "Stann" },
-    { "season": "MLTP S10", "franchise": "Tears", "name": "Tears", "abbr": "TRS", "captain": "Tro" },
+    { "season": "MLTP S10", "franchise": "Tears for Spheres", "name": "Tears for Spheres", "abbr": "TRS", "captain": "Tro" },
     { "season": "MLTP S10", "franchise": "Texas Hold'em", "name": "Texas Hold'em", "abbr": "THE", "captain": "Dalek" }
   ],
   "playerSeasons": [
@@ -135,15 +135,15 @@
     { "season": "MLTP S10", "team": "Pup 'N Suds", "player": "Stann", "playing_as": "Stann" },
     { "season": "MLTP S10", "team": "Pup 'N Suds", "player": "kutrebar", "playing_as": "kutrebar" },
     { "season": "MLTP S10", "team": "Pup 'N Suds", "player": "lukemoo", "playing_as": "lukemoo" },
-    { "season": "MLTP S10", "team": "Tears", "player": "CB13", "playing_as": "CB13" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Crook", "playing_as": "Crook" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Dat Cap", "playing_as": "Dat Cap" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Legion", "playing_as": "Legion" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Mufro", "playing_as": "Mufro" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Prizm", "playing_as": "Prizm" },
-    { "season": "MLTP S10", "team": "Tears", "player": "Tro", "playing_as": "Tro" },
-    { "season": "MLTP S10", "team": "Tears", "player": "gh0st", "playing_as": "gh0st" },
-    { "season": "MLTP S10", "team": "Tears", "player": "timeboy", "playing_as": "timeboy" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Crook", "playing_as": "Crook" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Dat Cap", "playing_as": "Dat Cap" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Legion", "playing_as": "Legion" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Mufro", "playing_as": "Mufro" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Prizm", "playing_as": "Prizm" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "Tro", "playing_as": "Tro" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "gh0st", "playing_as": "gh0st" },
+    { "season": "MLTP S10", "team": "Tears for Spheres", "player": "timeboy", "playing_as": "timeboy" },
     { "season": "MLTP S10", "team": "Texas Hold'em", "player": "Ballee Lama", "playing_as": "Ballee Lama" },
     { "season": "MLTP S10", "team": "Texas Hold'em", "player": "Dalek", "playing_as": "Dalek" },
     { "season": "MLTP S10", "team": "Texas Hold'em", "player": "Texoccer", "playing_as": "Texoccer" },
@@ -329,60 +329,60 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-06-12", "week": "Week 1", "team1": "Capper's Delight", "team2": "Tears",
+      "season": "MLTP S10", "date": "2016-06-12", "week": "Week 1", "team1": "Capper's Delight", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "793434", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Capper's Delight", "blue_team": "Tears", "team1_score": 5, "team2_score": 1,
+          "tagpro_eu": "793434", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Capper's Delight", "blue_team": "Tears for Spheres", "team1_score": 5, "team2_score": 1,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
             { "team": "Capper's Delight", "player_season": "wanker -->", "playing_as": "wanker -->" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "793461", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears", "blue_team": "Capper's Delight", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "793461", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears for Spheres", "blue_team": "Capper's Delight", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
             { "team": "Capper's Delight", "player_season": "wanker -->", "playing_as": "wanker -->" },
-            { "team": "Tears", "player_season": "Crook", "playing_as": "Crook" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Crook", "playing_as": "Crook" },
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "793477", "game_in_match": "Game 2 Half 1", "map_name": "Monarch", "map_id": 27, "red_team": "Tears", "blue_team": "Capper's Delight", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "793477", "game_in_match": "Game 2 Half 1", "map_name": "Monarch", "map_id": 27, "red_team": "Tears for Spheres", "blue_team": "Capper's Delight", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
             { "team": "Capper's Delight", "player_season": "wanker -->", "playing_as": "wanker -->" },
-            { "team": "Tears", "player_season": "Crook", "playing_as": "Crook" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" }
+            { "team": "Tears for Spheres", "player_season": "Crook", "playing_as": "Crook" },
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" }
           ]
         },
         {
-          "tagpro_eu": "793501", "game_in_match": "Game 2 Half 2", "map_name": "Monarch", "map_id": 27, "red_team": "Capper's Delight", "blue_team": "Tears", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "793501", "game_in_match": "Game 2 Half 2", "map_name": "Monarch", "map_id": 27, "red_team": "Capper's Delight", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
             { "team": "Capper's Delight", "player_season": "wanker -->", "playing_as": "wanker -->" },
-            { "team": "Tears", "player_season": "Crook", "playing_as": "Crook" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" }
+            { "team": "Tears for Spheres", "player_season": "Crook", "playing_as": "Crook" },
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "MrFruitzy", "playing_as": "MrFruitzy" }
           ]
         }
       ]
@@ -787,60 +787,60 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-06-20", "week": "Week 2", "team1": "Holdin' Gate Warriors", "team2": "Tears",
+      "season": "MLTP S10", "date": "2016-06-20", "week": "Week 2", "team1": "Holdin' Gate Warriors", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "804446", "game_in_match": "Game 1 Half 1", "map_name": "Monarch", "map_id": 27, "red_team": "Tears", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 0,
+          "tagpro_eu": "804446", "game_in_match": "Game 1 Half 1", "map_name": "Monarch", "map_id": 27, "red_team": "Tears for Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 0,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Crippy", "playing_as": "Crippy" },
             { "team": "Holdin' Gate Warriors", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Holdin' Gate Warriors", "player_season": "Stojakovic", "playing_as": "Stojakovic" },
             { "team": "Holdin' Gate Warriors", "player_season": "bad", "playing_as": "bad" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "Tro", "playing_as": "Tro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "Tro", "playing_as": "Tro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "804487", "game_in_match": "Game 1 Half 2", "map_name": "Monarch", "map_id": 27, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears", "team1_score": 3, "team2_score": 0,
+          "tagpro_eu": "804487", "game_in_match": "Game 1 Half 2", "map_name": "Monarch", "map_id": 27, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 0,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Crippy", "playing_as": "Crippy" },
             { "team": "Holdin' Gate Warriors", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Holdin' Gate Warriors", "player_season": "Stojakovic", "playing_as": "Stojakovic" },
             { "team": "Holdin' Gate Warriors", "player_season": "bad", "playing_as": "bad" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "Tro", "playing_as": "Tro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "Tro", "playing_as": "Tro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "804530", "game_in_match": "Game 2 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "804530", "game_in_match": "Game 2 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Crippy", "playing_as": "Crippy" },
             { "team": "Holdin' Gate Warriors", "player_season": "Iblis", "playing_as": "Iblis" },
             { "team": "Holdin' Gate Warriors", "player_season": "Stojakovic", "playing_as": "Stojakovic" },
             { "team": "Holdin' Gate Warriors", "player_season": "bad", "playing_as": "bad" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "Tro", "playing_as": "Tro" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "Tro", "playing_as": "Tro" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "804560", "game_in_match": "Game 2 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "Tears", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "804560", "game_in_match": "Game 2 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "Tears for Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Crippy", "playing_as": "cRipPY" },
             { "team": "Holdin' Gate Warriors", "player_season": "Iblis", "playing_as": "iBlIs" },
             { "team": "Holdin' Gate Warriors", "player_season": "Stojakovic", "playing_as": "sToJakOvIc" },
             { "team": "Holdin' Gate Warriors", "player_season": "bad", "playing_as": "bAd" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Grant", "playing_as": "Grant" },
-            { "team": "Tears", "player_season": "Tro", "playing_as": "Tro" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Grant", "playing_as": "Grant" },
+            { "team": "Tears for Spheres", "player_season": "Tro", "playing_as": "Tro" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -1246,59 +1246,59 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-06-26", "week": "Week 3", "team1": "Tears", "team2": "Chase Jam",
+      "season": "MLTP S10", "date": "2016-06-26", "week": "Week 3", "team1": "Tears for Spheres", "team2": "Chase Jam",
       "games": [
         {
-          "tagpro_eu": "815013", "game_in_match": "Game 1 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "Tears", "blue_team": "Chase Jam", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "815013", "game_in_match": "Game 1 Half 1", "map_name": "Wormy", "map_id": 4, "red_team": "Tears for Spheres", "blue_team": "Chase Jam", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "815043", "game_in_match": "Game 1 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "Chase Jam", "blue_team": "Tears", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "815043", "game_in_match": "Game 1 Half 2", "map_name": "Wormy", "map_id": 4, "red_team": "Chase Jam", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "815072", "game_in_match": "Game 2 Half 1", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Chase Jam", "blue_team": "Tears", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "815072", "game_in_match": "Game 2 Half 1", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Chase Jam", "blue_team": "Tears for Spheres", "team1_score": 0, "team2_score": 1,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "815089", "game_in_match": "Game 2 Half 2", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Tears", "blue_team": "Chase Jam", "team1_score": 0, "team2_score": 4,
+          "tagpro_eu": "815089", "game_in_match": "Game 2 Half 2", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Tears for Spheres", "blue_team": "Chase Jam", "team1_score": 0, "team2_score": 4,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "eee", "playing_as": "eee" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "gh0st", "playing_as": "gh0st" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "gh0st", "playing_as": "gh0st" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -1534,58 +1534,58 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-07-10", "week": "Week 4", "team1": "Tears", "team2": "Angry Balls",
+      "season": "MLTP S10", "date": "2016-07-10", "week": "Week 4", "team1": "Tears for Spheres", "team2": "Angry Balls",
       "games": [
         {
-          "tagpro_eu": "836026", "game_in_match": "Game 1 Half 1", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Angry Balls", "blue_team": "Tears", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "836026", "game_in_match": "Game 1 Half 1", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Angry Balls", "blue_team": "Tears for Spheres", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Angry Balls", "player_season": "Altiger", "playing_as": "Altiger" },
             { "team": "Angry Balls", "player_season": "BigBird", "playing_as": "BigBird" },
             { "team": "Angry Balls", "player_season": "Sundown", "playing_as": "Sundown" },
             { "team": "Angry Balls", "player_season": "dywz", "playing_as": "dywz" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "836037", "game_in_match": "Game 1 Half 2", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Tears", "blue_team": "Angry Balls", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "836037", "game_in_match": "Game 1 Half 2", "map_name": "Thinking With Portals", "map_id": 65, "red_team": "Tears for Spheres", "blue_team": "Angry Balls", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Angry Balls", "player_season": "Altiger", "playing_as": "Altiger" },
             { "team": "Angry Balls", "player_season": "BigBird", "playing_as": "BigBird" },
             { "team": "Angry Balls", "player_season": "Sundown", "playing_as": "Sundown" },
             { "team": "Angry Balls", "player_season": "dywz", "playing_as": "dywz" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "836051", "game_in_match": "Game 2 Half 1", "map_name": "Boombox", "map_id": 19, "red_team": "Tears", "blue_team": "Angry Balls", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "836051", "game_in_match": "Game 2 Half 1", "map_name": "Boombox", "map_id": 19, "red_team": "Tears for Spheres", "blue_team": "Angry Balls", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "Angry Balls", "player_season": "Altiger", "playing_as": "Altiger" },
             { "team": "Angry Balls", "player_season": "BigBird", "playing_as": "BigBird" },
             { "team": "Angry Balls", "player_season": "Sundown", "playing_as": "Sundown" },
             { "team": "Angry Balls", "player_season": "dywz", "playing_as": "dywz" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "836058", "game_in_match": "Game 2 Half 2", "map_name": "Boombox", "map_id": 19, "red_team": "Angry Balls", "blue_team": "Tears", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "836058", "game_in_match": "Game 2 Half 2", "map_name": "Boombox", "map_id": 19, "red_team": "Angry Balls", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Angry Balls", "player_season": "Altiger", "playing_as": "Altiger" },
             { "team": "Angry Balls", "player_season": "BigBird", "playing_as": "BigBird" },
             { "team": "Angry Balls", "player_season": "Sundown", "playing_as": "Sundown" },
             { "team": "Angry Balls", "player_season": "dywz", "playing_as": "dywz" },
-            { "team": "Tears", "player_season": "Eashy", "playing_as": "Eashy" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -2106,58 +2106,58 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-07-18", "week": "Week 5", "team1": "Los Santos Pings", "team2": "Tears",
+      "season": "MLTP S10", "date": "2016-07-18", "week": "Week 5", "team1": "Los Santos Pings", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "847021", "game_in_match": "Game 1 Half 1", "map_name": "Boombox", "map_id": 19, "red_team": "Los Santos Pings", "blue_team": "Tears", "team1_score": 3, "team2_score": 0,
+          "tagpro_eu": "847021", "game_in_match": "Game 1 Half 1", "map_name": "Boombox", "map_id": 19, "red_team": "Los Santos Pings", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 0,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "847044", "game_in_match": "Game 1 Half 2", "map_name": "Boombox", "map_id": 19, "red_team": "Tears", "blue_team": "Los Santos Pings", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "847044", "game_in_match": "Game 1 Half 2", "map_name": "Boombox", "map_id": 19, "red_team": "Tears for Spheres", "blue_team": "Los Santos Pings", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "847069", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Tears", "blue_team": "Los Santos Pings", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "847069", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Tears for Spheres", "blue_team": "Los Santos Pings", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "847097", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Los Santos Pings", "blue_team": "Tears", "team1_score": 0, "team2_score": 2,
+          "tagpro_eu": "847097", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Los Santos Pings", "blue_team": "Tears for Spheres", "team1_score": 0, "team2_score": 2,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -2620,58 +2620,58 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-07-24", "week": "Week 6", "team1": "Tears", "team2": "Capper's Delight",
+      "season": "MLTP S10", "date": "2016-07-24", "week": "Week 6", "team1": "Tears for Spheres", "team2": "Capper's Delight",
       "games": [
         {
-          "tagpro_eu": "854973", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Capper's Delight", "blue_team": "Tears", "team1_score": 0, "team2_score": 2,
+          "tagpro_eu": "854973", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Capper's Delight", "blue_team": "Tears for Spheres", "team1_score": 0, "team2_score": 2,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "Gem", "playing_as": "Gem" },
             { "team": "Capper's Delight", "player_season": "Some Paul", "playing_as": "Some Paul" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "854993", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Tears", "blue_team": "Capper's Delight", "team1_score": 6, "team2_score": 4,
+          "tagpro_eu": "854993", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Tears for Spheres", "blue_team": "Capper's Delight", "team1_score": 6, "team2_score": 4,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "Gem", "playing_as": "Gem" },
             { "team": "Capper's Delight", "player_season": "Some Paul", "playing_as": "Some Paul" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "855014", "game_in_match": "Game 2 Half 1", "map_name": "Smirk", "map_id": 13, "red_team": "Tears", "blue_team": "Capper's Delight", "team1_score": 3, "team2_score": 3,
+          "tagpro_eu": "855014", "game_in_match": "Game 2 Half 1", "map_name": "Smirk", "map_id": 13, "red_team": "Tears for Spheres", "blue_team": "Capper's Delight", "team1_score": 3, "team2_score": 3,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "Gem", "playing_as": "Gem" },
             { "team": "Capper's Delight", "player_season": "Some Paul", "playing_as": "Some Paul" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "855034", "game_in_match": "Game 2 Half 2", "map_name": "Smirk", "map_id": 13, "red_team": "Capper's Delight", "blue_team": "Tears", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "855034", "game_in_match": "Game 2 Half 2", "map_name": "Smirk", "map_id": 13, "red_team": "Capper's Delight", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Capper's Delight", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
             { "team": "Capper's Delight", "player_season": "Gem", "playing_as": "Gem" },
             { "team": "Capper's Delight", "player_season": "Some Paul", "playing_as": "Some Paul" },
             { "team": "Capper's Delight", "player_season": "donuts42", "playing_as": "donuts42" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -2964,58 +2964,58 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-07-31", "week": "Week 7", "team1": "Tears", "team2": "Ball€himedes",
+      "season": "MLTP S10", "date": "2016-07-31", "week": "Week 7", "team1": "Tears for Spheres", "team2": "Ball€himedes",
       "games": [
         {
-          "tagpro_eu": "865052", "game_in_match": "Game 1 Half 1", "map_name": "Smirk", "map_id": 13, "red_team": "Ball€himedes", "blue_team": "Tears", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "865052", "game_in_match": "Game 1 Half 1", "map_name": "Smirk", "map_id": 13, "red_team": "Ball€himedes", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "Ball€himedes", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
             { "team": "Ball€himedes", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "Ball€himedes", "player_season": "Vials", "playing_as": "Vials" },
             { "team": "Ball€himedes", "player_season": "np", "playing_as": "np" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "865073", "game_in_match": "Game 1 Half 2", "map_name": "Smirk", "map_id": 13, "red_team": "Tears", "blue_team": "Ball€himedes", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "865073", "game_in_match": "Game 1 Half 2", "map_name": "Smirk", "map_id": 13, "red_team": "Tears for Spheres", "blue_team": "Ball€himedes", "team1_score": 3, "team2_score": 1,
           "players": [
             { "team": "Ball€himedes", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
             { "team": "Ball€himedes", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "Ball€himedes", "player_season": "Vials", "playing_as": "Vials" },
             { "team": "Ball€himedes", "player_season": "np", "playing_as": "np" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "865093", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "Ball€himedes", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "865093", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "Ball€himedes", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Ball€himedes", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
             { "team": "Ball€himedes", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "Ball€himedes", "player_season": "Vials", "playing_as": "Vials" },
             { "team": "Ball€himedes", "player_season": "np", "playing_as": "np" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "865115", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Ball€himedes", "blue_team": "Tears", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "865115", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Ball€himedes", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Ball€himedes", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
             { "team": "Ball€himedes", "player_season": "Mr.Gone", "playing_as": "Mr.Gone" },
             { "team": "Ball€himedes", "player_season": "Vials", "playing_as": "Vials" },
             { "team": "Ball€himedes", "player_season": "np", "playing_as": "np" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -3537,58 +3537,58 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-08-07", "week": "Week 8", "team1": "Tears", "team2": "Chase Jam",
+      "season": "MLTP S10", "date": "2016-08-07", "week": "Week 8", "team1": "Tears for Spheres", "team2": "Chase Jam",
       "games": [
         {
-          "tagpro_eu": "875890", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Chase Jam", "blue_team": "Tears", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "875890", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Chase Jam", "blue_team": "Tears for Spheres", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "eee", "playing_as": "eee" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "875922", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears", "blue_team": "Chase Jam", "team1_score": 0, "team2_score": 5,
+          "tagpro_eu": "875922", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears for Spheres", "blue_team": "Chase Jam", "team1_score": 0, "team2_score": 5,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "eee", "playing_as": "eee" },
-            { "team": "Tears", "player_season": "Crook", "playing_as": "Crook" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Crook", "playing_as": "Crook" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "875947", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Tears", "blue_team": "Chase Jam", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "875947", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Tears for Spheres", "blue_team": "Chase Jam", "team1_score": 2, "team2_score": 2,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "875966", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Chase Jam", "blue_team": "Tears", "team1_score": 3, "team2_score": 10,
+          "tagpro_eu": "875966", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Chase Jam", "blue_team": "Tears for Spheres", "team1_score": 3, "team2_score": 10,
           "players": [
             { "team": "Chase Jam", "player_season": "Ball God", "playing_as": "Ball God" },
             { "team": "Chase Jam", "player_season": "Ty", "playing_as": "Ty" },
             { "team": "Chase Jam", "player_season": "dodsfall", "playing_as": "dodsfall" },
             { "team": "Chase Jam", "player_season": "sIide", "playing_as": "sIide" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "Prizm", "playing_as": "Prizm" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]
@@ -3942,15 +3942,15 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-08-14", "week": "Week 9", "team1": "Texas Hold'em", "team2": "Tears",
+      "season": "MLTP S10", "date": "2016-08-14", "week": "Week 9", "team1": "Texas Hold'em", "team2": "Tears for Spheres",
       "games": [
         {
-          "tagpro_eu": "886835", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Texas Hold'em", "blue_team": "Tears", "team1_score": 2, "team2_score": 2,
+          "tagpro_eu": "886835", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Texas Hold'em", "blue_team": "Tears for Spheres", "team1_score": 2, "team2_score": 2,
           "players": [
-            { "team": "Tears", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears for Spheres", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
             { "team": "Texas Hold'em", "player_season": "Dalek", "playing_as": "Dalek" },
             { "team": "Texas Hold'em", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Texas Hold'em", "player_season": "ooo killem", "playing_as": "ooo killem" },
@@ -3958,12 +3958,12 @@
           ]
         },
         {
-          "tagpro_eu": "886859", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears", "blue_team": "Texas Hold'em", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "886859", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears for Spheres", "blue_team": "Texas Hold'em", "team1_score": 4, "team2_score": 1,
           "players": [
-            { "team": "Tears", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears for Spheres", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
             { "team": "Texas Hold'em", "player_season": "Dalek", "playing_as": "Dalek" },
             { "team": "Texas Hold'em", "player_season": "Wanye", "playing_as": "Wanye" },
             { "team": "Texas Hold'em", "player_season": "ooo killem", "playing_as": "ooo killem" },
@@ -3971,12 +3971,12 @@
           ]
         },
         {
-          "tagpro_eu": "886884", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Tears", "blue_team": "Texas Hold'em", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "886884", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Tears for Spheres", "blue_team": "Texas Hold'em", "team1_score": 2, "team2_score": 6,
           "players": [
-            { "team": "Tears", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears for Spheres", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
             { "team": "Texas Hold'em", "player_season": "Dalek", "playing_as": "Dalek" },
             { "team": "Texas Hold'em", "player_season": "Texoccer", "playing_as": "Texoccer" },
             { "team": "Texas Hold'em", "player_season": "Wanye", "playing_as": "Wanye" },
@@ -3985,12 +3985,12 @@
           ]
         },
         {
-          "tagpro_eu": "886901", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Texas Hold'em", "blue_team": "Tears", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "886901", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Texas Hold'em", "blue_team": "Tears for Spheres", "team1_score": 5, "team2_score": 2,
           "players": [
-            { "team": "Tears", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears for Spheres", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
             { "team": "Texas Hold'em", "player_season": "Dalek", "playing_as": "Dalek" },
             { "team": "Texas Hold'em", "player_season": "Texoccer", "playing_as": "Texoccer" },
             { "team": "Texas Hold'em", "player_season": "Wanye", "playing_as": "Wanye" },
@@ -4400,59 +4400,59 @@
       ]
     },
     {
-      "season": "MLTP S10", "date": "2016-08-21", "week": "Week 10", "team1": "Tears", "team2": "Los Santos Pings",
+      "season": "MLTP S10", "date": "2016-08-21", "week": "Week 10", "team1": "Tears for Spheres", "team2": "Los Santos Pings",
       "games": [
         {
-          "tagpro_eu": "897398", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Los Santos Pings", "blue_team": "Tears", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "897398", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Los Santos Pings", "blue_team": "Tears for Spheres", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "897414", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tears", "blue_team": "Los Santos Pings", "team1_score": 4, "team2_score": 4,
+          "tagpro_eu": "897414", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tears for Spheres", "blue_team": "Los Santos Pings", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "897430", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears", "blue_team": "Los Santos Pings", "team1_score": 11, "team2_score": 0,
+          "tagpro_eu": "897430", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears for Spheres", "blue_team": "Los Santos Pings", "team1_score": 11, "team2_score": 0,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         },
         {
-          "tagpro_eu": "897444", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Los Santos Pings", "blue_team": "Tears", "team1_score": 9, "team2_score": 4,
+          "tagpro_eu": "897444", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Los Santos Pings", "blue_team": "Tears for Spheres", "team1_score": 9, "team2_score": 4,
           "players": [
             { "team": "Los Santos Pings", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
             { "team": "Los Santos Pings", "player_season": "Fronj", "playing_as": "Fronj" },
             { "team": "Los Santos Pings", "player_season": "MiIky", "playing_as": "MiIky" },
             { "team": "Los Santos Pings", "player_season": "SuperSans", "playing_as": "SuperSans" },
-            { "team": "Tears", "player_season": "CB13", "playing_as": "CB13" },
-            { "team": "Tears", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
-            { "team": "Tears", "player_season": "Legion", "playing_as": "Legion" },
-            { "team": "Tears", "player_season": "Mufro", "playing_as": "Mufro" },
-            { "team": "Tears", "player_season": "timeboy", "playing_as": "timeboy" }
+            { "team": "Tears for Spheres", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Tears for Spheres", "player_season": "Dat Cap", "playing_as": "Dat Cap" },
+            { "team": "Tears for Spheres", "player_season": "Legion", "playing_as": "Legion" },
+            { "team": "Tears for Spheres", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Tears for Spheres", "player_season": "timeboy", "playing_as": "timeboy" }
           ]
         }
       ]

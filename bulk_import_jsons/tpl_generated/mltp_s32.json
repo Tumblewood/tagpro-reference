@@ -279,7 +279,7 @@
       "season": "MLTP S32", "date": "2024-01-14", "week": "Week 1", "team1": "Avocado Toastys", "team2": "Chrome Heart Tags",
       "games": [
         {
-          "tagpro_eu": "3584775", "game_in_match": "Game 1 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3584775", "game_in_match": "Game 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -292,32 +292,13 @@
           ]
         },
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Overtime", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 1, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 1, "team2_score": 0,
           "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 1, "minutes": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake", "stats": {"team": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "ndpops": 0, "nrtags": 0, "time_played": 1, "powerups": 0, "hold_against": 0, "plus_minus": 1, "total_pups_in_game": 0} }
           ]
         },
         {
-          "tagpro_eu": "3584784", "game_in_match": "Game 2 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 5,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
-            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
-            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
-            { "team": "Chrome Heart Tags", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": null, "game_in_match": "Game 2 Overtime", "map_name": null, "map_id": null, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 1,
-          "players": [
-            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe", "stats": {"team": 1, "minutes": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "pups": 0, "holdagainst": 0, "pm": 1, "pupscomp": 0, "ndpops": 0, "nrtags": 0} }
-          ]
-        },
-        {
-          "tagpro_eu": "3584791", "game_in_match": "Game 3 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 8,
+          "tagpro_eu": "3584784", "game_in_match": "Game 2", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -330,7 +311,13 @@
           ]
         },
         {
-          "tagpro_eu": "3584802", "game_in_match": "Game 4 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 11, "team2_score": 4,
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe", "stats": {"team": 1, "score": 1, "tags": 0, "pops": 0, "grabs": 1, "drops": 0, "hold": 1, "captures": 1, "prevent": 0, "returns": 0, "ndpops": 0, "nrtags": 0, "time_played": 1, "powerups": 0, "hold_against": 0, "plus_minus": 1, "total_pups_in_game": 0} }
+          ]
+        },
+        {
+          "tagpro_eu": "3584791", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 8,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -343,7 +330,20 @@
           ]
         },
         {
-          "tagpro_eu": "3584813", "game_in_match": "Game 5 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 11, "team2_score": 1,
+          "tagpro_eu": "3584802", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Chrome Heart Tags", "blue_team": "Avocado Toastys", "team1_score": 11, "team2_score": 4,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Chrome Heart Tags", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3584813", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Chrome Heart Tags", "team1_score": 11, "team2_score": 1,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -428,28 +428,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 2", "team1": "The Way of Pings", "team2": "Holdin' Gate Warriors",
+      "season": "MLTP S32", "date": "2024-01-21", "week": "Week 2", "team1": "The Way of Pings", "team2": "Holdin' Gate Warriors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3588862", "game_in_match": "Game 1 Overtime", "map_name": "Catch-24", "map_id": 13912, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 2,
-          "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
-            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
-            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
-            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
-            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
-            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": "3588877", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3588862", "game_in_match": "Game 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -462,7 +449,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588898", "game_in_match": "Game 3 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3588877", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -475,7 +462,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588914", "game_in_match": "Game 4 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3588898", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -488,7 +475,20 @@
           ]
         },
         {
-          "tagpro_eu": "3588922", "game_in_match": "Game 5 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 3,
+          "tagpro_eu": "3588914", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Holdin' Gate Warriors", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
+            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3588922", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "The Way of Pings", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 3,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 2", "team1": "Mickey Mouse Ping", "team2": "Chrome Heart Tags",
+      "season": "MLTP S32", "date": "2024-01-24", "week": "Week 2", "team1": "Mickey Mouse Ping", "team2": "Chrome Heart Tags",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Chrome Heart Tags", "blue_team": "Mickey Mouse Ping", "team1_score": 0, "team2_score": 0,
@@ -565,28 +565,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 2", "team1": "Snipe Hunt", "team2": "Avocado Toastys",
+      "season": "MLTP S32", "date": "2024-01-21", "week": "Week 2", "team1": "Snipe Hunt", "team2": "Avocado Toastys",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3588797", "game_in_match": "Game 1 Overtime", "map_name": "Sardonica", "map_id": 17290, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 4,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
-          ]
-        },
-        {
-          "tagpro_eu": "3588815", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Snipe Hunt", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3588797", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -599,7 +586,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588831", "game_in_match": "Game 3 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3588815", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Snipe Hunt", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -612,7 +599,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588844", "game_in_match": "Game 4 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Snipe Hunt", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3588831", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -625,7 +612,20 @@
           ]
         },
         {
-          "tagpro_eu": "3588858", "game_in_match": "Game 5 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3588844", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Snipe Hunt", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3588858", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "Avocado Toastys", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -640,28 +640,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 2", "team1": "The Toronto Captors", "team2": "Miami Ballphins",
+      "season": "MLTP S32", "date": "2024-01-21", "week": "Week 2", "team1": "The Toronto Captors", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3588807", "game_in_match": "Game 1 Overtime", "map_name": "Haste", "map_id": 13386, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
-          "players": [
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "dodsfall", "playing_as": "dodsfall" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3588824", "game_in_match": "Game 2 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 4, "team2_score": 4,
+          "tagpro_eu": "3588807", "game_in_match": "Game 1", "map_name": "Haste", "map_id": 13386, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -674,7 +661,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588827", "game_in_match": "Game 2 Overtime", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 1,
+          "tagpro_eu": "3588824", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 4, "team2_score": 4,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -687,7 +674,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588838", "game_in_match": "Game 3 Half 1", "map_name": "Asida", "map_id": 15401, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "3588827", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 1,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -700,7 +687,7 @@
           ]
         },
         {
-          "tagpro_eu": "3588852", "game_in_match": "Game 4 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3588838", "game_in_match": "Game 3", "map_name": "Asida", "map_id": 15401, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -713,7 +700,20 @@
           ]
         },
         {
-          "tagpro_eu": "3588865", "game_in_match": "Game 5 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3588852", "game_in_match": "Game 4", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "The Toronto Captors", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3588865", "game_in_match": "Game 5", "map_name": "Willow ", "map_id": 14107, "red_team": "The Toronto Captors", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 2", "team1": "A Blockwork Orange", "team2": "Taco Dogs",
+      "season": "MLTP S32", "date": "2024-01-24", "week": "Week 2", "team1": "A Blockwork Orange", "team2": "Taco Dogs",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Taco Dogs", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 0,
@@ -790,28 +790,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 3", "team1": "The Toronto Captors", "team2": "Holdin' Gate Warriors",
+      "season": "MLTP S32", "date": "2024-01-29", "week": "Week 3", "team1": "The Toronto Captors", "team2": "Holdin' Gate Warriors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3593754", "game_in_match": "Game 1 Overtime", "map_name": "Catch-24", "map_id": 13912, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 9, "team2_score": 2,
-          "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
-            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
-            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3593768", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "The Toronto Captors", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3593754", "game_in_match": "Game 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 9, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -824,7 +811,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593779", "game_in_match": "Game 3 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 12, "team2_score": 1,
+          "tagpro_eu": "3593768", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "The Toronto Captors", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -837,7 +824,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593794", "game_in_match": "Game 4 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Toronto Captors", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3593779", "game_in_match": "Game 3", "map_name": "Willow ", "map_id": 14107, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 12, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -850,7 +837,20 @@
           ]
         },
         {
-          "tagpro_eu": "3593804", "game_in_match": "Game 5 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 10, "team2_score": 1,
+          "tagpro_eu": "3593794", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Toronto Captors", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3593804", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Holdin' Gate Warriors", "blue_team": "The Toronto Captors", "team1_score": 10, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 3", "team1": "A Blockwork Orange", "team2": "Avocado Toastys",
+      "season": "MLTP S32", "date": "2024-01-28", "week": "Week 3", "team1": "A Blockwork Orange", "team2": "Avocado Toastys",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 0,
@@ -927,7 +927,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 3", "team1": "The Way of Pings", "team2": "Chrome Heart Tags",
+      "season": "MLTP S32", "date": "2024-01-28", "week": "Week 3", "team1": "The Way of Pings", "team2": "Chrome Heart Tags",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Chrome Heart Tags", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 0,
@@ -989,28 +989,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 3", "team1": "Mickey Mouse Ping", "team2": "Snipe Hunt",
+      "season": "MLTP S32", "date": "2024-01-28", "week": "Week 3", "team1": "Mickey Mouse Ping", "team2": "Snipe Hunt",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3593002", "game_in_match": "Game 1 Overtime", "map_name": "Cedar", "map_id": 14419, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 5, "team2_score": 2,
-          "players": [
-            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
-            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
-            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
-            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" },
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
-          ]
-        },
-        {
-          "tagpro_eu": "3593018", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Mickey Mouse Ping", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3593002", "game_in_match": "Game 1", "map_name": "Cedar", "map_id": 14419, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
             { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
@@ -1023,7 +1010,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593031", "game_in_match": "Game 3 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 5,
+          "tagpro_eu": "3593018", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Mickey Mouse Ping", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
             { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
@@ -1036,7 +1023,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593042", "game_in_match": "Game 4 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mickey Mouse Ping", "blue_team": "Snipe Hunt", "team1_score": 7, "team2_score": 2,
+          "tagpro_eu": "3593031", "game_in_match": "Game 3", "map_name": "Willow ", "map_id": 14107, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
             { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
@@ -1049,7 +1036,20 @@
           ]
         },
         {
-          "tagpro_eu": "3593063", "game_in_match": "Game 5 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3593042", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mickey Mouse Ping", "blue_team": "Snipe Hunt", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
+            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
+            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3593063", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
             { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
@@ -1064,28 +1064,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Taco Dogs",
+      "season": "MLTP S32", "date": "2024-01-28", "week": "Week 3", "team1": "Miami Ballphins", "team2": "Taco Dogs",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3592996", "game_in_match": "Game 1 Overtime", "map_name": "Perra", "map_id": 17371, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 1, "team2_score": 3,
-          "players": [
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "dodsfall", "playing_as": "dodsfall" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
-            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
-            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
-            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
-          ]
-        },
-        {
-          "tagpro_eu": "3593006", "game_in_match": "Game 2 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3592996", "game_in_match": "Game 1", "map_name": "Perra", "map_id": 17371, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -1098,7 +1085,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593022", "game_in_match": "Game 3 Half 1", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 2,
+          "tagpro_eu": "3593006", "game_in_match": "Game 2", "map_name": "Willow ", "map_id": 14107, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -1111,7 +1098,7 @@
           ]
         },
         {
-          "tagpro_eu": "3593035", "game_in_match": "Game 4 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 9,
+          "tagpro_eu": "3593022", "game_in_match": "Game 3", "map_name": "Willow ", "map_id": 14107, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 2,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -1124,7 +1111,20 @@
           ]
         },
         {
-          "tagpro_eu": "3593046", "game_in_match": "Game 5 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 7, "team2_score": 6,
+          "tagpro_eu": "3593035", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "Taco Dogs", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3593046", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Taco Dogs", "team1_score": 7, "team2_score": 6,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
@@ -1139,28 +1139,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 4", "team1": "The Way of Pings", "team2": "A Blockwork Orange",
+      "season": "MLTP S32", "date": "2024-02-04", "week": "Week 4", "team1": "The Way of Pings", "team2": "A Blockwork Orange",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3597623", "game_in_match": "Game 1 Overtime", "map_name": "Pine", "map_id": 14289, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 3,
-          "players": [
-            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
-            { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
-            { "team": "A Blockwork Orange", "player_season": "mex", "playing_as": "mex" },
-            { "team": "A Blockwork Orange", "player_season": "name333", "playing_as": "name333" },
-            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
-            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
-            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
-            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": "3597632", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Way of Pings", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3597623", "game_in_match": "Game 1", "map_name": "Pine", "map_id": 14289, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -1173,7 +1160,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597637", "game_in_match": "Game 3 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3597632", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Way of Pings", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -1186,7 +1173,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597644", "game_in_match": "Game 4 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Way of Pings", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3597637", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -1199,7 +1186,20 @@
           ]
         },
         {
-          "tagpro_eu": "3597653", "game_in_match": "Game 5 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3597644", "game_in_match": "Game 4", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Way of Pings", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "A Blockwork Orange", "player_season": "mex", "playing_as": "mex" },
+            { "team": "A Blockwork Orange", "player_season": "name333", "playing_as": "name333" },
+            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
+            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3597653", "game_in_match": "Game 5", "map_name": "Rush 2", "map_id": 14114, "red_team": "A Blockwork Orange", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 4,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -1214,7 +1214,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 4", "team1": "Holdin' Gate Warriors", "team2": "Chrome Heart Tags",
+      "season": "MLTP S32", "date": "2024-02-05", "week": "Week 4", "team1": "Holdin' Gate Warriors", "team2": "Chrome Heart Tags",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Chrome Heart Tags", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 0,
@@ -1276,28 +1276,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 4", "team1": "Miami Ballphins", "team2": "Mickey Mouse Ping",
+      "season": "MLTP S32", "date": "2024-02-06", "week": "Week 4", "team1": "Miami Ballphins", "team2": "Mickey Mouse Ping",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3598921", "game_in_match": "Game 1 Overtime", "map_name": "Mosaic", "map_id": 17383, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
-          "players": [
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
-            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
-            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
-            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
-            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" }
-          ]
-        },
-        {
-          "tagpro_eu": "3598928", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Mickey Mouse Ping", "team1_score": 7, "team2_score": 3,
+          "tagpro_eu": "3598921", "game_in_match": "Game 1", "map_name": "Mosaic", "map_id": 17383, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1310,7 +1297,7 @@
           ]
         },
         {
-          "tagpro_eu": "3598932", "game_in_match": "Game 3 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3598928", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Miami Ballphins", "blue_team": "Mickey Mouse Ping", "team1_score": 7, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1323,7 +1310,7 @@
           ]
         },
         {
-          "tagpro_eu": "3598941", "game_in_match": "Game 4 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Mickey Mouse Ping", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3598932", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1336,7 +1323,20 @@
           ]
         },
         {
-          "tagpro_eu": "3598949", "game_in_match": "Game 5 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3598941", "game_in_match": "Game 4", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Mickey Mouse Ping", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
+            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
+            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3598949", "game_in_match": "Game 5", "map_name": "Rush 2", "map_id": 14114, "red_team": "Mickey Mouse Ping", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1351,28 +1351,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 4", "team1": "Avocado Toastys", "team2": "The Toronto Captors",
+      "season": "MLTP S32", "date": "2024-02-04", "week": "Week 4", "team1": "Avocado Toastys", "team2": "The Toronto Captors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3597529", "game_in_match": "Game 1 Overtime", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 5, "team2_score": 4,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3597546", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 6, "team2_score": 5,
+          "tagpro_eu": "3597529", "game_in_match": "Game 1", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -1385,7 +1372,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597559", "game_in_match": "Game 3 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Avocado Toastys", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 8,
+          "tagpro_eu": "3597546", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 6, "team2_score": 5,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -1398,7 +1385,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597577", "game_in_match": "Game 4 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3597559", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Avocado Toastys", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 8,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -1411,7 +1398,20 @@
           ]
         },
         {
-          "tagpro_eu": "3597595", "game_in_match": "Game 5 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Avocado Toastys", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 7,
+          "tagpro_eu": "3597577", "game_in_match": "Game 4", "map_name": "Rush 2", "map_id": 14114, "red_team": "The Toronto Captors", "blue_team": "Avocado Toastys", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3597595", "game_in_match": "Game 5", "map_name": "Rush 2", "map_id": 14114, "red_team": "Avocado Toastys", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 7,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -1426,28 +1426,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 4", "team1": "Taco Dogs", "team2": "Snipe Hunt",
+      "season": "MLTP S32", "date": "2024-02-04", "week": "Week 4", "team1": "Taco Dogs", "team2": "Snipe Hunt",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3597523", "game_in_match": "Game 1 Overtime", "map_name": "Cedar", "map_id": 14419, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 6,
-          "players": [
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
-            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
-            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
-          ]
-        },
-        {
-          "tagpro_eu": "3597542", "game_in_match": "Game 2 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3597523", "game_in_match": "Game 1", "map_name": "Cedar", "map_id": 14419, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 6,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -1460,7 +1447,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597555", "game_in_match": "Game 3 Half 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3597542", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -1473,7 +1460,7 @@
           ]
         },
         {
-          "tagpro_eu": "3597572", "game_in_match": "Game 4 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 1,
+          "tagpro_eu": "3597555", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -1486,7 +1473,20 @@
           ]
         },
         {
-          "tagpro_eu": "3597590", "game_in_match": "Game 5 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3597572", "game_in_match": "Game 4", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3597590", "game_in_match": "Game 5", "map_name": "Rush 2", "map_id": 14114, "red_team": "Taco Dogs", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -1501,28 +1501,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 5", "team1": "Avocado Toastys", "team2": "The Way of Pings",
+      "season": "MLTP S32", "date": "2024-02-18", "week": "Week 5", "team1": "Avocado Toastys", "team2": "The Way of Pings",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3606444", "game_in_match": "Game 1 Overtime", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 9, "team2_score": 3,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "anti-re", "playing_as": "anti-re" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
-            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
-            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
-            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": "3606462", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Avocado Toastys", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3606444", "game_in_match": "Game 1", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 9, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
@@ -1535,7 +1522,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606484", "game_in_match": "Game 3 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3606462", "game_in_match": "Game 2", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Avocado Toastys", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
@@ -1548,7 +1535,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606505", "game_in_match": "Game 4 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Avocado Toastys", "blue_team": "The Way of Pings", "team1_score": 6, "team2_score": 1,
+          "tagpro_eu": "3606484", "game_in_match": "Game 3", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
@@ -1561,7 +1548,20 @@
           ]
         },
         {
-          "tagpro_eu": "3606527", "game_in_match": "Game 5 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3606505", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Avocado Toastys", "blue_team": "The Way of Pings", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
+            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3606527", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 5", "team1": "Mickey Mouse Ping", "team2": "A Blockwork Orange",
+      "season": "MLTP S32", "date": "2024-02-18", "week": "Week 5", "team1": "Mickey Mouse Ping", "team2": "A Blockwork Orange",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Mickey Mouse Ping", "team1_score": 0, "team2_score": 0,
@@ -1638,28 +1638,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 5", "team1": "The Toronto Captors", "team2": "Taco Dogs",
+      "season": "MLTP S32", "date": "2024-02-18", "week": "Week 5", "team1": "The Toronto Captors", "team2": "Taco Dogs",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3606461", "game_in_match": "Game 1 Overtime", "map_name": "Perra", "map_id": 17371, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 2, "team2_score": 3,
-          "players": [
-            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
-            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
-            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3606482", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3606461", "game_in_match": "Game 1", "map_name": "Perra", "map_id": 17371, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -1672,7 +1659,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606503", "game_in_match": "Game 3 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 8, "team2_score": 1,
+          "tagpro_eu": "3606482", "game_in_match": "Game 2", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -1685,7 +1672,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606521", "game_in_match": "Game 4 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "3606503", "game_in_match": "Game 3", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 8, "team2_score": 1,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -1698,7 +1685,20 @@
           ]
         },
         {
-          "tagpro_eu": "3606535", "game_in_match": "Game 5 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3606521", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Taco Dogs", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3606535", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Toronto Captors", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -1713,28 +1713,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 5", "team1": "Snipe Hunt", "team2": "Holdin' Gate Warriors",
+      "season": "MLTP S32", "date": "2024-02-18", "week": "Week 5", "team1": "Snipe Hunt", "team2": "Holdin' Gate Warriors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3606393", "game_in_match": "Game 1 Overtime", "map_name": "Catch-24", "map_id": 13912, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 0,
-          "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
-            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
-            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
-            { "team": "Holdin' Gate Warriors", "player_season": "vic", "playing_as": "vic" },
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
-          ]
-        },
-        {
-          "tagpro_eu": "3606409", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 4,
+          "tagpro_eu": "3606393", "game_in_match": "Game 1", "map_name": "Catch-24", "map_id": 13912, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 0,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1747,7 +1734,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606427", "game_in_match": "Game 3 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3606409", "game_in_match": "Game 2", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1760,7 +1747,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606455", "game_in_match": "Game 4 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 1,
+          "tagpro_eu": "3606427", "game_in_match": "Game 3", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 2,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1773,7 +1760,20 @@
           ]
         },
         {
-          "tagpro_eu": "3606478", "game_in_match": "Game 5 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
+          "tagpro_eu": "3606455", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Nut Rage", "playing_as": "Nut Rage" },
+            { "team": "Holdin' Gate Warriors", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3606478", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1788,28 +1788,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 5", "team1": "Chrome Heart Tags", "team2": "Miami Ballphins",
+      "season": "MLTP S32", "date": "2024-02-18", "week": "Week 5", "team1": "Chrome Heart Tags", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3606412", "game_in_match": "Game 1 Overtime", "map_name": "Haste ", "map_id": 13254, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 5, "team2_score": 6,
-          "players": [
-            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
-            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
-            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
-            { "team": "Chrome Heart Tags", "player_season": "no name", "playing_as": "no name" },
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
-          ]
-        },
-        {
-          "tagpro_eu": "3606428", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Chrome Heart Tags", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
+          "tagpro_eu": "3606412", "game_in_match": "Game 1", "map_name": "Haste ", "map_id": 13254, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -1822,7 +1809,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606450", "game_in_match": "Game 3 Half 1", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3606428", "game_in_match": "Game 2", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Chrome Heart Tags", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -1835,7 +1822,7 @@
           ]
         },
         {
-          "tagpro_eu": "3606469", "game_in_match": "Game 4 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Chrome Heart Tags", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3606450", "game_in_match": "Game 3", "map_name": "Sugar Free Hill", "map_id": 17391, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -1848,7 +1835,20 @@
           ]
         },
         {
-          "tagpro_eu": "3606493", "game_in_match": "Game 5 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 2, "team2_score": 10,
+          "tagpro_eu": "3606469", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Chrome Heart Tags", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Chrome Heart Tags", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3606493", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "Chrome Heart Tags", "team1_score": 2, "team2_score": 10,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -1863,15 +1863,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 6", "team1": "Holdin' Gate Warriors", "team2": "Mickey Mouse Ping",
+      "season": "MLTP S32", "date": "2024-02-25", "week": "Week 6", "team1": "Holdin' Gate Warriors", "team2": "Mickey Mouse Ping",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3610687", "game_in_match": "Game 1 Overtime", "map_name": "Mosaic", "map_id": 17383, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3610687", "game_in_match": "Game 1", "map_name": "Mosaic", "map_id": 17383, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1884,7 +1884,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610702", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "3610702", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1898,7 +1898,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610718", "game_in_match": "Game 3 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 5,
+          "tagpro_eu": "3610718", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1911,7 +1911,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610731", "game_in_match": "Game 4 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
+          "tagpro_eu": "3610731", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Mickey Mouse Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1924,7 +1924,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610739", "game_in_match": "Game 5 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3610739", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Mickey Mouse Ping", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DAD.", "playing_as": "DAD." },
@@ -1939,28 +1939,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 6", "team1": "Miami Ballphins", "team2": "The Way of Pings",
+      "season": "MLTP S32", "date": "2024-02-25", "week": "Week 6", "team1": "Miami Ballphins", "team2": "The Way of Pings",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3610671", "game_in_match": "Game 1 Overtime", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 5,
-          "players": [
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
-            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
-            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
-            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
-            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": "3610688", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 5,
+          "tagpro_eu": "3610671", "game_in_match": "Game 1", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 2, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1973,7 +1960,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610703", "game_in_match": "Game 3 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 5,
+          "tagpro_eu": "3610688", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 5,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -1986,7 +1973,20 @@
           ]
         },
         {
-          "tagpro_eu": "3610716", "game_in_match": "Game 4 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 6,
+          "tagpro_eu": "3610703", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" },
+            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
+            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3610716", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Way of Pings", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 6,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "First", "playing_as": "First" },
@@ -2000,7 +2000,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610733", "game_in_match": "Game 5 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 2,
+          "tagpro_eu": "3610733", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "The Way of Pings", "team1_score": 0, "team2_score": 2,
           "players": [
             { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
             { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
@@ -2015,28 +2015,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 6", "team1": "Chrome Heart Tags", "team2": "Snipe Hunt",
+      "season": "MLTP S32", "date": "2024-02-25", "week": "Week 6", "team1": "Chrome Heart Tags", "team2": "Snipe Hunt",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3610617", "game_in_match": "Game 1 Overtime", "map_name": "Cedar", "map_id": 14419, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
-          "players": [
-            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
-            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
-            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
-            { "team": "Chrome Heart Tags", "player_season": "dodsfall", "playing_as": "dodsfall" },
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
-          ]
-        },
-        {
-          "tagpro_eu": "3610631", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 2, "team2_score": 6,
+          "tagpro_eu": "3610617", "game_in_match": "Game 1", "map_name": "Cedar", "map_id": 14419, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 5,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -2049,7 +2036,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610645", "game_in_match": "Game 3 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 1,
+          "tagpro_eu": "3610631", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 2, "team2_score": 6,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -2062,7 +2049,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610665", "game_in_match": "Game 4 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "3610645", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 1,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -2075,7 +2062,20 @@
           ]
         },
         {
-          "tagpro_eu": "3610680", "game_in_match": "Game 5 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 5,
+          "tagpro_eu": "3610665", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Chrome Heart Tags", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Chrome Heart Tags", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Chrome Heart Tags", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "3610680", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Chrome Heart Tags", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 5,
           "players": [
             { "team": "Chrome Heart Tags", "player_season": "ASAP", "playing_as": "ASAP" },
             { "team": "Chrome Heart Tags", "player_season": "Messi", "playing_as": "Messi" },
@@ -2090,28 +2090,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 6", "team1": "A Blockwork Orange", "team2": "The Toronto Captors",
+      "season": "MLTP S32", "date": "2024-02-25", "week": "Week 6", "team1": "A Blockwork Orange", "team2": "The Toronto Captors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3610693", "game_in_match": "Game 1 Overtime", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 6,
-          "players": [
-            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
-            { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
-            { "team": "A Blockwork Orange", "player_season": "mex", "playing_as": "mex" },
-            { "team": "A Blockwork Orange", "player_season": "name333", "playing_as": "name333" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3610708", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 6,
+          "tagpro_eu": "3610693", "game_in_match": "Game 1", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 6,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -2124,7 +2111,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610724", "game_in_match": "Game 3 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3610708", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 1, "team2_score": 6,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -2137,7 +2124,7 @@
           ]
         },
         {
-          "tagpro_eu": "3610736", "game_in_match": "Game 4 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3610724", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -2150,7 +2137,20 @@
           ]
         },
         {
-          "tagpro_eu": "3610743", "game_in_match": "Game 5 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3610736", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Toronto Captors", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "A Blockwork Orange", "player_season": "mex", "playing_as": "mex" },
+            { "team": "A Blockwork Orange", "player_season": "name333", "playing_as": "name333" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3610743", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "A Blockwork Orange", "blue_team": "The Toronto Captors", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "A Blockwork Orange", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
             { "team": "A Blockwork Orange", "player_season": "Prime", "playing_as": "Prime" },
@@ -2165,28 +2165,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 6", "team1": "Taco Dogs", "team2": "Avocado Toastys",
+      "season": "MLTP S32", "date": "2024-02-26", "week": "Week 6", "team1": "Taco Dogs", "team2": "Avocado Toastys",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3611357", "game_in_match": "Game 1 Overtime", "map_name": "Sardonica", "map_id": 17290, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 1, "team2_score": 2,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
-            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
-            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
-          ]
-        },
-        {
-          "tagpro_eu": "3611375", "game_in_match": "Game 2 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Taco Dogs", "blue_team": "Avocado Toastys", "team1_score": 1, "team2_score": 5,
+          "tagpro_eu": "3611357", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 1, "team2_score": 2,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2199,7 +2186,7 @@
           ]
         },
         {
-          "tagpro_eu": "3611389", "game_in_match": "Game 3 Half 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3611375", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Taco Dogs", "blue_team": "Avocado Toastys", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2212,7 +2199,7 @@
           ]
         },
         {
-          "tagpro_eu": "3611403", "game_in_match": "Game 4 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Taco Dogs", "blue_team": "Avocado Toastys", "team1_score": 6, "team2_score": 2,
+          "tagpro_eu": "3611389", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2225,7 +2212,20 @@
           ]
         },
         {
-          "tagpro_eu": "3611419", "game_in_match": "Game 5 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 8,
+          "tagpro_eu": "3611403", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Taco Dogs", "blue_team": "Avocado Toastys", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" }
+          ]
+        },
+        {
+          "tagpro_eu": "3611419", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Avocado Toastys", "blue_team": "Taco Dogs", "team1_score": 3, "team2_score": 8,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2240,28 +2240,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 7", "team1": "Taco Dogs", "team2": "The Way of Pings",
+      "season": "MLTP S32", "date": "2024-03-03", "week": "Week 7", "team1": "Taco Dogs", "team2": "The Way of Pings",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3614905", "game_in_match": "Game 1 Overtime", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 3,
-          "players": [
-            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
-            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
-            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
-            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" },
-            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
-            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
-            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
-            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
-          ]
-        },
-        {
-          "tagpro_eu": "3614918", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Taco Dogs", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 2,
+          "tagpro_eu": "3614905", "game_in_match": "Game 1", "map_name": "Kardashev 2", "map_id": 17330, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -2274,7 +2261,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614927", "game_in_match": "Game 3 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 4, "team2_score": 2,
+          "tagpro_eu": "3614918", "game_in_match": "Game 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Taco Dogs", "blue_team": "The Way of Pings", "team1_score": 3, "team2_score": 2,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -2287,7 +2274,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614935", "game_in_match": "Game 4 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Taco Dogs", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 5,
+          "tagpro_eu": "3614927", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 4, "team2_score": 2,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -2300,7 +2287,20 @@
           ]
         },
         {
-          "tagpro_eu": "3614944", "game_in_match": "Game 5 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 4,
+          "tagpro_eu": "3614935", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Taco Dogs", "blue_team": "The Way of Pings", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
+            { "team": "Taco Dogs", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Taco Dogs", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "The Way of Pings", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "The Way of Pings", "player_season": "Altiger", "playing_as": "Altiger" },
+            { "team": "The Way of Pings", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Way of Pings", "player_season": "sonder", "playing_as": "sonder" }
+          ]
+        },
+        {
+          "tagpro_eu": "3614944", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Way of Pings", "blue_team": "Taco Dogs", "team1_score": 5, "team2_score": 4,
           "players": [
             { "team": "Taco Dogs", "player_season": "DT", "playing_as": "DT" },
             { "team": "Taco Dogs", "player_season": "NEB.", "playing_as": "NEB." },
@@ -2315,7 +2315,7 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 7", "team1": "Chrome Heart Tags", "team2": "A Blockwork Orange",
+      "season": "MLTP S32", "date": "2024-03-03", "week": "Week 7", "team1": "Chrome Heart Tags", "team2": "A Blockwork Orange",
       "games": [
         {
           "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Chrome Heart Tags", "team1_score": 0, "team2_score": 0,
@@ -2378,28 +2378,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 7", "team1": "Holdin' Gate Warriors", "team2": "Miami Ballphins",
+      "season": "MLTP S32", "date": "2024-03-03", "week": "Week 7", "team1": "Holdin' Gate Warriors", "team2": "Miami Ballphins",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3614872", "game_in_match": "Game 1 Overtime", "map_name": "Haste ", "map_id": 13254, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
-          "players": [
-            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
-            { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
-            { "team": "Holdin' Gate Warriors", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
-            { "team": "Holdin' Gate Warriors", "player_season": "vic", "playing_as": "vic" },
-            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
-            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
-            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
-            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
-          ]
-        },
-        {
-          "tagpro_eu": "3614887", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "tagpro_eu": "3614872", "game_in_match": "Game 1", "map_name": "Haste ", "map_id": 13254, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -2412,7 +2399,20 @@
           ]
         },
         {
-          "tagpro_eu": "3614904", "game_in_match": "Game 3 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 0,
+          "tagpro_eu": "3614887", "game_in_match": "Game 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Penis Wings", "playing_as": "Penis Wings" },
+            { "team": "Holdin' Gate Warriors", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Miami Ballphins", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Miami Ballphins", "player_season": "Homie", "playing_as": "Homie" },
+            { "team": "Miami Ballphins", "player_season": "`", "playing_as": "`" },
+            { "team": "Miami Ballphins", "player_season": "inthesomeday", "playing_as": "inthesomeday" }
+          ]
+        },
+        {
+          "tagpro_eu": "3614904", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 5, "team2_score": 0,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -2425,7 +2425,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614917", "game_in_match": "Game 4 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3614917", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -2438,7 +2438,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614924", "game_in_match": "Game 5 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 3,
+          "tagpro_eu": "3614924", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 6, "team2_score": 3,
           "players": [
             { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
             { "team": "Holdin' Gate Warriors", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
@@ -2453,28 +2453,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 7", "team1": "Snipe Hunt", "team2": "The Toronto Captors",
+      "season": "MLTP S32", "date": "2024-03-03", "week": "Week 7", "team1": "Snipe Hunt", "team2": "The Toronto Captors",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3614863", "game_in_match": "Game 1 Overtime", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 7,
-          "players": [
-            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
-            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
-            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
-            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
-            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
-            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
-            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
-            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
-          ]
-        },
-        {
-          "tagpro_eu": "3614878", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Snipe Hunt", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3614863", "game_in_match": "Game 1", "map_name": "Strawberry! ", "map_id": 17368, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 7,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -2487,7 +2474,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614894", "game_in_match": "Game 3 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 3,
+          "tagpro_eu": "3614878", "game_in_match": "Game 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Snipe Hunt", "blue_team": "The Toronto Captors", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -2500,7 +2487,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614902", "game_in_match": "Game 4 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Snipe Hunt", "blue_team": "The Toronto Captors", "team1_score": 5, "team2_score": 2,
+          "tagpro_eu": "3614894", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 3,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -2513,7 +2500,20 @@
           ]
         },
         {
-          "tagpro_eu": "3614915", "game_in_match": "Game 5 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 3,
+          "tagpro_eu": "3614902", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Snipe Hunt", "blue_team": "The Toronto Captors", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Snipe Hunt", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Snipe Hunt", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Toronto Captors", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "The Toronto Captors", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Toronto Captors", "player_season": "phreak", "playing_as": "phreak" },
+            { "team": "The Toronto Captors", "player_season": "tng.", "playing_as": "tng." }
+          ]
+        },
+        {
+          "tagpro_eu": "3614915", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "The Toronto Captors", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 3,
           "players": [
             { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
             { "team": "Snipe Hunt", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
@@ -2528,28 +2528,15 @@
       ]
     },
     {
-      "season": "MLTP S32", "date": "", "week": "Week 7", "team1": "Avocado Toastys", "team2": "Mickey Mouse Ping",
+      "season": "MLTP S32", "date": "2024-03-03", "week": "Week 7", "team1": "Avocado Toastys", "team2": "Mickey Mouse Ping",
       "games": [
         {
-          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
+          "tagpro_eu": null, "game_in_match": "Game 1", "map_name": null, "map_id": null, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 0, "team2_score": 0,
           "players": [
           ]
         },
         {
-          "tagpro_eu": "3614913", "game_in_match": "Game 1 Overtime", "map_name": "Mosaic", "map_id": 17383, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 6, "team2_score": 5,
-          "players": [
-            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
-            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
-            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
-            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
-            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
-            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
-            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
-            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" }
-          ]
-        },
-        {
-          "tagpro_eu": "3614926", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 1,
+          "tagpro_eu": "3614913", "game_in_match": "Game 1", "map_name": "Mosaic", "map_id": 17383, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 6, "team2_score": 5,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2562,7 +2549,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614933", "game_in_match": "Game 3 Half 1", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 1, "team2_score": 3,
+          "tagpro_eu": "3614926", "game_in_match": "Game 2", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 4, "team2_score": 1,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2575,7 +2562,7 @@
           ]
         },
         {
-          "tagpro_eu": "3614943", "game_in_match": "Game 4 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 3, "team2_score": 4,
+          "tagpro_eu": "3614933", "game_in_match": "Game 3", "map_name": "Transilio 2022", "map_id": 15149, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 1, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
@@ -2588,7 +2575,20 @@
           ]
         },
         {
-          "tagpro_eu": "3614950", "game_in_match": "Game 5 Half 1", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 4, "team2_score": 3,
+          "tagpro_eu": "3614943", "game_in_match": "Game 4", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Mickey Mouse Ping", "blue_team": "Avocado Toastys", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
+            { "team": "Avocado Toastys", "player_season": "Madoka", "playing_as": "Madoka" },
+            { "team": "Avocado Toastys", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Mickey Mouse Ping", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Mickey Mouse Ping", "player_season": "Benoni", "playing_as": "Benoni" },
+            { "team": "Mickey Mouse Ping", "player_season": "Butter", "playing_as": "Butter" },
+            { "team": "Mickey Mouse Ping", "player_season": "d4nk", "playing_as": "d4nk" }
+          ]
+        },
+        {
+          "tagpro_eu": "3614950", "game_in_match": "Game 5", "map_name": "OTI MERALD", "map_id": 15148, "red_team": "Avocado Toastys", "blue_team": "Mickey Mouse Ping", "team1_score": 4, "team2_score": 3,
           "players": [
             { "team": "Avocado Toastys", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
             { "team": "Avocado Toastys", "player_season": "Catkiller", "playing_as": "Catkiller" },
