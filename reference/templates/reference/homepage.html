@@ -32,7 +32,7 @@
                     <tbody>
                         {% for standing in league_data.standings %}
                         <tr>
-                            <td class="rank-cell">{{ standing.rank }}</td>
+                            <td class="rank-cell">{{ standing.team.seed }}</td>
                             <td class="team-cell">
                                 <a href="{% url 'team_season' standing.team.id %}">
                                     {{ standing.team.name }}

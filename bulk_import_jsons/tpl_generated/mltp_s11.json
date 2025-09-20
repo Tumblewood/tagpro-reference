@@ -1,0 +1,2530 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S11", "franchise": "Balls on Parade", "name": "Balls on Parade", "abbr": "BOP", "captain": null },
+    { "season": "MLTP S11", "franchise": "Boats 'n' Holds", "name": "Boats 'n' Holds", "abbr": "BNH", "captain": null },
+    { "season": "MLTP S11", "franchise": "Boostin Dynamo", "name": "Boostin Dynamo", "abbr": "BD", "captain": null },
+    { "season": "MLTP S11", "franchise": "Degrees of Freedom", "name": "Degrees of Freedom", "abbr": "DOF", "captain": null },
+    { "season": "MLTP S11", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW", "captain": null },
+    { "season": "MLTP S11", "franchise": "Holy Rollers", "name": "Holy Rollers", "abbr": "HR", "captain": null },
+    { "season": "MLTP S11", "franchise": "Liberty Caps", "name": "Liberty Caps", "abbr": "LC", "captain": null },
+    { "season": "MLTP S11", "franchise": "Merballs", "name": "Merballs", "abbr": "MRB", "captain": null },
+    { "season": "MLTP S11", "franchise": "Return of the Ping", "name": "Return of the Ping", "abbr": "ROTP", "captain": null },
+    { "season": "MLTP S11", "franchise": "Snipe Hunt", "name": "Snipe Hunt", "abbr": "SNI", "captain": null },
+    { "season": "MLTP S11", "franchise": "Tears For Spheres", "name": "Tears For Spheres", "abbr": "TRS", "captain": null },
+    { "season": "MLTP S11", "franchise": "The Holy Seehawks", "name": "The Holy Seehawks", "abbr": "THS", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S11", "team": "Balls on Parade", "player": "Bal McCartny", "playing_as": "Bal McCartny" },
+    { "season": "MLTP S11", "team": "Balls on Parade", "player": "Mufro", "playing_as": "Mufro" },
+    { "season": "MLTP S11", "team": "Balls on Parade", "player": "meaL", "playing_as": "meaL" },
+    { "season": "MLTP S11", "team": "Balls on Parade", "player": "siDe", "playing_as": "siDe" },
+    { "season": "MLTP S11", "team": "Balls on Parade", "player": "toasty.", "playing_as": "toasty." },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "/r/tropel", "playing_as": "/r/tropel" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "Arbybear", "playing_as": "Arbybear" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "BAN NAN", "playing_as": "BAN NAN" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "Gman8181", "playing_as": "Gman8181" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "Heisy", "playing_as": "Heisy" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "Mr. Hat", "playing_as": "Mr. Hat" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "Syniikal", "playing_as": "Syniikal" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "im a goat", "playing_as": "im a goat" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "kate", "playing_as": "kate" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "mP", "playing_as": "mP" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "okthen", "playing_as": "okthen" },
+    { "season": "MLTP S11", "team": "Boats 'n' Holds", "player": "sleepy", "playing_as": "sleepy" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "Dor", "playing_as": "Dor" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "Jubjubs", "playing_as": "Jubjubs" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "Stann", "playing_as": "Stann" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "anti-re", "playing_as": "anti-re" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "eee", "playing_as": "eee" },
+    { "season": "MLTP S11", "team": "Boostin Dynamo", "player": "intercest", "playing_as": "intercest" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "AlisonBrie", "playing_as": "AlisonBrie" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "BAllstar", "playing_as": "BAllstar" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "Fatal", "playing_as": "Fatal" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "Jake from SF", "playing_as": "Jake from SF" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "Turbo", "playing_as": "Turbo" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "MLTP S11", "team": "Degrees of Freedom", "player": "iAaronK", "playing_as": "iAaronK" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Ball God", "playing_as": "Ball God" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Curry", "playing_as": "Curry" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Dalek", "playing_as": "Dalek" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Eggo", "playing_as": "Eggo" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "El Sacko", "playing_as": "El Sacko" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "GOOBR", "playing_as": "GOOBR" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Neon", "playing_as": "Neon" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Warriors", "playing_as": "Warriors" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Wayne", "playing_as": "Wayne" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "Wayne_", "playing_as": "Wayne_" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "cucurrucucu", "playing_as": "cucurrucucu" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "iblis", "playing_as": "iblis" },
+    { "season": "MLTP S11", "team": "Holdin' Gate Warriors", "player": "kelvin", "playing_as": "kelvin" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "2P1S", "playing_as": "2P1S" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "Gem", "playing_as": "Gem" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "JBB", "playing_as": "JBB" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "MEGATRON", "playing_as": "MEGATRON" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "ProTag", "playing_as": "ProTag" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "ajax", "playing_as": "ajax" },
+    { "season": "MLTP S11", "team": "Holy Rollers", "player": "karlwithak", "playing_as": "karlwithak" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "C Bivvey", "playing_as": "C Bivvey" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "ComfortFlair", "playing_as": "ComfortFlair" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "Crossover", "playing_as": "Crossover" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "Destar", "playing_as": "Destar" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "Devious", "playing_as": "Devious" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "Sneak", "playing_as": "Sneak" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "WowSuchPro", "playing_as": "WowSuchPro" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "danisk", "playing_as": "danisk" },
+    { "season": "MLTP S11", "team": "Liberty Caps", "player": "fenix funk 5", "playing_as": "fenix funk 5" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "Death Pickle", "playing_as": "Death Pickle" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "KPow", "playing_as": "KPow" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "MiIky", "playing_as": "MiIky" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "aardvark74", "playing_as": "aardvark74" },
+    { "season": "MLTP S11", "team": "Merballs", "player": "papi.", "playing_as": "papi." },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "Dodge", "playing_as": "Dodge" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "Frozty", "playing_as": "Frozty" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "Renegade", "playing_as": "Renegade" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "The X Factor", "playing_as": "The X Factor" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "dywz", "playing_as": "dywz" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "lukemoo", "playing_as": "lukemoo" },
+    { "season": "MLTP S11", "team": "Return of the Ping", "player": "np", "playing_as": "np" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "DT", "playing_as": "DT" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "Fuzzy", "playing_as": "Fuzzy" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "Hulzy", "playing_as": "Hulzy" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "Warden", "playing_as": "Warden" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "dodsfall", "playing_as": "dodsfall" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "sIide", "playing_as": "sIide" },
+    { "season": "MLTP S11", "team": "Snipe Hunt", "player": "thenewguy.", "playing_as": "thenewguy." },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "Genesis", "playing_as": "Genesis" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "Spjork", "playing_as": "Spjork" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "andhecapd", "playing_as": "andhecapd" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "bad", "playing_as": "bad" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "bright", "playing_as": "bright" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "timeboy", "playing_as": "timeboy" },
+    { "season": "MLTP S11", "team": "Tears For Spheres", "player": "yank", "playing_as": "yank" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "Apopalypse", "playing_as": "Apopalypse" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "Bamboozler", "playing_as": "Bamboozler" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "Brainiac", "playing_as": "Brainiac" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "Crippy", "playing_as": "Crippy" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "DaffodiI", "playing_as": "DaffodiI" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "Daffodil", "playing_as": "Daffodil" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "aitethen", "playing_as": "aitethen" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "ccga4", "playing_as": "ccga4" },
+    { "season": "MLTP S11", "team": "The Holy Seehawks", "player": "sun chips", "playing_as": "sun chips" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "The Holy Seehawks", "team2": "Merballs",
+      "games": [
+        {
+          "tagpro_eu": "1062468", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "The Holy Seehawks", "blue_team": "Merballs", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062489", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Merballs", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Merballs", "player_season": "papi.", "playing_as": "papi." },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062508", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Merballs", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062532", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Holy Seehawks", "blue_team": "Merballs", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "Tears For Spheres", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "1062503", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Snipe Hunt", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062528", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Tears For Spheres", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062553", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Tears For Spheres", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062579", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Snipe Hunt", "blue_team": "Tears For Spheres", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "Degrees of Freedom", "team2": "Liberty Caps",
+      "games": [
+        {
+          "tagpro_eu": "1062518", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Degrees of Freedom", "blue_team": "Liberty Caps", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062542", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Liberty Caps", "blue_team": "Degrees of Freedom", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062567", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Liberty Caps", "blue_team": "Degrees of Freedom", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062601", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Degrees of Freedom", "blue_team": "Liberty Caps", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "WowSuchPro", "playing_as": "WowSuchPro" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "Boats 'n' Holds", "team2": "Holy Rollers",
+      "games": [
+        {
+          "tagpro_eu": "1062357", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Holy Rollers", "blue_team": "Boats 'n' Holds", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Holy Rollers", "player_season": "Gem", "playing_as": "Gem" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "ProTag", "playing_as": "ProTag" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062380", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Boats 'n' Holds", "blue_team": "Holy Rollers", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Holy Rollers", "player_season": "Gem", "playing_as": "Gem" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "ProTag", "playing_as": "ProTag" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062408", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Boats 'n' Holds", "blue_team": "Holy Rollers", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Holy Rollers", "player_season": "Gem", "playing_as": "Gem" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "ProTag", "playing_as": "ProTag" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062429", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Holy Rollers", "blue_team": "Boats 'n' Holds", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "/r/tropel", "playing_as": "/r/tropel" },
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Holy Rollers", "player_season": "Gem", "playing_as": "Gem" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "ProTag", "playing_as": "ProTag" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "Balls on Parade", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": "1062421", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Boostin Dynamo", "blue_team": "Balls on Parade", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062439", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Balls on Parade", "blue_team": "Boostin Dynamo", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062462", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Balls on Parade", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062476", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Boostin Dynamo", "blue_team": "Balls on Parade", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-20", "week": "Week 1", "team1": "Holdin' Gate Warriors", "team2": "Return of the Ping",
+      "games": [
+        {
+          "tagpro_eu": "1062614", "game_in_match": "Game 1 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Holdin' Gate Warriors", "blue_team": "Return of the Ping", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "The X Factor", "playing_as": "The X Factor" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062642", "game_in_match": "Game 1 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Return of the Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062665", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Return of the Ping", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1062686", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Holdin' Gate Warriors", "blue_team": "Return of the Ping", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Ball God", "playing_as": "Ball God" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Balls on Parade", "team2": "Degrees of Freedom",
+      "games": [
+        {
+          "tagpro_eu": "1075441", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Degrees of Freedom", "blue_team": "Balls on Parade", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075470", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Balls on Parade", "blue_team": "Degrees of Freedom", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075507", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Balls on Parade", "blue_team": "Degrees of Freedom", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075538", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Degrees of Freedom", "blue_team": "Balls on Parade", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Holy Rollers", "team2": "Liberty Caps",
+      "games": [
+        {
+          "tagpro_eu": "1075457", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Liberty Caps", "blue_team": "Holy Rollers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "Sneak", "playing_as": "Sneak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075487", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Holy Rollers", "blue_team": "Liberty Caps", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075519", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Liberty Caps", "blue_team": "Holy Rollers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "WowSuchPro", "playing_as": "WowSuchPro" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075552", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Holy Rollers", "blue_team": "Liberty Caps", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "destar" },
+            { "team": "Liberty Caps", "player_season": "fenix funk 5", "playing_as": "fenix funk 5" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Boostin Dynamo", "team2": "Boats 'n' Holds",
+      "games": [
+        {
+          "tagpro_eu": "1075292", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Boostin Dynamo", "blue_team": "Boats 'n' Holds", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "Boats 'n' Holds", "player_season": "kate", "playing_as": "kate" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075325", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Boats 'n' Holds", "blue_team": "Boostin Dynamo", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075367", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Boats 'n' Holds", "blue_team": "Boostin Dynamo", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075402", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Boostin Dynamo", "blue_team": "Boats 'n' Holds", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "im a goat", "playing_as": "im a goat" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Tears For Spheres", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "1075607", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
+            { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075638", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Tears For Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
+            { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075674", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Tears For Spheres", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
+            { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "iblis" },
+            { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075697", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Holdin' Gate Warriors", "blue_team": "Tears For Spheres", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
+            { "team": "Tears For Spheres", "player_season": "Genesis", "playing_as": "Genesis" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "timeboy", "playing_as": "timeboy" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Merballs", "team2": "Return of the Ping",
+      "games": [
+        {
+          "tagpro_eu": "1075438", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Merballs", "blue_team": "Return of the Ping", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "KPow", "playing_as": "KPow" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075467", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Return of the Ping", "blue_team": "Merballs", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "KPow", "playing_as": "KPow" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075496", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Merballs", "blue_team": "Return of the Ping", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075524", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Return of the Ping", "blue_team": "Merballs", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" },
+            { "team": "Return of the Ping", "player_season": "np", "playing_as": "np" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-11-27", "week": "Week 2", "team1": "Snipe Hunt", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1075517", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Snipe Hunt", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075547", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Holy Seehawks", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075566", "game_in_match": "Game 2 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "The Holy Seehawks", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1075593", "game_in_match": "Game 2 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Snipe Hunt", "blue_team": "The Holy Seehawks", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Boats 'n' Holds", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1091372", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "The Holy Seehawks", "blue_team": "Boats 'n' Holds", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "DaffodiI", "playing_as": "DaffodiI" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091402", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Boats 'n' Holds", "blue_team": "The Holy Seehawks", "team1_score": 0, "team2_score": 22,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "DaffodiI", "playing_as": "DaffodiI" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091435", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Boats 'n' Holds", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "sleepy", "playing_as": "sleepy" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "DaffodiI", "playing_as": "DaffodiI" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091463", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Holy Seehawks", "blue_team": "Boats 'n' Holds", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "DaffodiI", "playing_as": "DaffodiI" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Liberty Caps", "team2": "Tears For Spheres",
+      "games": [
+        {
+          "tagpro_eu": "1091562", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Liberty Caps", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091579", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Tears For Spheres", "blue_team": "Liberty Caps", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091608", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Liberty Caps", "blue_team": "Tears For Spheres", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091630", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Tears For Spheres", "blue_team": "Liberty Caps", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Degrees of Freedom", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "1091567", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Holdin' Gate Warriors", "blue_team": "Degrees of Freedom", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "kelvin", "playing_as": "kelvin" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091603", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Degrees of Freedom", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091624", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Degrees of Freedom", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091642", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Degrees of Freedom", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Holy Rollers", "team2": "Return of the Ping",
+      "games": [
+        {
+          "tagpro_eu": "1091442", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Holy Rollers", "blue_team": "Return of the Ping", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091474", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Return of the Ping", "blue_team": "Holy Rollers", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091500", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Return of the Ping", "blue_team": "Holy Rollers", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Return of the Ping", "player_season": "lukemoo", "playing_as": "lukemoo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091529", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holy Rollers", "blue_team": "Return of the Ping", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Balls on Parade", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "1091399", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Snipe Hunt", "blue_team": "Balls on Parade", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1091429", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Balls on Parade", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1091461", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Balls on Parade", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1091487", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Snipe Hunt", "blue_team": "Balls on Parade", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "Mufro", "playing_as": "Mufro" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-04", "week": "Week 3", "team1": "Boostin Dynamo", "team2": "Merballs",
+      "games": [
+        {
+          "tagpro_eu": "1091418", "game_in_match": "Game 1 Half 1", "map_name": "Birch", "map_id": 1889, "red_team": "Boostin Dynamo", "blue_team": "Merballs", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091454", "game_in_match": "Game 1 Half 2", "map_name": "Birch", "map_id": 1889, "red_team": "Merballs", "blue_team": "Boostin Dynamo", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091477", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Boostin Dynamo", "blue_team": "Merballs", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1091509", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Merballs", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Jubjubs", "playing_as": "Jubjubs" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "Boostin Dynamo", "team2": "Degrees of Freedom",
+      "games": [
+        {
+          "tagpro_eu": "1105822", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Degrees of Freedom", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "iAaronK", "playing_as": "iAaronK" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105858", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Boostin Dynamo", "blue_team": "Degrees of Freedom", "team1_score": 7, "team2_score": 0,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "iAaronK", "playing_as": "iAaronK" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105902", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Boostin Dynamo", "blue_team": "Degrees of Freedom", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "iAaronK", "playing_as": "iAaronK" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105932", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Degrees of Freedom", "blue_team": "Boostin Dynamo", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Degrees of Freedom", "player_season": "BAllstar", "playing_as": "BAllstar" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "iAaronK", "playing_as": "iAaronK" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "Holy Rollers", "team2": "Balls on Parade",
+      "games": [
+        {
+          "tagpro_eu": "1105810", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Balls on Parade", "blue_team": "Holy Rollers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105842", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holy Rollers", "blue_team": "Balls on Parade", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105886", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Balls on Parade", "blue_team": "Holy Rollers", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105920", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Holy Rollers", "blue_team": "Balls on Parade", "team1_score": 7, "team2_score": 12,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "Boats 'n' Holds", "team2": "Liberty Caps",
+      "games": [
+        {
+          "tagpro_eu": "1105737", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Liberty Caps", "blue_team": "Boats 'n' Holds", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105769", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Boats 'n' Holds", "blue_team": "Liberty Caps", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105796", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Liberty Caps", "blue_team": "Boats 'n' Holds", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105821", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Boats 'n' Holds", "blue_team": "Liberty Caps", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "Snipe Hunt", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "1105954", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1105981", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1106006", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1106030", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "Warden", "playing_as": "Warden" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "Merballs", "team2": "Tears For Spheres",
+      "games": [
+        {
+          "tagpro_eu": "1105943", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Tears For Spheres", "blue_team": "Merballs", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105966", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Merballs", "blue_team": "Tears For Spheres", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105995", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears For Spheres", "blue_team": "Merballs", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1106021", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Merballs", "blue_team": "Tears For Spheres", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "Death Pickle", "playing_as": "Death Pickle" },
+            { "team": "Merballs", "player_season": "KPow", "playing_as": "KPow" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-11", "week": "Week 4", "team1": "The Holy Seehawks", "team2": "Return of the Ping",
+      "games": [
+        {
+          "tagpro_eu": "1105684", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Return of the Ping", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105709", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Holy Seehawks", "blue_team": "Return of the Ping", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105743", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Return of the Ping", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Crippy", "playing_as": "Crippy" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1105774", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Return of the Ping", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 5", "team1": "Degrees of Freedom", "team2": "Boats 'n' Holds",
+      "games": [
+        {
+          "tagpro_eu": "1168555", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Boats 'n' Holds", "blue_team": "Degrees of Freedom", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168584", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Degrees of Freedom", "blue_team": "Boats 'n' Holds", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168614", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Degrees of Freedom", "blue_team": "Boats 'n' Holds", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168638", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Boats 'n' Holds", "blue_team": "Degrees of Freedom", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "BAN NAN", "playing_as": "BAN NAN" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-18", "week": "Week 5", "team1": "Liberty Caps", "team2": "Balls on Parade",
+      "games": [
+        {
+          "tagpro_eu": "1122575", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Balls on Parade", "blue_team": "Liberty Caps", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122616", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Liberty Caps", "blue_team": "Balls on Parade", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122660", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Balls on Parade", "blue_team": "Liberty Caps", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122689", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Liberty Caps", "blue_team": "Balls on Parade", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-18", "week": "Week 5", "team1": "Boostin Dynamo", "team2": "Holy Rollers",
+      "games": [
+        {
+          "tagpro_eu": "1122391", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Boostin Dynamo", "blue_team": "Holy Rollers", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122439", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Holy Rollers", "blue_team": "Boostin Dynamo", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122483", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Holy Rollers", "blue_team": "Boostin Dynamo", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122520", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Boostin Dynamo", "blue_team": "Holy Rollers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-19", "week": "Week 5", "team1": "Holdin' Gate Warriors", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1124637", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1124677", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1124715", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Holdin' Gate Warriors", "blue_team": "The Holy Seehawks", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1124751", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Holy Seehawks", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Neon", "playing_as": "Neon" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne", "playing_as": "Wayne" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-18", "week": "Week 5", "team1": "Return of the Ping", "team2": "Tears For Spheres",
+      "games": [
+        {
+          "tagpro_eu": "1122657", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Return of the Ping", "blue_team": "Tears For Spheres", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122693", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Tears For Spheres", "blue_team": "Return of the Ping", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "The X Factor", "playing_as": "The X Factor" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122723", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears For Spheres", "blue_team": "Return of the Ping", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1122740", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Return of the Ping", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2016-12-18", "week": "Week 5", "team1": "Snipe Hunt", "team2": "Merballs",
+      "games": [
+        {
+          "tagpro_eu": "1122378", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Merballs", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1122414", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Merballs", "blue_team": "Snipe Hunt", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1122463", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Snipe Hunt", "blue_team": "Merballs", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1122511", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Merballs", "blue_team": "Snipe Hunt", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-09", "week": "Week 6", "team1": "Holy Rollers", "team2": "The Holy Seehawks",
+      "games": [
+        {
+          "tagpro_eu": "1170400", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Holy Rollers", "blue_team": "The Holy Seehawks", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "The Holy Seehawks", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1170429", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Holy Seehawks", "blue_team": "Holy Rollers", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "The Holy Seehawks", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1170464", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Holy Seehawks", "blue_team": "Holy Rollers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "aitethen", "playing_as": "aitethen" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1170492", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Holy Rollers", "blue_team": "The Holy Seehawks", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 6", "team1": "Boostin Dynamo", "team2": "Tears For Spheres",
+      "games": [
+        {
+          "tagpro_eu": "1168622", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Boostin Dynamo", "blue_team": "Tears For Spheres", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168648", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Tears For Spheres", "blue_team": "Boostin Dynamo", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "andhecapd", "playing_as": "andhecapd" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168680", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears For Spheres", "blue_team": "Boostin Dynamo", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "andhecapd", "playing_as": "andhecapd" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168714", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Boostin Dynamo", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "andhecapd", "playing_as": "andhecapd" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 6", "team1": "Balls on Parade", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "1168763", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Holdin' Gate Warriors", "blue_team": "Balls on Parade", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168795", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Balls on Parade", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168821", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Holdin' Gate Warriors", "blue_team": "Balls on Parade", "team1_score": 11, "team2_score": 2,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168838", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Balls on Parade", "blue_team": "Holdin' Gate Warriors", "team1_score": 13, "team2_score": 3,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Eggo", "playing_as": "Eggo" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Wayne_", "playing_as": "Wayne_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 6", "team1": "Liberty Caps", "team2": "Merballs",
+      "games": [
+        {
+          "tagpro_eu": "1168684", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Merballs", "blue_team": "Liberty Caps", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168718", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Liberty Caps", "blue_team": "Merballs", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark74", "playing_as": "aardvark74" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168745", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Merballs", "blue_team": "Liberty Caps", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168774", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Liberty Caps", "blue_team": "Merballs", "team1_score": 5, "team2_score": 10,
+          "players": [
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "ComfortFlair", "playing_as": "ComfortFlair" },
+            { "team": "Liberty Caps", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 6", "team1": "Degrees of Freedom", "team2": "Return of the Ping",
+      "games": [
+        {
+          "tagpro_eu": "1168690", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Return of the Ping", "blue_team": "Degrees of Freedom", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168719", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Degrees of Freedom", "blue_team": "Return of the Ping", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168751", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Degrees of Freedom", "blue_team": "Return of the Ping", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" }
+          ]
+        },
+        {
+          "tagpro_eu": "1168780", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Return of the Ping", "blue_team": "Degrees of Freedom", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Degrees of Freedom", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-08", "week": "Week 6", "team1": "Boats 'n' Holds", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "1168419", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Snipe Hunt", "blue_team": "Boats 'n' Holds", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "mP", "playing_as": "mP" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1168444", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Boats 'n' Holds", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "mP", "playing_as": "mP" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1168483", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Boats 'n' Holds", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Boats 'n' Holds", "player_season": "mP", "playing_as": "mP" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1168512", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Snipe Hunt", "blue_team": "Boats 'n' Holds", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "Boats 'n' Holds", "team2": "Balls on Parade",
+      "games": [
+        {
+          "tagpro_eu": "1180973", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Balls on Parade", "blue_team": "Boats 'n' Holds", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1180985", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Boats 'n' Holds", "blue_team": "Balls on Parade", "team1_score": 4, "team2_score": 10,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Heisy", "playing_as": "Heisy" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181010", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Balls on Parade", "blue_team": "Boats 'n' Holds", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181023", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Boats 'n' Holds", "blue_team": "Balls on Parade", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "Balls on Parade", "player_season": "Bal McCartny", "playing_as": "Bal McCartny" },
+            { "team": "Balls on Parade", "player_season": "meaL", "playing_as": "meaL" },
+            { "team": "Balls on Parade", "player_season": "siDe", "playing_as": "siDe" },
+            { "team": "Balls on Parade", "player_season": "toasty.", "playing_as": "toasty." },
+            { "team": "Boats 'n' Holds", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "Boats 'n' Holds", "player_season": "Gman8181", "playing_as": "Gman8181" },
+            { "team": "Boats 'n' Holds", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Boats 'n' Holds", "player_season": "Syniikal", "playing_as": "Syniikal" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "Liberty Caps", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": "1180947", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Boostin Dynamo", "blue_team": "Liberty Caps", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1180966", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Liberty Caps", "blue_team": "Boostin Dynamo", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1180980", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Liberty Caps", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Crossover", "playing_as": "Crossover" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        },
+        {
+          "tagpro_eu": "1180993", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Boostin Dynamo", "blue_team": "Liberty Caps", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "Dor", "playing_as": "Dor" },
+            { "team": "Boostin Dynamo", "player_season": "Stann", "playing_as": "Stann" },
+            { "team": "Boostin Dynamo", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Boostin Dynamo", "player_season": "intercest", "playing_as": "intercest" },
+            { "team": "Liberty Caps", "player_season": "C Bivvey", "playing_as": "C Bivvey" },
+            { "team": "Liberty Caps", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Liberty Caps", "player_season": "Devious", "playing_as": "Devious" },
+            { "team": "Liberty Caps", "player_season": "danisk", "playing_as": "danisk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "Degrees of Freedom", "team2": "Holy Rollers",
+      "games": [
+        {
+          "tagpro_eu": "1181167", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Holy Rollers", "blue_team": "Degrees of Freedom", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181200", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Degrees of Freedom", "blue_team": "Holy Rollers", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181220", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Degrees of Freedom", "blue_team": "Holy Rollers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Jake from SF", "playing_as": "Jake from SF" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Holy Rollers", "player_season": "karlwithak", "playing_as": "karlwithak" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181246", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Holy Rollers", "blue_team": "Degrees of Freedom", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Degrees of Freedom", "player_season": "AlisonBrie", "playing_as": "AlisonBrie" },
+            { "team": "Degrees of Freedom", "player_season": "BAllstar", "playing_as": "BAllstar" },
+            { "team": "Degrees of Freedom", "player_season": "Fatal", "playing_as": "Fatal" },
+            { "team": "Degrees of Freedom", "player_season": "Turbo", "playing_as": "Turbo" },
+            { "team": "Holy Rollers", "player_season": "2P1S", "playing_as": "2P1S" },
+            { "team": "Holy Rollers", "player_season": "JBB", "playing_as": "JBB" },
+            { "team": "Holy Rollers", "player_season": "MEGATRON", "playing_as": "MEGATRON" },
+            { "team": "Holy Rollers", "player_season": "ajax", "playing_as": "ajax" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "The Holy Seehawks", "team2": "Tears For Spheres",
+      "games": [
+        {
+          "tagpro_eu": "1181262", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Holy Seehawks", "blue_team": "Tears For Spheres", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181282", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Tears For Spheres", "blue_team": "The Holy Seehawks", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181305", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Tears For Spheres", "blue_team": "The Holy Seehawks", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181317", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "The Holy Seehawks", "blue_team": "Tears For Spheres", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Tears For Spheres", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "Tears For Spheres", "player_season": "bad", "playing_as": "bad" },
+            { "team": "Tears For Spheres", "player_season": "bright", "playing_as": "bright" },
+            { "team": "Tears For Spheres", "player_season": "yank", "playing_as": "yank" },
+            { "team": "The Holy Seehawks", "player_season": "Apopalypse", "playing_as": "Apopalypse" },
+            { "team": "The Holy Seehawks", "player_season": "Brainiac", "playing_as": "Brainiac" },
+            { "team": "The Holy Seehawks", "player_season": "Daffodil", "playing_as": "Daffodil" },
+            { "team": "The Holy Seehawks", "player_season": "sun chips", "playing_as": "sun chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "Return of the Ping", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "1181155", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Snipe Hunt", "blue_team": "Return of the Ping", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1181180", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Return of the Ping", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1181205", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Return of the Ping", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "1181232", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Snipe Hunt", "blue_team": "Return of the Ping", "team1_score": 0, "team2_score": 6,
+          "players": [
+            { "team": "Return of the Ping", "player_season": "Dodge", "playing_as": "Dodge" },
+            { "team": "Return of the Ping", "player_season": "Frozty", "playing_as": "Frozty" },
+            { "team": "Return of the Ping", "player_season": "Renegade", "playing_as": "Renegade" },
+            { "team": "Return of the Ping", "player_season": "dywz", "playing_as": "dywz" },
+            { "team": "Snipe Hunt", "player_season": "Fuzzy", "playing_as": "Fuzzy" },
+            { "team": "Snipe Hunt", "player_season": "Hulzy", "playing_as": "Hulzy" },
+            { "team": "Snipe Hunt", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "Snipe Hunt", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S11", "date": "2017-01-15", "week": "Week 7", "team1": "Holdin' Gate Warriors", "team2": "Merballs",
+      "games": [
+        {
+          "tagpro_eu": "1181238", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Merballs", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" },
+            { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "Iblis" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181254", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Holdin' Gate Warriors", "blue_team": "Merballs", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Warriors", "playing_as": "Warriors" },
+            { "team": "Holdin' Gate Warriors", "player_season": "cucurrucucu", "playing_as": "cucurrucucu" },
+            { "team": "Holdin' Gate Warriors", "player_season": "iblis", "playing_as": "Iblis" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181275", "game_in_match": "Game 2 Half 1", "map_name": "Pilot", "map_id": 6, "red_team": "Holdin' Gate Warriors", "blue_team": "Merballs", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        },
+        {
+          "tagpro_eu": "1181296", "game_in_match": "Game 2 Half 2", "map_name": "Pilot", "map_id": 6, "red_team": "Merballs", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Dalek", "playing_as": "Dalek" },
+            { "team": "Holdin' Gate Warriors", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "Holdin' Gate Warriors", "player_season": "GOOBR", "playing_as": "GOOBR" },
+            { "team": "Merballs", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Merballs", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "Merballs", "player_season": "MiIky", "playing_as": "MiIky" },
+            { "team": "Merballs", "player_season": "aardvark", "playing_as": "aardvark" }
+          ]
+        }
+      ]
+    }
+  ]
+}

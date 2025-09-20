@@ -1,0 +1,2033 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S36", "franchise": "3000 Split Club", "name": "3000 Split Club", "abbr": "3SC", "captain": null },
+    { "season": "MLTP S36", "franchise": "Arctag IceCaps", "name": "Arctag IceCaps", "abbr": "AIC", "captain": null },
+    { "season": "MLTP S36", "franchise": "Furballers", "name": "Furballers", "abbr": "FUR", "captain": null },
+    { "season": "MLTP S36", "franchise": "Harlem Globebotters", "name": "Harlem Globebotters", "abbr": "HGB", "captain": null },
+    { "season": "MLTP S36", "franchise": "I Saw the TP Glow", "name": "I Saw the TP Glow", "abbr": "IST", "captain": null },
+    { "season": "MLTP S36", "franchise": "Returns of the Jedi", "name": "Returns of the Jedi", "abbr": "RTJ", "captain": null },
+    { "season": "MLTP S36", "franchise": "The Blockettes", "name": "The Blockettes", "abbr": "BLK", "captain": null },
+    { "season": "MLTP S36", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": null }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "Arbybear", "playing_as": "Arbybear" },
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "BallAnka", "playing_as": "BallAnka" },
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "Toidi", "playing_as": "Toidi" },
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "kelvin", "playing_as": "kelvin" },
+    { "season": "MLTP S36", "team": "3000 Split Club", "player": "yungdggrdick", "playing_as": "yungdggrdick" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "Bamboozler", "playing_as": "Bamboozler" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "Jer32", "playing_as": "Jer32" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "Squeeb", "playing_as": "Squeeb" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "Tinderfella", "playing_as": "Tinderfella" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "okthen", "playing_as": "okthen" },
+    { "season": "MLTP S36", "team": "Arctag IceCaps", "player": "vic", "playing_as": "vic" },
+    { "season": "MLTP S36", "team": "Furballers", "player": "anti-re", "playing_as": "anti-re" },
+    { "season": "MLTP S36", "team": "Furballers", "player": "eee", "playing_as": "eee" },
+    { "season": "MLTP S36", "team": "Furballers", "player": "jazzz", "playing_as": "jazzz" },
+    { "season": "MLTP S36", "team": "Furballers", "player": "meowza", "playing_as": "meowza" },
+    { "season": "MLTP S36", "team": "Furballers", "player": "yawn", "playing_as": "yawn" },
+    { "season": "MLTP S36", "team": "Harlem Globebotters", "player": "Gman", "playing_as": "Gman" },
+    { "season": "MLTP S36", "team": "Harlem Globebotters", "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S36", "team": "Harlem Globebotters", "player": "Poeticalto", "playing_as": "Poeticalto" },
+    { "season": "MLTP S36", "team": "Harlem Globebotters", "player": "Sadness", "playing_as": "Sadness" },
+    { "season": "MLTP S36", "team": "Harlem Globebotters", "player": "aaron", "playing_as": "aaron" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "BallsToYou.", "playing_as": "BallsToYou." },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Button", "playing_as": "Button" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Ceremony", "playing_as": "Ceremony" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Spjork", "playing_as": "Spjork" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "Wraith", "playing_as": "Wraith" },
+    { "season": "MLTP S36", "team": "I Saw the TP Glow", "player": "deku", "playing_as": "deku" },
+    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "ASAP", "playing_as": "ASAP" },
+    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "Kep", "playing_as": "Kep" },
+    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "Vader", "playing_as": "Vader" },
+    { "season": "MLTP S36", "team": "Returns of the Jedi", "player": "bbb", "playing_as": "bbb" },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "Spheroid.", "playing_as": "Spheroid." },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "baIl-e", "playing_as": "baIl-e" },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "joy.", "playing_as": "joy." },
+    { "season": "MLTP S36", "team": "The Blockettes", "player": "rina", "playing_as": "rina" },
+    { "season": "MLTP S36", "team": "The Land Before Timers", "player": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+    { "season": "MLTP S36", "team": "The Land Before Timers", "player": "Russ", "playing_as": "Russ" },
+    { "season": "MLTP S36", "team": "The Land Before Timers", "player": "jig", "playing_as": "jig" },
+    { "season": "MLTP S36", "team": "The Land Before Timers", "player": "king krule", "playing_as": "king krule" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S36", "date": "2025-05-11", "week": "Week 1", "team1": "Returns of the Jedi", "team2": "The Blockettes",
+      "games": [
+        {
+          "tagpro_eu": "3973119", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973100", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Blockettes", "blue_team": "Returns of the Jedi", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973083", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 5, "team2_score": 9,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973063", "game_in_match": "Game 4", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Blockettes", "blue_team": "Returns of the Jedi", "team1_score": 12, "team2_score": 2,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973047", "game_in_match": "Game 5", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Returns of the Jedi", "blue_team": "The Blockettes", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "asap" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Blockettes", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-11", "week": "Week 1", "team1": "Furballers", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3973010", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Furballers", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973024", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Arctag IceCaps", "blue_team": "Furballers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973037", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Furballers", "blue_team": "Arctag IceCaps", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973049", "game_in_match": "Game 4", "map_name": "Moon Base 2024", "map_id": 17603, "red_team": "Arctag IceCaps", "blue_team": "Furballers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973062", "game_in_match": "Game 5", "map_name": "Moon Base 2024", "map_id": 17603, "red_team": "Furballers", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-11", "week": "Week 1", "team1": "3000 Split Club", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3973041", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "3000 Split Club", "blue_team": "The Land Before Timers", "team1_score": 13, "team2_score": 2,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973053", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "The Land Before Timers", "blue_team": "3000 Split Club", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973065", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "3000 Split Club", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973079", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "3000 Split Club", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973096", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "3000 Split Club", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-11", "week": "Week 1", "team1": "Harlem Globebotters", "team2": "I Saw the TP Glow",
+      "games": [
+        {
+          "tagpro_eu": "3973054", "game_in_match": "Game 1", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Harlem Globebotters", "blue_team": "I Saw the TP Glow", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973067", "game_in_match": "Game 2", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "I Saw the TP Glow", "blue_team": "Harlem Globebotters", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973085", "game_in_match": "Game 3", "map_name": "OTI Jardim", "map_id": 15523, "red_team": "Harlem Globebotters", "blue_team": "I Saw the TP Glow", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973102", "game_in_match": "Game 4", "map_name": "Moon Base", "map_id": 14277, "red_team": "I Saw the TP Glow", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
+          ]
+        },
+        {
+          "tagpro_eu": "3973118", "game_in_match": "Game 5", "map_name": "Moon Base", "map_id": 14277, "red_team": "Harlem Globebotters", "blue_team": "I Saw the TP Glow", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-18", "week": "Week 2", "team1": "3000 Split Club", "team2": "Harlem Globebotters",
+      "games": [
+        {
+          "tagpro_eu": "3978819", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "3000 Split Club", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 2", "map_name": null, "map_id": null, "red_team": "Harlem Globebotters", "blue_team": "3000 Split Club", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear", "stats": {"team": 2, "score": 98, "tags": 13, "pops": 7, "grabs": 5, "drops": 4, "hold": 50, "captures": 1, "prevent": 150, "returns": 11, "ndpops": 3, "nrtags": 2, "time_played": 10, "powerups": 1, "hold_against": 298, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 1} },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka", "stats": {"team": 2, "score": 65, "tags": 13, "pops": 13, "grabs": 15, "drops": 13, "hold": 90, "captures": 2, "prevent": 41, "returns": 11, "ndpops": 0, "nrtags": 2, "time_played": 10, "powerups": 4, "hold_against": 298, "plus_minus": 0, "total_pups_in_game": 18, "returns_in_base": 1} },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi", "stats": {"team": 2, "score": 86, "tags": 13, "pops": 12, "grabs": 9, "drops": 9, "hold": 45, "captures": 0, "prevent": 147, "returns": 13, "ndpops": 3, "nrtags": 0, "gohandoff": 1, "flaccids": 1, "time_played": 10, "powerups": 2, "hold_against": 298, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 2, "returns_in_base": 3} },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty", "stats": {"team": 2, "score": 89, "tags": 15, "pops": 12, "grabs": 14, "drops": 12, "hold": 90, "captures": 2, "prevent": 76, "returns": 9, "ndpops": 0, "nrtags": 6, "flaccids": 1, "time_played": 10, "powerups": 5, "hold_against": 298, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 1, "returns_in_base": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 1, "score": 133, "tags": 15, "pops": 12, "grabs": 12, "drops": 10, "hold": 57, "captures": 2, "prevent": 150, "returns": 14, "ndpops": 2, "nrtags": 1, "gohandoff": 1, "flaccids": 1, "time_played": 9, "powerups": 2, "hold_against": 275, "plus_minus": 0, "total_pups_in_game": 18, "quick_returns": 2, "returns_in_base": 2, "key_returns": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"team": 1, "score": 121, "tags": 10, "pops": 18, "grabs": 18, "drops": 16, "hold": 128, "captures": 1, "prevent": 54, "returns": 8, "ndpops": 2, "nrtags": 2, "flaccids": 2, "time_played": 10, "powerups": 2, "hold_against": 275, "plus_minus": 0, "total_pups_in_game": 18, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 2} },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron", "stats": {"team": 1, "score": 104, "tags": 12, "pops": 8, "grabs": 3, "drops": 3, "hold": 8, "captures": 0, "prevent": 189, "returns": 11, "ndpops": 5, "nrtags": 1, "time_played": 10, "powerups": 1, "hold_against": 275, "plus_minus": 0, "total_pups_in_game": 18} },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule", "stats": {"team": 1, "score": 104, "tags": 7, "pops": 17, "grabs": 17, "drops": 15, "hold": 105, "captures": 2, "prevent": 36, "returns": 5, "ndpops": 2, "nrtags": 2, "flaccids": 1, "time_played": 10, "powerups": 1, "hold_against": 275, "plus_minus": 0, "total_pups_in_game": 18, "handoffs": 1, "good_handoffs": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": "3978861", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "3000 Split Club", "blue_team": "Harlem Globebotters", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978874", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Harlem Globebotters", "blue_team": "3000 Split Club", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978885", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "3000 Split Club", "blue_team": "Harlem Globebotters", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Toidi", "playing_as": "Toidi" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-20", "week": "Week 2", "team1": "Arctag IceCaps", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3980554", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3980564", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3980579", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3980586", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 15126, "red_team": "Arctag IceCaps", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3980597", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 15126, "red_team": "The Land Before Timers", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-18", "week": "Week 2", "team1": "Returns of the Jedi", "team2": "Furballers",
+      "games": [
+        {
+          "tagpro_eu": "3978768", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "Returns of the Jedi", "blue_team": "Furballers", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978780", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "Furballers", "blue_team": "Returns of the Jedi", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978795", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "Returns of the Jedi", "blue_team": "Furballers", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978813", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Furballers", "blue_team": "Returns of the Jedi", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978836", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Returns of the Jedi", "blue_team": "Furballers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-05-18", "week": "Week 2", "team1": "I Saw the TP Glow", "team2": "The Blockettes",
+      "games": [
+        {
+          "tagpro_eu": "3978884", "game_in_match": "Game 1", "map_name": "Moon Base", "map_id": 14277, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978900", "game_in_match": "Game 2", "map_name": "Moon Base", "map_id": 14277, "red_team": "The Blockettes", "blue_team": "I Saw the TP Glow", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978917", "game_in_match": "Game 3", "map_name": "Moon Base", "map_id": 14277, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978931", "game_in_match": "Game 4", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Blockettes", "blue_team": "I Saw the TP Glow", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3978942", "game_in_match": "Game 5", "map_name": "Audacity 2", "map_id": 14112, "red_team": "I Saw the TP Glow", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Spjork", "playing_as": "Spjork" },
+            { "team": "I Saw the TP Glow", "player_season": "deku", "playing_as": "deku" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-E" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-01", "week": "Week 3", "team1": "Harlem Globebotters", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "3989747", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Harlem Globebotters", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989761", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "The Land Before Timers", "blue_team": "Harlem Globebotters", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989774", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "Harlem Globebotters", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989786", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Land Before Timers", "blue_team": "Harlem Globebotters", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989805", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "Harlem Globebotters", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Harlem Globebotters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "The Land Before Timers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-01", "week": "Week 3", "team1": "Furballers", "team2": "3000 Split Club",
+      "games": [
+        {
+          "tagpro_eu": "3989662", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Furballers", "blue_team": "3000 Split Club", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "3000 Split Club", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989675", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "3000 Split Club", "blue_team": "Furballers", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "3000 Split Club", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989684", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "Furballers", "blue_team": "3000 Split Club", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "3000 Split Club", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989702", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "3000 Split Club", "blue_team": "Furballers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "3000 Split Club", "player_season": "yungdggrdick", "playing_as": "yungdggrdick" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989714", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "Furballers", "blue_team": "3000 Split Club", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-01", "week": "Week 3", "team1": "The Blockettes", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3989748", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 15126, "red_team": "The Blockettes", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989762", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 15126, "red_team": "Arctag IceCaps", "blue_team": "The Blockettes", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989787", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Blockettes", "blue_team": "Arctag IceCaps", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989814", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "Arctag IceCaps", "blue_team": "The Blockettes", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "3989822", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "The Blockettes", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "Spheroid.", "playing_as": "Spheroid." },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-06", "week": "Week 3", "team1": "I Saw the TP Glow", "team2": "Returns of the Jedi",
+      "games": [
+        {
+          "tagpro_eu": "3993994", "game_in_match": "Game 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "I Saw the TP Glow", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3994008", "game_in_match": "Game 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Returns of the Jedi", "blue_team": "I Saw the TP Glow", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3994022", "game_in_match": "Game 3", "map_name": "Lemon ", "map_id": 13859, "red_team": "I Saw the TP Glow", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3994038", "game_in_match": "Game 4", "map_name": "Lemon ", "map_id": 13859, "red_team": "Returns of the Jedi", "blue_team": "I Saw the TP Glow", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "3994051", "game_in_match": "Game 5", "map_name": "Lemon ", "map_id": 13859, "red_team": "I Saw the TP Glow", "blue_team": "Returns of the Jedi", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-11", "week": "Week 4", "team1": "The Land Before Timers", "team2": "I Saw the TP Glow",
+      "games": [
+        {
+          "tagpro_eu": "3997786", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Land Before Timers", "blue_team": "I Saw the TP Glow", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997806", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "I Saw the TP Glow", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997820", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Land Before Timers", "blue_team": "I Saw the TP Glow", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997835", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "I Saw the TP Glow", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "3997849", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "I Saw the TP Glow", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-08", "week": "Week 4", "team1": "Furballers", "team2": "Harlem Globebotters",
+      "games": [
+        {
+          "tagpro_eu": "3995087", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Furballers", "blue_team": "Harlem Globebotters", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995101", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Harlem Globebotters", "blue_team": "Furballers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995118", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Furballers", "blue_team": "Harlem Globebotters", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995137", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "Furballers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995149", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Furballers", "blue_team": "Harlem Globebotters", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-08", "week": "Week 4", "team1": "Returns of the Jedi", "team2": "Arctag IceCaps",
+      "games": [
+        {
+          "tagpro_eu": "3995094", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "Returns of the Jedi", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 12,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995111", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "Arctag IceCaps", "blue_team": "Returns of the Jedi", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995123", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "Returns of the Jedi", "blue_team": "Arctag IceCaps", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995142", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "Returns of the Jedi", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
+          ]
+        },
+        {
+          "tagpro_eu": "3995153", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "Returns of the Jedi", "blue_team": "Arctag IceCaps", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "jazzz", "playing_as": "jazzz" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-22", "week": "Week 4", "team1": "The Blockettes", "team2": "3000 Split Club",
+      "games": [
+        {
+          "tagpro_eu": "4006529", "game_in_match": "Game 1", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Blockettes", "blue_team": "3000 Split Club", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006544", "game_in_match": "Game 2", "map_name": "Sardonica", "map_id": 17290, "red_team": "3000 Split Club", "blue_team": "The Blockettes", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006563", "game_in_match": "Game 3", "map_name": "Sardonica", "map_id": 17290, "red_team": "The Blockettes", "blue_team": "3000 Split Club", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006575", "game_in_match": "Game 4", "map_name": "Asida", "map_id": 15401, "red_team": "3000 Split Club", "blue_team": "The Blockettes", "team1_score": 10, "team2_score": 6,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006590", "game_in_match": "Game 5", "map_name": "Asida", "map_id": 15401, "red_team": "The Blockettes", "blue_team": "3000 Split Club", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-17", "week": "Week 5", "team1": "The Land Before Timers", "team2": "Furballers",
+      "games": [
+        {
+          "tagpro_eu": "4002587", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Furballers", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002599", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "The Land Before Timers", "blue_team": "Furballers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002617", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Furballers", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002631", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "The Land Before Timers", "blue_team": "Furballers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002650", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Furballers", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "Furballers", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-15", "week": "Week 5", "team1": "Arctag IceCaps", "team2": "I Saw the TP Glow",
+      "games": [
+        {
+          "tagpro_eu": "4000750", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Arctag IceCaps", "blue_team": "I Saw the TP Glow", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000762", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "I Saw the TP Glow", "blue_team": "Arctag IceCaps", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Squeeb", "playing_as": "Squeeb" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000776", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Arctag IceCaps", "blue_team": "I Saw the TP Glow", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000789", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "I Saw the TP Glow", "blue_team": "Arctag IceCaps", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000801", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Arctag IceCaps", "blue_team": "I Saw the TP Glow", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "BallsToYou.", "playing_as": "BallsToYou." },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-15", "week": "Week 5", "team1": "3000 Split Club", "team2": "Returns of the Jedi",
+      "games": [
+        {
+          "tagpro_eu": "4000727", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "3000 Split Club", "blue_team": "Returns of the Jedi", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000742", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "Returns of the Jedi", "blue_team": "3000 Split Club", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000755", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "3000 Split Club", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000765", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Returns of the Jedi", "blue_team": "3000 Split Club", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4000784", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "3000 Split Club", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-17", "week": "Week 5", "team1": "Harlem Globebotters", "team2": "The Blockettes",
+      "games": [
+        {
+          "tagpro_eu": "4002592", "game_in_match": "Game 1", "map_name": "Asida", "map_id": 15401, "red_team": "Harlem Globebotters", "blue_team": "The Blockettes", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002606", "game_in_match": "Game 2", "map_name": "Asida", "map_id": 15401, "red_team": "The Blockettes", "blue_team": "Harlem Globebotters", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002621", "game_in_match": "Game 3", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "The Blockettes", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002635", "game_in_match": "Game 4", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "The Blockettes", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4002653", "game_in_match": "Game 5", "map_name": "A Flaccid Type Map", "map_id": 17411, "red_team": "Harlem Globebotters", "blue_team": "The Blockettes", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-22", "week": "Week 6", "team1": "Arctag IceCaps", "team2": "3000 Split Club",
+      "games": [
+        {
+          "tagpro_eu": "4006418", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Arctag IceCaps", "blue_team": "3000 Split Club", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006441", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "3000 Split Club", "blue_team": "Arctag IceCaps", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006464", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Arctag IceCaps", "blue_team": "3000 Split Club", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006480", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "3000 Split Club", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006504", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "Arctag IceCaps", "blue_team": "3000 Split Club", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-24", "week": "Week 6", "team1": "The Blockettes", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "4008299", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4008309", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Land Before Timers", "blue_team": "The Blockettes", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4008320", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4008329", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "The Blockettes", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4008343", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Blockettes", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-22", "week": "Week 6", "team1": "Harlem Globebotters", "team2": "Returns of the Jedi",
+      "games": [
+        {
+          "tagpro_eu": "4006424", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Harlem Globebotters", "blue_team": "Returns of the Jedi", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006437", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Returns of the Jedi", "blue_team": "Harlem Globebotters", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006455", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Harlem Globebotters", "blue_team": "Returns of the Jedi", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006476", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17366, "red_team": "Returns of the Jedi", "blue_team": "Harlem Globebotters", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": "4006491", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17366, "red_team": "Harlem Globebotters", "blue_team": "Returns of the Jedi", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Poeticalto", "playing_as": "Poeticalto" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-21", "week": "Week 6", "team1": "Furballers", "team2": "I Saw the TP Glow",
+      "games": [
+        {
+          "tagpro_eu": "4005788", "game_in_match": "Game 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Furballers", "blue_team": "I Saw the TP Glow", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4005794", "game_in_match": "Game 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "I Saw the TP Glow", "blue_team": "Furballers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4005801", "game_in_match": "Game 3", "map_name": "Willow 2", "map_id": 14113, "red_team": "Furballers", "blue_team": "I Saw the TP Glow", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4005810", "game_in_match": "Game 4", "map_name": "Centenaria", "map_id": 17280, "red_team": "I Saw the TP Glow", "blue_team": "Furballers", "team1_score": 7, "team2_score": 12,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4005817", "game_in_match": "Game 5", "map_name": "Centenaria", "map_id": 17280, "red_team": "Furballers", "blue_team": "I Saw the TP Glow", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-29", "week": "Week 7", "team1": "The Land Before Timers", "team2": "Returns of the Jedi",
+      "games": [
+        {
+          "tagpro_eu": "4012029", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012044", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Returns of the Jedi", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012062", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012079", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Returns of the Jedi", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012093", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Land Before Timers", "blue_team": "Returns of the Jedi", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Returns of the Jedi", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Returns of the Jedi", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Returns of the Jedi", "player_season": "Vader", "playing_as": "Vader" },
+            { "team": "Returns of the Jedi", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "The Land Before Timers", "player_season": "DudeMcGuy", "playing_as": "DudeMcGuy" },
+            { "team": "The Land Before Timers", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "The Land Before Timers", "player_season": "jig", "playing_as": "jig" },
+            { "team": "The Land Before Timers", "player_season": "king krule", "playing_as": "king krule" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-29", "week": "Week 7", "team1": "I Saw the TP Glow", "team2": "3000 Split Club",
+      "games": [
+        {
+          "tagpro_eu": "4012006", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "I Saw the TP Glow", "blue_team": "3000 Split Club", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012012", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "I Saw the TP Glow", "blue_team": "3000 Split Club", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012025", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "3000 Split Club", "blue_team": "I Saw the TP Glow", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012043", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "3000 Split Club", "blue_team": "I Saw the TP Glow", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012058", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "I Saw the TP Glow", "blue_team": "3000 Split Club", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012076", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "3000 Split Club", "blue_team": "I Saw the TP Glow", "team1_score": 2, "team2_score": 12,
+          "players": [
+            { "team": "3000 Split Club", "player_season": "Arbybear", "playing_as": "Arbybear" },
+            { "team": "3000 Split Club", "player_season": "BallAnka", "playing_as": "BallAnka" },
+            { "team": "3000 Split Club", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "3000 Split Club", "player_season": "kelvin", "playing_as": "kelvin" },
+            { "team": "I Saw the TP Glow", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "I Saw the TP Glow", "player_season": "Button", "playing_as": "Button" },
+            { "team": "I Saw the TP Glow", "player_season": "Ceremony", "playing_as": "Ceremony" },
+            { "team": "I Saw the TP Glow", "player_season": "Wraith", "playing_as": "Wraith" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-29", "week": "Week 7", "team1": "The Blockettes", "team2": "Furballers",
+      "games": [
+        {
+          "tagpro_eu": "4012002", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "The Blockettes", "blue_team": "Furballers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012018", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Furballers", "blue_team": "The Blockettes", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012034", "game_in_match": "Game 3", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Blockettes", "blue_team": "Furballers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012059", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Furballers", "blue_team": "The Blockettes", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012082", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "The Blockettes", "blue_team": "Furballers", "team1_score": 9, "team2_score": 4,
+          "players": [
+            { "team": "Furballers", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "Furballers", "player_season": "eee", "playing_as": "eee" },
+            { "team": "Furballers", "player_season": "jazzz", "playing_as": "jazzz" },
+            { "team": "Furballers", "player_season": "meowza", "playing_as": "meowza" },
+            { "team": "The Blockettes", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "The Blockettes", "player_season": "baIl-e", "playing_as": "baIl-e" },
+            { "team": "The Blockettes", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "The Blockettes", "player_season": "rina", "playing_as": "rina" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S36", "date": "2025-06-29", "week": "Week 7", "team1": "Arctag IceCaps", "team2": "Harlem Globebotters",
+      "games": [
+        {
+          "tagpro_eu": "4012032", "game_in_match": "Game 1", "map_name": "Centenaria", "map_id": 17366, "red_team": "Arctag IceCaps", "blue_team": "Harlem Globebotters", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012055", "game_in_match": "Game 2", "map_name": "Centenaria", "map_id": 17366, "red_team": "Harlem Globebotters", "blue_team": "Arctag IceCaps", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 3", "map_name": null, "map_id": null, "red_team": "Arctag IceCaps", "blue_team": "Harlem Globebotters", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler", "stats": {"team": 1, "score": 70, "tags": 7, "pops": 8, "grabs": 6, "drops": 6, "hold": 60, "captures": 0, "prevent": 97, "returns": 7, "ndpops": 2, "nrtags": 0, "flaccids": 1, "gohandoff": 1, "saves": 1, "time_played": 9, "powerups": 2, "hold_against": 325, "plus_minus": 5, "total_pups_in_game": 16, "quick_returns": 1, "returns_in_base": 2, "handoffs": 2, "good_handoffs": 1, "grabs_off_regrab": 2, "long_holds": 1} },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32", "stats": {"team": 1, "score": 87, "tags": 11, "pops": 15, "grabs": 12, "drops": 11, "hold": 78, "captures": 1, "prevent": 35, "returns": 10, "ndpops": 4, "nrtags": 1, "gohandoff": 2, "cohandoff": 1, "time_played": 9, "powerups": 2, "hold_against": 325, "plus_minus": 5, "total_pups_in_game": 16, "quick_returns": 3, "returns_in_base": 4, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 2, "long_holds": 1} },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen", "stats": {"team": 1, "score": 169, "tags": 7, "pops": 10, "grabs": 15, "drops": 9, "hold": 137, "captures": 5, "prevent": 43, "returns": 7, "ndpops": 1, "nrtags": 0, "flaccids": 2, "time_played": 9, "powerups": 3, "hold_against": 325, "plus_minus": 5, "total_pups_in_game": 16, "quick_returns": 2, "returns_in_base": 2, "handoffs": 2, "good_handoffs": 1, "grabs_off_regrab": 1, "long_holds": 2} },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic", "stats": {"team": 1, "score": 135, "tags": 15, "pops": 14, "grabs": 10, "drops": 9, "hold": 71, "captures": 1, "prevent": 109, "returns": 15, "ndpops": 5, "nrtags": 0, "flaccids": 2, "gohandoff": 1, "time_played": 9, "powerups": 1, "hold_against": 325, "plus_minus": 5, "total_pups_in_game": 16, "quick_returns": 4, "returns_in_base": 4, "key_returns": 1, "handoffs": 5, "good_handoffs": 2, "grabs_off_regrab": 3, "caps_off_regrab": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman", "stats": {"team": 2, "score": 117, "tags": 16, "pops": 12, "grabs": 9, "drops": 9, "hold": 30, "captures": 0, "prevent": 102, "returns": 16, "ndpops": 3, "nrtags": 0, "flaccids": 3, "time_played": 9, "powerups": 1, "hold_against": 346, "plus_minus": -5, "total_pups_in_game": 16, "quick_returns": 2, "returns_in_base": 3, "handoffs": 2, "good_handoffs": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 2, "score": 97, "tags": 9, "pops": 15, "grabs": 16, "drops": 15, "hold": 147, "captures": 1, "prevent": 24, "returns": 9, "ndpops": 0, "nrtags": 0, "flaccids": 3, "gohandoff": 1, "time_played": 9, "powerups": 3, "hold_against": 346, "plus_minus": -5, "total_pups_in_game": 16, "quick_returns": 2, "returns_in_base": 4, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 4, "caps_off_regrab": 1, "long_holds": 1} },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness", "stats": {"team": 2, "score": 47, "tags": 5, "pops": 14, "grabs": 13, "drops": 12, "hold": 102, "captures": 0, "prevent": 14, "returns": 4, "ndpops": 2, "nrtags": 1, "gohandoff": 1, "flaccids": 2, "time_played": 9, "powerups": 1, "hold_against": 346, "plus_minus": -5, "total_pups_in_game": 16, "handoffs": 3, "good_handoffs": 3, "grabs_off_regrab": 2, "long_holds": 2} },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron", "stats": {"team": 2, "score": 75, "tags": 10, "pops": 6, "grabs": 6, "drops": 5, "hold": 46, "captures": 1, "prevent": 83, "returns": 5, "ndpops": 1, "nrtags": 5, "flaccids": 2, "gohandoff": 1, "time_played": 9, "powerups": 3, "hold_against": 346, "plus_minus": -5, "total_pups_in_game": 16, "quick_returns": 1, "returns_in_base": 1, "handoffs": 1, "good_handoffs": 1, "grabs_off_regrab": 1, "long_holds": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": "4012101", "game_in_match": "Game 4", "map_name": "Milano 2", "map_id": 17063, "red_team": "Harlem Globebotters", "blue_team": "Arctag IceCaps", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        },
+        {
+          "tagpro_eu": "4012111", "game_in_match": "Game 5", "map_name": "Milano 2", "map_id": 17063, "red_team": "Arctag IceCaps", "blue_team": "Harlem Globebotters", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Arctag IceCaps", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Arctag IceCaps", "player_season": "Jer32", "playing_as": "Jer32" },
+            { "team": "Arctag IceCaps", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Arctag IceCaps", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Harlem Globebotters", "player_season": "Gman", "playing_as": "Gman" },
+            { "team": "Harlem Globebotters", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Harlem Globebotters", "player_season": "Sadness", "playing_as": "Sadness" },
+            { "team": "Harlem Globebotters", "player_season": "aaron", "playing_as": "aaron" }
+          ]
+        }
+      ]
+    }
+  ]
+}

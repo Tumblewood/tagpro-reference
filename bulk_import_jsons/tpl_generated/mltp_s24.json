@@ -1,0 +1,1764 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S24", "franchise": "??", "name": "??", "abbr": "QUE", "captain": "Hjalpa" },
+    { "season": "MLTP S24", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW", "captain": "Curry" },
+    { "season": "MLTP S24", "franchise": "Los Angeles Angles", "name": "Los Angeles Angles", "abbr": "LAA", "captain": "Wanye" },
+    { "season": "MLTP S24", "franchise": "Marble Madness", "name": "Marble Madness", "abbr": "MBM", "captain": "yiss" },
+    { "season": "MLTP S24", "franchise": "Miami Ballphins", "name": "Miami Ballphins", "abbr": "MIA", "captain": "JARVISLANDRY" },
+    { "season": "MLTP S24", "franchise": "Pupkin Pi", "name": "Pupkin Pi", "abbr": "PKP", "captain": "smallyBIGS" },
+    { "season": "MLTP S24", "franchise": "Snipe Hunt", "name": "Snipe Hunt", "abbr": "SNI", "captain": "Spheroid." },
+    { "season": "MLTP S24", "franchise": "Someday Service Choir", "name": "Someday Service Choir", "abbr": "", "captain": "inthesomeday" }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S24", "team": null, "player": "Deafheaven", "playing_as": "Deafheaven" },
+    { "season": "MLTP S24", "team": null, "player": "Eashy", "playing_as": "Eashy" },
+    { "season": "MLTP S24", "team": null, "player": "Gasol", "playing_as": "Gasol" },
+    { "season": "MLTP S24", "team": null, "player": "Iil bdl", "playing_as": "Iil bdl" },
+    { "season": "MLTP S24", "team": null, "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S24", "team": null, "player": "RemoSlice", "playing_as": "RemoSlice" },
+    { "season": "MLTP S24", "team": null, "player": "Tantrew", "playing_as": "Tantrew" },
+    { "season": "MLTP S24", "team": null, "player": "Will KO Anka", "playing_as": "Will KO Anka" },
+    { "season": "MLTP S24", "team": null, "player": "Xile", "playing_as": "Xile" },
+    { "season": "MLTP S24", "team": null, "player": "_|_", "playing_as": "_|_" },
+    { "season": "MLTP S24", "team": null, "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S24", "team": null, "player": "glob.", "playing_as": "glob." },
+    { "season": "MLTP S24", "team": null, "player": "okthen", "playing_as": "okthen" },
+    { "season": "MLTP S24", "team": null, "player": "waterwheel", "playing_as": "waterwheel" },
+    { "season": "MLTP S24", "team": "??", "player": "FalleN", "playing_as": "FalleN" },
+    { "season": "MLTP S24", "team": "??", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "MLTP S24", "team": "??", "player": "mex", "playing_as": "mex" },
+    { "season": "MLTP S24", "team": "??", "player": "no name", "playing_as": "no name" },
+    { "season": "MLTP S24", "team": "Holdin' Gate Warriors", "player": "Drippy", "playing_as": "Drippy" },
+    { "season": "MLTP S24", "team": "Holdin' Gate Warriors", "player": "Mr. Hat", "playing_as": "Mr. Hat" },
+    { "season": "MLTP S24", "team": "Holdin' Gate Warriors", "player": "titanblue", "playing_as": "titanblue" },
+    { "season": "MLTP S24", "team": "Holdin' Gate Warriors", "player": "yawn", "playing_as": "yawn" },
+    { "season": "MLTP S24", "team": "Los Angeles Angles", "player": "DragonBeast", "playing_as": "DragonBeast" },
+    { "season": "MLTP S24", "team": "Los Angeles Angles", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S24", "team": "Los Angeles Angles", "player": "aaron", "playing_as": "aaron" },
+    { "season": "MLTP S24", "team": "Los Angeles Angles", "player": "top kekker", "playing_as": "top kekker" },
+    { "season": "MLTP S24", "team": "Marble Madness", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S24", "team": "Marble Madness", "player": "CarrotCake", "playing_as": "CarrotCake" },
+    { "season": "MLTP S24", "team": "Marble Madness", "player": "Davion", "playing_as": "Davion" },
+    { "season": "MLTP S24", "team": "Marble Madness", "player": "St. Bernard", "playing_as": "St. Bernard" },
+    { "season": "MLTP S24", "team": "Miami Ballphins", "player": "Armbranch", "playing_as": "Armbranch" },
+    { "season": "MLTP S24", "team": "Miami Ballphins", "player": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+    { "season": "MLTP S24", "team": "Miami Ballphins", "player": "ez", "playing_as": "ez" },
+    { "season": "MLTP S24", "team": "Miami Ballphins", "player": "thenewguy.", "playing_as": "thenewguy." },
+    { "season": "MLTP S24", "team": "Pupkin Pi", "player": "Agency", "playing_as": "Agency" },
+    { "season": "MLTP S24", "team": "Pupkin Pi", "player": "Ball-erina", "playing_as": "Ball-erina" },
+    { "season": "MLTP S24", "team": "Pupkin Pi", "player": "DT", "playing_as": "DT" },
+    { "season": "MLTP S24", "team": "Snipe Hunt", "player": "Alphachurro", "playing_as": "Alphachurro" },
+    { "season": "MLTP S24", "team": "Snipe Hunt", "player": "HarkMollis", "playing_as": "HarkMollis" },
+    { "season": "MLTP S24", "team": "Snipe Hunt", "player": "ccga4", "playing_as": "ccga4" },
+    { "season": "MLTP S24", "team": "Snipe Hunt", "player": "fender", "playing_as": "fender" },
+    { "season": "MLTP S24", "team": "Someday Service Choir", "player": "Cheetosrule", "playing_as": "Cheetosrule" },
+    { "season": "MLTP S24", "team": "Someday Service Choir", "player": "FM", "playing_as": "FM" },
+    { "season": "MLTP S24", "team": "Someday Service Choir", "player": "gg!", "playing_as": "gg!" },
+    { "season": "MLTP S24", "team": "Someday Service Choir", "player": "pulpo", "playing_as": "pulpo" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S24", "date": "2021-04-18", "week": "Week 1", "team1": "Miami Ballphins", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2868198", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Miami Ballphins", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868210", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Miami Ballphins", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868226", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Miami Ballphins", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868244", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Miami Ballphins", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-18", "week": "Week 1", "team1": "Los Angeles Angles", "team2": "Someday Service Choir",
+      "games": [
+        {
+          "tagpro_eu": "2868253", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Someday Service Choir", "blue_team": "Los Angeles Angles", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868266", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Los Angeles Angles", "blue_team": "Someday Service Choir", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868278", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Los Angeles Angles", "blue_team": "Someday Service Choir", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868299", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Someday Service Choir", "blue_team": "Los Angeles Angles", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868311", "game_in_match": "Game 2 Overtime", "map_name": "Willow 2", "map_id": 14113, "red_team": "Someday Service Choir", "blue_team": "Los Angeles Angles", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868319", "game_in_match": "Game 2 Overtime 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Los Angeles Angles", "blue_team": "Someday Service Choir", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "okthen", "playing_as": "okthen" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FM", "playing_as": "FM" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" },
+            { "team": "Someday Service Choir", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-18", "week": "Week 1", "team1": "Marble Madness", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2868199", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Marble Madness", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868209", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "Marble Madness", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868223", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "Marble Madness", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2868239", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Marble Madness", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 12,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-18", "week": "Week 1", "team1": "??", "team2": "Pupkin Pi",
+      "games": [
+        {
+          "tagpro_eu": "2868216", "game_in_match": "Game 1 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pupkin Pi", "blue_team": "??", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868229", "game_in_match": "Game 1 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "??", "blue_team": "Pupkin Pi", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868241", "game_in_match": "Game 2 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Pupkin Pi", "blue_team": "??", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "??", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2868255", "game_in_match": "Game 2 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "??", "blue_team": "Pupkin Pi", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "??", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-25", "week": "Week 2", "team1": "Pupkin Pi", "team2": "Someday Service Choir",
+      "games": [
+        {
+          "tagpro_eu": "2875996", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Pupkin Pi", "blue_team": "Someday Service Choir", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 2", "map_name": null, "map_id": null, "red_team": "Someday Service Choir", "blue_team": "Pupkin Pi", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency", "stats": {"score": 69, "team": 2, "prevent": 125, "returns": 13, "tags": 15, "grabs": 7, "captures": 3, "hold": 36, "ndpops": 2, "pops": 6, "drops": 4, "nrtags": 2, "time_played": 10, "powerups": 2, "hold_against": 103, "plus_minus": 7, "total_pups_in_game": 16, "quick_returns": 3, "returns_in_base": 3, "handoffs": 3, "good_handoffs": 1, "grabs_off_regrab": 2, "caps_off_regrab": 1} },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina", "stats": {"score": 59, "team": 2, "grabs": 15, "captures": 5, "hold": 89, "prevent": 30, "pops": 12, "drops": 10, "ndpops": 2, "returns": 2, "tags": 2, "flaccids": 3, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 103, "plus_minus": 7, "total_pups_in_game": 16, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 2, "caps_off_regrab": 1, "long_holds": 1} },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT", "stats": {"score": 36, "team": 2, "grabs": 7, "pops": 9, "drops": 7, "hold": 33, "returns": 9, "tags": 12, "ndpops": 2, "prevent": 41, "nrtags": 3, "captures": 0, "time_played": 10, "powerups": 4, "hold_against": 103, "plus_minus": 7, "total_pups_in_game": 16, "quick_returns": 2, "returns_in_base": 2, "key_returns": 1, "handoffs": 2, "good_handoffs": 2, "grabs_off_regrab": 2} },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob.", "stats": {"score": 57, "team": 2, "prevent": 138, "returns": 10, "tags": 13, "grabs": 8, "pops": 8, "drops": 8, "hold": 17, "gohandoff": 1, "nrtags": 3, "captures": 0, "ndpops": 0, "time_played": 10, "powerups": 4, "hold_against": 103, "plus_minus": 7, "total_pups_in_game": 16, "quick_returns": 3, "returns_in_base": 5, "grabs_off_regrab": 1} },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule", "stats": {"score": 24, "team": 1, "prevent": 88, "grabs": 5, "pops": 8, "drops": 5, "hold": 7, "returns": 11, "tags": 11, "ndpops": 3, "flaccids": 2, "nrtags": 0, "captures": 0, "time_played": 10, "powerups": 0, "hold_against": 175, "plus_minus": -7, "total_pups_in_game": 16, "quick_returns": 3, "returns_in_base": 2, "grabs_off_regrab": 1} },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN", "stats": {"score": 29, "team": 1, "prevent": 89, "grabs": 4, "pops": 6, "drops": 4, "hold": 5, "tags": 13, "ndpops": 2, "returns": 9, "flaccids": 1, "nrtags": 4, "captures": 0, "time_played": 10, "powerups": 1, "hold_against": 175, "plus_minus": -7, "total_pups_in_game": 16} },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka", "stats": {"score": 18, "team": 1, "grabs": 11, "pops": 13, "drops": 11, "hold": 37, "returns": 6, "tags": 6, "prevent": 7, "flaccids": 2, "nrtags": 0, "captures": 0, "ndpops": 2, "time_played": 10, "powerups": 3, "hold_against": 175, "plus_minus": -7, "total_pups_in_game": 16, "returns_in_base": 1, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 2} },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!", "stats": {"score": 9, "team": 1, "grabs": 13, "pops": 13, "drops": 12, "hold": 54, "prevent": 12, "returns": 2, "tags": 2, "flaccids": 3, "gohandoff": 1, "nrtags": 0, "captures": 1, "ndpops": 1, "time_played": 10, "powerups": 0, "hold_against": 175, "plus_minus": -7, "total_pups_in_game": 16, "returns_in_base": 1, "handoffs": 3, "good_handoffs": 2, "grabs_off_regrab": 3, "long_holds": 1} }
+          ]
+        },
+        {
+          "tagpro_eu": "2876055", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Someday Service Choir", "blue_team": "Pupkin Pi", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876075", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pupkin Pi", "blue_team": "Someday Service Choir", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Someday Service Choir", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-25", "week": "Week 2", "team1": "Holdin' Gate Warriors", "team2": "Marble Madness",
+      "games": [
+        {
+          "tagpro_eu": "2875969", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Marble Madness", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" }
+          ]
+        },
+        {
+          "tagpro_eu": "2875985", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Holdin' Gate Warriors", "blue_team": "Marble Madness", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876003", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Holdin' Gate Warriors", "blue_team": "Marble Madness", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876044", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Marble Madness", "blue_team": "Holdin' Gate Warriors", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Davion", "playing_as": "Davion" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-25", "week": "Week 2", "team1": "Miami Ballphins", "team2": "??",
+      "games": [
+        {
+          "tagpro_eu": "2875944", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "??", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2875968", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "??", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2875980", "game_in_match": "Game 1 Overtime", "map_name": "Willow 2", "map_id": 14113, "red_team": "Miami Ballphins", "blue_team": "??", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2875994", "game_in_match": "Game 1 Overtime 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "??", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2876018", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "??", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2876040", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "??", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-04-25", "week": "Week 2", "team1": "Los Angeles Angles", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2875987", "game_in_match": "Game 1 Half 1", "map_name": "Willow 2", "map_id": 14113, "red_team": "Snipe Hunt", "blue_team": "Los Angeles Angles", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876004", "game_in_match": "Game 1 Half 2", "map_name": "Willow 2", "map_id": 14113, "red_team": "Los Angeles Angles", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876060", "game_in_match": "Game 2 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Los Angeles Angles", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2876084", "game_in_match": "Game 2 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snipe Hunt", "blue_team": "Los Angeles Angles", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-03", "week": "Week 3", "team1": "Los Angeles Angles", "team2": "??",
+      "games": [
+        {
+          "tagpro_eu": "2884454", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "??", "blue_team": "Los Angeles Angles", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2884473", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Los Angeles Angles", "blue_team": "??", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2884492", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Los Angeles Angles", "blue_team": "??", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2884513", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "??", "blue_team": "Los Angeles Angles", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-02", "week": "Week 3", "team1": "Marble Madness", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2883219", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Marble Madness", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2883244", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "Marble Madness", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2883252", "game_in_match": "Game 1 Overtime", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Miami Ballphins", "blue_team": "Marble Madness", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2883262", "game_in_match": "Game 1 Overtime 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Marble Madness", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2883282", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Marble Madness", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2883307", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Marble Madness", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Gasol", "playing_as": "Gasol" },
+            { "team": "Marble Madness", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Miami Ballphins", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-02", "week": "Week 3", "team1": "Someday Service Choir", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2883336", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Holdin' Gate Warriors", "blue_team": "Someday Service Choir", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Iil bdl", "playing_as": "Iil bdl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "_|_", "playing_as": "_|_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883352", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Someday Service Choir", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Iil bdl", "playing_as": "Iil bdl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "_|_", "playing_as": "_|_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883368", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Someday Service Choir", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Iil bdl", "playing_as": "Iil bdl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "_|_", "playing_as": "_|_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883386", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Someday Service Choir", "blue_team": "Holdin' Gate Warriors", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Iil bdl", "playing_as": "Iil bdl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "_|_", "playing_as": "_|_" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Someday Service Choir", "player_season": "FalleN", "playing_as": "FalleN" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-02", "week": "Week 3", "team1": "Snipe Hunt", "team2": "Pupkin Pi",
+      "games": [
+        {
+          "tagpro_eu": "2883277", "game_in_match": "Game 1 Half 1", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Pupkin Pi", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883298", "game_in_match": "Game 1 Half 2", "map_name": "Sugar Hill", "map_id": 13424, "red_team": "Snipe Hunt", "blue_team": "Pupkin Pi", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "Eashy", "playing_as": "Eashy" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883324", "game_in_match": "Game 2 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "Pupkin Pi", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Pupkin Pi", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2883341", "game_in_match": "Game 2 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Pupkin Pi", "blue_team": "Snipe Hunt", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-09", "week": "Week 4", "team1": "Snipe Hunt", "team2": "??",
+      "games": [
+        {
+          "tagpro_eu": "2890305", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Snipe Hunt", "blue_team": "??", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890318", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "??", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890333", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "??", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890350", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "??", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "Fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-09", "week": "Week 4", "team1": "Someday Service Choir", "team2": "Marble Madness",
+      "games": [
+        {
+          "tagpro_eu": "2890260", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Marble Madness", "blue_team": "Someday Service Choir", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Someday Service Choir", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890273", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Someday Service Choir", "blue_team": "Marble Madness", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Someday Service Choir", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890289", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Someday Service Choir", "blue_team": "Marble Madness", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Someday Service Choir", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890306", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Marble Madness", "blue_team": "Someday Service Choir", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Someday Service Choir", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-09", "week": "Week 4", "team1": "Holdin' Gate Warriors", "team2": "Los Angeles Angles",
+      "games": [
+        {
+          "tagpro_eu": "2890324", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Los Angeles Angles", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890338", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Holdin' Gate Warriors", "blue_team": "Los Angeles Angles", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890356", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Los Angeles Angles", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        },
+        {
+          "tagpro_eu": "2890366", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "Los Angeles Angles", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Iil bdl", "playing_as": "Iil bdl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-09", "week": "Week 4", "team1": "Pupkin Pi", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2890293", "game_in_match": "Game 1 Half 1", "map_name": "Rush 2", "map_id": 14114, "red_team": "Miami Ballphins", "blue_team": "Pupkin Pi", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2890310", "game_in_match": "Game 1 Half 2", "map_name": "Rush 2", "map_id": 14114, "red_team": "Pupkin Pi", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2890325", "game_in_match": "Game 2 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "Pupkin Pi", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2890342", "game_in_match": "Game 2 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Pupkin Pi", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-16", "week": "Week 5", "team1": "Holdin' Gate Warriors", "team2": "Pupkin Pi",
+      "games": [
+        {
+          "tagpro_eu": "2897262", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Pupkin Pi", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2897278", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Holdin' Gate Warriors", "blue_team": "Pupkin Pi", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2897294", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Pupkin Pi", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2897319", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "Pupkin Pi", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-16", "week": "Week 5", "team1": "Marble Madness", "team2": "Los Angeles Angles",
+      "games": [
+        {
+          "tagpro_eu": "2896914", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Los Angeles Angles", "blue_team": "Marble Madness", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2896926", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Marble Madness", "blue_team": "Los Angeles Angles", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2896935", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Marble Madness", "blue_team": "Los Angeles Angles", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2896946", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Los Angeles Angles", "blue_team": "Marble Madness", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-16", "week": "Week 5", "team1": "??", "team2": "Someday Service Choir",
+      "games": [
+        {
+          "tagpro_eu": "2897165", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "??", "blue_team": "Someday Service Choir", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897184", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Someday Service Choir", "blue_team": "??", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897201", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Someday Service Choir", "blue_team": "??", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897216", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "??", "blue_team": "Someday Service Choir", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-16", "week": "Week 5", "team1": "Miami Ballphins", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2897286", "game_in_match": "Game 1 Half 1", "map_name": "MERALD", "map_id": 13175, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897301", "game_in_match": "Game 1 Half 2", "map_name": "MERALD", "map_id": 13175, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897315", "game_in_match": "Game 2 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897326", "game_in_match": "Game 2 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897332", "game_in_match": "Game 2 Overtime", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Snipe Hunt", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2897339", "game_in_match": "Game 2 Overtime 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-23", "week": "Week 6", "team1": "Miami Ballphins", "team2": "Los Angeles Angles",
+      "games": [
+        {
+          "tagpro_eu": "2904019", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Los Angeles Angles", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904039", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Miami Ballphins", "blue_team": "Los Angeles Angles", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904059", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Miami Ballphins", "blue_team": "Los Angeles Angles", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904076", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Los Angeles Angles", "blue_team": "Miami Ballphins", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-23", "week": "Week 6", "team1": "??", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2904020", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "??", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904038", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Holdin' Gate Warriors", "blue_team": "??", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904054", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "??", "team1_score": 0, "team2_score": 8,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904070", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "??", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Holdin' Gate Warriors", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-23", "week": "Week 6", "team1": "Marble Madness", "team2": "Pupkin Pi",
+      "games": [
+        {
+          "tagpro_eu": "2904024", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Marble Madness", "blue_team": "Pupkin Pi", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904040", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Pupkin Pi", "blue_team": "Marble Madness", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904056", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Pupkin Pi", "blue_team": "Marble Madness", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2904075", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Marble Madness", "blue_team": "Pupkin Pi", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-05-23", "week": "Week 6", "team1": "Someday Service Choir", "team2": "Snipe Hunt",
+      "games": [
+        {
+          "tagpro_eu": "2904031", "game_in_match": "Game 1 Half 1", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Someday Service Choir", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904047", "game_in_match": "Game 1 Half 2", "map_name": "Audacity 2", "map_id": 14112, "red_team": "Snipe Hunt", "blue_team": "Someday Service Choir", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904066", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Someday Service Choir", "team1_score": 0, "team2_score": 10,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2904088", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Someday Service Choir", "blue_team": "Snipe Hunt", "team1_score": 3, "team2_score": 12,
+          "players": [
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "Will KO Anka", "playing_as": "Will KO Anka" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-06-01", "week": "Week 7", "team1": "Someday Service Choir", "team2": "Miami Ballphins",
+      "games": [
+        {
+          "tagpro_eu": "2912914", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Miami Ballphins", "blue_team": "Someday Service Choir", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2912935", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Someday Service Choir", "blue_team": "Miami Ballphins", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2912956", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Miami Ballphins", "blue_team": "Someday Service Choir", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        },
+        {
+          "tagpro_eu": "2912977", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Someday Service Choir", "blue_team": "Miami Ballphins", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Miami Ballphins", "player_season": "St. Bernard", "playing_as": "St. Bernard" },
+            { "team": "Miami Ballphins", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "Miami Ballphins", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Miami Ballphins", "player_season": "thenewguy.", "playing_as": "thenewguy." },
+            { "team": "Someday Service Choir", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Someday Service Choir", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Someday Service Choir", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Someday Service Choir", "player_season": "gg!", "playing_as": "gg!" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-06-04", "week": "Week 7", "team1": "Marble Madness", "team2": "??",
+      "games": [
+        {
+          "tagpro_eu": "2915695", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Marble Madness", "blue_team": "??", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2915708", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "??", "blue_team": "Marble Madness", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2915718", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "??", "blue_team": "Marble Madness", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2915729", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Marble Madness", "blue_team": "??", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "??", "player_season": "FM", "playing_as": "FM" },
+            { "team": "??", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "??", "player_season": "mex", "playing_as": "mex" },
+            { "team": "??", "player_season": "no name", "playing_as": "no name" },
+            { "team": "Marble Madness", "player_season": "Armbranch", "playing_as": "Armbranch" },
+            { "team": "Marble Madness", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "Marble Madness", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Marble Madness", "player_season": "Kei Yonagi", "playing_as": "Kei Yonagi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-06-06", "week": "Week 7", "team1": "Los Angeles Angles", "team2": "Pupkin Pi",
+      "games": [
+        {
+          "tagpro_eu": "2917405", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Los Angeles Angles", "blue_team": "Pupkin Pi", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2917418", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Pupkin Pi", "blue_team": "Los Angeles Angles", "team1_score": 0, "team2_score": 9,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2917431", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Pupkin Pi", "blue_team": "Los Angeles Angles", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        },
+        {
+          "tagpro_eu": "2917442", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Los Angeles Angles", "blue_team": "Pupkin Pi", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Los Angeles Angles", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Los Angeles Angles", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Los Angeles Angles", "player_season": "aaron", "playing_as": "aaron" },
+            { "team": "Los Angeles Angles", "player_season": "top kekker", "playing_as": "top kekker" },
+            { "team": "Pupkin Pi", "player_season": "Agency", "playing_as": "Agency" },
+            { "team": "Pupkin Pi", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Pupkin Pi", "player_season": "DT", "playing_as": "DT" },
+            { "team": "Pupkin Pi", "player_season": "glob.", "playing_as": "glob." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S24", "date": "2021-06-06", "week": "Week 7", "team1": "Snipe Hunt", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": "2917364", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2917381", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2917396", "game_in_match": "Game 2 Half 1", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Holdin' Gate Warriors", "blue_team": "Snipe Hunt", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        },
+        {
+          "tagpro_eu": "2917411", "game_in_match": "Game 2 Half 2", "map_name": "Transilio 2020", "map_id": 13207, "red_team": "Snipe Hunt", "blue_team": "Holdin' Gate Warriors", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Deafheaven", "playing_as": "Deafheaven" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Drippy", "playing_as": "Drippy" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Mr. Hat", "playing_as": "Mr. Hat" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Xile", "playing_as": "Xile" },
+            { "team": "Snipe Hunt", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "Snipe Hunt", "player_season": "HarkMollis", "playing_as": "HarkMollis" },
+            { "team": "Snipe Hunt", "player_season": "ccga4", "playing_as": "ccga4" },
+            { "team": "Snipe Hunt", "player_season": "fender", "playing_as": "fender" }
+          ]
+        }
+      ]
+    }
+  ]
+}

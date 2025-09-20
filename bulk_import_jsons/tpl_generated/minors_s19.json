@@ -1,0 +1,2245 @@
+{
+  "teamSeasons": [
+    { "season": "mLTP S19", "franchise": "Doolittle Raiders", "name": "Doolittle Raiders", "abbr": "DOR", "captain": "Destar" },
+    { "season": "mLTP S19", "franchise": "Fire Breathing Rubber Duckies", "name": "Fire Breathing Rubber Duckies", "abbr": "FBM", "captain": "Cheetosrule" },
+    { "season": "mLTP S19", "franchise": "Gotta Cap Em' All", "name": "Gotta Cap Em' All", "abbr": "GCA", "captain": "Epiphany" },
+    { "season": "mLTP S19", "franchise": "Preventure Time", "name": "Preventure Time", "abbr": "PRE", "captain": "Djinni" },
+    { "season": "mLTP S19", "franchise": "Rektiles", "name": "Rektiles", "abbr": "RKT", "captain": "Doris" },
+    { "season": "mLTP S19", "franchise": "SMALL CAPS", "name": "SMALL CAPS", "abbr": "SC", "captain": "BALLDON'TLIE" },
+    { "season": "mLTP S19", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": "McBooty" },
+    { "season": "mLTP S19", "franchise": "Village Idiots", "name": "Village Idiots", "abbr": "VIL", "captain": "DragonBeast" },
+    { "season": "mLTP S19", "franchise": "WCYDinos", "name": "WCYDinos", "abbr": "DNO", "captain": "a$ap." },
+    { "season": "mLTP S19", "franchise": "the dndside down", "name": "the dndside down", "abbr": "DND", "captain": "#SelfySyntax" }
+  ],
+  "playerSeasons": [
+    { "season": "mLTP S19", "team": null, "player": "Bjird", "playing_as": "Bjird" },
+    { "season": "mLTP S19", "team": null, "player": "CarrotCake", "playing_as": "CarrotCake" },
+    { "season": "mLTP S19", "team": null, "player": "Catalyst", "playing_as": "Catalyst" },
+    { "season": "mLTP S19", "team": null, "player": "CoolCat", "playing_as": "CoolCat" },
+    { "season": "mLTP S19", "team": null, "player": "El Sacko", "playing_as": "El Sacko" },
+    { "season": "mLTP S19", "team": null, "player": "Gram Parsons", "playing_as": "Gram Parsons" },
+    { "season": "mLTP S19", "team": null, "player": "Moechtestdu", "playing_as": "Moechtestdu" },
+    { "season": "mLTP S19", "team": null, "player": "Moon River", "playing_as": "Moon River" },
+    { "season": "mLTP S19", "team": null, "player": "RemoSlice", "playing_as": "RemoSlice" },
+    { "season": "mLTP S19", "team": null, "player": "Slowpolka", "playing_as": "Slowpolka" },
+    { "season": "mLTP S19", "team": null, "player": "SmallyBigs", "playing_as": "SmallyBigs" },
+    { "season": "mLTP S19", "team": null, "player": "TurdFerguson", "playing_as": "TurdFerguson" },
+    { "season": "mLTP S19", "team": null, "player": "WRIG", "playing_as": "WRIG" },
+    { "season": "mLTP S19", "team": null, "player": "antelope", "playing_as": "antelope" },
+    { "season": "mLTP S19", "team": null, "player": "coati", "playing_as": "coati" },
+    { "season": "mLTP S19", "team": null, "player": "pk", "playing_as": "pk" },
+    { "season": "mLTP S19", "team": null, "player": "sIide", "playing_as": "sIide" },
+    { "season": "mLTP S19", "team": null, "player": "serendipitou", "playing_as": "serendipitou" },
+    { "season": "mLTP S19", "team": null, "player": "stevepotato", "playing_as": "stevepotato" },
+    { "season": "mLTP S19", "team": null, "player": "titanblue", "playing_as": "titanblue" },
+    { "season": "mLTP S19", "team": null, "player": "turtle", "playing_as": "turtle" },
+    { "season": "mLTP S19", "team": null, "player": "waterbuck", "playing_as": "waterbuck" },
+    { "season": "mLTP S19", "team": "Doolittle Raiders", "player": "Ball-erina", "playing_as": "Ball-erina" },
+    { "season": "mLTP S19", "team": "Doolittle Raiders", "player": "FLY", "playing_as": "FLY" },
+    { "season": "mLTP S19", "team": "Doolittle Raiders", "player": "NameLEss", "playing_as": "NameLEss" },
+    { "season": "mLTP S19", "team": "Doolittle Raiders", "player": "poobie", "playing_as": "poobie" },
+    { "season": "mLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "King's Crown", "playing_as": "King's Crown" },
+    { "season": "mLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+    { "season": "mLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "Raspberry", "playing_as": "Raspberry" },
+    { "season": "mLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "ez", "playing_as": "ez" },
+    { "season": "mLTP S19", "team": "Gotta Cap Em' All", "player": "Makin Bacon", "playing_as": "Makin Bacon" },
+    { "season": "mLTP S19", "team": "Gotta Cap Em' All", "player": "Prizm", "playing_as": "Prizm" },
+    { "season": "mLTP S19", "team": "Gotta Cap Em' All", "player": "snaxolotl", "playing_as": "snaxolotl" },
+    { "season": "mLTP S19", "team": "Gotta Cap Em' All", "player": "team", "playing_as": "team" },
+    { "season": "mLTP S19", "team": "Preventure Time", "player": "BaIl-e", "playing_as": "BaIl-e" },
+    { "season": "mLTP S19", "team": "Preventure Time", "player": "MURDER MAN", "playing_as": "MURDER MAN" },
+    { "season": "mLTP S19", "team": "Preventure Time", "player": "sass", "playing_as": "sass" },
+    { "season": "mLTP S19", "team": "Preventure Time", "player": "tits", "playing_as": "tits" },
+    { "season": "mLTP S19", "team": "Rektiles", "player": "IPlannedThat", "playing_as": "IPlannedThat" },
+    { "season": "mLTP S19", "team": "Rektiles", "player": "OD GOD", "playing_as": "OD GOD" },
+    { "season": "mLTP S19", "team": "Rektiles", "player": "Sundown", "playing_as": "Sundown" },
+    { "season": "mLTP S19", "team": "Rektiles", "player": "black orchid", "playing_as": "black orchid" },
+    { "season": "mLTP S19", "team": "SMALL CAPS", "player": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+    { "season": "mLTP S19", "team": "SMALL CAPS", "player": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+    { "season": "mLTP S19", "team": "SMALL CAPS", "player": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+    { "season": "mLTP S19", "team": "SMALL CAPS", "player": "SNOWBALL", "playing_as": "SNOWBALL" },
+    { "season": "mLTP S19", "team": "The Land Before Timers", "player": "Cognito", "playing_as": "Cognito" },
+    { "season": "mLTP S19", "team": "The Land Before Timers", "player": "Darth", "playing_as": "Darth" },
+    { "season": "mLTP S19", "team": "The Land Before Timers", "player": "McBooty", "playing_as": "McBooty" },
+    { "season": "mLTP S19", "team": "The Land Before Timers", "player": "might dino", "playing_as": "might dino" },
+    { "season": "mLTP S19", "team": "Village Idiots", "player": "Bumballbee", "playing_as": "Bumballbee" },
+    { "season": "mLTP S19", "team": "Village Idiots", "player": "DAD.", "playing_as": "DAD." },
+    { "season": "mLTP S19", "team": "Village Idiots", "player": "FK", "playing_as": "FK" },
+    { "season": "mLTP S19", "team": "Village Idiots", "player": "TheBob18", "playing_as": "TheBob18" },
+    { "season": "mLTP S19", "team": "Village Idiots", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "mLTP S19", "team": "WCYDinos", "player": "Gargantua", "playing_as": "Gargantua" },
+    { "season": "mLTP S19", "team": "WCYDinos", "player": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+    { "season": "mLTP S19", "team": "WCYDinos", "player": "a$ap.", "playing_as": "a$ap." },
+    { "season": "mLTP S19", "team": "WCYDinos", "player": "homar", "playing_as": "homar" },
+    { "season": "mLTP S19", "team": "the dndside down", "player": "anduin", "playing_as": "anduin" },
+    { "season": "mLTP S19", "team": "the dndside down", "player": "eldenn", "playing_as": "eldenn" },
+    { "season": "mLTP S19", "team": "the dndside down", "player": "kutrebar", "playing_as": "kutrebar" },
+    { "season": "mLTP S19", "team": "the dndside down", "player": "sidewalk", "playing_as": "sidewalk" }
+  ],
+  "matches": [
+    {
+      "season": "mLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "Fire Breathing Rubber Duckies", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2275725", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Preventure Time", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275745", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275765", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Preventure Time", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275774", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Preventure Time", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 8,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "sIide", "playing_as": "sIide" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "The Land Before Timers", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "2275741", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275756", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275769", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275777", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "Gotta Cap Em' All", "team2": "Rektiles",
+      "games": [
+        {
+          "tagpro_eu": "2275738", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Rektiles", "blue_team": "Gotta Cap Em' All", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275752", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Gotta Cap Em' All", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275768", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Gotta Cap Em' All", "blue_team": "Rektiles", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275778", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Rektiles", "blue_team": "Gotta Cap Em' All", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "Village Idiots", "team2": "SMALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2275612", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "SMALL CAPS", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275627", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Village Idiots", "blue_team": "SMALL CAPS", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275638", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Village Idiots", "blue_team": "SMALL CAPS", "team1_score": 9, "team2_score": 9,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275651", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "SMALL CAPS", "blue_team": "Village Idiots", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "Doolittle Raiders", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2275682", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Doolittle Raiders", "blue_team": "the dndside down", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275705", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "the dndside down", "blue_team": "Doolittle Raiders", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275721", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "the dndside down", "blue_team": "Doolittle Raiders", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275733", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Doolittle Raiders", "blue_team": "the dndside down", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "Catalyst", "playing_as": "Catalyst" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-30", "week": "Week 2", "team1": "Fire Breathing Rubber Duckies", "team2": "Gotta Cap Em' All",
+      "games": [
+        {
+          "tagpro_eu": "2281630", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Gotta Cap Em' All", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281637", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Gotta Cap Em' All", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281646", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Gotta Cap Em' All", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281653", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Gotta Cap Em' All", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "Gotta Cap Em' All", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-30", "week": "Week 2", "team1": "The Land Before Timers", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2281595", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Land Before Timers", "blue_team": "the dndside down", "team1_score": 10, "team2_score": 1,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281609", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "the dndside down", "blue_team": "The Land Before Timers", "team1_score": 8, "team2_score": 7,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281624", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "the dndside down", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281633", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Land Before Timers", "blue_team": "the dndside down", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-30", "week": "Week 2", "team1": "WCYDinos", "team2": "Doolittle Raiders",
+      "games": [
+        {
+          "tagpro_eu": "2281479", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "Doolittle Raiders", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281494", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Doolittle Raiders", "blue_team": "WCYDinos", "team1_score": 15, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281512", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "WCYDinos", "blue_team": "Doolittle Raiders", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281530", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Doolittle Raiders", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "pk", "playing_as": "pk" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-30", "week": "Week 2", "team1": "Rektiles", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2281489", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Village Idiots", "blue_team": "Rektiles", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281505", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Rektiles", "blue_team": "Village Idiots", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281534", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Village Idiots", "blue_team": "Rektiles", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281553", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Rektiles", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 8,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "WRIG", "playing_as": "WRIG" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "Slowpolka", "playing_as": "Slowpolka" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-09-30", "week": "Week 2", "team1": "SMALL CAPS", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2281487", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Preventure Time", "blue_team": "SMALL CAPS", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281502", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "SMALL CAPS", "blue_team": "Preventure Time", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281529", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "SMALL CAPS", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2281548", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Preventure Time", "blue_team": "SMALL CAPS", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "Moechtestdu", "playing_as": "Moechtestdu" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "Fire Breathing Rubber Duckies", "team2": "WCYDinos",
+      "games": [
+        {
+          "tagpro_eu": "2287414", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "WCYDinos", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287436", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287460", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "WCYDinos", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287478", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "ez", "playing_as": "ez" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "The Land Before Timers", "team2": "Doolittle Raiders",
+      "games": [
+        {
+          "tagpro_eu": "2287408", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Land Before Timers", "blue_team": "Doolittle Raiders", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287430", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Doolittle Raiders", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 0,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287444", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Doolittle Raiders", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287472", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Land Before Timers", "blue_team": "Doolittle Raiders", "team1_score": 7, "team2_score": 6,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "Gotta Cap Em' All", "team2": "SMALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2287421", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "SMALL CAPS", "blue_team": "Gotta Cap Em' All", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287441", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Gotta Cap Em' All", "blue_team": "SMALL CAPS", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287447", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Gotta Cap Em' All", "blue_team": "SMALL CAPS", "team1_score": 0, "team2_score": 1, "second_eu": "2287483", "switch_time": 120,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287502", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "SMALL CAPS", "blue_team": "Gotta Cap Em' All", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "Rektiles", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2287360", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Preventure Time", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287383", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Rektiles", "blue_team": "Preventure Time", "team1_score": 0, "team2_score": 10,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287403", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Rektiles", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287423", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Preventure Time", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "CoolCat", "playing_as": "CoolCat" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "Village Idiots", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2287373", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "the dndside down", "blue_team": "Village Idiots", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "the dndside down", "player_season": "FK", "playing_as": "FK" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287389", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Village Idiots", "blue_team": "the dndside down", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "the dndside down", "player_season": "FK", "playing_as": "FK" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287409", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Village Idiots", "blue_team": "the dndside down", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "the dndside down", "player_season": "FK", "playing_as": "FK" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287431", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "the dndside down", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "the dndside down", "player_season": "FK", "playing_as": "FK" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "Fire Breathing Rubber Duckies", "team2": "Rektiles",
+      "games": [
+        {
+          "tagpro_eu": "2293812", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Rektiles", "team1_score": 0, "team2_score": 5,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293825", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Rektiles", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293839", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Rektiles", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293859", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Rektiles", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "The Land Before Timers", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2293827", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Land Before Timers", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293841", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Village Idiots", "blue_team": "The Land Before Timers", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293863", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Village Idiots", "team1_score": 8, "team2_score": 0,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293883", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Village Idiots", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "El Sacko", "playing_as": "El Sacko" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "TurdFerguson", "playing_as": "TurdFerguson" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "Gotta Cap Em' All", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2293834", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Gotta Cap Em' All", "blue_team": "the dndside down", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293853", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "the dndside down", "blue_team": "Gotta Cap Em' All", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293875", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Gotta Cap Em' All", "blue_team": "the dndside down", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293890", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "the dndside down", "blue_team": "Gotta Cap Em' All", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "WCYDinos", "team2": "SMALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2293726", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "WCYDinos", "blue_team": "SMALL CAPS", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293745", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "SMALL CAPS", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293764", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "WCYDinos", "blue_team": "SMALL CAPS", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293782", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "SMALL CAPS", "blue_team": "WCYDinos", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293792", "game_in_match": "Game 2 Overtime", "map_name": "Cedar", "map_id": 7019, "red_team": "WCYDinos", "blue_team": "SMALL CAPS", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293800", "game_in_match": "Game 2 Overtime 2", "map_name": "Cedar", "map_id": 7019, "red_team": "SMALL CAPS", "blue_team": "WCYDinos", "team1_score": 0, "team2_score": 0,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293809", "game_in_match": "Game 2 Overtime 3", "map_name": "Cedar", "map_id": 7019, "red_team": "SMALL CAPS", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FK", "playing_as": "FK" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "Doolittle Raiders", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2293737", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Doolittle Raiders", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 10,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293753", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Preventure Time", "blue_team": "Doolittle Raiders", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293771", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Preventure Time", "blue_team": "Doolittle Raiders", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2293785", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Doolittle Raiders", "blue_team": "Preventure Time", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "titanblue", "playing_as": "titanblue" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-21", "week": "Week 5", "team1": "Fire Breathing Rubber Duckies", "team2": "SMALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2300299", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "SMALL CAPS", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "SMALL CAPS", "player_season": "titanblue", "playing_as": "titanblue" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300320", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "SMALL CAPS", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "SMALL CAPS", "player_season": "titanblue", "playing_as": "TITANBLUE" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300342", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "SMALL CAPS", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "SMALL CAPS", "player_season": "titanblue", "playing_as": "TITANBLUE" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300359", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "SMALL CAPS", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "SMALL CAPS", "player_season": "titanblue", "playing_as": "TITANBLUE" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-21", "week": "Week 5", "team1": "The Land Before Timers", "team2": "Gotta Cap Em' All",
+      "games": [
+        {
+          "tagpro_eu": "2300381", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Gotta Cap Em' All", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300394", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Gotta Cap Em' All", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300406", "game_in_match": "Game 1 Overtime", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Gotta Cap Em' All", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300415", "game_in_match": "Game 1 Overtime 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Gotta Cap Em' All", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300428", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Land Before Timers", "blue_team": "Gotta Cap Em' All", "team1_score": 0, "team2_score": 1,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300439", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Gotta Cap Em' All", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-21", "week": "Week 5", "team1": "WCYDinos", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2300305", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "WCYDinos", "blue_team": "Village Idiots", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" },
+            { "team": "WCYDinos", "player_season": "Bjird", "playing_as": "Bjird" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300325", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Village Idiots", "blue_team": "WCYDinos", "team1_score": 9, "team2_score": 5,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" },
+            { "team": "WCYDinos", "player_season": "Bjird", "playing_as": "Bjird" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300348", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Village Idiots", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 10,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" },
+            { "team": "WCYDinos", "player_season": "Bjird", "playing_as": "Bjird" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300365", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "WCYDinos", "blue_team": "Village Idiots", "team1_score": 6, "team2_score": 9,
+          "players": [
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "CarrotCake", "playing_as": "CarrotCake" },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" },
+            { "team": "WCYDinos", "player_season": "Bjird", "playing_as": "Bjird" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-21", "week": "Week 5", "team1": "Rektiles", "team2": "Doolittle Raiders",
+      "games": [
+        {
+          "tagpro_eu": "2300295", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Doolittle Raiders", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 8,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300314", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Rektiles", "blue_team": "Doolittle Raiders", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300336", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Rektiles", "blue_team": "Doolittle Raiders", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300354", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Doolittle Raiders", "blue_team": "Rektiles", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-21", "week": "Week 5", "team1": "the dndside down", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2300253", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Preventure Time", "blue_team": "the dndside down", "team1_score": 4, "team2_score": 11,
+          "players": [
+            { "team": "Preventure Time", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300272", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "the dndside down", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Preventure Time", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300288", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "the dndside down", "blue_team": "Preventure Time", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Preventure Time", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2300307", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Preventure Time", "blue_team": "the dndside down", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Preventure Time", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-28", "week": "Week 6", "team1": "Fire Breathing Rubber Duckies", "team2": "Doolittle Raiders",
+      "games": [
+        {
+          "tagpro_eu": "2305953", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Doolittle Raiders", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 6, "team2_score": 8,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305985", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Doolittle Raiders", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305994", "game_in_match": "Game 1 Overtime", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Doolittle Raiders", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306005", "game_in_match": "Game 1 Overtime 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Doolittle Raiders", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306016", "game_in_match": "Game 1 Overtime 3", "map_name": "EMERALD", "map_id": 9, "red_team": "Doolittle Raiders", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306023", "game_in_match": "Game 1 Overtime 4", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Doolittle Raiders", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306040", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Doolittle Raiders", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306055", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Doolittle Raiders", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-28", "week": "Week 6", "team1": "The Land Before Timers", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2305949", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Land Before Timers", "blue_team": "Preventure Time", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Land Before Timers", "player_season": "waterbuck", "playing_as": "waterbuck" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305969", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Preventure Time", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "coati", "playing_as": "coati" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305989", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Preventure Time", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" },
+            { "team": "The Land Before Timers", "player_season": "turtle", "playing_as": "turtle" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306006", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Land Before Timers", "blue_team": "Preventure Time", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "BaIl-e" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "antelope", "playing_as": "antelope" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-30", "week": "Week 6", "team1": "Gotta Cap Em' All", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2307834", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Village Idiots", "blue_team": "Gotta Cap Em' All", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2307847", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Gotta Cap Em' All", "blue_team": "Village Idiots", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2307856", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Village Idiots", "blue_team": "Gotta Cap Em' All", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2307862", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Gotta Cap Em' All", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2307869", "game_in_match": "Game 2 Overtime", "map_name": "Transilio", "map_id": 141, "red_team": "Village Idiots", "blue_team": "Gotta Cap Em' All", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2307875", "game_in_match": "Game 2 Overtime 2", "map_name": "Transilio", "map_id": 141, "red_team": "Gotta Cap Em' All", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Makin Bacon", "playing_as": "Makin Bacon" },
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-28", "week": "Week 6", "team1": "WCYDinos", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2305873", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "WCYDinos", "blue_team": "the dndside down", "team1_score": 8, "team2_score": 4,
+          "players": [
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "stevepotato", "playing_as": "stevepotato" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305893", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "the dndside down", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "stevepotato", "playing_as": "stevepotato" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305913", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "WCYDinos", "blue_team": "the dndside down", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "stevepotato", "playing_as": "stevepotato" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305928", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "the dndside down", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "stevepotato", "playing_as": "stevepotato" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-10-28", "week": "Week 6", "team1": "Rektiles", "team2": "SMALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2305869", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Rektiles", "blue_team": "SMALL CAPS", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305882", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "SMALL CAPS", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305903", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Rektiles", "blue_team": "SMALL CAPS", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305923", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "SMALL CAPS", "blue_team": "Rektiles", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "Fire Breathing Rubber Duckies", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "2317189", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Land Before Timers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317221", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317273", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317325", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Land Before Timers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Ralph Wiggum", "playing_as": "Ralph Wiggum" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "pk", "playing_as": "pk" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "snaxolotl", "playing_as": "snaxolotl" },
+            { "team": "The Land Before Timers", "player_season": "Cognito", "playing_as": "Cognito" },
+            { "team": "The Land Before Timers", "player_season": "Darth", "playing_as": "Darth" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "might dino", "playing_as": "might dino" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "Gotta Cap Em' All", "team2": "Preventure Time",
+      "games": [
+        {
+          "tagpro_eu": "2317250", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Preventure Time", "blue_team": "Gotta Cap Em' All", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "baIl-E" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317312", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Gotta Cap Em' All", "blue_team": "Preventure Time", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "baIl-E" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317381", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Gotta Cap Em' All", "blue_team": "Preventure Time", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "baIl-E" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317457", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Preventure Time", "blue_team": "Gotta Cap Em' All", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Gotta Cap Em' All", "player_season": "Prizm", "playing_as": "Prizm" },
+            { "team": "Gotta Cap Em' All", "player_season": "Raspberry", "playing_as": "Raspberry" },
+            { "team": "Gotta Cap Em' All", "player_season": "TheBob18", "playing_as": "TheBob18" },
+            { "team": "Gotta Cap Em' All", "player_season": "team", "playing_as": "team" },
+            { "team": "Preventure Time", "player_season": "BaIl-e", "playing_as": "baIl-E" },
+            { "team": "Preventure Time", "player_season": "MURDER MAN", "playing_as": "MURDER MAN" },
+            { "team": "Preventure Time", "player_season": "sass", "playing_as": "sass" },
+            { "team": "Preventure Time", "player_season": "tits", "playing_as": "tits" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "WCYDinos", "team2": "Rektiles",
+      "games": [
+        {
+          "tagpro_eu": "2317120", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Rektiles", "blue_team": "WCYDinos", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." },
+            { "team": "WCYDinos", "player_season": "stevepotato", "playing_as": "stevepotato" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317164", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "WCYDinos", "blue_team": "Rektiles", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "Moon River", "playing_as": "Moon River" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." }
+          ]
+        },
+        {
+          "tagpro_eu": "2317218", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Rektiles", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "Gram Parsons", "playing_as": "Gram Parsons" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." }
+          ]
+        },
+        {
+          "tagpro_eu": "2317272", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "WCYDinos", "blue_team": "Rektiles", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "IPlannedThat", "playing_as": "IPlannedThat" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Rektiles", "player_season": "Sundown", "playing_as": "Sundown" },
+            { "team": "Rektiles", "player_season": "black orchid", "playing_as": "black orchid" },
+            { "team": "WCYDinos", "player_season": "Gargantua", "playing_as": "Gargantua" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "SmallyBigs", "playing_as": "SmallyBigs" },
+            { "team": "WCYDinos", "player_season": "a$ap.", "playing_as": "a$ap." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "Village Idiots", "team2": "Doolittle Raiders",
+      "games": [
+        {
+          "tagpro_eu": "2317091", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Doolittle Raiders", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317117", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Village Idiots", "blue_team": "Doolittle Raiders", "team1_score": 7, "team2_score": 0,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317167", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Village Idiots", "blue_team": "Doolittle Raiders", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317228", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Doolittle Raiders", "blue_team": "Village Idiots", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "Doolittle Raiders", "player_season": "Ball-erina", "playing_as": "Ball-erina" },
+            { "team": "Doolittle Raiders", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Doolittle Raiders", "player_season": "NameLEss", "playing_as": "NameLEss" },
+            { "team": "Doolittle Raiders", "player_season": "poobie", "playing_as": "poobie" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "serendipitou", "playing_as": "serendipitou" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "mLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "SMALL CAPS", "team2": "the dndside down",
+      "games": [
+        {
+          "tagpro_eu": "2317086", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "SMALL CAPS", "blue_team": "the dndside down", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317112", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "the dndside down", "blue_team": "SMALL CAPS", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317127", "game_in_match": "Game 1 Overtime", "map_name": "Transilio", "map_id": 141, "red_team": "the dndside down", "blue_team": "SMALL CAPS", "team1_score": 1, "team2_score": 0,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317147", "game_in_match": "Game 1 Overtime 2", "map_name": "Transilio", "map_id": 141, "red_team": "SMALL CAPS", "blue_team": "the dndside down", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317188", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "SMALL CAPS", "blue_team": "the dndside down", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2317230", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "the dndside down", "blue_team": "SMALL CAPS", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "SMALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "SMALL CAPS", "player_season": "FOUR TWENTY", "playing_as": "FOUR TWENTY" },
+            { "team": "SMALL CAPS", "player_season": "IFYOUSEEKAMY", "playing_as": "IFYOUSEEKAMY" },
+            { "team": "SMALL CAPS", "player_season": "SNOWBALL", "playing_as": "SNOWBALL" },
+            { "team": "the dndside down", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "the dndside down", "player_season": "eldenn", "playing_as": "eldenn" },
+            { "team": "the dndside down", "player_season": "kutrebar", "playing_as": "kutrebar" },
+            { "team": "the dndside down", "player_season": "sidewalk", "playing_as": "sidewalk" }
+          ]
+        }
+      ]
+    }
+  ]
+}

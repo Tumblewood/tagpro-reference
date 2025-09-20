@@ -1,0 +1,2182 @@
+{
+  "teamSeasons": [
+    { "season": "MLTP S19", "franchise": "ALL CAPS", "name": "ALL CAPS", "abbr": "AC", "captain": "BALLDON'TLIE" },
+    { "season": "MLTP S19", "franchise": "Capital City Bombers", "name": "Capital City Bombers", "abbr": "CCB", "captain": "Destar" },
+    { "season": "MLTP S19", "franchise": "Coup d'Ecap", "name": "Coup d'Ecap", "abbr": "CDC", "captain": "Djinni" },
+    { "season": "MLTP S19", "franchise": "Fire Breathing Rubber Duckies", "name": "Fire Breathing Rubber Duckies", "abbr": "FBD", "captain": "Cheetosrule" },
+    { "season": "MLTP S19", "franchise": "Rektiles", "name": "Rektiles", "abbr": "RKT", "captain": "Doris" },
+    { "season": "MLTP S19", "franchise": "Stranger Pings", "name": "Stranger Pings", "abbr": "SRP", "captain": "#SelfySyntax" },
+    { "season": "MLTP S19", "franchise": "The Elite Four", "name": "The Elite Four", "abbr": "TEF", "captain": "Epiphany" },
+    { "season": "MLTP S19", "franchise": "The Land Before Timers", "name": "The Land Before Timers", "abbr": "LBT", "captain": "McBooty" },
+    { "season": "MLTP S19", "franchise": "Village Idiots", "name": "Village Idiots", "abbr": "VIL", "captain": "Dragonbeast" },
+    { "season": "MLTP S19", "franchise": "WCYDinos", "name": "WCYDinos", "abbr": "DNO", "captain": "a$ap." }
+  ],
+  "playerSeasons": [
+    { "season": "MLTP S19", "team": null, "player": "DAD.", "playing_as": "DAD." },
+    { "season": "MLTP S19", "team": null, "player": "FK", "playing_as": "FK" },
+    { "season": "MLTP S19", "team": null, "player": "Frothy", "playing_as": "Frothy" },
+    { "season": "MLTP S19", "team": null, "player": "Raspberry", "playing_as": "Raspberry" },
+    { "season": "MLTP S19", "team": null, "player": "anteater", "playing_as": "anteater" },
+    { "season": "MLTP S19", "team": null, "player": "ape", "playing_as": "ape" },
+    { "season": "MLTP S19", "team": null, "player": "bighorn", "playing_as": "bighorn" },
+    { "season": "MLTP S19", "team": null, "player": "boar", "playing_as": "boar" },
+    { "season": "MLTP S19", "team": null, "player": "buffalo", "playing_as": "buffalo" },
+    { "season": "MLTP S19", "team": null, "player": "burro", "playing_as": "burro" },
+    { "season": "MLTP S19", "team": null, "player": "camel", "playing_as": "camel" },
+    { "season": "MLTP S19", "team": null, "player": "cat", "playing_as": "cat" },
+    { "season": "MLTP S19", "team": null, "player": "chipmunk", "playing_as": "chipmunk" },
+    { "season": "MLTP S19", "team": null, "player": "doe", "playing_as": "doe" },
+    { "season": "MLTP S19", "team": null, "player": "dog", "playing_as": "dog" },
+    { "season": "MLTP S19", "team": null, "player": "dugong", "playing_as": "dugong" },
+    { "season": "MLTP S19", "team": null, "player": "dung beetle", "playing_as": "dung beetle" },
+    { "season": "MLTP S19", "team": null, "player": "elk", "playing_as": "elk" },
+    { "season": "MLTP S19", "team": null, "player": "globus-lag", "playing_as": "globus-lag" },
+    { "season": "MLTP S19", "team": null, "player": "gnu", "playing_as": "gnu" },
+    { "season": "MLTP S19", "team": null, "player": "gorilla", "playing_as": "gorilla" },
+    { "season": "MLTP S19", "team": null, "player": "guanaco", "playing_as": "guanaco" },
+    { "season": "MLTP S19", "team": null, "player": "hog", "playing_as": "hog" },
+    { "season": "MLTP S19", "team": null, "player": "impala", "playing_as": "impala" },
+    { "season": "MLTP S19", "team": null, "player": "jackal", "playing_as": "jackal" },
+    { "season": "MLTP S19", "team": null, "player": "koala", "playing_as": "koala" },
+    { "season": "MLTP S19", "team": null, "player": "marten", "playing_as": "marten" },
+    { "season": "MLTP S19", "team": null, "player": "mink", "playing_as": "mink" },
+    { "season": "MLTP S19", "team": null, "player": "monkey", "playing_as": "monkey" },
+    { "season": "MLTP S19", "team": null, "player": "neb.", "playing_as": "neb." },
+    { "season": "MLTP S19", "team": null, "player": "orangutan", "playing_as": "orangutan" },
+    { "season": "MLTP S19", "team": null, "player": "parakeet", "playing_as": "parakeet" },
+    { "season": "MLTP S19", "team": null, "player": "sakura", "playing_as": "sakura" },
+    { "season": "MLTP S19", "team": null, "player": "waterbuck", "playing_as": "waterbuck" },
+    { "season": "MLTP S19", "team": null, "player": "wildcat", "playing_as": "wildcat" },
+    { "season": "MLTP S19", "team": "ALL CAPS", "player": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+    { "season": "MLTP S19", "team": "ALL CAPS", "player": "BALLANKA", "playing_as": "BALLANKA" },
+    { "season": "MLTP S19", "team": "ALL CAPS", "player": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+    { "season": "MLTP S19", "team": "ALL CAPS", "player": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+    { "season": "MLTP S19", "team": "ALL CAPS", "player": "THICK SHADY", "playing_as": "THICK SHADY" },
+    { "season": "MLTP S19", "team": "Capital City Bombers", "player": "Destar", "playing_as": "Destar" },
+    { "season": "MLTP S19", "team": "Capital City Bombers", "player": "FLY", "playing_as": "FLY" },
+    { "season": "MLTP S19", "team": "Capital City Bombers", "player": "aardvark", "playing_as": "aardvark" },
+    { "season": "MLTP S19", "team": "Capital City Bombers", "player": "ref", "playing_as": "ref" },
+    { "season": "MLTP S19", "team": "Capital City Bombers", "player": "waterwheel", "playing_as": "waterwheel" },
+    { "season": "MLTP S19", "team": "Coup d'Ecap", "player": "Djinni", "playing_as": "Djinni" },
+    { "season": "MLTP S19", "team": "Coup d'Ecap", "player": "glob.", "playing_as": "glob." },
+    { "season": "MLTP S19", "team": "Coup d'Ecap", "player": "h", "playing_as": "h" },
+    { "season": "MLTP S19", "team": "Coup d'Ecap", "player": "m", "playing_as": "m" },
+    { "season": "MLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "Bitch", "playing_as": "Bitch" },
+    { "season": "MLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "Cheetosrule", "playing_as": "Cheetosrule" },
+    { "season": "MLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "Gryff", "playing_as": "Gryff" },
+    { "season": "MLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "King's Crown", "playing_as": "King's Crown" },
+    { "season": "MLTP S19", "team": "Fire Breathing Rubber Duckies", "player": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+    { "season": "MLTP S19", "team": "Rektiles", "player": "Curry", "playing_as": "Curry" },
+    { "season": "MLTP S19", "team": "Rektiles", "player": "Doris", "playing_as": "Doris" },
+    { "season": "MLTP S19", "team": "Rektiles", "player": "EGGO", "playing_as": "EGGO" },
+    { "season": "MLTP S19", "team": "Rektiles", "player": "Messi", "playing_as": "Messi" },
+    { "season": "MLTP S19", "team": "Rektiles", "player": "OD GOD", "playing_as": "OD GOD" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "777z", "playing_as": "777z" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "Suchit", "playing_as": "Suchit" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "anduin", "playing_as": "anduin" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "eldenn", "playing_as": "eldenn" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "kutrebar", "playing_as": "kutrebar" },
+    { "season": "MLTP S19", "team": "Stranger Pings", "player": "pulpo", "playing_as": "pulpo" },
+    { "season": "MLTP S19", "team": "The Elite Four", "player": "Epiphany", "playing_as": "Epiphany" },
+    { "season": "MLTP S19", "team": "The Elite Four", "player": "Luka Doncic", "playing_as": "Luka Doncic" },
+    { "season": "MLTP S19", "team": "The Elite Four", "player": "Pandora", "playing_as": "Pandora" },
+    { "season": "MLTP S19", "team": "The Elite Four", "player": "Tantrew", "playing_as": "Tantrew" },
+    { "season": "MLTP S19", "team": "The Elite Four", "player": "team", "playing_as": "team" },
+    { "season": "MLTP S19", "team": "The Land Before Timers", "player": "Frozen", "playing_as": "Frozen" },
+    { "season": "MLTP S19", "team": "The Land Before Timers", "player": "McBooty", "playing_as": "McBooty" },
+    { "season": "MLTP S19", "team": "The Land Before Timers", "player": "Taurus", "playing_as": "Taurus" },
+    { "season": "MLTP S19", "team": "The Land Before Timers", "player": "Ty", "playing_as": "Ty" },
+    { "season": "MLTP S19", "team": "The Land Before Timers", "player": "yiss", "playing_as": "yiss" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "Bumballbee", "playing_as": "Bumballbee" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "CB13", "playing_as": "CB13" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "DragonBeast", "playing_as": "DragonBeast" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "RemoSlice", "playing_as": "RemoSlice" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "Shrimpster", "playing_as": "Shrimpster" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "beast mode", "playing_as": "beast mode" },
+    { "season": "MLTP S19", "team": "Village Idiots", "player": "boogie", "playing_as": "boogie" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "Bamboozler", "playing_as": "Bamboozler" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "RacgiMan", "playing_as": "RacgiMan" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "d0pe", "playing_as": "d0pe" },
+    { "season": "MLTP S19", "team": "WCYDinos", "player": "homar", "playing_as": "homar" }
+  ],
+  "matches": [
+    {
+      "season": "MLTP S19", "date": "2019-09-22", "week": "Week 1", "team1": "WCYDinos", "team2": "Capital City Bombers",
+      "games": [
+        {
+          "tagpro_eu": "2274997", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Capital City Bombers", "blue_team": "WCYDinos", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275013", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "WCYDinos", "blue_team": "Capital City Bombers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275028", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Capital City Bombers", "blue_team": "WCYDinos", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275044", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "Capital City Bombers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-22", "week": "Week 1", "team1": "The Elite Four", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2274991", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "ALL CAPS", "blue_team": "The Elite Four", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275009", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Elite Four", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275019", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "The Elite Four", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275034", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "ALL CAPS", "blue_team": "The Elite Four", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-23", "week": "Week 1", "team1": "Rektiles", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2275714", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Coup d'Ecap", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275728", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Rektiles", "blue_team": "Coup d'Ecap", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275740", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Coup d'Ecap", "blue_team": "Rektiles", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275755", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Rektiles", "blue_team": "Coup d'Ecap", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-22", "week": "Week 1", "team1": "The Land Before Timers", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2275001", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Village Idiots", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275016", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Land Before Timers", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275030", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Village Idiots", "blue_team": "The Land Before Timers", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275046", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Land Before Timers", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 11,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "beast mode", "playing_as": "beast mode" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-22", "week": "Week 1", "team1": "Fire Breathing Rubber Duckies", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2274992", "game_in_match": "Game 1 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Stranger Pings", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "camel", "playing_as": "camel" },
+            { "team": "Stranger Pings", "player_season": "chipmunk", "playing_as": "chipmunk" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275012", "game_in_match": "Game 1 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "guanaco", "playing_as": "guanaco" },
+            { "team": "Stranger Pings", "player_season": "orangutan", "playing_as": "orangutan" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275025", "game_in_match": "Game 2 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 9,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "impala", "playing_as": "impala" },
+            { "team": "Stranger Pings", "player_season": "mink", "playing_as": "mink" }
+          ]
+        },
+        {
+          "tagpro_eu": "2275037", "game_in_match": "Game 2 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Stranger Pings", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 7, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "elk", "playing_as": "elk" },
+            { "team": "Stranger Pings", "player_season": "monkey", "playing_as": "monkey" },
+            { "team": "Stranger Pings", "player_season": "wildcat", "playing_as": "wildcat" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-29", "week": "Week 2", "team1": "WCYDinos", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2280720", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Coup d'Ecap", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280738", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "WCYDinos", "blue_team": "Coup d'Ecap", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280754", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "WCYDinos", "blue_team": "Coup d'Ecap", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280771", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Coup d'Ecap", "blue_team": "WCYDinos", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-06", "week": "Week 2", "team1": "The Elite Four", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2286513", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Stranger Pings", "blue_team": "The Elite Four", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "boar", "playing_as": "boar" },
+            { "team": "Stranger Pings", "player_season": "cat", "playing_as": "cat" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286521", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Elite Four", "blue_team": "Stranger Pings", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Stranger Pings", "player_season": "gnu", "playing_as": "gnu" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286539", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Elite Four", "blue_team": "Stranger Pings", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "gorilla", "playing_as": "gorilla" },
+            { "team": "Stranger Pings", "player_season": "parakeet", "playing_as": "parakeet" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286547", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Stranger Pings", "blue_team": "The Elite Four", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "buffalo", "playing_as": "buffalo" },
+            { "team": "Stranger Pings", "player_season": "waterbuck", "playing_as": "waterbuck" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-29", "week": "Week 2", "team1": "Rektiles", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "2280611", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Rektiles", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280630", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "The Land Before Timers", "blue_team": "Rektiles", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280643", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Rektiles", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "McBooty", "playing_as": "McBooty" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280664", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "The Land Before Timers", "blue_team": "Rektiles", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-01", "week": "Week 2", "team1": "Village Idiots", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2282242", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Village Idiots", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2282252", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "ALL CAPS", "blue_team": "Village Idiots", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2282266", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "ALL CAPS", "blue_team": "Village Idiots", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2282278", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Village Idiots", "blue_team": "ALL CAPS", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "DragonBeast", "playing_as": "DragonBeast" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-09-29", "week": "Week 2", "team1": "Capital City Bombers", "team2": "Fire Breathing Rubber Duckies",
+      "games": [
+        {
+          "tagpro_eu": "2280656", "game_in_match": "Game 1 Half 1", "map_name": "Jardim", "map_id": 6487, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Capital City Bombers", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280674", "game_in_match": "Game 1 Half 2", "map_name": "Jardim", "map_id": 6487, "red_team": "Capital City Bombers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280693", "game_in_match": "Game 2 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Capital City Bombers", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2280709", "game_in_match": "Game 2 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Capital City Bombers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-06", "week": "Week 3", "team1": "WCYDinos", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2286422", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Village Idiots", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286438", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "WCYDinos", "blue_team": "Village Idiots", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286458", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Village Idiots", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286471", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "WCYDinos", "blue_team": "Village Idiots", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286480", "game_in_match": "Game 2 Overtime", "map_name": "Scorpio", "map_id": 2031, "red_team": "Village Idiots", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286484", "game_in_match": "Game 2 Overtime 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "WCYDinos", "blue_team": "Village Idiots", "team1_score": 3, "team2_score": 5,
+          "players": [
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "Frothy", "playing_as": "Frothy" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "The Elite Four", "team2": "Rektiles",
+      "games": [
+        {
+          "tagpro_eu": "2287508", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Elite Four", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287525", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Rektiles", "blue_team": "The Elite Four", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287594", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Elite Four", "blue_team": "Rektiles", "team1_score": 4, "team2_score": 0,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287607", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Rektiles", "blue_team": "The Elite Four", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-06", "week": "Week 3", "team1": "ALL CAPS", "team2": "Fire Breathing Rubber Duckies",
+      "games": [
+        {
+          "tagpro_eu": "2286400", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "ALL CAPS", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286412", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "ALL CAPS", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286425", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "ALL CAPS", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 0, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286442", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "THICK SHADY", "playing_as": "THICK SHADY" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-06", "week": "Week 3", "team1": "The Land Before Timers", "team2": "Capital City Bombers",
+      "games": [
+        {
+          "tagpro_eu": "2286340", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "The Land Before Timers", "blue_team": "Capital City Bombers", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286353", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Capital City Bombers", "blue_team": "The Land Before Timers", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286367", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Capital City Bombers", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2286381", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Land Before Timers", "blue_team": "Capital City Bombers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-07", "week": "Week 3", "team1": "Coup d'Ecap", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2287364", "game_in_match": "Game 1 Half 1", "map_name": "Rush", "map_id": 627, "red_team": "Stranger Pings", "blue_team": "Coup d'Ecap", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "globus-lag", "playing_as": "globus-lag" },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "anteater", "playing_as": "anteater" },
+            { "team": "Stranger Pings", "player_season": "hog", "playing_as": "hog" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287382", "game_in_match": "Game 1 Half 2", "map_name": "Rush", "map_id": 627, "red_team": "Coup d'Ecap", "blue_team": "Stranger Pings", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "globus-lag", "playing_as": "globus-lag" },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "ape", "playing_as": "ape" },
+            { "team": "Stranger Pings", "player_season": "dung beetle", "playing_as": "dung beetle" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287397", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Stranger Pings", "blue_team": "Coup d'Ecap", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "globus-lag", "playing_as": "globus-lag" },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "dog", "playing_as": "dog" },
+            { "team": "Stranger Pings", "player_season": "jackal", "playing_as": "jackal" }
+          ]
+        },
+        {
+          "tagpro_eu": "2287418", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Coup d'Ecap", "blue_team": "Stranger Pings", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "globus-lag", "playing_as": "globus-lag" },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "bighorn", "playing_as": "bighorn" },
+            { "team": "Stranger Pings", "player_season": "burro", "playing_as": "burro" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-13", "week": "Week 4", "team1": "WCYDinos", "team2": "Fire Breathing Rubber Duckies",
+      "games": [
+        {
+          "tagpro_eu": "2292695", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "WCYDinos", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292718", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292735", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "WCYDinos", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292748", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "WCYDinos", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "JuKe Of yoRE", "playing_as": "JuKe Of yoRE" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-13", "week": "Week 4", "team1": "The Elite Four", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2292702", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Coup d'Ecap", "blue_team": "The Elite Four", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292726", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Elite Four", "blue_team": "Coup d'Ecap", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292739", "game_in_match": "Game 2 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Coup d'Ecap", "blue_team": "The Elite Four", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "team", "playing_as": "team" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292752", "game_in_match": "Game 2 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Elite Four", "blue_team": "Coup d'Ecap", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "team", "playing_as": "team" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-14", "week": "Week 4", "team1": "Rektiles", "team2": "Village Idiots",
+      "games": [
+        {
+          "tagpro_eu": "2293761", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Village Idiots", "blue_team": "Rektiles", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2293777", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Rektiles", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2293794", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Rektiles", "blue_team": "Village Idiots", "team1_score": 7, "team2_score": 0,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        },
+        {
+          "tagpro_eu": "2293810", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Village Idiots", "blue_team": "Rektiles", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "RemoSlice", "playing_as": "RemoSlice" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" },
+            { "team": "Village Idiots", "player_season": "neb.", "playing_as": "neb." }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-16", "week": "Week 4", "team1": "The Land Before Timers", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2295701", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "The Land Before Timers", "blue_team": "Stranger Pings", "team1_score": 6, "team2_score": 0,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "doe", "playing_as": "doe" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2295720", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Stranger Pings", "blue_team": "The Land Before Timers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "dugong", "playing_as": "dugong" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2295745", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Stranger Pings", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "marten", "playing_as": "marten" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2295770", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "Stranger Pings", "team1_score": 8, "team2_score": 2,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "koala", "playing_as": "koala" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-13", "week": "Week 4", "team1": "Capital City Bombers", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2292687", "game_in_match": "Game 1 Half 1", "map_name": "Scorpio", "map_id": 2031, "red_team": "Capital City Bombers", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292697", "game_in_match": "Game 1 Half 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "ALL CAPS", "blue_team": "Capital City Bombers", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292708", "game_in_match": "Game 1 Overtime", "map_name": "Scorpio", "map_id": 2031, "red_team": "ALL CAPS", "blue_team": "Capital City Bombers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292716", "game_in_match": "Game 1 Overtime 2", "map_name": "Scorpio", "map_id": 2031, "red_team": "Capital City Bombers", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292732", "game_in_match": "Game 2 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Capital City Bombers", "blue_team": "ALL CAPS", "team1_score": 6, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        },
+        {
+          "tagpro_eu": "2292746", "game_in_match": "Game 2 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "ALL CAPS", "blue_team": "Capital City Bombers", "team1_score": 5, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-22", "week": "Week 5", "team1": "WCYDinos", "team2": "Rektiles",
+      "games": [
+        {
+          "tagpro_eu": "2301132", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "WCYDinos", "blue_team": "Rektiles", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2301141", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Rektiles", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 9,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2301154", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "WCYDinos", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 6,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        },
+        {
+          "tagpro_eu": "2301163", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Rektiles", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Rektiles", "player_season": "OD GOD", "playing_as": "OD GOD" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" },
+            { "team": "WCYDinos", "player_season": "homar", "playing_as": "homar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-20", "week": "Week 5", "team1": "The Elite Four", "team2": "Capital City Bombers",
+      "games": [
+        {
+          "tagpro_eu": "2299297", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Capital City Bombers", "blue_team": "The Elite Four", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299314", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "The Elite Four", "blue_team": "Capital City Bombers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299332", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Capital City Bombers", "blue_team": "The Elite Four", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299349", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Elite Four", "blue_team": "Capital City Bombers", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Raspberry", "playing_as": "Raspberry" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-20", "week": "Week 5", "team1": "The Land Before Timers", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": "2299362", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "The Land Before Timers", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299373", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "ALL CAPS", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299384", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Land Before Timers", "blue_team": "ALL CAPS", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299396", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "ALL CAPS", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-20", "week": "Week 5", "team1": "Village Idiots", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "Stranger Pings", "blue_team": "Village Idiots", "team1_score": 3, "team2_score": 1,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax", "stats": {"team": 1, "score": 14, "tags": 5, "pops": 21, "grabs": 17, "drops": 16, "hold": 63, "captures": 0, "prevent": 23, "returns": 5, "ndpops": 5, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 234, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z", "stats": {"team": 1, "score": 30, "tags": 14, "pops": 7, "grabs": 4, "drops": 4, "hold": 8, "captures": 0, "prevent": 170, "returns": 8, "ndpops": 3, "nrtags": 6, "time_played": 10, "powerups": 3, "hold_against": 234, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin", "stats": {"team": 1, "score": 19, "tags": 10, "pops": 13, "grabs": 5, "drops": 5, "hold": 4, "captures": 0, "prevent": 129, "returns": 8, "ndpops": 8, "nrtags": 2, "time_played": 10, "powerups": 3, "hold_against": 234, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo", "stats": {"team": 1, "score": 37, "tags": 9, "pops": 22, "grabs": 20, "drops": 19, "hold": 81, "captures": 1, "prevent": 26, "returns": 8, "ndpops": 3, "nrtags": 1, "time_played": 10, "powerups": 5, "hold_against": 234, "plus_minus": -2, "total_pups_in_game": 27} },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13", "stats": {"team": 2, "score": 60, "tags": 27, "pops": 2, "grabs": 1, "drops": 1, "hold": 2, "captures": 0, "prevent": 287, "returns": 18, "ndpops": 1, "nrtags": 9, "time_played": 10, "powerups": 5, "hold_against": 156, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK", "stats": {"team": 2, "score": 49, "tags": 18, "pops": 2, "grabs": 1, "drops": 1, "hold": 0, "captures": 0, "prevent": 283, "returns": 17, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 1, "hold_against": 156, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster", "stats": {"team": 2, "score": 38, "tags": 6, "pops": 19, "grabs": 16, "drops": 15, "hold": 127, "captures": 1, "prevent": 5, "returns": 1, "ndpops": 4, "nrtags": 5, "time_played": 10, "powerups": 5, "hold_against": 156, "plus_minus": 2, "total_pups_in_game": 27} },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie", "stats": {"team": 2, "score": 53, "tags": 11, "pops": 18, "grabs": 18, "drops": 16, "hold": 105, "captures": 2, "prevent": 7, "returns": 8, "ndpops": 2, "nrtags": 3, "time_played": 10, "powerups": 3, "hold_against": 156, "plus_minus": 2, "total_pups_in_game": 27} }
+          ]
+        },
+        {
+          "tagpro_eu": "2299358", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Village Idiots", "blue_team": "Stranger Pings", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299369", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Village Idiots", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299381", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Stranger Pings", "blue_team": "Village Idiots", "team1_score": 10, "team2_score": 3,
+          "players": [
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-20", "week": "Week 5", "team1": "Fire Breathing Rubber Duckies", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2299326", "game_in_match": "Game 1 Half 1", "map_name": "Cedar", "map_id": 7019, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Coup d'Ecap", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299342", "game_in_match": "Game 1 Half 2", "map_name": "Cedar", "map_id": 7019, "red_team": "Coup d'Ecap", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299355", "game_in_match": "Game 2 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Coup d'Ecap", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 5, "team2_score": 1,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        },
+        {
+          "tagpro_eu": "2299365", "game_in_match": "Game 2 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "Coup d'Ecap", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-27", "week": "Week 6", "team1": "WCYDinos", "team2": "The Land Before Timers",
+      "games": [
+        {
+          "tagpro_eu": "2304979", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 7, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2304991", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 4,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305007", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "WCYDinos", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305017", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Land Before Timers", "blue_team": "WCYDinos", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-27", "week": "Week 6", "team1": "The Elite Four", "team2": "Fire Breathing Rubber Duckies",
+      "games": [
+        {
+          "tagpro_eu": "2304967", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Elite Four", "team1_score": 4, "team2_score": 6,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2304977", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "The Elite Four", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2304995", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Elite Four", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        },
+        {
+          "tagpro_eu": "2305010", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Elite Four", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Gryff", "playing_as": "Gryff" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-29", "week": "Week 6", "team1": "Rektiles", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2306903", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Rektiles", "blue_team": "Stranger Pings", "team1_score": 6, "team2_score": 1,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306912", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Stranger Pings", "blue_team": "Rektiles", "team1_score": 10, "team2_score": 2,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306922", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Rektiles", "blue_team": "Stranger Pings", "team1_score": 9, "team2_score": 0,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "pulpo", "playing_as": "pulpo" }
+          ]
+        },
+        {
+          "tagpro_eu": "2306934", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Stranger Pings", "blue_team": "Rektiles", "team1_score": 8, "team2_score": 1,
+          "players": [
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "777z", "playing_as": "777z" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "kutrebar", "playing_as": "kutrebar" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-10-31", "week": "Week 6", "team1": "Village Idiots", "team2": "Capital City Bombers",
+      "games": [
+        {
+          "tagpro_eu": "2309478", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "Capital City Bombers", "blue_team": "Village Idiots", "team1_score": 3, "team2_score": 9,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2309490", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Village Idiots", "blue_team": "Capital City Bombers", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2309498", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Village Idiots", "blue_team": "Capital City Bombers", "team1_score": 1, "team2_score": 2,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Village Idiots", "player_season": "DAD.", "playing_as": "DAD." },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2309508", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Capital City Bombers", "blue_team": "Village Idiots", "team1_score": 1, "team2_score": 5,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Village Idiots", "player_season": "Bumballbee", "playing_as": "Bumballbee" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-03", "week": "Week 6", "team1": "ALL CAPS", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2315148", "game_in_match": "Game 1 Half 1", "map_name": "EMERALD", "map_id": 9, "red_team": "ALL CAPS", "blue_team": "Coup d'Ecap", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "sakura", "playing_as": "sakura" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315159", "game_in_match": "Game 1 Half 2", "map_name": "EMERALD", "map_id": 9, "red_team": "Coup d'Ecap", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 6,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315177", "game_in_match": "Game 2 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Coup d'Ecap", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315195", "game_in_match": "Game 2 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "ALL CAPS", "blue_team": "Coup d'Ecap", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-03", "week": "Week 7", "team1": "WCYDinos", "team2": "The Elite Four",
+      "games": [
+        {
+          "tagpro_eu": "2315216", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "WCYDinos", "blue_team": "The Elite Four", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315270", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "The Elite Four", "blue_team": "WCYDinos", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315291", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Elite Four", "blue_team": "WCYDinos", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315304", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "WCYDinos", "blue_team": "The Elite Four", "team1_score": 1, "team2_score": 1,
+          "players": [
+            { "team": "The Elite Four", "player_season": "Epiphany", "playing_as": "Epiphany" },
+            { "team": "The Elite Four", "player_season": "Luka Doncic", "playing_as": "Luka Doncic" },
+            { "team": "The Elite Four", "player_season": "Pandora", "playing_as": "Pandora" },
+            { "team": "The Elite Four", "player_season": "Tantrew", "playing_as": "Tantrew" },
+            { "team": "WCYDinos", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "WCYDinos", "player_season": "GeT_RiGhT", "playing_as": "GeT_RiGhT" },
+            { "team": "WCYDinos", "player_season": "RacgiMan", "playing_as": "RacgiMan" },
+            { "team": "WCYDinos", "player_season": "d0pe", "playing_as": "d0pe" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-03", "week": "Week 7", "team1": "Rektiles", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": null, "game_in_match": "Game 1 Half 1", "map_name": null, "map_id": null, "red_team": "ALL CAPS", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH", "stats": {"team": 1, "score": 37, "tags": 16, "pops": 13, "grabs": 3, "drops": 3, "hold": 18, "captures": 0, "prevent": 148, "returns": 16, "ndpops": 10, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 276, "plus_minus": -1, "total_pups_in_game": 27} },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA", "stats": {"team": 1, "score": 21, "tags": 8, "pops": 20, "grabs": 13, "drops": 13, "hold": 93, "captures": 0, "prevent": 13, "returns": 5, "ndpops": 7, "nrtags": 3, "time_played": 10, "powerups": 4, "hold_against": 276, "plus_minus": -1, "total_pups_in_game": 27} },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE", "stats": {"team": 1, "score": 35, "tags": 10, "pops": 12, "grabs": 10, "drops": 10, "hold": 116, "captures": 0, "prevent": 30, "returns": 7, "ndpops": 2, "nrtags": 3, "time_played": 10, "powerups": 4, "hold_against": 276, "plus_minus": -1, "total_pups_in_game": 27} },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE", "stats": {"team": 1, "score": 50, "tags": 9, "pops": 9, "grabs": 4, "drops": 3, "hold": 40, "captures": 1, "prevent": 171, "returns": 9, "ndpops": 6, "nrtags": 0, "time_played": 10, "powerups": 2, "hold_against": 276, "plus_minus": -1, "total_pups_in_game": 27} },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry", "stats": {"team": 2, "score": 33, "tags": 10, "pops": 9, "grabs": 8, "drops": 8, "hold": 26, "captures": 0, "prevent": 154, "returns": 9, "ndpops": 1, "nrtags": 1, "time_played": 10, "powerups": 4, "hold_against": 267, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris", "stats": {"team": 2, "score": 34, "tags": 13, "pops": 8, "grabs": 4, "drops": 4, "hold": 48, "captures": 0, "prevent": 164, "returns": 9, "ndpops": 4, "nrtags": 4, "time_played": 10, "powerups": 3, "hold_against": 267, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO", "stats": {"team": 2, "score": 71, "tags": 19, "pops": 16, "grabs": 16, "drops": 13, "hold": 98, "captures": 2, "prevent": 23, "returns": 7, "ndpops": 3, "nrtags": 12, "time_played": 10, "powerups": 6, "hold_against": 267, "plus_minus": 1, "total_pups_in_game": 27} },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi", "stats": {"team": 2, "score": 18, "tags": 5, "pops": 16, "grabs": 13, "drops": 13, "hold": 104, "captures": 0, "prevent": 22, "returns": 2, "ndpops": 3, "nrtags": 3, "time_played": 10, "powerups": 2, "hold_against": 267, "plus_minus": 1, "total_pups_in_game": 27} }
+          ]
+        },
+        {
+          "tagpro_eu": "2314943", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Rektiles", "blue_team": "ALL CAPS", "team1_score": 2, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2314949", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "ALL CAPS", "blue_team": "Rektiles", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        },
+        {
+          "tagpro_eu": "2314959", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Rektiles", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "ARMBRANCH", "playing_as": "ARMBRANCH" },
+            { "team": "ALL CAPS", "player_season": "BALLANKA", "playing_as": "BALLANKA" },
+            { "team": "ALL CAPS", "player_season": "BALLDON'TLIE", "playing_as": "BALLDON'TLIE" },
+            { "team": "ALL CAPS", "player_season": "CHEEZEDOODLE", "playing_as": "CHEEZEDOODLE" },
+            { "team": "Rektiles", "player_season": "Curry", "playing_as": "Curry" },
+            { "team": "Rektiles", "player_season": "Doris", "playing_as": "Doris" },
+            { "team": "Rektiles", "player_season": "EGGO", "playing_as": "EGGO" },
+            { "team": "Rektiles", "player_season": "Messi", "playing_as": "Messi" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-03", "week": "Week 7", "team1": "The Land Before Timers", "team2": "Fire Breathing Rubber Duckies",
+      "games": [
+        {
+          "tagpro_eu": "2315084", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "The Land Before Timers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315106", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Land Before Timers", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315147", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Land Before Timers", "team1_score": 5, "team2_score": 3,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315161", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Land Before Timers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315174", "game_in_match": "Game 2 Overtime", "map_name": "Pilot 2", "map_id": 12843, "red_team": "The Land Before Timers", "blue_team": "Fire Breathing Rubber Duckies", "team1_score": 3, "team2_score": 0,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315183", "game_in_match": "Game 2 Overtime 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Fire Breathing Rubber Duckies", "blue_team": "The Land Before Timers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Bitch", "playing_as": "Bitch" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "Cheetosrule", "playing_as": "Cheetosrule" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "King's Crown", "playing_as": "King's Crown" },
+            { "team": "Fire Breathing Rubber Duckies", "player_season": "TomatoFarmer", "playing_as": "TomatoFarmer" },
+            { "team": "The Land Before Timers", "player_season": "Frozen", "playing_as": "Frozen" },
+            { "team": "The Land Before Timers", "player_season": "Taurus", "playing_as": "Taurus" },
+            { "team": "The Land Before Timers", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "The Land Before Timers", "player_season": "yiss", "playing_as": "yiss" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-03", "week": "Week 7", "team1": "Village Idiots", "team2": "Coup d'Ecap",
+      "games": [
+        {
+          "tagpro_eu": "2315266", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Village Idiots", "blue_team": "Coup d'Ecap", "team1_score": 2, "team2_score": 4,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315287", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Coup d'Ecap", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315300", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Coup d'Ecap", "blue_team": "Village Idiots", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315315", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Village Idiots", "blue_team": "Coup d'Ecap", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Coup d'Ecap", "player_season": "Djinni", "playing_as": "Djinni" },
+            { "team": "Coup d'Ecap", "player_season": "glob.", "playing_as": "glob." },
+            { "team": "Coup d'Ecap", "player_season": "h", "playing_as": "h" },
+            { "team": "Coup d'Ecap", "player_season": "m", "playing_as": "m" },
+            { "team": "Village Idiots", "player_season": "CB13", "playing_as": "CB13" },
+            { "team": "Village Idiots", "player_season": "FK", "playing_as": "FK" },
+            { "team": "Village Idiots", "player_season": "Shrimpster", "playing_as": "Shrimpster" },
+            { "team": "Village Idiots", "player_season": "boogie", "playing_as": "boogie" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "MLTP S19", "date": "2019-11-04", "week": "Week 7", "team1": "Capital City Bombers", "team2": "Stranger Pings",
+      "games": [
+        {
+          "tagpro_eu": "2316964", "game_in_match": "Game 1 Half 1", "map_name": "Transilio", "map_id": 141, "red_team": "Capital City Bombers", "blue_team": "Stranger Pings", "team1_score": 7, "team2_score": 5,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2316982", "game_in_match": "Game 1 Half 2", "map_name": "Transilio", "map_id": 141, "red_team": "Stranger Pings", "blue_team": "Capital City Bombers", "team1_score": 5, "team2_score": 4,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "FLY", "playing_as": "FLY" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315232", "game_in_match": "Game 2 Half 1", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Capital City Bombers", "blue_team": "Stranger Pings", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        },
+        {
+          "tagpro_eu": "2315283", "game_in_match": "Game 2 Half 2", "map_name": "Pilot 2", "map_id": 12843, "red_team": "Stranger Pings", "blue_team": "Capital City Bombers", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Capital City Bombers", "player_season": "Destar", "playing_as": "Destar" },
+            { "team": "Capital City Bombers", "player_season": "aardvark", "playing_as": "aardvark" },
+            { "team": "Capital City Bombers", "player_season": "ref", "playing_as": "ref" },
+            { "team": "Capital City Bombers", "player_season": "waterwheel", "playing_as": "waterwheel" },
+            { "team": "Stranger Pings", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Stranger Pings", "player_season": "Suchit", "playing_as": "Suchit" },
+            { "team": "Stranger Pings", "player_season": "anduin", "playing_as": "anduin" },
+            { "team": "Stranger Pings", "player_season": "eldenn", "playing_as": "eldenn" }
+          ]
+        }
+      ]
+    }
+  ]
+}
