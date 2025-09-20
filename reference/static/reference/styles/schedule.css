@@ -21,6 +21,10 @@
     width: 25rem;
     padding: 0 1rem;
 }
+
+.match-box:has(.multi-half) {
+    width: 27rem;
+}
 .match-date {
     text-align: center;
     font-size: 0.9rem;
@@ -38,6 +42,10 @@
     table-layout: fixed;
     border-collapse: collapse;
     font-size: 0.9rem;
+}
+
+.box-score.multi-half {
+    width: 27rem;
 }
 .box-score th {
     padding: 0.5rem 0.4rem;

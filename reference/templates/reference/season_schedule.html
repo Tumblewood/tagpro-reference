@@ -46,11 +46,11 @@
                     <div class="match-date"><a href="{% url 'match_view' match_data.match.id %}">{{ match_data.match.date|date:"n/j" }}</a></div>
                     
                     {% if match_data.has_games %}
-                    <table class="box-score">
+                    <table class="box-score{% for game in match_data.games %}{% if game.short_game_name == 'G1H1' %} multi-half{% endif %}{% endfor %}">
                         <colgroup>
                             <col>
                             {% for game in match_data.games %}
-                            <col style="width: 2rem">
+                            <col style="width: {% if 'H' in game.short_game_name or 'OT' in game.short_game_name %}3.25rem{% else %}2rem{% endif %}">
                             {% endfor %}
                             <col style="width: 2.5rem">
                         </colgroup>
