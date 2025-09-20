@@ -359,12 +359,10 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
             team_score = game.team1_score
             opponent_score = game.team2_score
             team_standing_points = game.team1_standing_points or 0
-            opponent_standing_points = game.team2_standing_points or 0
         else:
             team_score = game.team2_score
             opponent_score = game.team1_score
             team_standing_points = game.team2_standing_points or 0
-            opponent_standing_points = game.team1_standing_points or 0
         
         standing_points += team_standing_points
         caps_for += team_score
@@ -388,14 +386,6 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
                 ot_losses += 1
             elif outcome == "L":
                 losses += 1
-        else:
-            # Determine by score if outcome not set
-            if team_score > opponent_score:
-                wins += 1
-            elif team_score < opponent_score:
-                losses += 1
-            else:
-                ties += 1
     
     cap_differential = caps_for - caps_against
     record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"

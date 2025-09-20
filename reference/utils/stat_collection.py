@@ -371,28 +371,35 @@ def process_game_stats(game: Game):
             game.team1_score = m2.team_red.score if team1_is_red else m2.team_blue.score
             game.team2_score = m2.team_blue.score if team1_is_red else m2.team_red.score
 
-    if game.team1_score > game.team2_score:
-        if went_to_ot:
-            game.outcome = "OTW"
-            game.team1_standing_points = 2
-            game.team2_standing_points = 1
-        else:
-            game.outcome = "W"
-            game.team1_standing_points = 3
-            game.team2_standing_points = 0
-    elif game.team2_score > game.team1_score:
-        if went_to_ot:
-            game.outcome = "OTL"
-            game.team1_standing_points = 1
-            game.team2_standing_points = 2
-        else:
-            game.outcome = "L"
-            game.team1_standing_points = 0
-            game.team2_standing_points = 3
+    # For multi-half games, don't set outcome until after all halves are added
+    if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+        game.outcome = None
+        game.team1_standing_points = 0
+        game.team2_standing_points = 0
     else:
-        game.outcome = "T"
-        game.team1_standing_points = 1
-        game.team2_standing_points = 1
+        # Single game logic
+        if game.team1_score > game.team2_score:
+            if went_to_ot:
+                game.outcome = "OTW"
+                game.team1_standing_points = 2
+                game.team2_standing_points = 1
+            else:
+                game.outcome = "W"
+                game.team1_standing_points = 3
+                game.team2_standing_points = 0
+        elif game.team2_score > game.team1_score:
+            if went_to_ot:
+                game.outcome = "OTL"
+                game.team1_standing_points = 1
+                game.team2_standing_points = 2
+            else:
+                game.outcome = "L"
+                game.team1_standing_points = 0
+                game.team2_standing_points = 3
+        else:
+            game.outcome = "T"
+            game.team1_standing_points = 1
+            game.team2_standing_points = 1
 
     game.save()
 
@@ -619,11 +626,63 @@ def rank_by_total_caps(teams_data):
     return teams_data
 
 
+def set_multi_half_outcomes(match: Match):
+    games = Game.objects.filter(match=match).order_by("game_in_match")
+    is_regular_season = match.get_playoff_series() is None
+    half1 = None
+    team1_total_score = 0
+    team2_total_score = 0
+    has_ot = False
+
+    def save_half1():
+        if half1 is not None:
+            if team1_total_score > team2_total_score:
+                if not has_ot:
+                    half1.outcome = "W"
+                    half1.team1_standing_points = 3 if is_regular_season else 1
+                    half1.team2_standing_points = 0
+                else:
+                    half1.outcome = "OTW"
+                    half1.team1_standing_points = 2 if is_regular_season else 1
+                    half1.team2_standing_points = 1 if is_regular_season else 0
+            elif team2_total_score > team1_total_score:
+                if not has_ot:
+                    half1.outcome = "L"
+                    half1.team1_standing_points = 0
+                    half1.team2_standing_points = 3 if is_regular_season else 1
+                else:
+                    half1.outcome = "OTL"
+                    half1.team1_standing_points = 1 if is_regular_season else 0
+                    half1.team2_standing_points = 2 if is_regular_season else 1
+            else:
+                half1.outcome = "T"
+                half1.team1_standing_points = 1 if is_regular_season else 0
+                half1.team2_standing_points = 1 if is_regular_season else 0
+            half1.save()
+    
+    for g in games:
+        if "Half 1" in g.game_in_match:
+            save_half1()
+            half1 = g
+            team1_total_score = g.team1_score
+            team2_total_score = g.team2_score
+            has_ot = False
+        else:
+            team1_total_score += g.team1_score
+            team2_total_score += g.team2_score
+            if "Overtime" in g.game_in_match:
+                has_ot = True
+    
+    save_half1()
+
 def update_standings(season: Season):
     """
     Calculate and update seed and playoff_finish for all teams in a season.
     """
     teams = TeamSeason.objects.filter(season=season)
+
+    for m in Match.objects.filter(season=season):
+        set_multi_half_outcomes(m)
     
     # Calculate standings data for each team
     standings_data = []
