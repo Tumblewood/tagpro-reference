@@ -35,7 +35,7 @@
                 <tr>
                     <th>Team</th>
                     {% for game in box_score_games %}
-                    <th>Game {{ forloop.counter }}</th>
+                    <th>{{ game.game_number }}</th>
                     {% endfor %}
                     <th>Pts</th>
                     <th>Caps</th>

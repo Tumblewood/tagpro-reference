@@ -648,13 +648,8 @@ def match_view(req, match_id):
         stats_games = games
         show_map_info = False
     else:
-        try:
-            game_number = int(selected_game)
-            stats_games = games.filter(game_in_match=f"Game {game_number}")
-            show_map_info = len(stats_games) == 1
-        except (ValueError, TypeError):
-            stats_games = games
-            show_map_info = False
+        stats_games = games.filter(game_in_match=selected_game)
+        show_map_info = len(stats_games) == 1
     
     # Get player stats for both teams using utility function
     team1_stats = get_match_team_stats(match, match.team1, selected_game)
@@ -664,14 +659,11 @@ def match_view(req, match_id):
     game_options = [{'value': 'all', 'label': 'All Games'}]
     for game in games:
         if game.game_in_match:
-            try:
-                game_num = game.game_in_match.replace('Game ', '')
-                game_options.append({
-                    'value': game_num,
-                    'label': game.game_in_match
-                })
-            except:
-                pass
+            # Use full game name as value to support halves/OT
+            game_options.append({
+                'value': game.game_in_match,
+                'label': game.game_in_match
+            })
     
     # Get map info if single game is selected
     map_info = None

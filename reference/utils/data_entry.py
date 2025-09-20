@@ -570,8 +570,6 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             date=match_date,
             defaults={'week': match_data['week']}
         )
-
-        game_in_match = 0
         
         # Process games in this match
         for game_data in match_data['games']:
@@ -579,7 +577,6 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             if not game_data.get('players') or len(game_data['players']) == 0:
                 continue
                 
-            game_in_match += 1
             red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
             blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
             if not red_team or not blue_team:
@@ -601,7 +598,7 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 'team2_score': game_data.get('team2_score', 0),
                 'map_name': game_data['map_name'],
                 'map_id': game_data['map_id'] if game_data['map_id'] else None,
-                'game_in_match': f"Game {game_in_match}",
+                'game_in_match': game_data['game_in_match'],
                 'tagpro_eu': game_data['tagpro_eu']
             }
             

@@ -58,7 +58,7 @@
                             <tr>
                                 <th>Team</th>
                                 {% for game in match_data.games %}
-                                <th>G{{ forloop.counter }}</th>
+                                <th>{{ game.short_game_name }}</th>
                                 {% endfor %}
                                 <th>Pts</th>
                             </tr>

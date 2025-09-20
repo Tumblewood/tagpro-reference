@@ -206,12 +206,16 @@ def calculate_match_box_score(match, games, include_details=False):
         team1_total_caps += team1_score
         team2_total_caps += team2_score
         
+        # Create shortened game name: "Game 1 Half 1" -> "G1H1", "Game 1 Overtime" -> "G1OT"
+        short_game_name = game.game_in_match.replace('Game ', 'G').replace(' Half ', 'H').replace(' Overtime', 'OT')
+        
         game_result = {
             'team1_score': team1_score,
             'team2_score': team2_score,
             'winner': game_winner,
             'is_overtime': is_overtime,
-            'game_number': game.game_in_match
+            'game_number': game.game_in_match,
+            'short_game_name': short_game_name
         }
         
         # Add extra details for match_view
@@ -287,14 +291,10 @@ def get_match_team_stats(match, team, selected_game='all'):
         team_stats.sort(key=lambda x: -x['time_played_min'])
     else:
         # For specific games, aggregate from PlayerGameLog
-        try:
-            game_number = int(selected_game)
-            games_filter = Game.objects.filter(
-                match=match,
-                game_in_match=f"Game {game_number}"
-            )
-        except (ValueError, TypeError):
-            games_filter = Game.objects.filter(match=match)
+        games_filter = Game.objects.filter(
+            match=match,
+            game_in_match=selected_game
+        )
         
         player_logs = PlayerGameLog.objects.filter(
             game__in=games_filter,
@@ -359,10 +359,12 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
             team_score = game.team1_score
             opponent_score = game.team2_score
             team_standing_points = game.team1_standing_points or 0
+            opponent_standing_points = game.team2_standing_points or 0
         else:
             team_score = game.team2_score
             opponent_score = game.team1_score
             team_standing_points = game.team2_standing_points or 0
+            opponent_standing_points = game.team1_standing_points or 0
         
         standing_points += team_standing_points
         caps_for += team_score
