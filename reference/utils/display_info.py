@@ -206,8 +206,8 @@ def calculate_match_box_score(match, games, include_details=False):
         team1_total_caps += team1_score
         team2_total_caps += team2_score
         
-        # Create shortened game name: "Game 1 Half 1" -> "G1H1", "Game 1 Overtime" -> "G1OT"
-        short_game_name = game.game_in_match.replace('Game ', 'G').replace(' Half ', 'H').replace(' Overtime', 'OT')
+        # Create shortened game name: "Game 1 Half 1" -> "G1 H1", "Game 1 Overtime 2" -> "G1 OT2"
+        short_game_name = game.game_in_match.replace('Game ', 'G').replace('Half ', 'H').replace('Overtime ', 'OT').replace('Overtime', 'OT')
         
         game_result = {
             'team1_score': team1_score,
@@ -365,8 +365,14 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
             team_standing_points = game.team2_standing_points or 0
         
         standing_points += team_standing_points
-        caps_for += team_score
-        caps_against += opponent_score
+
+        # Don't count overtime caps toward cap totals
+        if game.outcome in ["OTW", "OTL"]:
+            caps_for += min(team_score, opponent_score)
+            caps_against += min(team_score, opponent_score)
+        elif "Overtime" not in game.game_in_match:
+            caps_for += team_score
+            caps_against += opponent_score
         
         if game.outcome:
             if is_team1:
