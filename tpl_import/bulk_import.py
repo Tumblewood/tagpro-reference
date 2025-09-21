@@ -151,7 +151,13 @@ STAT_MAPPING = {
 def rename_stats(stats: Dict[str, int]) -> Dict[str, int]:
     for stat in STAT_MAPPING:
         if stat in stats:
+            if stats[stat] is None:
+                continue
             stats[STAT_MAPPING[stat]] = stats[stat]
+            if stat in ["hold", "prevent", "holdagainst"] and stats[stat]:
+                stats[STAT_MAPPING[stat]] = int(stats[STAT_MAPPING[stat]] * 60)  # convert from seconds to ticks
+            if stat == "minutes":
+                stats[STAT_MAPPING[stat]] = int(stats[STAT_MAPPING[stat]] * 3600)  # convert from minutes to ticks
             del(stats[stat])
     return stats
 
