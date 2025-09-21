@@ -41,6 +41,29 @@ class User(AbstractUser):
         """Check if user has new data entry permissions."""
         return self.permission_tier in ['full', 'current', 'entry'] or self.is_superuser
     
+    def can_edit_season(self, season):
+        """Check if user can edit data for a specific season."""
+        if self.is_superuser or self.permission_tier == 'full':
+            return True
+        elif self.permission_tier == 'current':
+            # Can edit seasons that haven't ended yet
+            from datetime import date
+            return season.end_date is None or season.end_date >= date.today()
+        else:
+            return False
+    
+    def can_enter_new_data_for_season(self, season=None):
+        """Check if user can enter new data for a specific season."""
+        # For new data entry, all permission levels except 'none' are allowed
+        if self.is_superuser or self.permission_tier in ['full', 'current', 'entry']:
+            return True
+        else:
+            return False
+    
+    def can_bulk_import(self):
+        """Check if user can perform bulk import operations."""
+        return self.is_superuser or self.permission_tier in ['full', 'current']
+    
     def __str__(self):
         if self.player:
             return f"{self.username} ({self.player.name})"

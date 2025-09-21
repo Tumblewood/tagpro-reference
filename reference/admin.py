@@ -80,7 +80,8 @@ class TeamSeasonAdmin(admin.ModelAdmin):
 
 
 class MatchAdmin(admin.ModelAdmin):
-    list_filter = ["team1", "team2"]
+    list_filter = ["season"]
+    search_fields = ["team1", "team2"]
     inlines = [GameInline, PlayoffSeriesInline]
 
 

@@ -1,0 +1,62 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Login - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/auth.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <h1 class="auth-title">Login</h1>
+    
+    {% if form.errors %}
+        <div class="error-message">
+            {{ form.errors }}
+        </div>
+    {% endif %}
+    
+    {% if messages %}
+        {% for message in messages %}
+            <div class="success-message">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    
+    <form method="post" class="auth-form">
+        {% csrf_token %}
+        
+        <div class="form-group">
+            <label for="{{ form.username.id_for_label }}">Username:</label>
+            {{ form.username }}
+            {% if form.username.errors %}
+                <div class="error-text">
+                    {{ form.username.errors }}
+                </div>
+            {% endif %}
+        </div>
+        
+        <div class="form-group">
+            <label for="{{ form.password.id_for_label }}">Password:</label>
+            {{ form.password }}
+            {% if form.password.errors %}
+                <div class="error-text">
+                    {{ form.password.errors }}
+                </div>
+            {% endif %}
+        </div>
+        
+        <button type="submit" class="auth-button">
+            Login
+        </button>
+    </form>
+    
+    <div class="auth-links">
+        <p>
+            <a href="{% url 'signup' %}">Sign up</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

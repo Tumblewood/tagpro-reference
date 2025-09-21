@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
-from django.contrib.admin.views.decorators import staff_member_required
+from accounts.decorators import data_entry_required, bulk_import_required, full_data_permissions_required
 from django.contrib import messages
 from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
@@ -695,6 +695,7 @@ def match_view(req, match_id):
     })
 
 
+@data_entry_required(allow_new_data_only=True)
 def import_from_eus(request):
     """Render page where user can paste a list of tagpro.eus and start importing matches."""
     if request.method == 'GET':
@@ -862,6 +863,7 @@ def import_from_eus(request):
                 })
 
 
+@data_entry_required(allow_new_data_only=True)
 def preprocess_eu_links(request):
     """Form where user can paste EU links and get back JSON data."""
     if request.method == 'GET':
@@ -894,7 +896,7 @@ def preprocess_eu_links(request):
             return render(request, 'reference/preprocess_eu_links.html')
 
 
-@staff_member_required
+@bulk_import_required
 @transaction.atomic
 def import_from_json(request):
     """Form where user can paste JSON data to import into database."""
@@ -925,7 +927,7 @@ def import_from_json(request):
             return render(request, 'reference/import_json.html')
 
 
-@staff_member_required
+@data_entry_required(season_param='season_id')
 def edit_rosters(request, season_id):
     """Edit rosters view with player and playerseason management forms."""
     season = get_object_or_404(Season, id=season_id)
