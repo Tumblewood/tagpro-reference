@@ -773,7 +773,11 @@ def import_from_eus(request):
                 score_red = int(request.POST.get('red_team_score'))
                 score_blue = int(request.POST.get('blue_team_score'))
                 map_name = request.POST.get('map_name')
-                map_id = int(request.POST.get('map_id'))
+                map_id_raw = request.POST.get('map_id')
+                try:
+                    map_id = int(map_id_raw) if map_id_raw else None
+                except (ValueError, TypeError):
+                    map_id = None
                 date_str = request.POST.get('date')
                 date = datetime.strptime(date_str, '%Y-%m-%d').date()
                 

@@ -1,13 +1,20 @@
 from django.db import models, transaction
 import json
 import re
-from datetime import datetime, date
+from datetime import datetime, date, timezone, timedelta
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
 from .stat_collection import process_game_stats, update_standings, load_eu_match_object
 from .display_info import STAT_FIELDS
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries, PlayerStats, PlayerRegulationStats
+
+
+def convert_utc_to_pacific_date(utc_datetime):
+    """Convert UTC datetime to Pacific time date (accounting for DST)."""
+    pacific_tz = timezone(timedelta(hours=-8))  # PST
+    pacific_dt = utc_datetime.replace(tzinfo=timezone.utc).astimezone(pacific_tz)
+    return pacific_dt.date()
 
 
 def extract_game_data(eu_url: str) -> Dict:
@@ -31,7 +38,7 @@ def extract_game_data(eu_url: str) -> Dict:
     return {
         'eu_url': eu_url,
         'game_id': game_id,
-        'date': m.date.date(),
+        'date': convert_utc_to_pacific_date(m.date),
         'map_name': m.map.name,
         'map_id': m.map_id,
         'team_red': {
@@ -291,6 +298,12 @@ def enter_confirmed_data(
 
     team1_is_red = red_team == match.team1
     
+    # Check if game already exists
+    game_id = int(eu_url.split("=")[1])
+    existing_game = Game.objects.filter(tagpro_eu=game_id).first()
+    if existing_game:
+        raise Exception(f"Game with tagpro.eu ID {game_id} already exists")
+    
     # Create Game
     game = Game.objects.create(
         match=match,
@@ -301,7 +314,7 @@ def enter_confirmed_data(
         map_name=map_name,
         map_id=map_id,
         game_in_match=game_in_match,
-        tagpro_eu=int(eu_url.split("=")[1])
+        tagpro_eu=game_id
     )
 
     # Create PlayerGameLogs for all players in the game

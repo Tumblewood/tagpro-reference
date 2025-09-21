@@ -6,6 +6,7 @@ import tagpro_eu
 from django.conf import settings
 import os
 import sys
+import json
 
 
 STAT_FIELDS = [
@@ -62,7 +63,72 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
         # when we use download_match, map_id field will not be present, so set it to None
         m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
         m.map_id = None
+        
+        # Save downloaded match to appropriate bulk file
+        save_match_to_bulk_file(m, game_id)
     return m
+
+
+def save_match_to_bulk_file(match: tagpro_eu.Match, game_id: str):
+    """Save a downloaded match to the appropriate bulk file."""
+    # Determine which bulk file this game_id belongs to
+    file_number = ceil(int(game_id) / 500000)
+    bulk_file_path = f"tpl_import/league_matches{file_number}.json"
+    
+    # Only save if bulk file already exists
+    if not os.path.exists(bulk_file_path):
+        return
+    
+    try:
+        # Read existing bulk file
+        with open(bulk_file_path, "r") as f:
+            bulk_data = json.load(f)
+        
+        # Convert match to the same format as bulk files
+        match_data = {
+            'server': match.server,
+            'port': match.port,
+            'official': True,
+            'group': "redacted",
+            'date': int(match.date.timestamp()),
+            'timeLimit': 10,
+            'duration': match.duration,
+            'finished': match.finished,
+            'mapId': getattr(match, "map_id", None),
+            'players': [
+                {
+                    'auth': True,
+                    'name': player.name,
+                    'flair': getattr(player, "flair", 0),
+                    'degree': getattr(player, "degree", 0),
+                    'score': player.score,
+                    'points': getattr(player, "points", 0),
+                    'team': player.team,
+                    'events': player.events
+                }
+                for player in match.players
+            ],
+            'teams': [
+                {
+                    'name': team.name,
+                    'score': team.score,
+                    'splats': team.splats
+                }
+                for team in [match.team_red, match.team_blue]
+            ]
+        }
+        
+        # Add the new match to bulk data
+        bulk_data[str(game_id)] = match_data
+        
+        # Write back to file
+        with open(bulk_file_path, "w") as f:
+            json.dump(bulk_data, f, separators=(",", ":"))
+            
+    except Exception as e:
+        # Don't fail the whole process if we can't save to bulk file
+        print(f"Warning: Could not save match {game_id} to bulk file: {e}")
+        pass
 
 
 def parse_stats_from_eu_match(
