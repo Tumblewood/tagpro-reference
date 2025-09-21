@@ -13,14 +13,15 @@ The primary goal is to facilitate stat-keeping for past seasons that are not wel
 
 While there are some improvements that could be made to the site code, the main thing missing TagPro Reference needs right now is **data**. Here is the order of goals going forward:
 
-- NALTP S30-36: (data is visible on the site) minor data cleaning
-- NALTP S10-29: (data is collected but not visible) major data cleaning
-- ELTP: import of all seasons from tagpro.dev
+- NALTP S36: complete :)
+- NALTP S30-36: minor data cleaning
+- NALTP S10-29: major data cleaning
+- ELTP: import of all seasons that are on tagpro.dev
 - NALTP S1-9: import of teams, rosters, and scores; potentially S8-9 playoff stats too
-- NFTL: import where data exists
+- NFTL: import where reliable data exists
 - other leagues: import wherever there is interest from contributors
 
-Here are some of the dev features that would be nice to have in the future:
+Here are some of the code features that would be nice to have in the future:
 
 - Playoff brackets
 - Displays for season awards and transaction history
