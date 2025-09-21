@@ -17,11 +17,17 @@ def convert_utc_to_pacific_date(utc_datetime):
     return pacific_dt.date()
 
 
+def extract_game_id_from_url(eu_url: str) -> str:
+    """Extract game ID from EU URL or any string containing numbers."""
+    # Look for any sequence of 6-7 digits (typical EU game ID range)
+    game_id_match = re.search(r'(\d{6,7})', eu_url)
+    return game_id_match.group(1) if game_id_match else "-1"
+
+
 def extract_game_data(eu_url: str) -> Dict:
     """Extract basic game data from the tagpro.eu URL."""
     # Extract game ID from URL
-    game_id = re.search(r'(\d{6,7})', eu_url)
-    game_id = game_id.group(1) if game_id else "-1"
+    game_id = extract_game_id_from_url(eu_url)
     m: tagpro_eu.Match = load_eu_match_object(game_id)
     
     # Get the set of players who joined each team
@@ -85,7 +91,7 @@ def infer_team(season_group: List[Season], team_name_in_group: str) -> Optional[
     if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) < 3:
         return None
     
-    team_abbr = team_name_in_group.strip()[-3:]  # strip because sometimes captains add a trailing space by mistake
+    team_abbr = team_name_in_group.strip()[1:]  # strip because sometimes captains add a trailing space by mistake
     season_guess = infer_season(season_group, team_name_in_group)
 
     # Get all teams with matching abbreviation
@@ -299,7 +305,7 @@ def enter_confirmed_data(
     team1_is_red = red_team == match.team1
     
     # Check if game already exists
-    game_id = int(eu_url.split("=")[1])
+    game_id = int(extract_game_id_from_url(eu_url))
     existing_game = Game.objects.filter(tagpro_eu=game_id).first()
     if existing_game:
         raise Exception(f"Game with tagpro.eu ID {game_id} already exists")
@@ -596,11 +602,21 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 continue
                 
             # Check if game already exists
-            existing_game = Game.objects.filter(tagpro_eu=game_data['tagpro_eu']).first()
-            
-            if existing_game:
-                skipped_count += 1
-                continue
+            if game_data['tagpro_eu'] is not None:
+                # For games with EU IDs, check by tagpro_eu
+                existing_game = Game.objects.filter(tagpro_eu=game_data['tagpro_eu']).first()
+                if existing_game:
+                    skipped_count += 1
+                    continue
+            else:
+                # For games without EU IDs, check by match and game_in_match
+                existing_game = Game.objects.filter(
+                    match=match,
+                    game_in_match=game_data['game_in_match']
+                ).first()
+                if existing_game:
+                    skipped_count += 1
+                    continue
 
             # Create game with additional fields
             game_fields = {

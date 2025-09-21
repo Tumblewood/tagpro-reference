@@ -224,7 +224,7 @@ def group_matches_by_date(matches: List[Dict], season_name: str) -> List[Dict]:
             current_game_num = 1
             half_num = 1
             
-            for i, game in enumerate(all_games):
+            for game in all_games:
                 original_name = game['game_in_match']
                 
                 if 'Overtime' in original_name:
@@ -254,7 +254,7 @@ def group_matches_by_date(matches: List[Dict], season_name: str) -> List[Dict]:
             
             base_match['games'] = all_games
             new_matches.append(base_match)
-    
+        
     # Handle NLTP S10 week renaming
     if season_name in ["NLTP S10", "NLTP B S10"]:
         for match in new_matches:
@@ -507,7 +507,9 @@ for season_name in seasons:
             match_object['games'].append(game_object)
         
         if match_object is not None:
-            matches.append(match_object)
+            # Don't add matches with no players or caps recorded
+            if sum([len(g['players']) + g['team1_score'] + g['team2_score'] for g in match_object['games']]) > 0:
+                matches.append(match_object)
 
     final_object = {
         'teamSeasons': sorted([t for t in teams.values()], key=lambda t: t['name']),

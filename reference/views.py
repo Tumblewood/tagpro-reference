@@ -705,7 +705,11 @@ def import_from_eus(request):
         # Handle initial form submission with season filter and URLs  
         if 'season_filter_string' in request.POST and 'submit_game_data' not in request.POST:
             season_filter_string = request.POST.get('season_filter_string', '').strip()
-            eu_urls = [url.strip() for url in request.POST.get('eu_urls', '').strip().split('\n') if url.strip()]
+            eu_input = request.POST.get('eu_urls', '').strip()
+            
+            # Extract all numbers from the input using regex (these should be EU IDs)
+            eu_ids = re.findall(r'\b(\d+)\b', eu_input)
+            eu_urls = [f"https://tagpro.eu/?match={eu_id}" for eu_id in eu_ids]
             
             if not season_filter_string:
                 messages.error(request, "Please enter a season filter string.")
@@ -818,7 +822,6 @@ def import_from_eus(request):
                     date=date,
                     players=players
                 )
-                update_standings(red_team.season)
                 
                 messages.success(request, f"Game data saved successfully for {eu_url}")
                 
@@ -855,6 +858,7 @@ def import_from_eus(request):
                         'current_index': current_index
                     })
                 else:
+                    update_standings(red_team.season)
                     messages.success(request, "All URLs processed successfully!")
                     return redirect('import_data')
                     

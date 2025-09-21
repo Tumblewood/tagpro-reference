@@ -65,7 +65,8 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
         m.map_id = None
         
         # Save downloaded match to appropriate bulk file
-        save_match_to_bulk_file(m, game_id)
+        # commenting out because it is not writing the whole thing to file for some reason
+        # save_match_to_bulk_file(m, game_id)
     return m
 
 
@@ -555,7 +556,6 @@ def rank_by_head_to_head(teams_data):
         team_data['_h2h_win_pct'] = h2h_win_pct
     
     teams_data.sort(key=lambda x: -x['_h2h_win_pct'])
-    print(teams_data)
     
     result = []
     i = 0
@@ -567,7 +567,6 @@ def rank_by_head_to_head(teams_data):
             i += 1
         
         if len(tied_group) > 1:
-            print(tied_group)
             tied_group = rank_by_common_opponents_record(tied_group)
         result.extend(tied_group)
     
