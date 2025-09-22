@@ -153,16 +153,20 @@ def infer_week(red: Optional[TeamSeason], blue: Optional[TeamSeason], date: date
     return max_week
 
 
-def infer_player_season(username: str, team: Optional[Season]) -> Optional[PlayerSeason]:
+def infer_player_season(username: str, season_group: List[Season], team: Optional[TeamSeason]) -> Optional[PlayerSeason]:
     """Try to identify the PlayerSeason corresponding to the given username and team."""
-    # If we don't know the team, just return None. We don't want to return a PlayerSeason from the
-    # wrong league, and team tells us the league, so we should not guess if we don't know the team.
-    if not team:
-        return None
+    # Search for PlayerSeason with matching TeamSeason and name
+    if team:
+        matching_name = PlayerSeason.objects.filter(
+            team=team,
+            playing_as__iexact=username
+        ).first()
+        if matching_name:
+            return matching_name
     
-    # Search for PlayerSeason with matching Season and name
+    # If not found, search for PlayerSeason with matching Season and PlayerSeason name
     matching_name = PlayerSeason.objects.filter(
-        season=team.season,
+        season__in=season_group,
         playing_as__iexact=username
     ).first()
     if matching_name:
@@ -170,7 +174,7 @@ def infer_player_season(username: str, team: Optional[Season]) -> Optional[Playe
     
     # If not found, search for PlayerSeason with matching Season and Player name
     matching_name = PlayerSeason.objects.filter(
-        season=team.season,
+        season__in=season_group,
         player__name__iexact=username
     ).first()
     if matching_name:
@@ -235,7 +239,7 @@ def prepopulate_form(season_filter_string: str, eu_url: str):
     players = []
     for p in m['players']:
         team = red_team if p['team'] == m['team_red']['name'] else blue_team
-        player_season = infer_player_season(p['username'], team)
+        player_season = infer_player_season(p['username'], season_group, team)
         player = infer_player(player_season, p['username'])
         players.append({
             'player_season': player_season,

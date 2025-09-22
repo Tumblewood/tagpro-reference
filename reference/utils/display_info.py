@@ -178,8 +178,6 @@ def calculate_match_box_score(match, games, include_details=False):
         team1_score = game.team1_score
         team2_score = game.team2_score
         
-        # Check if overtime
-        is_overtime = game.outcome in ['OTW', 'OTL'] if game.outcome else False
         
         # Determine game winner
         if team1_score > team2_score:
@@ -213,7 +211,7 @@ def calculate_match_box_score(match, games, include_details=False):
             'team1_score': team1_score,
             'team2_score': team2_score,
             'winner': game_winner,
-            'is_overtime': is_overtime,
+            'outcome': game.outcome,
             'game_number': game.game_in_match,
             'short_game_name': short_game_name
         }

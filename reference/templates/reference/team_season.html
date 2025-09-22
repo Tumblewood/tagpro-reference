@@ -158,7 +158,7 @@
                             </td>
                             {% for game in match_data.games %}
                             <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
-                                {{ game.team1_score }}{% if game.is_overtime and game.winner == 'team1' %}<span class="overtime">O</span>{% endif %}
+                                {{ game.team1_score }}{% if game.outcome == 'OTW' %}<span class="overtime">O</span>{% endif %}
                             </td>
                             {% endfor %}
                             <td class="{% if match_data.match_winner == 'team1' %}winning-total{% endif %}">
@@ -173,7 +173,7 @@
                             </td>
                             {% for game in match_data.games %}
                             <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
-                                {{ game.team2_score }}{% if game.is_overtime and game.winner == 'team2' %}<span class="overtime">O</span>{% endif %}
+                                {{ game.team2_score }}{% if game.outcome == 'OTL' %}<span class="overtime">O</span>{% endif %}
                             </td>
                             {% endfor %}
                             <td class="{% if match_data.match_winner == 'team2' %}winning-total{% endif %}">

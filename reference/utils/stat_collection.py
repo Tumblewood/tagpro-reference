@@ -135,12 +135,14 @@ def save_match_to_bulk_file(match: tagpro_eu.Match, game_id: str):
 def parse_stats_from_eu_match(
         m: tagpro_eu.Match,
         stats_count_until: int = 10 * 60
-    ) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int]]:
+    ) -> Tuple[Dict[str, Dict[str, int]], Dict[str, Dict[str, int]], Dict[str, str], Tuple[int, int], Tuple[int, int]]:
     """
     Takes a tagpro_eu.Match and extracts all counting stats into a dict, and all player teams into another dict.
     Dict keys for both tuple members are player usernames from the game, and values are a dict with their counting stats
     and a dict for the team they played on last in the game.
-    As third return value, returns the score at the end of regulation (10 minutes). As a tuple like (red_score, blue_score).
+    Returns: (ps, ps_before_ot, team_mapping, score_before_ot, total_score)
+    score_before_ot: score at end of regulation (red_score, blue_score)
+    total_score: total caps scored during this entire period (red_caps, blue_caps)
     """
     # Locate red and blue flags
     red_flag = None
@@ -166,6 +168,7 @@ def parse_stats_from_eu_match(
     }
     snapshotted = False
     score_before_ot = (0, 0)
+    total_score = (0, 0)
     for time, event, player in sorted(m.create_timeline()):
         p = ps[player.name]
         time = time.real
@@ -243,7 +246,15 @@ def parse_stats_from_eu_match(
         elif event[:7] == "Capture":
             p['captures'] += 1
             
-            if time <= 10 * 60 * 60:
+            # If the match was paused and resumed, stats_count_until should be <600
+            # and we should only count until the pause. Otherwise, count every cap.
+            if time <= stats_count_until * 60 or stats_count_until >= 600:
+                if p['team'] == m.team_red.name:
+                    total_score = (total_score[0] + 1, total_score[1])
+                else:
+                    total_score = (total_score[0], total_score[1] + 1)
+            
+            if time <= stats_count_until * 60:
                 if p['team'] == m.team_red.name:
                     score_before_ot = (score_before_ot[0] + 1, score_before_ot[1])
                 else:
@@ -379,8 +390,58 @@ def parse_stats_from_eu_match(
     if not snapshotted:
         ps_before_ot = ps
 
-    return ps, ps_before_ot, last_team_played_for, score_before_ot
+    return ps, ps_before_ot, last_team_played_for, score_before_ot, total_score
 
+
+def calculate_multi_half_match_outcome(match):
+    """
+    Calculate match outcome for multi-half games based on all halves and overtime periods.
+    Sets outcomes and standing points for the first half of each game.
+    """
+    games = match.games.all().order_by('game_in_match')
+    
+    # Group games by their base game number (G1, G2, etc.)
+    game_groups = {}
+    for game in games:
+        if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+            # Extract base game number (e.g., "Game 1" from "Game 1 Half 1")
+            base_game = game.game_in_match.split()[0] + " " + game.game_in_match.split()[1]
+            if base_game not in game_groups:
+                game_groups[base_game] = []
+            game_groups[base_game].append(game)
+    
+    for base_game, game_list in game_groups.items():
+        # Sort by game_in_match to ensure proper order (Half 1, Half 2, Overtime)
+        game_list.sort(key=lambda g: g.game_in_match)
+        
+        # Calculate total scores across all periods
+        total_team1_score = sum(g.team1_score for g in game_list)
+        total_team2_score = sum(g.team2_score for g in game_list)
+        
+        # Check if any period had overtime or if there's an explicit Overtime game
+        had_ot = any(g.had_ot for g in game_list) or any("Overtime" in g.game_in_match for g in game_list)
+        
+        # Determine outcome for team1
+        if total_team1_score > total_team2_score:
+            outcome = "OTW" if had_ot else "W"
+            team1_points = 2 if had_ot else 3
+            team2_points = 1 if had_ot else 0
+        elif total_team2_score > total_team1_score:
+            outcome = "OTL" if had_ot else "L"
+            team1_points = 1 if had_ot else 0
+            team2_points = 2 if had_ot else 3
+        else:
+            outcome = "T"
+            team1_points = 1
+            team2_points = 1
+        
+        # Set outcome on the first half only (where standing points are counted)
+        first_half = next((g for g in game_list if "Half 1" in g.game_in_match), None)
+        if first_half:
+            first_half.outcome = outcome
+            first_half.team1_standing_points = team1_points
+            first_half.team2_standing_points = team2_points
+            first_half.save()
 
 @transaction.atomic
 def process_game_stats(game: Game):
@@ -391,6 +452,8 @@ def process_game_stats(game: Game):
     }
     
     m, m2 = None, None
+    if not game.tagpro_eu:
+        return None
     try:
         m: tagpro_eu.Match = load_eu_match_object(game.tagpro_eu)
         if game.resumed_tagpro_eu:
@@ -399,22 +462,30 @@ def process_game_stats(game: Game):
         # if no tagpro.eu match found in bulkmatches, don't process
         return None
 
-    ps, ps_before_ot, team_mapping, score_before_ot = parse_stats_from_eu_match(m, game.paused_time or 600)
-    went_to_ot = score_before_ot != (m.team_red.score, m.team_blue.score)
+    ps, ps_before_ot, team_mapping, score_before_ot, total_score = parse_stats_from_eu_match(m, game.paused_time or 600)
     
-    # Set the winner based on the score
+    # For multi-half games, use period scores (total_score) instead of cumulative scores
     team1_is_red = game.red_team == game.match.team1
-    game.team1_score = m.team_red.score if team1_is_red else m.team_blue.score
-    game.team2_score = m.team_blue.score if team1_is_red else m.team_red.score
+    if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+        # Use actual caps scored during this period
+        game.team1_score = total_score[0] if team1_is_red else total_score[1]
+        game.team2_score = total_score[1] if team1_is_red else total_score[0]
+        # Check if this period had overtime
+        game.had_ot = score_before_ot != total_score
+    else:
+        # Single game - use match scores
+        game.team1_score = m.team_red.score if team1_is_red else m.team_blue.score
+        game.team2_score = m.team_blue.score if team1_is_red else m.team_red.score
+        # Check if this game had overtime
+        went_to_ot = score_before_ot != (m.team_red.score, m.team_blue.score)
+        game.had_ot = went_to_ot
 
     if game.resumed_tagpro_eu:
-        ps2, ps2_before_ot, team_mapping2, score2_before_ot = parse_stats_from_eu_match(
+        ps2, ps2_before_ot, team_mapping2, score2_before_ot, total_score2 = parse_stats_from_eu_match(
             m2,
             stats_count_until=game.resumed_stats_count_until or 0
         )
         is_ot_period = not game.resumed_stats_count_until
-        went_to_ot = is_ot_period or\
-            score_before_ot[0] + score2_before_ot[0] == score_before_ot[1] + score2_before_ot[1]
         
         # Add stats from the resumed part to the first part
         for p in ps2:
@@ -429,14 +500,27 @@ def process_game_stats(game: Game):
         for p in team_mapping2:
             team_mapping[p] = team_mapping2[p]
         
-        # Update the score
-        if is_ot_period:
-            game.team1_score += m2.team_red.score if team1_is_red else m2.team_blue.score
-            game.team2_score += m2.team_blue.score if team1_is_red else m2.team_red.score
+        # Update score and overtime tracking for resumed games
+        if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+            # Multi-half: add total caps from both periods
+            combined_total = (total_score[0] + total_score2[0], total_score[1] + total_score2[1])
+            combined_before_ot = (score_before_ot[0] + score2_before_ot[0], score_before_ot[1] + score2_before_ot[1])
+            game.team1_score = combined_total[0] if team1_is_red else combined_total[1]
+            game.team2_score = combined_total[1] if team1_is_red else combined_total[0]
+            game.had_ot = combined_before_ot != combined_total
         else:
-            # if not OT period, score at start of 2nd game should be what it was when 1st was paused
-            game.team1_score = m2.team_red.score if team1_is_red else m2.team_blue.score
-            game.team2_score = m2.team_blue.score if team1_is_red else m2.team_red.score
+            # Single game: handle paused and resumed
+            if is_ot_period:
+                game.team1_score += m2.team_red.score if team1_is_red else m2.team_blue.score
+                game.team2_score += m2.team_blue.score if team1_is_red else m2.team_red.score
+            else:
+                # if not OT period, score at start of 2nd game should be what it was when 1st was paused
+                game.team1_score = m2.team_red.score if team1_is_red else m2.team_blue.score
+                game.team2_score = m2.team_blue.score if team1_is_red else m2.team_red.score
+            
+            went_to_ot = is_ot_period or\
+                score_before_ot[0] + score2_before_ot[0] == score_before_ot[1] + score2_before_ot[1]
+            game.had_ot = went_to_ot
 
     # For multi-half games, don't set outcome until after all halves are added
     if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
@@ -446,7 +530,7 @@ def process_game_stats(game: Game):
     else:
         # Single game logic
         if game.team1_score > game.team2_score:
-            if went_to_ot:
+            if game.had_ot:
                 game.outcome = "OTW"
                 game.team1_standing_points = 2
                 game.team2_standing_points = 1
@@ -455,7 +539,7 @@ def process_game_stats(game: Game):
                 game.team1_standing_points = 3
                 game.team2_standing_points = 0
         elif game.team2_score > game.team1_score:
-            if went_to_ot:
+            if game.had_ot:
                 game.outcome = "OTL"
                 game.team1_standing_points = 1
                 game.team2_standing_points = 2
@@ -735,7 +819,7 @@ def set_multi_half_outcomes(match: Match):
         else:
             team1_total_score += g.team1_score
             team2_total_score += g.team2_score
-            if "Overtime" in g.game_in_match:
+            if "Overtime" in g.game_in_match or g.had_ot:
                 has_ot = True
     
     save_half1()
