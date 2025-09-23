@@ -32,7 +32,7 @@
         Rank: {{ rank }} | Playoff Finish: {{ playoff_finish }} | Record: {{ record }} | 
         Captain: 
         {% if team.captain %}
-            <a href="{% url 'player_history' team.captain.id %}" style="color: #07b; text-decoration: none;">
+            <a href="{% url 'player_history' team.captain.name %}" style="color: #07b; text-decoration: none;">
                 {{ team.captain.name }}
             </a>
         {% else %}
@@ -40,7 +40,7 @@
         {% endif %}
         {% if team.co_captain %}
             | Co-Captain: 
-            <a href="{% url 'player_history' team.co_captain.id %}" style="color: #07b; text-decoration: none;">
+            <a href="{% url 'player_history' team.co_captain.name %}" style="color: #07b; text-decoration: none;">
                 {{ team.co_captain.name }}
             </a>
         {% endif %}
@@ -60,7 +60,7 @@
                 {% for player_season in players %}
                 <tr>
                     <td class="player-name">
-                        <a href="{% url 'player_history' player_season.player.id %}">
+                        <a href="{% url 'player_history' player_season.player.name %}">
                             {{ player_season.playing_as }}
                         </a>
                     </td>
@@ -98,7 +98,7 @@
                 {% for stat in team_stats %}
                 <tr>
                     <td class="team-name">
-                        <a href="{% url 'player_history' stat.player.id %}">
+                        <a href="{% url 'player_history' stat.player.name %}">
                             {{ stat.player.name }}
                         </a>
                     </td>

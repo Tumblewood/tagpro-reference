@@ -96,7 +96,7 @@
                 <ul style="list-style: none; padding: 0; margin: 0;">
                     {% for player in players %}
                         <li style="margin: 0.75rem 0; padding: 0.75rem; background: #f8f9fa; border-left: 4px solid #57c; border-radius: 4px;">
-                            <a href="{% url 'player_history' player.id %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
+                            <a href="{% url 'player_history' player.name %}" style="text-decoration: none; color: #07b; font-weight: bold; font-size: 1.05rem;">
                                 {{ player.name }}
                             </a>
                         </li>

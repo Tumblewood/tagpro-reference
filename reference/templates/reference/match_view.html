@@ -117,7 +117,7 @@
                     {% for stat in team1_stats %}
                     <tr>
                         <td class="team-name">
-                            <a href="{% url 'player_history' stat.player_season__player__id %}">
+                            <a href="{% url 'player_history' stat.player_season__player__name %}">
                                 {{ stat.player_season__playing_as }}
                             </a>
                         </td>
@@ -167,7 +167,7 @@
                     {% for stat in team2_stats %}
                     <tr>
                         <td class="team-name">
-                            <a href="{% url 'player_history' stat.player_season__player__id %}">
+                            <a href="{% url 'player_history' stat.player_season__player__name %}">
                                 {{ stat.player_season__playing_as }}
                             </a>
                         </td>

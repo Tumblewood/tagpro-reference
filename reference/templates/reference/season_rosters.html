@@ -49,11 +49,11 @@
             {% if roster_data.team.captain or roster_data.team.co_captain %}
             <div class="team-leadership">
                 {% if roster_data.team.captain and roster_data.team.co_captain %}
-                    Captains: <a href="{% url 'player_history' roster_data.team.captain.id %}">{{ roster_data.team.captain.name }}</a> / <a href="{% url 'player_history' roster_data.team.co_captain.id %}">{{ roster_data.team.co_captain.name }}</a>
+                    Captains: <a href="{% url 'player_history' roster_data.team.captain.name %}">{{ roster_data.team.captain.name }}</a> / <a href="{% url 'player_history' roster_data.team.co_captain.name %}">{{ roster_data.team.co_captain.name }}</a>
                 {% elif roster_data.team.captain %}
-                    Captain: <a href="{% url 'player_history' roster_data.team.captain.id %}">{{ roster_data.team.captain.name }}</a>
+                    Captain: <a href="{% url 'player_history' roster_data.team.captain.name %}">{{ roster_data.team.captain.name }}</a>
                 {% elif roster_data.team.co_captain %}
-                    Captain: <a href="{% url 'player_history' roster_data.team.co_captain.id %}">{{ roster_data.team.co_captain.name }}</a>
+                    Captain: <a href="{% url 'player_history' roster_data.team.co_captain.name %}">{{ roster_data.team.co_captain.name }}</a>
                 {% endif %}
             </div>
             {% endif %}
@@ -69,7 +69,7 @@
                     {% for player_season in roster_data.players %}
                     <tr>
                         <td class="player-name">
-                            <a href="{% url 'player_history' player_season.player.id %}">
+                            <a href="{% url 'player_history' player_season.player.name %}">
                                 {{ player_season.playing_as }}
                             </a>
                         </td>

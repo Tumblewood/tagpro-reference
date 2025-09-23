@@ -145,6 +145,19 @@ def search_results(req, query):
     
     query = query.strip()
     query_lower = query.lower()
+
+    leagues = League.objects.filter(
+        models.Q(name__icontains=query) | models.Q(abbr__icontains=query)
+    )
+    franchises = Franchise.objects.filter(
+        models.Q(name__icontains=query) | models.Q(abbr__icontains=query)
+    )
+    teams = TeamSeason.objects.filter(
+        models.Q(name__icontains=query) | models.Q(abbr__icontains=query)
+    ).select_related('season', 'franchise').order_by('-season__end_date')
+    players = Player.objects.filter(
+        name__icontains=query
+    ).order_by('name')
     
     # Check for redirect conditions
     league_exact_matches = [l for l in leagues if l.name.lower() == query_lower or (l.abbr and l.abbr.lower() == query_lower)]
@@ -163,7 +176,7 @@ def search_results(req, query):
         return redirect('team_season', team_id=team_exact_matches[0].id)
     
     if len(player_exact_matches) == 1 and len(league_exact_matches) == 0 and len(franchise_exact_matches) == 0 and len(team_exact_matches) == 0:
-        return redirect('player_history', player_id=player_exact_matches[0].id)
+        return redirect('player_history', player_name=player_exact_matches[0].name)
     
     # If we have exactly one league match and no players, redirect
     if len(leagues) == 1 and len(players) == 0:
@@ -422,9 +435,9 @@ def season_rosters(req, season_id):
     })
 
 
-def player_history(req, player_id):
+def player_history(req, player_name):
     """View player's career history across all seasons."""
-    player = get_object_or_404(Player, id=player_id)
+    player = get_object_or_404(Player, name=player_name)
     
     # Get league filter from query params
     league_filter = req.GET.get('league', 'all')

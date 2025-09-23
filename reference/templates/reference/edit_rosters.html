@@ -149,7 +149,7 @@
             {% for data in roster_data %}
             <tr>
                 <td>{{ data.playerseason.playing_as }}</td>
-                <td><a href="{% url 'player_history' data.playerseason.player.id %}">{{ data.playerseason.player.name }}</a></td>
+                <td><a href="{% url 'player_history' data.playerseason.player.name %}">{{ data.playerseason.player.name }}</a></td>
                 <td>
                     {% if data.playerseason.team %}
                         <a href="{% url 'team_season' data.playerseason.team.id %}">{{ data.playerseason.team.name }}</a>
