@@ -15,12 +15,12 @@ def reprocess(modeladmin, request, queryset):
     #     stat_collection.reaggregate_stats(PlayerSeason.objects.get(id=ps['player_season']))
 
 
-@admin.action(description="Re-aggregate stats for the season")
-def reaggregate_season(modeladmin, request, queryset):
+@admin.action(description="Recalculate standings for the season")
+def recalculate_standings(modeladmin, request, queryset):
     """Re-aggregate stats for the season."""
     for season in queryset:
         stat_collection.update_standings(season)
-        # stat_collection.infer_playoff_series(season)
+        stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Process stats for the season")
@@ -31,7 +31,7 @@ def process_season(modeladmin, request, queryset):
         for game in games:
             stat_collection.process_game_stats(game)
         stat_collection.update_standings(season)
-        # stat_collection.infer_playoff_series(season)
+        stat_collection.infer_playoff_series(season)
 
 
 @admin.action(description="Add logo path")
@@ -64,7 +64,7 @@ class PlayerGameLogInline(admin.TabularInline):
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     inlines = [TeamSeasonInline]
-    actions = [reaggregate_season, process_season]
+    actions = [recalculate_standings, process_season]
 
 
 class FranchiseAdmin(admin.ModelAdmin):

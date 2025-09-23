@@ -3,7 +3,7 @@ Utilities for correcting data issues and merging duplicate records.
 """
 
 from django.db import transaction
-from ..models import PlayerSeason, PlayerGameLog, Player, TeamSeason
+from ..models import PlayerSeason, PlayerGameLog, Player, TeamSeason, Match
 
 
 @transaction.atomic
@@ -84,3 +84,46 @@ def merge_players(to_merge: Player, target: Player):
     player_name = str(to_merge)
     to_merge.delete()
     print(f"Deleted player {player_name}")
+
+
+@transaction.atomic
+def flip_sides(m: Match):
+    """
+    Flip which team is team1 in the match and which team is team2.
+
+    Args:
+        m: The Match to flip
+    """
+    # Swap team1 and team2 in the match
+    original_team1 = m.team1
+    original_team2 = m.team2
+    m.team1 = original_team2
+    m.team2 = original_team1
+    m.save()
+    
+    # Process all games in the match
+    for game in m.games.all():
+        # Swap scores
+        original_team1_score = game.team1_score
+        original_team2_score = game.team2_score
+        game.team1_score = original_team2_score
+        game.team2_score = original_team1_score
+        
+        # Swap standing points
+        original_team1_points = game.team1_standing_points
+        original_team2_points = game.team2_standing_points
+        game.team1_standing_points = original_team2_points
+        game.team2_standing_points = original_team1_points
+        
+        # Flip outcome (outcome is always for team1)
+        if game.outcome:
+            outcome_flip_map = {
+                'W': 'L',
+                'L': 'W', 
+                'OTW': 'OTL',
+                'OTL': 'OTW',
+                'T': 'T'  # Ties stay ties
+            }
+            game.outcome = outcome_flip_map.get(game.outcome, game.outcome)
+        
+        game.save()

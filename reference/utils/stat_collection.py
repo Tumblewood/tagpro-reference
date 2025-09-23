@@ -2,6 +2,7 @@ from django.db import models, transaction
 from typing import Dict, Tuple
 from math import ceil
 from ..models import Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, PlayerSeason, Season, TeamSeason, Match, PlayoffSeries
+from .data_correction import flip_sides
 import tagpro_eu
 from django.conf import settings
 import os
@@ -33,13 +34,14 @@ for f in HELPER_FIELDS:
 all_league_matches = []
 if settings.DEBUG:
     i = 1
+    with open("data/downloaded_matches.json") as f:
+        all_league_matches += [m for m in tagpro_eu.bulk.load_matches(f)]
+    with open("tpl_import/league_maps.json", encoding="utf-8") as f:
+        bulk_maps = tagpro_eu.bulk.load_maps(f)
     while True:
         try:
             with open(f"tpl_import/league_matches{i}.json") as f:
-                all_league_matches += [m for m in tagpro_eu.bulk.load_matches(
-                    f,
-                    tagpro_eu.bulk.load_maps(open("tpl_import/league_maps.json", encoding="utf-8"))
-                )]
+                all_league_matches += [m for m in tagpro_eu.bulk.load_matches(f, bulk_maps)]
             i += 1
         except FileNotFoundError:
             break
@@ -54,6 +56,8 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
                     f1,
                     tagpro_eu.bulk.load_maps(f2)
                 )]
+            with open("data/downloaded_matches.json") as f:
+                relevant_matches += [m for m in tagpro_eu.bulk.load_matches(f)] 
         except FileNotFoundError:
             pass
     try:
@@ -63,72 +67,34 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
         # when we use download_match, map_id field will not be present, so set it to None
         m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
         m.map_id = None
+        m.match_id = game_id
         
         # Save downloaded match to appropriate bulk file
-        # commenting out because it is not writing the whole thing to file for some reason
-        # save_match_to_bulk_file(m, game_id)
+        save_match_to_bulk_file(m)
     return m
 
 
-def save_match_to_bulk_file(match: tagpro_eu.Match, game_id: str):
+def save_match_to_bulk_file(m: tagpro_eu.Match):
     """Save a downloaded match to the appropriate bulk file."""
-    # Determine which bulk file this game_id belongs to
-    file_number = ceil(int(game_id) / 500000)
-    bulk_file_path = f"tpl_import/league_matches{file_number}.json"
-    
-    # Only save if bulk file already exists
-    if not os.path.exists(bulk_file_path):
-        return
-    
     try:
         # Read existing bulk file
-        with open(bulk_file_path, "r") as f:
-            bulk_data = json.load(f)
-        
-        # Convert match to the same format as bulk files
-        match_data = {
-            'server': match.server,
-            'port': match.port,
-            'official': True,
-            'group': "redacted",
-            'date': int(match.date.timestamp()),
-            'timeLimit': 10,
-            'duration': match.duration,
-            'finished': match.finished,
-            'mapId': getattr(match, "map_id", None),
-            'players': [
-                {
-                    'auth': True,
-                    'name': player.name,
-                    'flair': getattr(player, "flair", 0),
-                    'degree': getattr(player, "degree", 0),
-                    'score': player.score,
-                    'points': getattr(player, "points", 0),
-                    'team': player.team,
-                    'events': player.events
-                }
-                for player in match.players
-            ],
-            'teams': [
-                {
-                    'name': team.name,
-                    'score': team.score,
-                    'splats': team.splats
-                }
-                for team in [match.team_red, match.team_blue]
-            ]
-        }
+        with open("data/downloaded_matches.json", "r") as f:
+            try:
+                bulk_data = json.load(f)
+            except (json.JSONDecodeError, FileNotFoundError):
+                bulk_data = {}
         
         # Add the new match to bulk data
-        bulk_data[str(game_id)] = match_data
+        bulk_data[str(m.match_id)] = m.to_dict()
+        bulk_data[str(m.match_id)]['mapId'] = m.map_id
         
         # Write back to file
-        with open(bulk_file_path, "w") as f:
+        with open("data/downloaded_matches.json", "w") as f:
             json.dump(bulk_data, f, separators=(",", ":"))
             
     except Exception as e:
         # Don't fail the whole process if we can't save to bulk file
-        print(f"Warning: Could not save match {game_id} to bulk file: {e}")
+        print(f"Warning: Could not save match {m.match_id} to bulk file: {e}")
         pass
 
 
@@ -904,7 +870,7 @@ def update_standings(season: Season):
                 playoff_series__isnull=False
             ).filter(
                 models.Q(team1=team) | models.Q(team2=team)
-            ).order_by('-date')
+            ).order_by('date')
             
             if not playoff_matches.exists():
                 playoff_finish = "Missed playoffs"
@@ -936,3 +902,92 @@ def update_standings(season: Season):
         
         team.playoff_finish = playoff_finish
         team.save()
+
+
+def get_lowest_seed_from_series(series):
+    """Get the lowest (best) seed number from a playoff series and all previous series."""
+    if series is None:
+        return float('inf')
+    
+    match = series.match
+    team1_seed = match.team1.seed if match.team1.seed else float('inf')
+    team2_seed = match.team2.seed if match.team2.seed else float('inf')
+    
+    # Get lowest seeds from previous series
+    team1_prev_lowest = get_lowest_seed_from_series(series.team1_prev_series)
+    team2_prev_lowest = get_lowest_seed_from_series(series.team2_prev_series)
+    
+    return min(team1_seed, team2_seed, team1_prev_lowest, team2_prev_lowest)
+
+
+@transaction.atomic
+def infer_playoff_series(season: Season):
+    """
+    Create PlayoffSeries for all playoff matches in the season.
+    Sets team1 to the better seeded team and updates games accordingly.
+    """
+    # Get all playoff matches (week not starting with "Week")
+    playoff_matches = Match.objects.filter(
+        season=season
+    ).exclude(week__startswith="Week").order_by('date')
+    
+    for m in playoff_matches:
+        # Calculate game wins for each team
+        team1_wins = 0
+        team2_wins = 0
+        
+        for game in m.games.all():
+            if game.outcome in ['W', 'OTW']:
+                team1_wins += 1
+            elif game.outcome in ['L', 'OTL']:
+                team2_wins += 1
+        
+        # Determine winner (null if tied)
+        winner = None
+        if team1_wins > team2_wins:
+            winner = m.team1
+        elif team2_wins > team1_wins:
+            winner = m.team2
+        
+        # Find previous series for each team
+        team1_prev_series = PlayoffSeries.objects.filter(
+            match__season=season,
+            match__date__lt=m.date
+        ).filter(
+            models.Q(match__team1=m.team1) | models.Q(match__team2=m.team1)
+        ).order_by('-match__date').first()
+        
+        team2_prev_series = PlayoffSeries.objects.filter(
+            match__season=season,
+            match__date__lt=m.date
+        ).filter(
+            models.Q(match__team1=m.team2) | models.Q(match__team2=m.team2)
+        ).order_by('-match__date').first()
+
+        # If team1's side of the bracket doesn't have a better (lower number) seed
+        # than team2's side, swap team1 and team2.
+        team1_lowest_seed = get_lowest_seed_from_series(team1_prev_series)
+        team2_lowest_seed = get_lowest_seed_from_series(team2_prev_series)
+        
+        # Also consider the current teams' seeds
+        if m.team1.seed:
+            team1_lowest_seed = min(team1_lowest_seed, m.team1.seed)
+        if m.team2.seed:
+            team2_lowest_seed = min(team2_lowest_seed, m.team2.seed)
+        
+        if team2_lowest_seed < team1_lowest_seed:
+            flip_sides(m)
+            team1_prev_series, team2_prev_series = team2_prev_series, team1_prev_series
+            team1_wins, team2_wins = team2_wins, team1_wins
+        
+        # Create or update the PlayoffSeries
+        playoff_series, created = PlayoffSeries.objects.update_or_create(
+            match=m,
+            defaults={
+                'team1_prev_series': team1_prev_series,
+                'team2_prev_series': team2_prev_series,
+                'winner': winner,
+                'team1_game_wins': team1_wins,
+                'team2_game_wins': team2_wins,
+            }
+        )
