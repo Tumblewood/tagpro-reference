@@ -54,7 +54,7 @@ class User(AbstractUser):
     permission_tier = models.CharField(
         max_length=10,
         choices=PERMISSION_TIERS,
-        default='entry',
+        default='none',
         help_text="Permission level for data entry operations"
     )
     
