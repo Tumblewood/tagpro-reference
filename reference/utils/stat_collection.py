@@ -167,7 +167,8 @@ def parse_stats_from_eu_match(
             p['join_time'] = time
             last_team_played_for[player.name] = event[10:]
         elif event[:9] == "Game ends":
-            if p['join_time'] is not None:
+            # Only add time if we haven't already processed a Leave event for this player
+            if p['join_time'] is not None and p['team'] is not None:
                 p['time_played'] += time - p['join_time']
 
             if p['prevent_start_time'] is not None:
@@ -186,7 +187,7 @@ def parse_stats_from_eu_match(
                     if p2['team'] is not None and p2['team'] != p['team']:
                         p2['hold_against'] += hold_length
         elif event[:5] == "Leave":
-            if p['join_time'] is not None:
+            if p['join_time'] is not None and time < m.duration.real:
                 p['time_played'] += time - p['join_time']
             
             if p['prevent_start_time'] is not None:
@@ -354,7 +355,7 @@ def parse_stats_from_eu_match(
 
     # If the game ended in regulation, before-OT stats will be same as full stats
     if not snapshotted:
-        ps_before_ot = ps
+        ps_before_ot = { player_name: ps[player_name].copy() for player_name in ps }
 
     return ps, ps_before_ot, last_team_played_for, score_before_ot, total_score
 
@@ -460,7 +461,7 @@ def process_game_stats(game: Game):
                 ps_before_ot[p] = ps2_before_ot[p]
             else:
                 for stat in STAT_FIELDS:
-                    ps[p][stat] = ps_before_ot[p][stat] + ps2[p][stat]
+                    ps[p][stat] = ps[p][stat] + ps2[p][stat]
                     ps_before_ot[p][stat] += ps2_before_ot[p][stat]
             
         for p in team_mapping2:
