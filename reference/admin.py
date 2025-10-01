@@ -15,6 +15,14 @@ def recalculate_standings(modeladmin, request, queryset):
     for season in queryset:
         stat_collection.update_standings(season)
         stat_collection.infer_playoff_series(season)
+        stat_collection.calculate_scar(season)
+
+
+@admin.action(description="Calculate SCAR for all players in the season")
+def calculate_scar(modeladmin, request, queryset):
+    """Calculate OSCAR and DSCAR for all players in the season."""
+    for season in queryset:
+        stat_collection.calculate_scar(season)
 
 
 @admin.action(description="Process stats for the season")
@@ -26,6 +34,7 @@ def process_season(modeladmin, request, queryset):
             stat_collection.process_game_stats(game)
         stat_collection.update_standings(season)
         stat_collection.infer_playoff_series(season)
+        stat_collection.calculate_scar(season)
 
 
 @admin.action(description="Add logo path")
@@ -58,7 +67,7 @@ class PlayerGameLogInline(admin.TabularInline):
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     inlines = [TeamSeasonInline]
-    actions = [recalculate_standings, process_season]
+    actions = [recalculate_standings, process_season, calculate_scar]
 
 
 class FranchiseAdmin(admin.ModelAdmin):

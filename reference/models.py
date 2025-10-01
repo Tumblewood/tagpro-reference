@@ -239,6 +239,8 @@ class PlayerRegulationStats(models.Model):
     key_returns = models.IntegerField(blank=True, null=True)
     hold_against = models.IntegerField(blank=True, null=True)
     kept_flags = models.IntegerField(blank=True, null=True)
+    oscar = models.FloatField(blank=True, null=True, help_text="Offensive Simple Caps Above Replacement")
+    dscar = models.FloatField(blank=True, null=True, help_text="Defensive Simple Caps Above Replacement")
 
     def __str__(self):
         return f"Regulation game stats for {self.player_gamelog}"

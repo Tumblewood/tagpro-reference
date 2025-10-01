@@ -905,6 +905,88 @@ def update_standings(season: Season):
         team.save()
 
 
+@transaction.atomic
+def calculate_scar(season: Season):
+    """
+    Calculate OSCAR and DSCAR for all players in a season.
+    
+    OSCAR = 0.015 * hold (in seconds) + 0.75 * caps + 0.15 * pups + 0.025 * non-return tags - 0.025 * non-drop pops
+    DSCAR = 0.005 * prev (in seconds) + 0.1 * returns + 0.1 * returns in base - 0.01 * hold against (in seconds) + 0.15 * pups + 0.025 * non-return tags - 0.025 * non-drop pops
+    
+    After calculating raw OSCAR/DSCAR, adjusts league averages to 0.04 per minute.
+    """
+    # Get all regulation stats for the season
+    regulation_stats = PlayerRegulationStats.objects.filter(
+        player_gamelog__game__match__season=season
+    ).select_related('player_gamelog__game')
+    
+    league_totals = {
+        'oscar': 0,
+        'dscar': 0,
+        'minutes': 0
+    }
+    
+    # Calculate raw OSCAR and DSCAR for each player game
+    for stat in regulation_stats:
+        # Convert time from seconds to get values for calculations
+        hold_seconds = (stat.hold or 0) / 60  # Convert from ticks to seconds
+        prevent_seconds = (stat.prevent or 0) / 60
+        hold_against_seconds = (stat.hold_against or 0) / 60
+        time_played_minutes = (stat.time_played or 0) / 3600
+        
+        # Calculate non-return tags and non-drop pops
+        non_return_tags = (stat.tags or 0) - (stat.returns or 0)
+        non_drop_pops = (stat.pops or 0) - (stat.drops or 0)
+        
+        # OSCAR formula
+        oscar = (
+            0.015 * hold_seconds +
+            0.75 * (stat.captures or 0) +
+            0.15 * (stat.powerups or 0) +
+            0.025 * non_return_tags -
+            0.025 * non_drop_pops
+        )
+        
+        # DSCAR formula  
+        dscar = (
+            0.005 * prevent_seconds +
+            0.1 * (stat.returns or 0) +
+            0.1 * (stat.returns_in_base or 0) -
+            0.01 * hold_against_seconds +
+            0.15 * (stat.powerups or 0) +
+            0.025 * non_return_tags -
+            0.025 * non_drop_pops
+        )
+        
+        # Store raw values temporarily
+        stat.oscar = oscar
+        stat.dscar = dscar
+        
+        # Add to league totals
+        league_totals['oscar'] += oscar
+        league_totals['dscar'] += dscar
+        league_totals['minutes'] += time_played_minutes
+    
+    # Calculate league averages per minute
+    if league_totals['minutes'] > 0:
+        league_oscar_per_minute = league_totals['oscar'] / league_totals['minutes']
+        league_dscar_per_minute = league_totals['dscar'] / league_totals['minutes']
+        
+        # Target is 0.04 per minute for both stats
+        oscar_adjustment_per_minute = league_oscar_per_minute - 0.04
+        dscar_adjustment_per_minute = league_dscar_per_minute - 0.04
+        
+        # Apply adjustments and save
+        for stat in regulation_stats:
+            time_played_minutes = (stat.time_played or 0) / 3600
+            
+            # Subtract the adjustment proportional to minutes played
+            stat.oscar -= oscar_adjustment_per_minute * time_played_minutes
+            stat.dscar -= dscar_adjustment_per_minute * time_played_minutes
+            
+            stat.save()
+
+
 def get_lowest_seed_from_series(series):
     """Get the lowest (best) seed number from a playoff series and all previous series."""
     if series is None:

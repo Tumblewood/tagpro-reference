@@ -8,7 +8,7 @@ from accounts.decorators import data_entry_required, bulk_import_required, full_
 from django.contrib import messages
 from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
-from reference.utils.stat_collection import update_standings
+from reference.utils.stat_collection import update_standings, calculate_scar
 from reference.utils.data_correction import merge_players, merge_player_seasons
 from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, League, Franchise
 
@@ -45,6 +45,9 @@ STAT_COLUMNS = {
         {'key': 'prevent_sec', 'label': 'Prev', 'type': 'number'},
         {'key': 'returns', 'label': 'Ret', 'type': 'number'},
         {'key': 'powerups', 'label': 'Pups', 'type': 'number'},
+        {'key': 'oscar', 'label': 'OSCAR', 'type': 'number', 'tooltip': 'Offensive Simple Caps Above Replacement'},
+        {'key': 'dscar', 'label': 'DSCAR', 'type': 'number', 'tooltip': 'Defensive Simple Caps Above Replacement'},
+        {'key': 'tscar', 'label': 'TSCAR', 'type': 'number', 'tooltip': 'Total Simple Caps Above Replacement (OSCAR + DSCAR)'},
     ],
     'offense': [
         {'key': 'time_played_min', 'label': 'Min', 'type': 'number'},
@@ -379,6 +382,10 @@ def season_stats(req, season_id):
     
     stats = aggregate_player_stats(season=season, week=week_filter)
     stats = calculate_rate_stats(stats)
+    
+    # Sort by TSCAR descending, then by time_played descending as tiebreaker
+    stats.sort(key=lambda x: (x.get('tscar', 0) or 0, x.get('time_played_min', 0) or 0), reverse=True)
+    
     template_stats = []
     for player_stat in stats:
         stat_row = {
@@ -391,6 +398,9 @@ def season_stats(req, season_id):
         
         for column in STAT_COLUMNS[stat_view]:
             value = player_stat.get(column['key'], 0)
+            # Format SCAR values with 1 decimal place
+            if column['key'] in ['oscar', 'dscar', 'tscar']:
+                value = f"{value:.1f}" if value is not None else "0.0"
             stat_row['column_values'].append(value)
         
         template_stats.append(stat_row)
@@ -614,6 +624,9 @@ def franchise_history(req, franchise_id):
                 'prevent_sec': 0,
                 'returns': 0,
                 'powerups': 0,
+                'oscar': 0,
+                'dscar': 0,
+                'tscar': 0,
             }
         
         # Aggregate each stat field
@@ -628,6 +641,9 @@ def franchise_history(req, franchise_id):
         agg['prevent_sec'] += stat['prevent_sec']
         agg['returns'] += stat['returns']
         agg['powerups'] += stat['powerups']
+        agg['oscar'] += stat.get('oscar', 0) or 0
+        agg['dscar'] += stat.get('dscar', 0) or 0
+        agg['tscar'] += stat.get('tscar', 0) or 0
     
     # Convert to list and sort by time played (descending)
     all_time_stats = sorted(player_aggregates.values(), key=lambda x: -x['time_played_min'])
@@ -872,6 +888,7 @@ def import_from_eus(request):
                     })
                 else:
                     update_standings(red_team.season)
+                    calculate_scar(red_team.season)
                     messages.success(request, "All URLs processed successfully!")
                     return redirect('import_data')
                     

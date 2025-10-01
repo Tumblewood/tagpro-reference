@@ -134,9 +134,12 @@
     
     // Initialize table sorting when page loads
     document.addEventListener('DOMContentLoaded', function() {
-        // Initialize sortable table with default sort by Minutes (column 2) descending
+        // For basic view, sort by TSCAR (column 14), otherwise sort by Minutes (column 2)
+        const currentView = '{{ current_stat_view }}';
+        const sortColumn = currentView === 'basic' ? 14 : 2;
+        
         initTableSort('.stat-table', {
-            initialSort: { column: 2, direction: 'desc' }
+            initialSort: { column: sortColumn, direction: 'desc' }
         });
     });
 </script>

@@ -15,7 +15,7 @@ STAT_FIELDS = [
     'total_pups_in_game', 'grabs_off_handoffs', 'caps_off_handoffs',
     'grabs_off_regrab', 'caps_off_regrab', 'long_holds', 'flaccids',
     'handoffs', 'good_handoffs', 'quick_returns', 'returns_in_base',
-    'saves', 'key_returns', 'hold_against', 'kept_flags'
+    'saves', 'key_returns', 'hold_against', 'kept_flags', 'oscar', 'dscar'
 ]
 
 
@@ -108,6 +108,9 @@ def aggregate_player_stats(
                 stat_dict['hold_against_sec'] = round(raw_value / 60) if raw_value else 0
             else:
                 stat_dict[field] = raw_value
+        
+        # Calculate TSCAR
+        stat_dict['tscar'] = (stat_dict.get('oscar', 0) or 0) + (stat_dict.get('dscar', 0) or 0)
         
         result.append(stat_dict)
     

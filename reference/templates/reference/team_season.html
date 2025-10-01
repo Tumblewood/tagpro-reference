@@ -92,6 +92,9 @@
                     <th data-sortable data-type="number">Prevent</th>
                     <th data-sortable data-type="number">Returns</th>
                     <th data-sortable data-type="number">Pups</th>
+                    <th data-sortable data-type="number">OSCAR</th>
+                    <th data-sortable data-type="number">DSCAR</th>
+                    <th data-sortable data-type="number">TSCAR</th>
                 </tr>
             </thead>
             <tbody>
@@ -112,10 +115,13 @@
                     <td>{{ stat.prevent_sec }}</td>
                     <td>{{ stat.returns }}</td>
                     <td>{{ stat.powerups }}</td>
+                    <td>{{ stat.oscar|floatformat:1 }}</td>
+                    <td>{{ stat.dscar|floatformat:1 }}</td>
+                    <td>{{ stat.tscar|floatformat:1 }}</td>
                 </tr>
                 {% empty %}
                 <tr>
-                    <td colspan="11" style="text-align: center; padding: 2rem; color: #6c757d;">
+                    <td colspan="14" style="text-align: center; padding: 2rem; color: #6c757d;">
                         No stats found for this team.
                     </td>
                 </tr>
