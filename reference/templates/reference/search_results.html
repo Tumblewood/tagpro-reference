@@ -15,11 +15,7 @@
     
     {% if no_results %}
         <div style="text-align: center; padding: 3rem; color: #6c757d; font-size: 1.1rem;">
-            {% if query and query|length < 2 %}
-                Please enter at least 2 characters to search.
-            {% else %}
-                No results found{% if query %} for "{{ query }}"{% endif %}.
-            {% endif %}
+            No results found{% if query %} for "{{ query }}"{% endif %}.
         </div>
     {% else %}
         

@@ -136,7 +136,7 @@ def search_results(req, query):
     Search across franchises, teams, and players with substring matching.
     Send user directly to page if there's exactly one match.
     """
-    if not query or len(query.strip()) < 2:
+    if not query or len(query.strip()) < 1:
         return render(req, 'reference/search_results.html', {
             'query': query,
             'leagues': [],
