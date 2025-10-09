@@ -1,5 +1,6 @@
 {% extends "reference/base.html" %}
 {% load static %}
+{% load url_tags %}
 
 {% block title %}{{ team.name }} - TagPro Reference{% endblock %}
 
@@ -23,7 +24,7 @@
             {{ franchise.name }}
         </a>
         |
-        Season: <a href="{% url 'season_home' season.id %}" style="color: #07b; text-decoration: none; font-weight: bold;">
+        Season: <a href="{% season_url season 'home' %}" style="color: #07b; text-decoration: none; font-weight: bold;">
             {{ season.name }}
         </a>
     </div>

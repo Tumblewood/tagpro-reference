@@ -1,5 +1,6 @@
 {% extends "reference/base.html" %}
 {% load static %}
+{% load url_tags %}
 
 {% block title %}{{ season.name }} Stats - TagPro Reference{% endblock %}
 
@@ -50,11 +51,11 @@
     </div>
     
     <div class="season-nav">
-        <a href="{% url 'season_home' season.id %}">Home</a> |
-        <a href="{% url 'season_schedule' season.id %}">Schedule</a> |
+        <a href="{% season_url season 'home' %}">Home</a> |
+        <a href="{% season_url season 'schedule' %}">Schedule</a> |
         <span class="current">Stats</span> |
-        <a href="{% url 'season_rosters' season.id %}">Rosters</a> |
-        <a href="{% url 'league_history' season.league.id %}">History</a>
+        <a href="{% season_url season 'rosters' %}">Rosters</a> |
+        <a href="{% league_url season.league %}">History</a>
     </div>
     
     <div class="stat-table-container">
@@ -108,7 +109,14 @@
 <script>
     function changeSeason(seasonId) {
         if (seasonId) {
-            window.location.href = `/season/${seasonId}/stats/`;
+            // Find the season name from the dropdown option
+            const selectElement = document.getElementById('season-dropdown');
+            const selectedOption = selectElement.options[selectElement.selectedIndex];
+            const seasonName = selectedOption.text.replace(/ /g, '-');
+            
+            // Preserve current query parameters
+            const url = new URL(window.location);
+            window.location.href = `/season/${seasonName}/stats/${url.search}`;
         }
     }
     

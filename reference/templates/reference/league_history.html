@@ -1,5 +1,6 @@
 {% extends "reference/base.html" %}
 {% load static %}
+{% load url_tags %}
 
 {% block title %}{{ league.name }} - TagPro Reference{% endblock %}
 
@@ -32,7 +33,7 @@
                 {% for season_data in season_history %}
                 <tr>
                     <td class="season-cell">
-                        <a href="{% url 'season_home' season_data.season.id %}">
+                        <a href="{% season_url season_data.season 'home' %}">
                             {{ season_data.season.name }}
                         </a>
                     </td>

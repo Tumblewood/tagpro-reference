@@ -237,6 +237,13 @@ def search_results(req, query):
     })
 
 
+def league_history_by_abbr(req, league_abbr):
+    """View league's history by abbreviation."""
+    # Convert dashes back to spaces
+    league_abbr = league_abbr.replace('-', ' ')
+    league = get_object_or_404(League, abbr=league_abbr)
+    return league_history(req, league.id)
+
 def league_history(req, league_id):
     """View league's history showing all seasons with champions and runners-up."""
     league = get_object_or_404(League, id=league_id)
@@ -283,6 +290,13 @@ def league_history(req, league_id):
     })
 
 
+def season_home_by_name(req, season_name):
+    """View season home by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_home(req, season.id)
+
 def season_home(req, season_id):
     """View key season information, namely standings."""
     season = get_object_or_404(Season, id=season_id)
@@ -297,6 +311,13 @@ def season_home(req, season_id):
         'standings': standings,
     })
 
+
+def season_schedule_by_name(req, season_name):
+    """View season schedule by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_schedule(req, season.id)
 
 def season_schedule(req, season_id):
     """View season schedule with match results."""
@@ -353,6 +374,13 @@ def season_schedule(req, season_id):
         'schedule_data': schedule_data,
     })
 
+
+def season_stats_by_name(req, season_name):
+    """View season stats by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_stats(req, season.id)
 
 def season_stats(req, season_id):
     """View season player statistics."""
@@ -416,6 +444,13 @@ def season_stats(req, season_id):
         'stat_columns': STAT_COLUMNS[stat_view],
     })
 
+
+def season_rosters_by_name(req, season_name):
+    """View season rosters by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_rosters(req, season.id)
 
 def season_rosters(req, season_id):
     """View season rosters with each team's players."""

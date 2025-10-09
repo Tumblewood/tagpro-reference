@@ -1,4 +1,5 @@
 {% load static %}
+{% load url_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
         <a href="{% url 'homepage' %}" class="site-name">TagPro Reference</a>
         <div class="league-link-container-desktop">
             {% for league_data in navigation_leagues %}
-                <a href="{% url 'season_home' league_data.most_recent_season.id %}" class="league-link">
+                <a href="{% season_url league_data.most_recent_season 'home' %}" class="league-link">
                     {{ league_data.league.abbr }}
                 </a>
             {% endfor %}
@@ -50,7 +51,7 @@
             
             <div class="mobile-league-links">
                 {% for league_data in navigation_leagues %}
-                    <a href="{% url 'season_home' league_data.most_recent_season.id %}" class="mobile-league-link" onclick="closeMobileMenu()">
+                    <a href="{% season_url league_data.most_recent_season 'home' %}" class="mobile-league-link" onclick="closeMobileMenu()">
                         {{ league_data.league.abbr }}
                     </a>
                 {% endfor %}

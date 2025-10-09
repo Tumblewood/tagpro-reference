@@ -1,5 +1,6 @@
 {% extends "reference/base.html" %}
 {% load static %}
+{% load url_tags %}
 
 {% block title %}{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }} - TagPro Reference{% endblock %}
 
@@ -12,7 +13,7 @@
     <h1 class="page-title">{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }}</h1>
     
     <div class="page-info-primary">
-        Season: <a href="{% url 'season_home' season.id %}">{{ season.name }}</a>
+        Season: <a href="{% season_url season 'home' %}">{{ season.name }}</a>
         | Date: {{ match.date|date:"n/j" }}
         {% if user.is_staff %}
         | <a href="{% url 'admin:reference_match_change' match.id %}" target="_blank">Edit</a>
