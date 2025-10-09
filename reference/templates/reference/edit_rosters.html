@@ -7,7 +7,7 @@
 
 <!-- Season Selection -->
 <div class="season-select-container">
-    <form method="get" action="{% url 'edit_rosters' season.id %}" onchange="this.submit()">
+    <form method="get" action="{% url 'edit_rosters' season.id %}">
         <label for="season-select"><strong>Season:</strong></label>
         <select id="season-select" name="season" onchange="window.location.href='/edit/rosters/' + this.value + '/'">
             {% for s in all_seasons %}
