@@ -5,8 +5,7 @@ from datetime import datetime, date, timezone, timedelta
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, update_standings, load_eu_match_object
-from .display_info import STAT_FIELDS
+from .stat_collection import process_game_stats, update_standings, load_eu_match_object, STAT_FIELDS
 from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries, PlayerStats, PlayerRegulationStats
 
 
@@ -684,7 +683,7 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                         for key, value in stats_data.items():
                             if key in STAT_FIELDS:
                                 player_stats[key] = value or 0
-                        
+
                         # Create PlayerStats object
                         PlayerStats.objects.create(
                             player_gamelog=pgl,
