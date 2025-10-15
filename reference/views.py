@@ -4,6 +4,7 @@ import re
 from datetime import datetime
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
+from django.db.models import F
 from accounts.decorators import data_entry_required, bulk_import_required, full_data_permissions_required
 from django.contrib import messages
 from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
@@ -108,8 +109,8 @@ def homepage(req):
     leagues = League.objects.filter(ordering__lt=10, gamemode="CTF").order_by('ordering')
     league_standings = []
     for league in leagues:
-        # Get the most recent season for this league
-        latest_season = Season.objects.filter(league=league).order_by('-end_date').first()
+        # Get the most recent season for this league (null dates are considered earliest)
+        latest_season = Season.objects.filter(league=league).order_by(F('end_date').desc(nulls_last=True)).first()
         if not latest_season:
             continue
             
@@ -247,9 +248,9 @@ def league_history_by_abbr(req, league_abbr):
 def league_history(req, league_id):
     """View league's history showing all seasons with champions and runners-up."""
     league = get_object_or_404(League, id=league_id)
-    
-    # Get all seasons for this league
-    seasons = Season.objects.filter(league=league).order_by('-end_date')
+
+    # Get all seasons for this league, with null dates last
+    seasons = Season.objects.filter(league=league).order_by(F('end_date').desc(nulls_last=True))
     season_history = []
     for season in seasons:
         # Count teams in this season
@@ -300,7 +301,7 @@ def season_home_by_name(req, season_name):
 def season_home(req, season_id):
     """View key season information, namely standings."""
     season = get_object_or_404(Season, id=season_id)
-    league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
     teams = TeamSeason.objects.filter(season=season)
     standings = [get_team_standings(team) for team in teams]
     standings = sorted(standings, key=lambda x: x['team'].seed)
@@ -322,7 +323,7 @@ def season_schedule_by_name(req, season_name):
 def season_schedule(req, season_id):
     """View season schedule with match results."""
     season = get_object_or_404(Season, id=season_id)
-    league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
     
     # Get all matches for this season
     matches = Match.objects.filter(season=season).select_related(
@@ -385,9 +386,9 @@ def season_stats_by_name(req, season_name):
 def season_stats(req, season_id):
     """View season player statistics."""
     season = get_object_or_404(Season, id=season_id)
-    
+
     # Get all seasons from the same league for dropdown
-    league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
     
     # Get week filter and stat view from query params
     week_filter = req.GET.get('week', 'all_regular_season')
@@ -455,9 +456,9 @@ def season_rosters_by_name(req, season_name):
 def season_rosters(req, season_id):
     """View season rosters with each team's players."""
     season = get_object_or_404(Season, id=season_id)
-    
+
     # Get all seasons from the same league for dropdown
-    league_seasons = Season.objects.filter(league=season.league).order_by('-end_date')
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
     
     # Get all teams in this season with their players
     teams = TeamSeason.objects.filter(season=season).prefetch_related(
@@ -1001,6 +1002,14 @@ def import_from_json(request):
 
 
 @data_entry_required(season_param='season_id')
+def edit_rosters_by_name(request, season_name):
+    """Edit rosters view by season name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return edit_rosters(request, season.id)
+
+@data_entry_required(season_param='season_id')
 def edit_rosters(request, season_id):
     """Edit rosters view with player and playerseason management forms."""
     season = get_object_or_404(Season, id=season_id)
@@ -1117,7 +1126,7 @@ def edit_rosters(request, season_id):
     
     return render(request, "reference/edit_rosters.html", {
         "season": season,
-        "all_seasons": Season.objects.all().order_by("-id"),
+        "all_seasons": Season.objects.all().order_by(F('end_date').desc(nulls_last=True)),
         "roster_data": roster_data,
         "teams": teams,
         "all_players": all_players,

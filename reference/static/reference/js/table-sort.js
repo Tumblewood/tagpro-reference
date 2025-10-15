@@ -39,23 +39,30 @@ class TableSorter {
             this.currentSort.direction = this.currentSort.direction === 'asc' ? 'desc' : 'asc';
         } else {
             // New column, use default direction based on data type
-            this.currentSort.direction = dataType === 'number' ? 'desc' : 'asc';
+            // Dates and numbers default to descending (most recent/highest first)
+            this.currentSort.direction = (dataType === 'number' || dataType === 'date') ? 'desc' : 'asc';
         }
-        
+
         this.currentSort.column = columnIndex;
-        
+
         // Sort rows
         rows.sort((a, b) => {
             const aValue = this.getCellValue(a.cells[columnIndex], dataType);
             const bValue = this.getCellValue(b.cells[columnIndex], dataType);
-            
+
             let comparison = 0;
             if (dataType === 'number') {
                 comparison = aValue - bValue;
+            } else if (dataType === 'date') {
+                // Handle date comparison - null dates are considered earliest
+                if (aValue === null && bValue === null) comparison = 0;
+                else if (aValue === null) comparison = -1;
+                else if (bValue === null) comparison = 1;
+                else comparison = aValue - bValue;
             } else {
                 comparison = aValue.localeCompare(bValue);
             }
-            
+
             return this.currentSort.direction === 'asc' ? comparison : -comparison;
         });
         
@@ -68,24 +75,46 @@ class TableSorter {
     }
     
     getCellValue(cell, dataType) {
+        // Check for custom sort value first (data-sort-value attribute)
+        // This allows cells to display one thing but sort by another (e.g., season names sorted by date)
+        if (cell.hasAttribute('data-sort-value')) {
+            const sortValue = cell.getAttribute('data-sort-value');
+            // If it looks like an ISO date (YYYY-MM-DD format), parse it as a date
+            if (sortValue.match(/^\d{4}-\d{2}-\d{2}$/)) {
+                const date = new Date(sortValue);
+                return isNaN(date.getTime()) ? null : date.getTime();
+            }
+            // Otherwise return the sort value as-is (for text or numbers)
+            return sortValue.toLowerCase();
+        }
+
         let value = cell.textContent.trim();
-        
+
         // Handle links - get the text content
         const link = cell.querySelector('a');
         if (link) {
             value = link.textContent.trim();
         }
-        
-        // Handle empty cells
+
+        // Handle empty cells - if no data-sort-value and cell is empty, treat as null for dates
         if (value === '' || value === '—' || value === '-') {
-            return dataType === 'number' ? -1 : '';
+            if (dataType === 'number') return -1;
+            if (dataType === 'date') return null;
+            return '';
         }
-        
+
         if (dataType === 'number') {
             const num = parseFloat(value.replace(/[^\d.-]/g, ''));
             return isNaN(num) ? -1 : num;
         }
-        
+
+        if (dataType === 'date') {
+            // Parse date string to timestamp for comparison
+            // Assumes dates are in format like "Jan 1, 2024" or "2024-01-01"
+            const date = new Date(value);
+            return isNaN(date.getTime()) ? null : date.getTime();
+        }
+
         return value.toLowerCase();
     }
     
