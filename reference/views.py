@@ -5,6 +5,7 @@ from datetime import datetime
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.db.models import F
+from django.db.models.functions import Lower
 from accounts.decorators import data_entry_required, bulk_import_required, full_data_permissions_required
 from django.contrib import messages
 from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
@@ -1119,10 +1120,10 @@ def edit_rosters(request, season_id):
     
     # Get all teams for dropdowns
     teams = TeamSeason.objects.filter(season=season).order_by("name")
-    
-    # Get all players and playerseasons for merge dropdowns
-    all_players = Player.objects.all().order_by("name")
-    season_playerseasons = PlayerSeason.objects.filter(season=season).select_related("player").order_by("playing_as")
+
+    # Get all players and playerseasons for merge dropdowns (case-insensitive sort)
+    all_players = Player.objects.all().order_by(Lower("name"))
+    season_playerseasons = PlayerSeason.objects.filter(season=season).select_related("player").order_by(Lower("playing_as"))
     
     return render(request, "reference/edit_rosters.html", {
         "season": season,
