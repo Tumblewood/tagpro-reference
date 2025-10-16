@@ -92,6 +92,7 @@ class Match(models.Model):
     week = models.CharField(max_length=100, help_text="e.g., Week 3, Foci Four")
     team1 = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="home_matches")
     team2 = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="away_matches")
+    vod = models.URLField(max_length=255, blank=True, null=True)
 
     def get_playoff_series(self):
         try:
@@ -127,7 +128,6 @@ class Game(models.Model):
     resumed_tagpro_eu = models.IntegerField(unique=True, null=True, blank=True, help_text="Second tagpro.eu match ID, if the game was paused and resumed later")
     resumed_stats_count_until = models.IntegerField(null=True, blank=True, help_text="If the game was paused and resumed later, the time (in ticks from the start of the resumed game) to count stats until")
     replay = models.CharField(max_length=100, unique=True, null=True, blank=True)
-    vod = models.URLField(max_length=255, blank=True, null=True)
     map_name = models.CharField(max_length=255, null=True, blank=True)
     map_id = models.IntegerField(null=True, blank=True)
     red_team = models.ForeignKey(TeamSeason, on_delete=models.CASCADE, related_name="red_games")

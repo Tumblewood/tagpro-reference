@@ -1,0 +1,339 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Edit Season - {{ season.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Edit Season - {{ season.name }}</h1>
+
+<!-- Season Selection -->
+<div class="season-selector">
+    <label for="season-select">Season: </label>
+    <select id="season-select" onchange="changeSeason()">
+        {% for s in all_seasons %}
+            <option value="{{ s.name }}" {% if s.id == season.id %}selected{% endif %}>{{ s.name }}</option>
+        {% endfor %}
+    </select>
+</div>
+
+<script>
+function changeSeason() {
+    const selectElement = document.getElementById('season-select');
+    const seasonName = selectElement.value;
+    const seasonNameDashed = seasonName.replace(/ /g, '-');
+    window.location.href = '/edit/season/' + seasonNameDashed + '/';
+}
+</script>
+
+<!-- Management Forms -->
+<div class="form-section">
+    <div class="form-row">
+        <!-- Change End Date -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_end_date">
+            <strong>Change End Date:</strong>
+            <input type="date" name="end_date" value="{{ season.end_date|date:'Y-m-d' }}">
+            <button type="submit">Update</button>
+        </form>
+
+        <!-- Change Captain -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_captain">
+            <strong>Change Captain:</strong>
+            <select name="team_id" required>
+                <option value="">Select team...</option>
+                {% for team in teams %}
+                    <option value="{{ team.id }}">{{ team.name }}</option>
+                {% endfor %}
+            </select>
+            <select name="captain_id">
+                <option value="">None</option>
+                {% for player in all_players %}
+                    <option value="{{ player.id }}">{{ player.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Change</button>
+        </form>
+
+        <!-- Change Co-Captain -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_co_captain">
+            <strong>Change Co-Captain:</strong>
+            <select name="team_id" required>
+                <option value="">Select team...</option>
+                {% for team in teams %}
+                    <option value="{{ team.id }}">{{ team.name }}</option>
+                {% endfor %}
+            </select>
+            <select name="co_captain_id">
+                <option value="">None</option>
+                {% for player in all_players %}
+                    <option value="{{ player.id }}">{{ player.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Change</button>
+        </form>
+    </div>
+
+    <div class="form-row">
+        <!-- Change Franchise Logo -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_logo">
+            <strong>Change Franchise Logo:</strong>
+            <select name="franchise_id" required>
+                <option value="">Select franchise...</option>
+                {% for franchise in franchises %}
+                    <option value="{{ franchise.id }}">{{ franchise.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="text" name="logo_url" placeholder="Logo URL" required>
+            <button type="submit">Update</button>
+        </form>
+
+        <!-- Change Match Week -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="change_week">
+            <strong>Change Match Week:</strong>
+            <select name="match_id" required>
+                <option value="">Select match...</option>
+                {% for match in matches %}
+                    <option value="{{ match.id }}">{{ match.week }}: {{ match.team1.name }} vs {{ match.team2.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="text" name="new_week" placeholder="New week" required>
+            <button type="submit">Change</button>
+        </form>
+
+        <!-- Set Match VOD -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="set_vod">
+            <strong>Set Match VOD:</strong>
+            <select name="match_id" required>
+                <option value="">Select match...</option>
+                {% for match in matches %}
+                    <option value="{{ match.id }}">{{ match.week }}: {{ match.team1.name }} vs {{ match.team2.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="url" name="vod_url" placeholder="VOD URL">
+            <button type="submit">Set</button>
+        </form>
+    </div>
+</div>
+
+<h2 class="section-header-first">Teams</h2>
+
+<!-- Teams Table -->
+<div class="teams-table-container">
+    <table class="teams-table" style="width: 100%; font-size: 0.9rem;">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Team</th>
+                <th>Captain</th>
+                <th>Co-Captain</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for team in teams %}
+            <tr>
+                <td style="width: 2.5rem; text-align: center;">
+                    {% if team.franchise.logo %}
+                        <img src="/static/reference/{{ team.franchise.logo }}" alt="{{ team.franchise.abbr }}" style="width: 2rem; height: 2rem; object-fit: contain;">
+                    {% endif %}
+                </td>
+                <td>{{ team.name }}</td>
+                <td>
+                    {% if team.captain %}
+                        <a href="{% url 'player_history' team.captain.name %}">{{ team.captain.name }}</a>
+                    {% else %}
+                        &mdash;
+                    {% endif %}
+                </td>
+                <td>
+                    {% if team.co_captain %}
+                        <a href="{% url 'player_history' team.co_captain.name %}">{{ team.co_captain.name }}</a>
+                    {% else %}
+                        &mdash;
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<h2 class="section-header">Matches</h2>
+
+<!-- Match Schedule (reuse from season_schedule.html) -->
+<link rel="stylesheet" href="{% static 'reference/styles/schedule.css' %}">
+
+{% for week_data in schedule_data %}
+<div class="week-section">
+    <h3 class="week-title">{{ week_data.week }}</h3>
+
+    <div class="matches-container">
+        {% for match_data in week_data.matches %}
+        <div class="match-box">
+            <div class="match-date"><a href="{% url 'match_view' match_data.match.id %}">{{ match_data.match.date|date:"n/j" }}</a></div>
+
+            {% if match_data.has_games %}
+            <table class="box-score">
+                <colgroup>
+                    <col>
+                    {% for game in match_data.games %}
+                    <col style="width: 2rem">
+                    {% endfor %}
+                    <col style="width: 2.5rem">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Team</th>
+                        {% for game in match_data.games %}
+                        <th>{{ game.short_game_name }}</th>
+                        {% endfor %}
+                        <th>Pts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="team-name-cell">
+                            <a href="{% url 'team_season' match_data.match.team1.id %}">
+                                {{ match_data.match.team1.name }}
+                            </a>
+                        </td>
+                        {% for game in match_data.games %}
+                        <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
+                            {{ game.team1_score }}{% if game.outcome == 'OTW' %}<span class="overtime">O</span>{% endif %}
+                        </td>
+                        {% endfor %}
+                        <td class="{% if match_data.match_winner == 'team1' %}winning-total{% endif %}">
+                            <strong>{{ match_data.team1_total }}</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="team-name-cell">
+                            <a href="{% url 'team_season' match_data.match.team2.id %}">
+                                {{ match_data.match.team2.name }}
+                            </a>
+                        </td>
+                        {% for game in match_data.games %}
+                        <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
+                            {{ game.team2_score }}{% if game.outcome == 'OTL' %}<span class="overtime">O</span>{% endif %}
+                        </td>
+                        {% endfor %}
+                        <td class="{% if match_data.match_winner == 'team2' %}winning-total{% endif %}">
+                            <strong>{{ match_data.team2_total }}</strong>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            {% else %}
+            <div class="no-games-match">
+                <div class="no-games-teams">
+                    <a href="{% url 'team_season' match_data.match.team1.id %}">{{ match_data.match.team1.name }}</a>
+                    <br>vs<br>
+                    <a href="{% url 'team_season' match_data.match.team2.id %}">{{ match_data.match.team2.name }}</a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% empty %}
+<div style="text-align: center; padding: 3rem; color: #6c757d;">
+    No matches scheduled for this season.
+</div>
+{% endfor %}
+
+<style>
+.form-section {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 5px;
+}
+
+.form-col {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.form-col select, .form-col input {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.form-col button {
+    background-color: #007cba;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.form-col button:hover {
+    background-color: #005a87;
+}
+
+.week-section {
+    margin-bottom: 2rem;
+}
+
+.week-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #333;
+}
+
+.teams-table {
+    border-collapse: collapse;
+}
+
+.teams-table th, .teams-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.teams-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.teams-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.teams-table tbody tr:hover {
+    background: #e6f3ff;
+}
+</style>
+
+{% endblock %}

@@ -1099,16 +1099,16 @@ def edit_rosters(request, season_id):
                 messages.error(request, f"Error renaming player: {str(e)}")
         
         return redirect("edit_rosters", season_id=season.id)
-    
+
     # Get all player seasons with stats for display
     player_seasons = PlayerSeason.objects.filter(season=season).select_related(
         "player", "team"
     ).order_by("team__name", "player__name")
-    
+
     # Get aggregated stats for minutes played
     stats = aggregate_player_stats(season=season)
     stats_dict = {stat["player_season"].id: stat for stat in stats}
-    
+
     # Prepare roster data
     roster_data = []
     for ps in player_seasons:
@@ -1117,14 +1117,14 @@ def edit_rosters(request, season_id):
             "playerseason": ps,
             "minutes": stat.get("time_played_min", 0),
         })
-    
+
     # Get all teams for dropdowns
     teams = TeamSeason.objects.filter(season=season).order_by("name")
 
     # Get all players and playerseasons for merge dropdowns (case-insensitive sort)
     all_players = Player.objects.all().order_by(Lower("name"))
     season_playerseasons = PlayerSeason.objects.filter(season=season).select_related("player").order_by(Lower("playing_as"))
-    
+
     return render(request, "reference/edit_rosters.html", {
         "season": season,
         "all_seasons": Season.objects.all().order_by(F('end_date').desc(nulls_last=True)),
@@ -1133,4 +1133,167 @@ def edit_rosters(request, season_id):
         "all_players": all_players,
         "season_playerseasons": season_playerseasons,
         "position_choices": PlayerSeason._meta.get_field("position").choices,
+    })
+
+
+@data_entry_required(season_param='season_id')
+def edit_season_by_name(request, season_name):
+    """Edit season view by season name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return edit_season(request, season.id)
+
+@data_entry_required(season_param='season_id')
+def edit_season(request, season_id):
+    """Edit season view with season, team, and match management forms."""
+    season = get_object_or_404(Season, id=season_id)
+
+    # Handle form submissions
+    if request.method == "POST":
+        action = request.POST.get("action")
+
+        if action == "change_end_date":
+            try:
+                new_end_date = request.POST.get("end_date")
+                if new_end_date:
+                    season.end_date = datetime.strptime(new_end_date, '%Y-%m-%d').date()
+                else:
+                    season.end_date = None
+                season.save()
+                messages.success(request, f"Updated end date for {season.name}")
+            except Exception as e:
+                messages.error(request, f"Error changing end date: {str(e)}")
+
+        elif action == "change_captain":
+            try:
+                team_id = request.POST.get("team_id")
+                captain_id = request.POST.get("captain_id") or None
+                team = TeamSeason.objects.get(id=team_id)
+                if captain_id:
+                    team.captain = Player.objects.get(id=captain_id)
+                else:
+                    team.captain = None
+                team.save()
+                captain_name = team.captain.name if team.captain else "None"
+                messages.success(request, f"Changed {team.name} captain to {captain_name}")
+            except Exception as e:
+                messages.error(request, f"Error changing captain: {str(e)}")
+
+        elif action == "change_co_captain":
+            try:
+                team_id = request.POST.get("team_id")
+                co_captain_id = request.POST.get("co_captain_id") or None
+                team = TeamSeason.objects.get(id=team_id)
+                if co_captain_id:
+                    team.co_captain = Player.objects.get(id=co_captain_id)
+                else:
+                    team.co_captain = None
+                team.save()
+                co_captain_name = team.co_captain.name if team.co_captain else "None"
+                messages.success(request, f"Changed {team.name} co-captain to {co_captain_name}")
+            except Exception as e:
+                messages.error(request, f"Error changing co-captain: {str(e)}")
+
+        elif action == "change_logo":
+            try:
+                franchise_id = request.POST.get("franchise_id")
+                logo_url = request.POST.get("logo_url")
+                franchise = Franchise.objects.get(id=franchise_id)
+                franchise.logo = logo_url if logo_url else None
+                franchise.save()
+                messages.success(request, f"Updated logo for {franchise.name}")
+            except Exception as e:
+                messages.error(request, f"Error changing logo: {str(e)}")
+
+        elif action == "change_week":
+            try:
+                match_id = request.POST.get("match_id")
+                new_week = request.POST.get("new_week")
+                match = Match.objects.get(id=match_id)
+                old_week = match.week
+                match.week = new_week
+                match.save()
+                messages.success(request, f"Changed match week from {old_week} to {new_week}")
+            except Exception as e:
+                messages.error(request, f"Error changing week: {str(e)}")
+
+        elif action == "set_vod":
+            try:
+                match_id = request.POST.get("match_id")
+                vod_url = request.POST.get("vod_url")
+                match = Match.objects.get(id=match_id)
+                match.vod = vod_url if vod_url else None
+                match.save()
+                messages.success(request, f"Updated VOD for {match.team1.name} vs {match.team2.name}")
+            except Exception as e:
+                messages.error(request, f"Error setting VOD: {str(e)}")
+
+        return redirect("edit_season", season_id=season.id)
+
+    # Get all teams for display and dropdowns
+    teams = TeamSeason.objects.filter(season=season).select_related(
+        'franchise', 'captain', 'co_captain'
+    ).order_by('name')
+
+    # Get all players for dropdowns (case-insensitive sort)
+    all_players = Player.objects.all().order_by(Lower("name"))
+
+    # Get all franchises that have teams in this season
+    franchises = Franchise.objects.filter(
+        team_seasons__season=season
+    ).distinct().order_by('name')
+
+    # Get all matches for this season
+    matches = Match.objects.filter(season=season).select_related(
+        'team1__franchise', 'team2__franchise'
+    ).prefetch_related('games', 'playoff_series').order_by('date', 'week')
+
+    # Build schedule data (reuse season_schedule logic)
+    weeks = {}
+    for match in matches:
+        week = match.week
+        if week not in weeks:
+            weeks[week] = []
+        weeks[week].append(match)
+
+    # Sort weeks with special playoff ordering
+    def week_sort_key(week_name):
+        return PLAYOFF_ORDER.get(week_name, week_name)
+
+    sorted_weeks = sorted(weeks.keys(), key=week_sort_key)
+
+    # Build schedule data
+    schedule_data = []
+    for week in sorted_weeks:
+        week_matches = []
+        for match in weeks[week]:
+            # Get games for this match
+            games = list(match.games.all())
+
+            # Build box score data
+            if games:
+                match_data = calculate_match_box_score(match, games)
+            else:
+                match_data = {
+                    'match': match,
+                    'games': [],
+                    'has_games': False
+                }
+
+            week_matches.append(match_data)
+
+        schedule_data.append({
+            'week': week,
+            'matches': week_matches
+        })
+
+    return render(request, "reference/edit_season.html", {
+        "season": season,
+        "all_seasons": Season.objects.all().order_by(F('end_date').desc(nulls_last=True)),
+        "teams": teams,
+        "all_players": all_players,
+        "franchises": franchises,
+        "matches": matches,
+        "schedule_data": schedule_data,
     })

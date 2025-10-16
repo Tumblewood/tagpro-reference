@@ -1,20 +1,23 @@
 {% extends "reference/base.html" %}
+{% load static %}
 
 {% block title %}Edit Rosters - {{ season.name }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+{% endblock %}
 
 {% block content %}
 <h1 class="page-title">Edit Rosters - {{ season.name }}</h1>
 
 <!-- Season Selection -->
-<div class="season-select-container">
-    <form method="get" action="{% url 'edit_rosters' season.id %}">
-        <label for="season-select"><strong>Season:</strong></label>
-        <select id="season-select" name="season" onchange="changeSeason()">
-            {% for s in all_seasons %}
-                <option value="{{ s.name }}" {% if s.id == season.id %}selected{% endif %}>{{ s.name }}</option>
-            {% endfor %}
-        </select>
-    </form>
+<div class="season-selector">
+    <label for="season-select">Season: </label>
+    <select id="season-select" onchange="changeSeason()">
+        {% for s in all_seasons %}
+            <option value="{{ s.name }}" {% if s.id == season.id %}selected{% endif %}>{{ s.name }}</option>
+        {% endfor %}
+    </select>
 </div>
 
 <script>
@@ -240,26 +243,6 @@ function changeSeason() {
 
 .roster-table tbody tr:hover {
     background: #e6f3ff;
-}
-
-.season-select-container {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-}
-
-.season-select-container label {
-    margin-right: 10px;
-}
-
-.season-select-container select {
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-    min-width: 200px;
 }
 </style>
 

@@ -23,4 +23,6 @@ urlpatterns = [
     path('import/json/', views.import_from_json, name='import_from_json'),
     path('edit/rosters/<int:season_id>/', views.edit_rosters, name='edit_rosters'),
     path('edit/rosters/<str:season_name>/', views.edit_rosters_by_name, name='edit_rosters_by_name'),
+    path('edit/season/<int:season_id>/', views.edit_season, name='edit_season'),
+    path('edit/season/<str:season_name>/', views.edit_season_by_name, name='edit_season_by_name'),
 ]
