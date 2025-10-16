@@ -58,7 +58,7 @@ STAT_COLUMNS = {
         {'key': 'grabs_off_regrab', 'label': 'GOR', 'type': 'number', 'tooltip': 'Grabs Off Regrab - grabs within <2 seconds of teammate drop'},
         {'key': 'caps_off_regrab', 'label': 'COR', 'type': 'number', 'tooltip': 'Caps Off Regrab - caps after grabbing within <2 seconds of teammate drop'},
         {'key': 'long_holds', 'label': 'LH', 'type': 'number', 'tooltip': 'Long Holds - holds of >10 seconds'},
-        {'key': 'flaccids', 'label': 'FLcd', 'type': 'number', 'tooltip': 'Flaccids - drop after <2 seconds of hold'},
+        {'key': 'flaccids', 'label': 'Flcd', 'type': 'number', 'tooltip': 'Flaccids - drop after <2 seconds of hold'},
         {'key': 'handoffs', 'label': 'HO', 'type': 'number', 'tooltip': 'Handoffs - hold for <3 seconds and teammate grabs within <2 seconds of the drop'},
         {'key': 'good_handoffs', 'label': 'GH', 'type': 'number', 'tooltip': 'Good Handoffs - handoff resulting in teammate hold of >5 seconds'},
     ],
