@@ -11,10 +11,10 @@
 
 {% block content %}
     <h1 class="page-title">{{ player.name }}</h1>
-    
-    <div style="text-align: center; margin: 2rem 0;">
+
+    <div class="league-filter">
         <label for="league-dropdown">League: </label>
-        <select id="league-dropdown" onchange="changeLeague(this.value)" style="padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 4px; background: white; min-width: 8rem;">
+        <select id="league-dropdown" onchange="changeLeague(this.value)">
             <option value="all" {% if current_league == 'all' %}selected{% endif %}>All CTF</option>
             {% for league in leagues %}
                 <option value="{{ league.id }}" {% if current_league == league.id|stringformat:"s" %}selected{% endif %}>

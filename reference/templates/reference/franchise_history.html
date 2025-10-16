@@ -7,6 +7,7 @@
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/league-filter.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -16,10 +17,10 @@
         {% endif %}
         {{ franchise.name }}
     </h1>
-    
-    <div style="text-align: center; margin: 2rem 0;">
+
+    <div class="league-filter">
         <label for="league-dropdown">League: </label>
-        <select id="league-dropdown" onchange="changeLeague(this.value)" style="padding: 0.5rem 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 4px; background: white; min-width: 8rem;">
+        <select id="league-dropdown" onchange="changeLeague(this.value)">
             <option value="all" {% if current_league == 'all' %}selected{% endif %}>All CTF</option>
             {% for league in leagues %}
                 <option value="{{ league.id }}" {% if current_league == league.id|stringformat:"s" %}selected{% endif %}>
@@ -28,9 +29,9 @@
             {% endfor %}
         </select>
     </div>
-    
-    <h2 style="text-align: center; font-size: 1.75rem; margin: 2rem 0 1rem; color: #333;">Seasons</h2>
-    
+
+    <h2 class="section-header-first">Seasons</h2>
+
     <div class="stat-table-container">
         <table class="stat-table" id="seasons-table">
             <thead>
@@ -100,8 +101,8 @@
         </table>
     </div>
     
-    <h2 style="text-align: center; font-size: 1.75rem; margin: 3rem 0 1rem; color: #333;">All-Time Stats</h2>
-    
+    <h2 class="section-header">All-Time Stats</h2>
+
     <div class="stat-table-container">
         <table class="stat-table" id="all-time-stats-table">
             <thead>

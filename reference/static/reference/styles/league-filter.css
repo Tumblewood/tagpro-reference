@@ -2,17 +2,11 @@
 
 .league-filter {
     text-align: center;
-    margin: 2rem 0;
-    padding: 1rem;
-    background: #f8f9fa;
-    border-radius: 8px;
-    border: 1px solid #dee2e6;
+    margin: 1rem 0;
 }
 
 .league-filter label {
-    font-weight: bold;
     margin-right: 0.5rem;
-    color: #333;
 }
 
 .league-filter select {

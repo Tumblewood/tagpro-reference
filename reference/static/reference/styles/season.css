@@ -72,3 +72,17 @@
     text-align: center;
     padding: 0.5rem 0.25rem;
 }
+
+.section-header {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 2rem 0 0.5rem;
+    color: #333;
+}
+
+.section-header-first {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 1.5rem 0 0.5rem;
+    color: #333;
+}
