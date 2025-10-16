@@ -18,7 +18,7 @@
     </h1>
     
     <div class="season-selector">
-        <label for="season-dropdown">Switch Season: </label>
+        <label for="season-dropdown">Season: </label>
         <select id="season-dropdown" onchange="changeSeason(this.value)">
             {% for league_season in league_seasons %}
                 <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>

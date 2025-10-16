@@ -16,38 +16,40 @@
         {% endif %}
         {{ season.name }} Stats
     </h1>
-    
-    <div class="season-selector">
-        <label for="season-dropdown">Switch Season: </label>
-        <select id="season-dropdown" onchange="changeSeason(this.value)">
-            {% for league_season in league_seasons %}
-                <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
-                    {{ league_season.name }}
-                </option>
-            {% endfor %}
-        </select>
-    </div>
-    
-    <div class="season-selector">
-        <label for="week-dropdown">Filter by Week: </label>
-        <select id="week-dropdown" onchange="changeWeek(this.value)">
-            {% for week_option in week_options %}
-                <option value="{{ week_option.value }}" {% if week_option.value == current_week %}selected{% endif %}>
-                    {{ week_option.label }}
-                </option>
-            {% endfor %}
-        </select>
-    </div>
-    
-    <div class="season-selector">
-        <label for="view-dropdown">Stat View: </label>
-        <select id="view-dropdown" onchange="changeView(this.value)">
-            {% for view_option in stat_view_options %}
-                <option value="{{ view_option.value }}" {% if view_option.value == current_stat_view %}selected{% endif %}>
-                    {{ view_option.label }}
-                </option>
-            {% endfor %}
-        </select>
+
+    <div class="season-selector-container">
+        <div class="season-selector">
+            <label for="season-dropdown">Season: </label>
+            <select id="season-dropdown" onchange="changeSeason(this.value)">
+                {% for league_season in league_seasons %}
+                    <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                        {{ league_season.name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector">
+            <label for="week-dropdown">Week: </label>
+            <select id="week-dropdown" onchange="changeWeek(this.value)">
+                {% for week_option in week_options %}
+                    <option value="{{ week_option.value }}" {% if week_option.value == current_week %}selected{% endif %}>
+                        {{ week_option.label }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector">
+            <label for="view-dropdown">Stats: </label>
+            <select id="view-dropdown" onchange="changeView(this.value)">
+                {% for view_option in stat_view_options %}
+                    <option value="{{ view_option.value }}" {% if view_option.value == current_stat_view %}selected{% endif %}>
+                        {{ view_option.label }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
     </div>
     
     <div class="season-nav">
