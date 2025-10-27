@@ -739,7 +739,6 @@ def match_view(req, match_id):
             'map_name': game.map_name,
             'tagpro_eu_url': f"https://tagpro.eu/?match={game.tagpro_eu}" if game.tagpro_eu else None,
             'replay': game.replay,
-            'vod': game.vod,
         }
         if game.resumed_tagpro_eu:
             map_info['resumed_tagpro_eu_url'] = f"https://tagpro.eu/?match={game.resumed_tagpro_eu}"
