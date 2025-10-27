@@ -160,7 +160,7 @@ class PlayerGameLog(models.Model):
     """
     game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name="player_stats")
     team = models.ForeignKey(TeamSeason, on_delete=models.CASCADE)
-    player_season = models.ForeignKey(PlayerSeason, on_delete=models.CASCADE, related_name="gamelogs", db_column="player")
+    player_season = models.ForeignKey(PlayerSeason, on_delete=models.PROTECT, related_name="gamelogs", db_column="player")
     playing_as = models.CharField(max_length=255)
 
     class Meta:
