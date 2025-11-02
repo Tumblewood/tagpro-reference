@@ -949,36 +949,34 @@ def calculate_scar(season: Season):
     OSCAR = 0.015 * hold (in seconds) + 0.7 * caps + 0.125 * pups + 0.025 * non-return tags
     DSCAR = 0.005 * prev (in seconds) + 0.1 * returns + 0.1 * returns in base - 0.01 * hold against (in seconds) + 0.125 * pups + 0.025 * non-return tags - 0.05 * non-drop pops
 
-    Applies blowout adjustment based on game cap differential.
-    After calculating raw OSCAR/DSCAR, adjusts league averages to 0.035 per minute.
+    Process:
+    1. Calculate raw OSCAR and DSCAR
+    2. Apply blowout multiplier
+    3. Normalize to league average (minutes-weighted average = 0)
+    4. Apply game-level regression so oscar + dscar = half the BACD
+    5. Add 0.035 * minutes * blowout_multiplier to each player's OSCAR and DSCAR
     """
     # Get all regulation stats for the season
     regulation_stats = PlayerRegulationStats.objects.filter(
         player_gamelog__game__match__season=season
     ).select_related('player_gamelog__game__match')
 
-    league_totals = {
-        'oscar': 0,
-        'dscar': 0,
-        'minutes': 0
-    }
+    # Step 1: Calculate raw OSCAR and DSCAR, apply blowout multiplier
+    league_oscar_total = 0
+    league_dscar_total = 0
+    league_minutes_total = 0
 
-    # Calculate raw OSCAR and DSCAR for each player game
     for stat in regulation_stats:
         game = stat.player_gamelog.game
-
-        # Calculate cap differential for this game (regulation only)
-        # Determine which team the player was on
         player_team = stat.player_gamelog.team
         is_team1 = (player_team == game.match.team1)
 
-        # Get regulation scores (team1_score and team2_score are already regulation-only)
+        # Calculate cap differential and blowout multiplier
         if is_team1:
             cap_differential = game.team1_score - game.team2_score
         else:
             cap_differential = game.team2_score - game.team1_score
 
-        # Calculate blowout multiplier
         blowout_multiplier = calculate_blowout_multiplier(cap_differential)
 
         # Convert time from ticks to get values for calculations
@@ -991,7 +989,7 @@ def calculate_scar(season: Season):
         non_return_tags = (stat.tags or 0) - (stat.returns or 0)
         non_drop_pops = (stat.pops or 0) - (stat.drops or 0)
 
-        # OSCAR formula
+        # OSCAR formula (raw)
         oscar = (
             0.015 * hold_seconds +
             0.7 * (stat.captures or 0) +
@@ -999,58 +997,118 @@ def calculate_scar(season: Season):
             0.025 * non_return_tags
         )
 
-        # DSCAR formula
+        # DSCAR formula (raw)
         dscar = (
             0.005 * prevent_seconds +
             0.1 * (stat.returns or 0) +
-            0.1 * (stat.returns_in_base or 0) -
-            0.01 * hold_against_seconds +
+            0.1 * (stat.returns_in_base or 0) +
             0.15 * (stat.powerups or 0) +
             0.025 * non_return_tags -
             0.05 * non_drop_pops
         )
 
-        # Apply blowout adjustment
-        oscar *= blowout_multiplier
-        dscar *= blowout_multiplier
+        # Apply blowout multiplier
+        oscar_ba = oscar * blowout_multiplier
+        dscar_ba = dscar * blowout_multiplier
+
+        # Store values temporarily
+        stat._oscar_ba = oscar_ba
+        stat._dscar_ba = dscar_ba
+        stat._time_played_minutes = time_played_minutes
+        stat._blowout_multiplier = blowout_multiplier
+
+        # Accumulate league totals
         adjusted_minutes = time_played_minutes * blowout_multiplier
+        league_oscar_total += oscar_ba
+        league_dscar_total += dscar_ba
+        league_minutes_total += adjusted_minutes
 
-        # Store raw values temporarily
-        stat.oscar = oscar
-        stat.dscar = dscar
+    # Step 2: Normalize to league average (minutes-weighted average = 0)
+    if league_minutes_total > 0:
+        league_oscar_per_minute = league_oscar_total / league_minutes_total
+        league_dscar_per_minute = league_dscar_total / league_minutes_total
 
-        # Add to league totals (using adjusted minutes)
-        league_totals['oscar'] += oscar
-        league_totals['dscar'] += dscar
-        league_totals['minutes'] += adjusted_minutes
-
-    # Calculate league averages per minute
-    if league_totals['minutes'] > 0:
-        league_oscar_per_minute = league_totals['oscar'] / league_totals['minutes']
-        league_dscar_per_minute = league_totals['dscar'] / league_totals['minutes']
-
-        # Target is 0.035 per minute for both stats
-        oscar_adjustment_per_minute = league_oscar_per_minute - 0.035
-        dscar_adjustment_per_minute = league_dscar_per_minute - 0.035
-
-        # Apply adjustments and save
         for stat in regulation_stats:
-            game = stat.player_gamelog.game
+            adjusted_minutes = stat._time_played_minutes * stat._blowout_multiplier
+            stat._oscar_normalized = stat._oscar_ba - (league_oscar_per_minute * adjusted_minutes)
+            stat._dscar_normalized = stat._dscar_ba - (league_dscar_per_minute * adjusted_minutes)
+
+    # Step 3: Group stats by game and apply game-level regression
+    stats_by_game = {}
+    for stat in regulation_stats:
+        game_id = stat.player_gamelog.game.id
+        if game_id not in stats_by_game:
+            stats_by_game[game_id] = []
+        stats_by_game[game_id].append(stat)
+
+    for game_id, game_stats in stats_by_game.items():
+        game = game_stats[0].player_gamelog.game
+
+        # Calculate team totals for normalized oscar + dscar
+        team1_normalized_total = 0
+        team2_normalized_total = 0
+        team1_minutes_total = 0
+        team2_minutes_total = 0
+
+        for stat in game_stats:
             player_team = stat.player_gamelog.team
             is_team1 = (player_team == game.match.team1)
 
+            combined = stat._oscar_normalized + stat._dscar_normalized
+            adjusted_minutes = stat._time_played_minutes * stat._blowout_multiplier
+
             if is_team1:
-                cap_differential = game.team1_score - game.team2_score
+                team1_normalized_total += combined
+                team1_minutes_total += adjusted_minutes
             else:
-                cap_differential = game.team2_score - game.team1_score
+                team2_normalized_total += combined
+                team2_minutes_total += adjusted_minutes
 
-            blowout_multiplier = calculate_blowout_multiplier(cap_differential)
-            time_played_minutes = (stat.time_played or 0) / 3600
-            adjusted_minutes = time_played_minutes * blowout_multiplier
+        # Calculate BACD (blowout-adjusted cap differential)
+        cap_diff = game.team1_score - game.team2_score
+        blowout_mult = calculate_blowout_multiplier(cap_diff)
+        bacd = cap_diff * blowout_mult
 
-            # Subtract the adjustment proportional to adjusted minutes played
-            stat.oscar -= oscar_adjustment_per_minute * adjusted_minutes
-            stat.dscar -= dscar_adjustment_per_minute * adjusted_minutes
+        # Target for each team: half the BACD
+        team1_target = bacd / 2
+        team2_target = -bacd / 2  # Other team gets negative
+
+        # Calculate how much to add to each team (distributed by minutes)
+        team1_adjustment_total = team1_target - team1_normalized_total
+        team2_adjustment_total = team2_target - team2_normalized_total
+
+        # Calculate per-minute adjustment for each team
+        team1_adjustment_per_minute = team1_adjustment_total / team1_minutes_total if team1_minutes_total > 0 else 0
+        team2_adjustment_per_minute = team2_adjustment_total / team2_minutes_total if team2_minutes_total > 0 else 0
+
+        # Step 4: Apply regression and add baseline
+        for stat in game_stats:
+            player_team = stat.player_gamelog.team
+            is_team1 = (player_team == game.match.team1)
+
+            # Calculate adjustment proportional to minutes
+            adjustment_per_minute = team1_adjustment_per_minute if is_team1 else team2_adjustment_per_minute
+            adjusted_minutes = stat._time_played_minutes * stat._blowout_multiplier
+            adjustment = adjustment_per_minute * adjusted_minutes
+
+            # Apply regression by adding adjustment to both oscar and dscar equally
+            # (split the adjustment 50/50 between oscar and dscar)
+            oscar_regressed = stat._oscar_normalized + (adjustment / 2)
+            dscar_regressed = stat._dscar_normalized + (adjustment / 2)
+
+            # Add 0.035 * minutes * blowout_multiplier to both
+            baseline = 0.035 * stat._time_played_minutes * stat._blowout_multiplier
+
+            stat.oscar = oscar_regressed + baseline
+            stat.dscar = dscar_regressed + baseline
+
+            # Clean up temporary attributes
+            del stat._oscar_ba
+            del stat._dscar_ba
+            del stat._oscar_normalized
+            del stat._dscar_normalized
+            del stat._time_played_minutes
+            del stat._blowout_multiplier
 
             stat.save()
 
