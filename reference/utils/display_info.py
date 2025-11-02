@@ -345,16 +345,16 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
         match__season=team.season,
         match__week__startswith="Week"
     )
-    
+
     # Initialize counters
     standing_points = 0
     wins = ot_wins = ties = ot_losses = losses = 0
     caps_for = 0
     caps_against = 0
-    
+
     for game in team_games:
         is_team1 = (team == game.match.team1)
-        
+
         # Get team scores and standing points
         if is_team1:
             team_score = game.team1_score
@@ -364,7 +364,7 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
             team_score = game.team2_score
             opponent_score = game.team1_score
             team_standing_points = game.team2_standing_points or 0
-        
+
         standing_points += team_standing_points
 
         # Don't count overtime caps toward cap totals
@@ -374,7 +374,7 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
         elif "Overtime" not in game.game_in_match:
             caps_for += team_score
             caps_against += opponent_score
-        
+
         if game.outcome:
             if is_team1:
                 outcome = game.outcome
@@ -382,7 +382,7 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
                 # Flip the outcome for team2
                 outcome_map = {'W': 'L', 'OTW': 'OTL', 'L': 'W', 'OTL': 'OTW', 'T': 'T'}
                 outcome = outcome_map.get(game.outcome, game.outcome)
-            
+
             if outcome == "W":
                 wins += 1
             elif outcome == "OTW":
@@ -393,10 +393,10 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
                 ot_losses += 1
             elif outcome == "L":
                 losses += 1
-    
+
     cap_differential = caps_for - caps_against
     record = f"{wins}-{ot_wins}-{ot_losses}-{losses}"
-    
+
     return {
         'team': team,
         'games_played': wins + ot_wins + ties + ot_losses + losses,
@@ -410,4 +410,168 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
         'caps_for': caps_for,
         'caps_against': caps_against,
         'cap_differential': cap_differential,
+    }
+
+
+def build_playoff_bracket(season):
+    """
+    Build playoff bracket layout for a season.
+    Championship is at (0, 0), semifinals spread left/right,
+    earlier rounds spread further out and vertically.
+
+    Returns None if no valid bracket structure exists.
+    Returns a dict with bracket data if playoffs form a valid tree.
+    """
+    from ..models import PlayoffSeries
+
+    # Get all playoff series for this season
+    playoff_series_qs = PlayoffSeries.objects.filter(
+        match__season=season
+    ).select_related(
+        'match__team1', 'match__team2', 'match__team1__franchise', 'match__team2__franchise',
+        'team1_prev_series', 'team2_prev_series', 'winner'
+    ).prefetch_related('match__games')
+
+    if not playoff_series_qs.exists():
+        return None
+
+    # Find the championship (series with no next_series)
+    championship = None
+    for series in playoff_series_qs:
+        # Check if this series is not a prev_series for any other series
+        is_prev_for_any = PlayoffSeries.objects.filter(
+            models.Q(team1_prev_series=series) | models.Q(team2_prev_series=series),
+            match__season=season
+        ).exists()
+
+        if not is_prev_for_any:
+            if championship is not None:
+                # Multiple championships found - invalid bracket
+                return None
+            championship = series
+
+    if championship is None:
+        return None
+
+    # First, calculate the maximum depth of the bracket tree
+    def get_max_depth(series, depth=0):
+        """Calculate maximum depth from this series to any leaf."""
+        if series is None:
+            return depth
+
+        depth1 = get_max_depth(series.team1_prev_series, depth + 1)
+        depth2 = get_max_depth(series.team2_prev_series, depth + 1)
+        return max(depth1, depth2)
+
+    max_depth = get_max_depth(championship)
+
+    # Calculate initial y_spread for semifinals
+    # If max_depth is 3 (championship -> semis -> quarters), semis should start with y_spread=1
+    # If max_depth is 4 (championship -> semis -> quarters -> round before), semis should start with y_spread=2
+    # Pattern: initial_y_spread = 2^(max_depth - 2)
+    initial_y_spread = 2 ** (max_depth - 2) if max_depth >= 2 else 1
+
+    # Recursively position series
+    # Championship at (0, 0)
+    # team1_prev goes to negative x (left), team2_prev goes to positive x (right)
+    # y spreads vertically for earlier rounds
+    bracket_series = []
+
+    def position_series(series, x, y, y_spread, is_team1_side):
+        """
+        Position a series and recursively position its previous series.
+
+        Args:
+            series: The PlayoffSeries to position
+            x: x-coordinate for this series
+            y: y-coordinate for this series
+            y_spread: How much to offset y for previous rounds
+            is_team1_side: True if on team1 side (negative x), False if team2 side (positive x)
+        """
+        if series is None:
+            return
+
+        bracket_series.append(create_bracket_series_data(series, x, y))
+
+        # Position previous series
+        if series.team1_prev_series or series.team2_prev_series:
+            # Determine x direction based on which side we're on
+            if is_team1_side:
+                next_x = x - 1  # Go further left
+            else:
+                next_x = x + 1  # Go further right
+
+            # y_spread halves as we go deeper into earlier rounds
+            next_y_spread = y_spread / 2
+
+            # team1_prev goes above (y - y_spread)
+            # team2_prev goes below (y + y_spread)
+            if series.team1_prev_series:
+                position_series(series.team1_prev_series, next_x, y - y_spread, next_y_spread, is_team1_side)
+            if series.team2_prev_series:
+                position_series(series.team2_prev_series, next_x, y + y_spread, next_y_spread, is_team1_side)
+
+    # Start with championship at (0, 0)
+    bracket_series.append(create_bracket_series_data(championship, 0, 0, is_championship=True))
+
+    # Position team1's semifinal (left side, negative x)
+    if championship.team1_prev_series:
+        position_series(championship.team1_prev_series, -1, 0, initial_y_spread, is_team1_side=True)
+
+    # Position team2's semifinal (right side, positive x)
+    if championship.team2_prev_series:
+        position_series(championship.team2_prev_series, 1, 0, initial_y_spread, is_team1_side=False)
+
+    # Verify this is a valid tree (all series were reached)
+    if len(bracket_series) != len(playoff_series_qs):
+        return None
+
+    # Find bounds
+    if not bracket_series:
+        return None
+
+    min_x = min(s['x'] for s in bracket_series)
+    max_x = max(s['x'] for s in bracket_series)
+    min_y = min(s['y'] for s in bracket_series)
+    max_y = max(s['y'] for s in bracket_series)
+
+    # Translate so championship is in the middle horizontally and everything starts at y=0
+    # Championship should be at x position equal to its distance from min_x
+    champ_x_offset = -min_x
+
+    for series_data in bracket_series:
+        series_data['x'] += champ_x_offset
+        series_data['y'] -= min_y
+
+    grid_width = max_x - min_x + 1
+    grid_height = int(max_y - min_y) + 1
+
+    return {
+        'series': bracket_series,
+        'grid_width': grid_width,
+        'grid_height': grid_height,
+    }
+
+
+def create_bracket_series_data(series, x, y, is_championship=False):
+    """Helper function to create bracket series data dict."""
+    match = series.match
+    games = list(match.games.all())
+    box_score = calculate_match_box_score(match, games, include_details=True)
+
+    return {
+        'series': series,
+        'match': match,
+        'box_score': box_score,
+        'x': x,
+        'y': y,
+        'team1_id': match.team1.id,
+        'team2_id': match.team2.id,
+        'team1_abbr': match.team1.abbr,
+        'team2_abbr': match.team2.abbr,
+        'team1_seed': match.team1.seed,
+        'team2_seed': match.team2.seed,
+        'team1_is_winner': (series.winner == match.team1) if series.winner else False,
+        'team2_is_winner': (series.winner == match.team2) if series.winner else False,
+        'is_championship': is_championship,
     }

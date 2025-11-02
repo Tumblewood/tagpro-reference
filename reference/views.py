@@ -8,7 +8,7 @@ from django.db.models import F
 from django.db.models.functions import Lower
 from accounts.decorators import data_entry_required, bulk_import_required, full_data_permissions_required
 from django.contrib import messages
-from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats
+from reference.utils.display_info import aggregate_player_stats, get_team_standings, calculate_match_box_score, get_match_team_stats, calculate_rate_stats, build_playoff_bracket
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
 from reference.utils.stat_collection import update_standings, calculate_scar
 from reference.utils.data_correction import merge_players, merge_player_seasons
@@ -306,11 +306,15 @@ def season_home(req, season_id):
     teams = TeamSeason.objects.filter(season=season)
     standings = [get_team_standings(team) for team in teams]
     standings = sorted(standings, key=lambda x: x['team'].seed)
-    
+
+    # Build playoff bracket if playoffs exist
+    bracket_layout = build_playoff_bracket(season)
+
     return render(req, 'reference/season_home.html', {
         'season': season,
         'league_seasons': league_seasons,
         'standings': standings,
+        'bracket': bracket_layout,
     })
 
 

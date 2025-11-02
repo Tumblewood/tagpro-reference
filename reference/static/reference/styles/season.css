@@ -86,3 +86,25 @@
     margin: 1.5rem 0 0.5rem;
     color: #333;
 }
+
+/* Playoff bracket styles */
+.bracket-container {
+    overflow-x: auto;
+    margin: 1.5rem 0 2.5rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.bracket-grid {
+    min-width: min-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.bracket-series .box-score {
+    width: 18rem;
+}
+
+.championship-box-score {
+    outline: 2px solid #131;
+}
