@@ -910,33 +910,29 @@ def calculate_blowout_multiplier(cap_differential: int) -> float:
     Calculate the blowout adjustment multiplier for a game.
 
     The blowout-adjusted cap differential (BACD) is calculated as:
-    - First 2 caps from 0 count fully (1.0 each)
-    - 3rd cap counts as 0.8
-    - 4th cap counts as 0.6
-    - 5th through 9th caps count as 0.4
+    - First 3 caps count fully (1.0 each)
+    - 4th cap counts as 0.8
+    - 5th cap counts as 0.6
+    - 6th through 9th caps count as 0.4
     - Further caps count as 0.2
 
     The multiplier is BACD / actual cap differential.
-
-    Examples:
-    - 3-cap win (CD=3): BACD = 2 + 0.8 = 2.8, multiplier = 2.8/3 = 0.933
-    - 7-cap loss (CD=-7): BACD = -(2 + 0.8 + 0.6 + 0.4*4) = -4.6, multiplier = -4.6/-7 = 0.657
     """
     if cap_differential == 0:
         return 1.0
 
     abs_cd = abs(cap_differential)
     
-    if abs_cd <= 2:
+    if abs_cd <= 3:
         bacd = abs_cd
-    elif abs_cd == 3:
-        bacd = 2.8
     elif abs_cd == 4:
-        bacd = 3.4
+        bacd = 3.8
+    elif abs_cd == 5:
+        bacd = 4.4
     elif abs_cd <= 9:
-        bacd = 1.8 + 0.4 * abs_cd
+        bacd = 2.4 + 0.4 * abs_cd
     else:
-        bacd = 3.6 + 0.2 * abs_cd
+        bacd = 4.2 + 0.2 * abs_cd
 
     return bacd / abs_cd
 
