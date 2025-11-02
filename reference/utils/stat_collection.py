@@ -905,49 +905,101 @@ def update_standings(season: Season):
         team.save()
 
 
+def calculate_blowout_multiplier(cap_differential: int) -> float:
+    """
+    Calculate the blowout adjustment multiplier for a game.
+
+    The blowout-adjusted cap differential (BACD) is calculated as:
+    - First 2 caps from 0 count fully (1.0 each)
+    - 3rd cap counts as 0.8
+    - 4th cap counts as 0.6
+    - 5th through 9th caps count as 0.4
+    - Further caps count as 0.2
+
+    The multiplier is BACD / actual cap differential.
+
+    Examples:
+    - 3-cap win (CD=3): BACD = 2 + 0.8 = 2.8, multiplier = 2.8/3 = 0.933
+    - 7-cap loss (CD=-7): BACD = -(2 + 0.8 + 0.6 + 0.4*4) = -4.6, multiplier = -4.6/-7 = 0.657
+    """
+    if cap_differential == 0:
+        return 1.0
+
+    abs_cd = abs(cap_differential)
+    
+    if abs_cd <= 2:
+        bacd = abs_cd
+    elif abs_cd == 3:
+        bacd = 2.8
+    elif abs_cd == 4:
+        bacd = 3.4
+    elif abs_cd <= 9:
+        bacd = 1.8 + 0.4 * abs_cd
+    else:
+        bacd = 3.6 + 0.2 * abs_cd
+
+    return bacd / abs_cd
+
+
 @transaction.atomic
 def calculate_scar(season: Season):
     """
     Calculate OSCAR and DSCAR for all players in a season.
-    
-    OSCAR = 0.015 * hold (in seconds) + 0.75 * caps + 0.15 * pups + 0.025 * non-return tags - 0.025 * non-drop pops
-    DSCAR = 0.005 * prev (in seconds) + 0.1 * returns + 0.1 * returns in base - 0.01 * hold against (in seconds) + 0.15 * pups + 0.025 * non-return tags - 0.025 * non-drop pops
-    
-    After calculating raw OSCAR/DSCAR, adjusts league averages to 0.04 per minute.
+
+    OSCAR = 0.015 * hold (in seconds) + 0.7 * caps + 0.125 * pups + 0.025 * non-return tags
+    DSCAR = 0.005 * prev (in seconds) + 0.1 * returns + 0.1 * returns in base - 0.01 * hold against (in seconds) + 0.125 * pups + 0.025 * non-return tags - 0.05 * non-drop pops
+
+    Applies blowout adjustment based on game cap differential.
+    After calculating raw OSCAR/DSCAR, adjusts league averages to 0.035 per minute.
     """
     # Get all regulation stats for the season
     regulation_stats = PlayerRegulationStats.objects.filter(
         player_gamelog__game__match__season=season
-    ).select_related('player_gamelog__game')
-    
+    ).select_related('player_gamelog__game__match')
+
     league_totals = {
         'oscar': 0,
         'dscar': 0,
         'minutes': 0
     }
-    
+
     # Calculate raw OSCAR and DSCAR for each player game
     for stat in regulation_stats:
-        # Convert time from seconds to get values for calculations
+        game = stat.player_gamelog.game
+
+        # Calculate cap differential for this game (regulation only)
+        # Determine which team the player was on
+        player_team = stat.player_gamelog.team
+        is_team1 = (player_team == game.match.team1)
+
+        # Get regulation scores (team1_score and team2_score are already regulation-only)
+        if is_team1:
+            cap_differential = game.team1_score - game.team2_score
+        else:
+            cap_differential = game.team2_score - game.team1_score
+
+        # Calculate blowout multiplier
+        blowout_multiplier = calculate_blowout_multiplier(cap_differential)
+
+        # Convert time from ticks to get values for calculations
         hold_seconds = (stat.hold or 0) / 60  # Convert from ticks to seconds
         prevent_seconds = (stat.prevent or 0) / 60
         hold_against_seconds = (stat.hold_against or 0) / 60
         time_played_minutes = (stat.time_played or 0) / 3600
-        
+
         # Calculate non-return tags and non-drop pops
         non_return_tags = (stat.tags or 0) - (stat.returns or 0)
         non_drop_pops = (stat.pops or 0) - (stat.drops or 0)
-        
+
         # OSCAR formula
         oscar = (
             0.015 * hold_seconds +
-            0.75 * (stat.captures or 0) +
+            0.7 * (stat.captures or 0) +
             0.15 * (stat.powerups or 0) +
-            0.025 * non_return_tags -
-            0.025 * non_drop_pops
+            0.025 * non_return_tags
         )
-        
-        # DSCAR formula  
+
+        # DSCAR formula
         dscar = (
             0.005 * prevent_seconds +
             0.1 * (stat.returns or 0) +
@@ -955,35 +1007,51 @@ def calculate_scar(season: Season):
             0.01 * hold_against_seconds +
             0.15 * (stat.powerups or 0) +
             0.025 * non_return_tags -
-            0.025 * non_drop_pops
+            0.05 * non_drop_pops
         )
-        
+
+        # Apply blowout adjustment
+        oscar *= blowout_multiplier
+        dscar *= blowout_multiplier
+        adjusted_minutes = time_played_minutes * blowout_multiplier
+
         # Store raw values temporarily
         stat.oscar = oscar
         stat.dscar = dscar
-        
-        # Add to league totals
+
+        # Add to league totals (using adjusted minutes)
         league_totals['oscar'] += oscar
         league_totals['dscar'] += dscar
-        league_totals['minutes'] += time_played_minutes
-    
+        league_totals['minutes'] += adjusted_minutes
+
     # Calculate league averages per minute
     if league_totals['minutes'] > 0:
         league_oscar_per_minute = league_totals['oscar'] / league_totals['minutes']
         league_dscar_per_minute = league_totals['dscar'] / league_totals['minutes']
-        
-        # Target is 0.04 per minute for both stats
-        oscar_adjustment_per_minute = league_oscar_per_minute - 0.04
-        dscar_adjustment_per_minute = league_dscar_per_minute - 0.04
-        
+
+        # Target is 0.035 per minute for both stats
+        oscar_adjustment_per_minute = league_oscar_per_minute - 0.035
+        dscar_adjustment_per_minute = league_dscar_per_minute - 0.035
+
         # Apply adjustments and save
         for stat in regulation_stats:
+            game = stat.player_gamelog.game
+            player_team = stat.player_gamelog.team
+            is_team1 = (player_team == game.match.team1)
+
+            if is_team1:
+                cap_differential = game.team1_score - game.team2_score
+            else:
+                cap_differential = game.team2_score - game.team1_score
+
+            blowout_multiplier = calculate_blowout_multiplier(cap_differential)
             time_played_minutes = (stat.time_played or 0) / 3600
-            
-            # Subtract the adjustment proportional to minutes played
-            stat.oscar -= oscar_adjustment_per_minute * time_played_minutes
-            stat.dscar -= dscar_adjustment_per_minute * time_played_minutes
-            
+            adjusted_minutes = time_played_minutes * blowout_multiplier
+
+            # Subtract the adjustment proportional to adjusted minutes played
+            stat.oscar -= oscar_adjustment_per_minute * adjusted_minutes
+            stat.dscar -= dscar_adjustment_per_minute * adjusted_minutes
+
             stat.save()
 
 
