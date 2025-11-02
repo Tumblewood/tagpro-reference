@@ -36,56 +36,6 @@
     <a href="{% league_url season.league %}">History</a>
 </div>
 
-{% if bracket %}
-<div class="bracket-container">
-    <div class="bracket-grid" style="
-        display: grid;
-        grid-template-columns: repeat({{ bracket.grid_width }}, auto);
-        grid-template-rows: repeat({{ bracket.grid_height }}, auto);
-        gap: 0.75rem 2rem;
-    ">
-        {% for series_data in bracket.series %}
-        <div class="bracket-series" style="
-            grid-column: {{ series_data.x|add:1 }};
-            grid-row: {{ series_data.y|add:1 }};
-        ">
-            <div class="match-date"><a href="{% url 'match_view' series_data.match.id %}">{{ series_data.match.week }} – {{ series_data.match.date|date:"n/j" }}</a></div>
-            <table class="box-score bracket-box-score {% if series_data.is_championship %}championship-box-score{% endif %}">
-                <colgroup>
-                    <col>
-                    {% for game in series_data.box_score.box_score_games %}
-                    <col style="width: 2rem">
-                    {% endfor %}
-                </colgroup>
-                <tbody>
-                    <tr>
-                        <td class="team-name-cell {% if series_data.team1_is_winner %}winning-total{% endif %}">
-                            {% if series_data.team1_seed %}{{ series_data.team1_seed }}. {% endif %}<a href="{% url 'team_season' series_data.team1_id %}">{{ series_data.team1_abbr }}</a>
-                        </td>
-                        {% for game in series_data.box_score.box_score_games %}
-                        <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
-                            {{ game.team1_score }}{% if game.outcome == 'OTW' %}<span class="overtime">O</span>{% endif %}
-                        </td>
-                        {% endfor %}
-                    </tr>
-                    <tr>
-                        <td class="team-name-cell {% if series_data.team2_is_winner %}winning-total{% endif %}">
-                            {% if series_data.team2_seed %}{{ series_data.team2_seed }}. {% endif %}<a href="{% url 'team_season' series_data.team2_id %}">{{ series_data.team2_abbr }}</a>
-                        </td>
-                        {% for game in series_data.box_score.box_score_games %}
-                        <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
-                            {{ game.team2_score }}{% if game.outcome == 'OTL' %}<span class="overtime">O</span>{% endif %}
-                        </td>
-                        {% endfor %}
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-{% endif %}
-
 <h2 class="section-title">Standings</h2>
 <div class="stat-table-container">
     <table class="stat-table">
@@ -141,6 +91,57 @@
         </tbody>
     </table>
 </div>
+
+{% if bracket %}
+<h2 class="section-title">Playoffs</h2>
+<div class="bracket-container">
+    <div class="bracket-grid" style="
+        display: grid;
+        grid-template-columns: repeat({{ bracket.grid_width }}, auto);
+        grid-template-rows: repeat({{ bracket.grid_height }}, auto);
+        gap: 0.75rem 2rem;
+    ">
+        {% for series_data in bracket.series %}
+        <div class="bracket-series" style="
+            grid-column: {{ series_data.x|add:1 }};
+            grid-row: {{ series_data.y|add:1 }};
+        ">
+            <div class="match-date"><a href="{% url 'match_view' series_data.match.id %}">{{ series_data.match.week }} – {{ series_data.match.date|date:"n/j" }}</a></div>
+            <table class="box-score {% if series_data.is_championship %}championship-box-score{% endif %}">
+                <colgroup>
+                    <col>
+                    {% for game in series_data.box_score.box_score_games %}
+                    <col style="width: 2rem">
+                    {% endfor %}
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td class="team-name-cell {% if series_data.team1_is_winner %}winning-total{% endif %}">
+                            {% if series_data.team1_seed %}{{ series_data.team1_seed }}. {% endif %}<a href="{% url 'team_season' series_data.team1_id %}">{{ series_data.team1_abbr }}</a>
+                        </td>
+                        {% for game in series_data.box_score.box_score_games %}
+                        <td class="{% if game.winner == 'team1' %}winning-score{% endif %}">
+                            {{ game.team1_score }}{% if game.outcome == 'OTW' %}<span class="overtime">O</span>{% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td class="team-name-cell {% if series_data.team2_is_winner %}winning-total{% endif %}">
+                            {% if series_data.team2_seed %}{{ series_data.team2_seed }}. {% endif %}<a href="{% url 'team_season' series_data.team2_id %}">{{ series_data.team2_abbr }}</a>
+                        </td>
+                        {% for game in series_data.box_score.box_score_games %}
+                        <td class="{% if game.winner == 'team2' %}winning-score{% endif %}">
+                            {{ game.team2_score }}{% if game.outcome == 'OTL' %}<span class="overtime">O</span>{% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
 {% endblock %}
 
 {% block extra_js %}
