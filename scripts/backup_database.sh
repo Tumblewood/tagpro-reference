@@ -11,8 +11,8 @@ set -e  # Exit on error
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Configuration
-DB_PATH="$SCRIPT_DIR/db.sqlite3"
-BACKUP_DIR="$SCRIPT_DIR/backups"
+DB_PATH="$SCRIPT_DIR/../db.sqlite3"
+BACKUP_DIR="$SCRIPT_DIR/../backups"
 DATE=$(date +%Y-%m-%d)
 DAY_OF_MONTH=$(date +%d)
 BACKUP_FILE="$BACKUP_DIR/db_$DATE.sqlite3"
