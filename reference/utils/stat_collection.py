@@ -8,6 +8,7 @@ from django.conf import settings
 import os
 import sys
 import json
+import sqlite3
 
 
 STAT_FIELDS = [
@@ -30,71 +31,83 @@ for f in HELPER_FIELDS:
     stat_defaults[f] = None
 
 
-# In debug mode, load all league matches upfront
-all_league_matches = []
-if settings.DEBUG:
-    i = 1
-    with open("data/downloaded_matches.json") as f:
-        all_league_matches += [m for m in tagpro_eu.bulk.load_matches(f)]
-    with open("tpl_import/league_maps.json", encoding="utf-8") as f:
-        bulk_maps = tagpro_eu.bulk.load_maps(f)
-    while True:
-        try:
-            with open(f"tpl_import/league_matches{i}.json") as f:
-                all_league_matches += [m for m in tagpro_eu.bulk.load_matches(f, bulk_maps)]
-            i += 1
-        except FileNotFoundError:
-            break
+# Load bulk maps for parsing match data
+with open("tpl_import/league_maps.json", encoding="utf-8") as f:
+    bulk_maps = tagpro_eu.bulk.load_maps(f)
+
+
+# SQLite connection for matches database
+MATCHES_DB_PATH = "matches.sqlite3"
+
+
+def get_matches_db_connection():
+    """Get a connection to the matches database."""
+    return sqlite3.connect(MATCHES_DB_PATH)
 
 
 def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
-    relevant_matches = all_league_matches
-    if not settings.DEBUG:
-        try:
-            with open(f"tpl_import/league_matches{ceil(int(game_id) / 500000)}.json") as f1, open("tpl_import/league_maps.json", encoding="utf-8") as f2:
-                relevant_matches = [m for m in tagpro_eu.bulk.load_matches(
-                    f1,
-                    tagpro_eu.bulk.load_maps(f2)
-                )]
-            with open("data/downloaded_matches.json") as f:
-                relevant_matches += [m for m in tagpro_eu.bulk.load_matches(f)] 
-        except FileNotFoundError:
-            pass
-    try:
-        m: tagpro_eu.Match = [g for g in relevant_matches if str(g.match_id) == str(game_id)][0]
-    except IndexError:
-        # if no match found in bulkmatches, download from tagpro.eu
-        # when we use download_match, map_id field will not be present, so set it to None
-        m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
-        m.map_id = None
-        m.match_id = game_id
-        
-        # Save downloaded match to appropriate bulk file
-        save_match_to_bulk_file(m)
+    """Load a match from the matches database or download from tagpro.eu if not found."""
+    # Try to load from SQLite database
+    conn = get_matches_db_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT match_data FROM matches WHERE match_id = ?", (int(game_id),))
+    row = cursor.fetchone()
+
+    if row:
+        # Parse match data from JSON
+        match_data = json.loads(row[0])
+        # Convert to tagpro_eu.Match object
+        # We need to create a fake file-like object that tagpro_eu can read from
+        import io
+        fake_file = io.StringIO(json.dumps({game_id: match_data}))
+        matches = list(tagpro_eu.bulk.load_matches(fake_file, bulk_maps))
+        conn.close()
+        if matches:
+            return matches[0]
+
+    conn.close()
+
+    # If no match found in database, download from tagpro.eu
+    m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
+    m.map_id = None
+    m.match_id = game_id
+
+    # Save downloaded match to database
+    save_match_to_bulk_file(m)
     return m
 
 
 def save_match_to_bulk_file(m: tagpro_eu.Match):
-    """Save a downloaded match to the appropriate bulk file."""
+    """Save a downloaded match to the matches database."""
     try:
-        # Read existing bulk file
-        with open("data/downloaded_matches.json", "r") as f:
-            try:
-                bulk_data = json.load(f)
-            except (json.JSONDecodeError, FileNotFoundError):
-                bulk_data = {}
-        
-        # Add the new match to bulk data
-        bulk_data[str(m.match_id)] = m.to_dict()
-        bulk_data[str(m.match_id)]['mapId'] = m.map_id
-        
-        # Write back to file
-        with open("data/downloaded_matches.json", "w") as f:
-            json.dump(bulk_data, f, separators=(",", ":"))
-            
+        conn = get_matches_db_connection()
+        cursor = conn.cursor()
+
+        # Convert match to dict
+        match_data = m.to_dict()
+        match_data['mapId'] = m.map_id
+
+        # Check if match already exists
+        cursor.execute("SELECT 1 FROM matches WHERE match_id = ?", (int(m.match_id),))
+        if cursor.fetchone():
+            # Match already exists, skip
+            conn.close()
+            return
+
+        # Insert the match
+        match_json = json.dumps(match_data, separators=(',', ':'))
+        cursor.execute(
+            "INSERT INTO matches (match_id, match_data) VALUES (?, ?)",
+            (int(m.match_id), match_json)
+        )
+
+        conn.commit()
+        conn.close()
+
     except Exception as e:
-        # Don't fail the whole process if we can't save to bulk file
-        print(f"Warning: Could not save match {m.match_id} to bulk file: {e}")
+        # Don't fail the whole process if we can't save to database
+        print(f"Warning: Could not save match {m.match_id} to database: {e}")
         pass
 
 
