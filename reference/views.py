@@ -1209,28 +1209,37 @@ def edit_season(request, season_id):
             except Exception as e:
                 messages.error(request, f"Error changing logo: {str(e)}")
 
-        elif action == "change_week":
+        elif action == "update_matches":
             try:
-                match_id = request.POST.get("match_id")
-                new_week = request.POST.get("new_week")
-                match = Match.objects.get(id=match_id)
-                old_week = match.week
-                match.week = new_week
-                match.save()
-                messages.success(request, f"Changed match week from {old_week} to {new_week}")
-            except Exception as e:
-                messages.error(request, f"Error changing week: {str(e)}")
+                updated_count = 0
+                # Get all match IDs from the form
+                match_ids = [key.split('_')[1] for key in request.POST.keys() if key.startswith('week_')]
 
-        elif action == "set_vod":
-            try:
-                match_id = request.POST.get("match_id")
-                vod_url = request.POST.get("vod_url")
-                match = Match.objects.get(id=match_id)
-                match.vod = vod_url if vod_url else None
-                match.save()
-                messages.success(request, f"Updated VOD for {match.team1.name} vs {match.team2.name}")
+                for match_id in match_ids:
+                    match = Match.objects.get(id=match_id)
+                    new_week = request.POST.get(f'week_{match_id}', '').strip()
+                    new_vod = request.POST.get(f'vod_{match_id}', '').strip()
+
+                    # Only update if there's a change
+                    changed = False
+                    if new_week and new_week != match.week:
+                        match.week = new_week
+                        changed = True
+
+                    if new_vod != (match.vod or ''):
+                        match.vod = new_vod if new_vod else None
+                        changed = True
+
+                    if changed:
+                        match.save()
+                        updated_count += 1
+
+                if updated_count > 0:
+                    messages.success(request, f"Updated {updated_count} match(es)")
+                else:
+                    messages.info(request, "No changes detected")
             except Exception as e:
-                messages.error(request, f"Error setting VOD: {str(e)}")
+                messages.error(request, f"Error updating matches: {str(e)}")
 
         return redirect("edit_season", season_id=season.id)
 
@@ -1247,48 +1256,18 @@ def edit_season(request, season_id):
         team_seasons__season=season
     ).distinct().order_by('name')
 
-    # Get all matches for this season
+    # Get all matches for this season, chronologically
     matches = Match.objects.filter(season=season).select_related(
         'team1__franchise', 'team2__franchise'
-    ).prefetch_related('games', 'playoff_series').order_by('date', 'week')
+    ).prefetch_related('games').order_by('date', 'id')
 
-    # Build schedule data (reuse season_schedule logic)
-    weeks = {}
+    # Build simplified match data for table display
+    matches_data = []
     for match in matches:
-        week = match.week
-        if week not in weeks:
-            weeks[week] = []
-        weeks[week].append(match)
-
-    # Sort weeks with special playoff ordering
-    def week_sort_key(week_name):
-        return PLAYOFF_ORDER.get(week_name, week_name)
-
-    sorted_weeks = sorted(weeks.keys(), key=week_sort_key)
-
-    # Build schedule data
-    schedule_data = []
-    for week in sorted_weeks:
-        week_matches = []
-        for match in weeks[week]:
-            # Get games for this match
-            games = list(match.games.all())
-
-            # Build box score data
-            if games:
-                match_data = calculate_match_box_score(match, games)
-            else:
-                match_data = {
-                    'match': match,
-                    'games': [],
-                    'has_games': False
-                }
-
-            week_matches.append(match_data)
-
-        schedule_data.append({
-            'week': week,
-            'matches': week_matches
+        games_count = match.games.count()
+        matches_data.append({
+            'match': match,
+            'games_count': games_count,
         })
 
     return render(request, "reference/edit_season.html", {
@@ -1297,6 +1276,6 @@ def edit_season(request, season_id):
         "teams": teams,
         "all_players": all_players,
         "franchises": franchises,
-        "matches": matches,
-        "schedule_data": schedule_data,
+        "matches_data": matches_data,
+        "is_admin": request.user.is_staff if request.user.is_authenticated else False,
     })
