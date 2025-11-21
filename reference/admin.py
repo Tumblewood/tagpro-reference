@@ -90,7 +90,6 @@ class MatchAdmin(admin.ModelAdmin):
 
 class GameAdmin(admin.ModelAdmin):
     actions = [reprocess]
-    inlines = [PlayerGameLogInline]
     search_fields = ['tagpro_eu', 'resumed_tagpro_eu']
     list_filter = ['match__season']
 
