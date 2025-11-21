@@ -19,7 +19,7 @@ class CustomUserCreationForm(BaseUserCreationForm):
         """Save the user with default permission tier."""
         user = super().save(commit=False)
         user.email = self.cleaned_data['email']
-        user.permission_tier = 'entry'  # Set default permission tier
+        user.permission_tier = 'none'  # Set default permission tier
         if commit:
             user.save()
         return user
