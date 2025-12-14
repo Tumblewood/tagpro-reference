@@ -308,7 +308,7 @@ def enter_confirmed_data(
     team1_is_red = red_team == match.team1
     
     # Check if game already exists
-    game_id = int(extract_game_id_from_url(eu_url))
+    game_id = extract_game_id_from_url(eu_url)
     existing_game = Game.objects.filter(tagpro_eu=game_id).first()
     if existing_game:
         raise Exception(f"Game with tagpro.eu ID {game_id} already exists")
@@ -358,7 +358,7 @@ def enter_confirmed_data(
             playing_as=p['game_username'],
             team=played_on
         )
-    
+
     # Collect and store stats from the game
     process_game_stats(game)
 

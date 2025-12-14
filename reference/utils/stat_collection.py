@@ -9,6 +9,7 @@ import os
 import sys
 import json
 import sqlite3
+import io
 
 
 STAT_FIELDS = [
@@ -50,18 +51,25 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
     # Try to load from SQLite database
     conn = get_matches_db_connection()
     cursor = conn.cursor()
-
     cursor.execute("SELECT match_data FROM matches WHERE match_id = ?", (int(game_id),))
     row = cursor.fetchone()
-
     if row:
         # Parse match data from JSON
         match_data = json.loads(row[0])
+
         # Convert to tagpro_eu.Match object
         # We need to create a fake file-like object that tagpro_eu can read from
-        import io
-        fake_file = io.StringIO(json.dumps({game_id: match_data}))
-        matches = list(tagpro_eu.bulk.load_matches(fake_file, bulk_maps))
+        fake_file = io.StringIO(json.dumps({ game_id: match_data }))
+        try:
+            # If mapId is None, you can't try to load the map from bulk_maps
+            if match_data['mapId'] is not None:
+                matches = list(tagpro_eu.load_matches(fake_file, bulk_maps))
+            else:
+                matches = list(tagpro_eu.load_matches(fake_file))
+        except Exception as e:
+            conn.close()
+            raise Exception(f"Failed to parse match {game_id} from database: {e}")
+
         conn.close()
         if matches:
             return matches[0]
@@ -70,11 +78,15 @@ def load_eu_match_object(game_id: str) -> tagpro_eu.Match:
 
     # If no match found in database, download from tagpro.eu
     m: tagpro_eu.Match = tagpro_eu.download_match(game_id)
+    if m is None:
+        raise Exception(f"Could not download match {game_id}")
+    
     m.map_id = None
     m.match_id = game_id
-
+    
     # Save downloaded match to database
     save_match_to_bulk_file(m)
+    
     return m
 
 
@@ -430,7 +442,6 @@ def process_game_stats(game: Game):
         p.playing_as: p
         for p in PlayerGameLog.objects.filter(game=game)
     }
-    
     m, m2 = None, None
     if not game.tagpro_eu:
         return None
@@ -443,7 +454,7 @@ def process_game_stats(game: Game):
         return None
 
     ps, ps_before_ot, team_mapping, score_before_ot, total_score = parse_stats_from_eu_match(m, game.paused_time or 600)
-    
+
     # For multi-half games, use period scores (total_score) instead of cumulative scores
     team1_is_red = game.red_team == game.match.team1
     if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
@@ -501,7 +512,7 @@ def process_game_stats(game: Game):
             went_to_ot = is_ot_period or\
                 score_before_ot[0] + score2_before_ot[0] == score_before_ot[1] + score2_before_ot[1]
             game.had_ot = went_to_ot
-
+    
     # For multi-half games, don't set outcome until after all halves are added
     if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
         game.outcome = None
@@ -542,7 +553,7 @@ def process_game_stats(game: Game):
         elif team_mapping[p] == m.team_blue.name:
             players[p].team = game.match.team2 if team1_is_red else game.match.team1
         else:
-            raise Exception("Player {p} has no team")
+            raise Exception(f"Player {p} has no team")
         players[p].save()
 
         # Get or create the object for their stats (for both full game and regulation)
