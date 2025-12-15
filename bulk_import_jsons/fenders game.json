@@ -1,0 +1,1004 @@
+{
+  "teamSeasons": [
+    { "season": "Fender's Game #1", "franchise": "A Blockwork Orange", "name": "A Blockwork Orange", "abbr": "ABO" },
+    { "season": "Fender's Game #1", "franchise": "ALL CAPS", "name": "ALL CAPS", "abbr": "AC" },
+    { "season": "Fender's Game #1", "franchise": "Adrenaline Spikes", "name": "Adrenaline Spikes", "abbr": "AS" },
+    { "season": "Fender's Game #1", "franchise": "Boostin Dynamo", "name": "Boostin Dynamo", "abbr": "BDN" },
+    { "season": "Fender's Game #1", "franchise": "Ghostboosters", "name": "Ghostboosters", "abbr": "GB" },
+    { "season": "Fender's Game #1", "franchise": "Holdin' Gate Warriors", "name": "Holdin' Gate Warriors", "abbr": "HGW" },
+    { "season": "Fender's Game #1", "franchise": "Merballs", "name": "Myrtle Beach Merballs", "abbr": "MRB" },
+    { "season": "Fender's Game #1", "franchise": "Red Hot Chili Poppers", "name": "Red Hot Chili Poppers", "abbr": "RHP" }
+  ],
+  "playerSeasons": [
+    { "season": "Fender's Game #1", "team": "A Blockwork Orange", "player": "1deag", "playing_as": "1deag" },
+    { "season": "Fender's Game #1", "team": "A Blockwork Orange", "player": "Alphachurro", "playing_as": "Alphachurro" },
+    { "season": "Fender's Game #1", "team": "A Blockwork Orange", "player": "beef", "playing_as": "beef" },
+    { "season": "Fender's Game #1", "team": "A Blockwork Orange", "player": "ft", "playing_as": "ft" },
+    { "season": "Fender's Game #1", "team": "ALL CAPS", "player": "Button", "playing_as": "Button" },
+    { "season": "Fender's Game #1", "team": null, "player": "DudeMcGuy", "playing_as": "DUDEMCGUY" },
+    { "season": "Fender's Game #1", "team": "ALL CAPS", "player": "anti-re", "playing_as": "anti-re" },
+    { "season": "Fender's Game #1", "team": "ALL CAPS", "player": "waterwheel", "playing_as": "chuggo" },
+    { "season": "Fender's Game #1", "team": "ALL CAPS", "player": "dodsfall", "playing_as": "dodsfall" },
+    { "season": "Fender's Game #1", "team": null, "player": "karma", "playing_as": "karma" },
+    { "season": "Fender's Game #1", "team": "Adrenaline Spikes", "player": "Bamboozler", "playing_as": "Bamboozler" },
+    { "season": "Fender's Game #1", "team": "Adrenaline Spikes", "player": "CT Crunch", "playing_as": "CT Crunch" },
+    { "season": "Fender's Game #1", "team": "Adrenaline Spikes", "player": "Ty", "playing_as": "Ty" },
+    { "season": "Fender's Game #1", "team": null, "player": "mc", "playing_as": "mc" },
+    { "season": "Fender's Game #1", "team": null, "player": "rina", "playing_as": "rina" },
+    { "season": "Fender's Game #1", "team": "Adrenaline Spikes", "player": "yawn", "playing_as": "yawn" },
+    { "season": "Fender's Game #1", "team": "Boostin Dynamo", "player": "Prime", "playing_as": "Prime" },
+    { "season": "Fender's Game #1", "team": "Boostin Dynamo", "player": "Trapsin", "playing_as": "Trapsin" },
+    { "season": "Fender's Game #1", "team": "Boostin Dynamo", "player": "DanP", "playing_as": "danp" },
+    { "season": "Fender's Game #1", "team": "Boostin Dynamo", "player": "joy.", "playing_as": "joy." },
+    { "season": "Fender's Game #1", "team": "Ghostboosters", "player": "Russ", "playing_as": "Russ" },
+    { "season": "Fender's Game #1", "team": null, "player": "Tinderfella", "playing_as": "Tinderfella" },
+    { "season": "Fender's Game #1", "team": "Ghostboosters", "player": "deku", "playing_as": "deku" },
+    { "season": "Fender's Game #1", "team": "Ghostboosters", "player": "jig", "playing_as": "jig" },
+    { "season": "Fender's Game #1", "team": "Ghostboosters", "player": "king krule", "playing_as": "king krule" },
+    { "season": "Fender's Game #1", "team": "Holdin' Gate Warriors", "player": "fm", "playing_as": "0" },
+    { "season": "Fender's Game #1", "team": "Holdin' Gate Warriors", "player": "Carrrrrl", "playing_as": "Carrrrrl" },
+    { "season": "Fender's Game #1", "team": "Holdin' Gate Warriors", "player": "Messi", "playing_as": "Messi" },
+    { "season": "Fender's Game #1", "team": "Holdin' Gate Warriors", "player": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+    { "season": "Fender's Game #1", "team": null, "player": "TOPPY", "playing_as": "TOPPY" },
+    { "season": "Fender's Game #1", "team": "Myrtle Beach Merballs", "player": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+    { "season": "Fender's Game #1", "team": "Myrtle Beach Merballs", "player": "bbb", "playing_as": "bbb" },
+    { "season": "Fender's Game #1", "team": "Myrtle Beach Merballs", "player": "fender", "playing_as": "fender" },
+    { "season": "Fender's Game #1", "team": "Myrtle Beach Merballs", "player": "vic", "playing_as": "vic" },
+    { "season": "Fender's Game #1", "team": "Red Hot Chili Poppers", "player": "ASAP", "playing_as": "ASAP" },
+    { "season": "Fender's Game #1", "team": "Red Hot Chili Poppers", "player": "Kep", "playing_as": "Kep" },
+    { "season": "Fender's Game #1", "team": "Red Hot Chili Poppers", "player": "realtea", "playing_as": "realtea" },
+    { "season": "Fender's Game #1", "team": "Red Hot Chili Poppers", "player": "yiss", "playing_as": "yiss" }
+  ],
+  "matches": [
+    {
+      "season": "Fender's Game #1", "date": "2025-11-30", "week": "Upper Bracket QF", "team1": "ALL CAPS", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": 4135496, "map_name": "OTI Jardim", "map_id": null, "red_team": "ALL CAPS", "blue_team": "A Blockwork Orange", "team1_score": 4, "team2_score": 11,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "Button" },
+            { "team": "ALL CAPS", "player_season": "karma", "playing_as": "karma" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "chuggo" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135512, "map_name": "Milano 2", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "Button" },
+            { "team": "ALL CAPS", "player_season": "karma", "playing_as": "karma" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "chuggo" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "anti-re" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135538, "map_name": "Moon Base", "map_id": null, "red_team": "ALL CAPS", "blue_team": "A Blockwork Orange", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "Button" },
+            { "team": "ALL CAPS", "player_season": "karma", "playing_as": "karma" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "chuggo" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135553, "map_name": "Asida", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "Button" },
+            { "team": "ALL CAPS", "player_season": "karma", "playing_as": "karma" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "chuggo" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "anti-re" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135567, "map_name": "Odell", "map_id": null, "red_team": "ALL CAPS", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "Button" },
+            { "team": "ALL CAPS", "player_season": "karma", "playing_as": "karma" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "chuggo" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "anti-re" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-11-30", "week": "Upper Bracket QF", "team1": "Adrenaline Spikes", "team2": "Boostin Dynamo",
+      "games": [
+        {
+          "tagpro_eu": 4135502, "map_name": "Sardonica", "map_id": null, "red_team": "Adrenaline Spikes", "blue_team": "Boostin Dynamo", "team1_score": 8, "team2_score": 9,
+          "players": [
+            { "team": "Adrenaline Spikes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Adrenaline Spikes", "player_season": "mc", "playing_as": "mc" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135519, "map_name": "OTI Jardim", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Adrenaline Spikes", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Adrenaline Spikes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Adrenaline Spikes", "player_season": "mc", "playing_as": "mc" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135535, "map_name": "Milano 2", "map_id": null, "red_team": "Adrenaline Spikes", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 9,
+          "players": [
+            { "team": "Adrenaline Spikes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Adrenaline Spikes", "player_season": "mc", "playing_as": "mc" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135550, "map_name": "Audacity 2", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Adrenaline Spikes", "team1_score": 0, "team2_score": 3,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Adrenaline Spikes", "player_season": "Ty", "playing_as": "Ty" },
+            { "team": "Adrenaline Spikes", "player_season": "mc", "playing_as": "mc" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-11-30", "week": "Upper Bracket QF", "team1": "Holdin' Gate Warriors", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": 4135506, "map_name": "Audacity 2", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 2, "team2_score": 0,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135524, "map_name": "Basenji", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135542, "map_name": "Moon Base", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135560, "map_name": "PRush", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 0, "team2_score": 7,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135572, "map_name": "Asida", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Ghostboosters", "team1_score": 9, "team2_score": 8,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135585, "map_name": "OTI Jardim", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Holdin' Gate Warriors", "team1_score": 3, "team2_score": 8,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Ghostboosters", "player_season": "Tinderfella", "playing_as": "Tinderfella" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "0" },
+            { "team": "Holdin' Gate Warriors", "player_season": "TOPPY", "playing_as": "TOPPY" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-11-30", "week": "Upper Bracket QF", "team1": "Myrtle Beach Merballs", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": 4135482, "map_name": "Odell", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135497, "map_name": "Moon Base", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Myrtle Beach Merballs", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135513, "map_name": "OTI Jardim", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Red Hot Chili Poppers", "team1_score": 10, "team2_score": 7,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135528, "map_name": "Kardashev 2", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Myrtle Beach Merballs", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135545, "map_name": "Audacity 2", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Red Hot Chili Poppers", "team1_score": 7, "team2_score": 4,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4135561, "map_name": "Asida", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Myrtle Beach Merballs", "team1_score": 8, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-04", "week": "Lower Bracket Round 1", "team1": "ALL CAPS", "team2": "Adrenaline Spikes",
+      "games": [
+        {
+          "tagpro_eu": 4139626, "map_name": "Milano 2", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Adrenaline Spikes", "team1_score": 5, "team2_score": 2,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "DUDEMCGUY", "playing_as": "DUDEMCGUY" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Adrenaline Spikes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Adrenaline Spikes", "player_season": "CT Crunch", "playing_as": "CT Crunch" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139639, "map_name": "Audacity 2", "map_id": null, "red_team": "Adrenaline Spikes", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 1,
+          "players": [
+            { "team": "Adrenaline Spikes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Adrenaline Spikes", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "DUDEMCGUY", "playing_as": "DUDEMCGUY" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139651, "map_name": "Sardonica", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Adrenaline Spikes", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "DUDEMCGUY", "playing_as": "DUDEMCGUY" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Adrenaline Spikes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Adrenaline Spikes", "player_season": "CT Crunch", "playing_as": "CT Crunch" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139662, "map_name": "OTI Jardim", "map_id": null, "red_team": "Adrenaline Spikes", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 6,
+          "players": [
+            { "team": "Adrenaline Spikes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Adrenaline Spikes", "player_season": "CT Crunch", "playing_as": "CT Crunch" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "DUDEMCGUY", "playing_as": "DUDEMCGUY" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139672, "map_name": "Moon Base", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Adrenaline Spikes", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "DUDEMCGUY", "playing_as": "DUDEMCGUY" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Adrenaline Spikes", "player_season": "rina", "playing_as": "rina" },
+            { "team": "Adrenaline Spikes", "player_season": "Bamboozler", "playing_as": "Bamboozler" },
+            { "team": "Adrenaline Spikes", "player_season": "yawn", "playing_as": "yawn" },
+            { "team": "Adrenaline Spikes", "player_season": "CT Crunch", "playing_as": "CT Crunch" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-04", "week": "Upper Bracket SF", "team1": "Boostin Dynamo", "team2": "A Blockwork Orange",
+      "games": [
+        {
+          "tagpro_eu": 4139629, "map_name": "Milano 2", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "A Blockwork Orange", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139642, "map_name": "Sardonica", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139655, "map_name": "Odell", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "A Blockwork Orange", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "mc", "playing_as": "MC" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139668, "map_name": "Kardashev 2", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Boostin Dynamo", "team1_score": 6, "team2_score": 7,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "mc", "playing_as": "MC" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-04", "week": "Upper Bracket SF", "team1": "Myrtle Beach Merballs", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": 4139595, "map_name": "Moon Base", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Ghostboosters", "team1_score": 7, "team2_score": 1,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139607, "map_name": "Mancappin Project", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Myrtle Beach Merballs", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139621, "map_name": "Audacity 2", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 3,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139635, "map_name": "Asida", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Myrtle Beach Merballs", "team1_score": 5, "team2_score": 8,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139649, "map_name": "Basenji", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "Ghostboosters", "team1_score": 3, "team2_score": 4,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139659, "map_name": "OTI Jardim", "map_id": null, "red_team": "Ghostboosters", "blue_team": "Myrtle Beach Merballs", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-04", "week": "Lower Bracket Round 1", "team1": "Red Hot Chili Poppers", "team2": "Holdin' Gate Warriors",
+      "games": [
+        {
+          "tagpro_eu": 4139619, "map_name": "Audacity 2", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Holdin' Gate Warriors", "team1_score": 2, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139633, "map_name": "Moon Base", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139646, "map_name": "Odell", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Holdin' Gate Warriors", "team1_score": 9, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139656, "map_name": "OTI Jardim", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Red Hot Chili Poppers", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139670, "map_name": "Asida", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Holdin' Gate Warriors", "team1_score": 5, "team2_score": 6,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" }
+          ]
+        },
+        {
+          "tagpro_eu": 4139680, "map_name": "Sardonica", "map_id": null, "red_team": "Holdin' Gate Warriors", "blue_team": "Red Hot Chili Poppers", "team1_score": 10, "team2_score": 2,
+          "players": [
+            { "team": "Holdin' Gate Warriors", "player_season": "0", "playing_as": "fm" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Carrrrrl", "playing_as": "Carrrrrl" },
+            { "team": "Holdin' Gate Warriors", "player_season": "Messi", "playing_as": "Messi" },
+            { "team": "Holdin' Gate Warriors", "player_season": "PASSTHEFLAG", "playing_as": "PASSTHEFLAG" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-07", "week": "Lower Bracket QF", "team1": "Boostin Dynamo", "team2": "Red Hot Chili Poppers",
+      "games": [
+        {
+          "tagpro_eu": 4142145, "map_name": "Sardonica", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Red Hot Chili Poppers", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142158, "map_name": "Kardashev 2", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Boostin Dynamo", "team1_score": 1, "team2_score": 7,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142174, "map_name": "Odell", "map_id": null, "red_team": "Boostin Dynamo", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 5,
+          "players": [
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142184, "map_name": "Milano 2", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "Boostin Dynamo", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "Boostin Dynamo", "player_season": "danp", "playing_as": "danp" },
+            { "team": "Boostin Dynamo", "player_season": "joy.", "playing_as": "joy." },
+            { "team": "Boostin Dynamo", "player_season": "Trapsin", "playing_as": "Trapsin" },
+            { "team": "Boostin Dynamo", "player_season": "Prime", "playing_as": "Prime" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-07", "week": "Lower Bracket QF", "team1": "Myrtle Beach Merballs", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": 4142143, "map_name": "Milano 2", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "ALL CAPS", "team1_score": 6, "team2_score": 5,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142153, "map_name": "Moon Base", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Myrtle Beach Merballs", "team1_score": 4, "team2_score": 10,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142169, "map_name": "Kardashev 2", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "ALL CAPS", "team1_score": 5, "team2_score": 11,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142181, "map_name": "Asida", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Myrtle Beach Merballs", "team1_score": 7, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142195, "map_name": "OTI Jardim", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 2,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142206, "map_name": "PRush", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Myrtle Beach Merballs", "team1_score": 4, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" }
+          ]
+        },
+        {
+          "tagpro_eu": 4142221, "map_name": "Audacity 2", "map_id": null, "red_team": "Myrtle Beach Merballs", "blue_team": "ALL CAPS", "team1_score": 1, "team2_score": 4,
+          "players": [
+            { "team": "Myrtle Beach Merballs", "player_season": "fender", "playing_as": "fender" },
+            { "team": "Myrtle Beach Merballs", "player_season": "vic", "playing_as": "vic" },
+            { "team": "Myrtle Beach Merballs", "player_season": "#SelfySyntax", "playing_as": "#SelfySyntax" },
+            { "team": "Myrtle Beach Merballs", "player_season": "bbb", "playing_as": "bbb" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-11", "week": "Upper Bracket Final", "team1": "A Blockwork Orange", "team2": "Ghostboosters",
+      "games": [
+        {
+          "tagpro_eu": 4146249, "map_name": "Milano 2", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Ghostboosters", "team1_score": 9, "team2_score": 2,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146261, "map_name": "Moon Base", "map_id": null, "red_team": "Ghostboosters", "blue_team": "A Blockwork Orange", "team1_score": 6, "team2_score": 2,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146272, "map_name": "OTI Jardim", "map_id": null, "red_team": "A Blockwork Orange", "blue_team": "Ghostboosters", "team1_score": 9, "team2_score": 1,
+          "players": [
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146284, "map_name": "Asida", "map_id": null, "red_team": "Ghostboosters", "blue_team": "A Blockwork Orange", "team1_score": 14, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "A Blockwork Orange", "player_season": "beef", "playing_as": "beef" },
+            { "team": "A Blockwork Orange", "player_season": "ft", "playing_as": "ft" },
+            { "team": "A Blockwork Orange", "player_season": "Alphachurro", "playing_as": "Alphachurro" },
+            { "team": "A Blockwork Orange", "player_season": "1deag", "playing_as": "1deag" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-11", "week": "Lower Bracket SF", "team1": "Red Hot Chili Poppers", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": 4146242, "map_name": "OTI Jardim", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "ALL CAPS", "team1_score": 6, "team2_score": 4,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146254, "map_name": "Odell", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Red Hot Chili Poppers", "team1_score": 1, "team2_score": 3,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146270, "map_name": "Asida", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "ALL CAPS", "team1_score": 8, "team2_score": 3,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146282, "map_name": "Moon Base", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146298, "map_name": "PRush", "map_id": null, "red_team": "Red Hot Chili Poppers", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 10,
+          "players": [
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4146312, "map_name": "Kardashev 2", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Red Hot Chili Poppers", "team1_score": 2, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Red Hot Chili Poppers", "player_season": "yiss", "playing_as": "yiss" },
+            { "team": "Red Hot Chili Poppers", "player_season": "Kep", "playing_as": "Kep" },
+            { "team": "Red Hot Chili Poppers", "player_season": "ASAP", "playing_as": "ASAP" },
+            { "team": "Red Hot Chili Poppers", "player_season": "realtea", "playing_as": "realtea" }
+          ]
+        }
+      ]
+    },
+    {
+      "season": "Fender's Game #1", "date": "2025-12-14", "week": "Lower Bracket Final", "team1": "Ghostboosters", "team2": "ALL CAPS",
+      "games": [
+        {
+          "tagpro_eu": 4148616, "map_name": "Moon Base", "map_id": null, "red_team": "Ghostboosters", "blue_team": "ALL CAPS", "team1_score": 11, "team2_score": 4,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4148631, "map_name": "Asida", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Ghostboosters", "team1_score": 5, "team2_score": 7,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4148644, "map_name": "Audacity 2", "map_id": null, "red_team": "Ghostboosters", "blue_team": "ALL CAPS", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        },
+        {
+          "tagpro_eu": 4148657, "map_name": "Milano 2", "map_id": null, "red_team": "ALL CAPS", "blue_team": "Ghostboosters", "team1_score": 4, "team2_score": 5,
+          "players": [
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" },
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" }
+          ]
+        },
+        {
+          "tagpro_eu": 4148667, "map_name": "Basenji", "map_id": null, "red_team": "Ghostboosters", "blue_team": "ALL CAPS", "team1_score": 3, "team2_score": 7,
+          "players": [
+            { "team": "Ghostboosters", "player_season": "deku", "playing_as": "deku" },
+            { "team": "Ghostboosters", "player_season": "king krule", "playing_as": "king krule" },
+            { "team": "Ghostboosters", "player_season": "Russ", "playing_as": "Russ" },
+            { "team": "Ghostboosters", "player_season": "jig", "playing_as": "jig" },
+            { "team": "ALL CAPS", "player_season": "anti-re", "playing_as": "ANTI-RE" },
+            { "team": "ALL CAPS", "player_season": "chuggo", "playing_as": "CEREMONY" },
+            { "team": "ALL CAPS", "player_season": "dodsfall", "playing_as": "dodsfall" },
+            { "team": "ALL CAPS", "player_season": "Button", "playing_as": "BUTTON" }
+          ]
+        }
+      ]
+    }
+  ]
+}
