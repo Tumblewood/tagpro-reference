@@ -115,7 +115,7 @@ STAT_COLUMNS = {
 def homepage(req):
     """Homepage with standings for all leagues."""
     # Get all leagues with ordering < 10
-    leagues = League.objects.filter(ordering__lt=10, gamemode="CTF").order_by('ordering')
+    leagues = League.objects.filter(ordering__lt=20, gamemode="CTF").order_by('ordering')
     league_standings = []
     for league in leagues:
         # Get the most recent season for this league (null dates are considered earliest)
