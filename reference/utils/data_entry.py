@@ -594,7 +594,7 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
         )
         
         # Process games in this match
-        for game_data in match_data['games']:
+        for i, game_data in enumerate(match_data['games']):
             # Skip games with no players
             if not game_data.get('players') or len(game_data['players']) == 0:
                 continue
@@ -603,6 +603,10 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
             if not red_team or not blue_team:
                 continue
+
+            # Set game_in_match if not provided
+            if 'game_in_match' not in game_data or not game_data['game_in_match']:
+                game_data['game_in_match'] = f"Game {i + 1}"
                 
             # Check if game already exists
             if game_data['tagpro_eu'] is not None:
