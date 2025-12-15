@@ -1185,13 +1185,20 @@ def infer_playoff_series(season: Season):
         ).filter(
             models.Q(match__team1=m.team1) | models.Q(match__team2=m.team1)
         ).order_by('-match__date').first()
-        
+
         team2_prev_series = PlayoffSeries.objects.filter(
             match__season=season,
             match__date__lt=m.date
         ).filter(
             models.Q(match__team1=m.team2) | models.Q(match__team2=m.team2)
         ).order_by('-match__date').first()
+
+        # Don't link to previous series if the team lost it (to keep double elimination brackets as trees)
+        if team1_prev_series and team1_prev_series.winner and team1_prev_series.winner != m.team1:
+            team1_prev_series = None
+
+        if team2_prev_series and team2_prev_series.winner and team2_prev_series.winner != m.team2:
+            team2_prev_series = None
 
         # If team1's side of the bracket doesn't have a better (lower number) seed
         # than team2's side, swap team1 and team2.

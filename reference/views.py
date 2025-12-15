@@ -318,11 +318,17 @@ def season_home(req, season_id):
     # Build playoff bracket if playoffs exist
     bracket_layout = build_playoff_bracket(season)
 
+    # Check if this is a playoff-only season (has playoffs but no regular season)
+    playoff_matches = Match.objects.filter(season=season, playoff_series__isnull=False).exists()
+    regular_season_matches = Match.objects.filter(season=season, playoff_series__isnull=True).exists()
+    is_playoff_only = playoff_matches and not regular_season_matches
+
     return render(req, 'reference/season_home.html', {
         'season': season,
         'league_seasons': league_seasons,
         'standings': standings,
         'bracket': bracket_layout,
+        'is_playoff_only': is_playoff_only,
     })
 
 
