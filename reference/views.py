@@ -408,9 +408,16 @@ def season_stats(req, season_id):
 
     # Get all seasons from the same league for dropdown
     league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
-    
+
+    # Check if this is a playoff-only season (has playoffs but no regular season)
+    playoff_matches = Match.objects.filter(season=season, playoff_series__isnull=False).exists()
+    regular_season_matches = Match.objects.filter(season=season, playoff_series__isnull=True).exists()
+    is_playoff_only = playoff_matches and not regular_season_matches
+
     # Get week filter and stat view from query params
-    week_filter = req.GET.get('week', 'all_regular_season')
+    # Default to 'all_season' for playoff-only seasons, otherwise 'all_regular_season'
+    default_week = 'all_season' if is_playoff_only else 'all_regular_season'
+    week_filter = req.GET.get('week', default_week)
     stat_view = req.GET.get('view', 'basic')
     
     # Get all weeks for this season to build dropdown
