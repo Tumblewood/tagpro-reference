@@ -108,3 +108,38 @@
 .championship-box-score {
     outline: 2px solid #131;
 }
+
+/* Awards section styles */
+.awards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+.award-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+}
+
+.award-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.award-item a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.award-item a:hover {
+    text-decoration: underline;
+}

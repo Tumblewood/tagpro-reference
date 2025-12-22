@@ -510,18 +510,18 @@ def season_rosters(req, season_id):
 def player_history(req, player_name):
     """View player's career history across all seasons."""
     player = get_object_or_404(Player, name=player_name)
-    
+
     # Get league filter from query params
     league_filter = req.GET.get('league', 'all')
-    
+
     # Get all leagues for the filter dropdown
     all_leagues = League.objects.filter(gamemode="CTF").order_by('ordering')
-    
+
     # Get all player seasons for this player
     player_seasons_query = PlayerSeason.objects.filter(player=player).select_related(
         'season__league', 'team'
     ).prefetch_related('season__teams')
-    
+
     # Apply league filter
     if league_filter != 'all':
         try:
@@ -532,15 +532,40 @@ def player_history(req, player_name):
     else:
         # Filter to CTF leagues only
         player_seasons_query = player_seasons_query.filter(season__league__gamemode="CTF")
-    
+
     # Build history data
     history_data = aggregate_player_stats(player=player, week="all_regular_season")
-    
+
+    # Get awards for this player
+    from reference.models import AwardReceived
+    awards_query = AwardReceived.objects.filter(player=player).select_related(
+        'season__league', 'award'
+    )
+
+    # Apply league filter to awards
+    if league_filter != 'all':
+        try:
+            league_id = int(league_filter)
+            awards_query = awards_query.filter(season__league_id=league_id)
+        except ValueError:
+            pass
+    else:
+        # Filter to CTF leagues only
+        awards_query = awards_query.filter(season__league__gamemode="CTF")
+
+    # Order awards by season.league.ordering, award.ordering, season.end_date
+    awards = awards_query.order_by(
+        'season__league__ordering',
+        'award__ordering',
+        F('season__end_date').desc(nulls_last=True)
+    )
+
     return render(req, "reference/player_history.html", {
         'player': player,
         'history_data': history_data,
         'leagues': all_leagues,
         'current_league': league_filter,
+        'awards': awards,
     })
 
 

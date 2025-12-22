@@ -123,7 +123,7 @@ FILES_TO_PROCESS = {
     "bteam": "NLTP B"
 }
 
-base_dir = "/Users/damien/projects/tagpro-reference/awards_import"
+base_dir = "awards_import"
 season_number = 35
 
 all_output_rows = []

@@ -243,8 +243,8 @@ def import_awards():
     skipped_count = 0
 
     csv_files = [
-        "/Users/damien/projects/tagpro-reference/awards_import/out/awards.csv",
-        "/Users/damien/projects/tagpro-reference/awards_import/out/awards-manual.csv"
+        "awards_import/out/awards.csv",
+        "awards_import/out/awards-manual.csv"
     ]
 
     # First pass: collect all unique award types

@@ -270,10 +270,10 @@ class AwardReceived(models.Model):
 
     def __str__(self):
         if self.player:
-            return f"{self.season.name}: ({self.placement}) - {self.player.name}"
+            return f"{self.season.name}: {self.award.name} - ({self.placement}) - {self.player.name}"
         if self.team:
-            return f"{self.season.name}: ({self.placement}) - {self.team.name}"
-        return f"{self.season.name}: ({self.placement}) - [missing team or player]"
+            return f"{self.season.name}: {self.award.name} - ({self.placement}) - {self.team.name}"
+        return f"{self.season.name}: {self.award.name} - ({self.placement}) - [missing team or player]"
 
 class Transaction(models.Model):
     """
