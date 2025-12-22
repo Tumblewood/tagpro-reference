@@ -249,10 +249,17 @@ class AwardType(models.Model):
     """
     Represents a type of award.
     """
+    RECIPIENT_TYPES = [
+        ('player', 'Player'),
+        ('captain', 'Captain'),
+        ('team', 'Team'),
+        ('unaffiliated', 'Unaffiliated'),
+    ]
     name = models.CharField(max_length=255, help_text="Full name of the award")
     abbr = models.CharField(max_length=100, help_text="Abbreviation for the award name")
     icon = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the award's icon")
     ordering = models.IntegerField()
+    recipient_type = models.CharField(max_length=20, choices=RECIPIENT_TYPES, default='player', help_text="Type of award recipient")
 
     def __str__(self):
         return self.name
@@ -266,11 +273,14 @@ class AwardReceived(models.Model):
     player = models.ForeignKey(Player, on_delete=models.SET_NULL, null=True, blank=True, help_text="Player who won the award")
     award = models.ForeignKey(AwardType, on_delete=models.PROTECT)
     placement = models.PositiveIntegerField(default=1, null=True, blank=True, help_text="1 for 1st place, 2 for 2nd, etc.")
+    vote_share = models.FloatField(null=True, blank=True, help_text="Share of vote received (as decimal, not percent, so 20% is 0.2)")
 
     def __str__(self):
         if self.player:
-            return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.player.name}"
-        return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.team.name}"
+            return f"{self.season.name}: {self.award.name} - ({self.placement}) - {self.player.name}"
+        if self.team:
+            return f"{self.season.name}: {self.award.name} - ({self.placement}) - {self.team.name}"
+        return f"{self.season.name}: {self.award.name} - ({self.placement}) - [missing team or player]"
 
 class Transaction(models.Model):
     """

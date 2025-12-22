@@ -25,7 +25,9 @@ def season_url(season, page='home'):
             return reverse('season_stats_by_name', args=[season_name])
         elif page == 'rosters':
             return reverse('season_rosters_by_name', args=[season_name])
-    
+        elif page == 'awards':
+            return reverse('season_awards_by_name', args=[season_name])
+
     # Fallback to ID-based URLs
     if page == 'home':
         return reverse('season_home', args=[season.id])
@@ -35,3 +37,5 @@ def season_url(season, page='home'):
         return reverse('season_stats', args=[season.id])
     elif page == 'rosters':
         return reverse('season_rosters', args=[season.id])
+    elif page == 'awards':
+        return reverse('season_awards', args=[season.id])

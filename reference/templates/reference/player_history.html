@@ -7,6 +7,7 @@
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
 <link rel="stylesheet" href="{% static 'reference/styles/league-filter.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -80,6 +81,30 @@
             </tbody>
         </table>
     </div>
+
+    {% if awards %}
+    <h2 class="section-header-first">Awards</h2>
+
+    <div class="awards-container">
+        {% for award_received in awards %}
+        <div class="award-item">
+            {% if award_received.award.icon %}
+            <img src="/static/reference/{{ award_received.award.icon }}" alt="{{ award_received.award.name }}" class="award-icon">
+            {% endif %}
+            <span>
+                <a href="{% season_url award_received.season 'home' %}">{{ award_received.season.name }}</a>
+                - {{ award_received.award.name }}
+                {% if 'All-Star' not in award_received.award.name %} -
+                    {% if award_received.placement == 1 %}1st
+                    {% elif award_received.placement == 2 %}2nd
+                    {% elif award_received.placement == 3 %}3rd
+                    {% else %}{{ award_received.placement }}th{% endif %}
+                {% endif %}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 {% endblock %}
 
 {% block extra_js %}

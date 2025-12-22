@@ -485,12 +485,12 @@ def season_rosters(req, season_id):
 
     # Get all seasons from the same league for dropdown
     league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
-    
+
     # Get all teams in this season with their players
     teams = TeamSeason.objects.filter(season=season).prefetch_related(
         'players__player'
     ).order_by('name')
-    
+
     # Build roster data
     rosters = []
     for team in teams:
@@ -499,7 +499,7 @@ def season_rosters(req, season_id):
             'team': team,
             'players': players
         })
-    
+
     return render(req, 'reference/season_rosters.html', {
         'season': season,
         'league_seasons': league_seasons,
@@ -507,40 +507,94 @@ def season_rosters(req, season_id):
     })
 
 
+def season_awards_by_name(req, season_name):
+    """View season awards by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_awards(req, season.id)
+
+def season_awards(req, season_id):
+    """View season awards with recipients."""
+    from reference.models import AwardReceived, AwardType
+    season = get_object_or_404(Season, id=season_id)
+
+    # Get all seasons from the same league for dropdown
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
+
+    # Get all award types that have awards in this season
+    award_types_with_awards = AwardType.objects.filter(
+        awardreceived__season=season
+    ).distinct().order_by('ordering')
+
+    # Build awards data
+    awards_data = []
+    for award_type in award_types_with_awards:
+        recipients = AwardReceived.objects.filter(
+            season=season,
+            award=award_type
+        ).select_related('player', 'team__franchise').order_by('placement')
+
+        awards_data.append({
+            'award_type': award_type,
+            'recipients': recipients
+        })
+
+    return render(req, 'reference/season_awards.html', {
+        'season': season,
+        'league_seasons': league_seasons,
+        'awards_data': awards_data,
+    })
+
+
 def player_history(req, player_name):
     """View player's career history across all seasons."""
     player = get_object_or_404(Player, name=player_name)
-    
+
     # Get league filter from query params
     league_filter = req.GET.get('league', 'all')
-    
+
     # Get all leagues for the filter dropdown
     all_leagues = League.objects.filter(gamemode="CTF").order_by('ordering')
-    
-    # Get all player seasons for this player
-    player_seasons_query = PlayerSeason.objects.filter(player=player).select_related(
-        'season__league', 'team'
-    ).prefetch_related('season__teams')
-    
-    # Apply league filter
+
+    # Determine which league to filter by
+    selected_league = None
     if league_filter != 'all':
         try:
             league_id = int(league_filter)
-            player_seasons_query = player_seasons_query.filter(season__league_id=league_id)
-        except ValueError:
+            selected_league = League.objects.get(id=league_id)
+        except (ValueError, League.DoesNotExist):
             pass
+
+    # Build history data with league filter
+    history_data = aggregate_player_stats(player=player, league=selected_league, week="all_regular_season")
+
+    # Get awards for this player
+    from reference.models import AwardReceived
+    awards_query = AwardReceived.objects.filter(player=player).select_related(
+        'season__league', 'award'
+    )
+
+    # Apply league filter to awards
+    if selected_league:
+        awards_query = awards_query.filter(season__league=selected_league)
     else:
         # Filter to CTF leagues only
-        player_seasons_query = player_seasons_query.filter(season__league__gamemode="CTF")
-    
-    # Build history data
-    history_data = aggregate_player_stats(player=player, week="all_regular_season")
-    
+        awards_query = awards_query.filter(season__league__gamemode="CTF")
+
+    # Order awards by season.league.ordering, award.ordering, season.end_date
+    awards = awards_query.order_by(
+        'season__league__ordering',
+        'award__ordering',
+        F('season__end_date').desc(nulls_last=True)
+    )
+
     return render(req, "reference/player_history.html", {
         'player': player,
         'history_data': history_data,
         'leagues': all_leagues,
         'current_league': league_filter,
+        'awards': awards,
     })
 
 
