@@ -1,0 +1,151 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+
+{% block title %}{{ season.name }} Awards - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/rosters.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">
+        {% if season.league.logo %}
+            <img src="/static/reference/{{ season.league.logo }}" alt="{{ season.league.name }} logo" class="league-logo">
+        {% endif %}
+        {{ season.name }} Awards
+    </h1>
+
+    <div class="season-selector">
+        <label for="season-dropdown">Season: </label>
+        <select id="season-dropdown" onchange="changeSeason(this.value)">
+            {% for league_season in league_seasons %}
+                <option value="{{ league_season.id }}" {% if league_season.id == season.id %}selected{% endif %}>
+                    {{ league_season.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="season-nav">
+        <a href="{% season_url season 'home' %}">Home</a> |
+        <a href="{% season_url season 'schedule' %}">Schedule</a> |
+        <a href="{% season_url season 'stats' %}">Stats</a> |
+        <a href="{% season_url season 'rosters' %}">Rosters</a> |
+        <span class="current">Awards</span> |
+        <a href="{% league_url season.league %}">History</a>
+    </div>
+
+    <div class="rosters-container">
+        {% for award_data in awards_data %}
+        <div class="roster-box">
+            <h3 class="team-name">
+                {% if award_data.award_type.icon and award_data.award_type.recipient_type != 'unaffiliated' %}
+                    <img src="/static/reference/{{ award_data.award_type.icon }}" alt="{{ award_data.award_type.abbr }}" class="team-logo-medium">
+                {% endif %}
+                {{ award_data.award_type.name }}
+            </h3>
+
+            <table class="roster-table">
+                <thead>
+                    <tr>
+                        <th>Place</th>
+                        {% if award_data.award_type.recipient_type == 'team' %}
+                        <th>Team</th>
+                        {% elif award_data.award_type.recipient_type == 'player' or award_data.award_type.recipient_type == 'captain' %}
+                        <th>Player</th>
+                        {% else %}
+                        <th>Recipient</th>
+                        {% endif %}
+                        <th>Vote %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for recipient in award_data.recipients %}
+                    <tr>
+                        <td class="position"><strong>{{ recipient.placement }}</strong></td>
+                        {% if award_data.award_type.recipient_type == 'team' %}
+                        <td class="player-name">
+                            {% if recipient.team %}
+                                {% if recipient.team.franchise.logo %}
+                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                {% endif %}
+                                <a href="{% url 'team_season' recipient.team.id %}">
+                                    {{ recipient.team.name }}
+                                </a>
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+                        {% elif award_data.award_type.recipient_type == 'player' or award_data.award_type.recipient_type == 'captain' %}
+                        <td class="player-name">
+                            {% if recipient.player %}
+                                {% if recipient.team and recipient.team.franchise.logo %}
+                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                {% endif %}
+                                <a href="{% url 'player_history' recipient.player.name %}">
+                                    {{ recipient.player.name }}
+                                </a>
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+                        {% else %}
+                        <td class="player-name">
+                            {% if recipient.player %}
+                                {% if recipient.team and recipient.team.franchise.logo %}
+                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                {% endif %}
+                                <a href="{% url 'player_history' recipient.player.name %}">
+                                    {{ recipient.player.name }}
+                                </a>
+                            {% elif recipient.team %}
+                                {% if recipient.team.franchise.logo %}
+                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                {% endif %}
+                                <a href="{% url 'team_season' recipient.team.id %}">
+                                    {{ recipient.team.name }}
+                                </a>
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+                        {% endif %}
+                        <td class="vote-share">
+                            {% if recipient.vote_share %}
+                                {% widthratio recipient.vote_share 1 100 %}%
+                            {% else %}
+                                —
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="3" class="empty-roster">No recipients found</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% empty %}
+        <div class="no-teams">
+            <p>No awards found for this season.</p>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function changeSeason(seasonId) {
+        if (seasonId) {
+            // Find the season name from the dropdown option
+            const selectElement = document.getElementById('season-dropdown');
+            const selectedOption = selectElement.options[selectElement.selectedIndex];
+            const seasonName = selectedOption.text.replace(/ /g, '-');
+            window.location.href = `/season/${seasonName}/awards/`;
+        }
+    }
+</script>
+{% endblock %}

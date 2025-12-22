@@ -91,6 +91,11 @@
     color: #666;
 }
 
+.roster-table .vote-share {
+    width: 3.5rem;
+    text-align: center;
+}
+
 .empty-roster {
     text-align: center !important;
     color: #666;

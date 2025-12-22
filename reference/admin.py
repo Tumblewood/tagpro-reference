@@ -114,12 +114,15 @@ class AwardReceivedAdmin(admin.ModelAdmin):
     list_display = ['season', 'award', 'player', 'team', 'placement']
 
 
+class AwardTypeAdmin(admin.ModelAdmin):
+    list_display = ['name', 'abbr', 'ordering', 'recipient_type']
+
+
 admin.site.register([
     League,
     Player,
     PlayoffSeries,
     PlayerStats,
-    AwardType,
     Transaction
 ])
 
@@ -131,4 +134,5 @@ admin.site.register(Game, GameAdmin)
 admin.site.register(PlayerSeason, PlayerSeasonAdmin)
 admin.site.register(PlayerGameLog, PlayerGameLogAdmin)
 admin.site.register(PlayerRegulationStats, PlayerRegulationGameStatsAdmin)
+admin.site.register(AwardType, AwardTypeAdmin)
 admin.site.register(AwardReceived, AwardReceivedAdmin)

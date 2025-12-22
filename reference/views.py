@@ -485,12 +485,12 @@ def season_rosters(req, season_id):
 
     # Get all seasons from the same league for dropdown
     league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
-    
+
     # Get all teams in this season with their players
     teams = TeamSeason.objects.filter(season=season).prefetch_related(
         'players__player'
     ).order_by('name')
-    
+
     # Build roster data
     rosters = []
     for team in teams:
@@ -499,11 +499,51 @@ def season_rosters(req, season_id):
             'team': team,
             'players': players
         })
-    
+
     return render(req, 'reference/season_rosters.html', {
         'season': season,
         'league_seasons': league_seasons,
         'rosters': rosters,
+    })
+
+
+def season_awards_by_name(req, season_name):
+    """View season awards by name."""
+    # Convert dashes back to spaces
+    season_name = season_name.replace('-', ' ')
+    season = get_object_or_404(Season, name=season_name)
+    return season_awards(req, season.id)
+
+def season_awards(req, season_id):
+    """View season awards with recipients."""
+    from reference.models import AwardReceived, AwardType
+    season = get_object_or_404(Season, id=season_id)
+
+    # Get all seasons from the same league for dropdown
+    league_seasons = Season.objects.filter(league=season.league).order_by(F('end_date').desc(nulls_last=True))
+
+    # Get all award types that have awards in this season
+    award_types_with_awards = AwardType.objects.filter(
+        awardreceived__season=season
+    ).distinct().order_by('ordering')
+
+    # Build awards data
+    awards_data = []
+    for award_type in award_types_with_awards:
+        recipients = AwardReceived.objects.filter(
+            season=season,
+            award=award_type
+        ).select_related('player', 'team__franchise').order_by('placement')
+
+        awards_data.append({
+            'award_type': award_type,
+            'recipients': recipients
+        })
+
+    return render(req, 'reference/season_awards.html', {
+        'season': season,
+        'league_seasons': league_seasons,
+        'awards_data': awards_data,
     })
 
 

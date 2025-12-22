@@ -249,10 +249,17 @@ class AwardType(models.Model):
     """
     Represents a type of award.
     """
+    RECIPIENT_TYPES = [
+        ('player', 'Player'),
+        ('captain', 'Captain'),
+        ('team', 'Team'),
+        ('unaffiliated', 'Unaffiliated'),
+    ]
     name = models.CharField(max_length=255, help_text="Full name of the award")
     abbr = models.CharField(max_length=100, help_text="Abbreviation for the award name")
     icon = models.CharField(max_length=100, blank=True, null=True, help_text="Link to the award's icon")
     ordering = models.IntegerField()
+    recipient_type = models.CharField(max_length=20, choices=RECIPIENT_TYPES, default='player', help_text="Type of award recipient")
 
     def __str__(self):
         return self.name
