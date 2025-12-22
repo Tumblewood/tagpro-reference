@@ -266,11 +266,14 @@ class AwardReceived(models.Model):
     player = models.ForeignKey(Player, on_delete=models.SET_NULL, null=True, blank=True, help_text="Player who won the award")
     award = models.ForeignKey(AwardType, on_delete=models.PROTECT)
     placement = models.PositiveIntegerField(default=1, null=True, blank=True, help_text="1 for 1st place, 2 for 2nd, etc.")
+    vote_share = models.FloatField(null=True, blank=True, help_text="Share of vote received (as decimal, not percent, so 20% is 0.2)")
 
     def __str__(self):
         if self.player:
-            return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.player.name}"
-        return f"{self.season.name}: {self.award.name} ({self.placement}) - {self.team.name}"
+            return f"{self.season.name}: ({self.placement}) - {self.player.name}"
+        if self.team:
+            return f"{self.season.name}: ({self.placement}) - {self.team.name}"
+        return f"{self.season.name}: ({self.placement}) - [missing team or player]"
 
 class Transaction(models.Model):
     """
