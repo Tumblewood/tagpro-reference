@@ -557,24 +557,17 @@ def player_history(req, player_name):
     # Get all leagues for the filter dropdown
     all_leagues = League.objects.filter(gamemode="CTF").order_by('ordering')
 
-    # Get all player seasons for this player
-    player_seasons_query = PlayerSeason.objects.filter(player=player).select_related(
-        'season__league', 'team'
-    ).prefetch_related('season__teams')
-
-    # Apply league filter
+    # Determine which league to filter by
+    selected_league = None
     if league_filter != 'all':
         try:
             league_id = int(league_filter)
-            player_seasons_query = player_seasons_query.filter(season__league_id=league_id)
-        except ValueError:
+            selected_league = League.objects.get(id=league_id)
+        except (ValueError, League.DoesNotExist):
             pass
-    else:
-        # Filter to CTF leagues only
-        player_seasons_query = player_seasons_query.filter(season__league__gamemode="CTF")
 
-    # Build history data
-    history_data = aggregate_player_stats(player=player, week="all_regular_season")
+    # Build history data with league filter
+    history_data = aggregate_player_stats(player=player, league=selected_league, week="all_regular_season")
 
     # Get awards for this player
     from reference.models import AwardReceived
