@@ -576,12 +576,8 @@ def player_history(req, player_name):
     )
 
     # Apply league filter to awards
-    if league_filter != 'all':
-        try:
-            league_id = int(league_filter)
-            awards_query = awards_query.filter(season__league_id=league_id)
-        except ValueError:
-            pass
+    if selected_league:
+        awards_query = awards_query.filter(season__league=selected_league)
     else:
         # Filter to CTF leagues only
         awards_query = awards_query.filter(season__league__gamemode="CTF")
