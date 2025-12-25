@@ -1,5 +1,7 @@
 import csv
 import os
+import re
+from glob import glob
 
 def parse_percentage(pct_str):
     """Convert percentage string like '31.45%' to decimal like 0.3145"""
@@ -124,20 +126,33 @@ FILES_TO_PROCESS = {
 }
 
 base_dir = "awards_import"
-season_number = 35
 
 all_output_rows = []
 
-for file_prefix, league_name in FILES_TO_PROCESS.items():
-    input_file = os.path.join(base_dir, f"{file_prefix}-{season_number}.tsv")
-    season_name = f"{league_name} S{season_number}"
+# Find all season numbers by scanning for TSV files
+season_files = {}
+for file_prefix in FILES_TO_PROCESS.keys():
+    pattern = os.path.join(base_dir, f"{file_prefix}-*.tsv")
+    for filepath in glob(pattern):
+        filename = os.path.basename(filepath)
+        # Extract season number from filename like "majors-35.tsv"
+        match = re.match(rf"{file_prefix}-(\d+)\.tsv", filename)
+        if match:
+            season_num = int(match.group(1))
+            if season_num not in season_files:
+                season_files[season_num] = []
+            season_files[season_num].append((file_prefix, filepath))
 
-    if os.path.exists(input_file):
-        rows = process_file(input_file, season_name)
+# Process all seasons in order
+for season_num in sorted(season_files.keys()):
+    print(f"\n=== Processing Season {season_num} ===")
+    for file_prefix, filepath in season_files[season_num]:
+        league_name = FILES_TO_PROCESS[file_prefix]
+        season_name = f"{league_name} S{season_num}"
+
+        rows = process_file(filepath, season_name)
         all_output_rows.extend(rows)
-        print(f"Processed {len(rows)} rows from {file_prefix}-{season_number}.tsv")
-    else:
-        print(f"Skipping {input_file} (file not found)")
+        print(f"Processed {len(rows)} rows from {os.path.basename(filepath)}")
 
 # Write all output to a single CSV
 output_file = os.path.join(base_dir, "out", "awards.csv")
