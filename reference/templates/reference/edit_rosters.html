@@ -124,23 +124,26 @@ function changeSeason() {
             <button type="submit">Rename</button>
         </form>
         
-        <!-- Change Position -->
+        <!-- Add Award -->
         <form method="post" class="form-col">
             {% csrf_token %}
-            <input type="hidden" name="action" value="change_position">
-            <strong>Change Position:</strong>
+            <input type="hidden" name="action" value="add_award">
+            <strong>Add Award:</strong>
             <select name="playerseason_id" required>
                 <option value="">Select player...</option>
                 {% for data in roster_data %}
                     <option value="{{ data.playerseason.id }}">{{ data.playerseason.playing_as }}</option>
                 {% endfor %}
             </select>
-            <select name="new_position" required>
-                {% for choice in position_choices %}
-                    <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+            <select name="award_id" required>
+                <option value="">Select award...</option>
+                {% for award in award_types %}
+                    <option value="{{ award.id }}">{{ award.name }}</option>
                 {% endfor %}
             </select>
-            <button type="submit">Change</button>
+            <input type="number" name="placement" placeholder="Place (e.g., 1)" min="1" required>
+            <input type="number" name="vote_share" placeholder="Vote share (optional)" step="0.01" min="0" max="1">
+            <button type="submit">Add</button>
         </form>
     </div>
 </div>

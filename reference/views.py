@@ -1184,17 +1184,56 @@ def edit_rosters(request, season_id):
             except Exception as e:
                 messages.error(request, f"Error changing team: {str(e)}")
                 
-        elif action == "change_position":
+        elif action == "add_award":
             try:
                 playerseason_id = request.POST.get("playerseason_id")
-                new_position = request.POST.get("new_position")
+                award_id = request.POST.get("award_id")
+                placement = int(request.POST.get("placement"))
+                vote_share_str = request.POST.get("vote_share", "").strip()
+
                 playerseason = PlayerSeason.objects.get(id=playerseason_id)
-                old_position = playerseason.position
-                playerseason.position = new_position
-                playerseason.save()
-                messages.success(request, f"Changed {playerseason.playing_as} position from {old_position} to {new_position}")
+                award_type = AwardType.objects.get(id=award_id)
+
+                # Parse vote share
+                vote_share = None
+                if vote_share_str:
+                    vote_share = float(vote_share_str)
+
+                # Determine the team to associate with this award
+                team = None
+                if award_type.recipient_type in ['player', 'captain']:
+                    # For player and captain awards, associate with their team
+                    team = playerseason.team
+
+                    # If no team but they're a captain/co-captain, try to find their team
+                    if not team:
+                        captain_teams = TeamSeason.objects.filter(
+                            season=season,
+                            captain=playerseason.player
+                        ).first()
+                        if captain_teams:
+                            team = captain_teams
+                        else:
+                            co_captain_teams = TeamSeason.objects.filter(
+                                season=season,
+                                co_captain=playerseason.player
+                            ).first()
+                            if co_captain_teams:
+                                team = co_captain_teams
+
+                # Create the award
+                AwardReceived.objects.create(
+                    season=season,
+                    team=team,
+                    player=playerseason.player,
+                    award=award_type,
+                    placement=placement,
+                    vote_share=vote_share
+                )
+
+                messages.success(request, f"Added {award_type.name} (place {placement}) for {playerseason.player.name}")
             except Exception as e:
-                messages.error(request, f"Error changing position: {str(e)}")
+                messages.error(request, f"Error adding award: {str(e)}")
                 
         elif action == "rename_playerseason":
             try:
@@ -1247,6 +1286,9 @@ def edit_rosters(request, season_id):
     all_players = Player.objects.all().order_by(Lower("name"))
     season_playerseasons = PlayerSeason.objects.filter(season=season).select_related("player").order_by(Lower("playing_as"))
 
+    # Get all award types
+    award_types = AwardType.objects.all().order_by("ordering")
+
     return render(request, "reference/edit_rosters.html", {
         "season": season,
         "all_seasons": Season.objects.all().order_by(F('end_date').desc(nulls_last=True)),
@@ -1254,7 +1296,7 @@ def edit_rosters(request, season_id):
         "teams": teams,
         "all_players": all_players,
         "season_playerseasons": season_playerseasons,
-        "position_choices": PlayerSeason._meta.get_field("position").choices,
+        "award_types": award_types,
     })
 
 

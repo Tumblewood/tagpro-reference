@@ -4,7 +4,7 @@ TagPro Reference runs on tagpro-reference.com. It's similar to the sports-refere
 
 # File structure
 
-The main app is called `reference`. It contains all logic for entering (views/data_entry.py), processing (views/stat_collection.py), and displaying (data/info_pages.py) league information and stats. Read its models.py to thoroughly understand the data models.
+The most important app is called `reference`. It contains all logic for entering (views/data_entry.py), processing (views/stat_collection.py), and displaying (data/info_pages.py) league information and stats. Read its models.py to thoroughly understand the data models.
 
 # Leagues and seasons
 
@@ -75,10 +75,10 @@ One common mistake I see is, when adding a new Django template, writing new styl
 
 Another mistake is when part of a feature is silently left totally unimplemented because it seems complicated.
 
-# Style
+# Style requirements (IMPORTANT – if you do not follow these it is gonna piss me off)
 
-- Imports should always be at the top of a file, not in the middle of a function.
+- Imports should always be at the top of a file, not in the middle of a function. (I am so serious you need to stop doing this. I do not ever want to see an inline import again.)
+- When you define big constant objects like big lists or dicts, do it at the top of a file, not inside a function.
 - Use " to quote strings, except use ' for dict keys.
-- Define big constant objects like lists or dicts at the top of a file, not where they are used.
 - Use rem for sizes in CSS.
 - Complex or repeated logic should be moved to its own function instead of being written inline.
