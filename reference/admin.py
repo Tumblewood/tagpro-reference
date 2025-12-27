@@ -25,6 +25,18 @@ def calculate_scar(modeladmin, request, queryset):
         stat_collection.calculate_scar(season)
 
 
+@admin.action(description="Set season end date to last game date")
+def set_end_date_to_last_game(modeladmin, request, queryset):
+    """Set the season's end date to the date of the last game, unless already set to a later date."""
+    for season in queryset:
+        last_match = season.matches.order_by('-date').first()
+        if last_match:
+            last_game_date = last_match.date
+            if season.end_date is None or season.end_date < last_game_date:
+                season.end_date = last_game_date
+                season.save()
+
+
 @admin.action(description="Process stats for the season")
 def process_season(modeladmin, request, queryset):
     """(Re-)process stats for the season."""
@@ -67,7 +79,7 @@ class PlayerGameLogInline(admin.TabularInline):
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ['name']
     inlines = [TeamSeasonInline]
-    actions = [recalculate_standings, process_season, calculate_scar]
+    actions = [recalculate_standings, process_season, calculate_scar, set_end_date_to_last_game]
 
 
 class FranchiseAdmin(admin.ModelAdmin):
