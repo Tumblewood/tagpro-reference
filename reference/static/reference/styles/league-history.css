@@ -4,7 +4,7 @@
 
 /* Override stat-table max-width for league history */
 .stat-table-container .stat-table {
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 /* League history specific column styling */
@@ -45,6 +45,20 @@
 }
 
 .stat-table .champion-cell a:hover {
+    text-decoration: underline;
+}
+
+.stat-table .award-cell {
+    text-align: left;
+}
+
+.stat-table .award-cell a {
+    color: #07b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.stat-table .award-cell a:hover {
     text-decoration: underline;
 }
 

@@ -27,6 +27,9 @@
                     <th data-sortable data-type="number">Teams</th>
                     <th data-sortable data-type="text" class="logo-col"></th>
                     <th data-sortable data-type="text">Champion</th>
+                    <th data-sortable data-type="text">MVB</th>
+                    <th data-sortable data-type="text">OBOS</th>
+                    <th data-sortable data-type="text">DBOS</th>
                 </tr>
             </thead>
             <tbody>
@@ -61,10 +64,37 @@
                             —
                         {% endif %}
                     </td>
+                    <td class="award-cell">
+                        {% if season_data.mvb_winner %}
+                            <a href="{% url 'player_history' season_data.mvb_winner.name %}">
+                                {{ season_data.mvb_winner.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td class="award-cell">
+                        {% if season_data.obos_winner %}
+                            <a href="{% url 'player_history' season_data.obos_winner.name %}">
+                                {{ season_data.obos_winner.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td class="award-cell">
+                        {% if season_data.dbos_winner %}
+                            <a href="{% url 'player_history' season_data.dbos_winner.name %}">
+                                {{ season_data.dbos_winner.name }}
+                            </a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
                 </tr>
                 {% empty %}
                 <tr>
-                    <td colspan="5" class="empty-seasons">
+                    <td colspan="8" class="empty-seasons">
                         No seasons found for this league.
                     </td>
                 </tr>

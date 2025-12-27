@@ -12,7 +12,7 @@ from reference.utils.display_info import aggregate_player_stats, get_team_standi
 from reference.utils.data_entry import prepopulate_form, enter_confirmed_data, process_multiple_eu_links, import_json_data_to_db, format_compact_json
 from reference.utils.stat_collection import update_standings, calculate_scar
 from reference.utils.data_correction import merge_players, merge_player_seasons
-from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, League, Franchise
+from reference.models import Season, TeamSeason, Player, PlayerSeason, Match, Game, League, Franchise, AwardType, AwardReceived
 
 
 PLAYOFF_ORDER = {
@@ -264,11 +264,11 @@ def league_history(req, league_id):
     for season in seasons:
         # Count teams in this season
         team_count = TeamSeason.objects.filter(season=season).count()
-        
+
         # Find champion and runner-up from the final playoff series
         champion = None
         runner_up = None
-        
+
         # Look for the championship game/series (Super Ball, etc.)
         final_names = ['Super Ball', 'Muper Ball', 'Nuper Ball', 'Buper Ball']
         championship_matches = Match.objects.filter(
@@ -276,7 +276,7 @@ def league_history(req, league_id):
             week__in=final_names,
             playoff_series__isnull=False
         ).select_related('playoff_series', 'team1', 'team2').first()
-        
+
         if championship_matches and championship_matches.playoff_series:
             playoff_series = championship_matches.playoff_series
             if playoff_series.winner:
@@ -286,14 +286,58 @@ def league_history(req, league_id):
                     runner_up = championship_matches.team2
                 else:
                     runner_up = championship_matches.team1
-        
+
+        # Get first place award winners for MVB, OBOS, DBOS
+        mvb_winner = None
+        obos_winner = None
+        dbos_winner = None
+
+        try:
+            mvb_award = AwardType.objects.get(abbr="MVB")
+            mvb_received = AwardReceived.objects.filter(
+                season=season,
+                award=mvb_award,
+                placement=1
+            ).select_related('player').first()
+            if mvb_received:
+                mvb_winner = mvb_received.player
+        except AwardType.DoesNotExist:
+            pass
+
+        try:
+            obos_award = AwardType.objects.get(abbr="OBOS")
+            obos_received = AwardReceived.objects.filter(
+                season=season,
+                award=obos_award,
+                placement=1
+            ).select_related('player').first()
+            if obos_received:
+                obos_winner = obos_received.player
+        except AwardType.DoesNotExist:
+            pass
+
+        try:
+            dbos_award = AwardType.objects.get(abbr="DBOS")
+            dbos_received = AwardReceived.objects.filter(
+                season=season,
+                award=dbos_award,
+                placement=1
+            ).select_related('player').first()
+            if dbos_received:
+                dbos_winner = dbos_received.player
+        except AwardType.DoesNotExist:
+            pass
+
         season_history.append({
             'season': season,
             'team_count': team_count,
             'champion': champion,
             'runner_up': runner_up,
+            'mvb_winner': mvb_winner,
+            'obos_winner': obos_winner,
+            'dbos_winner': dbos_winner,
         })
-    
+
     return render(req, 'reference/league_history.html', {
         'league': league,
         'season_history': season_history,
