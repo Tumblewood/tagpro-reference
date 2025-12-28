@@ -416,8 +416,9 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
 def build_playoff_bracket(season):
     """
     Build playoff bracket layout for a season.
-    Championship is at (0, 0), semifinals spread left/right,
-    earlier rounds spread further out and vertically.
+    Earliest series on left, championship on right.
+    X position determined by depth from championship.
+    Y position determined by in-order traversal of playoff tree.
 
     Returns None if no valid bracket structure exists.
     Returns a dict with bracket data if playoffs form a valid tree.
@@ -453,7 +454,7 @@ def build_playoff_bracket(season):
     if championship is None:
         return None
 
-    # First, calculate the maximum depth of the bracket tree
+    # Calculate the maximum depth of the bracket tree
     def get_max_depth(series, depth=0):
         """Calculate maximum depth from this series to any leaf."""
         if series is None:
@@ -465,85 +466,73 @@ def build_playoff_bracket(season):
 
     max_depth = get_max_depth(championship)
 
-    # Calculate initial y_spread for semifinals
-    # If max_depth is 3 (championship -> semis -> quarters), semis should start with y_spread=1
-    # If max_depth is 4 (championship -> semis -> quarters -> round before), semis should start with y_spread=2
-    # Pattern: initial_y_spread = 2^(max_depth - 2)
-    initial_y_spread = 2 ** (max_depth - 2) if max_depth >= 2 else 1
+    # Calculate depth for each series and assign X coordinates
+    # Championship (depth 0) at rightmost position (x = max_depth)
+    # Earliest rounds (depth = max_depth) at leftmost position (x = 0)
+    series_positions = {}
 
-    # Recursively position series
-    # Championship at (0, 0)
-    # team1_prev goes to negative x (left), team2_prev goes to positive x (right)
-    # y spreads vertically for earlier rounds
-    bracket_series = []
-
-    def position_series(series, x, y, y_spread, is_team1_side):
-        """
-        Position a series and recursively position its previous series.
-
-        Args:
-            series: The PlayoffSeries to position
-            x: x-coordinate for this series
-            y: y-coordinate for this series
-            y_spread: How much to offset y for previous rounds
-            is_team1_side: True if on team1 side (negative x), False if team2 side (positive x)
-        """
+    def assign_depth_and_x(series, depth=0):
+        """Recursively assign depth to each series."""
         if series is None:
             return
 
-        bracket_series.append(create_bracket_series_data(series, x, y))
+        series_positions[series.id] = {
+            'series': series,
+            'depth': depth,
+            'x': max_depth - depth,
+        }
 
-        # Position previous series
-        if series.team1_prev_series or series.team2_prev_series:
-            # Determine x direction based on which side we're on
-            if is_team1_side:
-                next_x = x - 1  # Go further left
-            else:
-                next_x = x + 1  # Go further right
+        assign_depth_and_x(series.team1_prev_series, depth + 1)
+        assign_depth_and_x(series.team2_prev_series, depth + 1)
 
-            # y_spread halves as we go deeper into earlier rounds
-            next_y_spread = y_spread / 2
+    assign_depth_and_x(championship)
 
-            # team1_prev goes above (y - y_spread)
-            # team2_prev goes below (y + y_spread)
-            if series.team1_prev_series:
-                position_series(series.team1_prev_series, next_x, y - y_spread, next_y_spread, is_team1_side)
-            if series.team2_prev_series:
-                position_series(series.team2_prev_series, next_x, y + y_spread, next_y_spread, is_team1_side)
+    # Assign Y coordinates using in-order traversal
+    # This puts championship roughly in the middle vertically
+    y_counter = [0]
 
-    # Start with championship at (0, 0)
-    bracket_series.append(create_bracket_series_data(championship, 0, 0, is_championship=True))
+    def assign_y_inorder(series):
+        """Assign Y coordinates via in-order traversal."""
+        if series is None:
+            return
 
-    # Position team1's semifinal (left side, negative x)
-    if championship.team1_prev_series:
-        position_series(championship.team1_prev_series, -1, 0, initial_y_spread, is_team1_side=True)
+        # Visit left subtree (team1_prev_series)
+        assign_y_inorder(series.team1_prev_series)
 
-    # Position team2's semifinal (right side, positive x)
-    if championship.team2_prev_series:
-        position_series(championship.team2_prev_series, 1, 0, initial_y_spread, is_team1_side=False)
+        # Visit this node
+        series_positions[series.id]['y'] = y_counter[0]
+        y_counter[0] += 1
+
+        # Visit right subtree (team2_prev_series)
+        assign_y_inorder(series.team2_prev_series)
+
+    assign_y_inorder(championship)
 
     # Verify this is a valid tree (all series were reached)
-    if len(bracket_series) != len(playoff_series_qs):
+    if len(series_positions) != len(playoff_series_qs):
         return None
 
-    # Find bounds
+    # Build bracket series data
+    bracket_series = []
+    for series_id, position_data in series_positions.items():
+        series = position_data['series']
+        x = position_data['x']
+        y = position_data['y']
+        is_championship = (series.id == championship.id)
+        bracket_series.append(create_bracket_series_data(series, x, y, is_championship=is_championship))
+
     if not bracket_series:
         return None
 
-    min_x = min(s['x'] for s in bracket_series)
-    max_x = max(s['x'] for s in bracket_series)
+    # Find bounds
     min_y = min(s['y'] for s in bracket_series)
     max_y = max(s['y'] for s in bracket_series)
 
-    # Translate so championship is in the middle horizontally and everything starts at y=0
-    # Championship should be at x position equal to its distance from min_x
-    champ_x_offset = -min_x
-
+    # Translate Y coordinates to start at 0
     for series_data in bracket_series:
-        series_data['x'] += champ_x_offset
         series_data['y'] -= min_y
 
-    grid_width = max_x - min_x + 1
+    grid_width = max_depth + 1
     grid_height = int(max_y - min_y) + 1
 
     return {
