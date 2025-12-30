@@ -236,7 +236,9 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            options={"unique_together": {("franchise", "season")},},
+            options={
+                "unique_together": {("franchise", "season")},
+            },
         ),
         migrations.CreateModel(
             name="PlayoffSeries",
@@ -353,7 +355,9 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            options={"unique_together": {("season", "player")},},
+            options={
+                "unique_together": {("season", "player")},
+            },
         ),
         migrations.AddField(
             model_name="match",
@@ -623,6 +627,8 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            options={"unique_together": {("game", "player_season")},},
+            options={
+                "unique_together": {("game", "player_season")},
+            },
         ),
     ]

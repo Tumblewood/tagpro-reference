@@ -113,5 +113,7 @@ class Migration(migrations.Migration):
                 ),
             ],
         ),
-        migrations.DeleteModel(name="Award",),
+        migrations.DeleteModel(
+            name="Award",
+        ),
     ]

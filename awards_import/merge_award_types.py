@@ -55,7 +55,7 @@ def merge_award_types(source_id, target_id):
 
 def list_award_types():
     """List all award types with their IDs."""
-    award_types = AwardType.objects.all().order_by('ordering')
+    award_types = AwardType.objects.all().order_by("ordering")
     print("\nAvailable award types:")
     print("-" * 80)
     for award in award_types:

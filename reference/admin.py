@@ -1,5 +1,21 @@
 from django.contrib import admin
-from .models import League, Franchise, Player, Season, TeamSeason, PlayerSeason, Match, PlayoffSeries, Game, PlayerGameLog, PlayerStats, PlayerRegulationStats, AwardType, AwardReceived, Transaction
+from .models import (
+    League,
+    Franchise,
+    Player,
+    Season,
+    TeamSeason,
+    PlayerSeason,
+    Match,
+    PlayoffSeries,
+    Game,
+    PlayerGameLog,
+    PlayerStats,
+    PlayerRegulationStats,
+    AwardType,
+    AwardReceived,
+    Transaction,
+)
 from .utils import stat_collection
 
 
@@ -29,7 +45,7 @@ def calculate_scar(modeladmin, request, queryset):
 def set_end_date_to_last_game(modeladmin, request, queryset):
     """Set the season's end date to the date of the last game, unless already set to a later date."""
     for season in queryset:
-        last_match = season.matches.order_by('-date').first()
+        last_match = season.matches.order_by("-date").first()
         if last_match:
             last_game_date = last_match.date
             if season.end_date is None or season.end_date < last_game_date:
@@ -77,20 +93,25 @@ class PlayerGameLogInline(admin.TabularInline):
 
 
 class SeasonAdmin(admin.ModelAdmin):
-    search_fields = ['name']
+    search_fields = ["name"]
     inlines = [TeamSeasonInline]
-    actions = [recalculate_standings, process_season, calculate_scar, set_end_date_to_last_game]
+    actions = [
+        recalculate_standings,
+        process_season,
+        calculate_scar,
+        set_end_date_to_last_game,
+    ]
 
 
 class FranchiseAdmin(admin.ModelAdmin):
-    search_fields = ['name', 'abbr']
+    search_fields = ["name", "abbr"]
     list_display = ["name", "abbr"]
     actions = [add_logo_path]
     inlines = [TeamSeasonInline]
 
 
 class TeamSeasonAdmin(admin.ModelAdmin):
-    search_fields = ['name']
+    search_fields = ["name"]
     inlines = [PlayerSeasonInline]
 
 
@@ -102,41 +123,35 @@ class MatchAdmin(admin.ModelAdmin):
 
 class GameAdmin(admin.ModelAdmin):
     actions = [reprocess]
-    search_fields = ['tagpro_eu', 'resumed_tagpro_eu']
-    list_filter = ['match__season']
+    search_fields = ["tagpro_eu", "resumed_tagpro_eu"]
+    list_filter = ["match__season"]
 
 
 class PlayerSeasonAdmin(admin.ModelAdmin):
-    search_fields = ['player__name', 'playing_as']
-    list_filter = ['season', 'team__franchise__name']
+    search_fields = ["player__name", "playing_as"]
+    list_filter = ["season", "team__franchise__name"]
 
 
 class PlayerGameLogAdmin(admin.ModelAdmin):
-    search_fields = ['player_season__playing_as']
+    search_fields = ["player_season__playing_as"]
 
 
 class PlayerRegulationGameStatsAdmin(admin.ModelAdmin):
-    search_fields = ['player_gamelog__player_season__playing_as']
-    list_filter = ['player_gamelog__game__match__season']
+    search_fields = ["player_gamelog__player_season__playing_as"]
+    list_filter = ["player_gamelog__game__match__season"]
 
 
 class AwardReceivedAdmin(admin.ModelAdmin):
-    search_fields = ['player__name', 'team__name']
-    list_filter = ['award', 'season']
-    list_display = ['season', 'award', 'player', 'team', 'placement']
+    search_fields = ["player__name", "team__name"]
+    list_filter = ["award", "season"]
+    list_display = ["season", "award", "player", "team", "placement"]
 
 
 class AwardTypeAdmin(admin.ModelAdmin):
-    list_display = ['name', 'abbr', 'ordering', 'recipient_type']
+    list_display = ["name", "abbr", "ordering", "recipient_type"]
 
 
-admin.site.register([
-    League,
-    Player,
-    PlayoffSeries,
-    PlayerStats,
-    Transaction
-])
+admin.site.register([League, Player, PlayoffSeries, PlayerStats, Transaction])
 
 admin.site.register(Season, SeasonAdmin)
 admin.site.register(Franchise, FranchiseAdmin)

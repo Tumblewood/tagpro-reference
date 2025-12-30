@@ -11,10 +11,21 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RenameModel(
-            old_name="PlayerRegulationGameStats", new_name="PlayerRegulationStats",
+            old_name="PlayerRegulationGameStats",
+            new_name="PlayerRegulationStats",
         ),
-        migrations.RenameModel(old_name="PlayerGameStats", new_name="PlayerStats",),
-        migrations.RemoveField(model_name="playerweekstats", name="player_season",),
-        migrations.DeleteModel(name="PlayerSeasonStats",),
-        migrations.DeleteModel(name="PlayerWeekStats",),
+        migrations.RenameModel(
+            old_name="PlayerGameStats",
+            new_name="PlayerStats",
+        ),
+        migrations.RemoveField(
+            model_name="playerweekstats",
+            name="player_season",
+        ),
+        migrations.DeleteModel(
+            name="PlayerSeasonStats",
+        ),
+        migrations.DeleteModel(
+            name="PlayerWeekStats",
+        ),
     ]

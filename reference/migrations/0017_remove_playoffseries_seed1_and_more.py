@@ -10,6 +10,12 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RemoveField(model_name="playoffseries", name="seed1",),
-        migrations.RemoveField(model_name="playoffseries", name="seed2",),
+        migrations.RemoveField(
+            model_name="playoffseries",
+            name="seed1",
+        ),
+        migrations.RemoveField(
+            model_name="playoffseries",
+            name="seed2",
+        ),
     ]

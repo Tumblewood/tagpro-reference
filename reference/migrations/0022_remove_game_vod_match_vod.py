@@ -10,7 +10,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RemoveField(model_name="game", name="vod",),
+        migrations.RemoveField(
+            model_name="game",
+            name="vod",
+        ),
         migrations.AddField(
             model_name="match",
             name="vod",

@@ -5,8 +5,25 @@ from datetime import datetime, date, timezone, timedelta
 import tagpro_eu
 from typing import Optional, List, Dict, Any
 
-from .stat_collection import process_game_stats, update_standings, load_eu_match_object, STAT_FIELDS
-from ..models import Franchise, Season, TeamSeason, Player, PlayerSeason, Match, Game, PlayerGameLog, PlayoffSeries, PlayerStats, PlayerRegulationStats
+from .stat_collection import (
+    process_game_stats,
+    update_standings,
+    load_eu_match_object,
+    STAT_FIELDS,
+)
+from ..models import (
+    Franchise,
+    Season,
+    TeamSeason,
+    Player,
+    PlayerSeason,
+    Match,
+    Game,
+    PlayerGameLog,
+    PlayoffSeries,
+    PlayerStats,
+    PlayerRegulationStats,
+)
 
 
 def convert_utc_to_pacific_date(utc_datetime):
@@ -19,7 +36,7 @@ def convert_utc_to_pacific_date(utc_datetime):
 def extract_game_id_from_url(eu_url: str) -> str:
     """Extract game ID from EU URL or any string containing numbers."""
     # Look for any sequence of 6-7 digits (typical EU game ID range)
-    game_id_match = re.search(r'(\d{6,7})', eu_url)
+    game_id_match = re.search(r"(\d{6,7})", eu_url)
     return game_id_match.group(1) if game_id_match else "-1"
 
 
@@ -28,7 +45,7 @@ def extract_game_data(eu_url: str) -> Dict:
     # Extract game ID from URL
     game_id = extract_game_id_from_url(eu_url)
     m: tagpro_eu.Match = load_eu_match_object(game_id)
-    
+
     # Get the set of players who joined each team
     r_players = set()
     b_players = set()
@@ -41,35 +58,38 @@ def extract_game_data(eu_url: str) -> Dict:
 
     # Return all relevant game data
     return {
-        'eu_url': eu_url,
-        'game_id': game_id,
-        'date': convert_utc_to_pacific_date(m.date),
-        'map_name': m.map.name,
-        'map_id': m.map_id,
-        'team_red': {
-            'name': m.team_red.name,
-            'score': m.team_red.score,
-            'players': r_players
+        "eu_url": eu_url,
+        "game_id": game_id,
+        "date": convert_utc_to_pacific_date(m.date),
+        "map_name": m.map.name,
+        "map_id": m.map_id,
+        "team_red": {
+            "name": m.team_red.name,
+            "score": m.team_red.score,
+            "players": r_players,
         },
-        'team_blue': {
-            'name': m.team_blue.name,
-            'score': m.team_blue.score,
-            'players': b_players
+        "team_blue": {
+            "name": m.team_blue.name,
+            "score": m.team_blue.score,
+            "players": b_players,
         },
-        'players': [
-            {'username': p, 'team': m.team_red.name, 'stats': {}}
-            for p in r_players
-        ] + [
-            {'username': p, 'team': m.team_blue.name, 'stats': {}}
-            for p in b_players
+        "players": [
+            {"username": p, "team": m.team_red.name, "stats": {}} for p in r_players
         ]
+        + [{"username": p, "team": m.team_blue.name, "stats": {}} for p in b_players],
     }
 
 
-def infer_season(season_group: List[Season], team_name_in_group: str) -> Optional[Season]:
-    if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) < 4:
+def infer_season(
+    season_group: List[Season], team_name_in_group: str
+) -> Optional[Season]:
+    if (
+        not team_name_in_group
+        or team_name_in_group in ["Red", "Blue"]
+        or len(team_name_in_group) < 4
+    ):
         return None
-    
+
     league_indicator = team_name_in_group[:1]
     try:
         if league_indicator == "M":
@@ -84,13 +104,21 @@ def infer_season(season_group: List[Season], team_name_in_group: str) -> Optiona
         return None
 
 
-def infer_team(season_group: List[Season], team_name_in_group: str) -> Optional[TeamSeason]:
+def infer_team(
+    season_group: List[Season], team_name_in_group: str
+) -> Optional[TeamSeason]:
     """Try to automatically match team name from group to TeamSeason within the season group."""
     # If the team name doesn't exist, is default, or is too short, return None
-    if not team_name_in_group or team_name_in_group in ['Red', 'Blue'] or len(team_name_in_group) < 3:
+    if (
+        not team_name_in_group
+        or team_name_in_group in ["Red", "Blue"]
+        or len(team_name_in_group) < 3
+    ):
         return None
-    
-    team_abbr = team_name_in_group.strip()[1:]  # strip because sometimes captains add a trailing space by mistake
+
+    team_abbr = team_name_in_group.strip()[
+        1:
+    ]  # strip because sometimes captains add a trailing space by mistake
     season_guess = infer_season(season_group, team_name_in_group)
 
     # Get all teams with matching abbreviation
@@ -102,20 +130,24 @@ def infer_team(season_group: List[Season], team_name_in_group: str) -> Optional[
     # If no match within the season, check other seasons in the season group for an abbr match
     if not exact_match:
         exact_match = matching_abbr.filter(season__in=season_group).first()
-    
+
     return exact_match
 
 
-def get_existing_match(red: Optional[TeamSeason], blue: Optional[TeamSeason], date: datetime.date) -> Optional[Match]:
+def get_existing_match(
+    red: Optional[TeamSeason], blue: Optional[TeamSeason], date: datetime.date
+) -> Optional[Match]:
     """Search for a match featuring both given teams (in either order) on the given date."""
-    return Match.objects.filter(
-        date=date
-    ).filter(
-        models.Q(team1=red, team2=blue) | models.Q(team1=blue, team2=red)
-    ).first()
+    return (
+        Match.objects.filter(date=date)
+        .filter(models.Q(team1=red, team2=blue) | models.Q(team1=blue, team2=red))
+        .first()
+    )
 
 
-def infer_week(red: Optional[TeamSeason], blue: Optional[TeamSeason], date: datetime.date) -> str:
+def infer_week(
+    red: Optional[TeamSeason], blue: Optional[TeamSeason], date: datetime.date
+) -> str:
     # Get the season based on the teams. If neither team found, return "Week 1"
     if red is not None:
         season = red.season
@@ -123,17 +155,14 @@ def infer_week(red: Optional[TeamSeason], blue: Optional[TeamSeason], date: date
         season = blue.season
     else:
         return "Week 1"
-    
+
     # Get the maximum week of all Matches played this Season before this match's date
     # Return "Week 1" if no weeks played before this date in this season
-    matches_before = Match.objects.filter(
-        season=season,
-        date__lte=date
-    )
+    matches_before = Match.objects.filter(season=season, date__lte=date)
     if len(matches_before) == 0:
         return "Week 1"
-    max_week = matches_before.aggregate(models.Max('week'))['week__max']
-    
+    max_week = matches_before.aggregate(models.Max("week"))["week__max"]
+
     # If the greatest week wasn't a typical week (wasn't called "Week X" for some number X), return
     # the week as-is
     if not re.match(r"Week \d+", max_week):
@@ -141,75 +170,75 @@ def infer_week(red: Optional[TeamSeason], blue: Optional[TeamSeason], date: date
 
     # Otherwise, see if either of these teams already have a match in that week. If so, increment
     # the week number. Otherwise, return max week as-is
-    matches_before_by_either_team = matches_before.filter(
-        week=max_week
-    ).filter(
-        models.Q(team1=red) | models.Q(team1=blue) | models.Q(team2=red) | models.Q(team2=blue)
-    ).first()
+    matches_before_by_either_team = (
+        matches_before.filter(week=max_week)
+        .filter(
+            models.Q(team1=red)
+            | models.Q(team1=blue)
+            | models.Q(team2=red)
+            | models.Q(team2=blue)
+        )
+        .first()
+    )
     if matches_before_by_either_team:
         week_num = int(max_week[5:])
         return f"Week {week_num + 1}"
     return max_week
 
 
-def infer_player_season(username: str, season_group: List[Season], team: Optional[TeamSeason]) -> Optional[PlayerSeason]:
+def infer_player_season(
+    username: str, season_group: List[Season], team: Optional[TeamSeason]
+) -> Optional[PlayerSeason]:
     """Try to identify the PlayerSeason corresponding to the given username and team."""
     # Search for PlayerSeason with matching TeamSeason and name
     if team:
         matching_name = PlayerSeason.objects.filter(
-            team=team,
-            playing_as__iexact=username
+            team=team, playing_as__iexact=username
         ).first()
         if matching_name:
             return matching_name
-    
+
     # If not found, search for PlayerSeason with matching Season and PlayerSeason name
     matching_name = PlayerSeason.objects.filter(
-        season__in=season_group,
-        playing_as__iexact=username
+        season__in=season_group, playing_as__iexact=username
     ).first()
     if matching_name:
         return matching_name
-    
+
     # If not found, search for PlayerSeason with matching Season and Player name
     matching_name = PlayerSeason.objects.filter(
-        season__in=season_group,
-        player__name__iexact=username
+        season__in=season_group, player__name__iexact=username
     ).first()
     if matching_name:
         return matching_name
-    
+
     # If all of the above fails, return None
     return None
 
 
-def infer_player(player_season: Optional[PlayerSeason], username: str) -> Optional[Player]:
+def infer_player(
+    player_season: Optional[PlayerSeason], username: str
+) -> Optional[Player]:
     """Try to identify the Player corresponding to the given PlayerSeason and username."""
     # If there is a PlayerSeason, just return its player's name
     if player_season:
         return player_season.player
-    
+
     # Otherwise, search for a Player with matching name
-    matching_name = Player.objects.filter(
-        name__iexact=username
-    ).first()
+    matching_name = Player.objects.filter(name__iexact=username).first()
     if matching_name:
         return matching_name
-    
+
     # If not found, search for a PlayerSeason with matching name and return its player
-    matching_name = PlayerSeason.objects.filter(
-        playing_as__iexact=username
-    ).first()
+    matching_name = PlayerSeason.objects.filter(playing_as__iexact=username).first()
     if matching_name:
         return matching_name.player
-    
+
     # If not found, search for a PlayerGameLog with matching name and return its player
-    matching_name = PlayerGameLog.objects.filter(
-        playing_as__iexact=username
-    ).first()
+    matching_name = PlayerGameLog.objects.filter(playing_as__iexact=username).first()
     if matching_name:
         return matching_name.player_season.player
-    
+
     # If all of the above fails, return None
     return None
 
@@ -218,9 +247,7 @@ def get_game_number(m: Optional[Match]) -> str:
     """Get the correct game number (as a string like "Game X") of a new game in the given match."""
     if m is None:
         return "Game 1"
-    num_other_games = len(
-        Game.objects.filter(match=m)
-    )
+    num_other_games = len(Game.objects.filter(match=m))
     return f"Game {num_other_games + 1}"
 
 
@@ -232,59 +259,69 @@ def prepopulate_form(season_filter_string: str, eu_url: str):
         raise Exception("No seasons found matching provided season filter string")
 
     m = extract_game_data(eu_url)
-    red_team = infer_team(season_group, m['team_red']['name'])
-    blue_team = infer_team(season_group, m['team_blue']['name'])
-    existing_match = get_existing_match(red_team, blue_team, m['date'])
+    red_team = infer_team(season_group, m["team_red"]["name"])
+    blue_team = infer_team(season_group, m["team_blue"]["name"])
+    existing_match = get_existing_match(red_team, blue_team, m["date"])
     players = []
-    for p in m['players']:
-        team = red_team if p['team'] == m['team_red']['name'] else blue_team
-        player_season = infer_player_season(p['username'], season_group, team)
-        player = infer_player(player_season, p['username'])
-        players.append({
-            'player_season': player_season,
-            'player': player,
-            'player_username': player.name if player else p['username'],
-            'season_username': player_season.playing_as if player_season else p['username'],
-            'season_team': player_season.team if player_season else team,
-            'game_username': p['username'],
-            'game_team': p['team']
-        })
-    
+    for p in m["players"]:
+        team = red_team if p["team"] == m["team_red"]["name"] else blue_team
+        player_season = infer_player_season(p["username"], season_group, team)
+        player = infer_player(player_season, p["username"])
+        players.append(
+            {
+                "player_season": player_season,
+                "player": player,
+                "player_username": player.name if player else p["username"],
+                "season_username": (
+                    player_season.playing_as if player_season else p["username"]
+                ),
+                "season_team": player_season.team if player_season else team,
+                "game_username": p["username"],
+                "game_team": p["team"],
+            }
+        )
+
     return {
-        'red_team': red_team,
-        'blue_team': blue_team,
-        'match': existing_match,
-        'week': existing_match.week if existing_match else infer_week(red_team, blue_team, m['date']),
-        'game_in_match': get_game_number(get_existing_match(red_team, blue_team, m['date'])),
-        'eu_url': eu_url,
-        'red_team_raw_name': m['team_red']['name'],
-        'blue_team_raw_name': m['team_blue']['name'],
-        'red_team_score': m['team_red']['score'],
-        'blue_team_score': m['team_blue']['score'],
-        'map_name': m['map_name'],
-        'map_id': m['map_id'],
-        'date': m['date'],
-        'players': players
+        "red_team": red_team,
+        "blue_team": blue_team,
+        "match": existing_match,
+        "week": (
+            existing_match.week
+            if existing_match
+            else infer_week(red_team, blue_team, m["date"])
+        ),
+        "game_in_match": get_game_number(
+            get_existing_match(red_team, blue_team, m["date"])
+        ),
+        "eu_url": eu_url,
+        "red_team_raw_name": m["team_red"]["name"],
+        "blue_team_raw_name": m["team_blue"]["name"],
+        "red_team_score": m["team_red"]["score"],
+        "blue_team_score": m["team_blue"]["score"],
+        "map_name": m["map_name"],
+        "map_id": m["map_id"],
+        "date": m["date"],
+        "players": players,
     }
 
 
 @transaction.atomic
 def enter_confirmed_data(
-        red_team: TeamSeason,
-        blue_team: TeamSeason,
-        red_team_raw_name: str,
-        blue_team_raw_name: str,
-        match: Match,
-        week: str,
-        game_in_match: str,
-        eu_url: str,
-        score_red: int,
-        score_blue: int,
-        map_name: str,
-        map_id: int,
-        date: datetime.date,
-        players: List[Dict]
-    ) -> None:
+    red_team: TeamSeason,
+    blue_team: TeamSeason,
+    red_team_raw_name: str,
+    blue_team_raw_name: str,
+    match: Match,
+    week: str,
+    game_in_match: str,
+    eu_url: str,
+    score_red: int,
+    score_blue: int,
+    map_name: str,
+    map_id: int,
+    date: datetime.date,
+    players: List[Dict],
+) -> None:
     """Enter a game's worth of data from the data import form into the database."""
     # Error handling for if teams are not selected or from different seasons
     if red_team is None:
@@ -293,7 +330,7 @@ def enter_confirmed_data(
         raise Exception("Blue team not selected")
     if red_team.season != blue_team.season:
         raise Exception("Red and blue teams are from different seasons")
-    
+
     # Create Match if no Match can be found even after user corrects the teams
     match = get_existing_match(red_team, blue_team, date)
     if match is None:
@@ -302,17 +339,17 @@ def enter_confirmed_data(
             team1=red_team,
             team2=blue_team,
             week=week,
-            date=date
+            date=date,
         )
 
     team1_is_red = red_team == match.team1
-    
+
     # Check if game already exists
     game_id = extract_game_id_from_url(eu_url)
     existing_game = Game.objects.filter(tagpro_eu=game_id).first()
     if existing_game:
         raise Exception(f"Game with tagpro.eu ID {game_id} already exists")
-    
+
     # Create Game
     game = Game.objects.create(
         match=match,
@@ -323,40 +360,39 @@ def enter_confirmed_data(
         map_name=map_name,
         map_id=map_id,
         game_in_match=game_in_match,
-        tagpro_eu=game_id
+        tagpro_eu=game_id,
     )
 
     # Create PlayerGameLogs for all players in the game
     for p in players:
-        played_on = red_team if p['game_team'] == red_team_raw_name else blue_team
+        played_on = red_team if p["game_team"] == red_team_raw_name else blue_team
 
         # If the player has a PlayerSeason in that season, set it to that
         exact_player_season_match = PlayerSeason.objects.filter(
-            season=red_team.season,
-            player=p['player']
+            season=red_team.season, player=p["player"]
         ).first()
         if exact_player_season_match is not None:
-            p['player_season'] = exact_player_season_match
+            p["player_season"] = exact_player_season_match
 
         # If Player and PlayerSeason are both None, create a new Player
-        if p['player'] is None and p['player_season'] is None:
-            p['player'] = Player.objects.create(name=p['player_username'])
-        
+        if p["player"] is None and p["player_season"] is None:
+            p["player"] = Player.objects.create(name=p["player_username"])
+
         # If PlayerSeason is None, create a new PlayerSeason
-        if p['player_season'] is None:
-            p['player_season'] = PlayerSeason.objects.create(
+        if p["player_season"] is None:
+            p["player_season"] = PlayerSeason.objects.create(
                 season=red_team.season,
-                player=p['player'],
-                team=p['season_team'],
-                playing_as=p['season_username']
+                player=p["player"],
+                team=p["season_team"],
+                playing_as=p["season_username"],
             )
-        
+
         # Add the PlayerGameLog
         PlayerGameLog.objects.create(
             game=game,
-            player_season=p['player_season'],
-            playing_as=p['game_username'],
-            team=played_on
+            player_season=p["player_season"],
+            playing_as=p["game_username"],
+            team=played_on,
         )
 
     # Collect and store stats from the game
@@ -374,28 +410,35 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
     team_seasons: Dict[str, List[Any]] = {}
     player_seasons: Dict[str, List[Any]] = {}
     matches: Dict[str, List[Any]] = {}
-    
+
     extracted_game_data = [extract_game_data(url) for url in eu_urls]
     for game_data in extracted_game_data:
-        red_team: Optional[TeamSeason] = infer_team(season_group, game_data['team_red']['name'])
-        blue_team: Optional[TeamSeason] = infer_team(season_group, game_data['team_blue']['name'])
+        red_team: Optional[TeamSeason] = infer_team(
+            season_group, game_data["team_red"]["name"]
+        )
+        blue_team: Optional[TeamSeason] = infer_team(
+            season_group, game_data["team_blue"]["name"]
+        )
         season: Optional[Season] = None
         game_players: List[Dict] = []
-        team1_score = game_data['team_red']['score']
-        team2_score = game_data['team_blue']['score']
-        
+        team1_score = game_data["team_red"]["score"]
+        team2_score = game_data["team_blue"]["score"]
+
         # Add team seasons (include both known and unknown teams)
-        for team, raw_name in [(red_team, game_data['team_red']['name']), (blue_team, game_data['team_blue']['name'])]:                
+        for team, raw_name in [
+            (red_team, game_data["team_red"]["name"]),
+            (blue_team, game_data["team_blue"]["name"]),
+        ]:
             team_name = team.name if team else raw_name
             if team:
                 # Known team
                 season = team.season
                 team_key = f"{season.name} {team_name}"
                 team_seasons[team_key] = {
-                    'season': season.name,
-                    'franchise': team.franchise.name if team.franchise else team_name,
-                    'name': team.name,
-                    'abbr': team.abbr
+                    "season": season.name,
+                    "franchise": team.franchise.name if team.franchise else team_name,
+                    "name": team.name,
+                    "abbr": team.abbr,
                 }
             else:
                 # Unknown team - use raw name and infer season and franchise
@@ -403,26 +446,36 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
                 team_abbr = raw_name[-3:]
                 team_key = f"{season.name} {team_abbr}"
                 team_seasons[team_key] = {
-                    'season': season.name,
-                    'franchise': raw_name,  # Use raw name as franchise fallback
-                    'name': raw_name,  # Use raw name as team name
-                    'abbr': team_abbr
+                    "season": season.name,
+                    "franchise": raw_name,  # Use raw name as franchise fallback
+                    "name": raw_name,  # Use raw name as team name
+                    "abbr": team_abbr,
                 }
-        
+
         # Identify and track players from the game
-        for player_data in game_data['players']:
+        for player_data in game_data["players"]:
             player_season: Optional[PlayerSeason] = None
-            player: Optional[Player] = infer_player(None, player_data['username'])
+            player: Optional[Player] = infer_player(None, player_data["username"])
             if player:
-                player_season = PlayerSeason.objects.filter(season=season, player=player).first()
-            season_playing_as = player_season.playing_as if player_season else player_data['username']
+                player_season = PlayerSeason.objects.filter(
+                    season=season, player=player
+                ).first()
+            season_playing_as = (
+                player_season.playing_as if player_season else player_data["username"]
+            )
             player_key = f"{season.name} {season_playing_as}"
-            team = red_team if player_data['team'] == game_data['team_red']['name'] else blue_team
-            game_players.append({
-                'team': team.name if team else player_data['team'],
-                'player_season': season_playing_as,
-                'playing_as': player_data['username']
-            })
+            team = (
+                red_team
+                if player_data["team"] == game_data["team_red"]["name"]
+                else blue_team
+            )
+            game_players.append(
+                {
+                    "team": team.name if team else player_data["team"],
+                    "player_season": season_playing_as,
+                    "playing_as": player_data["username"],
+                }
+            )
             if player_season:
                 if player_season.team:
                     season_team_name = player_season.team.name
@@ -432,51 +485,67 @@ def process_multiple_eu_links(season_filter_string: str, eu_urls: List[str]) -> 
                 if team:
                     season_team_name = team.name
                 else:
-                    season_team_name = player_data['team']
+                    season_team_name = player_data["team"]
             player_seasons[player_key] = {
-                'season': season.name,
-                'team': season_team_name,
-                'player': player.name if player else season_playing_as,
-                'playing_as': season_playing_as
+                "season": season.name,
+                "team": season_team_name,
+                "player": player.name if player else season_playing_as,
+                "playing_as": season_playing_as,
             }
-        
+
         # Search for the existing match if there is one (either red or blue team could be team1), or create a new match if none found
         match_key = f"{season.name} {game_data['date']} - {red_team.name if red_team else game_data['team_red']['name']} vs. {blue_team.name if blue_team else game_data['team_blue']['name']}"
         reverse_match_key = f"{season.name} {game_data['date']} - {blue_team.name if blue_team else game_data['team_blue']['name']} vs. {red_team.name if red_team else game_data['team_red']['name']}"
         if match_key not in matches:
             if reverse_match_key in matches:
                 match_key = reverse_match_key
-                team1_score = game_data['team_blue']['score']
-                team2_score = game_data['team_red']['score']
+                team1_score = game_data["team_blue"]["score"]
+                team2_score = game_data["team_red"]["score"]
             else:
                 matches[match_key] = {
-                    'season': season.name,
-                    'date': str(game_data['date']),
-                    'week': infer_week(red_team, blue_team, game_data['date']),
-                    'team1': red_team.name if red_team else game_data['team_red']['name'],
-                    'team2': blue_team.name if blue_team else game_data['team_blue']['name'],
-                    'games': []
+                    "season": season.name,
+                    "date": str(game_data["date"]),
+                    "week": infer_week(red_team, blue_team, game_data["date"]),
+                    "team1": (
+                        red_team.name if red_team else game_data["team_red"]["name"]
+                    ),
+                    "team2": (
+                        blue_team.name if blue_team else game_data["team_blue"]["name"]
+                    ),
+                    "games": [],
                 }
 
-        matches[match_key]['games'].append({
-            "tagpro_eu": int(game_data['game_id']),
-            "map_name": game_data['map_name'],
-            "map_id": int(game_data['map_id']) if game_data['map_id'] else None,
-            "red_team": red_team.name if red_team else game_data['team_red']['name'],
-            "blue_team": blue_team.name if blue_team else game_data['team_blue']['name'],
-            "team1_score": team1_score,
-            "team2_score": team2_score,
-            "players": game_players
-        })
+        matches[match_key]["games"].append(
+            {
+                "tagpro_eu": int(game_data["game_id"]),
+                "map_name": game_data["map_name"],
+                "map_id": int(game_data["map_id"]) if game_data["map_id"] else None,
+                "red_team": (
+                    red_team.name if red_team else game_data["team_red"]["name"]
+                ),
+                "blue_team": (
+                    blue_team.name if blue_team else game_data["team_blue"]["name"]
+                ),
+                "team1_score": team1_score,
+                "team2_score": team2_score,
+                "players": game_players,
+            }
+        )
 
-    sorted_ts = sorted([team_seasons[ts] for ts in team_seasons], key=lambda ts: (ts['season'], ts['name']))
-    sorted_ps = sorted([player_seasons[ps] for ps in player_seasons], key=lambda ps: (ps['season'], ps['team'] or "", ps['playing_as']))
+    sorted_ts = sorted(
+        [team_seasons[ts] for ts in team_seasons],
+        key=lambda ts: (ts["season"], ts["name"]),
+    )
+    sorted_ps = sorted(
+        [player_seasons[ps] for ps in player_seasons],
+        key=lambda ps: (ps["season"], ps["team"] or "", ps["playing_as"]),
+    )
     sorted_matches = [matches[m] for m in sorted(matches.keys())]
-    
+
     return {
-        'teamSeasons': sorted_ts,
-        'playerSeasons': sorted_ps,
-        'matches': sorted_matches
+        "teamSeasons": sorted_ts,
+        "playerSeasons": sorted_ps,
+        "matches": sorted_matches,
     }
 
 
@@ -484,97 +553,95 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
     """Import JSON data into database idempotently."""
     created_count = 0
     skipped_count = 0
-    
+
     # First pass: Create/get all seasons, franchises, players, team seasons, player seasons
     seasons_cache = {}
     franchises_cache = {}
     players_cache = {}
     team_seasons_cache = {}
     player_seasons_cache = {}
-    
+
     # Cache existing seasons
     for season in Season.objects.all():
         seasons_cache[season.name] = season
-    
+
     # Process team seasons
-    for ts_data in json_data.get('teamSeasons', []):
-        season = seasons_cache.get(ts_data['season'])
+    for ts_data in json_data.get("teamSeasons", []):
+        season = seasons_cache.get(ts_data["season"])
         if not season:
             continue
-            
+
         # Get or create franchise
-        franchise_name = ts_data['franchise']
+        franchise_name = ts_data["franchise"]
         if franchise_name not in franchises_cache:
             franchise, _ = Franchise.objects.get_or_create(name=franchise_name)
             franchises_cache[franchise_name] = franchise
-        
+
         # Handle captain and co_captain
         captain = None
         co_captain = None
-        if ts_data.get('captain'):
-            captain, _ = Player.objects.get_or_create(name=ts_data['captain'])
-            players_cache[ts_data['captain']] = captain
-        if ts_data.get('co_captain'):
-            co_captain, _ = Player.objects.get_or_create(name=ts_data['co_captain'])
-            players_cache[ts_data['co_captain']] = co_captain
-        
+        if ts_data.get("captain"):
+            captain, _ = Player.objects.get_or_create(name=ts_data["captain"])
+            players_cache[ts_data["captain"]] = captain
+        if ts_data.get("co_captain"):
+            co_captain, _ = Player.objects.get_or_create(name=ts_data["co_captain"])
+            players_cache[ts_data["co_captain"]] = co_captain
+
         # Get or create team season
         defaults = {
-            'franchise': franchises_cache[franchise_name],
-            'abbr': ts_data['abbr']
+            "franchise": franchises_cache[franchise_name],
+            "abbr": ts_data["abbr"],
         }
         if captain:
-            defaults['captain'] = captain
+            defaults["captain"] = captain
         if co_captain:
-            defaults['co_captain'] = co_captain
-            
+            defaults["co_captain"] = co_captain
+
         team_season, _ = TeamSeason.objects.get_or_create(
-            season=season,
-            name=ts_data['name'],
-            defaults=defaults
+            season=season, name=ts_data["name"], defaults=defaults
         )
         team_seasons_cache[f"{season.name}_{ts_data['name']}"] = team_season
-    
+
     # Process player seasons
-    for ps_data in json_data.get('playerSeasons', []):
-        season = seasons_cache.get(ps_data['season'])
+    for ps_data in json_data.get("playerSeasons", []):
+        season = seasons_cache.get(ps_data["season"])
         if not season:
             continue
-            
+
         # Get or create player
-        player_name = ps_data['player']
+        player_name = ps_data["player"]
         if player_name not in players_cache:
             player, _ = Player.objects.get_or_create(name=player_name)
             players_cache[player_name] = player
-        
+
         # Get team season (allow null team)
         team_season = None
-        if ps_data['team']:
+        if ps_data["team"]:
             team_season = team_seasons_cache.get(f"{season.name}_{ps_data['team']}")
-            
+
         # Get or create player season (team can be None)
         player_season, _ = PlayerSeason.objects.get_or_create(
             season=season,
             player=players_cache[player_name],
-            playing_as=ps_data['playing_as'],
-            defaults={'team': team_season}
+            playing_as=ps_data["playing_as"],
+            defaults={"team": team_season},
         )
         player_seasons_cache[f"{season.name}_{ps_data['playing_as']}"] = player_season
-    
+
     # Process matches and games
     last_valid_date = None
-    for match_data in json_data.get('matches', []):
-        season = seasons_cache.get(match_data['season'])
+    for match_data in json_data.get("matches", []):
+        season = seasons_cache.get(match_data["season"])
         if not season:
             continue
-            
+
         team1 = team_seasons_cache.get(f"{season.name}_{match_data['team1']}")
         team2 = team_seasons_cache.get(f"{season.name}_{match_data['team2']}")
         if not team1 or not team2:
             continue
-        
+
         # Handle empty date by using the most recently imported match date
-        match_date = match_data['date']
+        match_date = match_data["date"]
         if not match_date or match_date == "":
             if last_valid_date:
                 match_date = last_valid_date
@@ -583,43 +650,46 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 continue
         else:
             last_valid_date = match_date
-            
+
         # Get or create match
         match, _ = Match.objects.get_or_create(
             season=season,
             team1=team1,
             team2=team2,
             date=match_date,
-            defaults={'week': match_data['week']}
+            defaults={"week": match_data["week"]},
         )
-        
+
         # Process games in this match
-        for i, game_data in enumerate(match_data['games']):
+        for i, game_data in enumerate(match_data["games"]):
             # Skip games with no players
-            if not game_data.get('players') or len(game_data['players']) == 0:
+            if not game_data.get("players") or len(game_data["players"]) == 0:
                 continue
-                
+
             red_team = team_seasons_cache.get(f"{season.name}_{game_data['red_team']}")
-            blue_team = team_seasons_cache.get(f"{season.name}_{game_data['blue_team']}")
+            blue_team = team_seasons_cache.get(
+                f"{season.name}_{game_data['blue_team']}"
+            )
             if not red_team or not blue_team:
                 continue
 
             # Set game_in_match if not provided
-            if 'game_in_match' not in game_data or not game_data['game_in_match']:
-                game_data['game_in_match'] = f"Game {i + 1}"
-                
+            if "game_in_match" not in game_data or not game_data["game_in_match"]:
+                game_data["game_in_match"] = f"Game {i + 1}"
+
             # Check if game already exists
-            if game_data['tagpro_eu'] is not None:
+            if game_data["tagpro_eu"] is not None:
                 # For games with EU IDs, check by tagpro_eu
-                existing_game = Game.objects.filter(tagpro_eu=game_data['tagpro_eu']).first()
+                existing_game = Game.objects.filter(
+                    tagpro_eu=game_data["tagpro_eu"]
+                ).first()
                 if existing_game:
                     skipped_count += 1
                     continue
             else:
                 # For games without EU IDs, check by match and game_in_match
                 existing_game = Game.objects.filter(
-                    match=match,
-                    game_in_match=game_data['game_in_match']
+                    match=match, game_in_match=game_data["game_in_match"]
                 ).first()
                 if existing_game:
                     skipped_count += 1
@@ -627,143 +697,158 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
 
             # Create game with additional fields
             game_fields = {
-                'match': match,
-                'red_team': red_team,
-                'blue_team': blue_team,
-                'team1_score': game_data.get('team1_score', 0),
-                'team2_score': game_data.get('team2_score', 0),
-                'map_name': game_data['map_name'],
-                'map_id': game_data['map_id'] if game_data['map_id'] else None,
-                'game_in_match': game_data['game_in_match'],
-                'tagpro_eu': game_data['tagpro_eu']
+                "match": match,
+                "red_team": red_team,
+                "blue_team": blue_team,
+                "team1_score": game_data.get("team1_score", 0),
+                "team2_score": game_data.get("team2_score", 0),
+                "map_name": game_data["map_name"],
+                "map_id": game_data["map_id"] if game_data["map_id"] else None,
+                "game_in_match": game_data["game_in_match"],
+                "tagpro_eu": game_data["tagpro_eu"],
             }
-            
+
             # Add optional fields if present
-            if game_data.get('second_eu'):
-                game_fields['resumed_tagpro_eu'] = game_data['second_eu']
-            if game_data.get('switch_time') is not None:
-                game_fields['paused_time'] = game_data['switch_time']
-                game_fields['resumed_stats_count_until'] = 600 - game_data['switch_time']
-            if game_data.get('replay'):
-                game_fields['replay'] = game_data['replay']
-            if game_data.get('vod'):
-                game_fields['vod'] = game_data['vod']
-                
+            if game_data.get("second_eu"):
+                game_fields["resumed_tagpro_eu"] = game_data["second_eu"]
+            if game_data.get("switch_time") is not None:
+                game_fields["paused_time"] = game_data["switch_time"]
+                game_fields["resumed_stats_count_until"] = (
+                    600 - game_data["switch_time"]
+                )
+            if game_data.get("replay"):
+                game_fields["replay"] = game_data["replay"]
+            if game_data.get("vod"):
+                game_fields["vod"] = game_data["vod"]
+
             game = Game.objects.create(**game_fields)
 
             # Create player game logs
-            for player_data in game_data['players']:
-                player_season = player_seasons_cache.get(f"{season.name}_{player_data['player_season']}")
+            for player_data in game_data["players"]:
+                player_season = player_seasons_cache.get(
+                    f"{season.name}_{player_data['player_season']}"
+                )
                 if not player_season:
                     continue
-                    
+
                 team = team_seasons_cache.get(f"{season.name}_{player_data['team']}")
                 if not team:
                     continue
-                    
+
                 # Check if player game log already exists
                 existing_pgl = PlayerGameLog.objects.filter(
                     game=game,
                     player_season=player_season,
-                    playing_as=player_data['playing_as']
+                    playing_as=player_data["playing_as"],
                 ).first()
-                
+
                 if not existing_pgl:
                     pgl = PlayerGameLog.objects.create(
                         game=game,
                         player_season=player_season,
                         playing_as=player_data["playing_as"],
-                        team=team
+                        team=team,
                     )
-                    
+
                     # Create PlayerStats if stats are provided in JSON
                     if "stats" in player_data:
                         stats_data = player_data["stats"]
-                        
+
                         # Create stats dict with 0 defaults for all stat fields
                         player_stats = {field: 0 for field in STAT_FIELDS}
-                        
+
                         # Update with actual values from JSON (only known stat fields)
                         for key, value in stats_data.items():
                             if key in STAT_FIELDS:
                                 player_stats[key] = value or 0
 
                         # Create PlayerStats object
-                        PlayerStats.objects.create(
-                            player_gamelog=pgl,
-                            **player_stats
-                        )
-                        
+                        PlayerStats.objects.create(player_gamelog=pgl, **player_stats)
+
                         # Create PlayerRegulationStats (same data for manually entered stats)
                         PlayerRegulationStats.objects.create(
-                            player_gamelog=pgl,
-                            **player_stats
+                            player_gamelog=pgl, **player_stats
                         )
-            
+
             # Process game stats
             created_count += 1
-    
-    return {'created_count': created_count, 'skipped_count': skipped_count}
+
+    return {"created_count": created_count, "skipped_count": skipped_count}
 
 
 def format_compact_json(data):
     """Format JSON with scalar fields on one line, arrays/objects multi-line."""
     # Simplified approach - format each top-level section
     result_lines = ["{"]
-    
+
     # teamSeasons - each on one line
-    if data.get('teamSeasons'):
+    if data.get("teamSeasons"):
         result_lines.append('  "teamSeasons": [')
-        for i, ts in enumerate(data['teamSeasons']):
-            comma = "," if i < len(data['teamSeasons']) - 1 else ""
-            pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ts.items()]
+        for i, ts in enumerate(data["teamSeasons"]):
+            comma = "," if i < len(data["teamSeasons"]) - 1 else ""
+            pairs = [
+                f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ts.items()
+            ]
             result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
-        result_lines.append('  ],')
-    
-    # playerSeasons - each on one line  
-    if data.get('playerSeasons'):
+        result_lines.append("  ],")
+
+    # playerSeasons - each on one line
+    if data.get("playerSeasons"):
         result_lines.append('  "playerSeasons": [')
-        for i, ps in enumerate(data['playerSeasons']):
-            comma = "," if i < len(data['playerSeasons']) - 1 else ""
-            pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ps.items()]
+        for i, ps in enumerate(data["playerSeasons"]):
+            comma = "," if i < len(data["playerSeasons"]) - 1 else ""
+            pairs = [
+                f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in ps.items()
+            ]
             result_lines.append(f'    {{ {", ".join(pairs)} }}{comma}')
-        result_lines.append('  ],')
-    
+        result_lines.append("  ],")
+
     # matches - scalar fields on one line, games array multi-line
-    if data.get('matches'):
+    if data.get("matches"):
         result_lines.append('  "matches": [')
-        for i, match in enumerate(data['matches']):
-            comma = "," if i < len(data['matches']) - 1 else ""
-            result_lines.append('    {')
-            
+        for i, match in enumerate(data["matches"]):
+            comma = "," if i < len(data["matches"]) - 1 else ""
+            result_lines.append("    {")
+
             # Match scalar fields on one line
-            scalar_fields = {k: v for k, v in match.items() if k != 'games'}
-            scalar_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in scalar_fields.items()]
+            scalar_fields = {k: v for k, v in match.items() if k != "games"}
+            scalar_pairs = [
+                f'"{k}": {json.dumps(v, ensure_ascii=False)}'
+                for k, v in scalar_fields.items()
+            ]
             result_lines.append(f'      {", ".join(scalar_pairs)},')
-            
+
             # Games array
             result_lines.append('      "games": [')
-            for j, game in enumerate(match['games']):
-                game_comma = "," if j < len(match['games']) - 1 else ""
-                result_lines.append('        {')
-                
+            for j, game in enumerate(match["games"]):
+                game_comma = "," if j < len(match["games"]) - 1 else ""
+                result_lines.append("        {")
+
                 # Game scalar fields on one line
-                game_scalar_fields = {k: v for k, v in game.items() if k != 'players'}
-                game_scalar_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in game_scalar_fields.items()]
+                game_scalar_fields = {k: v for k, v in game.items() if k != "players"}
+                game_scalar_pairs = [
+                    f'"{k}": {json.dumps(v, ensure_ascii=False)}'
+                    for k, v in game_scalar_fields.items()
+                ]
                 result_lines.append(f'          {", ".join(game_scalar_pairs)},')
-                
+
                 # Players array - each player on one line
                 result_lines.append('          "players": [')
-                for p_idx, player in enumerate(game['players']):
-                    player_comma = "," if p_idx < len(game['players']) - 1 else ""
-                    player_pairs = [f'"{k}": {json.dumps(v, ensure_ascii=False)}' for k, v in player.items()]
-                    result_lines.append(f'            {{ {", ".join(player_pairs)} }}{player_comma}')
-                result_lines.append('          ]')
-                
-                result_lines.append(f'        }}{game_comma}')
-            result_lines.append('      ]')
-            result_lines.append(f'    }}{comma}')
-        result_lines.append('  ]')
-    
-    result_lines.append('}')
-    return '\n'.join(result_lines)
+                for p_idx, player in enumerate(game["players"]):
+                    player_comma = "," if p_idx < len(game["players"]) - 1 else ""
+                    player_pairs = [
+                        f'"{k}": {json.dumps(v, ensure_ascii=False)}'
+                        for k, v in player.items()
+                    ]
+                    result_lines.append(
+                        f'            {{ {", ".join(player_pairs)} }}{player_comma}'
+                    )
+                result_lines.append("          ]")
+
+                result_lines.append(f"        }}{game_comma}")
+            result_lines.append("      ]")
+            result_lines.append(f"    }}{comma}")
+        result_lines.append("  ]")
+
+    result_lines.append("}")
+    return "\n".join(result_lines)

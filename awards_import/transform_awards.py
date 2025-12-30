@@ -3,11 +3,13 @@ import os
 import re
 from glob import glob
 
+
 def parse_percentage(pct_str):
     """Convert percentage string like '31.45%' to decimal like 0.3145"""
     if not pct_str or pct_str.strip() == "":
         return ""
     return f"{float(pct_str.strip().rstrip('%')) / 100:.4f}"
+
 
 def process_winner(name, team, is_team_award=False):
     """Split tied/paired winners and return list of (team, player) tuples"""
@@ -16,7 +18,11 @@ def process_winner(name, team, is_team_award=False):
 
     # Split on // for tied/paired winners
     names = [n.strip() for n in name.split("//")]
-    teams = [t.strip() for t in team.split("//")] if team and "//" in team else [team.strip() if team else ""] * len(names)
+    teams = (
+        [t.strip() for t in team.split("//")]
+        if team and "//" in team
+        else [team.strip() if team else ""] * len(names)
+    )
 
     # Make sure we have same number of teams as names
     if len(teams) < len(names):
@@ -31,12 +37,11 @@ def process_winner(name, team, is_team_award=False):
 
     return results
 
+
 def process_file(input_file, season_name):
     """Process a single TSV file and return list of output rows"""
     # Team awards - these put the name in the team column instead of player column
-    TEAM_AWARDS = {
-        "Most Cohesive Unit"
-    }
+    TEAM_AWARDS = {"Most Cohesive Unit"}
 
     output_rows = []
 
@@ -104,25 +109,28 @@ def process_file(input_file, season_name):
 
             for team_val, player_val in winners:
                 if player_val or team_val:  # Only add if there's a value
-                    output_rows.append({
-                        "season": season_name,
-                        "award": award,
-                        "placement": str(placement),
-                        "team": team_val,
-                        "player": player_val,
-                        "percentage": parse_percentage(pct)
-                    })
+                    output_rows.append(
+                        {
+                            "season": season_name,
+                            "award": award,
+                            "placement": str(placement),
+                            "team": team_val,
+                            "player": player_val,
+                            "percentage": parse_percentage(pct),
+                        }
+                    )
 
         prev_award = award
 
     return output_rows
+
 
 # Map of file prefixes to league names
 FILES_TO_PROCESS = {
     "majors": "MLTP",
     "minors": "mLTP",
     "novice": "NLTP",
-    "bteam": "NLTP B"
+    "bteam": "NLTP B",
 }
 
 base_dir = "awards_import"
@@ -157,7 +165,9 @@ for season_num in sorted(season_files.keys()):
 # Write all output to a single CSV
 output_file = os.path.join(base_dir, "out", "awards.csv")
 with open(output_file, "w", newline="") as f:
-    writer = csv.DictWriter(f, fieldnames=["season", "award", "placement", "team", "player", "percentage"])
+    writer = csv.DictWriter(
+        f, fieldnames=["season", "award", "placement", "team", "player", "percentage"]
+    )
     writer.writeheader()
     writer.writerows(all_output_rows)
 

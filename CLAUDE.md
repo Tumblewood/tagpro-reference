@@ -79,6 +79,6 @@ Another mistake is when part of a feature is silently left totally unimplemented
 
 - Imports should always be at the top of a file, not in the middle of a function. (I am so serious you need to stop doing this. I do not ever want to see an inline import again.)
 - When you define big constant objects like big lists or dicts, do it at the top of a file, not inside a function.
-- Use " to quote strings, except use ' for dict keys.
-- Use rem for sizes in CSS.
+- Use " to quote strings.
+- Use rem for sizes in CSS. It's ok if thicknesses (like borders) are in px but everything else should be rem.
 - Complex or repeated logic should be moved to its own function instead of being written inline.
