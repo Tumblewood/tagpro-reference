@@ -98,7 +98,10 @@
 {% if bracket %}
 <h2 class="section-title">Playoffs</h2>
 <div class="bracket-container">
-    <div class="bracket-grid">
+    <div class="bracket-grid" style="
+        grid-template-columns: repeat({{ bracket.grid_width }}, auto);
+        grid-template-rows: repeat({{ bracket.grid_height }}, auto);
+    ">
         {% for series_data in bracket.series %}
         <div class="bracket-series" style="
             grid-column: {{ series_data.x|add:1 }};

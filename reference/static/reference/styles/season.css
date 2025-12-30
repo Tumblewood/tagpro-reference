@@ -100,8 +100,6 @@
     width: fit-content;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat({{ bracket.grid_width }}, auto);
-    grid-template-rows: repeat({{ bracket.grid_height }}, auto);
     gap: 0.25rem 1.5rem;
 }
 
