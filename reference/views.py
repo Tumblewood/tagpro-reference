@@ -1984,6 +1984,26 @@ def edit_logos(request):
             except Exception as e:
                 messages.error(request, f"Error assigning logo: {str(e)}")
 
+        elif action == "batch_assign_logos":
+            assigned_count = 0
+            for key, franchise_id in request.POST.items():
+                if not franchise_id or not key.startswith("assign["):
+                    continue
+                # Extract logo path from key like "assign[logos/ABC.png]"
+                logo_path = key[7:-1]  # Remove "assign[" and "]"
+                try:
+                    franchise = Franchise.objects.get(id=franchise_id)
+                    franchise.logo = logo_path
+                    franchise.save()
+                    assigned_count += 1
+                except Franchise.DoesNotExist:
+                    continue
+
+            if assigned_count > 0:
+                messages.success(request, f"Assigned {assigned_count} logo(s)")
+            else:
+                messages.info(request, "No logos were assigned")
+
         return redirect("edit_logos")
 
     # Get all franchises

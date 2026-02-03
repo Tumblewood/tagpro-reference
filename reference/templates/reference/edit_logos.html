@@ -5,6 +5,7 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/forms.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -14,7 +15,7 @@
 <div class="form-section">
     <div class="form-row">
         <!-- Upload Logo -->
-        <form method="post" enctype="multipart/form-data" class="form-col">
+        <form method="post" enctype="multipart/form-data" class="form-col-wide">
             {% csrf_token %}
             <input type="hidden" name="action" value="upload_logo">
             <strong>Upload Logo:</strong>
@@ -24,7 +25,7 @@
         </form>
 
         <!-- Set Franchise Logo -->
-        <form method="post" class="form-col">
+        <form method="post" class="form-col-wide">
             {% csrf_token %}
             <input type="hidden" name="action" value="set_franchise_logo">
             <strong>Set Franchise Logo:</strong>
@@ -40,109 +41,65 @@
     </div>
 </div>
 
-{% if unassigned_media %}
-<h2 class="section-header-first">Unassigned Media Logos</h2>
+{% if unassigned_media or unassigned_static %}
+<form method="post" id="batch-assign-form">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="batch_assign_logos">
 
-<div class="logos-grid">
-    {% for logo in unassigned_media %}
-    <div class="logo-card">
-        <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
-        <div class="logo-filename">{{ logo.filename }}</div>
-        <form method="post" class="logo-assign-form">
-            {% csrf_token %}
-            <input type="hidden" name="action" value="assign_logo">
-            <input type="hidden" name="logo_filename" value="{{ logo.filename }}">
-            <input type="hidden" name="logo_source" value="media">
-            <select name="franchise_id">
+    <div class="batch-submit-container">
+        <button type="submit" class="batch-submit-btn">Assign All Selected Logos</button>
+    </div>
+
+    {% if unassigned_media %}
+    <h2 class="section-header-first">Unassigned Media Logos</h2>
+
+    <div class="logos-grid">
+        {% for logo in unassigned_media %}
+        <div class="logo-card">
+            <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
+            <div class="logo-filename">{{ logo.filename }}</div>
+            <select name="assign[media/logos/{{ logo.filename }}]">
                 <option value="">Assign to...</option>
                 {% for franchise in franchises %}
                     <option value="{{ franchise.id }}">{{ franchise.name }}</option>
                 {% endfor %}
             </select>
-            <button type="submit">Assign</button>
-        </form>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
-{% endif %}
+    {% endif %}
 
-{% if unassigned_static %}
-<h2 class="section-header{% if not unassigned_media %}-first{% endif %}">Unassigned Static Logos</h2>
+    {% if unassigned_static %}
+    <h2 class="section-header{% if not unassigned_media %}-first{% endif %}">Unassigned Static Logos</h2>
 
-<div class="logos-grid">
-    {% for logo in unassigned_static %}
-    <div class="logo-card">
-        <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
-        <div class="logo-filename">{{ logo.filename }}</div>
-        <form method="post" class="logo-assign-form">
-            {% csrf_token %}
-            <input type="hidden" name="action" value="assign_logo">
-            <input type="hidden" name="logo_filename" value="{{ logo.filename }}">
-            <input type="hidden" name="logo_source" value="static">
-            <select name="franchise_id">
+    <div class="logos-grid">
+        {% for logo in unassigned_static %}
+        <div class="logo-card">
+            <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
+            <div class="logo-filename">{{ logo.filename }}</div>
+            <select name="assign[logos/{{ logo.filename }}]">
                 <option value="">Assign to...</option>
                 {% for franchise in franchises %}
                     <option value="{{ franchise.id }}">{{ franchise.name }}</option>
                 {% endfor %}
             </select>
-            <button type="submit">Assign</button>
-        </form>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
-{% endif %}
+    {% endif %}
 
-{% if not unassigned_static and not unassigned_media %}
-<p style="text-align: center; color: #6c757d; margin-top: 2rem;">
+    <div class="batch-submit-container">
+        <button type="submit" class="batch-submit-btn">Assign All Selected Logos</button>
+    </div>
+</form>
+{% else %}
+<p class="empty-message">
     No unassigned logos found.
 </p>
 {% endif %}
 
 <style>
-.form-section {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    background-color: #f9f9f9;
-}
-
-.form-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin: 5px;
-}
-
-.form-col {
-    width: 18rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    white-space: nowrap;
-}
-
-.form-col select, .form-col input[type="text"], .form-col input[type="file"] {
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 13px;
-}
-
-.form-col button {
-    background-color: #007cba;
-    color: white;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.form-col button:hover {
-    background-color: #005a87;
-}
-
+/* Logo grid - unique to this page */
 .logos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
@@ -183,16 +140,16 @@
 }
 
 .logo-assign-form select {
-    padding: 4px;
+    padding: 0.25rem;
     border: 1px solid #ddd;
     border-radius: 3px;
     font-size: 0.75rem;
 }
 
 .logo-assign-form button {
-    background-color: #007cba;
+    background-color: #57c;
     color: white;
-    padding: 4px 8px;
+    padding: 0.25rem 0.5rem;
     border: none;
     border-radius: 3px;
     font-size: 0.75rem;
@@ -200,7 +157,34 @@
 }
 
 .logo-assign-form button:hover {
-    background-color: #005a87;
+    background-color: #46b;
+}
+
+.batch-submit-container {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.batch-submit-btn {
+    background-color: #57c;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.batch-submit-btn:hover {
+    background-color: #46b;
+}
+
+.logo-card select {
+    width: 100%;
+    padding: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 0.75rem;
 }
 </style>
 

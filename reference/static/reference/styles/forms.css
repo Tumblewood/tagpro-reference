@@ -1,0 +1,285 @@
+/* Shared form styles for admin/edit pages */
+
+/* Form section container */
+.form-section {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.625rem 1.25rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+}
+
+/* Flex row for form columns */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0.3125rem;
+}
+
+/* Individual form column */
+.form-col {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    white-space: nowrap;
+}
+
+.form-col-wide {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    white-space: nowrap;
+}
+
+/* Form inputs */
+.form-col select,
+.form-col input,
+.form-col-wide select,
+.form-col-wide input {
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+}
+
+.form-col select:focus,
+.form-col input:focus,
+.form-col-wide select:focus,
+.form-col-wide input:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+/* Primary button */
+.form-col button,
+.form-col-wide button,
+.btn-primary {
+    background-color: #57c;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-col button:hover,
+.form-col-wide button:hover,
+.btn-primary:hover {
+    background-color: #46b;
+}
+
+/* Large submit button */
+.btn-submit {
+    background-color: #57c;
+    color: white;
+    padding: 0.625rem 1.875rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #46b;
+}
+
+/* Secondary button */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Danger button */
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.625rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Admin/edit tables with gray headers */
+.admin-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.admin-table th,
+.admin-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.admin-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.admin-table tbody tr:hover {
+    background: #e6f3ff;
+}
+
+/* Form group for vertical layouts */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="url"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.625rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+.form-group textarea {
+    font-family: monospace;
+    min-height: 10rem;
+    resize: vertical;
+}
+
+.form-group .help-text {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* Inline input fields in tables */
+.inline-input {
+    padding: 0.25rem 0.375rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.inline-input:focus {
+    outline: none;
+    border-color: #57c;
+    background-color: #fff;
+}
+
+.inline-input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+.inline-input-short {
+    width: 8rem;
+}
+
+.inline-input-medium {
+    width: 12rem;
+}
+
+.inline-input-long {
+    width: 20rem;
+}
+
+/* Container for full-width forms */
+.form-container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation links for admin pages */
+.admin-nav {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.admin-nav a {
+    color: #57c;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.admin-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Admin table container */
+.admin-table-container {
+    max-width: 100%;
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+
+/* Sticky header variant for admin tables */
+.admin-table-sticky th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Utility classes */
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Links in admin tables */
+.admin-table a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.admin-table a:hover {
+    text-decoration: underline;
+}
