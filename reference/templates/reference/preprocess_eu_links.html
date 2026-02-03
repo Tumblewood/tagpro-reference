@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preprocess EU Links - TagPro League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', Arial, sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -93,14 +96,15 @@
 <body>
     <div class="container">
         <div class="nav-links">
+            <a href="{% url 'homepage' %}">Home</a>
             <a href="{% url 'import_data' %}">EU Import</a>
             <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
             <a href="{% url 'import_from_json' %}">JSON Import</a>
         </div>
-        
+
         <h1>Preprocess EU Links</h1>
         <p>Enter multiple TagPro EU links and get JSON data for review before importing.</p>
-        
+
         {% if messages %}
         <div class="messages">
             {% for message in messages %}
@@ -108,22 +112,22 @@
             {% endfor %}
         </div>
         {% endif %}
-        
+
         <form method="post">
             {% csrf_token %}
-            
+
             <div class="form-group">
                 <label for="season_filter_string">Season Filter String:</label>
                 <input type="text" id="season_filter_string" name="season_filter_string" required>
                 <div class="help-text">Enter a string that will match season names (e.g., "S36" or "MLTP S35")</div>
             </div>
-            
+
             <div class="form-group">
                 <label for="eu_urls">TagPro EU IDs or URLs:</label>
                 <textarea id="eu_urls" name="eu_urls" placeholder="Paste TagPro EU IDs or URLs here..." required></textarea>
                 <div class="help-text">Enter tagpro.eu match IDs or URLs.</div>
             </div>
-            
+
             <button type="submit">Generate JSON</button>
         </form>
     </div>

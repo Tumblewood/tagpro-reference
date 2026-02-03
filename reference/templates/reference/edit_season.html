@@ -6,6 +6,7 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/forms.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -102,11 +103,11 @@ function changeSeason() {
 <h2 class="section-header-first">Teams</h2>
 
 <!-- Teams Table -->
-<div class="teams-table-container">
-    <table class="teams-table" style="width: 100%; font-size: 0.9rem;">
+<div class="admin-table-container">
+    <table class="admin-table">
         <thead>
             <tr>
-                <th></th>
+                <th class="logo-col"></th>
                 <th>Team</th>
                 <th>Captain</th>
                 <th>Co-Captain</th>
@@ -115,9 +116,9 @@ function changeSeason() {
         <tbody>
             {% for team in teams %}
             <tr>
-                <td style="width: 2.5rem; text-align: center;">
+                <td class="logo-col">
                     {% if team.franchise.logo %}
-                        <img src="{% logo_url team.franchise.logo %}" alt="{{ team.franchise.abbr }}" style="width: 2rem; height: 2rem; object-fit: contain;">
+                        <img src="{% logo_url team.franchise.logo %}" alt="{{ team.franchise.abbr }}" class="team-logo-small">
                     {% endif %}
                 </td>
                 <td>{{ team.name }}</td>
@@ -148,7 +149,7 @@ function changeSeason() {
     {% csrf_token %}
     <input type="hidden" name="action" value="update_matches">
 
-    <table class="matches-table">
+    <table class="admin-table admin-table-sticky">
         <thead>
             <tr>
                 <th>Date</th>
@@ -164,22 +165,22 @@ function changeSeason() {
         <tbody>
             {% for item in matches_data %}
             <tr>
-                <td style="white-space: nowrap;">
+                <td class="nowrap">
                     <a href="{% url 'match_view' item.match.id %}">{{ item.match.date|date:"n/j/Y" }}</a>
                 </td>
-                <td style="white-space: nowrap;">
+                <td class="nowrap">
                     <a href="{% url 'team_season' item.match.team1.id %}">{{ item.match.team1.name }}</a>
                     vs
                     <a href="{% url 'team_season' item.match.team2.id %}">{{ item.match.team2.name }}</a>
                 </td>
-                <td style="text-align: center;">{{ item.games_count }}</td>
+                <td class="center">{{ item.games_count }}</td>
                 <td>
                     <input
                         type="text"
                         name="week_{{ item.match.id }}"
                         value=""
                         placeholder="{{ item.match.week }}"
-                        class="week-input"
+                        class="inline-input inline-input-short"
                     >
                 </td>
                 <td>
@@ -188,18 +189,18 @@ function changeSeason() {
                         name="vod_{{ item.match.id }}"
                         value=""
                         placeholder="{% if item.match.vod %}{{ item.match.vod }}{% else %}VOD URL{% endif %}"
-                        class="vod-input"
+                        class="inline-input inline-input-long"
                     >
                 </td>
                 {% if is_admin %}
-                <td style="text-align: center;">
+                <td class="center">
                     <a href="/admin/reference/match/{{ item.match.id }}/change/" target="_blank">✎</a>
                 </td>
                 {% endif %}
             </tr>
             {% empty %}
             <tr>
-                <td colspan="{% if is_admin %}6{% else %}5{% endif %}" style="text-align: center; padding: 2rem; color: #6c757d;">
+                <td colspan="{% if is_admin %}6{% else %}5{% endif %}" class="empty-message">
                     No matches scheduled for this season.
                 </td>
             </tr>
@@ -208,158 +209,10 @@ function changeSeason() {
     </table>
 
     {% if matches_data %}
-    <div style="text-align: center; margin-top: 1rem;">
-        <button type="submit" class="update-button">Update Matches</button>
+    <div class="center" style="margin-top: 1rem;">
+        <button type="submit" class="btn-submit">Update Matches</button>
     </div>
     {% endif %}
 </form>
-
-<style>
-.form-section {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    background-color: #f9f9f9;
-}
-
-.form-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin: 5px;
-}
-
-.form-col {
-    width: 15rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    white-space: nowrap;
-}
-
-.form-col select, .form-col input {
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 13px;
-}
-
-.form-col button {
-    background-color: #007cba;
-    color: white;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.form-col button:hover {
-    background-color: #005a87;
-}
-
-.teams-table {
-    border-collapse: collapse;
-}
-
-.teams-table th, .teams-table td {
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-.teams-table th {
-    background: #f5f5f5;
-    font-weight: bold;
-}
-
-.teams-table tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-.teams-table tbody tr:hover {
-    background: #e6f3ff;
-}
-
-.matches-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-}
-
-.matches-table th, .matches-table td {
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-.matches-table th {
-    background: #f5f5f5;
-    font-weight: bold;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.matches-table tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-.matches-table tbody tr:hover {
-    background: #e6f3ff;
-}
-
-.week-input {
-    width: 8rem;
-    padding: 4px 6px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    font-size: 0.9rem;
-}
-
-.week-input:focus {
-    outline: none;
-    border-color: #007cba;
-    background-color: #fff;
-}
-
-.vod-input {
-    width: 20rem;
-    padding: 4px 6px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    font-size: 0.9rem;
-}
-
-.vod-input:focus {
-    outline: none;
-    border-color: #007cba;
-    background-color: #fff;
-}
-
-.week-input::placeholder,
-.vod-input::placeholder {
-    color: #999;
-    font-style: italic;
-}
-
-.update-button {
-    background-color: #007cba;
-    color: white;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.update-button:hover {
-    background-color: #005a87;
-}
-</style>
 
 {% endblock %}

@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Import Form - TagPro League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', Arial, sans-serif;
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
@@ -143,7 +146,7 @@
 </head>
 <body>
     <h2>Data Import &ndash; {{ current_index }} of {{ total_urls }}</h2>
-    
+
     {% if messages %}
     <div class="messages">
         {% for message in messages %}
@@ -151,16 +154,16 @@
         {% endfor %}
     </div>
     {% endif %}
-    
+
     <form method="post" id="dataForm">
         {% csrf_token %}
-        
+
         <!-- Hidden fields to maintain state -->
         <input type="hidden" name="season_filter_string" value="{{ season_filter_string }}">
         <input type="hidden" name="remaining_urls" value="{{ remaining_urls|join:'|||' }}">
         <input type="hidden" name="current_index" value="{{ current_index }}">
         <input type="hidden" name="total_urls" value="{{ total_urls }}">
-        
+
         <!-- Game Information Section -->
         <div class="form-section">
             <div class="form-row">
@@ -214,7 +217,7 @@
                     <input type="text" id="game_in_match" name="game_in_match" value="{{ form_data.game_in_match }}">
                 </div>
             </div>
-            
+
             <div class="form-row">
                 <div class="form-col">
                     <label>Red:</label> {{ form_data.red_team_raw_name }}
@@ -243,12 +246,12 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Players Section -->
         <div class="form-section">
             {% for player in form_data.players %}
             <h4>{{ player.game_username }} ({{ player.game_team }})</h4>
-            
+
             <div class="form-row" style="display: none;">
                 <div class="form-col player-readonly">
                     <label>Game Username:</label>
@@ -260,7 +263,7 @@
                     <input type="text" name="game_team_{{ forloop.counter0 }}" value="{{ player.game_team }}" class="readonly" readonly>
                 </div>
             </div>
-            
+
             <div class="form-row">
                 <div class="form-col">
                     <label for="player_{{ forloop.counter0 }}">Player:</label>
@@ -306,7 +309,7 @@
             </div>
             {% endfor %}
         </div>
-        
+
         <div class="form-row" style="justify-content: center;">
             <button type="submit" name="submit_game_data">Save and Continue</button>
             <a href="{% url 'import_data' %}" style="margin-top: 10px; display: inline-block; text-align: center;">Cancel</a>
@@ -317,7 +320,7 @@
         // Auto-populate player dropdown based on player_season selection
         document.addEventListener('DOMContentLoaded', function() {
             const playerSeasonSelects = document.querySelectorAll('[name^="player_season_"]');
-            
+
             playerSeasonSelects.forEach(function(select) {
                 select.addEventListener('change', function() {
                     const index = this.name.split('_')[2];
@@ -325,15 +328,15 @@
                     const playerUsernameInput = document.querySelector(`[name="player_username_${index}"]`);
                     const seasonUsernameInput = document.querySelector(`[name="season_username_${index}"]`);
                     const seasonTeamSelect = document.querySelector(`[name="season_team_${index}"]`);
-                    
+
                     if (this.value) {
                         // Get the selected option text and extract player info
                         const selectedOption = this.options[this.selectedIndex];
                         const text = selectedOption.text;
-                        
+
                         // Extract player name (before the first parenthesis)
                         const playerName = text.split('(')[0].trim();
-                        
+
                         // Find and select the matching player
                         for (let option of playerSelect.options) {
                             if (option.text === playerName) {
@@ -341,37 +344,37 @@
                                 break;
                             }
                         }
-                        
+
                         // Update usernames if they're currently empty or match game username
                         if (!playerUsernameInput.value || playerUsernameInput.value === document.querySelector(`[name="game_username_${index}"]`).value) {
                             playerUsernameInput.value = playerName;
                         }
-                        
+
                         // Extract season username from player season option if available
                         // This would need to be enhanced with actual data from the backend
                     }
                 });
             });
-            
+
             // Auto-populate team dropdowns when red/blue team changes
             const redTeamSelect = document.getElementById('red_team');
             const blueTeamSelect = document.getElementById('blue_team');
-            
+
             function updatePlayerTeamOptions() {
                 const redTeamId = redTeamSelect.value;
                 const blueTeamId = blueTeamSelect.value;
-                
+
                 // Update season_team dropdowns for players based on game team
                 const seasonTeamSelects = document.querySelectorAll('[name^="season_team_"]');
                 seasonTeamSelects.forEach(function(select) {
                     const index = select.name.split('_')[2];
                     const gameUsername = document.querySelector(`[name="game_username_${index}"]`).value;
-                    
+
                     // You could enhance this to auto-select based on game team
                     // For now, just ensure the options are available
                 });
             }
-            
+
             redTeamSelect.addEventListener('change', updatePlayerTeamOptions);
             blueTeamSelect.addEventListener('change', updatePlayerTeamOptions);
         });

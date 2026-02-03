@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Import - TagPro League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', Arial, sans-serif;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -77,18 +80,30 @@
             color: #666;
             margin-top: 5px;
         }
+        .nav-links {
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            color: #007cba;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="nav-links" style="margin-bottom: 20px;">
-            <a href="{% url 'import_data' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">EU Import</a>
-            <a href="{% url 'preprocess_eu_links' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">Preprocess</a>
-            <a href="{% url 'import_from_json' %}" style="color: #007cba; text-decoration: none; margin-right: 15px;">JSON Import</a>
+        <div class="nav-links">
+            <a href="{% url 'homepage' %}">Home</a>
+            <a href="{% url 'import_data' %}">EU Import</a>
+            <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
+            <a href="{% url 'import_from_json' %}">JSON Import</a>
         </div>
-        
+
         <h1>EU Import (One-by-One)</h1>
-        
+
         {% if messages %}
         <div class="messages">
             {% for message in messages %}
@@ -96,22 +111,22 @@
             {% endfor %}
         </div>
         {% endif %}
-        
+
         <form method="post">
             {% csrf_token %}
-            
+
             <div class="form-group">
                 <label for="season_filter_string">Season Filter String:</label>
                 <input type="text" id="season_filter_string" name="season_filter_string" required>
                 <div class="help-text">Enter a string that will match season names (e.g., "S36" or "MLTP S35")</div>
             </div>
-            
+
             <div class="form-group">
                 <label for="eu_urls">TagPro EU URLs:</label>
                 <textarea id="eu_urls" name="eu_urls" placeholder="Paste TagPro EU URLs here, one per line..." required></textarea>
                 <div class="help-text">Enter one TagPro EU URL per line. Example: https://tagpro.eu/?match=1234567</div>
             </div>
-            
+
             <button type="submit">Start Import Process</button>
         </form>
     </div>

@@ -22,6 +22,12 @@
             <form method="get" action="{% url 'search_results' 'PLACEHOLDER' %}" onsubmit="return handleSearch(this)">
                 <input type="text" name="q" class="search-bar" placeholder="Search for a player or team" />
             </form>
+            {% if user.is_authenticated and user.data_entry_level %}
+            <div class="admin-link-container-desktop">
+                <a href="{% url 'import_data' %}" class="admin-link">Import</a>
+                <a href="{% url 'edit_logos' %}" class="admin-link">Logos</a>
+            </div>
+            {% endif %}
         </div>
         
         <!-- Mobile hamburger menu -->
@@ -56,6 +62,13 @@
                     </a>
                 {% endfor %}
             </div>
+            {% if user.is_authenticated and user.data_entry_level %}
+            <div class="mobile-admin-section">
+                <div class="mobile-admin-section-title">Admin</div>
+                <a href="{% url 'import_data' %}" class="mobile-admin-link" onclick="closeMobileMenu()">Import Data</a>
+                <a href="{% url 'edit_logos' %}" class="mobile-admin-link" onclick="closeMobileMenu()">Edit Logos</a>
+            </div>
+            {% endif %}
         </div>
     </div>
 

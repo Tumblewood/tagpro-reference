@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSON Import - TagPro League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', Arial, sans-serif;
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
@@ -100,17 +103,18 @@
 <body>
     <div class="container">
         <div class="nav-links">
+            <a href="{% url 'homepage' %}">Home</a>
             <a href="{% url 'import_data' %}">EU Import</a>
             <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
             <a href="{% url 'import_from_json' %}">JSON Import</a>
         </div>
-        
+
         <h1>JSON Import</h1>
-        
+
         <div class="warning">
             <strong>Warning:</strong> This will add data directly to the database. Make sure you've reviewed the JSON data carefully before importing.
         </div>
-        
+
         {% if messages %}
         <div class="messages">
             {% for message in messages %}
@@ -118,16 +122,16 @@
             {% endfor %}
         </div>
         {% endif %}
-        
+
         <form method="post">
             {% csrf_token %}
-            
+
             <div class="form-group">
                 <label for="json_data">JSON Data:</label>
                 <textarea id="json_data" name="json_data" placeholder="Paste the processed JSON data here..." required></textarea>
                 <div class="help-text">Paste the JSON data from the preprocessing step. The data should follow the expected schema format.</div>
             </div>
-            
+
             <button type="submit">Import to Database</button>
         </form>
     </div>

@@ -553,6 +553,8 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
     """Import JSON data into database idempotently."""
     created_count = 0
     skipped_count = 0
+    affected_seasons = set()
+    created_games = []
 
     # First pass: Create/get all seasons, franchises, players, team seasons, player seasons
     seasons_cache = {}
@@ -722,6 +724,8 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 game_fields["vod"] = game_data["vod"]
 
             game = Game.objects.create(**game_fields)
+            affected_seasons.add(season)
+            created_games.append(game)
 
             # Create player game logs
             for player_data in game_data["players"]:
@@ -773,7 +777,12 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
             # Process game stats
             created_count += 1
 
-    return {"created_count": created_count, "skipped_count": skipped_count}
+    return {
+        "created_count": created_count,
+        "skipped_count": skipped_count,
+        "affected_seasons": affected_seasons,
+        "created_games": created_games,
+    }
 
 
 def format_compact_json(data):

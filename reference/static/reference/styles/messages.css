@@ -1,0 +1,79 @@
+/* Alert and message styles */
+
+/* Container for Django messages */
+.messages {
+    max-width: 50rem;
+    margin: 0 auto 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+/* Base message style */
+.message {
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Error/danger message */
+.message.error,
+.message-error,
+.error-message {
+    background-color: #ffebee;
+    border: 1px solid #f8bbd0;
+    color: #c62828;
+}
+
+/* Success message */
+.message.success,
+.message-success,
+.success-message {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    color: #2e7d32;
+}
+
+/* Warning message */
+.message.warning,
+.message-warning,
+.warning-message {
+    background-color: #fff3e0;
+    border: 1px solid #ffe0b2;
+    color: #e65100;
+}
+
+/* Info message */
+.message.info,
+.message-info,
+.info-message {
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    color: #1565c0;
+}
+
+.message strong {
+    font-weight: 600;
+}
+
+/* Stats/summary box */
+.stats-box {
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #1565c0;
+}
+
+.stats-box p {
+    margin: 0.25rem 0;
+}
+
+/* Empty state message */
+.empty-message {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+    font-style: italic;
+}

@@ -29,7 +29,12 @@ from reference.utils.data_entry import (
     import_json_data_to_db,
     format_compact_json,
 )
-from reference.utils.stat_collection import update_standings, calculate_scar
+from reference.utils.stat_collection import (
+    update_standings,
+    calculate_scar,
+    infer_playoff_series,
+    process_game_stats,
+)
 from reference.utils.data_correction import merge_players, merge_player_seasons
 from reference.models import (
     Season,
@@ -1464,6 +1469,7 @@ def import_from_eus(request):
                     )
                 else:
                     update_standings(red_team.season)
+                    infer_playoff_series(red_team.season)
                     calculate_scar(red_team.season)
                     messages.success(request, "All URLs processed successfully!")
                     return redirect("import_data")
@@ -1534,6 +1540,16 @@ def import_from_json(request):
 
             # Import data idempotently
             import_results = import_json_data_to_db(json_data)
+
+            # Process stats for newly created games
+            for game in import_results["created_games"]:
+                process_game_stats(game)
+
+            # Update standings for affected seasons
+            for season in import_results["affected_seasons"]:
+                update_standings(season)
+                infer_playoff_series(season)
+                calculate_scar(season)
 
             messages.success(
                 request,

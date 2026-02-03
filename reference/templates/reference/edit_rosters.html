@@ -5,6 +5,7 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/forms.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -87,7 +88,7 @@ function changeSeason() {
             <button type="submit">Change</button>
         </form>
     </div>
-    
+
     <div class="form-row">
         <!-- Merge Players -->
         <form method="post" class="form-col">
@@ -123,7 +124,7 @@ function changeSeason() {
             <input type="text" name="new_player_name" placeholder="New name" required>
             <button type="submit">Rename</button>
         </form>
-        
+
         <!-- Add Award -->
         <form method="post" class="form-col">
             {% csrf_token %}
@@ -149,8 +150,8 @@ function changeSeason() {
 </div>
 
 <!-- Roster Table -->
-<div class="roster-table-container">
-    <table class="roster-table" style="width: 100%; font-size: 0.9rem;">
+<div class="admin-table-container">
+    <table class="admin-table">
         <thead>
             <tr>
                 <th>Player Season Name</th>
@@ -179,74 +180,5 @@ function changeSeason() {
         </tbody>
     </table>
 </div>
-
-<style>
-.form-section {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    background-color: #f9f9f9;
-}
-
-.form-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin: 5px;
-}
-
-.form-col {
-    width: 15rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    white-space: nowrap;
-}
-
-.form-col select, .form-col input {
-    padding: 6px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 13px;
-}
-
-.form-col button {
-    background-color: #007cba;
-    color: white;
-    padding: 6px 12px;
-    border: none;
-    border-radius: 4px;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.form-col button:hover {
-    background-color: #005a87;
-}
-
-.roster-table {
-    border-collapse: collapse;
-}
-
-.roster-table th, .roster-table td {
-    border: 1px solid #ddd;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-.roster-table th {
-    background: #f5f5f5;
-    font-weight: bold;
-}
-
-.roster-table tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-.roster-table tbody tr:hover {
-    background: #e6f3ff;
-}
-</style>
 
 {% endblock %}
