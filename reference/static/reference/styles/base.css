@@ -150,7 +150,7 @@ th.team-name {
 td.team-name {
     width: auto;
     text-align: left;
-    padding: 0 25px 0 15px;
+    padding: 0 1.5rem 0 1rem;
 }
 .team-name a {
     color: #07b;
@@ -225,13 +225,13 @@ td.team-name {
 .mobile-sidebar {
     position: fixed;
     top: 0;
-    right: -300px;
-    width: 300px;
+    right: -18.75rem;
+    width: 18.75rem;
     height: 100%;
     background-color: #fff;
     z-index: 1000;
     transition: right 0.3s ease;
-    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 0.625rem rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
 }
@@ -325,6 +325,56 @@ td.team-name {
 
 .mobile-league-link:last-child {
     border-bottom: none;
+}
+
+/* Admin navigation in mobile menu */
+.mobile-admin-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #ddd;
+}
+
+.mobile-admin-section-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.mobile-admin-link {
+    padding: 0.75rem 0.5rem;
+    text-decoration: none;
+    color: #57c;
+    font-weight: 500;
+    font-size: 1rem;
+    display: block;
+    transition: background-color 0.2s ease;
+}
+
+.mobile-admin-link:hover {
+    background-color: #f8f9fa;
+}
+
+/* Desktop admin nav (in header) */
+.admin-link-container-desktop {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.admin-link {
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+    color: #bdf;
+    font-size: 0.875rem;
+}
+
+.admin-link:hover {
+    color: #fff;
 }
 
 @media screen and (max-width: 720px) {

@@ -4,7 +4,7 @@
 
 /* Override stat-table max-width for league history */
 .stat-table-container .stat-table {
-    max-width: 1400px;
+    max-width: 87.5rem;
 }
 
 /* League history specific column styling */
@@ -31,7 +31,7 @@
     text-align: center;
     font-weight: 600;
     color: #495057;
-    min-width: 80px;
+    min-width: 5rem;
 }
 
 .stat-table .champion-cell {
@@ -77,24 +77,24 @@
     }
     
     .stat-table .season-cell {
-        min-width: 100px;
+        min-width: 6.25rem;
     }
-    
+
     .stat-table .date-cell {
-        min-width: 80px;
+        min-width: 5rem;
     }
-    
+
     .stat-table .champion-cell {
-        min-width: 120px;
+        min-width: 7.5rem;
     }
 }
 
 @media (max-width: 480px) {
     .stat-table .season-cell {
-        min-width: 120px;
+        min-width: 7.5rem;
     }
-    
+
     .stat-table .champion-cell {
-        min-width: 100px;
+        min-width: 6.25rem;
     }
 }

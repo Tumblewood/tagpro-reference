@@ -60,7 +60,7 @@
 .team-name-cell {
     text-align: left !important;
     font-weight: 600;
-    min-width: 180px;
+    min-width: 11.25rem;
 }
 
 .team-name-cell a {
@@ -182,7 +182,7 @@
 }
 
 .player-stats-table th:hover {
-    background-color: #e9ecef;
+    background-color: #eee;
 }
 
 .player-stats-table th[data-sortable]:after {
@@ -218,7 +218,7 @@
 .player-name {
     text-align: left !important;
     font-weight: 500;
-    min-width: 140px;
+    min-width: 8.75rem;
 }
 
 .player-name a {
@@ -267,7 +267,7 @@
     }
     
     .team-name-cell {
-        min-width: 120px;
+        min-width: 7.5rem;
     }
     
     .stats-tables {
@@ -284,6 +284,6 @@
     }
     
     .player-name {
-        min-width: 100px;
+        min-width: 6.25rem;
     }
 }

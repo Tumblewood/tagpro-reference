@@ -42,7 +42,7 @@
 .box-score th {
     padding: 0.5rem 0.4rem;
     border: 1px solid #ccc;
-    background-color: #e9ecef;
+    background-color: #eee;
     font-weight: bold;
     text-align: center;
 }
@@ -76,7 +76,7 @@
     background-color: #d4edda;
 }
 .overtime {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     vertical-align: super;
 }
 
