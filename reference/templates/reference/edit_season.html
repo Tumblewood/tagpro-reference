@@ -1,5 +1,6 @@
 {% extends "reference/base.html" %}
 {% load static %}
+{% load url_tags %}
 
 {% block title %}Edit Season - {{ season.name }} - TagPro Reference{% endblock %}
 
@@ -116,7 +117,7 @@ function changeSeason() {
             <tr>
                 <td style="width: 2.5rem; text-align: center;">
                     {% if team.franchise.logo %}
-                        <img src="/static/reference/{{ team.franchise.logo }}" alt="{{ team.franchise.abbr }}" style="width: 2rem; height: 2rem; object-fit: contain;">
+                        <img src="{% logo_url team.franchise.logo %}" alt="{{ team.franchise.abbr }}" style="width: 2rem; height: 2rem; object-fit: contain;">
                     {% endif %}
                 </td>
                 <td>{{ team.name }}</td>

@@ -1,0 +1,207 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Edit Logos - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Edit Logos</h1>
+
+<!-- Management Forms -->
+<div class="form-section">
+    <div class="form-row">
+        <!-- Upload Logo -->
+        <form method="post" enctype="multipart/form-data" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="upload_logo">
+            <strong>Upload Logo:</strong>
+            <input type="file" name="logo_file" accept="image/*" required>
+            <input type="text" name="filename" placeholder="Filename (e.g., ABC.png)" required>
+            <button type="submit">Upload</button>
+        </form>
+
+        <!-- Set Franchise Logo -->
+        <form method="post" class="form-col">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="set_franchise_logo">
+            <strong>Set Franchise Logo:</strong>
+            <select name="franchise_id" required>
+                <option value="">Select franchise...</option>
+                {% for franchise in franchises %}
+                    <option value="{{ franchise.id }}">{{ franchise.name }}</option>
+                {% endfor %}
+            </select>
+            <input type="text" name="logo_path" placeholder="Logo path (e.g., logos/ABC.png)">
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</div>
+
+{% if unassigned_media %}
+<h2 class="section-header-first">Unassigned Media Logos</h2>
+
+<div class="logos-grid">
+    {% for logo in unassigned_media %}
+    <div class="logo-card">
+        <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
+        <div class="logo-filename">{{ logo.filename }}</div>
+        <form method="post" class="logo-assign-form">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="assign_logo">
+            <input type="hidden" name="logo_filename" value="{{ logo.filename }}">
+            <input type="hidden" name="logo_source" value="media">
+            <select name="franchise_id">
+                <option value="">Assign to...</option>
+                {% for franchise in franchises %}
+                    <option value="{{ franchise.id }}">{{ franchise.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Assign</button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if unassigned_static %}
+<h2 class="section-header{% if not unassigned_media %}-first{% endif %}">Unassigned Static Logos</h2>
+
+<div class="logos-grid">
+    {% for logo in unassigned_static %}
+    <div class="logo-card">
+        <img src="{{ logo.url }}" alt="{{ logo.filename }}" class="logo-preview">
+        <div class="logo-filename">{{ logo.filename }}</div>
+        <form method="post" class="logo-assign-form">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="assign_logo">
+            <input type="hidden" name="logo_filename" value="{{ logo.filename }}">
+            <input type="hidden" name="logo_source" value="static">
+            <select name="franchise_id">
+                <option value="">Assign to...</option>
+                {% for franchise in franchises %}
+                    <option value="{{ franchise.id }}">{{ franchise.name }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Assign</button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if not unassigned_static and not unassigned_media %}
+<p style="text-align: center; color: #6c757d; margin-top: 2rem;">
+    No unassigned logos found.
+</p>
+{% endif %}
+
+<style>
+.form-section {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 5px;
+}
+
+.form-col {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.form-col select, .form-col input[type="text"], .form-col input[type="file"] {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.form-col button {
+    background-color: #007cba;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.form-col button:hover {
+    background-color: #005a87;
+}
+
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.75rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.logo-card:hover {
+    background: #e6f3ff;
+}
+
+.logo-preview {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+.logo-filename {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    word-break: break-all;
+}
+
+.logo-assign-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.logo-assign-form select {
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
+.logo-assign-form button {
+    background-color: #007cba;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.logo-assign-form button:hover {
+    background-color: #005a87;
+}
+</style>
+
+{% endblock %}

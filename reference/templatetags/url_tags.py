@@ -5,6 +5,16 @@ register = template.Library()
 
 
 @register.simple_tag
+def logo_url(logo_path):
+    """Generate URL for a logo, handling both static and media paths."""
+    if not logo_path:
+        return ""
+    if logo_path.startswith("media/"):
+        return f"/{logo_path}"
+    return f"/static/reference/{logo_path}"
+
+
+@register.simple_tag
 def league_url(league):
     """Generate URL for league using abbreviation."""
     if hasattr(league, "abbr") and league.abbr:

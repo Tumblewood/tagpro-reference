@@ -12,7 +12,7 @@
 {% block content %}
     <h1 class="page-title">
         {% if season.league.logo %}
-            <img src="/static/reference/{{ season.league.logo }}" alt="{{ season.league.name }} logo" class="league-logo">
+            <img src="{% logo_url season.league.logo %}" alt="{{ season.league.name }} logo" class="league-logo">
         {% endif %}
         {{ season.name }} Awards
     </h1>
@@ -42,7 +42,7 @@
         <div class="roster-box">
             <h3 class="team-name">
                 {% if award_data.award_type.icon and award_data.award_type.recipient_type != 'unaffiliated' %}
-                    <img src="/static/reference/{{ award_data.award_type.icon }}" alt="{{ award_data.award_type.abbr }}" class="team-logo-medium">
+                    <img src="{% logo_url award_data.award_type.icon %}" alt="{{ award_data.award_type.abbr }}" class="team-logo-medium">
                 {% endif %}
                 {{ award_data.award_type.name }}
             </h3>
@@ -69,7 +69,7 @@
                         <td class="player-name">
                             {% if recipient.team %}
                                 {% if recipient.team.franchise.logo %}
-                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                    <img src="{% logo_url recipient.team.franchise.logo %}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
                                 {% endif %}
                                 <a href="{% url 'team_season' recipient.team.id %}">
                                     {{ recipient.team.name }}
@@ -82,7 +82,7 @@
                         <td class="player-name">
                             {% if recipient.player %}
                                 {% if recipient.team and recipient.team.franchise.logo %}
-                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                    <img src="{% logo_url recipient.team.franchise.logo %}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
                                 {% endif %}
                                 <a href="{% url 'player_history' recipient.player.name %}">
                                     {{ recipient.player.name }}
@@ -95,14 +95,14 @@
                         <td class="player-name">
                             {% if recipient.player %}
                                 {% if recipient.team and recipient.team.franchise.logo %}
-                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                    <img src="{% logo_url recipient.team.franchise.logo %}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
                                 {% endif %}
                                 <a href="{% url 'player_history' recipient.player.name %}">
                                     {{ recipient.player.name }}
                                 </a>
                             {% elif recipient.team %}
                                 {% if recipient.team.franchise.logo %}
-                                    <img src="/static/reference/{{ recipient.team.franchise.logo }}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
+                                    <img src="{% logo_url recipient.team.franchise.logo %}" alt="{{ recipient.team.franchise.abbr }}" class="team-logo-small">
                                 {% endif %}
                                 <a href="{% url 'team_season' recipient.team.id %}">
                                     {{ recipient.team.name }}

@@ -13,7 +13,7 @@
 {% block content %}
     <h1 class="page-title">
         {% if league.logo %}
-            <img src="/static/reference/{{ league.logo }}" alt="{{ league.name }} logo" class="league-logo">
+            <img src="{% logo_url league.logo %}" alt="{{ league.name }} logo" class="league-logo">
         {% endif %}
         {{ league.name }}
     </h1>
@@ -52,7 +52,7 @@
                     </td>
                     <td class="logo-col">
                         {% if season_data.champion and season_data.champion.franchise.logo %}
-                            <img src="/static/reference/{{ season_data.champion.franchise.logo }}" alt="{{ season_data.champion.franchise.abbr }}" class="team-logo-small">
+                            <img src="{% logo_url season_data.champion.franchise.logo %}" alt="{{ season_data.champion.franchise.abbr }}" class="team-logo-small">
                         {% endif %}
                     </td>
                     <td class="champion-cell">

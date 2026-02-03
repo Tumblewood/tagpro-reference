@@ -13,7 +13,7 @@
 {% block content %}
     <h1 class="page-title">
         {% if franchise.logo %}
-            <img src="/static/reference/{{ franchise.logo }}" alt="{{ franchise.abbr }}" class="team-logo">
+            <img src="{% logo_url franchise.logo %}" alt="{{ franchise.abbr }}" class="team-logo">
         {% endif %}
         {{ franchise.name }}
     </h1>

@@ -1,7 +1,9 @@
 from typing import List
 import json
+import os
 import re
 from datetime import datetime
+from django.conf import settings as django_settings
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.db.models import F
@@ -1914,5 +1916,132 @@ def edit_season(request, season_id):
             "is_admin": (
                 request.user.is_staff if request.user.is_authenticated else False
             ),
+        },
+    )
+
+
+@full_data_permissions_required
+def edit_logos(request):
+    """Edit logos view for managing franchise logos."""
+    static_logos_dir = os.path.join(
+        django_settings.BASE_DIR, "reference", "static", "reference", "logos"
+    )
+    media_logos_dir = os.path.join(django_settings.MEDIA_ROOT, "logos")
+
+    # Ensure media logos directory exists
+    os.makedirs(media_logos_dir, exist_ok=True)
+
+    # Handle form submissions
+    if request.method == "POST":
+        action = request.POST.get("action")
+
+        if action == "upload_logo":
+            try:
+                uploaded_file = request.FILES.get("logo_file")
+                filename = request.POST.get("filename", "").strip()
+                if uploaded_file and filename:
+                    # Ensure filename has an extension
+                    if "." not in filename:
+                        _, ext = os.path.splitext(uploaded_file.name)
+                        filename = filename + ext
+                    # Save to media directory
+                    filepath = os.path.join(media_logos_dir, filename)
+                    with open(filepath, "wb+") as destination:
+                        for chunk in uploaded_file.chunks():
+                            destination.write(chunk)
+                    messages.success(request, f"Uploaded logo as {filename}")
+                else:
+                    messages.error(request, "Please provide both a file and filename")
+            except Exception as e:
+                messages.error(request, f"Error uploading logo: {str(e)}")
+
+        elif action == "set_franchise_logo":
+            try:
+                franchise_id = request.POST.get("franchise_id")
+                logo_path = request.POST.get("logo_path", "").strip()
+                franchise = Franchise.objects.get(id=franchise_id)
+                franchise.logo = logo_path if logo_path else None
+                franchise.save()
+                messages.success(request, f"Updated logo for {franchise.name}")
+            except Exception as e:
+                messages.error(request, f"Error setting logo: {str(e)}")
+
+        elif action == "assign_logo":
+            try:
+                logo_filename = request.POST.get("logo_filename")
+                franchise_id = request.POST.get("franchise_id")
+                logo_source = request.POST.get("logo_source")
+                if franchise_id and logo_filename:
+                    franchise = Franchise.objects.get(id=franchise_id)
+                    if logo_source == "media":
+                        franchise.logo = f"media/logos/{logo_filename}"
+                    else:
+                        franchise.logo = f"logos/{logo_filename}"
+                    franchise.save()
+                    messages.success(
+                        request, f"Assigned {logo_filename} to {franchise.name}"
+                    )
+            except Exception as e:
+                messages.error(request, f"Error assigning logo: {str(e)}")
+
+        return redirect("edit_logos")
+
+    # Get all franchises
+    franchises = Franchise.objects.all().order_by("name")
+
+    # Get all logo paths currently in use
+    used_logo_paths = set(
+        Franchise.objects.exclude(logo__isnull=True)
+        .exclude(logo="")
+        .values_list("logo", flat=True)
+    )
+
+    # Scan static logos directory
+    static_logos = []
+    if os.path.exists(static_logos_dir):
+        for filename in os.listdir(static_logos_dir):
+            if filename.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp")):
+                logo_path = f"logos/{filename}"
+                static_logos.append(
+                    {
+                        "filename": filename,
+                        "path": logo_path,
+                        "source": "static",
+                        "url": f"/static/reference/{logo_path}",
+                        "assigned": logo_path in used_logo_paths,
+                    }
+                )
+
+    # Scan media logos directory
+    media_logos = []
+    if os.path.exists(media_logos_dir):
+        for filename in os.listdir(media_logos_dir):
+            if filename.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp")):
+                logo_path = f"media/logos/{filename}"
+                media_logos.append(
+                    {
+                        "filename": filename,
+                        "path": logo_path,
+                        "source": "media",
+                        "url": f"/media/logos/{filename}",
+                        "assigned": logo_path in used_logo_paths,
+                    }
+                )
+
+    # Get unassigned logos from both sources
+    unassigned_static = [logo for logo in static_logos if not logo["assigned"]]
+    unassigned_media = [logo for logo in media_logos if not logo["assigned"]]
+
+    # Sort by filename
+    unassigned_static.sort(key=lambda x: x["filename"].lower())
+    unassigned_media.sort(key=lambda x: x["filename"].lower())
+
+    return render(
+        request,
+        "reference/edit_logos.html",
+        {
+            "franchises": franchises,
+            "unassigned_static": unassigned_static,
+            "unassigned_media": unassigned_media,
         },
     )
