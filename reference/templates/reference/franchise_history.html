@@ -43,7 +43,7 @@
                     <th data-sortable data-type="text">Record</th>
                     <th data-sortable data-type="text">Captain</th>
                     <th data-sortable data-type="text">Co-Captain</th>
-                    <th data-sortable data-type="text">Most Minutes</th>
+                    <th data-sortable data-type="text">Most TSCAR</th>
                 </tr>
             </thead>
             <tbody>
@@ -81,10 +81,8 @@
                         {% endif %}
                     </td>
                     <td>
-                        {% if history.most_minutes_player %}
-                            <a href="{% url 'player_history' history.most_minutes_player.name %}">
-                                {{ history.most_minutes_player.name }}
-                            </a>
+                        {% if history.best_tscar_player %}
+                            <a href="{% url 'player_history' history.best_tscar_player.name %}">{{ history.best_tscar_player.name }}</a> ({{ history.best_tscar_value|floatformat:1 }})
                         {% else %}
                             —
                         {% endif %}

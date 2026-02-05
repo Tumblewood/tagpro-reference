@@ -1092,11 +1092,17 @@ def franchise_history(req, franchise_id):
         team_standings = get_team_standings(team)
         record = team_standings["record"]
 
-        # Find player with most minutes
+        # Find player with highest TSCAR
         team_player_stats = aggregate_player_stats(season=season, franchise=franchise)
-        most_minutes_player = (
-            team_player_stats[0]["player"] if team_player_stats else None
-        )
+        if team_player_stats:
+            best_tscar_stat = max(
+                team_player_stats, key=lambda x: x.get("tscar", 0) or 0
+            )
+            best_tscar_player = best_tscar_stat["player"]
+            best_tscar_value = best_tscar_stat.get("tscar", 0)
+        else:
+            best_tscar_player = None
+            best_tscar_value = None
 
         history_data.append(
             {
@@ -1107,7 +1113,8 @@ def franchise_history(req, franchise_id):
                 "record": record,
                 "captain": team.captain,
                 "co_captain": team.co_captain,
-                "most_minutes_player": most_minutes_player,
+                "best_tscar_player": best_tscar_player,
+                "best_tscar_value": best_tscar_value,
             }
         )
 

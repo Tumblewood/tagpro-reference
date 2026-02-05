@@ -1015,11 +1015,7 @@ def update_standings(season: Season):
                             ):  # First loss we encounter (most recent)
                                 last_loss_week = match.week
 
-                # Check if they won the championship
-                final_names = ["Super Ball", "Muper Ball", "Nuper Ball", "Buper Ball"]
-                if last_win_week in final_names:
-                    playoff_finish = "Won championship"
-                elif last_loss_week:
+                if last_loss_week:
                     playoff_finish = f"Lost {last_loss_week}"
                 elif last_win_week:
                     playoff_finish = f"Won {last_win_week}"
