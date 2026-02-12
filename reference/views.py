@@ -1345,7 +1345,7 @@ def import_from_eus(request):
                 red_team_id = request.POST.get("red_team")
                 blue_team_id = request.POST.get("blue_team")
                 match_id = request.POST.get("match")
-                week = request.POST.get("week")
+                week = request.POST.get("week", "").strip()
                 game_in_match = request.POST.get("game_in_match")
 
                 # Get objects
@@ -1356,6 +1356,10 @@ def import_from_eus(request):
                     TeamSeason.objects.get(id=blue_team_id) if blue_team_id else None
                 )
                 match = Match.objects.get(id=match_id) if match_id else None
+
+                # Validate required fields
+                if not week and not match:
+                    raise Exception("Week is required when creating a new match")
 
                 # Get game data from form
                 eu_url = request.POST.get("eu_url")
