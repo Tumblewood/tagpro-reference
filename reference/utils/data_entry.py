@@ -148,13 +148,13 @@ def get_existing_match(
 def infer_week(
     red: Optional[TeamSeason], blue: Optional[TeamSeason], date: datetime.date
 ) -> str:
-    # Get the season based on the teams. If neither team found, return "Week 1"
+    # Get the season based on the teams. If neither team found, return empty string
     if red is not None:
         season = red.season
     elif blue is not None:
         season = blue.season
     else:
-        return "Week 1"
+        return ""
 
     # Get the maximum week of all Matches played this Season before this match's date
     # Return "Week 1" if no weeks played before this date in this season
@@ -251,6 +251,34 @@ def get_game_number(m: Optional[Match]) -> str:
     return f"Game {num_other_games + 1}"
 
 
+def infer_team_from_players(
+    season_group: List[Season], players: List[str]
+) -> Optional[TeamSeason]:
+    """Try to infer team from player usernames by checking their PlayerSeason.team values."""
+    identified_teams = []
+
+    for username in players:
+        # Try to find a PlayerSeason for this player in any of the seasons
+        player_season = infer_player_season(username, season_group, None)
+        if player_season and player_season.team:
+            identified_teams.append(player_season.team)
+
+    # If we couldn't identify any players, return None
+    if not identified_teams:
+        return None
+
+    # Count team occurrences
+    from collections import Counter
+    team_counts = Counter(identified_teams)
+    most_common_team, count = team_counts.most_common(1)[0]
+
+    # Only return the team if it represents a majority of identified players
+    if count > len(identified_teams) / 2:
+        return most_common_team
+
+    return None
+
+
 def prepopulate_form(season_filter_string: str, eu_url: str):
     """Return all data needed by the import form."""
     # Can't use QuerySet.filter because sqlite doesn't have case-sensitive LIKE.
@@ -261,6 +289,15 @@ def prepopulate_form(season_filter_string: str, eu_url: str):
     m = extract_game_data(eu_url)
     red_team = infer_team(season_group, m["team_red"]["name"])
     blue_team = infer_team(season_group, m["team_blue"]["name"])
+
+    # If red team couldn't be identified, try to infer from players
+    if red_team is None:
+        red_team = infer_team_from_players(season_group, list(m["team_red"]["players"]))
+
+    # If blue team couldn't be identified, try to infer from players
+    if blue_team is None:
+        blue_team = infer_team_from_players(season_group, list(m["team_blue"]["players"]))
+
     existing_match = get_existing_match(red_team, blue_team, m["date"])
     players = []
     for p in m["players"]:
