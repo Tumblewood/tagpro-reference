@@ -34,6 +34,12 @@ class League(models.Model):
         null=True,
         help_text="Link to the league's championship trophy image",
     )
+    eu_group_prefix = models.CharField(
+        max_length=5,
+        blank=True,
+        null=True,
+        help_text="Prefix used in tagpro.eu group names for teams in this league (e.g. 'M' for MLTP, 'N' for mLTP, 'A' for NLTP)",
+    )
 
     def __str__(self):
         return self.name

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +57,17 @@
         }
         button:hover {
             background-color: #005a87;
+        }
+        .import-recent-status {
+            display: inline-block;
+            margin-left: 1rem;
+            font-size: 0.875rem;
+        }
+        .import-recent-status.error {
+            color: #721c24;
+        }
+        .import-recent-status.success {
+            color: #155724;
         }
         .messages {
             margin-bottom: 20px;
@@ -128,7 +140,10 @@
             </div>
 
             <button type="submit">Start Import Process</button>
+            <button type="button" id="import-recent-games-btn">Detect Recent Games</button>
+            <span id="import-recent-games-status" class="import-recent-status"></span>
         </form>
     </div>
+    <script src="{% static 'reference/js/import-recent-games.js' %}"></script>
 </body>
 </html>

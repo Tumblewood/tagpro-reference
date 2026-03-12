@@ -2,8 +2,11 @@ from typing import List
 import json
 import os
 import re
-from datetime import datetime
+import urllib.request
+from datetime import datetime, date, timedelta
+from bs4 import BeautifulSoup
 from django.conf import settings as django_settings
+from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.db.models import F
@@ -1266,6 +1269,126 @@ def match_view(req, match_id):
             "map_info": map_info,
         },
     )
+
+
+def _parse_eu_duration_seconds(duration_str):
+    """Parse a duration string like '10:09' into total seconds."""
+    parts = duration_str.strip().split(":")
+    if len(parts) != 2:
+        return 0
+    try:
+        return int(parts[0]) * 60 + int(parts[1])
+    except ValueError:
+        return 0
+
+
+def _build_active_season_group_names(season_filter=None):
+    """Return a set of valid eu group names (e.g. 'NMRV') from all active seasons.
+
+    If season_filter is given, match seasons by name (same logic as the import page).
+    Otherwise, fall back to seasons ending within the past week or with no end date.
+    """
+    if season_filter:
+        active_seasons = Season.objects.filter(name__contains=season_filter).select_related("league")
+    else:
+        one_week_ago = date.today() - timedelta(days=7)
+        active_seasons = Season.objects.filter(
+            models.Q(end_date__gte=one_week_ago) | models.Q(end_date__isnull=True)
+        ).select_related("league")
+    group_names = set()
+    for season in active_seasons:
+        prefix = season.league.eu_group_prefix
+        if not prefix:
+            continue
+        for team in season.teams.all():
+            group_names.add(prefix + team.abbr)
+    return group_names
+
+
+def _fetch_eu_recent_league_games(group_names, url=None):
+    """
+    Fetch a tagpro.eu matches page and return a list of (match_id, sort_key, flag) tuples
+    for games where both teams are in group_names. Defaults to ?matches=group page 1.
+    """
+    if url is None:
+        url = "https://tagpro.eu/?matches=group"
+    req = urllib.request.Request(url, headers={"User-Agent": "tagpro-reference/1.0"})
+    with urllib.request.urlopen(req, timeout=10) as response:
+        html = response.read().decode("utf-8")
+
+    soup = BeautifulSoup(html, "html.parser")
+    results = []
+
+    for row in soup.select("table tr"):
+        id_cell = row.select_one("td:first-child a")
+        if not id_cell:
+            continue
+        href = id_cell.get("href", "")
+        if "?match=" not in href:
+            continue
+        try:
+            match_id = int(href.split("?match=")[-1])
+        except ValueError:
+            continue
+
+        team1_cell = row.select_one("td.matches-team1 a")
+        team2_cell = row.select_one("td.matches-team2 a")
+        if not team1_cell or not team2_cell:
+            continue
+        team1 = team1_cell.get_text(strip=True)
+        team2 = team2_cell.get_text(strip=True)
+
+        if team1 not in group_names or team2 not in group_names:
+            continue
+
+        # Duration is the td immediately before matches-score1; find it by position
+        all_tds = row.find_all("td")
+        score1_td = row.find("td", class_="matches-score1")
+        score2_td = row.find("td", class_="matches-score2")
+        if not score1_td or not score2_td:
+            continue
+
+        score1_td_index = all_tds.index(score1_td)
+        if score1_td_index < 1:
+            continue
+        duration_td = all_tds[score1_td_index - 1]
+        duration_str = duration_td.get_text(strip=True)
+        duration_secs = _parse_eu_duration_seconds(duration_str)
+
+        if duration_secs < 60:
+            continue
+
+        try:
+            score1 = int(score1_td.get_text(strip=True))
+            score2 = int(score2_td.get_text(strip=True))
+        except ValueError:
+            continue
+
+        flagged = duration_secs < 600 or (duration_secs >= 600 and score1 == score2)
+        sort_key = min(team1, team2)
+        results.append((match_id, sort_key, flagged))
+
+    results.sort(key=lambda x: (x[1], x[0]))
+    return results
+
+
+@data_entry_required(allow_new_data_only=True)
+def recent_league_games(request):
+    """Return a JSON list of tagpro.eu match IDs for recent league games."""
+    try:
+        custom_url = request.GET.get("url", "").strip()
+        if custom_url and not re.match(r"^https://tagpro\.eu/\?matches=", custom_url):
+            return JsonResponse({"error": "Invalid URL: must be a tagpro.eu matches page."}, status=400)
+        season_filter = request.GET.get("season", "").strip() or None
+        group_names = _build_active_season_group_names(season_filter=season_filter)
+        games = _fetch_eu_recent_league_games(group_names, url=custom_url or None)
+        ids = [
+            f"{match_id} !!!" if flagged else str(match_id)
+            for match_id, _sort_key, flagged in games
+        ]
+        return JsonResponse({"ids": ids})
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=500)
 
 
 @data_entry_required(allow_new_data_only=True)
