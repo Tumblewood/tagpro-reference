@@ -42,6 +42,7 @@ from reference.models import (
     Player,
     PlayerSeason,
     Match,
+    PlayoffSeries,
     Game,
     League,
     Franchise,
@@ -1890,6 +1891,47 @@ def edit_season(request, season_id):
             except Exception as e:
                 messages.error(request, f"Error updating matches: {str(e)}")
 
+        elif action == "schedule_match":
+            try:
+                week = request.POST.get("week", "").strip()
+                team1_id = request.POST.get("team1_id")
+                team2_id = request.POST.get("team2_id")
+                date_str = request.POST.get("date")
+                team1 = TeamSeason.objects.get(id=team1_id, season=season)
+                team2 = TeamSeason.objects.get(id=team2_id, season=season)
+                date = datetime.strptime(date_str, "%Y-%m-%d").date()
+                match = Match.objects.create(
+                    season=season, week=week, team1=team1, team2=team2, date=date
+                )
+                messages.success(request, f"Scheduled match: {match}")
+            except Exception as e:
+                messages.error(request, f"Error scheduling match: {str(e)}")
+
+        elif action == "create_playoff_series":
+            try:
+                match_id = request.POST.get("match_id")
+                team1_prev_id = request.POST.get("team1_prev_series_id") or None
+                team2_prev_id = request.POST.get("team2_prev_series_id") or None
+                match = Match.objects.get(id=match_id, season=season)
+                team1_prev = (
+                    PlayoffSeries.objects.get(id=team1_prev_id)
+                    if team1_prev_id
+                    else None
+                )
+                team2_prev = (
+                    PlayoffSeries.objects.get(id=team2_prev_id)
+                    if team2_prev_id
+                    else None
+                )
+                PlayoffSeries.objects.create(
+                    match=match,
+                    team1_prev_series=team1_prev,
+                    team2_prev_series=team2_prev,
+                )
+                messages.success(request, f"Created playoff series for {match}")
+            except Exception as e:
+                messages.error(request, f"Error creating playoff series: {str(e)}")
+
         return redirect("edit_season", season_id=season.id)
 
     # Get all teams for display and dropdowns
@@ -1928,6 +1970,18 @@ def edit_season(request, season_id):
             }
         )
 
+    latest_match = matches.last()
+    latest_match_date = latest_match.date if latest_match else None
+    latest_match_week = latest_match.week if latest_match else ""
+
+    matches_desc = matches.order_by("-date", "-id")
+
+    playoff_series_list = (
+        PlayoffSeries.objects.filter(match__season=season)
+        .select_related("match__team1", "match__team2")
+        .order_by("-match__date", "-match__id")
+    )
+
     return render(
         request,
         "reference/edit_season.html",
@@ -1940,6 +1994,10 @@ def edit_season(request, season_id):
             "all_players": all_players,
             "franchises": franchises,
             "matches_data": matches_data,
+            "latest_match_date": latest_match_date,
+            "latest_match_week": latest_match_week,
+            "matches_desc": matches_desc,
+            "playoff_series_list": playoff_series_list,
             "is_admin": (
                 request.user.is_staff if request.user.is_authenticated else False
             ),

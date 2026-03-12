@@ -34,11 +34,33 @@
     white-space: nowrap;
 }
 
+/* Wider form column for forms with paired inputs */
+.form-col-xl {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    white-space: nowrap;
+}
+
+/* Inline row of inputs within a form column */
+.form-input-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form-input-row > * {
+    flex: 1;
+    min-width: 0;
+}
+
 /* Form inputs */
 .form-col select,
 .form-col input,
 .form-col-wide select,
-.form-col-wide input {
+.form-col-wide input,
+.form-col-xl select,
+.form-col-xl input {
     padding: 0.375rem 0.5rem;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -48,7 +70,9 @@
 .form-col select:focus,
 .form-col input:focus,
 .form-col-wide select:focus,
-.form-col-wide input:focus {
+.form-col-wide input:focus,
+.form-col-xl select:focus,
+.form-col-xl input:focus {
     outline: none;
     border-color: #57c;
 }
@@ -56,6 +80,7 @@
 /* Primary button */
 .form-col button,
 .form-col-wide button,
+.form-col-xl button,
 .btn-primary {
     background-color: #57c;
     color: white;
@@ -69,6 +94,7 @@
 
 .form-col button:hover,
 .form-col-wide button:hover,
+.form-col-xl button:hover,
 .btn-primary:hover {
     background-color: #46b;
 }

@@ -98,6 +98,62 @@ function changeSeason() {
             <button type="submit">Update</button>
         </form>
     </div>
+
+    <div class="form-row">
+        <!-- Schedule Match -->
+        <form method="post" class="form-col-xl">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="schedule_match">
+            <strong>Schedule Match:</strong>
+            <div class="form-input-row">
+                <input type="text" name="week" value="{{ latest_match_week }}" placeholder="Week name" required>
+                <input type="date" name="date" value="{{ latest_match_date|date:'Y-m-d' }}" required>
+            </div>
+            <div class="form-input-row">
+                <select name="team1_id" required>
+                    <option value="">Team 1...</option>
+                    {% for team in teams %}
+                        <option value="{{ team.id }}">{{ team.name }}</option>
+                    {% endfor %}
+                </select>
+                <select name="team2_id" required>
+                    <option value="">Team 2...</option>
+                    {% for team in teams %}
+                        <option value="{{ team.id }}">{{ team.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit">Schedule</button>
+        </form>
+
+        <!-- Create Playoff Series -->
+        <form method="post" class="form-col-xl">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="create_playoff_series">
+            <strong>Create Playoff Series:</strong>
+            <select name="match_id" required>
+                <option value="">Select match...</option>
+                {% for match in matches_desc %}
+                    <option value="{{ match.id }}">{{ match.date|date:"n/j/Y" }}: {{ match.team1.name }} vs {{ match.team2.name }}</option>
+                {% endfor %}
+            </select>
+            <div class="form-input-row">
+                <select name="team1_prev_series_id">
+                    <option value="">[bye]</option>
+                    {% for series in playoff_series_list %}
+                        <option value="{{ series.id }}">{{ series.match.date|date:"n/j/Y" }}: {{ series.match.team1.name }} vs {{ series.match.team2.name }}</option>
+                    {% endfor %}
+                </select>
+                <select name="team2_prev_series_id">
+                    <option value="">[bye]</option>
+                    {% for series in playoff_series_list %}
+                        <option value="{{ series.id }}">{{ series.match.date|date:"n/j/Y" }}: {{ series.match.team1.name }} vs {{ series.match.team2.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="submit">Create</button>
+        </form>
+    </div>
 </div>
 
 <h2 class="section-header-first">Teams</h2>
