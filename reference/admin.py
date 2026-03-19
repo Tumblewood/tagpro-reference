@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.contrib import messages
 from .models import (
     League,
     Franchise,
@@ -127,9 +128,31 @@ class GameAdmin(admin.ModelAdmin):
     list_filter = ["match__season"]
 
 
+@admin.action(description="Calculate legacy points")
+def calculate_legacy_points_action(modeladmin, request, queryset):
+    from .utils.legacy_points import calculate_legacy_points
+
+    updated = 0
+    skipped = 0
+    for ps in queryset.select_related("season__league", "player", "team"):
+        points = calculate_legacy_points(ps)
+        if points is not None:
+            ps.legacy_points = points
+            ps.save(update_fields=["legacy_points"])
+            updated += 1
+        else:
+            skipped += 1
+
+    messages.success(
+        request,
+        f"Legacy points calculated: {updated} updated, {skipped} skipped (ineligible).",
+    )
+
+
 class PlayerSeasonAdmin(admin.ModelAdmin):
     search_fields = ["player__name", "playing_as"]
     list_filter = ["season", "team__franchise__name"]
+    actions = [calculate_legacy_points_action]
 
 
 class PlayerGameLogAdmin(admin.ModelAdmin):

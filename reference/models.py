@@ -40,6 +40,10 @@ class League(models.Model):
         null=True,
         help_text="Prefix used in tagpro.eu group names for teams in this league (e.g. 'M' for MLTP, 'N' for mLTP, 'A' for NLTP)",
     )
+    legacy_weight = models.FloatField(
+        default=0,
+        help_text="Multiplier applied to legacy points for seasons in this league. 0 means legacy points are not calculated.",
+    )
 
     def __str__(self):
         return self.name
@@ -163,6 +167,11 @@ class PlayerSeason(models.Model):
         max_length=1, choices=[("O", "O"), ("D", "D"), ("N", "—")], default="N"
     )
     other_restrictions = models.CharField(max_length=255, blank=True, null=True)
+    legacy_points = models.FloatField(
+        null=True,
+        blank=True,
+        help_text="Calculated legacy points for this player-season.",
+    )
 
     class Meta:
         unique_together = ("season", "player")
@@ -453,6 +462,11 @@ class AwardType(models.Model):
         max_length=100, blank=True, null=True, help_text="Link to the award's icon"
     )
     ordering = models.IntegerField()
+    legacy_value = models.FloatField(
+        null=True,
+        blank=True,
+        help_text="Legacy points this award conveys to first place. Second gets 40%, third gets 20%.",
+    )
     recipient_type = models.CharField(
         max_length=20,
         choices=RECIPIENT_TYPES,

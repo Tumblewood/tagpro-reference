@@ -9,8 +9,8 @@ from django.conf import settings as django_settings
 from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
-from django.db.models import F, OuterRef, Subquery, IntegerField, Exists
-from django.db.models.functions import Lower
+from django.db.models import F, OuterRef, Subquery, IntegerField, Exists, Sum, FloatField, Value
+from django.db.models.functions import Coalesce, Lower
 from accounts.decorators import (
     data_entry_required,
     bulk_import_required,
@@ -52,6 +52,7 @@ from reference.models import (
     AwardType,
     AwardReceived,
     Transaction,
+    PlayerRegulationStats,
 )
 
 
@@ -908,6 +909,8 @@ def season_rosters(req, season_id):
         players = build_roster_players(team)
         rosters.append({"team": team, "players": players})
 
+    has_transactions = Transaction.objects.filter(team__season=season).exists()
+
     return render(
         req,
         "reference/season_rosters.html",
@@ -915,6 +918,7 @@ def season_rosters(req, season_id):
             "season": season,
             "league_seasons": league_seasons,
             "rosters": rosters,
+            "has_transactions": has_transactions,
         },
     )
 
@@ -1067,6 +1071,8 @@ def team_season(req, team_id):
 
         schedule_data.append(match_data)
 
+    has_transactions = Transaction.objects.filter(team__season=season).exists()
+
     return render(
         req,
         "reference/team_season.html",
@@ -1080,6 +1086,80 @@ def team_season(req, team_id):
             "players": players,
             "team_stats": player_stats,
             "schedule_data": schedule_data,
+            "has_transactions": has_transactions,
+        },
+    )
+
+
+def legacy_leaders(req):
+    """Leaderboard of legacy points across all player seasons."""
+    season_filter = req.GET.get("season", "all")
+
+    seasons_with_points = (
+        Season.objects.filter(player_seasons__legacy_points__isnull=False)
+        .distinct()
+        .select_related("league")
+        .order_by(F("league__legacy_weight").desc(), F("end_date").desc(nulls_last=True))
+    )
+
+    oscar_sub = Subquery(
+        PlayerRegulationStats.objects.filter(
+            player_gamelog__player_season=OuterRef("pk"),
+            player_gamelog__game__non_regulation=False,
+            player_gamelog__game__match__week__startswith="Week",
+        )
+        .values("player_gamelog__player_season")
+        .annotate(total=Sum("oscar"))
+        .values("total"),
+        output_field=FloatField(),
+    )
+    dscar_sub = Subquery(
+        PlayerRegulationStats.objects.filter(
+            player_gamelog__player_season=OuterRef("pk"),
+            player_gamelog__game__non_regulation=False,
+            player_gamelog__game__match__week__startswith="Week",
+        )
+        .values("player_gamelog__player_season")
+        .annotate(total=Sum("dscar"))
+        .values("total"),
+        output_field=FloatField(),
+    )
+
+    tc_sub = Subquery(
+        Transaction.objects.filter(
+            player_season=OuterRef("pk"),
+            transaction_type__in=["draft", "prelim"],
+        )
+        .values("net_tc_spent")[:1],
+        output_field=IntegerField(),
+    )
+
+    qs = (
+        PlayerSeason.objects.filter(legacy_points__isnull=False)
+        .select_related("player", "season__league", "team__franchise")
+        .annotate(
+            rs_oscar=Coalesce(oscar_sub, Value(0.0), output_field=FloatField()),
+            rs_dscar=Coalesce(dscar_sub, Value(0.0), output_field=FloatField()),
+            draft_tc=Coalesce(tc_sub, Value(0), output_field=IntegerField()),
+        )
+        .annotate(rs_tscar=F("rs_oscar") + F("rs_dscar"))
+    )
+
+    if season_filter != "all":
+        try:
+            qs = qs.filter(season_id=int(season_filter))
+        except ValueError:
+            pass
+
+    leaders = qs.order_by("-legacy_points")
+
+    return render(
+        req,
+        "reference/legacy_leaders.html",
+        {
+            "leaders": leaders,
+            "seasons": seasons_with_points,
+            "current_season": season_filter,
         },
     )
 

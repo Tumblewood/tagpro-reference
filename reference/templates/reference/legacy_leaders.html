@@ -1,0 +1,95 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+
+{% block title %}Legacy Point Leaders - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/league-filter.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">Legacy Point Leaders</h1>
+
+    <div class="league-filter">
+        <label for="season-dropdown">Season: </label>
+        <select id="season-dropdown" onchange="changeSeason(this.value)">
+            <option value="all" {% if current_season == "all" %}selected{% endif %}>All Seasons</option>
+            {% for season in seasons %}
+                <option value="{{ season.id }}" {% if current_season == season.id|stringformat:"s" %}selected{% endif %}>
+                    {{ season.name }}
+                </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="stat-table-container">
+        <table class="stat-table" id="legacy-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="date">Season</th>
+                    <th data-sortable data-type="text">Player</th>
+                    <th data-sortable data-type="text">Team</th>
+                    <th data-sortable data-type="number">Seed</th>
+                    <th data-sortable data-type="text">Playoff Finish</th>
+                    <th data-sortable data-type="number">TC</th>
+                    <th data-sortable data-type="number">TSCAR</th>
+                    <th data-sortable data-type="number">Legacy Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for ps in leaders %}
+                <tr>
+                    <td class="team-name"{% if ps.season.end_date %} data-sort-value="{{ ps.season.end_date.isoformat }}"{% endif %}>
+                        <a href="{% season_url ps.season 'home' %}">{{ ps.season.name }}</a>
+                    </td>
+                    <td class="team-name">
+                        <a href="{% url 'player_history' ps.player.name %}">{{ ps.player.name }}</a>
+                    </td>
+                    <td>
+                        {% if ps.team %}
+                            <a href="{% url 'team_season' ps.team.id %}">{{ ps.team.abbr }}</a>
+                        {% else %}
+                            —
+                        {% endif %}
+                    </td>
+                    <td>{{ ps.team.seed|default:"—" }}</td>
+                    <td>{{ ps.team.playoff_finish|default:"—" }}</td>
+                    <td>{{ ps.draft_tc }}</td>
+                    <td>{{ ps.rs_tscar|floatformat:1 }}</td>
+                    <td>{{ ps.legacy_points|floatformat:1 }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No legacy points have been calculated yet.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    function changeSeason(seasonId) {
+        const url = new URL(window.location);
+        if (seasonId === 'all') {
+            url.searchParams.delete('season');
+        } else {
+            url.searchParams.set('season', seasonId);
+        }
+        window.location.href = url.toString();
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        initTableSort('#legacy-table', {
+            initialSort: { column: 7, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}
