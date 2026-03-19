@@ -133,7 +133,7 @@ def _playoff_tscar(player_season, season):
     match_count = (
         qs.values("player_gamelog__game__match").distinct().count()
     )
-    cap = 40.0 if match_count == 1 else 80.0
+    cap = 50.0 if match_count == 1 else 100.0
 
     if minutes_played > cap:
         tscar = tscar * cap / minutes_played
@@ -289,7 +289,7 @@ def _tc_value(player_season, season):
     if avg_tc_rounded == 0:
         return 0.0
 
-    return (player_tc / avg_tc_rounded) * 30.0
+    return (player_tc / avg_tc_rounded) * 20.0
 
 
 def calculate_legacy_points(player_season):
