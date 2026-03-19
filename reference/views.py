@@ -9,7 +9,7 @@ from django.conf import settings as django_settings
 from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
-from django.db.models import F
+from django.db.models import F, OuterRef, Subquery, IntegerField, Exists
 from django.db.models.functions import Lower
 from accounts.decorators import (
     data_entry_required,
@@ -51,7 +51,36 @@ from reference.models import (
     Franchise,
     AwardType,
     AwardReceived,
+    Transaction,
 )
+
+
+def build_roster_players(team):
+    """
+    Return the team's PlayerSeason queryset annotated with tc and is_prelim,
+    sorted with prelim players first, then by TC descending.
+    """
+    latest_tc = (
+        Transaction.objects.filter(
+            player_season=OuterRef("pk"),
+            transaction_type__in=["draft", "add"],
+        )
+        .order_by("-before_week")
+        .values("net_tc_spent")[:1]
+    )
+    has_prelim = Transaction.objects.filter(
+        player_season=OuterRef("pk"),
+        team=team,
+        transaction_type="prelim",
+    )
+    return (
+        team.players.select_related("player")
+        .annotate(
+            tc=Subquery(latest_tc, output_field=IntegerField()),
+            is_prelim=Exists(has_prelim),
+        )
+        .order_by("-is_prelim", F("tc").desc(nulls_last=True))
+    )
 
 
 PLAYOFF_ORDER = {
@@ -869,14 +898,14 @@ def season_rosters(req, season_id):
     # Get all teams in this season with their players
     teams = (
         TeamSeason.objects.filter(season=season)
-        .prefetch_related("players__player")
+        .prefetch_related("franchise")
         .order_by("name")
     )
 
     # Build roster data
     rosters = []
     for team in teams:
-        players = team.players.all().order_by("player__name")
+        players = build_roster_players(team)
         rosters.append({"team": team, "players": players})
 
     return render(
@@ -1011,7 +1040,7 @@ def team_season(req, team_id):
     record = team_standings["record"]
 
     # Get roster
-    players = team.players.all().order_by("player__name")
+    players = build_roster_players(team)
 
     # Get player stats
     player_stats = aggregate_player_stats(season=season, franchise=team.franchise)

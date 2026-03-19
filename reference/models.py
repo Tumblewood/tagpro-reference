@@ -509,8 +509,11 @@ class Transaction(models.Model):
 
     TRANSACTION_TYPES = [
         ("draft", "Draft"),
+        ("prelim", "Prelim"),
         ("add", "Add"),
         ("drop", "Drop"),
+        ("trade for", "Trade For"),
+        ("trade away", "Trade Away"),
     ]
     team = models.ForeignKey(
         TeamSeason, on_delete=models.CASCADE, related_name="transactions"

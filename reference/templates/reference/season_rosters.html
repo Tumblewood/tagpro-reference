@@ -65,6 +65,7 @@
                     <tr>
                         <th>Player</th>
                         <th>Position</th>
+                        <th>TC</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -76,10 +77,11 @@
                             </a>
                         </td>
                         <td class="position">{{ player_season.get_position_display }}</td>
+                        <td class="tc">{% if player_season.is_prelim %}{% if player_season.player == roster_data.team.captain or player_season.player == roster_data.team.co_captain %}C{% else %}P{% endif %}{% elif player_season.tc is not None %}{{ player_season.tc }}{% else %}—{% endif %}</td>
                     </tr>
                     {% empty %}
                     <tr>
-                        <td colspan="2" class="empty-roster">No players found</td>
+                        <td colspan="3" class="empty-roster">No players found</td>
                     </tr>
                     {% endfor %}
                 </tbody>
