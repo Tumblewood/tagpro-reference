@@ -1102,56 +1102,44 @@ def legacy_leaders(req):
         .order_by(F("league__legacy_weight").desc(), F("end_date").desc(nulls_last=True))
     )
 
-    oscar_sub = Subquery(
-        PlayerRegulationStats.objects.filter(
-            player_gamelog__player_season=OuterRef("pk"),
-            player_gamelog__game__non_regulation=False,
-            player_gamelog__game__match__week__startswith="Week",
-        )
-        .values("player_gamelog__player_season")
-        .annotate(total=Sum("oscar"))
-        .values("total"),
-        output_field=FloatField(),
-    )
-    dscar_sub = Subquery(
-        PlayerRegulationStats.objects.filter(
-            player_gamelog__player_season=OuterRef("pk"),
-            player_gamelog__game__non_regulation=False,
-            player_gamelog__game__match__week__startswith="Week",
-        )
-        .values("player_gamelog__player_season")
-        .annotate(total=Sum("dscar"))
-        .values("total"),
-        output_field=FloatField(),
-    )
-
-    tc_sub = Subquery(
-        Transaction.objects.filter(
-            player_season=OuterRef("pk"),
-            transaction_type__in=["draft", "prelim"],
-        )
-        .values("net_tc_spent")[:1],
-        output_field=IntegerField(),
-    )
-
-    qs = (
-        PlayerSeason.objects.filter(legacy_points__isnull=False)
-        .select_related("player", "season__league", "team__franchise")
-        .annotate(
-            rs_oscar=Coalesce(oscar_sub, Value(0.0), output_field=FloatField()),
-            rs_dscar=Coalesce(dscar_sub, Value(0.0), output_field=FloatField()),
-            draft_tc=Coalesce(tc_sub, Value(0), output_field=IntegerField()),
-        )
-        .annotate(rs_tscar=F("rs_oscar") + F("rs_dscar"))
-    )
-
+    season_obj = None
     if season_filter != "all":
         try:
-            qs = qs.filter(season_id=int(season_filter))
-        except ValueError:
+            season_obj = Season.objects.get(id=int(season_filter))
+        except (ValueError, Season.DoesNotExist):
             pass
 
-    leaders = qs.order_by("-legacy_points")
+    qs = PlayerSeason.objects.filter(legacy_points__isnull=False).select_related(
+        "player", "season__league", "team__franchise"
+    )
+    if season_obj:
+        qs = qs.filter(season=season_obj)
+
+    leaders = list(qs.order_by("-legacy_points"))
+    ps_id_set = {ps.id for ps in leaders}
+
+    seasons_to_query = [season_obj] if season_obj else list({ps.season for ps in leaders})
+    rs_tscar_map = {}
+    po_tscar_map = {}
+    for s in seasons_to_query:
+        for row in aggregate_player_stats(week="all_regular_season", season=s):
+            if row["player_season"].id in ps_id_set:
+                rs_tscar_map[row["player_season"].id] = row["tscar"]
+        for row in aggregate_player_stats(week="all_playoffs", season=s):
+            if row["player_season"].id in ps_id_set:
+                po_tscar_map[row["player_season"].id] = row["tscar"]
+    tc_map = {
+        t["player_season_id"]: t["net_tc_spent"]
+        for t in Transaction.objects.filter(
+            player_season__in=leaders,
+            transaction_type__in=["draft", "prelim"],
+        ).values("player_season_id", "net_tc_spent")
+    }
+
+    for ps in leaders:
+        ps.rs_tscar = rs_tscar_map.get(ps.id, 0.0)
+        ps.po_tscar = po_tscar_map.get(ps.id, 0.0)
+        ps.draft_tc = tc_map.get(ps.id, 0)
 
     return render(
         req,

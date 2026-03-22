@@ -93,6 +93,30 @@ class PlayerGameLogInline(admin.TabularInline):
     model = PlayerGameLog
 
 
+@admin.action(description="Calculate legacy points for all players in the season")
+def calculate_season_legacy_points(modeladmin, request, queryset):
+    from .utils.legacy_points import calculate_legacy_points
+
+    updated = 0
+    skipped = 0
+    for season in queryset:
+        for ps in PlayerSeason.objects.filter(season=season).select_related(
+            "season__league", "player", "team"
+        ):
+            points = calculate_legacy_points(ps)
+            if points is not None:
+                ps.legacy_points = points
+                ps.save(update_fields=["legacy_points"])
+                updated += 1
+            else:
+                skipped += 1
+
+    messages.success(
+        request,
+        f"Legacy points calculated: {updated} updated, {skipped} skipped (ineligible).",
+    )
+
+
 class SeasonAdmin(admin.ModelAdmin):
     search_fields = ["name"]
     inlines = [TeamSeasonInline]
@@ -101,6 +125,7 @@ class SeasonAdmin(admin.ModelAdmin):
         process_season,
         calculate_scar,
         set_end_date_to_last_game,
+        calculate_season_legacy_points,
     ]
 
 

@@ -35,7 +35,8 @@
                     <th data-sortable data-type="number">Seed</th>
                     <th data-sortable data-type="text">Playoff Finish</th>
                     <th data-sortable data-type="number">TC</th>
-                    <th data-sortable data-type="number">TSCAR</th>
+                    <th data-sortable data-type="number">RS TSCAR</th>
+                    <th data-sortable data-type="number">PO TSCAR</th>
                     <th data-sortable data-type="number">Legacy Points</th>
                 </tr>
             </thead>
@@ -59,11 +60,12 @@
                     <td>{{ ps.team.playoff_finish|default:"—" }}</td>
                     <td>{{ ps.draft_tc }}</td>
                     <td>{{ ps.rs_tscar|floatformat:1 }}</td>
+                    <td>{{ ps.po_tscar|floatformat:1 }}</td>
                     <td>{{ ps.legacy_points|floatformat:1 }}</td>
                 </tr>
                 {% empty %}
                 <tr>
-                    <td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">
+                    <td colspan="9" style="text-align: center; padding: 2rem; color: #6c757d;">
                         No legacy points have been calculated yet.
                     </td>
                 </tr>
@@ -77,18 +79,16 @@
 <script src="{% static 'reference/js/table-sort.js' %}"></script>
 <script>
     function changeSeason(seasonId) {
-        const url = new URL(window.location);
         if (seasonId === 'all') {
-            url.searchParams.delete('season');
+            window.location.href = window.location.pathname;
         } else {
-            url.searchParams.set('season', seasonId);
+            window.location.href = window.location.pathname + '?season=' + seasonId;
         }
-        window.location.href = url.toString();
     }
 
     document.addEventListener('DOMContentLoaded', function() {
         initTableSort('#legacy-table', {
-            initialSort: { column: 7, direction: 'desc' }
+            initialSort: { column: 8, direction: 'desc' }
         });
     });
 </script>
