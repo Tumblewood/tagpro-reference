@@ -1063,15 +1063,15 @@ def calculate_scar(season: Season):
     """
     Calculate OSCAR and DSCAR for all players in a season.
 
-    OSCAR = 0.015 * hold (in seconds) + 0.7 * caps + 0.125 * pups + 0.025 * non-return tags
-    DSCAR = 0.005 * prev (in seconds) + 0.1 * returns + 0.1 * returns in base - 0.01 * hold against (in seconds) + 0.125 * pups + 0.025 * non-return tags - 0.05 * non-drop pops
+    OSCAR = 0.6 * hold (in minutes) + 0.5 * caps + 0.05 * pups - 0.25 * caps off regrab - 0.05 * grabs off regrab
+    DSCAR = 0.01 * prevent (in minutes) + 0.06 * returns + 0.4 * saves + 0.35 * key returns + 0.05 * pups + 0.03 * tags - 0.02 * pops
 
     Process:
     1. Calculate raw OSCAR and DSCAR
     2. Apply blowout multiplier
     3. Normalize to league average (minutes-weighted average = 0)
     4. Apply game-level regression so oscar + dscar = half the BACD
-    5. Add 0.035 * minutes * blowout_multiplier to each player's OSCAR and DSCAR
+    5. Add 0.03 * minutes * blowout_multiplier to each player's OSCAR and DSCAR
     """
     # Get all regulation stats for the season
     regulation_stats = PlayerRegulationStats.objects.filter(
@@ -1097,31 +1097,27 @@ def calculate_scar(season: Season):
         blowout_multiplier = calculate_blowout_multiplier(cap_differential)
 
         # Convert time from ticks to get values for calculations
-        hold_seconds = (stat.hold or 0) / 60  # Convert from ticks to seconds
-        prevent_seconds = (stat.prevent or 0) / 60
-        hold_against_seconds = (stat.hold_against or 0) / 60
+        hold_minutes = (stat.hold or 0) / 3600  # Convert from ticks to minutes
+        prevent_minutes = (stat.prevent or 0) / 3600
         time_played_minutes = (stat.time_played or 0) / 3600
-
-        # Calculate non-return tags and non-drop pops
-        non_return_tags = (stat.tags or 0) - (stat.returns or 0)
-        non_drop_pops = (stat.pops or 0) - (stat.drops or 0)
 
         # OSCAR formula (raw)
         oscar = (
-            0.015 * hold_seconds
-            + 0.7 * (stat.captures or 0)
-            + 0.15 * (stat.powerups or 0)
-            + 0.025 * non_return_tags
+            0.6 * hold_minutes
+            + 0.5 * (stat.captures or 0)
+            - 0.25 * (stat.caps_off_regrab or 0)
+            - 0.05 * (stat.grabs_off_regrab or 0)
+            + 0.05 * (stat.powerups or 0)
         )
 
         # DSCAR formula (raw)
         dscar = (
-            0.005 * prevent_seconds
+            0.025 * (stat.tags or 0)
             + 0.1 * (stat.returns or 0)
-            + 0.1 * (stat.returns_in_base or 0)
-            + 0.15 * (stat.powerups or 0)
-            + 0.025 * non_return_tags
-            - 0.05 * non_drop_pops
+            + 0.2 * (stat.saves or 0)
+            + 0.05 * (stat.key_returns or 0)
+            + 0.05 * (stat.powerups or 0)
+            - 0.025 * (stat.pops or 0)
         )
 
         # Apply blowout multiplier
@@ -1227,8 +1223,8 @@ def calculate_scar(season: Season):
             oscar_regressed = stat._oscar_normalized + (adjustment / 2)
             dscar_regressed = stat._dscar_normalized + (adjustment / 2)
 
-            # Add 0.035 * minutes * blowout_multiplier to both
-            baseline = 0.035 * stat._time_played_minutes * stat._blowout_multiplier
+            # Add 0.03 * minutes * blowout_multiplier to both
+            baseline = 0.03 * stat._time_played_minutes * stat._blowout_multiplier
 
             stat.oscar = oscar_regressed + baseline
             stat.dscar = dscar_regressed + baseline
