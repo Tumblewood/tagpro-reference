@@ -71,5 +71,6 @@ urlpatterns = [
         views.edit_season_by_name,
         name="edit_season_by_name",
     ),
+    path("edit/match/<int:match_id>/", views.edit_match, name="edit_match"),
     path("edit/logos/", views.edit_logos, name="edit_logos"),
 ]

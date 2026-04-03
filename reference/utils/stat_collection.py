@@ -1344,3 +1344,14 @@ def infer_playoff_series(season: Season):
                 "team2_game_wins": team2_wins,
             },
         )
+
+
+def reprocess_match(match: Match):
+    """
+    Reprocess stats for all games in a match, then recalculate season aggregates.
+    """
+    for game in match.games.all():
+        process_game_stats(game)
+    update_standings(match.season)
+    infer_playoff_series(match.season)
+    calculate_scar(match.season)

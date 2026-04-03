@@ -250,7 +250,7 @@ function changeSeason() {
                 </td>
                 {% if is_admin %}
                 <td class="center">
-                    <a href="/admin/reference/match/{{ item.match.id }}/change/" target="_blank">✎</a>
+                    <a href="{% url 'edit_match' item.match.id %}">✎</a>
                 </td>
                 {% endif %}
             </tr>

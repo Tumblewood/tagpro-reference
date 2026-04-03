@@ -17,7 +17,7 @@
         | Date: {{ match.date|date:"n/j" }}
         {% if match.vod %} | <a href="{{ match.vod }}" target="_blank">vod</a>{% endif %}
         {% if user.is_staff %}
-        | <a href="{% url 'admin:reference_match_change' match.id %}" target="_blank">Edit</a>
+        | <a href="{% url 'edit_match' match.id %}">Edit</a>
         {% endif %}
     </div>
     
@@ -26,7 +26,6 @@
         Map: {{ map_info.map_name }}
         {% if map_info.tagpro_eu_url %} | <a href="{{ map_info.tagpro_eu_url }}" target="_blank">tagpro.eu</a>{% endif %}
         {% if map_info.resumed_tagpro_eu_url %} | <a href="{{ map_info.resumed_tagpro_eu_url }}" target="_blank">part 2</a>{% endif %}
-        {% if map_info.replay %} | <a href="{{ map_info.replay }}" target="_blank">replay</a>{% endif %}
     </div>
     {% endif %}
     

@@ -1,0 +1,371 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+
+{% block title %}Edit Match - {{ match.team1.abbr }} vs {{ match.team2.abbr }} - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/forms.css' %}">
+<style>
+.match-editor-actions {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.match-editor-actions .btn-submit {
+    font-size: 0.9375rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.match-editor-actions .btn-secondary,
+.match-editor-actions .btn-danger {
+    font-size: 0.9375rem;
+    padding: 0.5rem 1rem;
+}
+
+.match-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.match-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.match-field label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.match-field select,
+.match-field input {
+    padding: 0.375rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.match-field select:focus,
+.match-field input:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+.match-field-team { min-width: 11rem; }
+.match-field-date { width: 9rem; }
+.match-field-week { width: 10rem; }
+.match-field-vod  { width: 18rem; }
+
+.section-header-edit {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.5rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.games-scroll {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+}
+
+.games-table {
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+}
+
+.games-table th,
+.games-table td {
+    border: 1px solid #ddd;
+    padding: 0.375rem 0.4rem;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.games-table th {
+    background: #f5f5f5;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.games-table tbody tr:nth-child(even) { background: #f9f9f9; }
+.games-table tbody tr:hover { background: #e6f3ff; }
+
+.games-table input[type="text"],
+.games-table input[type="number"] {
+    padding: 0.25rem 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.8125rem;
+}
+
+.games-table input[type="text"]:focus,
+.games-table input[type="number"]:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+.games-table select {
+    padding: 0.25rem 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.8125rem;
+}
+
+.games-table select:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+.col-gim     { width: 8rem; }
+.col-team    { width: 9rem; }
+.col-score   { width: 3rem; }
+.col-outcome { width: 4.5rem; }
+.col-bool    { width: 3rem; text-align: center; }
+.col-eu      { width: 5rem; }
+.col-paused  { width: 4rem; }
+.col-map     { width: 8rem; }
+.col-del     { width: 4rem; text-align: center; }
+
+.btn-del-game {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.btn-del-game:hover { background: #c82333; }
+
+.series-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Edit Match</h1>
+
+<div class="page-info-primary">
+    <a href="{% url 'edit_season' season.id %}">← {{ season.name }}</a>
+    | <a href="{% url 'match_view' match.id %}">View match</a>
+</div>
+
+<!-- Action buttons — Update submits the main form below; others are their own forms -->
+<div class="match-editor-actions">
+    <button class="btn-submit" type="submit" form="update-form">Update</button>
+    <form method="post" style="display:contents">
+        {% csrf_token %}
+        <input type="hidden" name="action" value="reprocess">
+        <button class="btn-secondary" type="submit">Reprocess Stats</button>
+    </form>
+    <form method="post" style="display:contents">
+        {% csrf_token %}
+        <input type="hidden" name="action" value="delete_match">
+        <button class="btn-danger" type="submit" onclick="return confirm('Delete this match and all its games?')">Delete Match</button>
+    </form>
+</div>
+
+<!-- Main update form -->
+<form method="post" id="update-form">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="update">
+
+    <div class="form-section">
+        <div class="section-header-edit">Match Details</div>
+        <div class="match-fields">
+            <div class="match-field match-field-team">
+                <label>Team 1</label>
+                <select name="team1_id">
+                    {% for team in teams %}
+                        <option value="{{ team.id }}" {% if team.id == match.team1.id %}selected{% endif %}>{{ team.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="match-field match-field-team">
+                <label>Team 2</label>
+                <select name="team2_id">
+                    {% for team in teams %}
+                        <option value="{{ team.id }}" {% if team.id == match.team2.id %}selected{% endif %}>{{ team.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="match-field match-field-date">
+                <label>Date</label>
+                <input type="date" name="date" value="{{ match.date|date:'Y-m-d' }}">
+            </div>
+            <div class="match-field match-field-week">
+                <label>Week</label>
+                <input type="text" name="week" value="{{ match.week }}">
+            </div>
+            <div class="match-field match-field-vod">
+                <label>VOD</label>
+                <input type="url" name="vod" value="{{ match.vod|default:'' }}">
+            </div>
+        </div>
+
+        {% if playoff_series %}
+        <div class="section-header-edit">Playoff Series</div>
+        <div class="series-fields">
+            <div class="match-field">
+                <label>Winner</label>
+                <select name="series_winner_id">
+                    <option value="">—</option>
+                    {% for team in teams %}
+                        <option value="{{ team.id }}" {% if playoff_series.winner_id == team.id %}selected{% endif %}>{{ team.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="match-field">
+                <label>Team 1 Game Wins</label>
+                <input type="number" name="series_team1_game_wins" value="{{ playoff_series.team1_game_wins|default:'' }}" style="width:4rem">
+            </div>
+            <div class="match-field">
+                <label>Team 2 Game Wins</label>
+                <input type="number" name="series_team2_game_wins" value="{{ playoff_series.team2_game_wins|default:'' }}" style="width:4rem">
+            </div>
+            <div class="match-field">
+                <label>Team 1 Prev Series</label>
+                <select name="series_team1_prev_id">
+                    <option value="">[bye]</option>
+                    {% for s in other_series %}
+                        <option value="{{ s.id }}" {% if playoff_series.team1_prev_series_id == s.id %}selected{% endif %}>
+                            {{ s.match.date|date:"n/j" }}: {{ s.match.team1.name }} vs {{ s.match.team2.name }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="match-field">
+                <label>Team 2 Prev Series</label>
+                <select name="series_team2_prev_id">
+                    <option value="">[bye]</option>
+                    {% for s in other_series %}
+                        <option value="{{ s.id }}" {% if playoff_series.team2_prev_series_id == s.id %}selected{% endif %}>
+                            {{ s.match.date|date:"n/j" }}: {{ s.match.team1.name }} vs {{ s.match.team2.name }}
+                        </option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="section-header-edit">Games</div>
+
+    <div class="games-scroll admin-table-container">
+        <table class="games-table">
+            <thead>
+                <tr>
+                    <th class="col-gim">Game</th>
+                    <th class="col-team">Red Team</th>
+                    <th class="col-team">Blue Team</th>
+                    <th class="col-score">T1</th>
+                    <th class="col-score">T2</th>
+                    <th class="col-outcome">Outcome</th>
+                    <th class="col-bool">OT</th>
+                    <th class="col-bool">NR</th>
+                    <th class="col-eu">EU ID</th>
+                    <th class="col-paused">Paused</th>
+                    <th class="col-eu">Resumed EU</th>
+                    <th class="col-paused">Until</th>
+                    <th class="col-map">Map</th>
+                    <th class="col-del"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for game in games %}
+                <tr>
+                    <td class="col-gim">
+                        <input type="text" class="col-gim" name="game_{{ game.id }}_game_in_match" value="{{ game.game_in_match|default:'' }}">
+                    </td>
+                    <td class="col-team">
+                        <select name="game_{{ game.id }}_red_team_id">
+                            {% for team in teams %}
+                                <option value="{{ team.id }}" {% if game.red_team_id == team.id %}selected{% endif %}>{{ team.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td class="col-team">
+                        <select name="game_{{ game.id }}_blue_team_id">
+                            {% for team in teams %}
+                                <option value="{{ team.id }}" {% if game.blue_team_id == team.id %}selected{% endif %}>{{ team.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td class="col-score">
+                        <input type="number" name="game_{{ game.id }}_team1_score" value="{{ game.team1_score }}" style="width:3rem">
+                    </td>
+                    <td class="col-score">
+                        <input type="number" name="game_{{ game.id }}_team2_score" value="{{ game.team2_score }}" style="width:3rem">
+                    </td>
+                    <td class="col-outcome">
+                        <select name="game_{{ game.id }}_outcome">
+                            <option value="">—</option>
+                            {% for val, label in outcome_choices %}
+                                <option value="{{ val }}" {% if game.outcome == val %}selected{% endif %}>{{ val }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td class="col-bool">
+                        <input type="checkbox" name="game_{{ game.id }}_had_ot" {% if game.had_ot %}checked{% endif %}>
+                    </td>
+                    <td class="col-bool">
+                        <input type="checkbox" name="game_{{ game.id }}_non_regulation" {% if game.non_regulation %}checked{% endif %}>
+                    </td>
+                    <td class="col-eu">
+                        <input type="number" name="game_{{ game.id }}_tagpro_eu" value="{{ game.tagpro_eu|default:'' }}" style="width:5rem">
+                    </td>
+                    <td class="col-paused">
+                        <input type="number" name="game_{{ game.id }}_paused_time" value="{{ game.paused_time|default:'' }}" style="width:4rem">
+                    </td>
+                    <td class="col-eu">
+                        <input type="number" name="game_{{ game.id }}_resumed_tagpro_eu" value="{{ game.resumed_tagpro_eu|default:'' }}" style="width:5rem">
+                    </td>
+                    <td class="col-paused">
+                        <input type="number" name="game_{{ game.id }}_resumed_stats_count_until" value="{{ game.resumed_stats_count_until|default:'' }}" style="width:4rem">
+                    </td>
+                    <td class="col-map">{{ game.map_name|default:"—" }}</td>
+                    <td class="col-del">
+                        <button type="button" class="btn-del-game"
+                            onclick="if(confirm('Delete this game?')) { document.getElementById('del-game-id').value='{{ game.id }}'; document.getElementById('del-game-form').submit(); }">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="14" style="text-align:center; color:#888;">No games in this match.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="center" style="margin-top:1rem;">
+        <button class="btn-submit" type="submit">Update</button>
+    </div>
+</form>
+
+<!-- Hidden delete-game form (shared by all delete buttons) -->
+<form method="post" id="del-game-form" style="display:none">
+    {% csrf_token %}
+    <input type="hidden" name="action" value="delete_game">
+    <input type="hidden" name="game_id" id="del-game-id" value="">
+</form>
+
+{% endblock %}

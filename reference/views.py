@@ -38,6 +38,7 @@ from reference.utils.stat_collection import (
     calculate_scar,
     infer_playoff_series,
     process_game_stats,
+    reprocess_match,
 )
 from reference.utils.data_correction import merge_players, merge_player_seasons
 from reference.models import (
@@ -48,6 +49,7 @@ from reference.models import (
     Match,
     PlayoffSeries,
     Game,
+    PlayerGameLog,
     League,
     Franchise,
     AwardType,
@@ -1342,7 +1344,6 @@ def match_view(req, match_id):
             "tagpro_eu_url": (
                 f"https://tagpro.eu/?match={game.tagpro_eu}" if game.tagpro_eu else None
             ),
-            "replay": game.replay,
         }
         if game.resumed_tagpro_eu:
             map_info["resumed_tagpro_eu_url"] = (
@@ -2223,6 +2224,224 @@ def edit_season(request, season_id):
             "is_admin": (
                 request.user.is_staff if request.user.is_authenticated else False
             ),
+        },
+    )
+
+
+REGULAR_SEASON_STANDING_POINTS = {
+    "W":   (3, 0),
+    "OTW": (2, 1),
+    "T":   (1, 1),
+    "OTL": (1, 2),
+    "L":   (0, 3),
+}
+
+PLAYOFF_STANDING_POINTS = {
+    "W":   (1, 0),
+    "OTW": (1, 0),
+    "T":   (0, 0),
+    "OTL": (0, 1),
+    "L":   (0, 1),
+}
+
+
+def _compute_standing_points(outcome, is_regular_season, game_in_match):
+    """
+    Return (team1_standing_points, team2_standing_points) for a game.
+    Half 2 and Overtime games return (None, None); their points are assigned
+    to Half 1 by set_multi_half_outcomes during update_standings.
+    """
+    if not outcome:
+        return None, None
+    if game_in_match and ("Half" in game_in_match or "Overtime" in game_in_match):
+        if "Half 1" not in game_in_match:
+            return None, None
+    table = REGULAR_SEASON_STANDING_POINTS if is_regular_season else PLAYOFF_STANDING_POINTS
+    return table.get(outcome, (None, None))
+
+
+def _parse_int_or_none(val):
+    try:
+        return int(val) if val and str(val).strip() else None
+    except (ValueError, TypeError):
+        return None
+
+
+def _cascade_match_team_changes(match, old_team1, old_team2, new_team1, new_team2):
+    if old_team1 != new_team1:
+        Game.objects.filter(match=match, red_team=old_team1).update(red_team=new_team1)
+        Game.objects.filter(match=match, blue_team=old_team1).update(blue_team=new_team1)
+        PlayerGameLog.objects.filter(game__match=match, team=old_team1).update(team=new_team1)
+    if old_team2 != new_team2:
+        Game.objects.filter(match=match, red_team=old_team2).update(red_team=new_team2)
+        Game.objects.filter(match=match, blue_team=old_team2).update(blue_team=new_team2)
+        PlayerGameLog.objects.filter(game__match=match, team=old_team2).update(team=new_team2)
+
+
+def _handle_edit_match_update(request, match):
+    post = request.POST
+    season = match.season
+
+    # Capture old teams before any changes
+    old_team1 = match.team1
+    old_team2 = match.team2
+
+    new_team1_id = post.get("team1_id")
+    new_team2_id = post.get("team2_id")
+    new_date_str = post.get("date", "").strip()
+    new_week = post.get("week", "").strip()
+    new_vod = post.get("vod", "").strip() or None
+
+    if new_team1_id:
+        match.team1 = TeamSeason.objects.get(id=new_team1_id, season=season)
+    if new_team2_id:
+        match.team2 = TeamSeason.objects.get(id=new_team2_id, season=season)
+    if new_date_str:
+        match.date = datetime.strptime(new_date_str, "%Y-%m-%d").date()
+    if new_week:
+        match.week = new_week
+    match.vod = new_vod
+    match.save()
+
+    _cascade_match_team_changes(match, old_team1, old_team2, match.team1, match.team2)
+
+    # Update PlayoffSeries if one exists
+    series = match.get_playoff_series()
+    if series:
+        winner_id = post.get("series_winner_id") or None
+        t1_prev_id = post.get("series_team1_prev_id") or None
+        t2_prev_id = post.get("series_team2_prev_id") or None
+        series.winner = TeamSeason.objects.get(id=winner_id) if winner_id else None
+        series.team1_prev_series = PlayoffSeries.objects.get(id=t1_prev_id) if t1_prev_id else None
+        series.team2_prev_series = PlayoffSeries.objects.get(id=t2_prev_id) if t2_prev_id else None
+        series.team1_game_wins = _parse_int_or_none(post.get("series_team1_game_wins"))
+        series.team2_game_wins = _parse_int_or_none(post.get("series_team2_game_wins"))
+        series.save()
+
+    is_regular_season = match.week.startswith("Week")
+
+    # Collect per-game updates
+    games = list(match.games.all())
+    game_updates = []
+    for game in games:
+        pk = game.pk
+        outcome = post.get(f"game_{pk}_outcome") or None
+        gim = post.get(f"game_{pk}_game_in_match", "").strip() or None
+        t1_sp, t2_sp = _compute_standing_points(outcome, is_regular_season, gim)
+        game_updates.append({
+            "game": game,
+            "game_in_match": gim,
+            "tagpro_eu": _parse_int_or_none(post.get(f"game_{pk}_tagpro_eu")),
+            "paused_time": _parse_int_or_none(post.get(f"game_{pk}_paused_time")),
+            "resumed_tagpro_eu": _parse_int_or_none(post.get(f"game_{pk}_resumed_tagpro_eu")),
+            "resumed_stats_count_until": _parse_int_or_none(post.get(f"game_{pk}_resumed_stats_count_until")),
+            "red_team_id": _parse_int_or_none(post.get(f"game_{pk}_red_team_id")),
+            "blue_team_id": _parse_int_or_none(post.get(f"game_{pk}_blue_team_id")),
+            "team1_score": _parse_int_or_none(post.get(f"game_{pk}_team1_score")) or 0,
+            "team2_score": _parse_int_or_none(post.get(f"game_{pk}_team2_score")) or 0,
+            "outcome": outcome,
+            "team1_standing_points": t1_sp,
+            "team2_standing_points": t2_sp,
+            "had_ot": bool(post.get(f"game_{pk}_had_ot")),
+            "non_regulation": bool(post.get(f"game_{pk}_non_regulation")),
+        })
+
+    # Two-phase update to avoid unique constraint violations on game_in_match, tagpro_eu,
+    # and resumed_tagpro_eu during intermediate states
+    with transaction.atomic():
+        for gu in game_updates:
+            g = gu["game"]
+            g.game_in_match = f"__tmp_{g.pk}__"
+            g.tagpro_eu = None
+            g.resumed_tagpro_eu = None
+        Game.objects.bulk_update(
+            [gu["game"] for gu in game_updates],
+            ["game_in_match", "tagpro_eu", "resumed_tagpro_eu"],
+        )
+
+        for gu in game_updates:
+            g = gu["game"]
+            g.game_in_match = gu["game_in_match"]
+            g.tagpro_eu = gu["tagpro_eu"]
+            g.paused_time = gu["paused_time"]
+            g.resumed_tagpro_eu = gu["resumed_tagpro_eu"]
+            g.resumed_stats_count_until = gu["resumed_stats_count_until"]
+            if gu["red_team_id"]:
+                g.red_team_id = gu["red_team_id"]
+            if gu["blue_team_id"]:
+                g.blue_team_id = gu["blue_team_id"]
+            g.team1_score = gu["team1_score"]
+            g.team2_score = gu["team2_score"]
+            g.outcome = gu["outcome"]
+            g.team1_standing_points = gu["team1_standing_points"]
+            g.team2_standing_points = gu["team2_standing_points"]
+            g.had_ot = gu["had_ot"]
+            g.non_regulation = gu["non_regulation"]
+        Game.objects.bulk_update(
+            [gu["game"] for gu in game_updates],
+            [
+                "game_in_match", "tagpro_eu", "paused_time", "resumed_tagpro_eu",
+                "resumed_stats_count_until", "red_team", "blue_team",
+                "team1_score", "team2_score", "outcome",
+                "team1_standing_points", "team2_standing_points", "had_ot", "non_regulation",
+            ],
+        )
+
+    update_standings(season)
+    infer_playoff_series(season)
+
+
+@data_entry_required
+def edit_match(request, match_id):
+    match = get_object_or_404(
+        Match.objects.select_related("season", "team1", "team2"), id=match_id
+    )
+    season = match.season
+
+    if request.method == "POST":
+        action = request.POST.get("action")
+        try:
+            if action == "update":
+                _handle_edit_match_update(request, match)
+                messages.success(request, "Match updated.")
+            elif action == "delete_game":
+                game_id = request.POST.get("game_id")
+                game = Game.objects.get(id=game_id, match=match)
+                label = game.game_in_match or str(game.id)
+                game.delete()
+                messages.success(request, f"Deleted {label}.")
+            elif action == "delete_match":
+                match.delete()
+                messages.success(request, "Match deleted.")
+                return redirect("edit_season", season_id=season.id)
+            elif action == "reprocess":
+                reprocess_match(match)
+                messages.success(request, "Stats reprocessed.")
+        except Exception as e:
+            messages.error(request, f"Error: {str(e)}")
+        return redirect("edit_match", match_id=match_id)
+
+    games = match.games.order_by("game_in_match").select_related("red_team__franchise", "blue_team__franchise")
+    teams = TeamSeason.objects.filter(season=season).order_by("name")
+    playoff_series = match.get_playoff_series()
+    other_series = (
+        PlayoffSeries.objects.filter(match__season=season)
+        .exclude(match=match)
+        .select_related("match__team1", "match__team2")
+        .order_by("match__date")
+    )
+
+    return render(
+        request,
+        "reference/edit_match.html",
+        {
+            "match": match,
+            "season": season,
+            "games": games,
+            "teams": teams,
+            "playoff_series": playoff_series,
+            "other_series": other_series,
+            "outcome_choices": Game.OUTCOMES,
         },
     )
 

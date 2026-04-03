@@ -270,7 +270,6 @@ class Game(models.Model):
         blank=True,
         help_text="If the game was paused and resumed later, the time (in ticks from the start of the resumed game) to count stats until",
     )
-    replay = models.CharField(max_length=100, unique=True, null=True, blank=True)
     map_name = models.CharField(max_length=255, null=True, blank=True)
     map_id = models.IntegerField(null=True, blank=True)
     red_team = models.ForeignKey(

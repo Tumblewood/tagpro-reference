@@ -161,6 +161,14 @@ def infer_week(
     matches_before = Match.objects.filter(season=season, date__lte=date)
     if len(matches_before) == 0:
         return "Week 1"
+
+    # If another match was played on the same date, use its week name directly.
+    # This handles playoff week names: once one match is corrected to e.g. "Secant Six",
+    # subsequent games on the same date inherit that name automatically.
+    same_date_match = matches_before.filter(date=date).first()
+    if same_date_match:
+        return same_date_match.week
+
     max_week = matches_before.aggregate(models.Max("week"))["week__max"]
 
     # If the greatest week wasn't a typical week (wasn't called "Week X" for some number X), return
@@ -755,8 +763,6 @@ def import_json_data_to_db(json_data: Dict) -> Dict:
                 game_fields["resumed_stats_count_until"] = (
                     600 - game_data["switch_time"]
                 )
-            if game_data.get("replay"):
-                game_fields["replay"] = game_data["replay"]
             if game_data.get("vod"):
                 game_fields["vod"] = game_data["vod"]
 
