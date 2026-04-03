@@ -20,6 +20,7 @@ from django.contrib import messages
 from reference.utils.display_info import (
     aggregate_player_stats,
     get_team_standings,
+    get_all_team_standings,
     calculate_match_box_score,
     get_match_team_stats,
     calculate_rate_stats,
@@ -373,27 +374,28 @@ STAT_COLUMNS = {
 
 def homepage(req):
     """Homepage with standings for all leagues."""
-    # Get all leagues with ordering < 10
-    leagues = League.objects.filter(ordering__lt=20, gamemode="CTF").order_by(
-        "ordering"
+    leagues = League.objects.filter(ordering__lt=20, gamemode="CTF").order_by("ordering")
+
+    # Fetch latest season for each league in one query
+    all_seasons = Season.objects.filter(league__in=leagues).select_related("league").order_by(
+        F("end_date").desc(nulls_last=True)
     )
+    latest_season_by_league = {}
+    for season in all_seasons:
+        if season.league_id not in latest_season_by_league:
+            latest_season_by_league[season.league_id] = season
+
     league_standings = []
     for league in leagues:
-        # Get the most recent season for this league (null dates are considered earliest)
-        latest_season = (
-            Season.objects.filter(league=league)
-            .order_by(F("end_date").desc(nulls_last=True))
-            .first()
-        )
+        latest_season = latest_season_by_league.get(league.id)
         if not latest_season:
             continue
 
-        # Get all teams in this season
-        teams = TeamSeason.objects.filter(season=latest_season)
-        if not teams.exists():
+        teams = list(TeamSeason.objects.filter(season=latest_season))
+        if not teams:
             continue
 
-        standings: List[TeamSeason] = [get_team_standings(team) for team in teams]
+        standings = get_all_team_standings(latest_season, teams)
         standings = sorted(standings, key=lambda x: x["team"].seed)
         league_standings.append(
             {
@@ -690,8 +692,8 @@ def season_home(req, season_id):
     league_seasons = Season.objects.filter(league=season.league).order_by(
         F("end_date").desc(nulls_last=True)
     )
-    teams = TeamSeason.objects.filter(season=season)
-    standings = [get_team_standings(team) for team in teams]
+    teams = list(TeamSeason.objects.filter(season=season))
+    standings = get_all_team_standings(season, teams)
     standings = sorted(standings, key=lambda x: x["team"].seed)
 
     # Build playoff bracket if playoffs exist

@@ -73,8 +73,6 @@ def aggregate_player_stats(
     Returns:
         List of dictionaries containing aggregated stats for each PlayerSeason
     """
-    from django.db import models
-
     # Start with base query
     stats_query = PlayerRegulationStats.objects.select_related(
         "player_gamelog__player_season__player",
@@ -123,12 +121,16 @@ def aggregate_player_stats(
         .order_by("-time_played")
     )
 
+    # Bulk-fetch all PlayerSeason objects to avoid N+1
+    aggregated_stats = list(aggregated_stats)
+    player_season_map = PlayerSeason.objects.filter(
+        id__in=[s["player_gamelog__player_season"] for s in aggregated_stats]
+    ).select_related("player", "team__franchise").in_bulk()
+
     # Convert to list of dictionaries with proper objects
     result = []
     for stat in aggregated_stats:
-        player_season = PlayerSeason.objects.get(
-            id=stat["player_gamelog__player_season"]
-        )
+        player_season = player_season_map[stat["player_gamelog__player_season"]]
 
         stat_dict = {
             "player_season": player_season,
@@ -437,7 +439,7 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
         models.Q(red_team=team) | models.Q(blue_team=team),
         match__season=team.season,
         match__week__startswith="Week",
-    )
+    ).select_related("match__team1")
 
     # Initialize counters
     standing_points = 0
@@ -506,6 +508,84 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
     }
 
 
+def get_all_team_standings(season, teams) -> List[Dict]:
+    """
+    Compute standings for all teams in a season using a single game query.
+    More efficient than calling get_team_standings() per team.
+    teams: iterable of TeamSeason objects for this season.
+    """
+    teams = list(teams)
+    standings = {
+        team.id: {
+            "team": team,
+            "wins": 0,
+            "ot_wins": 0,
+            "ties": 0,
+            "ot_losses": 0,
+            "losses": 0,
+            "standing_points": 0,
+            "caps_for": 0,
+            "caps_against": 0,
+        }
+        for team in teams
+    }
+
+    games = Game.objects.filter(
+        match__season=season,
+        match__week__startswith="Week",
+    ).select_related("match__team1", "match__team2")
+
+    outcome_map = {"W": "L", "OTW": "OTL", "L": "W", "OTL": "OTW", "T": "T"}
+
+    for game in games:
+        team1 = game.match.team1
+        team2 = game.match.team2
+
+        for is_team1 in (True, False):
+            team = team1 if is_team1 else team2
+            if team.id not in standings:
+                continue
+            s = standings[team.id]
+
+            if is_team1:
+                team_score = game.team1_score
+                opp_score = game.team2_score
+                team_sp = game.team1_standing_points or 0
+                outcome = game.outcome
+            else:
+                team_score = game.team2_score
+                opp_score = game.team1_score
+                team_sp = game.team2_standing_points or 0
+                outcome = outcome_map.get(game.outcome, game.outcome) if game.outcome else None
+
+            s["standing_points"] += team_sp
+
+            if game.outcome in ["OTW", "OTL"]:
+                s["caps_for"] += min(team_score, opp_score)
+                s["caps_against"] += min(team_score, opp_score)
+            elif game.game_in_match and "Overtime" not in game.game_in_match:
+                s["caps_for"] += team_score
+                s["caps_against"] += opp_score
+
+            if outcome == "W":
+                s["wins"] += 1
+            elif outcome == "OTW":
+                s["ot_wins"] += 1
+            elif outcome == "T":
+                s["ties"] += 1
+            elif outcome == "OTL":
+                s["ot_losses"] += 1
+            elif outcome == "L":
+                s["losses"] += 1
+
+    for s in standings.values():
+        s["games_played"] = s["wins"] + s["ot_wins"] + s["ties"] + s["ot_losses"] + s["losses"]
+        s["record"] = f"{s['wins']}-{s['ot_wins']}-{s['ot_losses']}-{s['losses']}"
+        s["cap_differential"] = s["caps_for"] - s["caps_against"]
+
+    return list(standings.values())
+
+
 def build_playoff_bracket(season):
     """
     Build playoff bracket layout for a season.
@@ -536,16 +616,18 @@ def build_playoff_bracket(season):
     if not playoff_series_qs.exists():
         return None
 
+    # Build a set of all series IDs that are referenced as a previous series by another
+    prev_series_ids = set()
+    for series in playoff_series_qs:
+        if series.team1_prev_series_id:
+            prev_series_ids.add(series.team1_prev_series_id)
+        if series.team2_prev_series_id:
+            prev_series_ids.add(series.team2_prev_series_id)
+
     # Find the championship (series with no next_series)
     championship = None
     for series in playoff_series_qs:
-        # Check if this series is not a prev_series for any other series
-        is_prev_for_any = PlayoffSeries.objects.filter(
-            models.Q(team1_prev_series=series) | models.Q(team2_prev_series=series),
-            match__season=season,
-        ).exists()
-
-        if not is_prev_for_any:
+        if series.id not in prev_series_ids:
             if championship is not None:
                 # Multiple championships found - invalid bracket
                 return None
