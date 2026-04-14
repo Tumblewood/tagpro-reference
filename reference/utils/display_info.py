@@ -48,8 +48,22 @@ STAT_FIELDS = [
     "key_returns",
     "hold_against",
     "kept_flags",
+    "near_caps",
+    "outs",
+    "productive_grabs",
+    "chained_holds",
+    "grabs_against",
+    "outs_against",
+    "tp",
+    "rb",
+    "jj",
+    "ntpops",
+    "ot_caps",
     "oscar",
     "dscar",
+    "tscar",
+    "ba_time_played",
+    "ba_pm",
 ]
 
 
@@ -159,11 +173,6 @@ def aggregate_player_stats(
             else:
                 stat_dict[field] = raw_value
 
-        # Calculate TSCAR
-        stat_dict["tscar"] = (stat_dict.get("oscar", 0) or 0) + (
-            stat_dict.get("dscar", 0) or 0
-        )
-
         result.append(stat_dict)
 
     return result
@@ -192,8 +201,18 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         drops = player_stat["drops"]
         powerups = player_stat["powerups"]
         total_pups_in_game = player_stat["total_pups_in_game"]
+        outs = player_stat["outs"]
+        productive_grabs = player_stat["productive_grabs"]
+        chained_holds = player_stat["chained_holds"]
+        grabs_off_regrab = player_stat["grabs_off_regrab"]
+        grabs_against = player_stat["grabs_against"]
+        outs_against = player_stat["outs_against"]
+        oscar = player_stat.get("oscar") or 0
+        dscar = player_stat.get("dscar") or 0
+        tscar = player_stat.get("tscar") or 0
+        ba_time_played = player_stat.get("ba_time_played") or 0
 
-        # Add calculated rate stats to player_stat dict
+        # Existing rate stats
         player_stat["gpm"] = round(grabs / minutes, 2) if minutes > 0 else 0
         player_stat["cpm"] = round(captures / minutes, 2) if minutes > 0 else 0
         player_stat["hpm"] = round(hold_sec / minutes, 2) if minutes > 0 else 0
@@ -201,7 +220,7 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         player_stat["rpm"] = round(returns / minutes, 2) if minutes > 0 else 0
         player_stat["ppm"] = round(prevent_sec / minutes, 2) if minutes > 0 else 0
         player_stat["ham"] = round(hold_against_sec / minutes, 2) if minutes > 0 else 0
-        player_stat["hold_per_grab"] = round(hold_sec / grabs, 2) if grabs > 0 else 0
+        player_stat["hold_per_grab"] = round(hold_sec / grabs, 1) if grabs > 0 else 0
         player_stat["score_percent"] = (
             round((captures / grabs) * 100, 1) if grabs > 0 else 0
         )
@@ -237,6 +256,29 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
             if total_pups_in_game > 0
             else 0
         )
+
+        # New per-10 rate stats
+        player_stat["grabs_per_10"] = round(grabs / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["caps_per_10"] = round(captures / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["hold_per_10"] = round(hold_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["ret_per_10"] = round(returns / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["prev_per_10"] = round(prevent_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["ha_per_10"] = round(hold_against_sec / minutes * 10) if minutes > 0 else 0
+
+        # New percentage stats
+        player_stat["out_pct_off"] = round(outs / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["prod_pct"] = round(productive_grabs / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["chain_pct"] = round(chained_holds / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["free_pct"] = round(grabs_off_regrab / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["out_pct_def"] = (
+            round(outs_against / grabs_against * 100, 1) if grabs_against > 0 else 0
+        )
+        player_stat["p_oa"] = round(prevent_sec / outs_against, 1) if outs_against > 0 else 0
+
+        # SCAR efficiency stats (per 10 blowout-adjusted minutes)
+        player_stat["oeff"] = round(oscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
+        player_stat["deff"] = round(dscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
+        player_stat["teff"] = round(tscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
 
     return player_stats
 
@@ -341,8 +383,6 @@ def calculate_match_box_score(match, games, include_details=False):
 
 def get_match_team_stats(match, team, selected_game="all"):
     """Get player stats for a team in a specific match, with optional game filtering."""
-    from django.db import models
-
     if selected_game == "all":
         # Use aggregate_player_stats for the match week, filtered to team and players who played
         match_games = Game.objects.filter(match=match)
@@ -606,6 +646,7 @@ def build_playoff_bracket(season):
             "match__team2",
             "match__team1__franchise",
             "match__team2__franchise",
+            "match__season",
             "team1_prev_series",
             "team2_prev_series",
             "winner",
@@ -726,11 +767,54 @@ def build_playoff_bracket(season):
     }
 
 
+def _consolidate_half_games_for_bracket(games):
+    """
+    For multi-half seasons, merge halves and OT periods into one entry per base game.
+    Returns a list of game dicts with team1_score, team2_score, winner, outcome, short_game_name.
+    Scores are summed across all periods; outcome is taken from the Half 1 game.
+    """
+    groups = {}
+    group_order = []
+    for game in sorted(games, key=lambda g: g.game_in_match):
+        parts = game.game_in_match.split()
+        is_period = len(parts) > 2
+        base = (parts[0] + " " + parts[1]) if is_period else game.game_in_match
+        if base not in groups:
+            groups[base] = {"team1_score": 0, "team2_score": 0, "outcome": None}
+            group_order.append(base)
+        groups[base]["team1_score"] += game.team1_score
+        groups[base]["team2_score"] += game.team2_score
+        if "Half 1" in game.game_in_match:
+            groups[base]["outcome"] = game.outcome
+
+    results = []
+    for base in group_order:
+        data = groups[base]
+        t1, t2 = data["team1_score"], data["team2_score"]
+        winner = "team1" if t1 > t2 else "team2" if t2 > t1 else "tie"
+        short = "G" + base.split()[1]
+        results.append({
+            "team1_score": t1,
+            "team2_score": t2,
+            "winner": winner,
+            "outcome": data["outcome"],
+            "short_game_name": short,
+        })
+    return results
+
+
 def create_bracket_series_data(series, x, y, is_championship=False):
     """Helper function to create bracket series data dict."""
     match = series.match
     games = list(match.games.all())
-    box_score = calculate_match_box_score(match, games, include_details=True)
+
+    if match.season.uses_halves:
+        box_score_games = _consolidate_half_games_for_bracket(games)
+        box_score = {
+            "box_score_games": box_score_games,
+        }
+    else:
+        box_score = calculate_match_box_score(match, games, include_details=True)
 
     return {
         "series": series,

@@ -109,23 +109,19 @@ PLAYOFF_ORDER = {
 }
 STAT_VIEW_OPTIONS = [
     {"value": "basic", "label": "Basic"},
+    {"value": "counting", "label": "Counting"},
     {"value": "offense", "label": "Offense"},
     {"value": "defense", "label": "Defense"},
-    {"value": "offense_rates", "label": "Offense Rates"},
-    {"value": "defense_rates", "label": "Defense Rates"},
-    {"value": "miscellaneous", "label": "Miscellaneous"},
+    {"value": "misc", "label": "Misc"},
+    {"value": "impact", "label": "Impact"},
 ]
 STAT_COLUMNS = {
     "basic": [
         {"key": "time_played_min", "label": "Min", "type": "number"},
-        {"key": "tags", "label": "Tags", "type": "number"},
-        {"key": "pops", "label": "Pops", "type": "number"},
-        {"key": "grabs", "label": "Grabs", "type": "number"},
-        {"key": "drops", "label": "Drops", "type": "number"},
-        {"key": "hold_sec", "label": "Hold", "type": "number"},
         {"key": "captures", "label": "Caps", "type": "number"},
-        {"key": "prevent_sec", "label": "Prev", "type": "number"},
-        {"key": "returns", "label": "Ret", "type": "number"},
+        {"key": "hold_sec", "label": "Hold", "type": "number"},
+        {"key": "returns", "label": "Returns", "type": "number"},
+        {"key": "prevent_sec", "label": "Prevent", "type": "number"},
         {"key": "powerups", "label": "Pups", "type": "number"},
         {
             "key": "oscar",
@@ -145,110 +141,44 @@ STAT_COLUMNS = {
             "type": "number",
             "tooltip": "Total Simple Caps Above Replacement (OSCAR + DSCAR)",
         },
+        {
+            "key": "teff",
+            "label": "TEff",
+            "type": "number",
+            "tooltip": "Total Efficiency - TSCAR per 10 blowout-adjusted minutes",
+        },
+    ],
+    "counting": [
+        {"key": "time_played_min", "label": "Min", "type": "number"},
+        {"key": "tags", "label": "Tags", "type": "number"},
+        {"key": "pops", "label": "Pops", "type": "number"},
+        {"key": "grabs", "label": "Grabs", "type": "number"},
+        {"key": "drops", "label": "Drops", "type": "number"},
+        {"key": "returns", "label": "Returns", "type": "number"},
+        {"key": "captures", "label": "Caps", "type": "number"},
+        {"key": "hold_sec", "label": "Hold", "type": "number"},
+        {"key": "prevent_sec", "label": "Prevent", "type": "number"},
+        {"key": "powerups", "label": "Pups", "type": "number"},
     ],
     "offense": [
         {"key": "time_played_min", "label": "Min", "type": "number"},
         {
-            "key": "grabs_off_handoffs",
-            "label": "GOH",
+            "key": "grabs_per_10",
+            "label": "Grabs/10",
             "type": "number",
-            "tooltip": "Grabs Off Handoffs - grabs within <2 seconds of teammate drop from hold of <3 seconds",
+            "tooltip": "Grabs per 10 minutes",
         },
         {
-            "key": "caps_off_handoffs",
-            "label": "COH",
+            "key": "caps_per_10",
+            "label": "Caps/10",
             "type": "number",
-            "tooltip": "Caps Off Handoffs - caps after grabbing within <2 seconds of teammate drop from hold of <3 seconds",
+            "tooltip": "Captures per 10 minutes",
         },
         {
-            "key": "grabs_off_regrab",
-            "label": "GOR",
+            "key": "hold_per_10",
+            "label": "Hold/10",
             "type": "number",
-            "tooltip": "Grabs Off Regrab - grabs within <2 seconds of teammate drop",
-        },
-        {
-            "key": "caps_off_regrab",
-            "label": "COR",
-            "type": "number",
-            "tooltip": "Caps Off Regrab - caps after grabbing within <2 seconds of teammate drop",
-        },
-        {
-            "key": "long_holds",
-            "label": "LH",
-            "type": "number",
-            "tooltip": "Long Holds - holds of >10 seconds",
-        },
-        {
-            "key": "flaccids",
-            "label": "Flcd",
-            "type": "number",
-            "tooltip": "Flaccids - drop after <2 seconds of hold",
-        },
-        {
-            "key": "handoffs",
-            "label": "HO",
-            "type": "number",
-            "tooltip": "Handoffs - hold for <3 seconds and teammate grabs within <2 seconds of the drop",
-        },
-        {
-            "key": "good_handoffs",
-            "label": "GH",
-            "type": "number",
-            "tooltip": "Good Handoffs - handoff resulting in teammate hold of >5 seconds",
-        },
-    ],
-    "defense": [
-        {"key": "time_played_min", "label": "Min", "type": "number"},
-        {
-            "key": "quick_returns",
-            "label": "QR",
-            "type": "number",
-            "tooltip": "Quick Returns - return within <2 seconds of opponent hold",
-        },
-        {
-            "key": "returns_in_base",
-            "label": "RIB",
-            "type": "number",
-            "tooltip": "Returns In Base - return within 10 tiles of the team's flag",
-        },
-        {
-            "key": "saves",
-            "label": "Saves",
-            "type": "number",
-            "tooltip": "Saves - return within 10 tiles of the enemy flag",
-        },
-        {
-            "key": "key_returns",
-            "label": "KR",
-            "type": "number",
-            "tooltip": "Key Returns - return within <2 seconds before team caps",
-        },
-        {
-            "key": "hold_against_sec",
-            "label": "HA",
-            "type": "number",
-            "tooltip": "Hold Against - hold accumulated by opponents while playing (in seconds)",
-        },
-    ],
-    "offense_rates": [
-        {"key": "time_played_min", "label": "Min", "type": "number"},
-        {
-            "key": "gpm",
-            "label": "GPM",
-            "type": "number",
-            "tooltip": "Grabs Per Minute - grabs / minutes played",
-        },
-        {
-            "key": "cpm",
-            "label": "CPM",
-            "type": "number",
-            "tooltip": "Caps Per Minute - captures / minutes played",
-        },
-        {
-            "key": "hpm",
-            "label": "HPM",
-            "type": "number",
-            "tooltip": "Hold Per Minute - hold / minutes played",
+            "tooltip": "Hold seconds per 10 minutes",
         },
         {
             "key": "hold_per_grab",
@@ -263,89 +193,77 @@ STAT_COLUMNS = {
             "tooltip": "Score Percentage - captures / grabs",
         },
         {
-            "key": "chain_percent",
+            "key": "out_pct_off",
+            "label": "Out%",
+            "type": "number",
+            "tooltip": "Out Percentage - outs / grabs (hold ≥8s, or ≥5s closer to own flag)",
+        },
+        {
+            "key": "prod_pct",
+            "label": "Prod%",
+            "type": "number",
+            "tooltip": "Productive Grab Percentage - productive grabs / grabs",
+        },
+        {
+            "key": "chain_pct",
             "label": "Chain%",
             "type": "number",
-            "tooltip": "Chain Percentage - good handoffs / handoffs",
+            "tooltip": "Chain Percentage - chained holds / grabs",
         },
         {
-            "key": "spark_percent",
-            "label": "Spark%",
+            "key": "free_pct",
+            "label": "Free%",
             "type": "number",
-            "tooltip": "Spark Percentage - (captures - caps off regrab) / captures",
-        },
-        {
-            "key": "flaccid_percent",
-            "label": "Flaccid%",
-            "type": "number",
-            "tooltip": "Flaccid Percentage - flaccids / grabs",
+            "tooltip": "Free Grab Percentage - grabs while no opponent is preventing / grabs",
         },
     ],
-    "defense_rates": [
+    "defense": [
         {"key": "time_played_min", "label": "Min", "type": "number"},
         {
-            "key": "tpm",
-            "label": "TPM",
+            "key": "ret_per_10",
+            "label": "Ret/10",
             "type": "number",
-            "tooltip": "Tags Per Minute - tags / minutes played",
+            "tooltip": "Returns per 10 minutes",
         },
         {
-            "key": "rpm",
-            "label": "RPM",
+            "key": "prev_per_10",
+            "label": "Prev/10",
             "type": "number",
-            "tooltip": "Returns Per Minute - returns / minutes played",
+            "tooltip": "Prevent seconds per 10 minutes",
         },
         {
-            "key": "ppm",
-            "label": "PPM",
+            "key": "ha_per_10",
+            "label": "HA/10",
             "type": "number",
-            "tooltip": "Prevent Per Minute - prevent / minutes played",
+            "tooltip": "Hold Against seconds per 10 minutes",
         },
         {
-            "key": "ham",
-            "label": "HAM",
+            "key": "out_pct_def",
+            "label": "Out%",
             "type": "number",
-            "tooltip": "Hold Against Per Minute - hold against / minutes played",
+            "tooltip": "Opponent Out Percentage - outs against / grabs against (while you were preventing)",
         },
         {
-            "key": "prevent_per_return",
-            "label": "P/R",
+            "key": "p_oa",
+            "label": "P/OA",
             "type": "number",
-            "tooltip": "Prevent per Return - prevent / returns",
+            "tooltip": "Prevent per Out Against - prevent seconds / outs against",
         },
         {
-            "key": "prevent_per_hold_against",
-            "label": "P/HA",
+            "key": "key_returns",
+            "label": "KeyRet",
             "type": "number",
-            "tooltip": "Prevent per Hold Against - prevent / hold against",
+            "tooltip": "Key Returns - return within 2 seconds before team caps",
         },
         {
-            "key": "rib_percent",
-            "label": "RIB%",
+            "key": "saves",
+            "label": "Saves",
             "type": "number",
-            "tooltip": "Return In Base Percentage - returns in base / returns",
-        },
-        {
-            "key": "qr_percent",
-            "label": "QR%",
-            "type": "number",
-            "tooltip": "Quick Return Percentage - quick returns / returns",
+            "tooltip": "Saves - return within 6 tiles of the enemy flag with no teammate holding",
         },
     ],
-    "miscellaneous": [
+    "misc": [
         {"key": "time_played_min", "label": "Min", "type": "number"},
-        {
-            "key": "plus_minus",
-            "label": "PM",
-            "type": "number",
-            "tooltip": "Plus/Minus - caps for - caps against",
-        },
-        {
-            "key": "kept_flags",
-            "label": "KF",
-            "type": "number",
-            "tooltip": "Kept Flags - times holding flag as the game ends",
-        },
         {
             "key": "kd_ratio",
             "label": "K/D",
@@ -353,22 +271,94 @@ STAT_COLUMNS = {
             "tooltip": "Kill/Death Ratio - tags / pops",
         },
         {
-            "key": "non_return_tags",
-            "label": "NRTags",
-            "type": "number",
-            "tooltip": "Non-Return Tags - tags - returns",
-        },
-        {
-            "key": "non_drop_pops",
-            "label": "NDPops",
-            "type": "number",
-            "tooltip": "Non-Drop Pops - pops - drops",
-        },
-        {
             "key": "pup_percent",
             "label": "Pup%",
             "type": "number",
             "tooltip": "Powerup Percentage - powerups / total pups in game",
+        },
+        {"key": "tp", "label": "TP", "type": "number", "tooltip": "TagPro powerups collected"},
+        {"key": "rb", "label": "RB", "type": "number", "tooltip": "Rolling Bomb powerups collected"},
+        {"key": "jj", "label": "JJ", "type": "number", "tooltip": "Juke Juice powerups collected"},
+        {
+            "key": "non_return_tags",
+            "label": "NRTag",
+            "type": "number",
+            "tooltip": "Non-Return Tags - tags that are not returns",
+        },
+        {
+            "key": "non_drop_pops",
+            "label": "NDPop",
+            "type": "number",
+            "tooltip": "Non-Drop Pops - pops while not carrying the flag",
+        },
+        {
+            "key": "ntpops",
+            "label": "NTPop",
+            "type": "number",
+            "tooltip": "Non-Tag Pops - pops with no accompanying opponent tag in the same tick",
+        },
+        {
+            "key": "ot_caps",
+            "label": "OTCaps",
+            "type": "number",
+            "tooltip": "Overtime Caps - caps scored during overtime",
+        },
+        {
+            "key": "kept_flags",
+            "label": "Kept",
+            "type": "number",
+            "tooltip": "Kept Flags - holding the flag when the game ends",
+        },
+    ],
+    "impact": [
+        {"key": "time_played_min", "label": "Min", "type": "number"},
+        {
+            "key": "plus_minus",
+            "label": "+/-",
+            "type": "number",
+            "tooltip": "Plus/Minus - caps for minus caps against",
+        },
+        {
+            "key": "ba_pm",
+            "label": "BAPM",
+            "type": "number",
+            "tooltip": "Blowout-Adjusted Plus/Minus",
+        },
+        {
+            "key": "oscar",
+            "label": "OSCAR",
+            "type": "number",
+            "tooltip": "Offensive Simple Caps Above Replacement",
+        },
+        {
+            "key": "dscar",
+            "label": "DSCAR",
+            "type": "number",
+            "tooltip": "Defensive Simple Caps Above Replacement",
+        },
+        {
+            "key": "tscar",
+            "label": "TSCAR",
+            "type": "number",
+            "tooltip": "Total Simple Caps Above Replacement",
+        },
+        {
+            "key": "oeff",
+            "label": "OEff",
+            "type": "number",
+            "tooltip": "Offensive Efficiency - OSCAR per 10 blowout-adjusted minutes",
+        },
+        {
+            "key": "deff",
+            "label": "DEff",
+            "type": "number",
+            "tooltip": "Defensive Efficiency - DSCAR per 10 blowout-adjusted minutes",
+        },
+        {
+            "key": "teff",
+            "label": "TEff",
+            "type": "number",
+            "tooltip": "Total Efficiency - TSCAR per 10 blowout-adjusted minutes",
         },
     ],
 }
@@ -819,6 +809,8 @@ def season_stats(req, season_id):
     default_week = "all_season" if is_playoff_only else "all_regular_season"
     week_filter = req.GET.get("week", default_week)
     stat_view = req.GET.get("view", "basic")
+    if stat_view not in STAT_COLUMNS:
+        stat_view = "basic"
 
     # Get all weeks for this season to build dropdown
     all_weeks = (
@@ -860,8 +852,10 @@ def season_stats(req, season_id):
 
         for column in STAT_COLUMNS[stat_view]:
             value = player_stat.get(column["key"], 0)
-            # Format SCAR values with 1 decimal place
-            if column["key"] in ["oscar", "dscar", "tscar"]:
+            # Format float values
+            if column["key"] in ["oeff", "deff", "teff"]:
+                value = f"{value:.2f}" if value is not None else "0.00"
+            elif column["key"] in ["oscar", "dscar", "tscar", "ba_pm"]:
                 value = f"{value:.1f}" if value is not None else "0.0"
             stat_row["column_values"].append(value)
 
@@ -1119,7 +1113,7 @@ def legacy_leaders(req):
     if season_obj:
         qs = qs.filter(season=season_obj)
 
-    leaders = list(qs.order_by("-legacy_points"))
+    leaders = list(qs.order_by("-legacy_points")[:100])
     ps_id_set = {ps.id for ps in leaders}
 
     seasons_to_query = [season_obj] if season_obj else list({ps.season for ps in leaders})

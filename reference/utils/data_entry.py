@@ -1,3 +1,5 @@
+from collections import Counter
+
 from django.db import models, transaction
 import json
 import re
@@ -46,15 +48,17 @@ def extract_game_data(eu_url: str) -> Dict:
     game_id = extract_game_id_from_url(eu_url)
     m: tagpro_eu.Match = load_eu_match_object(game_id)
 
-    # Get the set of players who joined each team
-    r_players = set()
-    b_players = set()
+    # Get the last team each player joined (handles players who accidentally switched teams)
+    last_team_for_player = {}
     for e in m.create_timeline():
         if e[1][:4] == "Join":
             if m.team_red.name in e[1][10:]:
-                r_players.add(e[2].name)
+                last_team_for_player[e[2].name] = m.team_red.name
             elif m.team_blue.name in e[1][10:]:
-                b_players.add(e[2].name)
+                last_team_for_player[e[2].name] = m.team_blue.name
+
+    r_players = {name for name, team in last_team_for_player.items() if team == m.team_red.name}
+    b_players = {name for name, team in last_team_for_player.items() if team == m.team_blue.name}
 
     # Return all relevant game data
     return {
@@ -259,6 +263,69 @@ def get_game_number(m: Optional[Match]) -> str:
     return f"Game {num_other_games + 1}"
 
 
+HALF1_PATTERN = re.compile(r"^Game (\d+) Half 1$")
+HALF2_PATTERN = re.compile(r"^Game (\d+) Half 2$")
+OT_PATTERN = re.compile(r"^Game (\d+) OT (\d+)$")
+
+
+def _game_series_is_tied(existing_games: list, game_num: int) -> bool:
+    """Return True if the combined score across all parts of game_num is tied."""
+    t1_total = 0
+    t2_total = 0
+    for g in existing_games:
+        if re.match(rf"^Game {game_num} ", g.game_in_match or ""):
+            t1_total += g.team1_score or 0
+            t2_total += g.team2_score or 0
+    return t1_total == t2_total
+
+
+def infer_game_in_match_halves(existing_games: list) -> str:
+    """
+    Infer the game_in_match label for the next game in a halves-format season.
+
+    Labels follow the pattern "Game X Half 1", "Game X Half 2", "Game X OT 1",
+    "Game X OT 2", etc.
+
+    After Half 2: if the combined H1+H2 score is tied, the next game is OT 1;
+    otherwise it is the next game's Half 1.
+
+    OT uses paired logic by default (the most common format): after any odd-numbered
+    OT, the next game is always the next OT to complete the pair. After an
+    even-numbered OT, the combined score is checked; if still tied another OT pair
+    begins, otherwise the next game's Half 1 starts.
+    """
+    if not existing_games:
+        return "Game 1 Half 1"
+
+    last_label = existing_games[-1].game_in_match or ""
+
+    match = HALF1_PATTERN.match(last_label)
+    if match:
+        return f"Game {match.group(1)} Half 2"
+
+    match = HALF2_PATTERN.match(last_label)
+    if match:
+        game_num = int(match.group(1))
+        if _game_series_is_tied(existing_games, game_num):
+            return f"Game {game_num} OT 1"
+        return f"Game {game_num + 1} Half 1"
+
+    match = OT_PATTERN.match(last_label)
+    if match:
+        game_num = int(match.group(1))
+        ot_num = int(match.group(2))
+        # Odd OT: always play another to complete the pair
+        if ot_num % 2 == 1:
+            return f"Game {game_num} OT {ot_num + 1}"
+        # Even OT: check if still tied
+        if _game_series_is_tied(existing_games, game_num):
+            return f"Game {game_num} OT {ot_num + 1}"
+        return f"Game {game_num + 1} Half 1"
+
+    # Fallback
+    return "Game 1 Half 1"
+
+
 def infer_team_from_players(
     season_group: List[Season], players: List[str]
 ) -> Optional[TeamSeason]:
@@ -276,7 +343,6 @@ def infer_team_from_players(
         return None
 
     # Count team occurrences
-    from collections import Counter
     team_counts = Counter(identified_teams)
     most_common_team, count = team_counts.most_common(1)[0]
 
@@ -285,6 +351,18 @@ def infer_team_from_players(
         return most_common_team
 
     return None
+
+
+def _infer_game_in_match(
+    existing_match: Optional[Match], season: Optional[Season]
+) -> str:
+    """Return the game_in_match label for a new game being imported."""
+    if season is not None and season.uses_halves:
+        existing_games = (
+            list(existing_match.games.order_by("id")) if existing_match else []
+        )
+        return infer_game_in_match_halves(existing_games)
+    return get_game_number(existing_match)
 
 
 def prepopulate_form(season_filter_string: str, eu_url: str):
@@ -326,6 +404,9 @@ def prepopulate_form(season_filter_string: str, eu_url: str):
             }
         )
 
+    season = (red_team or blue_team).season if (red_team or blue_team) else None
+    game_in_match = _infer_game_in_match(existing_match, season)
+
     return {
         "red_team": red_team,
         "blue_team": blue_team,
@@ -335,9 +416,7 @@ def prepopulate_form(season_filter_string: str, eu_url: str):
             if existing_match
             else infer_week(red_team, blue_team, m["date"])
         ),
-        "game_in_match": get_game_number(
-            get_existing_match(red_team, blue_team, m["date"])
-        ),
+        "game_in_match": game_in_match,
         "eu_url": eu_url,
         "red_team_raw_name": m["team_red"]["name"],
         "blue_team_raw_name": m["team_blue"]["name"],

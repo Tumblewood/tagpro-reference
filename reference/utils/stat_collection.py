@@ -50,6 +50,17 @@ STAT_FIELDS = [
     "key_returns",
     "hold_against",
     "kept_flags",
+    "near_caps",
+    "outs",
+    "productive_grabs",
+    "chained_holds",
+    "grabs_against",
+    "outs_against",
+    "tp",
+    "rb",
+    "jj",
+    "ntpops",
+    "ot_caps",
 ]
 HELPER_FIELDS = [
     "team",
@@ -60,15 +71,24 @@ HELPER_FIELDS = [
     "last_hold_end",
     "handed_off_by",
     "grabbed_off_regrab",
+    "last_powerup_type",
+    "last_hold_was_short",
+    "last_prevent_end_time",
+    "chained_hold_by",
+    "grabs_against_credits",
 ]
 stat_defaults = {f: 0 for f in STAT_FIELDS}
 for f in HELPER_FIELDS:
     stat_defaults[f] = None
+stat_defaults["last_hold_was_short"] = False
+stat_defaults["grabs_against_credits"] = None
 
 
 # Load bulk maps for parsing match data
 with open("tpl_import/league_maps.json", encoding="utf-8") as f:
     bulk_maps = tagpro_eu.bulk.load_maps(f)
+with open("data/bulkmaps.json", encoding="utf-8") as f:
+    bulk_maps.update(tagpro_eu.bulk.load_maps(f))
 
 
 # SQLite connection for matches database
@@ -157,6 +177,28 @@ def save_match_to_bulk_file(m: tagpro_eu.Match):
         pass
 
 
+def _dist(ax, ay, bx, by):
+    return ((ax - bx) ** 2 + (ay - by) ** 2) ** 0.5
+
+
+def _flag_pos(tiles, tile_type):
+    for y, row in enumerate(tiles):
+        for x, tile in enumerate(row):
+            if tile == tile_type:
+                return (x + 19.5 / 40, y + 19.5 / 40)
+    return None
+
+
+def _is_half_or_ot_period(game_in_match: str) -> bool:
+    """Returns True if this game is a half or OT period, not a self-contained game."""
+    return "Half" in game_in_match or "OT" in game_in_match or "Overtime" in game_in_match
+
+
+def _is_ot_period(game_in_match: str) -> bool:
+    """Returns True if this game is an overtime period."""
+    return "OT" in game_in_match or "Overtime" in game_in_match
+
+
 def parse_stats_from_eu_match(
     m: tagpro_eu.Match, stats_count_until: int = 10 * 60
 ) -> Tuple[
@@ -168,24 +210,26 @@ def parse_stats_from_eu_match(
 ]:
     """
     Takes a tagpro_eu.Match and extracts all counting stats into a dict, and all player teams into another dict.
-    Dict keys for both tuple members are player usernames from the game, and values are a dict with their counting stats
-    and a dict for the team they played on last in the game.
     Returns: (ps, ps_before_ot, team_mapping, score_before_ot, total_score)
     score_before_ot: score at end of regulation (red_score, blue_score)
     total_score: total caps scored during this entire period (red_caps, blue_caps)
     """
-    # Locate red and blue flags
-    red_flag = None
-    blue_flag = None
-    for y, row in enumerate(m.map.tiles):
-        for x, tile in enumerate(row):
-            if tile == tagpro_eu.Tile.flag_red:
-                red_flag = (
-                    x + 19.5 / 40,
-                    y + 19.5 / 40,
-                )  # Tiles are 40 pixels wide, so this is the center of the tile
-            if tile == tagpro_eu.Tile.flag_blue:
-                blue_flag = (x + 19.5 / 40, y + 19.5 / 40)
+    red_flag = _flag_pos(m.map.tiles, tagpro_eu.Tile.flag_red)
+    blue_flag = _flag_pos(m.map.tiles, tagpro_eu.Tile.flag_blue)
+
+    # Pre-build splat lookup: (time_ticks, player_name) -> splat
+    splats_by_time_player = {
+        (s.time.real, s.player.name): s for s in m.splats
+    }
+
+    # Pre-build set of who made a tag/return at each tick for ntpops detection
+    tag_events_by_time = {}
+    for t, event, pl in m.create_timeline():
+        if event[:3] == "Tag" or event[:6] == "Return":
+            t_real = t.real
+            if t_real not in tag_events_by_time:
+                tag_events_by_time[t_real] = set()
+            tag_events_by_time[t_real].add(pl.name)
 
     last_team_played_for = {p.name: None for p in m.players}
     ps: Dict[str, Dict[str, int]] = {p.name: {**stat_defaults} for p in m.players}
@@ -193,6 +237,10 @@ def parse_stats_from_eu_match(
     snapshotted = False
     score_before_ot = (0, 0)
     total_score = (0, 0)
+
+    # Regrab tracking: last_team_drop_info[team] = {drop_time, prevent_occurred}
+    last_team_drop_info = {}
+
     for time, event, player in sorted(m.create_timeline()):
         p = ps[player.name]
         time = time.real
@@ -224,8 +272,8 @@ def parse_stats_from_eu_match(
             p["team"] = event[10:]
             p["join_time"] = time
             last_team_played_for[player.name] = event[10:]
+
         elif event[:9] == "Game ends":
-            # Only add time if we haven't already processed a Leave event for this player
             if p["join_time"] is not None and p["team"] is not None:
                 p["time_played"] += time - p["join_time"]
 
@@ -234,9 +282,7 @@ def parse_stats_from_eu_match(
 
             if p["grab_time"] is not None and p["last_hold_end"] is None:
                 p["kept_flags"] += 1
-                ps_before_ot[player.name][
-                    "kept_flags"
-                ] += 1  # kept flags count even in OT
+                ps_before_ot[player.name]["kept_flags"] += 1
                 hold_length = time - p["grab_time"]
                 p["hold"] += hold_length
                 if hold_length > 10 * 60:
@@ -246,6 +292,7 @@ def parse_stats_from_eu_match(
                 for p2 in ps.values():
                     if p2["team"] is not None and p2["team"] != p["team"]:
                         p2["hold_against"] += hold_length
+
         elif event[:5] == "Leave":
             if p["join_time"] is not None and time < m.duration.real:
                 p["time_played"] += time - p["join_time"]
@@ -270,11 +317,11 @@ def parse_stats_from_eu_match(
             p["prevent_start_time"] = None
             p["handed_off_by"] = None
             p["grabbed_off_regrab"] = None
+            p["chained_hold_by"] = None
+
         elif event[:7] == "Capture":
             p["captures"] += 1
 
-            # If the match was paused and resumed, stats_count_until should be <600
-            # and we should only count until the pause. Otherwise, count every cap.
             if time <= stats_count_until * 60 or stats_count_until >= 600:
                 if p["team"] == m.team_red.name:
                     total_score = (total_score[0] + 1, total_score[1])
@@ -287,9 +334,15 @@ def parse_stats_from_eu_match(
                 else:
                     score_before_ot = (score_before_ot[0], score_before_ot[1] + 1)
 
+            # OT cap (in OT, but counted in regulation stats)
+            if snapshotted:
+                p["ot_caps"] += 1
+                ps_before_ot[player.name]["ot_caps"] += 1
+
             if p["handed_off_by"] is not None:
                 ps[p["handed_off_by"]]["good_handoffs"] += 1
                 p["caps_off_handoffs"] += 1
+
             if p["grabbed_off_regrab"]:
                 p["caps_off_regrab"] += 1
 
@@ -301,11 +354,24 @@ def parse_stats_from_eu_match(
 
             for p2 in ps.values():
                 if p2["team"] is not None and p2["team"] != p["team"]:
-                    p2["hold_against"] += time - p["grab_time"]
+                    p2["hold_against"] += hold_length
+
+            # Cap counts as an out and a productive grab
+            p["outs"] += 1
+            p["productive_grabs"] += 1
+            p["last_hold_was_short"] = False
+
+            # Chained: credit previous holder if their hold was short
+            if p["chained_hold_by"] is not None:
+                ps[p["chained_hold_by"]]["chained_holds"] += 1
+                if ps[p["chained_hold_by"]]["last_hold_was_short"]:
+                    ps[p["chained_hold_by"]]["productive_grabs"] += 1
 
             p["last_hold_end"] = time
             p["handed_off_by"] = None
             p["grabbed_off_regrab"] = None
+            p["chained_hold_by"] = None
+            p["grabs_against_credits"] = None
 
             for p2 in ps.values():
                 if p2["team"] is not None:
@@ -318,37 +384,88 @@ def parse_stats_from_eu_match(
                             p2["key_returns"] += 1
                     else:
                         p2["caps_against"] += 1
+
         elif event == "Grab Opponent flag":
             p["grabs"] += 1
             p["grab_time"] = time
             p["last_hold_end"] = None
+            p["chained_hold_by"] = None
+            p["grabs_against_credits"] = []
 
-            # Check whether the grab was from regrab or a handoff
+            # Free grab: <3s since last teammate drop AND no opponent was preventing
+            # at all during that window (including at the moment of the drop)
+            drop_info = last_team_drop_info.get(p["team"])
+            is_free_grab = (
+                drop_info is not None
+                and time - drop_info["drop_time"] < 3 * 60
+                and not drop_info["prevent_occurred"]
+            )
+            if is_free_grab:
+                p["grabs_off_regrab"] += 1
+                p["grabbed_off_regrab"] = True
+            else:
+                p["grabbed_off_regrab"] = False
+
+            # grabs_against: opponent was preventing within the last second
+            # also record credits for outs_against on this same grab
+            for p2_name, p2 in ps.items():
+                if p2["team"] is not None and p2["team"] != p["team"]:
+                    was_preventing = p2["prevent_start_time"] is not None or (
+                        p2["last_prevent_end_time"] is not None
+                        and time - p2["last_prevent_end_time"] <= 60
+                    )
+                    if was_preventing:
+                        ps[p2_name]["grabs_against"] += 1
+                        p["grabs_against_credits"].append(p2_name)
+
+            # Handoff / chained hold detection
             for p2_name, p2 in ps.items():
                 if p2["team"] == p["team"] and p2["last_hold_end"] is not None:
                     time_since_drop = time - p2["last_hold_end"]
-                    last_hold_length = p2["last_hold_end"] - p2["grab_time"]
-                    if time_since_drop < 2 * 60 and last_hold_length < 3 * 60:
-                        p2["handoffs"] += 1
-                        p["grabs_off_handoffs"] += 1
-                        p["handed_off_by"] = p2_name
-                    elif time_since_drop < 2 * 60:
-                        p["grabs_off_regrab"] += 1
-                        p["grabbed_off_regrab"] = True
+                    if time_since_drop < 2 * 60:
+                        p["chained_hold_by"] = p2_name
+                        last_hold_length = p2["last_hold_end"] - p2["grab_time"]
+                        if last_hold_length < 3 * 60:
+                            p2["handoffs"] += 1
+                            p["grabs_off_handoffs"] += 1
+                            p["handed_off_by"] = p2_name
+                        break
+
         elif event == "Drop Temporary flag":
-            # This happens when a player grabs and gets popped in the same tick (usually by a TagPro)
+            # Grab and pop in the same tick (usually by a TagPro)
             p["grabs"] += 1
             p["drops"] += 1
             p["pops"] += 1
-            p["flaccids"] += 1  # only log flaccids for drops, not caps or end of game
+            p["flaccids"] += 1
 
             p["grab_time"] = time
             p["last_hold_end"] = time
             p["grabbed_off_regrab"] = None
             p["handed_off_by"] = None
+            p["chained_hold_by"] = None
+
+            # ntpop: no opponent tag at this tick
+            taggers = tag_events_by_time.get(time, set())
+            if not any(
+                ps.get(t, {}).get("team") not in (None, p["team"]) for t in taggers
+            ):
+                p["ntpops"] += 1
+
         elif event == "Drop Opponent flag":
             p["drops"] += 1
             p["pops"] += 1
+
+            # Track for regrab detection: did any opponent start preventing already?
+            opponent_preventing_at_drop = any(
+                ps[p2_name]["prevent_start_time"] is not None
+                for p2_name in ps
+                if ps[p2_name]["team"] is not None
+                and ps[p2_name]["team"] != p["team"]
+            )
+            last_team_drop_info[p["team"]] = {
+                "drop_time": time,
+                "prevent_occurred": opponent_preventing_at_drop,
+            }
 
             hold_length = time - p["grab_time"]
             p["hold"] += hold_length
@@ -360,21 +477,81 @@ def parse_stats_from_eu_match(
                 ps[p["handed_off_by"]]["good_handoffs"] += 1
 
             if hold_length < 2 * 60:
-                p[
-                    "flaccids"
-                ] += 1  # only log flaccids for drops, not caps or end of game
+                p["flaccids"] += 1
 
             for p2 in ps.values():
                 if p2["team"] is not None and p2["team"] != p["team"]:
                     p2["hold_against"] += hold_length
 
+            # Productive: any hold >2s
+            if hold_length > 2 * 60:
+                p["productive_grabs"] += 1
+                p["last_hold_was_short"] = False
+            else:
+                p["last_hold_was_short"] = True
+
+            # Out detection
+            is_out = False
+            if hold_length >= 6 * 60:
+                is_out = True
+            elif hold_length >= 4 * 60:
+                splat = splats_by_time_player.get((time, player.name))
+                if splat is not None and red_flag is not None and blue_flag is not None:
+                    carrier_own_flag = (
+                        red_flag if p["team"] == m.team_red.name else blue_flag
+                    )
+                    carrier_enemy_flag = (
+                        blue_flag if p["team"] == m.team_red.name else red_flag
+                    )
+                    sx, sy = splat.x / 40, splat.y / 40
+                    if _dist(sx, sy, *carrier_own_flag) < _dist(sx, sy, *carrier_enemy_flag):
+                        is_out = True
+
+            if is_out:
+                p["outs"] += 1
+                # outs_against: same defenders who had grabs_against on this grab
+                for defender_name in (p["grabs_against_credits"] or []):
+                    ps[defender_name]["outs_against"] += 1
+                # Chained: credit previous holder
+                if p["chained_hold_by"] is not None:
+                    ps[p["chained_hold_by"]]["chained_holds"] += 1
+                    if ps[p["chained_hold_by"]]["last_hold_was_short"]:
+                        ps[p["chained_hold_by"]]["productive_grabs"] += 1
+
+            # Near cap: dropped within 8 tiles of own flag (close to scoring)
+            splat = splats_by_time_player.get((time, player.name))
+            if splat is not None and red_flag is not None and blue_flag is not None:
+                carrier_own_flag = (
+                    red_flag if p["team"] == m.team_red.name else blue_flag
+                )
+                if _dist(splat.x / 40, splat.y / 40, *carrier_own_flag) < 8:
+                    p["near_caps"] += 1
+
+            # ntpop: check if any opponent tagged at this tick
+            taggers = tag_events_by_time.get(time, set())
+            if not any(
+                ps.get(t, {}).get("team") not in (None, p["team"]) for t in taggers
+            ):
+                p["ntpops"] += 1
+
             p["last_hold_end"] = time
             p["grabbed_off_regrab"] = None
             p["handed_off_by"] = None
+            p["chained_hold_by"] = None
+            p["grabs_against_credits"] = None
+
         elif event[:3] == "Pop":
             p["pops"] += 1
+            # ntpop: non-carrier pop with no opponent tag at this tick
+            taggers = tag_events_by_time.get(time, set())
+            if not any(
+                ps.get(t, {}).get("team") not in (None, p["team"]) for t in taggers
+            ):
+                p["ntpops"] += 1
+
         elif event[:3] == "Tag":
             p["tags"] += 1
+
         elif event[:6] == "Return":
             p["returns"] += 1
             p["tags"] += 1
@@ -385,32 +562,18 @@ def parse_stats_from_eu_match(
                     hold_length = p2["last_hold_end"] - p2["grab_time"]
                     if hold_length < 2 * 60:
                         p["quick_returns"] += 1
-                    try:
-                        splat = [
-                            s
-                            for s in m.splats
-                            if s.time.real == time and s.player.name == p2_name
-                        ][0]
-                    except IndexError:
-                        continue  # NO idea why but this happens once in a blue moon (e.g., match 3676097)
+                    splat = splats_by_time_player.get((time, p2_name))
+                    if splat is None:
+                        continue
                     is_red_team = p["team"] == m.team_red.name
-                    if is_red_team:
-                        own_flag = red_flag
-                        enemy_flag = blue_flag
-                    else:
-                        own_flag = blue_flag
-                        enemy_flag = red_flag
-                    distance_from_own_flag = (
-                        (splat.x / 40 - own_flag[0]) ** 2
-                        + (splat.y / 40 - own_flag[1]) ** 2
-                    ) ** 0.5
-                    distance_from_enemy_flag = (
-                        (splat.x / 40 - enemy_flag[0]) ** 2
-                        + (splat.y / 40 - enemy_flag[1]) ** 2
-                    ) ** 0.5
-                    if distance_from_own_flag < 10:
+                    own_flag = red_flag if is_red_team else blue_flag
+                    enemy_flag = blue_flag if is_red_team else red_flag
+                    if own_flag is None or enemy_flag is None:
+                        continue
+                    sx, sy = splat.x / 40, splat.y / 40
+                    if _dist(sx, sy, *own_flag) < 10:
                         p["returns_in_base"] += 1
-                    if distance_from_enemy_flag < 10:
+                    if _dist(sx, sy, *enemy_flag) < 6:
                         own_team_with_flag = [
                             p3
                             for p3 in ps.values()
@@ -419,19 +582,50 @@ def parse_stats_from_eu_match(
                         ]
                         if len(own_team_with_flag) == 0:
                             p["saves"] += 1
-        elif event[:8] == "Power up" or event == "Grab duplicate powerup":
-            p["powerups"] += 1
 
+        elif event[:8] == "Power up":
+            pup_type = event[9:].lower()
+            if "rolling bomb" in pup_type:
+                p["rb"] += 1
+                p["last_powerup_type"] = "rb"
+            elif "juke juice" in pup_type:
+                p["jj"] += 1
+                p["last_powerup_type"] = "jj"
+            elif "tagpro" in pup_type:
+                p["tp"] += 1
+                p["last_powerup_type"] = "tp"
+            p["powerups"] += 1
             for p2 in ps.values():
                 if p2["join_time"] is not None:
                     p2["total_pups_in_game"] += 1
+
+        elif event == "Grab duplicate powerup":
+            p["powerups"] += 1
+            if p["last_powerup_type"] == "rb":
+                p["rb"] += 1
+            elif p["last_powerup_type"] == "jj":
+                p["jj"] += 1
+            elif p["last_powerup_type"] == "tp":
+                p["tp"] += 1
+            for p2 in ps.values():
+                if p2["join_time"] is not None:
+                    p2["total_pups_in_game"] += 1
+
         elif event[:16] == "Start preventing":
             p["prevent_start_time"] = time
+            # Mark the opponent's team drop window as having a preventer
+            opponent_team = (
+                m.team_blue.name if p["team"] == m.team_red.name else m.team_red.name
+            )
+            if opponent_team in last_team_drop_info:
+                last_team_drop_info[opponent_team]["prevent_occurred"] = True
+
         elif event[:15] == "Stop preventing":
             if p["prevent_start_time"] is None:
-                continue  # happens when someone disconnects in same tick as prevent end
+                continue
             p["prevent"] += time - p["prevent_start_time"]
             p["prevent_start_time"] = None
+            p["last_prevent_end_time"] = time
 
     # If the game ended in regulation, before-OT stats will be same as full stats
     if not snapshotted:
@@ -450,7 +644,7 @@ def calculate_multi_half_match_outcome(match):
     # Group games by their base game number (G1, G2, etc.)
     game_groups = {}
     for game in games:
-        if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+        if _is_half_or_ot_period(game.game_in_match):
             # Extract base game number (e.g., "Game 1" from "Game 1 Half 1")
             base_game = (
                 game.game_in_match.split()[0] + " " + game.game_in_match.split()[1]
@@ -467,9 +661,9 @@ def calculate_multi_half_match_outcome(match):
         total_team1_score = sum(g.team1_score for g in game_list)
         total_team2_score = sum(g.team2_score for g in game_list)
 
-        # Check if any period had overtime or if there's an explicit Overtime game
+        # Check if any period had overtime or if there's an explicit OT game
         had_ot = any(g.had_ot for g in game_list) or any(
-            "Overtime" in g.game_in_match for g in game_list
+            _is_ot_period(g.game_in_match) for g in game_list
         )
 
         # Determine outcome for team1
@@ -516,7 +710,7 @@ def process_game_stats(game: Game):
 
     # For multi-half games, use period scores (total_score) instead of cumulative scores
     team1_is_red = game.red_team == game.match.team1
-    if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+    if _is_half_or_ot_period(game.game_in_match):
         # Use actual caps scored during this period
         game.team1_score = total_score[0] if team1_is_red else total_score[1]
         game.team2_score = total_score[1] if team1_is_red else total_score[0]
@@ -552,7 +746,7 @@ def process_game_stats(game: Game):
             team_mapping[p] = team_mapping2[p]
 
         # Update score and overtime tracking for resumed games
-        if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+        if _is_half_or_ot_period(game.game_in_match):
             # Multi-half: add total caps from both periods
             combined_total = (
                 total_score[0] + total_score2[0],
@@ -591,7 +785,7 @@ def process_game_stats(game: Game):
             game.had_ot = went_to_ot
 
     # For multi-half games, don't set outcome until after all halves are added
-    if "Half" in game.game_in_match or "Overtime" in game.game_in_match:
+    if _is_half_or_ot_period(game.game_in_match):
         game.outcome = None
         game.team1_standing_points = 0
         game.team2_standing_points = 0
@@ -894,7 +1088,7 @@ def set_multi_half_outcomes(match: Match):
         else:
             team1_total_score += g.team1_score
             team2_total_score += g.team2_score
-            if "Overtime" in g.game_in_match or g.had_ot:
+            if _is_ot_period(g.game_in_match) or g.had_ot:
                 has_ot = True
 
     save_half1()
@@ -1063,7 +1257,7 @@ def calculate_scar(season: Season):
     """
     Calculate OSCAR and DSCAR for all players in a season.
 
-    OSCAR = 0.6 * hold (in minutes) + 0.5 * caps + 0.05 * pups - 0.25 * caps off regrab - 0.05 * grabs off regrab
+    OSCAR = 0.6 * hold (in minutes) + 0.5 * caps + 0.05 * pups -0.2 * caps off regrab - 0.05 * grabs off regrab
     DSCAR = 0.01 * prevent (in minutes) + 0.06 * returns + 0.4 * saves + 0.35 * key returns + 0.05 * pups + 0.03 * tags - 0.02 * pops
 
     Process:
@@ -1105,9 +1299,10 @@ def calculate_scar(season: Season):
         oscar = (
             0.6 * hold_minutes
             + 0.5 * (stat.captures or 0)
-            - 0.25 * (stat.caps_off_regrab or 0)
+            - 0.2 * (stat.caps_off_regrab or 0)
             - 0.05 * (stat.grabs_off_regrab or 0)
             + 0.05 * (stat.powerups or 0)
+            + 0.025 * (stat.productive_grabs or 0)
         )
 
         # DSCAR formula (raw)
@@ -1117,7 +1312,9 @@ def calculate_scar(season: Season):
             + 0.2 * (stat.saves or 0)
             + 0.05 * (stat.key_returns or 0)
             + 0.05 * (stat.powerups or 0)
-            - 0.025 * (stat.pops or 0)
+            - 0.05 * (stat.pops or 0)
+            + 0.05 * prevent_minutes
+            - 0.02 * (stat.outs_against or 0)
         )
 
         # Apply blowout multiplier
@@ -1228,6 +1425,11 @@ def calculate_scar(season: Season):
 
             stat.oscar = oscar_regressed + baseline
             stat.dscar = dscar_regressed + baseline
+            stat.tscar = stat.oscar + stat.dscar
+            stat.ba_time_played = stat._time_played_minutes * stat._blowout_multiplier
+            stat.ba_pm = (
+                (stat.caps_for or 0) - (stat.caps_against or 0)
+            ) * stat._blowout_multiplier
 
             # Clean up temporary attributes
             del stat._oscar_ba

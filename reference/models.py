@@ -89,6 +89,10 @@ class Season(models.Model):
     name = models.CharField(max_length=255, help_text="e.g., NLTP S36")
     league = models.ForeignKey(League, on_delete=models.CASCADE, related_name="seasons")
     end_date = models.DateField(blank=True, null=True)
+    uses_halves = models.BooleanField(
+        default=False,
+        help_text="Whether this season uses the halves format (e.g., NALTP S26 and earlier)",
+    )
 
     def __str__(self):
         return self.name
@@ -385,6 +389,19 @@ class PlayerStats(models.Model):
     key_returns = models.IntegerField(blank=True, null=True)
     hold_against = models.IntegerField(blank=True, null=True)
     kept_flags = models.IntegerField(blank=True, null=True)
+    near_caps = models.IntegerField(blank=True, null=True)
+    quick_caps = models.IntegerField(blank=True, null=True)
+    outs = models.IntegerField(blank=True, null=True)
+    productive_grabs = models.IntegerField(blank=True, null=True)
+    chained_holds = models.IntegerField(blank=True, null=True)
+    grabs_against = models.IntegerField(blank=True, null=True)
+    outs_against = models.IntegerField(blank=True, null=True)
+    resets = models.IntegerField(blank=True, null=True)
+    tp = models.IntegerField(blank=True, null=True)
+    rb = models.IntegerField(blank=True, null=True)
+    jj = models.IntegerField(blank=True, null=True)
+    ntpops = models.IntegerField(blank=True, null=True)
+    ot_caps = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
         return f"Stats for {self.player_gamelog}"
@@ -433,11 +450,33 @@ class PlayerRegulationStats(models.Model):
     key_returns = models.IntegerField(blank=True, null=True)
     hold_against = models.IntegerField(blank=True, null=True)
     kept_flags = models.IntegerField(blank=True, null=True)
+    near_caps = models.IntegerField(blank=True, null=True)
+    quick_caps = models.IntegerField(blank=True, null=True)
+    outs = models.IntegerField(blank=True, null=True)
+    productive_grabs = models.IntegerField(blank=True, null=True)
+    chained_holds = models.IntegerField(blank=True, null=True)
+    grabs_against = models.IntegerField(blank=True, null=True)
+    outs_against = models.IntegerField(blank=True, null=True)
+    resets = models.IntegerField(blank=True, null=True)
+    tp = models.IntegerField(blank=True, null=True)
+    rb = models.IntegerField(blank=True, null=True)
+    jj = models.IntegerField(blank=True, null=True)
+    ntpops = models.IntegerField(blank=True, null=True)
+    ot_caps = models.IntegerField(blank=True, null=True)
     oscar = models.FloatField(
         blank=True, null=True, help_text="Offensive Simple Caps Above Replacement"
     )
     dscar = models.FloatField(
         blank=True, null=True, help_text="Defensive Simple Caps Above Replacement"
+    )
+    tscar = models.FloatField(
+        blank=True, null=True, help_text="Total Simple Caps Above Replacement (OSCAR + DSCAR)"
+    )
+    ba_time_played = models.FloatField(
+        blank=True, null=True, help_text="Blowout-adjusted time played (minutes)"
+    )
+    ba_pm = models.FloatField(
+        blank=True, null=True, help_text="Blowout-adjusted plus/minus"
     )
 
     def __str__(self):

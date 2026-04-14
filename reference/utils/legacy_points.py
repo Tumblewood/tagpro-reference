@@ -2,6 +2,7 @@ import math
 import re
 from collections import deque
 from datetime import date
+from functools import lru_cache
 
 from django.db.models import Q, Sum
 
@@ -292,11 +293,17 @@ def _tc_value(player_season, season):
     return (player_tc / avg_tc_rounded) * 20.0
 
 
+@lru_cache(maxsize=None)
+def _season_transaction_count(season_id):
+    return Transaction.objects.filter(team__season_id=season_id).count()
+
+
 def calculate_legacy_points(player_season):
     """
     Calculate legacy points for a PlayerSeason. Returns None if the season is
-    ineligible (future end date, zero league weight, no transactions, or
-    invalid playoff tree). Otherwise returns the calculated float value.
+    ineligible (future end date, zero league weight, fewer than 20 season
+    transactions, or invalid playoff tree). Otherwise returns the calculated
+    float value.
     """
     season = player_season.season
 
@@ -306,7 +313,7 @@ def calculate_legacy_points(player_season):
     if season.end_date is None or season.end_date > date.today():
         return None
 
-    if not player_season.transactions.exists():
+    if _season_transaction_count(season.id) < 20:
         return None
 
     all_series, depths = _get_playoff_series_and_depths(season)
