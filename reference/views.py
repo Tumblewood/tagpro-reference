@@ -9,7 +9,7 @@ from django.conf import settings as django_settings
 from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
-from django.db.models import F, OuterRef, Subquery, IntegerField, Exists, Sum, FloatField, Value
+from django.db.models import Count, F, OuterRef, Subquery, IntegerField, Exists, Sum, FloatField, Value
 from django.db.models.functions import Coalesce, Lower
 from accounts.decorators import (
     data_entry_required,
@@ -1146,6 +1146,171 @@ def legacy_leaders(req):
             "leaders": leaders,
             "seasons": seasons_with_points,
             "current_season": season_filter,
+        },
+    )
+
+
+def career_leaders(req):
+    """Career legacy point leaders using 3-norm aggregation."""
+    from collections import defaultdict
+
+    # All player-seasons with positive legacy points
+    all_ps = list(
+        PlayerSeason.objects.filter(legacy_points__isnull=False, legacy_points__gt=0)
+        .select_related("player", "season__league", "team")
+    )
+
+    # Group by player, accumulate cube sums and peaks
+    player_cube = defaultdict(float)
+    player_peak = defaultdict(float)
+    player_name = {}
+    for ps in all_ps:
+        pid = ps.player_id
+        player_name[pid] = ps.player.name
+        player_cube[pid] += ps.legacy_points ** 3
+        player_peak[pid] = max(player_peak[pid], ps.legacy_points)
+
+    # Build full sorted leaderboard
+    all_player_ids = list(player_cube.keys())
+    leaderboard = sorted(
+        [
+            {
+                "player_id": pid,
+                "name": player_name[pid],
+                "career_score": player_cube[pid] ** (1.0 / 3.0),
+                "cube_sum": player_cube[pid],
+                "peak": player_peak[pid],
+            }
+            for pid in all_player_ids
+        ],
+        key=lambda x: x["career_score"],
+        reverse=True,
+    )
+
+    top_100 = leaderboard[:100]
+    top_100_player_ids = [e["player_id"] for e in top_100]
+
+    # MLTP season counts for top-100 players
+    mltp_counts = {
+        row["player_id"]: row["ct"]
+        for row in PlayerSeason.objects.filter(
+            player_id__in=top_100_player_ids,
+            season__league__abbr="MLTP",
+        )
+        .values("player_id")
+        .annotate(ct=Count("id"))
+    }
+
+    # Awards for top-100 players
+    awards_qs = AwardReceived.objects.filter(
+        player_id__in=top_100_player_ids,
+        award__legacy_value__isnull=False,
+    ).select_related("award")
+
+    mvb_map = defaultdict(lambda: [0, 0, 0])  # [gold, silver, bronze]
+    allstar_map = defaultdict(int)
+    for ar in awards_qs:
+        pid = ar.player_id
+        if "all-star" in ar.award.name.lower():
+            allstar_map[pid] += 1
+        elif ar.award.abbr == "MVB":
+            if ar.placement == 1:
+                mvb_map[pid][0] += 1
+            elif ar.placement == 2:
+                mvb_map[pid][1] += 1
+            elif ar.placement == 3:
+                mvb_map[pid][2] += 1
+
+    # Super Ball W-L: find championship series per season from eligible leagues
+    champ_winner_team_ids = set()
+    champ_finalist_team_ids = set()
+    all_series = list(
+        PlayoffSeries.objects.filter(match__season__league__legacy_weight__gt=0)
+        .select_related("match", "winner")
+    )
+    season_series_map = defaultdict(list)
+    for s in all_series:
+        if s.match:
+            season_series_map[s.match.season_id].append(s)
+
+    for series_list in season_series_map.values():
+        series_ids = {s.id for s in series_list}
+        prev_ids = set()
+        for s in series_list:
+            if s.team1_prev_series_id:
+                prev_ids.add(s.team1_prev_series_id)
+            if s.team2_prev_series_id:
+                prev_ids.add(s.team2_prev_series_id)
+        root_ids = series_ids - prev_ids
+        if len(root_ids) != 1:
+            continue
+        root = next(s for s in series_list if s.id in root_ids)
+        if not root.match or not root.winner_id:
+            continue
+        t1, t2 = root.match.team1_id, root.match.team2_id
+        winner = root.winner_id
+        loser = t1 if winner == t2 else t2
+        champ_winner_team_ids.add(winner)
+        champ_finalist_team_ids.add(loser)
+
+    # Map top-100 players to their Super Ball results across all their seasons
+    top_100_ps = list(
+        PlayerSeason.objects.filter(player_id__in=top_100_player_ids)
+        .only("player_id", "team_id")
+    )
+    sb_w_map = defaultdict(int)
+    sb_l_map = defaultdict(int)
+    for ps in top_100_ps:
+        if ps.team_id is None:
+            continue
+        pid = ps.player_id
+        if ps.team_id in champ_winner_team_ids:
+            sb_w_map[pid] += 1
+        elif ps.team_id in champ_finalist_team_ids:
+            sb_l_map[pid] += 1
+
+    # Attach computed data to each top-100 entry
+    for i, entry in enumerate(top_100):
+        pid = entry["player_id"]
+        entry["rank"] = i + 1
+        entry["seasons_mltp"] = mltp_counts.get(pid, 0)
+        g, s, b = mvb_map[pid]
+        entry["mvb_display"] = "🥇" * g + "🥈" * s + "🥉" * b or "—"
+        entry["mvb_sort"] = g
+        entry["allstar"] = allstar_map.get(pid, 0)
+        entry["sb_w"] = sb_w_map.get(pid, 0)
+        entry["sb_l"] = sb_l_map.get(pid, 0)
+
+    # Players with ≥1 MLTP season for the dropdown (alphabetical, including those with no legacy points)
+    all_mltp_players = (
+        Player.objects.filter(seasons_played__season__league__abbr="MLTP")
+        .distinct()
+        .order_by(Lower("name"))
+    )
+    dropdown_players = [
+        {
+            "name": p.name,
+            "cube_sum": player_cube.get(p.id, 0.0),
+        }
+        for p in all_mltp_players
+    ]
+
+    # Leaderboard JSON for JS slider (all players with legacy points)
+    leaderboard_json = json.dumps(
+        [
+            {"name": e["name"], "career_score": round(e["career_score"], 6), "cube_sum": e["cube_sum"]}
+            for e in leaderboard
+        ]
+    )
+    dropdown_json = json.dumps(dropdown_players)
+
+    return render(
+        req,
+        "reference/career_leaders.html",
+        {
+            "top_100": top_100,
+            "leaderboard_json": leaderboard_json,
+            "dropdown_json": dropdown_json,
         },
     )
 

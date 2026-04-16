@@ -4,7 +4,7 @@ from collections import deque
 from datetime import date
 from functools import lru_cache
 
-from django.db.models import Q, Sum
+from django.db.models import Count, Q, Sum
 
 from ..models import (
     AwardReceived,
@@ -17,11 +17,8 @@ from ..models import (
     Transaction,
 )
 
-# AwardType abbrs that form a mutually exclusive group for legacy points
-_EXCLUSIVE_AWARD_ABBRS = {"MVB", "OBOS", "DBOS"}
-
 # Placement multipliers for award legacy points
-_PLACEMENT_MULTIPLIERS = {1: 1.0, 2: 0.4, 3: 0.2}
+_PLACEMENT_MULTIPLIERS = {1: 1.0, 2: 0.6, 3: 0.4}
 
 
 def _get_game_prefix(game_in_match):
@@ -82,6 +79,39 @@ def _validate_playoff_tree(season):
     return depths is not None  # {} means no playoffs (valid); None means invalid
 
 
+@lru_cache(maxsize=None)
+def _season_minutes(season_id):
+    """
+    Return the total regulation regular-season minutes available in a season.
+    Computed as max games played by any team × 10 minutes per game.
+    """
+    t1_counts = dict(
+        Game.objects.filter(
+            match__season_id=season_id,
+            match__week__startswith="Week",
+            non_regulation=False,
+        )
+        .values("match__team1_id")
+        .annotate(cnt=Count("id"))
+        .values_list("match__team1_id", "cnt")
+    )
+    t2_counts = dict(
+        Game.objects.filter(
+            match__season_id=season_id,
+            match__week__startswith="Week",
+            non_regulation=False,
+        )
+        .values("match__team2_id")
+        .annotate(cnt=Count("id"))
+        .values_list("match__team2_id", "cnt")
+    )
+    all_team_ids = set(t1_counts.keys()) | set(t2_counts.keys())
+    if not all_team_ids:
+        return 0
+    max_games = max(t1_counts.get(tid, 0) + t2_counts.get(tid, 0) for tid in all_team_ids)
+    return max_games * 10
+
+
 def _roster_bonus(player_season):
     return 5.0 if player_season.team is not None else 0.0
 
@@ -105,8 +135,9 @@ def _rs_tscar(player_season, season):
     if minutes_played == 0:
         return 0.0
 
-    if minutes_played > 250:
-        tscar = tscar * 250.0 / minutes_played
+    season_mins = _season_minutes(season.id)
+    if season_mins > 0:
+        tscar = tscar * min(minutes_played, season_mins) / season_mins
 
     return tscar
 
@@ -149,25 +180,61 @@ def _award_points(player_season, season):
         award__legacy_value__isnull=False,
     ).select_related("award")
 
-    total = 0.0
-    exclusive_best = 0.0
-
+    best = 0.0
     for ar in awards:
         if "all-star" in ar.award.name.lower():
             multiplier = 1.0
         else:
             multiplier = _PLACEMENT_MULTIPLIERS.get(ar.placement, 0.0)
         points = ar.award.legacy_value * multiplier
-        if ar.award.abbr in _EXCLUSIVE_AWARD_ABBRS:
-            exclusive_best = max(exclusive_best, points)
-        else:
-            total += points
+        best = max(best, points)
 
-    total += exclusive_best
-    return total
+    return best
 
 
-def _rs_team_performance(player_season, season):
+@lru_cache(maxsize=None)
+def _season_avg_tc(season_id):
+    """Cache avg_tc_rounded per season to avoid repeated DB queries."""
+    total_tc = (
+        Transaction.objects.filter(
+            team__season_id=season_id,
+            transaction_type__in=["draft", "prelim"],
+        ).aggregate(total=Sum("net_tc_spent"))["total"]
+        or 0
+    )
+    num_teams = TeamSeason.objects.filter(season_id=season_id).count()
+    if num_teams == 0 or total_tc == 0:
+        return 0
+    return math.ceil((total_tc / num_teams) / 50) * 50
+
+
+def _tc_fraction(player_season, season):
+    """Return player_tc / avg_tc_rounded, or 0.0 if no TC data."""
+    txn = Transaction.objects.filter(
+        player_season=player_season,
+        transaction_type__in=["draft", "prelim"],
+    ).first()
+
+    if txn is None or txn.net_tc_spent is None:
+        return 0.0
+
+    avg_tc_rounded = _season_avg_tc(season.id)
+    if avg_tc_rounded == 0:
+        return 0.0
+
+    return txn.net_tc_spent / avg_tc_rounded
+
+
+def _tc_value(player_season, season, tc_fraction=None):
+    if tc_fraction is None:
+        tc_fraction = _tc_fraction(player_season, season)
+    return tc_fraction * 5.0
+
+
+def _rs_team_performance(player_season, season, tc_fraction=None):
+    if tc_fraction is None:
+        tc_fraction = _tc_fraction(player_season, season)
+
     rs_gamelogs = list(
         PlayerGameLog.objects.filter(
             player_season=player_season,
@@ -209,6 +276,8 @@ def _rs_team_performance(player_season, season):
         for g in group_games:
             sp1 = g.team1_standing_points or 0
             sp2 = g.team2_standing_points or 0
+            if sp1 + sp2 == 0:
+                continue
             total_sp_earned += sp1 if is_team1 else sp2
             total_sp_possible += sp1 + sp2
 
@@ -218,10 +287,13 @@ def _rs_team_performance(player_season, season):
     if total_regular_season_weeks > 5:
         raw_score *= 5.0 / total_regular_season_weeks
 
-    return raw_score
+    return raw_score * (tc_fraction + 0.25)
 
 
-def _playoff_team_performance(player_season, season, all_series, depths):
+def _playoff_team_performance(player_season, season, all_series, depths, tc_fraction=None):
+    if tc_fraction is None:
+        tc_fraction = _tc_fraction(player_season, season)
+
     team = player_season.team
     if team is None or not all_series:
         return 0.0
@@ -239,58 +311,26 @@ def _playoff_team_performance(player_season, season, all_series, depths):
 
     if best_depth == 0:
         champ_series = next(s for s in team_series if depths.get(s.id) == 0)
-        return 20.0 if champ_series.winner_id == team.id else 8.0
+        base = 20.0 if champ_series.winner_id == team.id else 10.0
+    elif best_depth == 1:
+        base = 5.0
+    else:
+        # Depth >= 2: only award if at least one team missed playoffs
+        playoff_team_ids = set()
+        for s in all_series:
+            if s.match:
+                playoff_team_ids.add(s.match.team1_id)
+                playoff_team_ids.add(s.match.team2_id)
 
-    if best_depth == 1:
-        return 4.0
+        all_team_ids = set(
+            TeamSeason.objects.filter(season=season).values_list("id", flat=True)
+        )
+        if all_team_ids - playoff_team_ids:
+            base = 3.0
+        else:
+            return 0.0
 
-    # Depth >= 2: only award 2 pts if at least one team missed playoffs
-    playoff_team_ids = set()
-    for s in all_series:
-        if s.match:
-            playoff_team_ids.add(s.match.team1_id)
-            playoff_team_ids.add(s.match.team2_id)
-
-    all_team_ids = set(
-        TeamSeason.objects.filter(season=season).values_list("id", flat=True)
-    )
-    if all_team_ids - playoff_team_ids:
-        return 2.0
-
-    return 0.0
-
-
-def _tc_value(player_season, season):
-    txn = Transaction.objects.filter(
-        player_season=player_season,
-        transaction_type__in=["draft", "prelim"],
-    ).first()
-
-    if txn is None or txn.net_tc_spent is None:
-        return 0.0
-
-    player_tc = txn.net_tc_spent
-
-    total_tc = (
-        Transaction.objects.filter(
-            team__season=season,
-            transaction_type__in=["draft", "prelim"],
-        ).aggregate(total=Sum("net_tc_spent"))["total"]
-        or 0
-    )
-
-    if total_tc == 0:
-        return 0.0
-
-    num_teams = TeamSeason.objects.filter(season=season).count()
-    if num_teams == 0:
-        return 0.0
-
-    avg_tc_rounded = math.ceil((total_tc / num_teams) / 50) * 50
-    if avg_tc_rounded == 0:
-        return 0.0
-
-    return (player_tc / avg_tc_rounded) * 20.0
+    return base * (tc_fraction + 0.25)
 
 
 @lru_cache(maxsize=None)
@@ -320,14 +360,16 @@ def calculate_legacy_points(player_season):
     if depths is None:
         return None  # Invalid playoff tree
 
+    tc_fraction = _tc_fraction(player_season, season)
+
     components = [
         _roster_bonus(player_season),
         _rs_tscar(player_season, season),
         _playoff_tscar(player_season, season),
         _award_points(player_season, season),
-        _rs_team_performance(player_season, season),
-        _playoff_team_performance(player_season, season, all_series, depths),
-        _tc_value(player_season, season),
+        _rs_team_performance(player_season, season, tc_fraction),
+        _playoff_team_performance(player_season, season, all_series, depths, tc_fraction),
+        _tc_value(player_season, season, tc_fraction),
     ]
 
     total = sum(max(0.0, c) for c in components)

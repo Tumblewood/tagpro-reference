@@ -1,0 +1,312 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+
+{% block title %}Career Legacy Leaders - TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<style>
+    .career-simulator {
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        max-width: 48rem;
+    }
+
+    .career-simulator h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0 0 1rem 0;
+    }
+
+    .sim-row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sim-row label {
+        font-weight: 600;
+        min-width: 9rem;
+        font-size: 0.9rem;
+    }
+
+    .sim-row select {
+        flex: 1;
+        padding: 0.35rem 0.5rem;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        font-size: 0.9rem;
+        background: white;
+    }
+
+    .slider-wrapper {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .slider-wrapper input[type="range"] {
+        flex: 1;
+    }
+
+    .slider-value {
+        min-width: 3rem;
+        text-align: right;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #495057;
+    }
+
+    .sim-result {
+        display: none;
+        margin-top: 1rem;
+        padding: 1rem;
+        background: white;
+        border: 1px solid #dee2e6;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+    }
+
+    .sim-result.visible {
+        display: block;
+    }
+
+    .sim-result-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem 2rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .sim-stat {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sim-stat-label {
+        font-size: 0.75rem;
+        color: #6c757d;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+    }
+
+    .sim-stat-value {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .sim-stat-value.improved {
+        color: #28a745;
+    }
+
+    .sim-between {
+        font-size: 0.85rem;
+        color: #495057;
+        border-top: 1px solid #dee2e6;
+        padding-top: 0.75rem;
+        margin-top: 0.25rem;
+    }
+
+    .rank-badge {
+        display: inline-block;
+        background: #e9ecef;
+        border-radius: 0.25rem;
+        padding: 0 0.35rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #495057;
+        margin: 0 0.2rem;
+    }
+
+    .mvb-cell {
+        white-space: nowrap;
+        letter-spacing: 0.05rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">Career Legacy Leaders</h1>
+
+    <div class="career-simulator">
+        <h2>Season Simulator</h2>
+        <div class="sim-row">
+            <label for="player-select">Player:</label>
+            <select id="player-select" onchange="onPlayerChange()">
+                <option value="">— select a player —</option>
+            </select>
+        </div>
+        <div class="sim-row">
+            <label for="season-slider">Hypothetical season:</label>
+            <div class="slider-wrapper">
+                <input type="range" id="season-slider" min="0" max="150" step="0.5" value="0"
+                       oninput="onSliderChange()">
+                <span class="slider-value" id="slider-display">0.0</span>
+            </div>
+        </div>
+        <div class="sim-result" id="sim-result">
+            <div class="sim-result-grid">
+                <div class="sim-stat">
+                    <span class="sim-stat-label">Current Rank</span>
+                    <span class="sim-stat-value" id="current-rank">—</span>
+                </div>
+                <div class="sim-stat">
+                    <span class="sim-stat-label">Projected Rank</span>
+                    <span class="sim-stat-value improved" id="proj-rank">—</span>
+                </div>
+                <div class="sim-stat">
+                    <span class="sim-stat-label">Current Score</span>
+                    <span class="sim-stat-value" id="current-score">—</span>
+                </div>
+                <div class="sim-stat">
+                    <span class="sim-stat-label">Projected Score</span>
+                    <span class="sim-stat-value improved" id="proj-score">—</span>
+                </div>
+            </div>
+            <div class="sim-between" id="sim-between"></div>
+        </div>
+    </div>
+
+    <div class="stat-table-container">
+        <table class="stat-table" id="career-table">
+            <thead>
+                <tr>
+                    <th data-sortable data-type="number">Rank</th>
+                    <th data-sortable data-type="text">Player</th>
+                    <th data-sortable data-type="number">Seasons</th>
+                    <th data-sortable data-type="number">MVB</th>
+                    <th data-sortable data-type="number">All-Star</th>
+                    <th data-sortable data-type="text">Super Ball</th>
+                    <th data-sortable data-type="number">Peak</th>
+                    <th data-sortable data-type="number">Career Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for entry in top_100 %}
+                <tr>
+                    <td>{{ entry.rank }}</td>
+                    <td class="team-name">
+                        <a href="{% url 'player_history' entry.name %}">{{ entry.name }}</a>
+                    </td>
+                    <td>{{ entry.seasons_mltp }}</td>
+                    <td class="mvb-cell" data-sort-value="{{ entry.mvb_sort }}">{{ entry.mvb_display }}</td>
+                    <td>{% if entry.allstar %}{{ entry.allstar }}{% else %}—{% endif %}</td>
+                    <td data-sort-value="{{ entry.sb_w }}">
+                        {% if entry.sb_w or entry.sb_l %}
+                            {{ entry.sb_w }}-{{ entry.sb_l }}
+                        {% else %}—{% endif %}
+                    </td>
+                    <td>{{ entry.peak|floatformat:1 }}</td>
+                    <td>{{ entry.career_score|floatformat:2 }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">
+                        No legacy points have been calculated yet.
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    const LEADERBOARD = {{ leaderboard_json|safe }};
+    const DROPDOWN_PLAYERS = {{ dropdown_json|safe }};
+
+    // Populate dropdown
+    const select = document.getElementById('player-select');
+    for (const p of DROPDOWN_PLAYERS) {
+        const opt = document.createElement('option');
+        opt.value = p.name;
+        opt.dataset.cubeSum = p.cube_sum;
+        opt.textContent = p.name;
+        select.appendChild(opt);
+    }
+
+    let currentPlayerName = null;
+    let currentCubeSum = 0;
+
+    function onPlayerChange() {
+        const opt = select.options[select.selectedIndex];
+        if (!opt.value) {
+            currentPlayerName = null;
+            document.getElementById('sim-result').classList.remove('visible');
+            return;
+        }
+        currentPlayerName = opt.value;
+        currentCubeSum = parseFloat(opt.dataset.cubeSum) || 0;
+        updateSimulator();
+    }
+
+    function onSliderChange() {
+        const val = parseFloat(document.getElementById('season-slider').value);
+        document.getElementById('slider-display').textContent = val.toFixed(1);
+        if (currentPlayerName) updateSimulator();
+    }
+
+    function getProjectedInfo(newScore, excludeName) {
+        // Find where newScore fits in LEADERBOARD (excluding the player)
+        const others = LEADERBOARD.filter(p => p.name !== excludeName);
+        let insertAt = 0;
+        while (insertAt < others.length && others[insertAt].career_score > newScore) {
+            insertAt++;
+        }
+        const rank = insertAt + 1;
+        const above = insertAt > 0 ? others[insertAt - 1] : null;
+        const below = insertAt < others.length ? others[insertAt] : null;
+        return { rank, above, below };
+    }
+
+    function getCurrentRank(name) {
+        const idx = LEADERBOARD.findIndex(p => p.name === name);
+        return idx >= 0 ? idx + 1 : LEADERBOARD.length + 1;
+    }
+
+    function updateSimulator() {
+        const sliderVal = parseFloat(document.getElementById('season-slider').value);
+        const currentScore = currentCubeSum > 0 ? Math.pow(currentCubeSum, 1 / 3) : 0;
+        const newCubeSum = currentCubeSum + Math.pow(sliderVal, 3);
+        const newScore = newCubeSum > 0 ? Math.pow(newCubeSum, 1 / 3) : 0;
+
+        const currentRank = getCurrentRank(currentPlayerName);
+        const { rank: projRank, above, below } = getProjectedInfo(newScore, currentPlayerName);
+
+        document.getElementById('current-rank').textContent =
+            currentRank <= LEADERBOARD.length ? '#' + currentRank : 'Unranked';
+        document.getElementById('proj-rank').textContent = '#' + projRank;
+        document.getElementById('current-score').textContent = currentScore.toFixed(2);
+        document.getElementById('proj-score').textContent = newScore.toFixed(2);
+
+        let betweenText = '';
+        if (above && below) {
+            betweenText = `Between <strong>${above.name}</strong> <span class="rank-badge">#${projRank - 1}</span> and <strong>${below.name}</strong> <span class="rank-badge">#${projRank + 1}</span>`;
+        } else if (above) {
+            betweenText = `Behind <strong>${above.name}</strong> <span class="rank-badge">#${projRank - 1}</span> — at the bottom of the ranked list`;
+        } else if (below) {
+            betweenText = `Ahead of everyone — <strong>${below.name}</strong> <span class="rank-badge">#${projRank + 1}</span> would be next`;
+        } else {
+            betweenText = 'Only ranked player';
+        }
+        document.getElementById('sim-between').innerHTML = betweenText;
+
+        document.getElementById('sim-result').classList.add('visible');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        initTableSort('#career-table', {
+            initialSort: { column: 7, direction: 'desc' }
+        });
+    });
+</script>
+{% endblock %}
