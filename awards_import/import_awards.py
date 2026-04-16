@@ -29,7 +29,8 @@ NON_TEAM_AWARDS = {
 # Team awards (require a team, not a player)
 TEAM_AWARDS = {
     "Most Cohesive Unit",
-    "Deceibing Record",
+    "Deceiving Record",
+    "Best Roster Moves",
 }
 
 # Award name mapping to standardize variations
@@ -238,7 +239,7 @@ def find_team(team_name, season, player=None, award_name=None):
     return None
 
 
-ONLY_SEASONS = {"MLTP S38", "mLTP S38", "NLTP S38"}  # Set to None to import all seasons
+ONLY_SEASONS = None # {"MLTP S19"}  # Set to None to import all seasons
 
 
 def import_awards():

@@ -32,6 +32,7 @@ from reference.utils.data_entry import (
     process_multiple_eu_links,
     import_json_data_to_db,
     format_compact_json,
+    extract_game_data,
 )
 from reference.utils.stat_collection import (
     update_standings,
@@ -2437,6 +2438,85 @@ def _cascade_match_team_changes(match, old_team1, old_team2, new_team1, new_team
         PlayerGameLog.objects.filter(game__match=match, team=old_team2).update(team=new_team2)
 
 
+def _add_new_game_to_match(match, post):
+    """Create a new game for an existing match from POST data. Returns the game or None if no data."""
+    gim = post.get("new_game_game_in_match", "").strip() or None
+    red_team_id = _parse_int_or_none(post.get("new_game_red_team_id"))
+    blue_team_id = _parse_int_or_none(post.get("new_game_blue_team_id"))
+    tagpro_eu_val = _parse_int_or_none(post.get("new_game_tagpro_eu"))
+
+    if not gim and not red_team_id and not blue_team_id and not tagpro_eu_val:
+        return None
+
+    season = match.season
+    red_team = TeamSeason.objects.get(id=red_team_id, season=season) if red_team_id else match.team1
+    blue_team = TeamSeason.objects.get(id=blue_team_id, season=season) if blue_team_id else match.team2
+
+    t1_score = _parse_int_or_none(post.get("new_game_team1_score")) or 0
+    t2_score = _parse_int_or_none(post.get("new_game_team2_score")) or 0
+    outcome = post.get("new_game_outcome") or None
+    had_ot = bool(post.get("new_game_had_ot"))
+    non_regulation = bool(post.get("new_game_non_regulation"))
+    paused_time = _parse_int_or_none(post.get("new_game_paused_time"))
+    resumed_tagpro_eu = _parse_int_or_none(post.get("new_game_resumed_tagpro_eu"))
+    resumed_stats_count_until = _parse_int_or_none(post.get("new_game_resumed_stats_count_until"))
+    is_regular_season = match.week.startswith("Week")
+
+    map_name = None
+    map_id = None
+
+    if tagpro_eu_val:
+        eu_data = extract_game_data(str(tagpro_eu_val))
+        map_name = eu_data.get("map_name")
+        map_id = eu_data.get("map_id")
+        team1_is_red = red_team == match.team1
+        t1_score = eu_data["team_red"]["score"] if team1_is_red else eu_data["team_blue"]["score"]
+        t2_score = eu_data["team_blue"]["score"] if team1_is_red else eu_data["team_red"]["score"]
+
+    t1_sp, t2_sp = _compute_standing_points(outcome, is_regular_season, gim)
+
+    game = Game.objects.create(
+        match=match,
+        red_team=red_team,
+        blue_team=blue_team,
+        team1_score=t1_score,
+        team2_score=t2_score,
+        map_name=map_name,
+        map_id=map_id,
+        game_in_match=gim,
+        tagpro_eu=tagpro_eu_val,
+        paused_time=paused_time,
+        resumed_tagpro_eu=resumed_tagpro_eu,
+        resumed_stats_count_until=resumed_stats_count_until,
+        outcome=outcome,
+        team1_standing_points=t1_sp,
+        team2_standing_points=t2_sp,
+        had_ot=had_ot,
+        non_regulation=non_regulation,
+    )
+
+    if tagpro_eu_val:
+        player_seasons_by_username = {
+            ps.playing_as: ps
+            for ps in PlayerSeason.objects.filter(season=season)
+        }
+        for username in eu_data["team_red"]["players"]:
+            ps = player_seasons_by_username.get(username)
+            if ps:
+                PlayerGameLog.objects.create(
+                    game=game, player_season=ps, playing_as=username, team=red_team
+                )
+        for username in eu_data["team_blue"]["players"]:
+            ps = player_seasons_by_username.get(username)
+            if ps:
+                PlayerGameLog.objects.create(
+                    game=game, player_season=ps, playing_as=username, team=blue_team
+                )
+        process_game_stats(game)
+
+    return game
+
+
 def _handle_edit_match_update(request, match):
     post = request.POST
     season = match.season
@@ -2545,6 +2625,8 @@ def _handle_edit_match_update(request, match):
                 "team1_standing_points", "team2_standing_points", "had_ot", "non_regulation",
             ],
         )
+
+    _add_new_game_to_match(match, post)
 
     update_standings(season)
     infer_playoff_series(season)
