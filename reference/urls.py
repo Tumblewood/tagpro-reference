@@ -60,6 +60,7 @@ urlpatterns = [
     path("import/recent-games/", views.recent_league_games, name="recent_league_games"),
     path("import/preprocess/", views.preprocess_eu_links, name="preprocess_eu_links"),
     path("import/json/", views.import_from_json, name="import_from_json"),
+    path("import/paste-games/", views.paste_games_import, name="paste_games_import"),
     path("edit/rosters/<int:season_id>/", views.edit_rosters, name="edit_rosters"),
     path(
         "edit/rosters/<str:season_name>/",

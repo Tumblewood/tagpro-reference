@@ -146,9 +146,9 @@
         <div class="sim-row">
             <label for="season-slider">Hypothetical season:</label>
             <div class="slider-wrapper">
-                <input type="range" id="season-slider" min="0" max="150" step="0.5" value="0"
+                <input type="range" id="season-slider" min="0" max="120" step="1" value="0"
                        oninput="onSliderChange()">
-                <span class="slider-value" id="slider-display">0.0</span>
+                <span class="slider-value" id="slider-display">0</span>
             </div>
         </div>
         <div class="sim-result" id="sim-result">
@@ -204,7 +204,7 @@
                         {% else %}—{% endif %}
                     </td>
                     <td>{{ entry.peak|floatformat:1 }}</td>
-                    <td>{{ entry.career_score|floatformat:2 }}</td>
+                    <td>{{ entry.career_score|floatformat:1 }}</td>
                 </tr>
                 {% empty %}
                 <tr>
@@ -251,7 +251,7 @@
 
     function onSliderChange() {
         const val = parseFloat(document.getElementById('season-slider').value);
-        document.getElementById('slider-display').textContent = val.toFixed(1);
+        document.getElementById('slider-display').textContent = val.toString();
         if (currentPlayerName) updateSimulator();
     }
 
@@ -285,8 +285,8 @@
         document.getElementById('current-rank').textContent =
             currentRank <= LEADERBOARD.length ? '#' + currentRank : 'Unranked';
         document.getElementById('proj-rank').textContent = '#' + projRank;
-        document.getElementById('current-score').textContent = currentScore.toFixed(2);
-        document.getElementById('proj-score').textContent = newScore.toFixed(2);
+        document.getElementById('current-score').textContent = currentScore.toFixed(1);
+        document.getElementById('proj-score').textContent = newScore.toFixed(1);
 
         let betweenText = '';
         if (above && below) {

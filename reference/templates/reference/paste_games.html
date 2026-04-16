@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paste Games Import - TagPro Reference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        .form-group { margin-bottom: 20px; }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="number"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 12rem;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 12px;
+            font-family: 'Courier New', monospace;
+            min-height: 400px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #dc3545;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover { background-color: #c82333; }
+        .messages { margin-bottom: 20px; }
+        .message {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .message.error   { background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+        .message.success { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+        .message.warning { background-color: #fff3cd; border: 1px solid #ffeaa7; color: #856404; }
+        .help-text { font-size: 12px; color: #666; margin-top: 5px; }
+        .nav-links { margin-bottom: 20px; }
+        .nav-links a { color: #007cba; text-decoration: none; margin-right: 15px; }
+        .nav-links a:hover { text-decoration: underline; }
+        .info {
+            background-color: #e7f3ff;
+            border: 1px solid #b8daff;
+            color: #004085;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+        .match-result {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links">
+            <a href="{% url 'homepage' %}">Home</a>
+            <a href="{% url 'import_data' %}">EU Import</a>
+            <a href="{% url 'preprocess_eu_links' %}">Preprocess</a>
+            <a href="{% url 'import_from_json' %}">JSON Import</a>
+            <a href="{% url 'paste_games_import' %}">Paste Games</a>
+        </div>
+
+        <h1>Paste Games Import</h1>
+
+        <div class="info">
+            Adds individual games (with or without EU IDs) to an existing match.
+            Never creates or modifies Seasons, TeamSeasons, Players, or PlayerSeasons —
+            only looks up what already exists. Player stats are taken directly from the JSON.
+            Outcome is inferred from scores (W/L/T only; edit the match afterward if OT is needed).
+        </div>
+
+        {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+                <div class="message {{ message.tags }}">{{ message }}</div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if match %}
+        <div class="match-result">
+            Imported into: <strong>{{ match }}</strong>
+            — <a href="{% url 'edit_match' match.id %}">Edit match</a>
+            | <a href="{% url 'match_view' match.id %}">View match</a>
+        </div>
+        {% endif %}
+
+        <form method="post">
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label for="match_id">Match ID:</label>
+                <input type="number" id="match_id" name="match_id" value="{{ request.POST.match_id }}" required>
+                <div class="help-text">The numeric ID of the match (visible in the edit match URL).</div>
+            </div>
+
+            <div class="form-group">
+                <label for="games_json">Game JSON:</label>
+                <textarea id="games_json" name="games_json" placeholder='Paste a single game object {...} or an array of game objects [{...}, {...}]' required></textarea>
+                <div class="help-text">
+                    Accepts a JSON object or array in the bulk import game format.
+                    Fields: <code>game_in_match</code>, <code>red_team</code>, <code>blue_team</code>,
+                    <code>team1_score</code>, <code>team2_score</code>, <code>map_name</code>,
+                    <code>tagpro_eu</code>, <code>players</code> (each with <code>playing_as</code>,
+                    <code>team</code>, <code>stats</code>).
+                    Unknown stat fields are ignored.
+                </div>
+            </div>
+
+            <button type="submit">Import Games</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -3,7 +3,7 @@ Utilities for correcting data issues and merging duplicate records.
 """
 
 from django.db import transaction
-from ..models import PlayerSeason, PlayerGameLog, Player, TeamSeason, Match
+from ..models import PlayerSeason, PlayerGameLog, Player, TeamSeason, Match, AwardReceived, Transaction
 
 
 @transaction.atomic
@@ -19,8 +19,9 @@ def merge_player_seasons(
         cleanup_player: If True, delete the player if it has no remaining seasons (default True)
     """
 
-    # Reassign all game logs from to_merge to target
+    # Reassign all game logs and transactions from to_merge to target
     PlayerGameLog.objects.filter(player_season=to_merge).update(player_season=target)
+    Transaction.objects.filter(player_season=to_merge).update(player_season=target)
 
     # Store the player for potential cleanup
     player_to_check = to_merge.player
@@ -75,6 +76,9 @@ def merge_players(to_merge: Player, target: Player):
             print(f"Reassigning player season {ps_to_merge} to {target}")
             ps_to_merge.player = target
             ps_to_merge.save()
+
+    # Reassign awards
+    AwardReceived.objects.filter(player=to_merge).update(player=target)
 
     # Update any team captaincies
     captain_teams = TeamSeason.objects.filter(captain=to_merge)

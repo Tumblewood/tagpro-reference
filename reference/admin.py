@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.contrib import messages
+from django.db.models import Q, Sum
 from .models import (
     League,
     Franchise,
@@ -95,7 +96,17 @@ class PlayerGameLogInline(admin.TabularInline):
 
 @admin.action(description="Calculate legacy points for all players in the season")
 def calculate_season_legacy_points(modeladmin, request, queryset):
-    from .utils.legacy_points import calculate_legacy_points
+    from .utils.legacy_points import (
+        calculate_legacy_points,
+        _season_minutes,
+        _season_sp_game_count,
+        _season_avg_tc,
+        _season_transaction_count,
+    )
+    _season_minutes.cache_clear()
+    _season_sp_game_count.cache_clear()
+    _season_avg_tc.cache_clear()
+    _season_transaction_count.cache_clear()
 
     updated = 0
     skipped = 0
@@ -109,11 +120,72 @@ def calculate_season_legacy_points(modeladmin, request, queryset):
                 ps.save(update_fields=["legacy_points"])
                 updated += 1
             else:
+                if ps.legacy_points is not None:
+                    ps.legacy_points = None
+                    ps.save(update_fields=["legacy_points"])
                 skipped += 1
 
     messages.success(
         request,
         f"Legacy points calculated: {updated} updated, {skipped} skipped (ineligible).",
+    )
+
+
+TICKS_PER_MINUTE = 60 * 60  # 1 tick = 1/60th second
+
+
+@admin.action(description="Infer rosters from last 4 matches")
+def infer_rosters(modeladmin, request, queryset):
+    REMOVE_THRESHOLD = 55 * TICKS_PER_MINUTE
+    ADD_THRESHOLD = 75 * TICKS_PER_MINUTE
+
+    removed = 0
+    added = 0
+
+    for season in queryset:
+        for team in TeamSeason.objects.filter(season=season):
+            last_match_ids = (
+                Match.objects.filter(season=season)
+                .filter(Q(team1=team) | Q(team2=team))
+                .order_by("-date")
+                .values_list("id", flat=True)[:4]
+            )
+
+            time_by_ps = (
+                PlayerGameLog.objects.filter(
+                    game__match_id__in=last_match_ids,
+                    team=team,
+                )
+                .values("player_season_id")
+                .annotate(total_ticks=Sum("regulation_stats__time_played"))
+            )
+
+            current_roster = set(
+                PlayerSeason.objects.filter(season=season, team=team)
+                .values_list("id", flat=True)
+            )
+
+            time_dict = {
+                row["player_season_id"]: row["total_ticks"] or 0
+                for row in time_by_ps
+            }
+
+            # Players on the roster with no appearances count as 0 minutes
+            for ps_id in current_roster:
+                if ps_id not in time_dict:
+                    time_dict[ps_id] = 0
+
+            for ps_id, total_ticks in time_dict.items():
+                if ps_id in current_roster and total_ticks < REMOVE_THRESHOLD:
+                    PlayerSeason.objects.filter(id=ps_id).update(team=None)
+                    removed += 1
+                elif ps_id not in current_roster and total_ticks > ADD_THRESHOLD:
+                    PlayerSeason.objects.filter(id=ps_id).update(team=team)
+                    added += 1
+
+    messages.success(
+        request,
+        f"Roster inference complete: {added} player(s) added, {removed} player(s) removed.",
     )
 
 
@@ -126,6 +198,7 @@ class SeasonAdmin(admin.ModelAdmin):
         calculate_scar,
         set_end_date_to_last_game,
         calculate_season_legacy_points,
+        infer_rosters,
     ]
 
 
@@ -155,7 +228,17 @@ class GameAdmin(admin.ModelAdmin):
 
 @admin.action(description="Calculate legacy points")
 def calculate_legacy_points_action(modeladmin, request, queryset):
-    from .utils.legacy_points import calculate_legacy_points
+    from .utils.legacy_points import (
+        calculate_legacy_points,
+        _season_minutes,
+        _season_sp_game_count,
+        _season_avg_tc,
+        _season_transaction_count,
+    )
+    _season_minutes.cache_clear()
+    _season_sp_game_count.cache_clear()
+    _season_avg_tc.cache_clear()
+    _season_transaction_count.cache_clear()
 
     updated = 0
     skipped = 0

@@ -40,6 +40,7 @@ from reference.utils.stat_collection import (
     infer_playoff_series,
     process_game_stats,
     reprocess_match,
+    STAT_FIELDS,
 )
 from reference.utils.data_correction import merge_players, merge_player_seasons
 from reference.models import (
@@ -57,6 +58,7 @@ from reference.models import (
     AwardReceived,
     Transaction,
     PlayerRegulationStats,
+    PlayerStats,
 )
 
 
@@ -1155,9 +1157,13 @@ def career_leaders(req):
     """Career legacy point leaders using 3-norm aggregation."""
     from collections import defaultdict
 
-    # All player-seasons with positive legacy points
+    # All MLTP player-seasons with positive legacy points
     all_ps = list(
-        PlayerSeason.objects.filter(legacy_points__isnull=False, legacy_points__gt=0)
+        PlayerSeason.objects.filter(
+            legacy_points__isnull=False,
+            legacy_points__gt=0,
+            season__league__abbr="MLTP",
+        )
         .select_related("player", "season__league", "team")
     )
 
@@ -1202,10 +1208,11 @@ def career_leaders(req):
         .annotate(ct=Count("id"))
     }
 
-    # Awards for top-100 players
+    # Awards for top-100 players (MLTP seasons only)
     awards_qs = AwardReceived.objects.filter(
         player_id__in=top_100_player_ids,
         award__legacy_value__isnull=False,
+        season__league__abbr="MLTP",
     ).select_related("award")
 
     mvb_map = defaultdict(lambda: [0, 0, 0])  # [gold, silver, bronze]
@@ -1222,11 +1229,11 @@ def career_leaders(req):
             elif ar.placement == 3:
                 mvb_map[pid][2] += 1
 
-    # Super Ball W-L: find championship series per season from eligible leagues
+    # Super Ball W-L: find championship series per MLTP season
     champ_winner_team_ids = set()
     champ_finalist_team_ids = set()
     all_series = list(
-        PlayoffSeries.objects.filter(match__season__league__legacy_weight__gt=0)
+        PlayoffSeries.objects.filter(match__season__league__abbr="MLTP")
         .select_related("match", "winner")
     )
     season_series_map = defaultdict(list)
@@ -1254,9 +1261,12 @@ def career_leaders(req):
         champ_winner_team_ids.add(winner)
         champ_finalist_team_ids.add(loser)
 
-    # Map top-100 players to their Super Ball results across all their seasons
+    # Map top-100 players to their Super Ball results across their MLTP seasons
     top_100_ps = list(
-        PlayerSeason.objects.filter(player_id__in=top_100_player_ids)
+        PlayerSeason.objects.filter(
+            player_id__in=top_100_player_ids,
+            season__league__abbr="MLTP",
+        )
         .only("player_id", "team_id")
     )
     sb_w_map = defaultdict(int)
@@ -1958,6 +1968,141 @@ def import_from_json(request):
         except Exception as e:
             messages.error(request, f"Error importing JSON: {str(e)}")
             return render(request, "reference/import_json.html")
+
+
+@data_entry_required(allow_new_data_only=True)
+@transaction.atomic
+def paste_games_import(request):
+    """Import individual games from pasted JSON into an existing match.
+
+    Accepts a list of game objects (or a single object) in the same format
+    used by the bulk JSON import, but only creates Games/PlayerGameLogs/Stats —
+    it never creates or modifies Seasons, TeamSeasons, Players, or PlayerSeasons.
+    """
+    template = "reference/paste_games.html"
+
+    if request.method == "GET":
+        return render(request, template)
+
+    match_id_str = request.POST.get("match_id", "").strip()
+    games_json_str = request.POST.get("games_json", "").strip()
+
+    if not match_id_str or not games_json_str:
+        messages.error(request, "Both match ID and game JSON are required.")
+        return render(request, template)
+
+    try:
+        match = Match.objects.select_related("season", "team1", "team2").get(id=int(match_id_str))
+    except (Match.DoesNotExist, ValueError):
+        messages.error(request, f"Match '{match_id_str}' not found.")
+        return render(request, template)
+
+    try:
+        games_data = json.loads(games_json_str)
+        if isinstance(games_data, dict):
+            games_data = [games_data]
+    except json.JSONDecodeError as e:
+        messages.error(request, f"Invalid JSON: {e}")
+        return render(request, template)
+
+    season = match.season
+    is_regular_season = match.week.startswith("Week")
+    stat_field_set = set(STAT_FIELDS)
+
+    player_seasons_by_name = {
+        ps.playing_as: ps
+        for ps in PlayerSeason.objects.filter(season=season)
+    }
+    teams_by_name = {
+        match.team1.name: match.team1,
+        match.team2.name: match.team2,
+    }
+
+    created = 0
+    skipped = 0
+    warnings = []
+
+    for game_data in games_data:
+        gim = game_data.get("game_in_match")
+
+        if Game.objects.filter(match=match, game_in_match=gim).exists():
+            skipped += 1
+            continue
+
+        red_team = teams_by_name.get(game_data.get("red_team", ""))
+        blue_team = teams_by_name.get(game_data.get("blue_team", ""))
+
+        if not red_team:
+            warnings.append(f"{gim}: red team '{game_data.get('red_team')}' not found in match.")
+            continue
+        if not blue_team:
+            warnings.append(f"{gim}: blue team '{game_data.get('blue_team')}' not found in match.")
+            continue
+
+        team1_score = game_data.get("team1_score") or 0
+        team2_score = game_data.get("team2_score") or 0
+
+        if team1_score > team2_score:
+            outcome = "W"
+        elif team2_score > team1_score:
+            outcome = "L"
+        else:
+            outcome = "T"
+
+        t1_sp, t2_sp = _compute_standing_points(outcome, is_regular_season, gim)
+
+        game = Game.objects.create(
+            match=match,
+            red_team=red_team,
+            blue_team=blue_team,
+            team1_score=team1_score,
+            team2_score=team2_score,
+            map_name=game_data.get("map_name"),
+            map_id=game_data.get("map_id"),
+            game_in_match=gim,
+            tagpro_eu=game_data.get("tagpro_eu"),
+            outcome=outcome,
+            team1_standing_points=t1_sp,
+            team2_standing_points=t2_sp,
+        )
+
+        for player_data in game_data.get("players", []):
+            playing_as = player_data.get("playing_as") or player_data.get("player_season")
+            team = teams_by_name.get(player_data.get("team", ""))
+            ps = player_seasons_by_name.get(playing_as)
+
+            if not ps:
+                warnings.append(f"{gim}: '{playing_as}' has no PlayerSeason in {season.name}.")
+                continue
+            if not team:
+                warnings.append(f"{gim}: team '{player_data.get('team')}' not found for '{playing_as}'.")
+                continue
+
+            pgl = PlayerGameLog.objects.create(
+                game=game,
+                player_season=ps,
+                playing_as=playing_as,
+                team=team,
+            )
+
+            raw_stats = player_data.get("stats", {})
+            stat_values = {field: raw_stats.get(field) or 0 for field in STAT_FIELDS if field in stat_field_set}
+            PlayerStats.objects.create(player_gamelog=pgl, **stat_values)
+            PlayerRegulationStats.objects.create(player_gamelog=pgl, **stat_values)
+
+        created += 1
+
+    update_standings(season)
+    infer_playoff_series(season)
+    calculate_scar(season)
+
+    summary = f"{created} game(s) created, {skipped} already existed."
+    if warnings:
+        messages.warning(request, summary + " Warnings: " + " | ".join(warnings))
+    else:
+        messages.success(request, summary)
+
+    return render(request, template, {"match": match})
 
 
 @data_entry_required(season_param="season_id")
