@@ -9,7 +9,6 @@ from django.db.models import Count, Q, Sum
 from ..models import (
     AwardReceived,
     Game,
-    Match,
     PlayerGameLog,
     PlayerRegulationStats,
     PlayoffSeries,
@@ -84,6 +83,8 @@ def _season_minutes(season_id):
     """
     Return the total regulation regular-season minutes available in a season.
     Computed as max games played by any team × 10 minutes per game.
+    Each Game object is always 10 minutes (halves and full games alike).
+    OT periods are excluded via non_regulation=False (OT games should be marked non_regulation=True).
     """
     t1_counts = dict(
         Game.objects.filter(
@@ -137,7 +138,7 @@ def _rs_tscar(player_season, season):
 
     season_mins = _season_minutes(season.id)
     if season_mins > 0:
-        tscar = tscar * min(minutes_played, season_mins) / season_mins
+        tscar = tscar * 300 / season_mins
 
     return tscar
 
@@ -193,6 +194,32 @@ def _award_points(player_season, season):
 
 
 @lru_cache(maxsize=None)
+def _season_sp_game_count(season_id):
+    """
+    Max number of standing-point-awarding regular-season games any team
+    participated in for the season. Used to scale team performance to a
+    25-game baseline.
+    """
+    sp_games = Game.objects.filter(
+        match__season_id=season_id,
+        match__week__startswith="Week",
+        non_regulation=False,
+    ).filter(
+        Q(team1_standing_points__gt=0) | Q(team2_standing_points__gt=0)
+    )
+    t1_counts = dict(
+        sp_games.values("match__team1_id").annotate(cnt=Count("id")).values_list("match__team1_id", "cnt")
+    )
+    t2_counts = dict(
+        sp_games.values("match__team2_id").annotate(cnt=Count("id")).values_list("match__team2_id", "cnt")
+    )
+    all_team_ids = set(t1_counts.keys()) | set(t2_counts.keys())
+    if not all_team_ids:
+        return 0
+    return max(t1_counts.get(tid, 0) + t2_counts.get(tid, 0) for tid in all_team_ids)
+
+
+@lru_cache(maxsize=None)
 def _season_avg_tc(season_id):
     """Cache avg_tc_rounded per season to avoid repeated DB queries."""
     total_tc = (
@@ -243,13 +270,6 @@ def _rs_team_performance(player_season, season, tc_fraction=None):
         ).select_related("game__match", "team")
     )
 
-    total_regular_season_weeks = (
-        Match.objects.filter(season=season, week__startswith="Week")
-        .values_list("week", flat=True)
-        .distinct()
-        .count()
-    )
-
     processed_groups = set()
     total_sp_earned = 0.0
     total_sp_possible = 0.0
@@ -284,8 +304,9 @@ def _rs_team_performance(player_season, season, tc_fraction=None):
     raw_score = total_sp_earned - (4.0 / 15.0) * total_sp_possible
     raw_score *= 0.25
 
-    if total_regular_season_weeks > 5:
-        raw_score *= 5.0 / total_regular_season_weeks
+    sp_games = _season_sp_game_count(season.id)
+    if sp_games > 25:
+        raw_score *= 25.0 / sp_games
 
     return raw_score * (tc_fraction + 0.25)
 
