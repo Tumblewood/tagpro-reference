@@ -53,9 +53,10 @@ STAT_FIELDS = [
     "near_caps",
     "outs",
     "productive_grabs",
-    "chained_holds",
     "grabs_against",
     "outs_against",
+    "preventing_opponents",
+    "preventing_teammates",
     "tp",
     "rb",
     "jj",
@@ -74,7 +75,6 @@ HELPER_FIELDS = [
     "last_powerup_type",
     "last_hold_was_short",
     "last_prevent_end_time",
-    "chained_hold_by",
     "grabs_against_credits",
 ]
 stat_defaults = {f: 0 for f in STAT_FIELDS}
@@ -181,6 +181,18 @@ def _dist(ax, ay, bx, by):
     return ((ax - bx) ** 2 + (ay - by) ** 2) ** 0.5
 
 
+def _credit_preventing_teammates(ps, p_name, stop_time):
+    """Credit preventing_teammates when p_name stops preventing, mutually crediting co-preventers."""
+    p = ps[p_name]
+    p["preventing_teammates"] += stop_time - p["prevent_start_time"]  # self-contribution
+    for p2_name, p2 in ps.items():
+        if p2_name != p_name and p2["team"] == p["team"] and p2["prevent_start_time"] is not None:
+            overlap = stop_time - max(p["prevent_start_time"], p2["prevent_start_time"])
+            if overlap > 0:
+                p["preventing_teammates"] += overlap
+                p2["preventing_teammates"] += overlap
+
+
 def _flag_pos(tiles, tile_type):
     for y, row in enumerate(tiles):
         for x, tile in enumerate(row):
@@ -222,9 +234,11 @@ def parse_stats_from_eu_match(
         (s.time.real, s.player.name): s for s in m.splats
     }
 
+    timeline = sorted(m.create_timeline())
+
     # Pre-build set of who made a tag/return at each tick for ntpops detection
     tag_events_by_time = {}
-    for t, event, pl in m.create_timeline():
+    for t, event, pl in timeline:
         if event[:3] == "Tag" or event[:6] == "Return":
             t_real = t.real
             if t_real not in tag_events_by_time:
@@ -241,7 +255,7 @@ def parse_stats_from_eu_match(
     # Regrab tracking: last_team_drop_info[team] = {drop_time, prevent_occurred}
     last_team_drop_info = {}
 
-    for time, event, player in sorted(m.create_timeline()):
+    for time, event, player in timeline:
         p = ps[player.name]
         time = time.real
 
@@ -256,6 +270,22 @@ def parse_stats_from_eu_match(
                 if p2["prevent_start_time"] is not None:
                     p2["prevent"] += time - p2["prevent_start_time"]
 
+            # Credit preventing_teammates for all players currently preventing at snapshot
+            prev_at_snapshot = [
+                (name, p2)
+                for name, p2 in ps_before_ot.items()
+                if p2["prevent_start_time"] is not None
+            ]
+            for i, (name_i, p_i) in enumerate(prev_at_snapshot):
+                p_i["preventing_teammates"] += time - p_i["prevent_start_time"]  # self
+                for j, (name_j, p_j) in enumerate(prev_at_snapshot):
+                    if j > i and p_j["team"] == p_i["team"]:
+                        overlap = time - max(p_i["prevent_start_time"], p_j["prevent_start_time"])
+                        if overlap > 0:
+                            p_i["preventing_teammates"] += overlap
+                            p_j["preventing_teammates"] += overlap
+
+            for p2 in ps_before_ot.values():
                 if p2["grab_time"] is not None and p2["last_hold_end"] is None:
                     hold_length = time - p2["grab_time"]
                     p2["hold"] += hold_length
@@ -279,6 +309,7 @@ def parse_stats_from_eu_match(
 
             if p["prevent_start_time"] is not None:
                 p["prevent"] += time - p["prevent_start_time"]
+                _credit_preventing_teammates(ps, player.name, time)
 
             if p["grab_time"] is not None and p["last_hold_end"] is None:
                 p["kept_flags"] += 1
@@ -299,6 +330,7 @@ def parse_stats_from_eu_match(
 
             if p["prevent_start_time"] is not None:
                 p["prevent"] += time - p["prevent_start_time"]
+                _credit_preventing_teammates(ps, player.name, time)
 
             if p["grab_time"] is not None and p["last_hold_end"] is None:
                 hold_length = time - p["grab_time"]
@@ -317,7 +349,6 @@ def parse_stats_from_eu_match(
             p["prevent_start_time"] = None
             p["handed_off_by"] = None
             p["grabbed_off_regrab"] = None
-            p["chained_hold_by"] = None
 
         elif event[:7] == "Capture":
             p["captures"] += 1
@@ -361,16 +392,9 @@ def parse_stats_from_eu_match(
             p["productive_grabs"] += 1
             p["last_hold_was_short"] = False
 
-            # Chained: credit previous holder if their hold was short
-            if p["chained_hold_by"] is not None:
-                ps[p["chained_hold_by"]]["chained_holds"] += 1
-                if ps[p["chained_hold_by"]]["last_hold_was_short"]:
-                    ps[p["chained_hold_by"]]["productive_grabs"] += 1
-
             p["last_hold_end"] = time
             p["handed_off_by"] = None
             p["grabbed_off_regrab"] = None
-            p["chained_hold_by"] = None
             p["grabs_against_credits"] = None
 
             for p2 in ps.values():
@@ -389,8 +413,6 @@ def parse_stats_from_eu_match(
             p["grabs"] += 1
             p["grab_time"] = time
             p["last_hold_end"] = None
-            p["chained_hold_by"] = None
-            p["grabs_against_credits"] = []
 
             # Free grab: <3s since last teammate drop AND no opponent was preventing
             # at all during that window (including at the moment of the drop)
@@ -406,8 +428,9 @@ def parse_stats_from_eu_match(
             else:
                 p["grabbed_off_regrab"] = False
 
-            # grabs_against: opponent was preventing within the last second
-            # also record credits for outs_against on this same grab
+            # grabs_against + preventing_opponents: opponent was preventing within last second.
+            # grabs_against_credits tracks which defenders to credit with outs_against later.
+            p["grabs_against_credits"] = []
             for p2_name, p2 in ps.items():
                 if p2["team"] is not None and p2["team"] != p["team"]:
                     was_preventing = p2["prevent_start_time"] is not None or (
@@ -417,13 +440,13 @@ def parse_stats_from_eu_match(
                     if was_preventing:
                         ps[p2_name]["grabs_against"] += 1
                         p["grabs_against_credits"].append(p2_name)
+                        p["preventing_opponents"] += 1
 
-            # Handoff / chained hold detection
+            # Handoff detection
             for p2_name, p2 in ps.items():
                 if p2["team"] == p["team"] and p2["last_hold_end"] is not None:
                     time_since_drop = time - p2["last_hold_end"]
                     if time_since_drop < 2 * 60:
-                        p["chained_hold_by"] = p2_name
                         last_hold_length = p2["last_hold_end"] - p2["grab_time"]
                         if last_hold_length < 3 * 60:
                             p2["handoffs"] += 1
@@ -442,7 +465,7 @@ def parse_stats_from_eu_match(
             p["last_hold_end"] = time
             p["grabbed_off_regrab"] = None
             p["handed_off_by"] = None
-            p["chained_hold_by"] = None
+            p["grabs_against_credits"] = None
 
             # ntpop: no opponent tag at this tick
             taggers = tag_events_by_time.get(time, set())
@@ -512,11 +535,6 @@ def parse_stats_from_eu_match(
                 # outs_against: same defenders who had grabs_against on this grab
                 for defender_name in (p["grabs_against_credits"] or []):
                     ps[defender_name]["outs_against"] += 1
-                # Chained: credit previous holder
-                if p["chained_hold_by"] is not None:
-                    ps[p["chained_hold_by"]]["chained_holds"] += 1
-                    if ps[p["chained_hold_by"]]["last_hold_was_short"]:
-                        ps[p["chained_hold_by"]]["productive_grabs"] += 1
 
             # Near cap: dropped within 8 tiles of own flag (close to scoring)
             splat = splats_by_time_player.get((time, player.name))
@@ -537,7 +555,6 @@ def parse_stats_from_eu_match(
             p["last_hold_end"] = time
             p["grabbed_off_regrab"] = None
             p["handed_off_by"] = None
-            p["chained_hold_by"] = None
             p["grabs_against_credits"] = None
 
         elif event[:3] == "Pop":
@@ -624,6 +641,7 @@ def parse_stats_from_eu_match(
             if p["prevent_start_time"] is None:
                 continue
             p["prevent"] += time - p["prevent_start_time"]
+            _credit_preventing_teammates(ps, player.name, time)
             p["prevent_start_time"] = None
             p["last_prevent_end_time"] = time
 

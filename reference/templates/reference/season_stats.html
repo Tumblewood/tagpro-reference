@@ -145,9 +145,14 @@
     
     // Initialize table sorting when page loads
     document.addEventListener('DOMContentLoaded', function() {
-        // For basic view, sort by TSCAR (column 10); for impact, sort by TSCAR (column 7); otherwise sort by Min (column 2)
+        // Default sort columns per view
         const currentView = '{{ current_stat_view }}';
-        const sortColumn = currentView === 'basic' ? 10 : currentView === 'impact' ? 7 : 2;
+        const sortColumn = currentView === 'basic' ? 10
+            : currentView === 'impact' ? 7
+            : currentView === 'offense' ? 4
+            : currentView === 'defense' ? 3
+            : currentView === 'misc' ? 4
+            : 2;
         
         initTableSort('.stat-table', {
             initialSort: { column: sortColumn, direction: 'desc' }

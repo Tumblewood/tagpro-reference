@@ -51,9 +51,10 @@ STAT_FIELDS = [
     "near_caps",
     "outs",
     "productive_grabs",
-    "chained_holds",
     "grabs_against",
     "outs_against",
+    "preventing_opponents",
+    "preventing_teammates",
     "tp",
     "rb",
     "jj",
@@ -203,10 +204,11 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         total_pups_in_game = player_stat["total_pups_in_game"]
         outs = player_stat["outs"]
         productive_grabs = player_stat["productive_grabs"]
-        chained_holds = player_stat["chained_holds"]
         grabs_off_regrab = player_stat["grabs_off_regrab"]
         grabs_against = player_stat["grabs_against"]
         outs_against = player_stat["outs_against"]
+        preventing_opponents = player_stat["preventing_opponents"]
+        preventing_teammates = player_stat["preventing_teammates"]
         oscar = player_stat.get("oscar") or 0
         dscar = player_stat.get("dscar") or 0
         tscar = player_stat.get("tscar") or 0
@@ -268,12 +270,13 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         # New percentage stats
         player_stat["out_pct_off"] = round(outs / grabs * 100, 1) if grabs > 0 else 0
         player_stat["prod_pct"] = round(productive_grabs / grabs * 100, 1) if grabs > 0 else 0
-        player_stat["chain_pct"] = round(chained_holds / grabs * 100, 1) if grabs > 0 else 0
         player_stat["free_pct"] = round(grabs_off_regrab / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["apo"] = round(preventing_opponents / grabs, 2) if grabs > 0 else 0
         player_stat["out_pct_def"] = (
             round(outs_against / grabs_against * 100, 1) if grabs_against > 0 else 0
         )
         player_stat["p_oa"] = round(prevent_sec / outs_against, 1) if outs_against > 0 else 0
+        player_stat["apt"] = round(preventing_teammates / (prevent_sec * 60), 2) if prevent_sec > 0 else 0
 
         # SCAR efficiency stats (per 10 blowout-adjusted minutes)
         player_stat["oeff"] = round(oscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
