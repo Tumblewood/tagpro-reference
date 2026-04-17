@@ -220,6 +220,31 @@ def _season_sp_game_count(season_id):
 
 
 @lru_cache(maxsize=None)
+def _team_rs_tscar(team_id, season_id):
+    """Cached: total raw RS TSCAR for all players on a team's roster."""
+    agg = PlayerRegulationStats.objects.filter(
+        player_gamelog__player_season__team_id=team_id,
+        player_gamelog__game__match__season_id=season_id,
+        player_gamelog__game__non_regulation=False,
+        player_gamelog__game__match__week__startswith="Week",
+    ).aggregate(total_oscar=Sum("oscar"), total_dscar=Sum("dscar"))
+    return (agg["total_oscar"] or 0.0) + (agg["total_dscar"] or 0.0)
+
+
+@lru_cache(maxsize=None)
+def _team_po_tscar(team_id, season_id):
+    """Cached: total raw PO TSCAR for all players on a team's roster."""
+    agg = PlayerRegulationStats.objects.filter(
+        player_gamelog__player_season__team_id=team_id,
+        player_gamelog__game__match__season_id=season_id,
+        player_gamelog__game__non_regulation=False,
+    ).exclude(
+        player_gamelog__game__match__week__startswith="Week"
+    ).aggregate(total_oscar=Sum("oscar"), total_dscar=Sum("dscar"))
+    return (agg["total_oscar"] or 0.0) + (agg["total_dscar"] or 0.0)
+
+
+@lru_cache(maxsize=None)
 def _season_avg_tc(season_id):
     """Cache avg_tc_rounded per season to avoid repeated DB queries."""
     total_tc = (
@@ -308,7 +333,21 @@ def _rs_team_performance(player_season, season, tc_fraction=None):
     if sp_games > 25:
         raw_score *= 25.0 / sp_games
 
-    return raw_score * (tc_fraction + 0.25)
+    tscar_fraction = 0.0
+    if player_season.team is not None:
+        team_tscar = _team_rs_tscar(player_season.team.id, season.id)
+        if team_tscar > 0:
+            player_agg = PlayerRegulationStats.objects.filter(
+                player_gamelog__player_season=player_season,
+                player_gamelog__game__match__season=season,
+                player_gamelog__game__non_regulation=False,
+                player_gamelog__game__match__week__startswith="Week",
+            ).aggregate(total_oscar=Sum("oscar"), total_dscar=Sum("dscar"))
+            player_tscar = (player_agg["total_oscar"] or 0.0) + (player_agg["total_dscar"] or 0.0)
+            if player_tscar > 0:
+                tscar_fraction = player_tscar / team_tscar
+
+    return raw_score * (0.25 + 0.5 * tc_fraction + 0.5 * tscar_fraction)
 
 
 def _playoff_team_performance(player_season, season, all_series, depths, tc_fraction=None):
@@ -351,7 +390,21 @@ def _playoff_team_performance(player_season, season, all_series, depths, tc_frac
         else:
             return 0.0
 
-    return base * (tc_fraction + 0.25)
+    tscar_fraction = 0.0
+    team_tscar = _team_po_tscar(team.id, season.id)
+    if team_tscar > 0:
+        player_agg = PlayerRegulationStats.objects.filter(
+            player_gamelog__player_season=player_season,
+            player_gamelog__game__match__season=season,
+            player_gamelog__game__non_regulation=False,
+        ).exclude(
+            player_gamelog__game__match__week__startswith="Week"
+        ).aggregate(total_oscar=Sum("oscar"), total_dscar=Sum("dscar"))
+        player_tscar = (player_agg["total_oscar"] or 0.0) + (player_agg["total_dscar"] or 0.0)
+        if player_tscar > 0:
+            tscar_fraction = player_tscar / team_tscar
+
+    return base * (0.25 + 0.5 * tc_fraction + 0.5 * tscar_fraction)
 
 
 @lru_cache(maxsize=None)

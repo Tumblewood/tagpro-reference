@@ -1111,7 +1111,7 @@ def legacy_leaders(req):
             pass
 
     qs = PlayerSeason.objects.filter(legacy_points__isnull=False).select_related(
-        "player", "season__league", "team__franchise"
+        "player", "season__league", "team__franchise", "team__captain", "team__co_captain"
     )
     if season_obj:
         qs = qs.filter(season=season_obj)
@@ -1129,18 +1129,26 @@ def legacy_leaders(req):
         for row in aggregate_player_stats(week="all_playoffs", season=s):
             if row["player_season"].id in ps_id_set:
                 po_tscar_map[row["player_season"].id] = row["tscar"]
-    tc_map = {
-        t["player_season_id"]: t["net_tc_spent"]
-        for t in Transaction.objects.filter(
-            player_season__in=leaders,
-            transaction_type__in=["draft", "prelim"],
-        ).values("player_season_id", "net_tc_spent")
-    }
+
+    txn_rows = Transaction.objects.filter(
+        player_season__in=leaders,
+        transaction_type__in=["draft", "prelim"],
+    ).values("player_season_id", "net_tc_spent", "transaction_type")
+    tc_map = {t["player_season_id"]: t["net_tc_spent"] for t in txn_rows}
+    prelim_ps_ids = {t["player_season_id"] for t in txn_rows if t["transaction_type"] == "prelim"}
 
     for ps in leaders:
         ps.rs_tscar = rs_tscar_map.get(ps.id, 0.0)
         ps.po_tscar = po_tscar_map.get(ps.id, 0.0)
-        ps.draft_tc = tc_map.get(ps.id, 0)
+        if ps.id in prelim_ps_ids:
+            team = ps.team
+            is_captain = team is not None and (
+                (team.captain_id and team.captain_id == ps.player_id)
+                or (team.co_captain_id and team.co_captain_id == ps.player_id)
+            )
+            ps.draft_tc = "C" if is_captain else "P"
+        else:
+            ps.draft_tc = tc_map.get(ps.id, 0)
 
     return render(
         req,

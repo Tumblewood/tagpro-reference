@@ -102,11 +102,15 @@ def calculate_season_legacy_points(modeladmin, request, queryset):
         _season_sp_game_count,
         _season_avg_tc,
         _season_transaction_count,
+        _team_rs_tscar,
+        _team_po_tscar,
     )
     _season_minutes.cache_clear()
     _season_sp_game_count.cache_clear()
     _season_avg_tc.cache_clear()
     _season_transaction_count.cache_clear()
+    _team_rs_tscar.cache_clear()
+    _team_po_tscar.cache_clear()
 
     updated = 0
     skipped = 0
@@ -234,11 +238,15 @@ def calculate_legacy_points_action(modeladmin, request, queryset):
         _season_sp_game_count,
         _season_avg_tc,
         _season_transaction_count,
+        _team_rs_tscar,
+        _team_po_tscar,
     )
     _season_minutes.cache_clear()
     _season_sp_game_count.cache_clear()
     _season_avg_tc.cache_clear()
     _season_transaction_count.cache_clear()
+    _team_rs_tscar.cache_clear()
+    _team_po_tscar.cache_clear()
 
     updated = 0
     skipped = 0
