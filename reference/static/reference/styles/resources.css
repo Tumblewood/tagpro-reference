@@ -1,0 +1,62 @@
+.resources-content {
+    max-width: 50rem;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    color: #222;
+    line-height: 1.7;
+}
+
+.resources-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 2rem 0 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.resources-content h3:first-child {
+    margin-top: 0;
+}
+
+.resources-content p {
+    margin: 0.75rem 0;
+}
+
+.resources-content ul,
+.resources-content ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+}
+
+.resources-content li {
+    margin: 0.4rem 0;
+}
+
+.resources-content a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.resources-content a:hover {
+    text-decoration: underline;
+}
+
+/* Definition lists for glossary */
+.resources-content dl {
+    margin: 0.75rem 0;
+}
+
+.resources-content dt {
+    font-weight: 700;
+    margin-top: 0.75rem;
+}
+
+.resources-content dd {
+    margin: 0.2rem 0 0 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .resources-content {
+        padding: 1.25rem 1rem;
+    }
+}

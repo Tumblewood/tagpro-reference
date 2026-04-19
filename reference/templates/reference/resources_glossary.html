@@ -1,0 +1,100 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Stat Glossary – TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/resources.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Stat Glossary</h1>
+
+<div class="resources-content">
+    <p>This page explains terms you will find on TagPro Reference stat pages. Any terms not defined here should hopefully be self-explanatory.</p>
+
+    <h3>Impact</h3>
+    <dl>
+        <dt>TSCAR</dt>
+        <dd>Total Simple Caps Above Replacement. The equivalent of WAR or VORP but for TagPro. See the <a href="/resources/scar/">SCAR explainer</a> for more details.</dd>
+
+        <dt>OSCAR</dt>
+        <dd>Offensive Simple Caps Above Replacement. The offensive component of TSCAR.</dd>
+
+        <dt>DSCAR</dt>
+        <dd>Defensive Simple Caps Above Replacement. The defensive component of TSCAR.</dd>
+
+        <dt>TEff</dt>
+        <dd>TSCAR per 10 blowout-adjusted minutes. (Blowout-adjusted minutes are minutes but downweighted the same as SCAR is in blowout games.)</dd>
+
+        <dt>OEff</dt>
+        <dd>OSCAR per 10 blowout-adjusted minutes.</dd>
+
+        <dt>DEff</dt>
+        <dd>DSCAR per 10 blowout-adjusted minutes.</dd>
+
+        <dt>BAPM</dt>
+        <dd>Plus-minus weighted by the blowout multiplier from <a href="/resources/scar/">SCAR</a>.</dd>
+    </dl>
+
+    <h3>Offense</h3>
+    <dl>
+        <dt>H/G</dt>
+        <dd>Hold (in seconds) per grab.</dd>
+
+        <dt>Score%</dt>
+        <dd>Percentage of a player's grabs that result in a cap.</dd>
+
+        <dt>Out%</dt>
+        <dd>Percentage of a player's grabs that get out. An "out" is defined as a cap; a hold lasting at least 6 seconds; or a hold lasting at least 4 seconds and ending closer to one's own flag tile than the enemy flag tile.</dd>
+
+        <dt>Prod%</dt>
+        <dd>Percentage of a player's grabs that get out or result in a teammate out from the handoff. The teammate's grab must be within 2 seconds of the drop to count as a handoff.</dd>
+
+        <dt>Free%</dt>
+        <dd>Percentage of a player's grabs that come from regrab. (Regrab is defined as a grab where no defender prevented at all between the grab and the drop preceding it.)</dd>
+
+        <dt>APO</dt>
+        <dd>The average amount of opposing players who were preventing on a player's grabs. A grab against solo D counts as 1, a free grab counts as 0, against 2D counts as 2, etc.</dd>
+    </dl>
+
+    <h3>Defense</h3>
+    <dl>
+        <dt>HA</dt>
+        <dd>Hold against. That is, seconds of hold by the opposing team.</dd>
+
+        <dt>Out%</dt>
+        <dd>Percentage of opposing grabs that get out when the player prevented in the last 1 second before the grab. Outs are defined in the same way as in the offensive version of the stat.</dd>
+
+        <dt>P/OA</dt>
+        <dd>Seconds of prevent divided by outs against (same definition of outs against as used in defensive Out%).</dd>
+
+        <dt>APT</dt>
+        <dd>Average number of teammates, including oneself, who are preventing when the player is preventing. Someone who only plays solo D would have an APT of 1.0; someone who only plays 3D would have an APT of 3.0.</dd>
+
+        <dt>KeyRet</dt>
+        <dd>Key returns. Any return within 2 seconds before a teammate cap is considered a key return.</dd>
+
+        <dt>Saves</dt>
+        <dd>Returns within 6 tiles of the enemy flag tile while no teammate is holding the flag.</dd>
+    </dl>
+
+    <h3>Misc</h3>
+    <dl>
+        <dt>NRTag</dt>
+        <dd>Non-return tags. They can be obtained by holding gates or using the TagPro powerup.</dd>
+
+        <dt>NDPop</dt>
+        <dd>Non-drop pops. They can occur by spiking or falling victim to a non-return tag.</dd>
+
+        <dt>NTPop</dt>
+        <dd>Non-tag pops. Any pop that does not correspond to an opposing tag is counted here. That is, deaths to spikes and green gates. (Detection of opposing tags is only about 99% reliable, not 100%.)</dd>
+
+        <dt>OTCaps</dt>
+        <dd>Caps in overtime or clutch time.</dd>
+
+        <dt>Kept</dt>
+        <dd>Kept flags. Times a player was holding the flag at the end of a game. (Not the end of regulation, as it is defined on TagPro League.)</dd>
+    </dl>
+</div>
+{% endblock %}

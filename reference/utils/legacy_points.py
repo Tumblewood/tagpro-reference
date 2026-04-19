@@ -327,11 +327,10 @@ def _rs_team_performance(player_season, season, tc_fraction=None):
             total_sp_possible += sp1 + sp2
 
     raw_score = total_sp_earned - (4.0 / 15.0) * total_sp_possible
-    raw_score *= 0.25
+    raw_score *= 0.2
 
     sp_games = _season_sp_game_count(season.id)
-    if sp_games > 25:
-        raw_score *= 25.0 / sp_games
+    raw_score *= 30.0 / sp_games
 
     tscar_fraction = 0.0
     if player_season.team is not None:
@@ -347,7 +346,7 @@ def _rs_team_performance(player_season, season, tc_fraction=None):
             if player_tscar > 0:
                 tscar_fraction = player_tscar / team_tscar
 
-    return raw_score * (0.25 + 0.5 * tc_fraction + 0.5 * tscar_fraction)
+    return raw_score * (0.25 + 0.25 * tc_fraction + 0.75 * tscar_fraction)
 
 
 def _playoff_team_performance(player_season, season, all_series, depths, tc_fraction=None):
@@ -404,7 +403,7 @@ def _playoff_team_performance(player_season, season, all_series, depths, tc_frac
         if player_tscar > 0:
             tscar_fraction = player_tscar / team_tscar
 
-    return base * (0.25 + 0.5 * tc_fraction + 0.5 * tscar_fraction)
+    return base * (0.25 + 0.75 * tc_fraction + 0.25 * tscar_fraction)
 
 
 @lru_cache(maxsize=None)

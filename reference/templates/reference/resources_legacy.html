@@ -1,0 +1,54 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Legacy Points Explainer – TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/resources.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Legacy Points Explainer</h1>
+
+<div class="resources-content">
+    <p>The goal of legacy points is to weigh a player's accomplishments in a season, based on the criteria people use when they vote on accolades like the Ball of Fame. Legacy score is calculated using six components:</p>
+
+    <ol>
+        <li><strong>Playoff team performance.</strong> A Super Ball win is worth 20 points, a Super Ball loss is worth 10, a Foci Four loss is worth 5, and a loss earlier in the playoffs is worth 3. (Except in seasons where all teams make playoffs, in which case a first-round loss is worth 0.)</li>
+        <li><strong>Regular season team performance.</strong> A player gets legacy points for each standing point their team earned in games they played, above a baseline of 0.27 per game (4 points out of 15). Prorated to a 30-game season.</li>
+        <li><strong>Regular season TSCAR.</strong> Prorated to a 300-minute season.</li>
+        <li><strong>Playoff TSCAR.</strong> Prorated to 50 minutes if the player played one series or 100 minutes if they played 2+.</li>
+        <li><strong>TC value when drafted.</strong> 1 point per 20% of TC budget. If a season had prelims or playing captains, I used the TCAC to estimate their implied value; for example, in MLTP S36 I assessed each captain's value as 150 minus their TCAC. For players who finished the season rostered, the stat awards a bonus 5 points.</li>
+        <li><strong>Awards.</strong> 20 for MVB, 10 for OBOS/DBOS, 4 for Well Rounded, 2 for All-Star, 2 for Best Offense/Defense Pair, 2 for FU GASP. First place is worth 100% of award value, second is worth 60%, and third is worth 40%. (All-Star treats all recipients as first place.) Only a player's most valuable award placement is counted.</li>
+    </ol>
+
+    <p>The team components have a multiplier based on TC value and TSCAR, so first balls are given more credit for their teams' accomplishments.</p>
+
+    <p>If any of these components are negative, they are replaced with 0. The philosophy of legacy points is that you should be rewarded for your good seasons, not punished for your bad ones. We were all Some Balls once :)</p>
+
+    <h3>How can a season have more legacy points with lower TSCAR and TCs?</h3>
+
+    <p>This most commonly happens for two reasons:</p>
+    <ol>
+        <li>The lower-TSCAR season had a better playoff run, better regular season record, or better award placement.</li>
+        <li>The higher-TSCAR season had more games, so when you prorate to the same number of games, it actually has lower TSCAR.</li>
+    </ol>
+
+    <h3>Are all MLTP seasons counted equally?</h3>
+
+    <p>Yes. Legacy points make no attempt to weight seasons as "stronger" or "weaker". A cap is a cap, a Super Ball is a Super Ball. And yes, I know: [season you played in] was a strong season, [season you skipped] was make-a-wish, and [season before you started] was the plumbers and milkmen era. If you want to weight seasons based on your opinion, I can give you a data export to tinker with.</p>
+
+    <h3>How does career score work?</h3>
+
+    <p>Career score aggregates a player's legacy points across all seasons they played into a single unified score. To balance the value of peak performance and longevity, it uses a cubic scaling factor. Here's how that works:</p>
+    <ol>
+        <li>Cube the legacy score of each majors season the player played.</li>
+        <li>Add up the cubes.</li>
+        <li>Take the cube root of that number. You now have career score.</li>
+    </ol>
+
+    <p>For example: say you play two seasons and earn legacy scores of 50 and 60. 50<sup>3</sup> + 60<sup>3</sup> = 341,000. The cube root of 341,000 is about 70. So your career score is about 70.</p>
+
+    <p>Please note: besides all the other ways career score couldn't possibly capture a player's whole legacy, it only has data for MLTP S10 and onward. I don't have pre-S10 data, sorry. Maybe one day I will. (Especially with help...)</p>
+</div>
+{% endblock %}

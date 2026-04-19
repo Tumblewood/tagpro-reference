@@ -19,7 +19,7 @@
                         {{ league_data.season.name }}
                     </a>
                 </h2>
-                
+
                 <table class="standings-table">
                     <thead>
                         <tr>
@@ -60,5 +60,29 @@
                 No league standings available.
             </div>
         {% endfor %}
+
+        {% if other_leagues %}
+        <div class="league-standings homepage-card">
+            <h2 class="season-title">Other Leagues</h2>
+            <ul class="homepage-card-links">
+                {% for entry in other_leagues %}
+                <li>
+                    <a href="{% season_url entry.season 'home' %}">{{ entry.league.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="league-standings homepage-card">
+            <h2 class="season-title">Resources</h2>
+            <ul class="homepage-card-links">
+                <li><a href="{% url 'resources_glossary' %}">Stat Glossary</a></li>
+                <li><a href="{% url 'resources_faq' %}">FAQ</a></li>
+                <li><a href="{% url 'resources_scar' %}">SCAR Explainer</a></li>
+                <li><a href="{% url 'resources_legacy' %}">Legacy Points Explainer</a></li>
+                <li><a href="{% url 'import_data' %}">Contributor Login</a></li>
+            </ul>
+        </div>
     </div>
 {% endblock %}

@@ -126,6 +126,37 @@
     color: #6c757d;
 }
 
+/* Other Leagues and Resources cards */
+.homepage-card {
+    overflow: hidden;
+    padding: 0 0 0.5rem;
+}
+
+.homepage-card-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.homepage-card-links li {
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+}
+
+.homepage-card-links a {
+    color: #07b;
+    text-decoration: none;
+}
+
+.homepage-card-links a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .standings-container {

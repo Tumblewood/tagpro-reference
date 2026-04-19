@@ -1,0 +1,43 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}Site FAQ – TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/resources.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Site FAQ</h1>
+
+<div class="resources-content">
+    <h3>What data does TagPro Reference have?</h3>
+    <p>TagPro Reference has stats, standings, rosters, scores, and other data for NALTP seasons 10 and onward. Data is more comprehensive and accurate for MLTP and for more recent seasons. For a detailed breakdown, see below.</p>
+    <ul>
+        <li>Regular season stats, standings, and scores: all seasons, but with some missing data and inaccuracies before NALTP S34 and especially before S21. No MLTP games are missing completely, but some are missing stats.</li>
+        <li>Playoff stats, brackets, and scores: all of NALTP S34–38 and all of MLTP except for <a href="https://docs.google.com/spreadsheets/d/1ZyLY56c-6LhK4WBVzv9SLiXzxp4ZQJW12pum26mXbmc/edit?gid=1495850416#gid=1495850416">these games</a>; most of NALTP S21 and S30–33; almost none from other seasons.</li>
+        <li>Awards: all seasons, but with some missing data and inaccuracies before NALTP S36.</li>
+        <li>Transactions: draft TC values for all MLTP seasons; add/drops for MLTP S31–38 only.</li>
+        <li>Rosters and captains: all seasons, but with some missing data and inaccuracies before NALTP S31.</li>
+        <li>Logos: most franchises but not all; also, some logos are not the best version for web display.</li>
+    </ul>
+    <p>(Oh, and all of Fender's Game and Frozen Balls are onboarded too.)</p>
+
+    <h3>How do I report a mistake or inquire more about the site?</h3>
+    <p>Message me (Tumblewood) on Discord.</p>
+
+    <h3>How can I contribute?</h3>
+    <p>The main area that anyone can contribute is by entering missing data and fixing incorrect data. This includes games, VOD links, rosters, logos, and transactions. I have simple data entry / correction forms that I can give you access to. Reach out to me (Tumblewood) on Discord if you're interested. And if you want to help in some other way, just let me know.</p>
+
+    <h3>When will [other season/league/data point] get onboarded?</h3>
+    <p>Depends, are you going to help?!</p>
+    <p>If you want a season onboarded, give me the tagpro.eu links for every game. I'll give you back a file with the extracted information and ask you to correct any mistakes. Correction should take under an hour, 15 minutes if you're fast. After you correct it, I'll import it to the site.</p>
+    <p>If you don't do anything to help the process along, I'll get to it when I get to it. My backlog is long. Existing data still has a lot of holes, and then there's ELTP, OLTP, OTI, NFTL, and early seasons of NALTP. But unless someone helps the process along, it could take years before I get to all that. Just letting you know.</p>
+
+    <h3>How does SCAR work?</h3>
+    <p>See the <a href="/resources/scar/">SCAR explainer</a> for details.</p>
+
+    <h3>Where does the data come from?</h3>
+    <p>Almost all stats come from <a href="https://tagpro.eu">tagpro.eu</a>. Other data is compiled from <a href="https://www.tagproleague.com">TagPro League</a>, season hubs, and wherever else I could find it.</p>
+</div>
+{% endblock %}

@@ -181,13 +181,13 @@ STAT_COLUMNS = {
             "key": "hold_per_10",
             "label": "Hold/10",
             "type": "number",
-            "tooltip": "Hold (sec) per 10 minutes",
+            "tooltip": "Hold per 10 minutes",
         },
         {
             "key": "hold_per_grab",
             "label": "H/G",
             "type": "number",
-            "tooltip": "Hold (sec) per Grab",
+            "tooltip": "Hold per Grab",
         },
         {
             "key": "score_percent",
@@ -199,13 +199,13 @@ STAT_COLUMNS = {
             "key": "out_pct_off",
             "label": "Out%",
             "type": "number",
-            "tooltip": "% of grabs resulting in an out (6+ sec hold, or 4+ and drop on own side of map)",
+            "tooltip": "% of grabs that result in an out",
         },
         {
             "key": "prod_pct",
             "label": "Prod%",
             "type": "number",
-            "tooltip": "% of grabs resulting in an out or a good handoff",
+            "tooltip": "% of grabs that result in an out or a good handoff",
         },
         {
             "key": "free_pct",
@@ -232,43 +232,43 @@ STAT_COLUMNS = {
             "key": "prev_per_10",
             "label": "Prev/10",
             "type": "number",
-            "tooltip": "Prevent (sec) per 10 minutes",
+            "tooltip": "Prevent per 10 minutes",
         },
         {
             "key": "ha_per_10",
             "label": "HA/10",
             "type": "number",
-            "tooltip": "Hold against (sec) per 10 minutes",
+            "tooltip": "Hold against per 10 minutes",
         },
         {
             "key": "out_pct_def",
             "label": "Out%",
             "type": "number",
-            "tooltip": "% of opponent grabs (while player is preventing) that get out",
+            "tooltip": "% of grabs against that get out",
         },
         {
             "key": "p_oa",
             "label": "P/OA",
             "type": "number",
-            "tooltip": "Prevent (sec) / outs against",
+            "tooltip": "Prevent / outs against",
         },
         {
             "key": "apt",
             "label": "APT",
             "type": "number",
-            "tooltip": "Avg preventing teammates — 1 means playing solo D, 2 means 2D, etc.",
+            "tooltip": "Avg # of preventing teammates when player is preventing",
         },
         {
             "key": "key_returns",
             "label": "KeyRet",
             "type": "number",
-            "tooltip": "Returns within 2 seconds of teammate cap",
+            "tooltip": "Returns within 2 seconds before teammate cap",
         },
         {
             "key": "saves",
             "label": "Saves",
             "type": "number",
-            "tooltip": "Returns within 6 tiles of enemy flag while own team is not holding",
+            "tooltip": "Returns within 6 tiles of enemy flag while team is not holding",
         },
     ],
     "misc": [
@@ -304,7 +304,7 @@ STAT_COLUMNS = {
             "key": "ntpops",
             "label": "NTPop",
             "type": "number",
-            "tooltip": "Non-tag pops (pops to spike or green gate)",
+            "tooltip": "Non-tag pops",
         },
         {
             "key": "ot_caps",
@@ -375,10 +375,10 @@ STAT_COLUMNS = {
 
 def homepage(req):
     """Homepage with standings for all leagues."""
-    leagues = League.objects.filter(ordering__lt=20, gamemode="CTF").order_by("ordering")
+    featured_leagues = League.objects.filter(ordering__lt=20, gamemode="CTF").order_by("ordering")
 
-    # Fetch latest season for each league in one query
-    all_seasons = Season.objects.filter(league__in=leagues).select_related("league").order_by(
+    # Fetch latest season for each featured league in one query
+    all_seasons = Season.objects.filter(league__in=featured_leagues).select_related("league").order_by(
         F("end_date").desc(nulls_last=True)
     )
     latest_season_by_league = {}
@@ -387,7 +387,7 @@ def homepage(req):
             latest_season_by_league[season.league_id] = season
 
     league_standings = []
-    for league in leagues:
+    for league in featured_leagues:
         latest_season = latest_season_by_league.get(league.id)
         if not latest_season:
             continue
@@ -406,13 +406,53 @@ def homepage(req):
             }
         )
 
+    # Other leagues: those not shown in the standings
+    other_leagues_qs = League.objects.exclude(id__in=featured_leagues).order_by("ordering")
+    other_seasons = Season.objects.filter(league__in=other_leagues_qs).select_related("league").order_by(
+        F("end_date").desc(nulls_last=True)
+    )
+    latest_other_season_by_league = {}
+    for season in other_seasons:
+        if season.league_id not in latest_other_season_by_league:
+            latest_other_season_by_league[season.league_id] = season
+
+    other_leagues = []
+    for league in other_leagues_qs:
+        latest_season = latest_other_season_by_league.get(league.id)
+        if latest_season:
+            other_leagues.append({
+                "league": league,
+                "season": latest_season,
+            })
+
     return render(
         req,
         "reference/homepage.html",
         {
             "league_standings": league_standings,
+            "other_leagues": other_leagues,
         },
     )
+
+
+def resources_faq(req):
+    """FAQ resource page."""
+    return render(req, "reference/resources_faq.html", {})
+
+
+def resources_glossary(req):
+    """Stat glossary resource page."""
+    return render(req, "reference/resources_glossary.html", {})
+
+
+def resources_scar(req):
+    """SCAR explainer resource page."""
+    return render(req, "reference/resources_scar.html", {})
+
+
+def resources_legacy(req):
+    """Legacy points explainer resource page."""
+    return render(req, "reference/resources_legacy.html", {})
 
 
 def search_results(req, query):

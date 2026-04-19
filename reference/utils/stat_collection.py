@@ -414,12 +414,10 @@ def parse_stats_from_eu_match(
             p["grab_time"] = time
             p["last_hold_end"] = None
 
-            # Free grab: <3s since last teammate drop AND no opponent was preventing
-            # at all during that window (including at the moment of the drop)
+            # Free grab: grab when no opponent prevented at all since the last drop
             drop_info = last_team_drop_info.get(p["team"])
             is_free_grab = (
                 drop_info is not None
-                and time - drop_info["drop_time"] < 3 * 60
                 and not drop_info["prevent_occurred"]
             )
             if is_free_grab:
@@ -1317,7 +1315,7 @@ def calculate_scar(season: Season):
         oscar = (
             0.6 * hold_minutes
             + 0.5 * (stat.captures or 0)
-            - 0.2 * (stat.caps_off_regrab or 0)
+            - 0.1 * (stat.caps_off_regrab or 0)
             - 0.05 * (stat.grabs_off_regrab or 0)
             + 0.05 * (stat.powerups or 0)
             + 0.025 * (stat.productive_grabs or 0)

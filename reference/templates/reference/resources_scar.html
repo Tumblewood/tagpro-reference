@@ -1,0 +1,59 @@
+{% extends "reference/base.html" %}
+{% load static %}
+
+{% block title %}SCAR Explainer – TagPro Reference{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/resources.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1 class="page-title">SCAR Explainer</h1>
+
+<div class="resources-content">
+    <p>SCAR is an all-in-one impact stat, along the lines of GASP and NISH. But it has some major differences from its predecessors. Here's the calculation process:</p>
+
+    <ol>
+        <li>For each game, give positive SCAR to the winning team and negative SCAR to the losing team equal to half the margin of victory. If Team A beats Team B by 2 caps, A gets credited with 1 SCAR and B with -1 SCAR, to match the 2-cap difference.</li>
+        <li>Each team splits the SCAR 4 ways among their players. So Team A's players would get 0.25 SCAR and Team B's would get -0.25.</li>
+        <li>Adjust each player's SCAR by comparing their own stats to the averages of the team. This adjustment is zero-sum, so the team's total SCAR stays the same.</li>
+        <li>Give every player a bonus 0.6 SCAR per 10 minutes played, to recognize the value of availability. (An average player is about 0.6 caps per game better than a callup or 5th ball.)</li>
+    </ol>
+
+    <p>That's the simple version. Some other details to know:</p>
+
+    <ul>
+        <li>SCAR is an additive stat, like caps or returns. If you add up a player's SCAR in every game they played, you'll get their total SCAR for the season.</li>
+        <li>SCAR is divided into offensive and defensive components (OSCAR and DSCAR, their total being TSCAR). Usually they are split equally, but in a more offensive game, we allot more OSCAR, and in a more defensive game, we allot more DSCAR. Offense vs. defense split is determined by total caps and hold compared to league-wide averages.</li>
+        <li>In blowout games, SCAR is weighted slightly lower. The first three caps of margin of victory count fully, then the fourth cap counts for 80%, the fifth for 60%, and the rest for 40%. So SCAR from a 10-2 blowout counts just 70% as much as SCAR from a close game.</li>
+        <li>SCAR can be negative. Negative SCAR means you played statistically worse than a 5th ball or callup would be expected to play.</li>
+    </ul>
+
+    <p>The formula for the OSCAR stat adjustment is:</p>
+    
+    <dd>0.6 * hold (min) + 0.5 * caps - 0.1 * caps off regrab + 0.025 * productive grabs - 0.05 * grabs off regrab + 0.05 * powerups</dd>
+
+    <p>And the formula for the DSCAR adjustment is:</p>
+    
+    <dd>0.125 * returns + 0.025 * non-return tags + 0.2 * saves + 0.05 * key returns - 0.05 * pops + 0.05 * prevent (min) - 0.02 * outs against + 0.05 * powerups</dd>
+
+    <p>It's not perfect, but it does pretty well in my opinion.</p>
+
+    <h3>Why is SCAR designed this way?</h3>
+
+    <p>The goal of SCAR is to assess individual performance. The guiding principle of SCAR's design is that team performance must be the sum of individual performances. If a team wins, someone must have been playing well, and if they lose, someone must have been playing badly.</p>
+
+    <p>Other impact stats, like GASP, ignore teammate stats and consider team performance crudely or not at all. This leads to a couple issues:</p>
+
+    <ol>
+        <li>Teams are rewarded for getting more counting stats in a way that doesn't lead to more winning. For example, compare ArcTag IceCaps to the Blockettes in <a href="/season/MLTP-S36">MLTP S36</a>. The IceCaps grinded out low-scoring wins and earned a bye. The Blockettes played high-scoring games all season and finished fourth. The Blockettes accumulated more counting stats, so their players had better <a href="https://www.tagproleague.com/MLTP/stats">GASP</a> than AIC's players, even though AIC performed better as a team.</li>
+        <li>Players tend to get more caps and prevent with a better supporting cast. In stats like GASP and NISH, a top team will tend to look like all of their players are first or second balls, and a bottom team will tend to look like all their players are third or fourth balls. This happens even for teams whose records are far from exceptional.</li>
+    </ol>
+
+    <p>Another aspect that sets SCAR apart is its framing as an above-replacement stat. This addresses the challenges of both counting stats and rate stats. Typical counting stats reward players for playing more minutes, even if they were low-quality minutes; meanwhile, rate stats often allow players to top the leaderboard from just one good week as a sub. The above-replacement approach recognizes the value of availability while not rewarding empty minutes.</p>
+
+    <p>The next main decision is which stats to include. I selected the stats and their weights based on what was most predictive in my <a href="https://www.reddit.com/r/TagPro/comments/1s26cvw/season_1_ranked_ratings/">ranked ratings</a>. Then I tweaked them a little to bring the results from recent seasons more in line with community sentiment.</p>
+
+    <p>Finally, the rationale for the blowout adjustment is: season-long leaderboards should reward performance in games that matter, not stat farming in uncompetitive games. (This adjustment is especially important in NLTP, where bench games get out of hand nearly every week.)</p>
+</div>
+{% endblock %}
