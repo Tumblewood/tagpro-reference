@@ -157,6 +157,10 @@
     text-decoration: underline;
 }
 
+.homepage-card-links .coming-soon {
+    color: #222;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .standings-container {

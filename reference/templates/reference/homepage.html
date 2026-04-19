@@ -75,6 +75,14 @@
         {% endif %}
 
         <div class="league-standings homepage-card">
+            <h2 class="season-title">More Stat Pages</h2>
+            <ul class="homepage-card-links">
+                <li><a href="{% url 'legacy_leaders' %}">Legacy Points</a></li>
+                <li class="coming-soon">Career Score <em>(coming soon)</em></li>
+            </ul>
+        </div>
+
+        <div class="league-standings homepage-card">
             <h2 class="season-title">Resources</h2>
             <ul class="homepage-card-links">
                 <li><a href="{% url 'resources_glossary' %}">Stat Glossary</a></li>
