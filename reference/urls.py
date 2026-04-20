@@ -51,7 +51,7 @@ urlpatterns = [
     path("resources/scar/", views.resources_scar, name="resources_scar"),
     path("resources/legacy/", views.resources_legacy, name="resources_legacy"),
     path("leaders/legacy/", views.legacy_leaders, name="legacy_leaders"),
-    # path("leaders/career/", views.career_leaders, name="career_leaders"),
+    path("leaders/career/", views.career_leaders, name="career_leaders"),
     path("player/<path:player_name>", views.player_history, name="player_history"),
     path("team/<int:team_id>/", views.team_season, name="team_season"),
     path(

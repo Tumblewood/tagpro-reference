@@ -1334,6 +1334,15 @@ def career_leaders(req):
         elif ps.team_id in champ_finalist_team_ids:
             sb_l_map[pid] += 1
 
+    # Ball of Fame recipients (MLTP only, 1st place) — map player_id to season name
+    bof_seasons = {}
+    for ar in AwardReceived.objects.filter(
+        award__name__icontains="Ball of Fame",
+        season__league__abbr="MLTP",
+        placement=1,
+    ).select_related("season"):
+        bof_seasons.setdefault(ar.player_id, []).append(ar.season.name)
+
     # Attach computed data to each top-100 entry
     for i, entry in enumerate(top_100):
         pid = entry["player_id"]
@@ -1345,6 +1354,7 @@ def career_leaders(req):
         entry["allstar"] = allstar_map.get(pid, 0)
         entry["sb_w"] = sb_w_map.get(pid, 0)
         entry["sb_l"] = sb_l_map.get(pid, 0)
+        entry["bof"] = ", ".join(bof_seasons[pid]) if pid in bof_seasons else ""
 
     # Players with ≥1 MLTP season for the dropdown (alphabetical, including those with no legacy points)
     all_mltp_players = (
