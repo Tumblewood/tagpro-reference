@@ -1339,7 +1339,6 @@ def career_leaders(req):
     for ar in AwardReceived.objects.filter(
         award__name__icontains="Ball of Fame",
         season__league__abbr="MLTP",
-        placement=1,
     ).select_related("season"):
         bof_seasons.setdefault(ar.player_id, []).append(ar.season.name)
 
