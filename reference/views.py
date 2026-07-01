@@ -6,7 +6,7 @@ import urllib.request
 from datetime import datetime, date, timedelta
 from bs4 import BeautifulSoup
 from django.conf import settings as django_settings
-from django.http import JsonResponse
+from django.http import JsonResponse, Http404
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.db.models import Count, F, OuterRef, Subquery, IntegerField, Exists, Sum, FloatField, Value
@@ -603,6 +603,19 @@ def search_results(req, query):
             and len(players) == 0,
         },
     )
+
+
+def latest_season_redirect(req, league_id):
+    """Redirect a league shortcut (e.g. /MLTP/) to that league's latest season."""
+    league = get_object_or_404(League, id=league_id)
+    latest_season = (
+        Season.objects.filter(league=league)
+        .order_by(F("end_date").desc(nulls_last=True))
+        .first()
+    )
+    if latest_season is None:
+        raise Http404(f"No seasons found for {league.abbr}")
+    return redirect("season_home", season_id=latest_season.id)
 
 
 def league_history_by_abbr(req, league_abbr):

@@ -3,6 +3,10 @@ from . import views
 
 urlpatterns = [
     path("", views.homepage, name="homepage"),
+    # League abbreviation shortcuts to the latest season (ids are fixed: MLTP=1, mLTP=2, NLTP=3)
+    path("MLTP/", views.latest_season_redirect, {"league_id": 1}, name="latest_season_mltp"),
+    path("mLTP/", views.latest_season_redirect, {"league_id": 2}, name="latest_season_mltp_minor"),
+    path("NLTP/", views.latest_season_redirect, {"league_id": 3}, name="latest_season_nltp"),
     path("search/<str:query>/", views.search_results, name="search_results"),
     path("league/<int:league_id>/", views.league_history, name="league_history"),
     path(
