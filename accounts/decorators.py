@@ -3,17 +3,19 @@ from django.http import HttpResponseForbidden
 from django.shortcuts import get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.conf import settings
-from reference.models import Season
+from reference.models import Season, Match
 
 
 def data_entry_required(
-    view_func=None, *, season_param="season_id", allow_new_data_only=False
+    view_func=None, *, season_param="season_id", match_param=None, allow_new_data_only=False
 ):
     """
     Decorator that checks if user has appropriate data entry permissions for a season.
 
     Args:
         season_param: Name of the URL parameter containing the season ID
+        match_param: Name of the URL parameter containing a match ID. When set,
+            the season is resolved from the match rather than from season_param.
         allow_new_data_only: If True, 'entry' level users can access this view
     """
 
@@ -21,11 +23,14 @@ def data_entry_required(
         @wraps(view_func)
         @login_required
         def _wrapped_view(request, *args, **kwargs):
-            # Get season from URL parameters
-            season_id = kwargs.get(season_param)
-            if season_id:
-                season = get_object_or_404(Season, id=season_id)
-
+            # Resolve the season from a match id or a season id in the URL
+            if match_param:
+                match = get_object_or_404(Match, id=kwargs.get(match_param))
+                season = match.season
+            else:
+                season_id = kwargs.get(season_param)
+                season = get_object_or_404(Season, id=season_id) if season_id else None
+            if season is not None:
                 # Check permissions based on the view type
                 if allow_new_data_only:
                     # For new data entry views - entry level can access

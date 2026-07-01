@@ -6,6 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}TagPro Reference{% endblock %}</title>
+    <meta property="og:title" content="{% block og_title %}TagPro Reference{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Stats and records for competitive TagPro leagues including MLTP, mLTP, and NLTP.{% endblock %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:site_name" content="TagPro Reference">
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'reference/favicon.png' %}">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" type="image/png" href="{% static 'reference/favicon.png' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700">
     <link rel="stylesheet" href="{% static 'reference/styles/base.css' %}">

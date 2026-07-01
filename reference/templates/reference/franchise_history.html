@@ -3,6 +3,8 @@
 {% load url_tags %}
 
 {% block title %}{{ franchise.name }} - TagPro Reference{% endblock %}
+{% block og_title %}{{ franchise.name }} - TagPro Reference{% endblock %}
+{% block og_description %}Season-by-season history for the {{ franchise.name }} franchise.{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">

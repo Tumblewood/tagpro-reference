@@ -3,6 +3,8 @@
 {% load url_tags %}
 
 {% block title %}{{ team.name }} - TagPro Reference{% endblock %}
+{% block og_title %}{{ team.name }} - TagPro Reference{% endblock %}
+{% block og_description %}{{ team.name }} stats and roster for {{ season.name }}.{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">

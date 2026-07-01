@@ -3,6 +3,8 @@
 {% load url_tags %}
 
 {% block title %}{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }} - TagPro Reference{% endblock %}
+{% block og_title %}{{ match.team1.abbr }} vs. {{ match.team2.abbr }} - {{ match.week }} - TagPro Reference{% endblock %}
+{% block og_description %}{{ match.team1.name }} vs. {{ match.team2.name }}, {{ match.week }} of {{ season.name }}.{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/match.css' %}">
@@ -16,7 +18,7 @@
         Season: <a href="{% season_url season 'home' %}">{{ season.name }}</a>
         | Date: {{ match.date|date:"n/j" }}
         {% if match.vod %} | <a href="{{ match.vod }}" target="_blank">vod</a>{% endif %}
-        {% if user.is_staff %}
+        {% if can_edit %}
         | <a href="{% url 'edit_match' match.id %}">Edit</a>
         {% endif %}
     </div>

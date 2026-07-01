@@ -3,6 +3,8 @@
 {% load url_tags %}
 
 {% block title %}{{ season.name }} Awards - TagPro Reference{% endblock %}
+{% block og_title %}{{ season.name }} Awards - TagPro Reference{% endblock %}
+{% block og_description %}Season awards and honors for {{ season.name }}.{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">

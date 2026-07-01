@@ -1600,6 +1600,9 @@ def match_view(req, match_id):
             "game_options": game_options,
             "selected_game": selected_game,
             "map_info": map_info,
+            "can_edit": (
+                req.user.is_authenticated and req.user.can_edit_season(season)
+            ),
         },
     )
 
@@ -2840,7 +2843,7 @@ def _handle_edit_match_update(request, match):
     infer_playoff_series(season)
 
 
-@data_entry_required
+@data_entry_required(match_param="match_id")
 def edit_match(request, match_id):
     match = get_object_or_404(
         Match.objects.select_related("season", "team1", "team2"), id=match_id
