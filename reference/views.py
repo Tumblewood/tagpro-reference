@@ -1787,8 +1787,10 @@ def import_from_eus(request):
                 # Get dropdown options
                 team_seasons = TeamSeason.objects.filter(season__in=season_group)
                 matches = Match.objects.filter(season__in=season_group)
-                player_seasons = PlayerSeason.objects.filter(season__in=season_group)
-                all_players = Player.objects.all()
+                player_seasons = PlayerSeason.objects.filter(
+                    season__in=season_group
+                ).order_by(Lower("player__name"))
+                all_players = Player.objects.all().order_by(Lower("name"))
 
                 return render(
                     request,
@@ -1932,8 +1934,8 @@ def import_from_eus(request):
                     matches = Match.objects.filter(season__in=season_group)
                     player_seasons = PlayerSeason.objects.filter(
                         season__in=season_group
-                    )
-                    all_players = Player.objects.all()
+                    ).order_by(Lower("player__name"))
+                    all_players = Player.objects.all().order_by(Lower("name"))
 
                     return render(
                         request,
