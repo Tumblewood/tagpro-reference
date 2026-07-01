@@ -807,6 +807,12 @@ def process_game_stats(game: Game):
         game.team2_standing_points = 0
     else:
         # Single game logic
+        # A cap logged just past the 10-minute mark can make a decisive game look like it
+        # went to OT (e.g. a 6-3 win with a cap at 10:00.05). A genuine OT game is decided
+        # by a single golden goal, so if the final margin is more than 1 cap, treat it as a
+        # regulation result regardless of any post-regulation cap.
+        if abs(game.team1_score - game.team2_score) > 1:
+            game.had_ot = False
         if game.team1_score > game.team2_score:
             if game.had_ot:
                 game.outcome = "OTW"
