@@ -1,4 +1,5 @@
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional, Set, Union
+from collections import defaultdict
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib import messages
@@ -68,12 +69,58 @@ STAT_FIELDS = [
 ]
 
 
+def get_superseded_gamelog_ids(stats_query) -> Set[int]:
+    """
+    Identify gamelogs that should not count toward a player's aggregated totals because
+    they belong to a superseded match.
+
+    For normalization purposes, a player is never supposed to have more than one match of
+    stats counted in a single season-week. When a player appears in multiple matches that
+    share the same week name in the same season (e.g. because they were traded mid-week and
+    played for two teams on different days), only the most recent match by date counts
+    toward their aggregated week/season/career totals.
+
+    Returns the set of PlayerGameLog ids belonging to the older, superseded matches. These
+    are per (player_season, match), so a match that is superseded for a traded player still
+    counts for teammates who only played that one match in the week.
+    """
+    rows = stats_query.values(
+        "player_gamelog",
+        "player_gamelog__player_season",
+        "player_gamelog__game__match",
+        "player_gamelog__game__match__week",
+        "player_gamelog__game__match__date",
+    )
+
+    # (player_season id, week) -> {match id: [match date, [gamelog id, ...]]}
+    grouped = defaultdict(lambda: defaultdict(lambda: [None, []]))
+    for row in rows:
+        key = (
+            row["player_gamelog__player_season"],
+            row["player_gamelog__game__match__week"],
+        )
+        entry = grouped[key][row["player_gamelog__game__match"]]
+        entry[0] = row["player_gamelog__game__match__date"]
+        entry[1].append(row["player_gamelog"])
+
+    superseded: Set[int] = set()
+    for matches in grouped.values():
+        if len(matches) <= 1:
+            continue
+        latest_match_id = max(matches, key=lambda mid: matches[mid][0])
+        for match_id, (_, gamelog_ids) in matches.items():
+            if match_id != latest_match_id:
+                superseded.update(gamelog_ids)
+    return superseded
+
+
 def aggregate_player_stats(
     league: Optional[League] = None,
     season: Optional[Season] = None,
     franchise: Optional[Franchise] = None,
     player: Optional[Player] = None,
     week: Optional[str] = None,
+    normalize_duplicate_weeks: Optional[bool] = None,
 ) -> List[Dict[str, Union[PlayerSeason, int]]]:
     """
     Aggregate player stats from PlayerStats through PlayerGameLog, grouped by PlayerSeason.
@@ -84,10 +131,17 @@ def aggregate_player_stats(
         franchise: Filter to specific franchise
         player: Filter to specific player
         week: Filter to specific week (can be special values like 'all_regular_season', 'all_playoffs', 'all_season')
+        normalize_duplicate_weeks: If a player has stats in multiple matches sharing a
+            season-week, count only the most recent match by date (see
+            get_superseded_gamelog_ids). Defaults to True for player-centric aggregations
+            and False when scoped to a franchise, since team season and match pages should
+            still show both teams' stats.
 
     Returns:
         List of dictionaries containing aggregated stats for each PlayerSeason
     """
+    if normalize_duplicate_weeks is None:
+        normalize_duplicate_weeks = franchise is None
     # Start with base query
     stats_query = PlayerRegulationStats.objects.select_related(
         "player_gamelog__player_season__player",
@@ -120,6 +174,14 @@ def aggregate_player_stats(
 
     # Only include regulation games (exclude games on home maps, etc.)
     stats_query = stats_query.filter(player_gamelog__game__non_regulation=False)
+
+    # No player should have more than one match counted per season-week; when a player
+    # played multiple matches in the same week (e.g. traded mid-week), only the most
+    # recent counts toward their aggregated totals.
+    if normalize_duplicate_weeks:
+        superseded_ids = get_superseded_gamelog_ids(stats_query)
+        if superseded_ids:
+            stats_query = stats_query.exclude(player_gamelog_id__in=superseded_ids)
 
     # Create aggregation dictionary dynamically
     aggregation_dict = {field: models.Sum(field) for field in STAT_FIELDS}

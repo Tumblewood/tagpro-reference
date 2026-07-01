@@ -170,7 +170,7 @@
 <h1 class="page-title">Edit Match</h1>
 
 <div class="page-info-primary">
-    <a href="{% url 'edit_season' season.id %}">← {{ season.name }}</a>
+    <a href="{% season_url season 'schedule' %}">← {{ season.name }}</a>
     | <a href="{% url 'match_view' match.id %}">View match</a>
 </div>
 
