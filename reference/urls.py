@@ -54,6 +54,12 @@ urlpatterns = [
     path("resources/glossary/", views.resources_glossary, name="resources_glossary"),
     path("resources/scar/", views.resources_scar, name="resources_scar"),
     path("resources/legacy/", views.resources_legacy, name="resources_legacy"),
+    path("leaders/custom/", views.custom_leaders, name="custom_leaders"),
+    path(
+        "leaders/custom/data/<int:season_id>/",
+        views.custom_leaders_data,
+        name="custom_leaders_data",
+    ),
     path("leaders/legacy/", views.legacy_leaders, name="legacy_leaders"),
     path("leaders/career/", views.career_leaders, name="career_leaders"),
     path("player/<path:player_name>", views.player_history, name="player_history"),

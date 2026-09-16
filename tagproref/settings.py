@@ -77,6 +77,21 @@ DATABASES = {
     }
 }
 
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+    },
+    # Serialized custom-leaderboard payloads. Each entry is roughly 150KB of gzipped JSON, so
+    # MAX_ENTRIES is kept small to bound memory use on a small VPS even if every season gets
+    # requested.
+    "leaderboard": {
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
+        "LOCATION": "leaderboard-payloads",
+        "TIMEOUT": 900,
+        "OPTIONS": {"MAX_ENTRIES": 8, "CULL_FREQUENCY": 2},
+    },
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

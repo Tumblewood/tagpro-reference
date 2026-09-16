@@ -1,4 +1,5 @@
 from typing import List
+import gzip
 import json
 import os
 import re
@@ -6,7 +7,8 @@ import urllib.request
 from datetime import datetime, date, timedelta
 from bs4 import BeautifulSoup
 from django.conf import settings as django_settings
-from django.http import JsonResponse, Http404
+from django.core.cache import caches
+from django.http import HttpResponse, JsonResponse, Http404
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db import models, transaction
 from django.db.models import Count, F, OuterRef, Subquery, IntegerField, Exists, Sum, FloatField, Value
@@ -25,6 +27,17 @@ from reference.utils.display_info import (
     get_match_team_stats,
     calculate_rate_stats,
     build_playoff_bracket,
+    build_week_options,
+    sort_week_names,
+)
+from reference.utils.custom_leaders import (
+    build_season_payload,
+    get_weight_groups,
+    DEFAULT_REPLACEMENT_LEVEL,
+    FORMULA_OPTIONS,
+    PAYLOAD_VERSION,
+    GASP_PRESET_WEIGHTS,
+    SCAR_PRESET_WEIGHTS,
 )
 from reference.utils.data_entry import (
     prepopulate_form,
@@ -90,26 +103,6 @@ def build_roster_players(team):
     )
 
 
-PLAYOFF_ORDER = {
-    "Upper Bracket QF": "ZZZZ4",
-    "Upper Bracket SF": "ZZZZ5",
-    "Lower Bracket Round 1": "ZZZZ5",
-    "Fibonacci Fifteen": "ZZZZ6",
-    "Play-in": "ZZZZ6",
-    "Lower Bracket QF": "ZZZZ6",
-    "Equidistant Eight": "ZZZZ7",
-    "Secant Six": "ZZZZ7",
-    "Spherical Six": "ZZZZ7",
-    "Upper Bracket Final": "ZZZZ7",
-    "Lower Bracket SF": "ZZZZ7",
-    "Foci Four": "ZZZZ8",
-    "Lower Bracket Final": "ZZZZ8",
-    "Super Ball": "ZZZZ9",
-    "Muper Ball": "ZZZZ9",
-    "Nuper Ball": "ZZZZ9",
-    "Buper Ball": "ZZZZ9",
-    "Grand Final": "ZZZZ9",
-}
 STAT_VIEW_OPTIONS = [
     {"value": "basic", "label": "Basic"},
     {"value": "counting", "label": "Counting"},
@@ -805,11 +798,7 @@ def season_schedule(req, season_id):
             weeks[week] = []
         weeks[week].append(match)
 
-    # Sort weeks with special playoff ordering
-    def week_sort_key(week_name):
-        return PLAYOFF_ORDER.get(week_name, week_name)
-
-    sorted_weeks = sorted(weeks.keys(), key=week_sort_key)
+    sorted_weeks = sort_week_names(weeks.keys())
 
     # Build schedule data
     schedule_data = []
@@ -874,24 +863,7 @@ def season_stats(req, season_id):
     if stat_view not in STAT_COLUMNS:
         stat_view = "basic"
 
-    # Get all weeks for this season to build dropdown
-    all_weeks = (
-        Match.objects.filter(season=season).values_list("week", flat=True).distinct()
-    )
-
-    def week_sort_key(week_name):
-        return PLAYOFF_ORDER.get(week_name, week_name)
-
-    sorted_weeks = sorted(all_weeks, key=week_sort_key)
-
-    # Build week options
-    week_options = [
-        {"value": "all_regular_season", "label": "All Regular Season"},
-        {"value": "all_playoffs", "label": "All Playoffs"},
-        {"value": "all_season", "label": "All RS + Playoffs"},
-    ]
-    for week in sorted_weeks:
-        week_options.append({"value": week, "label": week})
+    week_options = build_week_options(season)
 
     stats = aggregate_player_stats(season=season, week=week_filter)
     stats = calculate_rate_stats(stats)
@@ -1149,6 +1121,72 @@ def team_season(req, team_id):
             "has_transactions": has_transactions,
         },
     )
+
+
+def custom_leaders(req):
+    """
+    Custom leaderboard builder.
+
+    This view renders controls only. Every leaderboard is computed in the browser from the
+    JSON served by custom_leaders_data, so this page runs no stat queries at all and its URL
+    carries no parameters (leaderboard settings live in the URL fragment).
+    """
+    leagues = League.objects.order_by("ordering", "name")
+    seasons_by_league = {}
+    for season in Season.objects.order_by(F("end_date").desc(nulls_last=True)):
+        seasons_by_league.setdefault(str(season.league_id), []).append(
+            {"id": season.id, "name": season.name}
+        )
+
+    return render(
+        req,
+        "reference/custom_leaders.html",
+        {
+            "leagues": [
+                league for league in leagues if str(league.id) in seasons_by_league
+            ],
+            "seasons_by_league": seasons_by_league,
+            "weight_groups": get_weight_groups(),
+            "formula_options": FORMULA_OPTIONS,
+            "scar_preset_weights": SCAR_PRESET_WEIGHTS,
+            "gasp_preset_weights": GASP_PRESET_WEIGHTS,
+            "default_replacement_level": DEFAULT_REPLACEMENT_LEVEL,
+        },
+    )
+
+
+def custom_leaders_data(req, season_id):
+    """
+    Serve one season's per-gamelog stats for client-side leaderboard math.
+
+    The serialized, gzipped bytes are cached so that repeated hits (including from crawlers)
+    cost nothing. The cache alias is deliberately capped at a handful of entries so this can
+    never grow without bound.
+    """
+    season = get_object_or_404(Season, id=season_id)
+
+    cache = caches["leaderboard"]
+    cache_key = f"custom-leaders-payload-v{PAYLOAD_VERSION}-{season.id}"
+    compressed = cache.get(cache_key)
+    if compressed is None:
+        payload = json.dumps(build_season_payload(season), separators=(",", ":"))
+        compressed = gzip.compress(payload.encode("utf-8"), 6)
+        cache.set(cache_key, compressed)
+
+    accepts_gzip = "gzip" in req.META.get("HTTP_ACCEPT_ENCODING", "")
+    if accepts_gzip:
+        response = HttpResponse(compressed, content_type="application/json")
+        response["Content-Encoding"] = "gzip"
+    else:
+        response = HttpResponse(
+            gzip.decompress(compressed), content_type="application/json"
+        )
+
+    # The same URL can answer with either gzipped or plain bytes, so any cache in front of
+    # this needs to key on the request's encoding.
+    response["Vary"] = "Accept-Encoding"
+    response["Cache-Control"] = "public, max-age=900"
+    return response
 
 
 def legacy_leaders(req):

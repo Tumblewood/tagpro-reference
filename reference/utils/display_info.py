@@ -1,4 +1,5 @@
 from typing import Dict, List, Optional, Set, Union
+import re
 from collections import defaultdict
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.admin.views.decorators import staff_member_required
@@ -10,6 +11,7 @@ from datetime import datetime, date
 from ..models import (
     Game,
     League,
+    Match,
     PlayerRegulationStats,
     PlayerSeason,
     Season,
@@ -67,6 +69,66 @@ STAT_FIELDS = [
     "ba_time_played",
     "ba_pm",
 ]
+
+
+PLAYOFF_ORDER = {
+    "Upper Bracket QF": "ZZZZ4",
+    "Upper Bracket SF": "ZZZZ5",
+    "Lower Bracket Round 1": "ZZZZ5",
+    "Fibonacci Fifteen": "ZZZZ6",
+    "Play-in": "ZZZZ6",
+    "Lower Bracket QF": "ZZZZ6",
+    "Equidistant Eight": "ZZZZ7",
+    "Secant Six": "ZZZZ7",
+    "Spherical Six": "ZZZZ7",
+    "Upper Bracket Final": "ZZZZ7",
+    "Lower Bracket SF": "ZZZZ7",
+    "Foci Four": "ZZZZ8",
+    "Lower Bracket Final": "ZZZZ8",
+    "Super Ball": "ZZZZ9",
+    "Muper Ball": "ZZZZ9",
+    "Nuper Ball": "ZZZZ9",
+    "Buper Ball": "ZZZZ9",
+    "Grand Final": "ZZZZ9",
+}
+
+TRAILING_NUMBER_PATTERN = re.compile(r"^(.*?)(\d+)\s*$")
+
+AGGREGATE_WEEK_OPTIONS = [
+    {"value": "all_regular_season", "label": "All Regular Season"},
+    {"value": "all_playoffs", "label": "All Playoffs"},
+    {"value": "all_season", "label": "All RS + Playoffs"},
+]
+
+
+def _week_sort_key(week_name: str):
+    """
+    Sort key for a week name: its text, then any trailing number read as an integer.
+
+    The trailing number has to be compared numerically or "Week 10" sorts before "Week 2".
+    Playoff rounds map through PLAYOFF_ORDER to "ZZZZ<n>" first, which sorts them after every
+    "Week <n>" while keeping the rounds themselves in bracket order.
+    """
+    base = PLAYOFF_ORDER.get(week_name, week_name)
+    match = TRAILING_NUMBER_PATTERN.match(base)
+    if match:
+        return (match.group(1), int(match.group(2)))
+    return (base, 0)
+
+
+def sort_week_names(week_names) -> List[str]:
+    """Sort week names chronologically, placing playoff rounds after regular season weeks."""
+    return sorted(week_names, key=_week_sort_key)
+
+
+def build_week_options(season: Season) -> List[Dict[str, str]]:
+    """Build the week dropdown options for a season: the three aggregates, then each week."""
+    week_names = sort_week_names(
+        Match.objects.filter(season=season).values_list("week", flat=True).distinct()
+    )
+    return list(AGGREGATE_WEEK_OPTIONS) + [
+        {"value": week, "label": week} for week in week_names
+    ]
 
 
 def get_superseded_gamelog_ids(stats_query) -> Set[int]:
@@ -328,6 +390,9 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         player_stat["ret_per_10"] = round(returns / minutes * 10, 1) if minutes > 0 else 0
         player_stat["prev_per_10"] = round(prevent_sec / minutes * 10) if minutes > 0 else 0
         player_stat["ha_per_10"] = round(hold_against_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["nrt_per_10"] = (
+            round((tags - returns) / minutes * 10, 1) if minutes > 0 else 0
+        )
 
         # New percentage stats
         player_stat["out_pct_off"] = round(outs / grabs * 100, 1) if grabs > 0 else 0

@@ -1,0 +1,115 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+
+{% block title %}Custom Leaderboards - TagPro Reference{% endblock %}
+{% block og_title %}Custom Leaderboards - TagPro Reference{% endblock %}
+{% block og_description %}Build your own TagPro leaderboard: pick a season, pick a formula, and set your own weight on every stat.{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/forms.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/custom-leaders.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">Custom Leaderboards</h1>
+
+    <div class="season-selector-container">
+        <div class="season-selector">
+            <label for="league-dropdown">League: </label>
+            <select id="league-dropdown">
+                {% for league in leagues %}
+                    <option value="{{ league.id }}">{{ league.abbr }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector">
+            <label for="season-dropdown">Season: </label>
+            <select id="season-dropdown"></select>
+        </div>
+
+        <div class="season-selector">
+            <label for="week-dropdown">Week: </label>
+            <select id="week-dropdown"></select>
+        </div>
+
+        <div class="season-selector">
+            <label for="formula-dropdown">Formula: </label>
+            <select id="formula-dropdown">
+                {% for formula in formula_options %}
+                    <option value="{{ formula.value }}">{{ formula.label }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector" id="replacement-field" hidden>
+            <label for="replacement-input" title="SCAR given to every player per 10 minutes played, to recognize the value of availability">Replacement level: </label>
+            <input type="number" id="replacement-input" step="0.1" value="{{ default_replacement_level }}">
+        </div>
+    </div>
+
+    <div class="leaderboard-options">
+        <label><input type="checkbox" id="blowout-checkbox" checked> Blowout adjustment</label>
+        <label><input type="checkbox" id="overtime-checkbox"> Include overtime stats</label>
+        <div class="leaderboard-option-group">
+            <label for="preset-dropdown">Preset:</label>
+            <select id="preset-dropdown">
+                <option value="">Load a preset…</option>
+                <option value="scar">SCAR default weights</option>
+                <option value="gasp">GASP default weights</option>
+                <option value="clear">Clear all weights</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="weight-grid">
+        {% for group in weight_groups %}
+            <div class="form-section weight-section">
+                <h3 class="weight-section-title">{{ group.label }}</h3>
+                <div class="weight-inputs">
+                    {% for stat in group.stats %}
+                        <div class="weight-input-cell{% if stat.hide_in_scar %} weight-cell-hide-in-scar{% endif %}">
+                            <label for="weight-{{ stat.key }}"{% if stat.tooltip %} title="{{ stat.tooltip }}"{% endif %}>{{ stat.label }}</label>
+                            <input type="number" step="any" class="weight-input" id="weight-{{ stat.key }}" data-stat="{{ stat.key }}">
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="leaderboard-actions">
+        <button type="button" id="generate-button" class="btn-submit">Generate</button>
+        <button type="button" id="share-button" class="btn-secondary">Copy share link</button>
+        <span id="leaderboard-status" class="leaderboard-status"></span>
+    </div>
+
+    <div id="leaderboard-results" hidden>
+        <div class="stat-table-container">
+            <table class="stat-table" id="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th class="team-name" data-sortable data-type="text">Player</th>
+                        <th data-sortable data-type="text">Team</th>
+                        <th data-sortable data-type="number">Score</th>
+                        <th data-sortable data-type="number" id="per-ten-header">Score/10</th>
+                        <th data-sortable data-type="number" title="Places higher (+) or lower (-) this player ranks by Score than by the site's TSCAR">vs TSCAR</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    {{ seasons_by_league|json_script:"seasons-by-league-data" }}
+    {{ scar_preset_weights|json_script:"scar-preset-data" }}
+    {{ gasp_preset_weights|json_script:"gasp-preset-data" }}
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script src="{% static 'reference/js/custom-leaders.js' %}"></script>
+{% endblock %}

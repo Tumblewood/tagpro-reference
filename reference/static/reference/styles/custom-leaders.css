@@ -1,0 +1,174 @@
+/* Custom leaderboard builder (/leaders/custom/) */
+
+/* base.css makes <main> a column flex container with align-items: center, so its children are
+   sized shrink-to-fit. Full-width blocks have to claim their width explicitly. */
+.weight-grid,
+.leaderboard-options,
+.leaderboard-actions {
+    width: 100%;
+}
+
+/* The replacement-level field sits in the same row as the dropdowns, so its input has to match
+   what season.css gives .season-selector select. */
+.season-selector-container {
+    align-items: flex-end;
+}
+
+.season-selector input[type="number"] {
+    width: 5.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.leaderboard-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1.25rem 0;
+    font-size: 0.875rem;
+}
+
+/* Keeps a label and its control on the same line when the row wraps. */
+.leaderboard-options label,
+.leaderboard-option-group {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+}
+
+.leaderboard-options select {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+}
+
+/* Weight inputs */
+
+/* Sections flow across the page and wrap, each growing to share the row it lands on. */
+.weight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.weight-section,
+.weight-input-cell,
+.weight-input {
+    box-sizing: border-box;
+}
+
+.weight-section {
+    flex: 1 1 30rem;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.weight-section-title {
+    margin: 0 0 0.625rem;
+    font-size: 0.9375rem;
+    color: #345;
+}
+
+/* A grid, so every row of inputs lands on the same column tracks. */
+.weight-inputs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+    gap: 0.5rem 0.75rem;
+}
+
+.weight-input-cell {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1875rem;
+}
+
+/* Labels wrap to a second line; the fixed height keeps every input in a row aligned. */
+.weight-input-cell label {
+    display: flex;
+    align-items: flex-end;
+    min-height: 2.25rem;
+    font-size: 0.75rem;
+    line-height: 1.1;
+    color: #555;
+}
+
+/* .weight-input-cell sets display: flex, and an author rule beats the user agent's
+   [hidden] { display: none }, so hiding a cell has to be spelled out here. */
+.weight-input-cell[hidden] {
+    display: none;
+}
+
+.weight-input {
+    width: 100%;
+    max-width: 5.5rem;
+    min-width: 0;
+    padding: 0.25rem 0.375rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.8125rem;
+}
+
+.weight-input:focus {
+    outline: none;
+    border-color: #57c;
+}
+
+/* Actions and status */
+
+.leaderboard-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+/* Match the Generate button next to it, which uses .btn-submit sizing. */
+#share-button {
+    padding: 0.625rem 1.875rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.leaderboard-actions button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.leaderboard-status {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.leaderboard-status.status-error {
+    color: #700;
+    font-weight: bold;
+}
+
+#leaderboard-results .stat-table {
+    margin: 0 auto;
+    min-width: 30rem;
+}
+
+@media (max-width: 720px) {
+    .weight-section {
+        flex-basis: 100%;
+    }
+
+    .weight-inputs {
+        grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+    }
+
+    #leaderboard-results .stat-table {
+        min-width: 0;
+    }
+}
