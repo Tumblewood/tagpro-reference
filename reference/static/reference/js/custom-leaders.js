@@ -14,7 +14,10 @@ const ROW_META_COLUMNS = 4;
 // SCAR preset reads as 0.6 * hold rather than 0.01 * hold.
 const TICK_FIELDS = ["time_played", "hold", "prevent", "hold_against"];
 
-const CONFIG_VERSION = 1;
+const CONFIG_VERSION = 2;
+
+const FORMULA_BY_INITIAL = { a: "additive", s: "scar", g: "gasp" };
+const DEFAULT_REPLACEMENT = 0.6;
 
 // Must match PAYLOAD_VERSION in reference/utils/custom_leaders.py. Sent with the data request so
 // a shape change busts both the browser cache and the server cache.
@@ -640,35 +643,98 @@ function applySettings(config) {
     return config.w;
 }
 
+/**
+ * Stat keys in the order the form renders them, which is the order share links index into.
+ *
+ * Only ever append to the catalog in custom_leaders.py; reordering or removing a stat shifts
+ * these indices and silently changes what an existing link means. CONFIG_VERSION is the
+ * backstop when that has to happen anyway.
+ */
+function shareStatKeys() {
+    return Array.from(document.querySelectorAll(".weight-input")).map(
+        (input) => input.dataset.stat
+    );
+}
+
+const AGGREGATE_WEEK_TOKENS = {
+    all_regular_season: "R",
+    all_playoffs: "P",
+    all_season: "A",
+};
+
+function weekToken(week) {
+    if (AGGREGATE_WEEK_TOKENS[week]) {
+        return AGGREGATE_WEEK_TOKENS[week];
+    }
+    // A named week travels as its index in this season's week list.
+    const index = state.payload ? state.payload.weeks.indexOf(week) : -1;
+    return index >= 0 ? String(index) : "R";
+}
+
+/** Resolve a share link's week token once the season's weeks are known. */
+function resolveWeekToken(token, payload) {
+    const named = Object.keys(AGGREGATE_WEEK_TOKENS).find(
+        (key) => AGGREGATE_WEEK_TOKENS[key] === token
+    );
+    if (named) {
+        return named;
+    }
+    return payload.weeks[Number(token)] || "all_regular_season";
+}
+
+/**
+ * Pack the settings into a short, URL-safe string.
+ *
+ * Weights are the bulk of it, so they travel as `index:value` against shareStatKeys() rather
+ * than by name -- "productive_grabs" costs 16 characters every time it appears. Zero weights
+ * are already absent (readWeights drops them), and the whole thing is plain URL-safe text, so
+ * there is no base64 inflating it by a third.
+ */
 function encodeConfig(settings) {
-    const config = {
-        v: CONFIG_VERSION,
-        s: Number(settings.seasonId),
-        w: settings.week,
-        f: settings.formula,
-        b: settings.blowoutAdjustment ? 1 : 0,
-        o: settings.includeOvertime ? 1 : 0,
-        r: settings.replacement,
-        wt: settings.weights,
-    };
-    const bytes = new TextEncoder().encode(JSON.stringify(config));
-    let binary = "";
-    bytes.forEach(function (byte) {
-        binary += String.fromCharCode(byte);
-    });
-    return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+    const keys = shareStatKeys();
+    const weights = Object.keys(settings.weights)
+        .map((key) => keys.indexOf(key) + ":" + settings.weights[key])
+        .join(",");
+    return [
+        CONFIG_VERSION,
+        settings.seasonId,
+        weekToken(settings.week),
+        settings.formula.charAt(0),
+        settings.blowoutAdjustment ? 1 : 0,
+        settings.includeOvertime ? 1 : 0,
+        settings.formula === "scar" ? settings.replacement : "",
+        weights,
+    ].join("~");
 }
 
 function decodeConfig(encoded) {
     try {
-        const base64 = encoded.replace(/-/g, "+").replace(/_/g, "/");
-        const binary = atob(base64);
-        const bytes = new Uint8Array(binary.length);
-        for (let i = 0; i < binary.length; i += 1) {
-            bytes[i] = binary.charCodeAt(i);
+        const parts = encoded.split("~");
+        if (Number(parts[0]) !== CONFIG_VERSION || parts.length !== 8) {
+            return null;
         }
-        const config = JSON.parse(new TextDecoder().decode(bytes));
-        return config && config.v === CONFIG_VERSION ? config : null;
+        const keys = shareStatKeys();
+        const weights = {};
+        for (const pair of parts[7] ? parts[7].split(",") : []) {
+            const [index, value] = pair.split(":");
+            const key = keys[Number(index)];
+            if (key && !isNaN(parseFloat(value))) {
+                weights[key] = parseFloat(value);
+            }
+        }
+        const formula = FORMULA_BY_INITIAL[parts[3]];
+        if (!formula) {
+            return null;
+        }
+        return {
+            s: Number(parts[1]),
+            w: parts[2],
+            f: formula,
+            b: parts[4] === "1" ? 1 : 0,
+            o: parts[5] === "1" ? 1 : 0,
+            r: parts[6] === "" ? DEFAULT_REPLACEMENT : parseFloat(parts[6]),
+            wt: weights,
+        };
     } catch (error) {
         return null;
     }
@@ -723,8 +789,11 @@ function populateWeeks(payload, selected) {
                 '<option value="' + escapeHtml(option.value) + '">' + escapeHtml(option.label) + "</option>"
         )
         .join("");
-    if (selected && options.some((option) => option.value === selected)) {
-        weekDropdown.value = selected;
+    if (selected) {
+        const week = resolveWeekToken(selected, payload);
+        if (options.some((option) => option.value === week)) {
+            weekDropdown.value = week;
+        }
     }
 }
 
@@ -867,6 +936,29 @@ function onPresetChange(event) {
     scheduleRecompute();
 }
 
+/**
+ * Apply the settings held in the URL fragment, if it holds a valid one.
+ *
+ * Also runs on hashchange: pasting a different share link into the address bar of a page that
+ * is already open is not a navigation, so nothing reloads on its own. Our own updates go
+ * through history.replaceState, which does not fire hashchange, so this cannot loop.
+ */
+async function applyHashConfig() {
+    const hash = window.location.hash;
+    if (!hash.startsWith("#c=")) {
+        return false;
+    }
+    const config = decodeConfig(hash.slice(3));
+    if (!config) {
+        return false;
+    }
+    const week = applySettings(config);
+    if (await loadSeason(String(config.s), week)) {
+        generate();
+    }
+    return true;
+}
+
 async function init() {
     state.seasonsByLeague = JSON.parse(
         document.getElementById("seasons-by-league-data").textContent
@@ -915,17 +1007,10 @@ async function init() {
     populateSeasons();
     onFormulaChange();
 
-    const hash = window.location.hash;
-    if (hash.startsWith("#c=")) {
-        const config = decodeConfig(hash.slice(3));
-        if (config) {
-            const week = applySettings(config);
-            const loaded = await loadSeason(String(config.s), week);
-            if (loaded) {
-                generate();
-            }
-            return;
-        }
+    window.addEventListener("hashchange", applyHashConfig);
+
+    if (await applyHashConfig()) {
+        return;
     }
 
     // Default landing state: newest season of the first league, SCAR weights preloaded.

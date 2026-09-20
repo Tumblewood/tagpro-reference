@@ -79,17 +79,20 @@ SCAR_OUTPUT_FIELD = "tscar"
 # derived stats that belong to the same side of the game, so the form reads the way the season
 # stats pages do rather than splitting on how a number happens to be produced.
 #
-# Three columns in RAW_STAT_FIELDS are deliberately absent because they are only meaningful as
-# the denominator of a derived stat: total_pups_in_game (Pup%), preventing_opponents (APO) and
-# preventing_teammates (APT). They are still sent in the payload so those can be computed.
+# Some columns in RAW_STAT_FIELDS are deliberately absent. total_pups_in_game (Pup%),
+# preventing_opponents (APO) and preventing_teammates (APT) are only meaningful as the
+# denominator of a derived stat, and kept_flags is not something anyone wants to weight. All of
+# them are still sent in the payload so the derived stats can be computed.
 #
 # "derived" marks a stat computed by calculate_rate_stats rather than summed from the database.
 # Derived stats are unavailable under SCAR, which is a per-game linear model: a ratio taken from
 # a single game is undefined whenever its denominator is zero.
 #
-# "hide_in_scar" marks a counting stat SCAR already accounts for. Minutes are paid out by the
-# replacement level, and caps for/against are team outcomes that the per-game regression already
-# pins to the blowout-adjusted cap differential. Weighting either would double-count.
+# "hide_in_scar" marks a counting stat that does not belong in a SCAR weight vector. Minutes are
+# already paid out by the replacement level, and caps for/against are team outcomes the per-game
+# regression pins to the blowout-adjusted cap differential, so weighting either would
+# double-count. Hold against measures what the opposition did rather than a contribution SCAR
+# can credit to the player.
 STAT_GROUPS = [
     {
         "label": "Basic",
@@ -120,7 +123,6 @@ STAT_GROUPS = [
             {"key": "productive_grabs", "label": "Productive Grabs"},
             {"key": "outs", "label": "Outs"},
             {"key": "near_caps", "label": "Near Caps"},
-            {"key": "kept_flags", "label": "Kept Flags"},
             {"key": "grabs_per_10", "label": "Grabs / 10", "derived": True},
             {"key": "caps_per_10", "label": "Caps / 10", "derived": True},
             {"key": "hold_per_10", "label": "Hold / 10 (sec)", "derived": True},
@@ -182,7 +184,7 @@ STAT_GROUPS = [
             {"key": "key_returns", "label": "Key Returns"},
             {"key": "quick_returns", "label": "Quick Returns"},
             {"key": "returns_in_base", "label": "Returns in Base"},
-            {"key": "hold_against", "label": "Hold Against (min)"},
+            {"key": "hold_against", "label": "Hold Against (min)", "hide_in_scar": True},
             {"key": "grabs_against", "label": "Grabs Against"},
             {"key": "outs_against", "label": "Outs Against"},
             {"key": "ret_per_10", "label": "Returns / 10", "derived": True},
