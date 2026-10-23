@@ -1,3 +1,9 @@
-Django>=4.2
+# Install/refresh with scripts/deploy.sh. To upgrade within these ranges:
+#   uv pip install --python .venv -U -r requirements.txt
+Django>=5.2,<5.3
 python-dotenv>=1.0.0
-tagpro_eu
+requests>=2.32
+beautifulsoup4>=4.12
+Pillow>=11
+tagpro-eu>=1.1.2
+gunicorn>=23
