@@ -1,0 +1,33 @@
+[Unit]
+Description=tagpro-reference (tagpro-reference.com)
+After=network.target
+
+[Service]
+Type=notify
+NotifyAccess=main
+User=sites
+Group=sites
+WorkingDirectory=/home/tagpro-reference
+RuntimeDirectory=tagpro-reference
+ExecStart=/home/tagpro-reference/.venv/bin/gunicorn tagproref.wsgi:application \
+    --bind unix:/run/tagpro-reference/gunicorn.sock --umask 007 \
+    --workers 3 --threads 2 --timeout 300 --max-requests 2000 --max-requests-jitter 200 --no-control-socket
+ExecReload=/bin/kill -s HUP $MAINPID
+KillMode=mixed
+Restart=always
+RestartSec=3
+
+# Sandboxing: the app can only write inside its own directory (and only to
+# files the 'sites' user owns there).
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/tagpro-reference
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+
+[Install]
+WantedBy=multi-user.target

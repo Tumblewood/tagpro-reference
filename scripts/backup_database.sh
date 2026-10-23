@@ -20,9 +20,10 @@ BACKUP_FILE="$BACKUP_DIR/db_$DATE.sqlite3"
 # Create backup directory if it doesn't exist
 mkdir -p "$BACKUP_DIR"
 
-# Create the backup
+# Create the backup (sqlite's .backup gives a consistent copy even if the site
+# writes to the database mid-backup, unlike cp)
 echo "Creating backup: $BACKUP_FILE"
-cp "$DB_PATH" "$BACKUP_FILE"
+sqlite3 "$DB_PATH" ".backup '$BACKUP_FILE'"
 echo "✓ Backup created successfully"
 
 # Tag first backup of the month
