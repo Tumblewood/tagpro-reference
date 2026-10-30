@@ -67,13 +67,7 @@
                 <tbody>
                     {% for recipient in award_data.recipients %}
                     <tr>
-                        <td class="position">
-                            {% award_icon_url award_data.award_type season.league recipient.placement as placement_icon_url %}
-                            {% if placement_icon_url %}
-                                <img src="{{ placement_icon_url }}" alt="" class="award-icon-inline">
-                            {% endif %}
-                            <strong>{{ recipient.placement }}</strong>
-                        </td>
+                        <td class="position"><strong>{{ recipient.placement }}</strong></td>
                         {% if award_data.award_type.recipient_type == 'team' %}
                         <td class="player-name">
                             {% if recipient.team %}
