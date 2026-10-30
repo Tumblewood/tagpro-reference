@@ -14,6 +14,12 @@ main {
     justify-content: flex-start;
     align-items: center;
 }
+/* With align-items: center, main's children shrink to fit their content but can grow past the
+   screen if that content is wide. Capping them keeps scroll containers nested inside them
+   (like .stat-table-container) from growing too, so wide tables scroll instead of overflowing. */
+main > * {
+    max-width: 100%;
+}
 * {
     font-family: inherit;
 }
@@ -375,6 +381,14 @@ td.team-name {
 
 .admin-link:hover {
     color: #fff;
+}
+
+/* Medal, ribbon, or trophy shown next to text, e.g. in a table cell or header */
+.award-icon-inline {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin-right: 0.25rem;
 }
 
 @media screen and (max-width: 720px) {

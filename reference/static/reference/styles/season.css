@@ -113,10 +113,9 @@
 
 /* Awards section styles */
 .awards-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem 2rem;
     max-width: 60rem;
     margin: 1rem 0 2rem;
     padding: 0 1rem;
@@ -125,16 +124,24 @@
 .award-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #f8f9fa;
-    border-radius: 0.25rem;
-    border: 1px solid #dee2e6;
+    gap: 0.75rem;
 }
 
 .award-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    flex-shrink: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+@media screen and (max-width: 720px) {
+    .awards-container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+.team-name .award-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .award-item a {

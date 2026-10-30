@@ -62,7 +62,12 @@
                         </a>
                     </td>
                     <td>{{ history.rank }}</td>
-                    <td>{{ history.playoff_finish }}</td>
+                    <td>
+                        {% if history.playoff_finish|is_championship %}
+                            <img src="{% trophy_icon_url history.season.league %}" alt="{{ history.season.league.abbr }} championship" class="award-icon-inline">
+                        {% endif %}
+                        {{ history.playoff_finish }}
+                    </td>
                     <td>{{ history.record }}</td>
                     <td>
                         {% if history.captain %}

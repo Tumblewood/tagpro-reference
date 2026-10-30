@@ -49,7 +49,7 @@
                 {% for history in history_data %}
                 <tr>
                     <td class="team-name"{% if history.player_season.season.end_date %} data-sort-value="{{ history.player_season.season.end_date.isoformat }}"{% endif %}>
-                        <a href="{% season_url history.player_season.season 'home' %}">
+                        <a href="{% player_season_url player history.player_season.season %}">
                             {{ history.player_season.season.name }}
                         </a>
                     </td>
@@ -84,14 +84,24 @@
         </table>
     </div>
 
-    {% if awards %}
+    {% if awards or championships %}
     <h2 class="section-header-first">Awards</h2>
 
     <div class="awards-container">
+        {% for championship in championships %}
+        <div class="award-item">
+            <img src="{% trophy_icon_url championship.season.league %}" alt="{{ championship.season.league.abbr }} championship" class="award-icon">
+            <span>
+                <a href="{% season_url championship.season 'home' %}">{{ championship.season.name }}</a>
+                - Champion with <a href="{% url 'team_season' championship.team.id %}">{{ championship.team.name }}</a>
+            </span>
+        </div>
+        {% endfor %}
         {% for award_received in awards %}
         <div class="award-item">
-            {% if award_received.award.icon %}
-            <img src="/static/reference/{{ award_received.award.icon }}" alt="{{ award_received.award.name }}" class="award-icon">
+            {% award_icon_url award_received.award award_received.season.league award_received.placement as icon_url %}
+            {% if icon_url %}
+            <img src="{{ icon_url }}" alt="{{ award_received.award.name }}" class="award-icon">
             {% endif %}
             <span>
                 <a href="{% season_url award_received.season 'home' %}">{{ award_received.season.name }}</a>

@@ -495,7 +495,10 @@ class AwardType(models.Model):
     name = models.CharField(max_length=255, help_text="Full name of the award")
     abbr = models.CharField(max_length=100, help_text="Abbreviation for the award name")
     icon = models.CharField(
-        max_length=100, blank=True, null=True, help_text="Link to the award's icon"
+        max_length=100,
+        blank=True,
+        null=True,
+        help_text="Base name of the award's icon in static/reference/awards, e.g. medal_mvb or ribbon_heart",
     )
     ordering = models.IntegerField()
     legacy_value = models.FloatField(

@@ -28,10 +28,13 @@
                     <th data-sortable data-type="date">End Date</th>
                     <th data-sortable data-type="number">Teams</th>
                     <th data-sortable data-type="text" class="logo-col"></th>
-                    <th data-sortable data-type="text">Champion</th>
-                    <th data-sortable data-type="text">MVB</th>
-                    <th data-sortable data-type="text">OBOS</th>
-                    <th data-sortable data-type="text">DBOS</th>
+                    {% award_icon_url mvb_award league as mvb_icon_url %}
+                    {% award_icon_url obos_award league as obos_icon_url %}
+                    {% award_icon_url dbos_award league as dbos_icon_url %}
+                    <th data-sortable data-type="text"><img src="{% trophy_icon_url league %}" alt="" class="award-icon-inline">Champion</th>
+                    <th data-sortable data-type="text">{% if mvb_icon_url %}<img src="{{ mvb_icon_url }}" alt="" class="award-icon-inline">{% endif %}MVB</th>
+                    <th data-sortable data-type="text">{% if obos_icon_url %}<img src="{{ obos_icon_url }}" alt="" class="award-icon-inline">{% endif %}OBOS</th>
+                    <th data-sortable data-type="text">{% if dbos_icon_url %}<img src="{{ dbos_icon_url }}" alt="" class="award-icon-inline">{% endif %}DBOS</th>
                 </tr>
             </thead>
             <tbody>

@@ -26,9 +26,16 @@ from reference.utils.display_info import (
     calculate_match_box_score,
     get_match_team_stats,
     calculate_rate_stats,
+    calculate_precise_stats,
     build_playoff_bracket,
     build_week_options,
     sort_week_names,
+    get_player_gamelogs,
+    get_qualifying_minutes,
+    rank_stat_values,
+    is_playoff_only_season,
+    CHAMPIONSHIP_ROUNDS,
+    CHAMPIONSHIP_FINISHES,
 )
 from reference.utils.custom_leaders import (
     build_season_payload,
@@ -56,6 +63,7 @@ from reference.utils.stat_collection import (
     STAT_FIELDS,
 )
 from reference.utils.data_correction import merge_players, merge_player_seasons
+from reference.utils.award_icons import award_icon_path
 from reference.models import (
     Season,
     TeamSeason,
@@ -364,6 +372,224 @@ STAT_COLUMNS = {
         },
     ],
 }
+TWO_DECIMAL_STAT_KEYS = {"oeff", "deff", "teff"}
+ONE_DECIMAL_STAT_KEYS = {"oscar", "dscar", "tscar", "ba_pm"}
+
+STAT_COLUMN_BY_KEY = {
+    column["key"]: column for columns in STAT_COLUMNS.values() for column in columns
+}
+
+# Gamelog columns that aren't on the season stats page. Single games have too few grabs for
+# percentages to mean much, so gamelogs show counts instead. KeyRet is shortened to save width.
+GAMELOG_EXTRA_COLUMNS = {
+    "outs": {
+        "key": "outs",
+        "label": "Out",
+        "type": "number",
+        "tooltip": "Grabs that resulted in an out",
+    },
+    "productive_grabs": {
+        "key": "productive_grabs",
+        "label": "Prod",
+        "type": "number",
+        "tooltip": "Grabs that resulted in an out or a good handoff",
+    },
+    "grabs_off_regrab": {
+        "key": "grabs_off_regrab",
+        "label": "Free",
+        "type": "number",
+        "tooltip": "Uncontested grabs",
+    },
+    "grabs_against": {
+        "key": "grabs_against",
+        "label": "GA",
+        "type": "number",
+        "tooltip": "Grabs against",
+    },
+    "outs_against": {
+        "key": "outs_against",
+        "label": "OA",
+        "type": "number",
+        "tooltip": "Outs against",
+    },
+    "key_returns": {
+        "key": "key_returns",
+        "label": "KR",
+        "type": "number",
+        "tooltip": "Returns within 2 seconds before teammate cap",
+    },
+}
+GAMELOG_COLUMN_BY_KEY = {**STAT_COLUMN_BY_KEY, **GAMELOG_EXTRA_COLUMNS}
+GAMELOG_COLUMN_KEYS = {
+    "basic": [c["key"] for c in STAT_COLUMNS["basic"] if c["key"] != "teff"],
+    "counting": [c["key"] for c in STAT_COLUMNS["counting"]],
+    "offense": [
+        "time_played_min",
+        "grabs",
+        "captures",
+        "hold_sec",
+        "hold_per_grab",
+        "outs",
+        "productive_grabs",
+        "grabs_off_regrab",
+        "apo",
+    ],
+    "defense": [
+        "time_played_min",
+        "returns",
+        "prevent_sec",
+        "grabs_against",
+        "outs_against",
+        "apt",
+        "key_returns",
+        "saves",
+    ],
+    "misc": [c["key"] for c in STAT_COLUMNS["misc"]],
+    "impact": [c["key"] for c in STAT_COLUMNS["impact"]],
+}
+GAMELOG_COLUMNS = {
+    view: [GAMELOG_COLUMN_BY_KEY[key] for key in keys]
+    for view, keys in GAMELOG_COLUMN_KEYS.items()
+}
+
+# Scatter plots on the player season page for each stat view, as (y-axis, x-axis) stats
+STAT_VIEW_CHARTS = {
+    "basic": [("captures", "hold_sec"), ("returns", "prevent_sec"), ("oscar", "dscar")],
+    "counting": [("captures", "hold_sec"), ("returns", "prevent_sec"), ("captures", "grabs")],
+    "offense": [
+        ("caps_per_10", "hold_per_10"),
+        ("caps_per_10", "grabs_per_10"),
+        ("prod_pct", "apo"),
+    ],
+    "defense": [
+        ("ret_per_10", "prev_per_10"),
+        ("oa_per_10", "ga_per_10"),
+        ("out_pct_def", "apt"),
+    ],
+    "misc": [
+        ("tp_per_10", "pup_percent"),
+        ("tags_per_10", "pops_per_10"),
+        ("nrt_per_10", "ndp_per_10"),
+    ],
+    "impact": [("oscar", "dscar"), ("oeff", "deff"), ("tscar", "ba_pm")],
+}
+CHART_AXIS_LABELS = {
+    "oscar": "OSCAR",
+    "dscar": "DSCAR",
+    "tscar": "TSCAR",
+    "oeff": "OEff",
+    "deff": "DEff",
+    "ba_pm": "Blowout-Adjusted +/-",
+    "captures": "Caps",
+    "grabs": "Grabs",
+    "hold_sec": "Hold",
+    "returns": "Returns",
+    "prevent_sec": "Prevent",
+    "caps_per_10": "Caps/10",
+    "hold_per_10": "Hold/10",
+    "grabs_per_10": "Grabs/10",
+    "prod_pct": "Productive%",
+    "apo": "Avg Preventing Opponents",
+    "ret_per_10": "Returns/10",
+    "prev_per_10": "Prevent/10",
+    "oa_per_10": "Outs Against/10",
+    "ga_per_10": "Grabs Against/10",
+    "out_pct_def": "Out%",
+    "apt": "Avg Preventing Teammates",
+    "tp_per_10": "TagPros/10",
+    "pup_percent": "Pup%",
+    "tags_per_10": "Tags/10",
+    "pops_per_10": "Pops/10",
+    "nrt_per_10": "Non-Return Tags/10",
+    "ndp_per_10": "Non-Drop Pops/10",
+}
+
+
+def format_stat_value(key, value):
+    """Format a stat for display, giving SCAR-based values a fixed number of decimals."""
+    if key in TWO_DECIMAL_STAT_KEYS:
+        return f"{value:.2f}" if value is not None else "0.00"
+    if key in ONE_DECIMAL_STAT_KEYS:
+        return f"{value:.1f}" if value is not None else "0.0"
+    return value
+
+
+def get_default_week(season):
+    """Default week filter for a season's stats: the regular season, unless it has none."""
+    return "all_season" if is_playoff_only_season(season) else "all_regular_season"
+
+
+def get_stat_view(req):
+    """The stat view selected in the request's query params, defaulting to Basic."""
+    stat_view = req.GET.get("view", "basic")
+    return stat_view if stat_view in STAT_COLUMNS else "basic"
+
+
+def build_scatter_point(stats, precise_stats, x_key, y_key, is_viewed):
+    """
+    One player's point on a scatter plot. It's placed using unrounded stats, since rounded
+    ones would line points up on a grid, but its tooltip shows the same values as the tables.
+    """
+    return {
+        "name": stats["playing_as"],
+        "x": precise_stats.get(x_key) or 0,
+        "y": precise_stats.get(y_key) or 0,
+        "x_display": str(format_stat_value(x_key, stats.get(x_key) or 0)),
+        "y_display": str(format_stat_value(y_key, stats.get(y_key) or 0)),
+        "is_viewed": is_viewed,
+    }
+
+
+def build_scatter_charts(stat_view, charted_stats, player_stats):
+    """Axis labels and points for each of a stat view's scatter plots."""
+    precise_stats = [calculate_precise_stats(stats) for stats in charted_stats]
+    return [
+        {
+            "x_label": CHART_AXIS_LABELS[x_key],
+            "y_label": CHART_AXIS_LABELS[y_key],
+            "points": [
+                build_scatter_point(stats, precise, x_key, y_key, stats is player_stats)
+                for stats, precise in zip(charted_stats, precise_stats)
+            ],
+        }
+        for y_key, x_key in STAT_VIEW_CHARTS[stat_view]
+    ]
+
+
+def build_player_season_stats(season, player_season, stat_view):
+    """
+    Compare a player's stats in a season against the rest of the league: their values and
+    ranks among qualified players for the stat view's columns, and the view's scatter plots.
+    Returns None if the player has no stats in the season's default week filter.
+    """
+    week = get_default_week(season)
+    all_stats = calculate_rate_stats(aggregate_player_stats(season=season, week=week))
+    player_stats = next(
+        (s for s in all_stats if s["player_season"].id == player_season.id), None
+    )
+    if player_stats is None:
+        return None
+
+    qualifying_minutes = get_qualifying_minutes(all_stats)
+    qualified_stats = [
+        s for s in all_stats if s["time_played_min"] >= qualifying_minutes
+    ]
+    is_qualified = player_stats["time_played_min"] >= qualifying_minutes
+    columns = STAT_COLUMNS[stat_view]
+    keys = [column["key"] for column in columns]
+    ranks = rank_stat_values(qualified_stats, player_stats, keys) if is_qualified else None
+    # Charts show every qualified player, plus the viewed player even if they don't qualify
+    charted_stats = qualified_stats if is_qualified else qualified_stats + [player_stats]
+
+    return {
+        "split_label": "Regular season" if week == "all_regular_season" else "Playoffs",
+        "columns": columns,
+        "values": [format_stat_value(key, player_stats.get(key, 0)) for key in keys],
+        "ranks": [ranks[key] for key in keys] if ranks else None,
+        "qualified_count": len(qualified_stats),
+        "qualifying_minutes": qualifying_minutes,
+        "charts": build_scatter_charts(stat_view, charted_stats, player_stats),
+    }
 
 
 def homepage(req):
@@ -619,6 +845,18 @@ def league_history_by_abbr(req, league_abbr):
     return league_history(req, league.id)
 
 
+def first_place_winner(season, award_type):
+    """The player who won an award in a season, or None if nobody did."""
+    if award_type is None:
+        return None
+    received = (
+        AwardReceived.objects.filter(season=season, award=award_type, placement=1)
+        .select_related("player")
+        .first()
+    )
+    return received.player if received else None
+
+
 def league_history(req, league_id):
     """View league's history showing all seasons with champions and runners-up."""
     league = get_object_or_404(League, id=league_id)
@@ -627,6 +865,9 @@ def league_history(req, league_id):
     seasons = Season.objects.filter(league=league).order_by(
         F("end_date").desc(nulls_last=True)
     )
+    mvb_award = AwardType.objects.filter(abbr="MVB").first()
+    obos_award = AwardType.objects.filter(abbr="OBOS").first()
+    dbos_award = AwardType.objects.filter(abbr="DBOS").first()
     season_history = []
     for season in seasons:
         # Count teams in this season
@@ -637,10 +878,9 @@ def league_history(req, league_id):
         runner_up = None
 
         # Look for the championship game/series (Super Ball, etc.)
-        final_names = ["Super Ball", "Muper Ball", "Nuper Ball", "Buper Ball"]
         championship_matches = (
             Match.objects.filter(
-                season=season, week__in=final_names, playoff_series__isnull=False
+                season=season, week__in=CHAMPIONSHIP_ROUNDS, playoff_series__isnull=False
             )
             .select_related("playoff_series", "team1", "team2")
             .first()
@@ -656,62 +896,15 @@ def league_history(req, league_id):
                 else:
                     runner_up = championship_matches.team1
 
-        # Get first place award winners for MVB, OBOS, DBOS
-        mvb_winner = None
-        obos_winner = None
-        dbos_winner = None
-
-        try:
-            mvb_award = AwardType.objects.get(abbr="MVB")
-            mvb_received = (
-                AwardReceived.objects.filter(
-                    season=season, award=mvb_award, placement=1
-                )
-                .select_related("player")
-                .first()
-            )
-            if mvb_received:
-                mvb_winner = mvb_received.player
-        except AwardType.DoesNotExist:
-            pass
-
-        try:
-            obos_award = AwardType.objects.get(abbr="OBOS")
-            obos_received = (
-                AwardReceived.objects.filter(
-                    season=season, award=obos_award, placement=1
-                )
-                .select_related("player")
-                .first()
-            )
-            if obos_received:
-                obos_winner = obos_received.player
-        except AwardType.DoesNotExist:
-            pass
-
-        try:
-            dbos_award = AwardType.objects.get(abbr="DBOS")
-            dbos_received = (
-                AwardReceived.objects.filter(
-                    season=season, award=dbos_award, placement=1
-                )
-                .select_related("player")
-                .first()
-            )
-            if dbos_received:
-                dbos_winner = dbos_received.player
-        except AwardType.DoesNotExist:
-            pass
-
         season_history.append(
             {
                 "season": season,
                 "team_count": team_count,
                 "champion": champion,
                 "runner_up": runner_up,
-                "mvb_winner": mvb_winner,
-                "obos_winner": obos_winner,
-                "dbos_winner": dbos_winner,
+                "mvb_winner": first_place_winner(season, mvb_award),
+                "obos_winner": first_place_winner(season, obos_award),
+                "dbos_winner": first_place_winner(season, dbos_award),
             }
         )
 
@@ -721,6 +914,9 @@ def league_history(req, league_id):
         {
             "league": league,
             "season_history": season_history,
+            "mvb_award": mvb_award,
+            "obos_award": obos_award,
+            "dbos_award": dbos_award,
         },
     )
 
@@ -746,15 +942,6 @@ def season_home(req, season_id):
     # Build playoff bracket if playoffs exist
     bracket_layout = build_playoff_bracket(season)
 
-    # Check if this is a playoff-only season (has playoffs but no regular season)
-    playoff_matches = Match.objects.filter(
-        season=season, playoff_series__isnull=False
-    ).exists()
-    regular_season_matches = Match.objects.filter(
-        season=season, playoff_series__isnull=True
-    ).exists()
-    is_playoff_only = playoff_matches and not regular_season_matches
-
     return render(
         req,
         "reference/season_home.html",
@@ -763,7 +950,7 @@ def season_home(req, season_id):
             "league_seasons": league_seasons,
             "standings": standings,
             "bracket": bracket_layout,
-            "is_playoff_only": is_playoff_only,
+            "is_playoff_only": is_playoff_only_season(season),
         },
     )
 
@@ -846,22 +1033,9 @@ def season_stats(req, season_id):
         F("end_date").desc(nulls_last=True)
     )
 
-    # Check if this is a playoff-only season (has playoffs but no regular season)
-    playoff_matches = Match.objects.filter(
-        season=season, playoff_series__isnull=False
-    ).exists()
-    regular_season_matches = Match.objects.filter(
-        season=season, playoff_series__isnull=True
-    ).exists()
-    is_playoff_only = playoff_matches and not regular_season_matches
-
     # Get week filter and stat view from query params
-    # Default to 'all_season' for playoff-only seasons, otherwise 'all_regular_season'
-    default_week = "all_season" if is_playoff_only else "all_regular_season"
-    week_filter = req.GET.get("week", default_week)
-    stat_view = req.GET.get("view", "basic")
-    if stat_view not in STAT_COLUMNS:
-        stat_view = "basic"
+    week_filter = req.GET.get("week", get_default_week(season))
+    stat_view = get_stat_view(req)
 
     week_options = build_week_options(season)
 
@@ -886,12 +1060,7 @@ def season_stats(req, season_id):
 
         for column in STAT_COLUMNS[stat_view]:
             value = player_stat.get(column["key"], 0)
-            # Format float values
-            if column["key"] in ["oeff", "deff", "teff"]:
-                value = f"{value:.2f}" if value is not None else "0.00"
-            elif column["key"] in ["oscar", "dscar", "tscar", "ba_pm"]:
-                value = f"{value:.1f}" if value is not None else "0.0"
-            stat_row["column_values"].append(value)
+            stat_row["column_values"].append(format_stat_value(column["key"], value))
 
         template_stats.append(stat_row)
 
@@ -965,8 +1134,6 @@ def season_awards_by_name(req, season_name):
 
 def season_awards(req, season_id):
     """View season awards with recipients."""
-    from reference.models import AwardReceived, AwardType
-
     season = get_object_or_404(Season, id=season_id)
 
     # Get all seasons from the same league for dropdown
@@ -1003,6 +1170,16 @@ def season_awards(req, season_id):
     )
 
 
+def filter_to_league(queryset, league):
+    """
+    Restricts a queryset of season-linked objects to one league, or to CTF
+    leagues if no league is selected.
+    """
+    if league:
+        return queryset.filter(season__league=league)
+    return queryset.filter(season__league__gamemode="CTF")
+
+
 def player_history(req, player_name):
     """View player's career history across all seasons."""
     player = get_object_or_404(Player, name=player_name)
@@ -1027,19 +1204,22 @@ def player_history(req, player_name):
         player=player, league=selected_league, week="all_regular_season"
     )
 
-    # Get awards for this player
-    from reference.models import AwardReceived
-
-    awards_query = AwardReceived.objects.filter(player=player).select_related(
-        "season__league", "award"
+    championships = filter_to_league(
+        PlayerSeason.objects.filter(
+            player=player, team__playoff_finish__in=CHAMPIONSHIP_FINISHES
+        ).select_related("season__league", "team"),
+        selected_league,
+    ).order_by(
+        "season__league__ordering",
+        F("season__end_date").desc(nulls_last=True),
     )
 
-    # Apply league filter to awards
-    if selected_league:
-        awards_query = awards_query.filter(season__league=selected_league)
-    else:
-        # Filter to CTF leagues only
-        awards_query = awards_query.filter(season__league__gamemode="CTF")
+    awards_query = filter_to_league(
+        AwardReceived.objects.filter(player=player).select_related(
+            "season__league", "award"
+        ),
+        selected_league,
+    )
 
     # Order awards by season.league.ordering, award.ordering, season.end_date
     awards = awards_query.order_by(
@@ -1056,7 +1236,86 @@ def player_history(req, player_name):
             "history_data": history_data,
             "leagues": all_leagues,
             "current_league": league_filter,
+            "championships": championships,
             "awards": awards,
+        },
+    )
+
+
+def player_season(req, player_name, season_name):
+    """View a player's stats, awards, and gamelogs for a single season."""
+    player = get_object_or_404(Player, name=player_name)
+    # Convert dashes back to spaces
+    season = get_object_or_404(Season, name=season_name.replace("-", " "))
+    player_season = (
+        PlayerSeason.objects.filter(player=player, season=season)
+        .select_related("team__franchise")
+        .first()
+    )
+    awards = list(
+        AwardReceived.objects.filter(player=player, season=season)
+        .select_related("award")
+        .order_by("award__ordering", "placement")
+    )
+    # Players can receive awards in seasons they didn't play in (e.g. unaffiliated awards),
+    # so a page exists as long as the player either played or placed for an award.
+    if player_season is None and not awards:
+        raise Http404("Player did not take part in this season")
+
+    team = player_season.team if player_season else None
+    team_record = get_team_standings(team)["record"] if team else None
+
+    stat_view = get_stat_view(req)
+    stat_comparison = (
+        build_player_season_stats(season, player_season, stat_view)
+        if player_season
+        else None
+    )
+
+    gamelog_columns = GAMELOG_COLUMNS[stat_view]
+    gamelogs = get_player_gamelogs(player_season) if player_season else []
+    for row in gamelogs:
+        row["column_values"] = (
+            [
+                format_stat_value(column["key"], row["stats"].get(column["key"], 0))
+                for column in gamelog_columns
+            ]
+            if row["stats"]
+            else None
+        )
+
+    other_player_seasons = (
+        PlayerSeason.objects.filter(player=player)
+        .select_related("season")
+        .order_by(F("season__end_date").desc(nulls_last=True))
+    )
+    season_player_seasons = (
+        PlayerSeason.objects.filter(season=season)
+        .select_related("player")
+        .order_by(Lower("playing_as"))
+    )
+
+    return render(
+        req,
+        "reference/player_season.html",
+        {
+            "player": player,
+            "season": season,
+            "player_season": player_season,
+            "display_name": player_season.playing_as if player_season else player.name,
+            "other_player_seasons": other_player_seasons,
+            "season_player_seasons": season_player_seasons,
+            "team": team,
+            "team_record": team_record,
+            "awards": awards,
+            "stat_view_options": STAT_VIEW_OPTIONS,
+            "current_stat_view": stat_view,
+            "stat_comparison": stat_comparison,
+            "gamelogs": gamelogs,
+            "gamelog_columns": gamelog_columns,
+            "has_non_regulation_games": any(
+                row["game"].non_regulation for row in gamelogs
+            ),
         },
     )
 
@@ -1387,11 +1646,16 @@ def career_leaders(req):
 
     # Ball of Fame recipients (MLTP only, 1st place) — map player_id to season name
     bof_seasons = {}
+    bof_icon = None
     for ar in AwardReceived.objects.filter(
         award__name__icontains="Ball of Fame",
         season__league__abbr="MLTP",
-    ).select_related("season"):
+    ).select_related("season", "award"):
         bof_seasons.setdefault(ar.player_id, []).append(ar.season.name)
+        bof_icon = award_icon_path(ar.award.icon, "MLTP", 1)
+
+    mvb_award = AwardType.objects.filter(abbr="MVB").first()
+    mvb_icon = mvb_award.icon if mvb_award else None
 
     # Attach computed data to each top-100 entry
     for i, entry in enumerate(top_100):
@@ -1399,12 +1663,17 @@ def career_leaders(req):
         entry["rank"] = i + 1
         entry["seasons_mltp"] = mltp_counts.get(pid, 0)
         g, s, b = mvb_map[pid]
-        entry["mvb_display"] = "🥇" * g + "🥈" * s + "🥉" * b or "—"
+        entry["mvb_icons"] = [
+            award_icon_path(mvb_icon, "MLTP", placement)
+            for placement, count in ((1, g), (2, s), (3, b))
+            for _ in range(count)
+        ]
         entry["mvb_sort"] = g
         entry["allstar"] = allstar_map.get(pid, 0)
         entry["sb_w"] = sb_w_map.get(pid, 0)
         entry["sb_l"] = sb_l_map.get(pid, 0)
         entry["bof"] = ", ".join(bof_seasons[pid]) if pid in bof_seasons else ""
+        entry["bof_icon"] = bof_icon
 
     # Players with ≥1 MLTP season for the dropdown (alphabetical, including those with no legacy points)
     all_mltp_players = (

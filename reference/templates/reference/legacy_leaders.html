@@ -60,7 +60,12 @@
                         {% endif %}
                     </td>
                     <td>{{ ps.team.seed|default:"—" }}</td>
-                    <td>{{ ps.team.playoff_finish|default:"—" }}</td>
+                    <td>
+                        {% if ps.team.playoff_finish|is_championship %}
+                            <img src="{% trophy_icon_url ps.season.league %}" alt="{{ ps.season.league.abbr }} championship" class="award-icon-inline">
+                        {% endif %}
+                        {{ ps.team.playoff_finish|default:"—" }}
+                    </td>
                     <td>{{ ps.draft_tc }}</td>
                     <td>{{ ps.rs_tscar|floatformat:1 }}</td>
                     <td>{{ ps.po_tscar|floatformat:1 }}</td>

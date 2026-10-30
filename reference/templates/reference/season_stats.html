@@ -80,7 +80,7 @@
                 {% for player_stat in player_stats %}
                 <tr>
                     <td class="team-name">
-                        <a href="{% url 'player_history' player_stat.player.name %}">
+                        <a href="{% player_season_url player_stat.player season %}">
                             {{ player_stat.playing_as }}
                         </a>
                     </td>

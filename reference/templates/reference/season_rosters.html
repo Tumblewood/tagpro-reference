@@ -74,7 +74,7 @@
                     {% for player_season in roster_data.players %}
                     <tr>
                         <td class="player-name">
-                            <a href="{% url 'player_history' player_season.player.name %}">
+                            <a href="{% player_season_url player_season.player season %}">
                                 {{ player_season.playing_as }}
                             </a>
                         </td>

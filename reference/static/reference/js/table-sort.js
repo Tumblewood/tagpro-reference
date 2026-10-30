@@ -72,6 +72,11 @@ class TableSorter {
         
         // Update sort indicators
         this.updateSortIndicators(columnIndex);
+
+        // Let pages react to a sort, e.g. to hide styling that depends on the original order
+        this.table.dispatchEvent(new CustomEvent('tablesort', {
+            detail: { column: columnIndex, direction: this.currentSort.direction },
+        }));
     }
     
     getCellValue(cell, dataType) {

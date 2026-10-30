@@ -32,7 +32,11 @@
     </div>
     
     <div class="page-info-secondary">
-        Rank: {{ rank }} | Playoff Finish: {{ playoff_finish }} | Record: {{ record }} | 
+        Rank: {{ rank }} | Playoff Finish:
+        {% if playoff_finish|is_championship %}
+            <img src="{% trophy_icon_url season.league %}" alt="{{ season.league.abbr }} championship" class="award-icon-inline">
+        {% endif %}
+        {{ playoff_finish }} | Record: {{ record }} |
         Captain: 
         {% if team.captain %}
             <a href="{% url 'player_history' team.captain.name %}" style="color: #07b; text-decoration: none;">
@@ -64,7 +68,7 @@
                 {% for player_season in players %}
                 <tr>
                     <td class="player-name">
-                        <a href="{% url 'player_history' player_season.player.name %}">
+                        <a href="{% player_season_url player_season.player season %}">
                             {{ player_season.playing_as }}
                         </a>
                     </td>
@@ -106,7 +110,7 @@
                 {% for stat in team_stats %}
                 <tr>
                     <td class="team-name">
-                        <a href="{% url 'player_history' stat.player.name %}">
+                        <a href="{% player_season_url stat.player season %}">
                             {{ stat.playing_as }}
                         </a>
                     </td>

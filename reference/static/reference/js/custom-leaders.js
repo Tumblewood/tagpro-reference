@@ -476,8 +476,10 @@ function computeScar(prepared, payload, weights, settings) {
 /* ------------------------------------------------------------------ rendering */
 
 function playerUrl(playerName) {
-    // The player route uses a <path:> converter, so slashes must survive encoding.
-    return "/player/" + encodeURIComponent(playerName).replace(/%2F/g, "/");
+    // Mirrors PlayerNameConverter.to_url: "%" and "/" are escaped before the whole name is
+    // percent-encoded, so slashes in a name survive the server decoding the path once.
+    const escapedName = playerName.replace(/%/g, "%25").replace(/\//g, "%2F");
+    return "/player/" + encodeURIComponent(escapedName);
 }
 
 function renderLeaderboard(entries, payload, settings, tscarRanks) {

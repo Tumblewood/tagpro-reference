@@ -1,5 +1,8 @@
-from django.urls import path
+from django.urls import path, register_converter
 from . import views
+from .converters import PlayerNameConverter
+
+register_converter(PlayerNameConverter, "player")
 
 urlpatterns = [
     path("", views.homepage, name="homepage"),
@@ -62,7 +65,12 @@ urlpatterns = [
     ),
     path("leaders/legacy/", views.legacy_leaders, name="legacy_leaders"),
     path("leaders/career/", views.career_leaders, name="career_leaders"),
-    path("player/<path:player_name>", views.player_history, name="player_history"),
+    path("player/<player:player_name>", views.player_history, name="player_history"),
+    path(
+        "player/<player:player_name>/<str:season_name>",
+        views.player_season,
+        name="player_season",
+    ),
     path("team/<int:team_id>/", views.team_season, name="team_season"),
     path(
         "franchise/<int:franchise_id>/",

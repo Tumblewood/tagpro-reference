@@ -92,6 +92,10 @@ PLAYOFF_ORDER = {
     "Grand Final": "ZZZZ9",
 }
 
+# Playoff rounds that decide a season's champion, and the TeamSeason.playoff_finish of their winners
+CHAMPIONSHIP_ROUNDS = ["Super Ball", "Muper Ball", "Nuper Ball", "Buper Ball", "Grand Final"]
+CHAMPIONSHIP_FINISHES = [f"Won {round_name}" for round_name in CHAMPIONSHIP_ROUNDS]
+
 TRAILING_NUMBER_PATTERN = re.compile(r"^(.*?)(\d+)\s*$")
 
 AGGREGATE_WEEK_OPTIONS = [
@@ -99,6 +103,16 @@ AGGREGATE_WEEK_OPTIONS = [
     {"value": "all_playoffs", "label": "All Playoffs"},
     {"value": "all_season", "label": "All RS + Playoffs"},
 ]
+
+# A game's outcome is stored from team1's perspective; this flips it to team2's.
+OPPONENT_OUTCOME = {"W": "L", "OTW": "OTL", "L": "W", "OTL": "OTW", "T": "T"}
+
+# To qualify for league-wide rankings and comparisons, a player needs this share of the most
+# minutes anyone played.
+QUALIFYING_MINUTES_SHARE = 0.3
+
+# Stats that only PlayerRegulationStats has, since SCAR is only calculated for regulation
+SCAR_FIELDS = ["oscar", "dscar", "tscar", "ba_time_played", "ba_pm"]
 
 
 def _week_sort_key(week_name: str):
@@ -129,6 +143,17 @@ def build_week_options(season: Season) -> List[Dict[str, str]]:
     return list(AGGREGATE_WEEK_OPTIONS) + [
         {"value": week, "label": week} for week in week_names
     ]
+
+
+def is_playoff_only_season(season: Season) -> bool:
+    """Whether a season has playoff matches but no regular season matches."""
+    playoff_matches = Match.objects.filter(
+        season=season, playoff_series__isnull=False
+    ).exists()
+    regular_season_matches = Match.objects.filter(
+        season=season, playoff_series__isnull=True
+    ).exists()
+    return playoff_matches and not regular_season_matches
 
 
 def get_superseded_gamelog_ids(stats_query) -> Set[int]:
@@ -276,35 +301,151 @@ def aggregate_player_stats(
             "player": player_season.player,
             "team": player_season.team,
             "playing_as": stat["player_gamelog__player_season__playing_as"],
+            # Unconverted totals, for recalculating stats at full precision
+            "raw_stats": {field: stat.get(field) for field in STAT_FIELDS},
         }
-
-        # Add all the stat fields, converting time fields to readable units
-        for field in STAT_FIELDS:
-            raw_value = stat.get(field) or 0
-
-            # Convert time fields to more usable units, otherwise use raw value
-            if field == "time_played":
-                stat_dict["time_played_min"] = (
-                    round(raw_value / 3600) if raw_value else 0
-                )
-            elif field == "hold":
-                stat_dict["hold_sec"] = round(raw_value / 60) if raw_value else 0
-            elif field == "prevent":
-                stat_dict["prevent_sec"] = round(raw_value / 60) if raw_value else 0
-            elif field == "hold_against":
-                stat_dict["hold_against_sec"] = (
-                    round(raw_value / 60) if raw_value else 0
-                )
-            else:
-                stat_dict[field] = raw_value
+        stat_dict.update(convert_stat_units(stat))
 
         result.append(stat_dict)
 
     return result
 
 
-def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
-    """Calculate rate stats and add them to player stats dictionaries."""
+def _keep_precision(value, digits=None):
+    """Stand-in for round() when calculating stats at full precision."""
+    return value
+
+
+def convert_stat_units(raw_stats: Dict, precise: bool = False) -> Dict:
+    """
+    Copy each of STAT_FIELDS out of raw_stats (treating missing or null values as 0),
+    converting tick-based times into the units shown on the site: minutes played, and
+    seconds of hold, prevent, and hold against. Times are rounded to whole units unless
+    precise is set.
+    """
+    round_value = _keep_precision if precise else round
+    converted = {}
+    for field in STAT_FIELDS:
+        raw_value = raw_stats.get(field) or 0
+        if field == "time_played":
+            converted["time_played_min"] = round_value(raw_value / 3600)
+        elif field == "hold":
+            converted["hold_sec"] = round_value(raw_value / 60)
+        elif field == "prevent":
+            converted["prevent_sec"] = round_value(raw_value / 60)
+        elif field == "hold_against":
+            converted["hold_against_sec"] = round_value(raw_value / 60)
+        else:
+            converted[field] = raw_value
+    return converted
+
+
+def calculate_precise_stats(player_stat: Dict) -> Dict:
+    """
+    Recalculate an aggregated player stat row (from aggregate_player_stats) with nothing
+    rounded, for uses like plotting where rounding would snap values onto a visible grid.
+    """
+    precise_stats = convert_stat_units(player_stat["raw_stats"], precise=True)
+    return calculate_rate_stats([precise_stats], precise=True)[0]
+
+
+def get_qualifying_minutes(all_stats: List[Dict]) -> int:
+    """Minimum minutes a player needs to qualify for league-wide rankings among all_stats."""
+    max_minutes = max((s["time_played_min"] for s in all_stats), default=0)
+    return round(max_minutes * QUALIFYING_MINUTES_SHARE)
+
+
+def rank_stat_values(
+    qualified_stats: List[Dict], target: Dict, keys: List[str]
+) -> Dict[str, int]:
+    """
+    Rank target's value for each stat key against qualified_stats, where the highest value
+    ranks 1st and tied values share a rank.
+    """
+    ranks = {}
+    for key in keys:
+        value = target.get(key) or 0
+        ranks[key] = 1 + sum(1 for s in qualified_stats if (s.get(key) or 0) > value)
+    return ranks
+
+
+def _get_gamelog_stat_values(gamelog: PlayerGameLog) -> Optional[Dict]:
+    """
+    A gamelog's full-game stats (including OT) in display units, with rate stats added.
+    SCAR is only calculated for regulation, so those fields come from its regulation stats.
+    Returns None if the gamelog has no stats recorded.
+    """
+    try:
+        full_stats = gamelog.stats
+    except PlayerStats.DoesNotExist:
+        return None
+    raw_stats = {
+        field: getattr(full_stats, field)
+        for field in STAT_FIELDS
+        if field not in SCAR_FIELDS
+    }
+    try:
+        regulation_stats = gamelog.regulation_stats
+        raw_stats.update(
+            {field: getattr(regulation_stats, field) for field in SCAR_FIELDS}
+        )
+    except PlayerRegulationStats.DoesNotExist:
+        pass
+    return calculate_rate_stats([convert_stat_units(raw_stats)])[0]
+
+
+def get_player_gamelogs(player_season: PlayerSeason) -> List[Dict]:
+    """
+    Build one row for each game a player appeared in during a season, in chronological
+    order, with the result from the perspective of the team they played for and their
+    stats. starts_new_match marks the first game of each match after the first.
+    """
+    gamelogs = (
+        PlayerGameLog.objects.filter(player_season=player_season)
+        .select_related(
+            "game__match__team1",
+            "game__match__team2",
+            "team",
+            "stats",
+            "regulation_stats",
+        )
+        .order_by("game__match__date", "game__match__id", "game__game_in_match")
+    )
+
+    rows = []
+    previous_match_id = None
+    for gamelog in gamelogs:
+        game = gamelog.game
+        match = game.match
+        is_team1 = gamelog.team_id == match.team1_id
+        team_score = game.team1_score if is_team1 else game.team2_score
+        opponent_score = game.team2_score if is_team1 else game.team1_score
+        rows.append(
+            {
+                "game": game,
+                "match": match,
+                "team": gamelog.team,
+                "opponent": match.team2 if is_team1 else match.team1,
+                "team_score": team_score,
+                "opponent_score": opponent_score,
+                "margin": team_score - opponent_score,
+                "outcome": game.outcome if is_team1 else OPPONENT_OUTCOME.get(game.outcome),
+                "stats": _get_gamelog_stat_values(gamelog),
+                "starts_new_match": (
+                    previous_match_id is not None and match.id != previous_match_id
+                ),
+            }
+        )
+        previous_match_id = match.id
+    return rows
+
+
+def calculate_rate_stats(player_stats: List[Dict], precise: bool = False) -> List[Dict]:
+    """
+    Calculate rate stats and add them to player stats dictionaries. They're rounded for
+    display unless precise is set.
+    """
+    round_value = _keep_precision if precise else round
     for player_stat in player_stats:
         minutes = player_stat["time_played_min"]
         grabs = player_stat["grabs"]
@@ -339,76 +480,90 @@ def calculate_rate_stats(player_stats: List[Dict]) -> List[Dict]:
         ba_time_played = player_stat.get("ba_time_played") or 0
 
         # Existing rate stats
-        player_stat["gpm"] = round(grabs / minutes, 2) if minutes > 0 else 0
-        player_stat["cpm"] = round(captures / minutes, 2) if minutes > 0 else 0
-        player_stat["hpm"] = round(hold_sec / minutes, 2) if minutes > 0 else 0
-        player_stat["tpm"] = round(tags / minutes, 2) if minutes > 0 else 0
-        player_stat["rpm"] = round(returns / minutes, 2) if minutes > 0 else 0
-        player_stat["ppm"] = round(prevent_sec / minutes, 2) if minutes > 0 else 0
-        player_stat["ham"] = round(hold_against_sec / minutes, 2) if minutes > 0 else 0
-        player_stat["hold_per_grab"] = round(hold_sec / grabs, 1) if grabs > 0 else 0
+        player_stat["gpm"] = round_value(grabs / minutes, 2) if minutes > 0 else 0
+        player_stat["cpm"] = round_value(captures / minutes, 2) if minutes > 0 else 0
+        player_stat["hpm"] = round_value(hold_sec / minutes, 2) if minutes > 0 else 0
+        player_stat["tpm"] = round_value(tags / minutes, 2) if minutes > 0 else 0
+        player_stat["rpm"] = round_value(returns / minutes, 2) if minutes > 0 else 0
+        player_stat["ppm"] = round_value(prevent_sec / minutes, 2) if minutes > 0 else 0
+        player_stat["ham"] = round_value(hold_against_sec / minutes, 2) if minutes > 0 else 0
+        player_stat["hold_per_grab"] = round_value(hold_sec / grabs, 1) if grabs > 0 else 0
         player_stat["score_percent"] = (
-            round((captures / grabs) * 100, 1) if grabs > 0 else 0
+            round_value((captures / grabs) * 100, 1) if grabs > 0 else 0
         )
         player_stat["chain_percent"] = (
-            round((good_handoffs / handoffs) * 100, 1) if handoffs > 0 else 0
+            round_value((good_handoffs / handoffs) * 100, 1) if handoffs > 0 else 0
         )
         player_stat["flaccid_percent"] = (
-            round((flaccids / grabs) * 100, 1) if grabs > 0 else 0
+            round_value((flaccids / grabs) * 100, 1) if grabs > 0 else 0
         )
         player_stat["spark_percent"] = (
-            round(((captures - caps_off_regrab) / captures) * 100, 1)
+            round_value(((captures - caps_off_regrab) / captures) * 100, 1)
             if captures > 0
             else 0
         )
         player_stat["prevent_per_return"] = (
-            round(prevent_sec / returns, 2) if returns > 0 else 0
+            round_value(prevent_sec / returns, 2) if returns > 0 else 0
         )
         player_stat["prevent_per_hold_against"] = (
-            round(prevent_sec / hold_against_sec, 2) if hold_against_sec > 0 else 0
+            round_value(prevent_sec / hold_against_sec, 2) if hold_against_sec > 0 else 0
         )
         player_stat["rib_percent"] = (
-            round((returns_in_base / returns) * 100, 1) if returns > 0 else 0
+            round_value((returns_in_base / returns) * 100, 1) if returns > 0 else 0
         )
         player_stat["qr_percent"] = (
-            round((quick_returns / returns) * 100, 1) if returns > 0 else 0
+            round_value((quick_returns / returns) * 100, 1) if returns > 0 else 0
         )
         player_stat["plus_minus"] = caps_for - caps_against
-        player_stat["kd_ratio"] = round(tags / pops, 2) if pops > 0 else 0
+        player_stat["kd_ratio"] = round_value(tags / pops, 2) if pops > 0 else 0
         player_stat["non_return_tags"] = tags - returns
         player_stat["non_drop_pops"] = pops - drops
         player_stat["pup_percent"] = (
-            round((powerups / total_pups_in_game) * 100, 1)
+            round_value((powerups / total_pups_in_game) * 100, 1)
             if total_pups_in_game > 0
             else 0
         )
 
         # New per-10 rate stats
-        player_stat["grabs_per_10"] = round(grabs / minutes * 10, 1) if minutes > 0 else 0
-        player_stat["caps_per_10"] = round(captures / minutes * 10, 1) if minutes > 0 else 0
-        player_stat["hold_per_10"] = round(hold_sec / minutes * 10) if minutes > 0 else 0
-        player_stat["ret_per_10"] = round(returns / minutes * 10, 1) if minutes > 0 else 0
-        player_stat["prev_per_10"] = round(prevent_sec / minutes * 10) if minutes > 0 else 0
-        player_stat["ha_per_10"] = round(hold_against_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["grabs_per_10"] = round_value(grabs / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["caps_per_10"] = round_value(captures / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["hold_per_10"] = round_value(hold_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["ret_per_10"] = round_value(returns / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["prev_per_10"] = round_value(prevent_sec / minutes * 10) if minutes > 0 else 0
+        player_stat["ha_per_10"] = round_value(hold_against_sec / minutes * 10) if minutes > 0 else 0
         player_stat["nrt_per_10"] = (
-            round((tags - returns) / minutes * 10, 1) if minutes > 0 else 0
+            round_value((tags - returns) / minutes * 10, 1) if minutes > 0 else 0
+        )
+        player_stat["ndp_per_10"] = (
+            round_value((pops - drops) / minutes * 10, 1) if minutes > 0 else 0
+        )
+        player_stat["tags_per_10"] = round_value(tags / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["pops_per_10"] = round_value(pops / minutes * 10, 1) if minutes > 0 else 0
+        player_stat["tp_per_10"] = (
+            round_value(player_stat["tp"] / minutes * 10, 2) if minutes > 0 else 0
+        )
+        player_stat["ga_per_10"] = (
+            round_value(grabs_against / minutes * 10, 1) if minutes > 0 else 0
+        )
+        player_stat["oa_per_10"] = (
+            round_value(outs_against / minutes * 10, 1) if minutes > 0 else 0
         )
 
         # New percentage stats
-        player_stat["out_pct_off"] = round(outs / grabs * 100, 1) if grabs > 0 else 0
-        player_stat["prod_pct"] = round(productive_grabs / grabs * 100, 1) if grabs > 0 else 0
-        player_stat["free_pct"] = round(grabs_off_regrab / grabs * 100, 1) if grabs > 0 else 0
-        player_stat["apo"] = round(preventing_opponents / grabs, 2) if grabs > 0 else 0
+        player_stat["out_pct_off"] = round_value(outs / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["prod_pct"] = round_value(productive_grabs / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["free_pct"] = round_value(grabs_off_regrab / grabs * 100, 1) if grabs > 0 else 0
+        player_stat["apo"] = round_value(preventing_opponents / grabs, 2) if grabs > 0 else 0
         player_stat["out_pct_def"] = (
-            round(outs_against / grabs_against * 100, 1) if grabs_against > 0 else 0
+            round_value(outs_against / grabs_against * 100, 1) if grabs_against > 0 else 0
         )
-        player_stat["p_oa"] = round(prevent_sec / outs_against, 1) if outs_against > 0 else 0
-        player_stat["apt"] = round(preventing_teammates / (prevent_sec * 60), 2) if prevent_sec > 0 else 0
+        player_stat["p_oa"] = round_value(prevent_sec / outs_against, 1) if outs_against > 0 else 0
+        player_stat["apt"] = round_value(preventing_teammates / (prevent_sec * 60), 2) if prevent_sec > 0 else 0
 
         # SCAR efficiency stats (per 10 blowout-adjusted minutes)
-        player_stat["oeff"] = round(oscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
-        player_stat["deff"] = round(dscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
-        player_stat["teff"] = round(tscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
+        player_stat["oeff"] = round_value(oscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
+        player_stat["deff"] = round_value(dscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
+        player_stat["teff"] = round_value(tscar / ba_time_played * 10, 2) if ba_time_played > 0 else 0
 
     return player_stats
 
@@ -645,8 +800,7 @@ def get_team_standings(team: TeamSeason) -> Dict[str, Union[TeamSeason, str, int
                 outcome = game.outcome
             else:
                 # Flip the outcome for team2
-                outcome_map = {"W": "L", "OTW": "OTL", "L": "W", "OTL": "OTW", "T": "T"}
-                outcome = outcome_map.get(game.outcome, game.outcome)
+                outcome = OPPONENT_OUTCOME.get(game.outcome, game.outcome)
 
             if outcome == "W":
                 wins += 1
@@ -705,8 +859,6 @@ def get_all_team_standings(season, teams) -> List[Dict]:
         match__week__startswith="Week",
     ).select_related("match__team1", "match__team2")
 
-    outcome_map = {"W": "L", "OTW": "OTL", "L": "W", "OTL": "OTW", "T": "T"}
-
     for game in games:
         team1 = game.match.team1
         team2 = game.match.team2
@@ -726,7 +878,7 @@ def get_all_team_standings(season, teams) -> List[Dict]:
                 team_score = game.team2_score
                 opp_score = game.team1_score
                 team_sp = game.team2_standing_points or 0
-                outcome = outcome_map.get(game.outcome, game.outcome) if game.outcome else None
+                outcome = OPPONENT_OUTCOME.get(game.outcome, game.outcome) if game.outcome else None
 
             s["standing_points"] += team_sp
 

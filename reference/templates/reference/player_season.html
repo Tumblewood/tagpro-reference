@@ -1,0 +1,237 @@
+{% extends "reference/base.html" %}
+{% load static %}
+{% load url_tags %}
+{% load humanize %}
+
+{% block title %}{{ display_name }} - {{ season.name }} - TagPro Reference{% endblock %}
+{% block og_title %}{{ display_name }} - {{ season.name }} - TagPro Reference{% endblock %}
+{% block og_description %}{{ season.name }} stats and gamelogs for {{ player.name }}.{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'reference/styles/season.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/table-sort.css' %}">
+<link rel="stylesheet" href="{% static 'reference/styles/player-season.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="page-title">
+        {% if team.franchise.logo %}
+            <img src="{% logo_url team.franchise.logo %}" alt="{{ team.abbr }}" class="team-logo">
+        {% endif %}
+        {{ display_name }} - {{ season.name }}
+    </h1>
+
+    {% if player_season %}
+    <div class="season-selector-container">
+        <div class="season-selector">
+            <label for="player-dropdown">Player: </label>
+            <select id="player-dropdown" onchange="changePlayerSeason(this.value)">
+                {% for teammate in season_player_seasons %}
+                    <option value="{% player_season_url teammate.player season %}" {% if teammate.id == player_season.id %}selected{% endif %}>
+                        {{ teammate.playing_as }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector">
+            <label for="player-season-dropdown">Season: </label>
+            <select id="player-season-dropdown" onchange="changePlayerSeason(this.value)">
+                {% for other in other_player_seasons %}
+                    <option value="{% player_season_url player other.season %}" {% if other.season.id == season.id %}selected{% endif %}>
+                        {{ other.season.name }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="season-selector">
+            <label for="view-dropdown">Stats: </label>
+            <select id="view-dropdown" onchange="changeView(this.value)">
+                {% for view_option in stat_view_options %}
+                    <option value="{{ view_option.value }}" {% if view_option.value == current_stat_view %}selected{% endif %}>
+                        {{ view_option.label }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="page-info-primary">
+        Player: <a href="{% url 'player_history' player.name %}">{{ player.name }}</a>
+        |
+        Season: <a href="{% season_url season 'home' %}">{{ season.name }}</a>
+        |
+        Team:
+        {% if team %}
+            <a href="{% url 'team_season' team.id %}">{{ team.name }}</a>
+        {% else %}
+            —
+        {% endif %}
+    </div>
+
+    {% if team %}
+    <div class="page-info-secondary">
+        Record: {{ team_record }} | Seed: {{ team.seed|default:"—" }} | Playoff Finish: {{ team.playoff_finish|default:"—" }}
+    </div>
+    {% endif %}
+
+    {% if awards or team.playoff_finish|is_championship %}
+    <div class="awards-container">
+        {% if team.playoff_finish|is_championship %}
+        <div class="award-item">
+            <img src="{% trophy_icon_url season.league %}" alt="{{ season.league.abbr }} championship" class="award-icon">
+            <span>Champion</span>
+        </div>
+        {% endif %}
+        {% for award_received in awards %}
+        <div class="award-item">
+            {% award_icon_url award_received.award season.league award_received.placement as icon_url %}
+            {% if icon_url %}
+            <img src="{{ icon_url }}" alt="{{ award_received.award.name }}" class="award-icon">
+            {% endif %}
+            <span>
+                {{ award_received.award.name }}{% if 'All-Star' not in award_received.award.name and award_received.placement %} - {{ award_received.placement|ordinal }}{% endif %}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <h2 class="section-header-first">Stats</h2>
+
+    {% if stat_comparison %}
+        <div class="scatter-charts" id="scatter-charts"></div>
+        {{ stat_comparison.charts|json_script:"scatter-chart-data" }}
+
+        <div class="stat-table-container static-table-container">
+            <table class="stat-table static-table">
+                <thead>
+                    <tr>
+                        <th class="team-name"></th>
+                        {% for column in stat_comparison.columns %}
+                            <th{% if column.tooltip %} title="{{ column.tooltip }}"{% endif %}>{{ column.label }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="{% if stat_comparison.ranks %}value-row{% endif %}">
+                        <td class="row-label">{{ stat_comparison.split_label }}</td>
+                        {% for value in stat_comparison.values %}
+                            <td>{{ value|default_if_none:"0" }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% if stat_comparison.ranks %}
+                    <tr class="rank-row">
+                        <td class="row-label">Rank</td>
+                        {% for rank in stat_comparison.ranks %}
+                            <td>{{ rank|ordinal }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="stats-footnote">
+            {% if stat_comparison.ranks %}
+                Ranks are out of {{ stat_comparison.qualified_count }} qualified players.
+            {% else %}
+                {{ stat_comparison.qualifying_minutes }} minutes required for inclusion in league-wide rankings.
+            {% endif %}
+        </div>
+    {% else %}
+        <div class="empty-section">No stats recorded for this season.</div>
+    {% endif %}
+
+    <h2 class="section-header">Gamelogs</h2>
+
+    {% if gamelogs %}
+    <div class="stat-table-container">
+        <table class="stat-table gamelog-table chronological" id="gamelog-table">
+            <thead>
+                <tr>
+                    <th class="team-name" data-sortable data-type="number">Week</th>
+                    <th class="team-name" data-sortable data-type="text">Team</th>
+                    <th class="team-name" data-sortable data-type="text">Opponent</th>
+                    <th class="team-name" data-sortable data-type="number" title="Sorts by cap margin">Result</th>
+                    {% for column in gamelog_columns %}
+                        <th data-sortable data-type="{{ column.type }}"{% if column.tooltip %} title="{{ column.tooltip }}"{% endif %}>{{ column.label }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in gamelogs %}
+                <tr class="{% if row.starts_new_match %}new-match{% endif %}">
+                    <td class="text-cell week-cell" data-sort-value="{{ forloop.counter }}">
+                        <a href="{% url 'match_view' row.match.id %}">{{ row.match.week }}</a>
+                    </td>
+                    <td class="text-cell">
+                        <a href="{% url 'team_season' row.team.id %}" title="{{ row.team.name }}">{{ row.team.abbr }}</a>
+                    </td>
+                    <td class="text-cell">
+                        <a href="{% url 'team_season' row.opponent.id %}" title="{{ row.opponent.name }}">{{ row.opponent.abbr }}</a>
+                    </td>
+                    <td class="text-cell" data-sort-value="{{ row.margin }}">
+                        <a href="{% url 'match_view' row.match.id %}?game={{ row.game.game_in_match|urlencode }}" title="{{ row.game.game_in_match }}">{% if row.outcome %}{{ row.outcome }}, {% endif %}{{ row.team_score }}-{{ row.opponent_score }}</a>{% if row.game.non_regulation %} †{% endif %}
+                    </td>
+                    {% if row.column_values %}
+                        {% for value in row.column_values %}
+                            <td>{{ value|default_if_none:"0" }}</td>
+                        {% endfor %}
+                    {% else %}
+                        {% for column in gamelog_columns %}
+                            <td>—</td>
+                        {% endfor %}
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% if has_non_regulation_games %}
+        <div class="stats-footnote">† Home map game; not counted toward season totals.</div>
+    {% endif %}
+    {% else %}
+        <div class="empty-section">No games recorded for this season.</div>
+    {% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script src="{% static 'reference/js/scatter-plot.js' %}"></script>
+<script src="{% static 'reference/js/table-sort.js' %}"></script>
+<script>
+    function changePlayerSeason(playerSeasonUrl) {
+        // Keep the selected stat view when switching players or seasons
+        window.location.href = playerSeasonUrl + window.location.search;
+    }
+
+    function changeView(viewValue) {
+        const url = new URL(window.location);
+        if (viewValue === "basic") {
+            url.searchParams.delete("view");
+        } else {
+            url.searchParams.set("view", viewValue);
+        }
+        window.location.href = url.toString();
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const dataElement = document.getElementById("scatter-chart-data");
+        if (dataElement) {
+            renderScatterCharts(document.getElementById("scatter-charts"), JSON.parse(dataElement.textContent));
+        }
+
+        const gamelogTable = document.getElementById("gamelog-table");
+        if (gamelogTable) {
+            initTableSort("#gamelog-table");
+            // Lines between matches only make sense while games are in chronological order
+            gamelogTable.addEventListener("tablesort", function(event) {
+                const isChronological = event.detail.column === 0 && event.detail.direction === "asc";
+                gamelogTable.classList.toggle("chronological", isChronological);
+            });
+        }
+    });
+</script>
+{% endblock %}

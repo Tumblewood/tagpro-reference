@@ -202,10 +202,10 @@
                 <tr>
                     <td>{{ entry.rank }}</td>
                     <td class="team-name">
-                        <a href="{% url 'player_history' entry.name %}">{{ entry.name }}</a>{% if entry.bof %}<span style="margin-left: 0.4rem" title="Ball of Fame – inducted {{ entry.bof }}">👑</span>{% endif %}
+                        <a href="{% url 'player_history' entry.name %}">{{ entry.name }}</a>{% if entry.bof %}<img src="{% logo_url entry.bof_icon %}" alt="Ball of Fame" title="Ball of Fame – inducted {{ entry.bof }}" class="award-icon-inline" style="margin-left: 0.4rem">{% endif %}
                     </td>
                     <td>{{ entry.seasons_mltp }}</td>
-                    <td class="mvb-cell" data-sort-value="{{ entry.mvb_sort }}">{{ entry.mvb_display }}</td>
+                    <td class="mvb-cell" data-sort-value="{{ entry.mvb_sort }}">{% for icon in entry.mvb_icons %}<img src="{% logo_url icon %}" alt="" class="award-icon-inline">{% empty %}—{% endfor %}</td>
                     <td>{% if entry.allstar %}{{ entry.allstar }}{% else %}—{% endif %}</td>
                     <td data-sort-value="{{ entry.sb_w }}">
                         {% if entry.sb_w or entry.sb_l %}
